@@ -2,9 +2,9 @@
 
 | Student's name | SCIPER |
 | -------------- | ------ |
-| | |
-| | |
-| | |
+| Konstantinos Spinakis | 302243 |
+| Alexandre Ben Ahmed Kontouli | 296351 |
+| Aristotelis Dimitriou| 296253 |
 
 [Milestone 1](#milestone-1) • [Milestone 2](#milestone-2) • [Milestone 3](#milestone-3)
 
