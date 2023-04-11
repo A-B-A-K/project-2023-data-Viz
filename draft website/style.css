@@ -12,16 +12,21 @@ header {
     background-color: #E5A732;
     height: 60px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    padding-left: 20%;
 }
 
 .logo {
-    height: 40px;
+    height: 100%; /* Changed from 40px to 100% so that the .logo container takes up the full height of the header */
 }
 
 .logo img {
     max-width: 100%;
+    max-height: 100%; /* Ensures the image doesn't exceed the .logo container dimensions */
+    height: 96%; /* Adjust this value to change the size of the logo image */
+    border: 1px solid #E5A732;
+    border-radius: 5px;
 }
 
 /* Map Styles */
@@ -31,25 +36,44 @@ header {
     justify-content: center;
     align-items: center;
     margin-top: 30px;
+    width: 80%;
+    padding-bottom: 45%; /* 9/16 * 100% = 56.25% for a 16:9 aspect ratio; adjust this value based on your desired aspect ratio */
+    border: 3px solid #3C3C3C;
+    border-radius: 15px;
+    background-color: #e1d9d9;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 }
 
-.map {
+.outer-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .map {
     width: 80%;
-    aspect-ratio: 16 / 9;
+    padding-bottom: 45%; /* 9/16 * 100% = 56.25% for a 16:9 aspect ratio; adjust this value based on your desired aspect ratio */
     border: 3px solid #E5A732;
     border-radius: 15px;
     background-color: #F9F9F9;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
     position: relative;
     overflow: hidden;
-}
-
-.button-container {
-    margin-top: 10px;
+  }
+  
+  .button-container {
+    margin-top: 27px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 20px;
+  }
+  
+
+/* Add this block for the press animation */
+
+
 
 button {
     background-color: #FFC400;
@@ -61,7 +85,8 @@ button {
     padding: 10px 15px;
     margin: 5px;
     cursor: pointer;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.1s ease-in-out; /* Change the duration from 0.2s to 0.1s to make the animation faster */
+    transform: scale(1);
 }
 
 button:hover {
@@ -69,6 +94,12 @@ button:hover {
     color: #FFFFFF;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
+
+button:active {
+    transform: scale(0.95); /* Scale down the button size when pressed */
+  }
+
+
 
 #switch-button {
     background-color: #FF5733;
