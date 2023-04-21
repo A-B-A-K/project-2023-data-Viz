@@ -57,28 +57,23 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
     //We want to create a function that will make it so that when the user has scrolled passed a threshold the buttons start to follow him
-    window.onscroll = function() {myFunction()};
-    var navbar = document.getElementById("navbar");
-    var sticky = navbar.offsetTop-100000;
 
-    function myFunction() {
-        if (window.pageYOffset >= sticky) {
-            navbar.classList.add("sticky");
-            button1.classList.add("sticky");
-            button2.classList.add("sticky");
-            button3.classList.add("sticky");
-            button4.classList.add("sticky");
-            button5.classList.add("sticky");
-        } else {
-            navbar.classList.remove("sticky");
-            button1.classList.remove("sticky");
-            button2.classList.remove("sticky");
-            button3.classList.remove("sticky");
-            button4.classList.remove("sticky");
-            button5.classList.remove("sticky");
-        }
-    }
+    var buttonContainer = document.querySelector('.button-container');
+var originalPosition = buttonContainer.offsetTop;
 
+window.addEventListener('scroll', function() {
+  var currentPosition = window.pageYOffset || document.documentElement.scrollTop;
+
+  if (currentPosition > originalPosition) {
+    buttonContainer.classList.add('sticky');
+  } else {
+    buttonContainer.classList.remove('sticky');
+  }
+
+  if (currentPosition <= originalPosition) {
+    buttonContainer.classList.remove('sticky');
+  }
+});
 
 
 });
