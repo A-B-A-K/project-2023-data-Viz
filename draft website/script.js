@@ -15,65 +15,87 @@ document.addEventListener("DOMContentLoaded", function() {
     // Add click event listeners to the five buttons
     button1.addEventListener("click", function() {
         // Change the graph display to show statistics related to button 1
-        const graph = document.querySelector("#graph");
-        graph.classList.remove("fade-in");
-        graph.textContent = "Graph for Button 1";
-        graph.classList.add("fade-in");
+        updateGraph(1);
     });
     
     button2.addEventListener("click", function() {
         // Change the graph display to show statistics related to button 2
-        const graph = document.querySelector("#graph");
-        graph.classList.remove("fade-in");
-        graph.textContent = "Graph for Button 2";
-        graph.classList.add("fade-in");
+        updateGraph(2);
     });
     
     button3.addEventListener("click", function() {
         // Change the graph display to show statistics related to button 3
-        const graph = document.querySelector("#graph");
-        graph.classList.remove("fade-in");
-        graph.textContent = "Graph for Button 3";
-        graph.classList.add("fade-in");
+        updateGraph(3);
     });
     
     button4.addEventListener("click", function() {
         // Change the graph display to show statistics related to button 4
-        const graph = document.querySelector("#graph");
-        graph.classList.remove("fade-in");
-        graph.textContent = "Graph for Button 4";
-        graph.classList.add("fade-in");
+        updateGraph(4);
     });
     
     button5.addEventListener("click", function() {
         // Change the graph display to show statistics related to button 5
-        const graph = document.querySelector("#graph");
-        graph.classList.remove("fade-in");
-        graph.textContent = "Graph for Button 5";
-        graph.classList.add("fade-in");
+        updateGraph(5);
     });
 
     //We want to create a function that will make it so that when the user has scrolled passed a threshold the buttons start to follow him
 
-
-    //We want to create a function that will make it so that when the user has scrolled passed a threshold the buttons start to follow him
-
     var buttonContainer = document.querySelector('.button-container');
-var originalPosition = buttonContainer.offsetTop;
+    var originalPosition = buttonContainer.offsetTop;
 
-window.addEventListener('scroll', function() {
-  var currentPosition = window.pageYOffset || document.documentElement.scrollTop;
+    window.addEventListener('scroll', function() {
+    var currentPosition = window.pageYOffset || document.documentElement.scrollTop;
 
-  if (currentPosition > originalPosition) {
-    buttonContainer.classList.add('sticky');
-  } else {
-    buttonContainer.classList.remove('sticky');
-  }
+    if (currentPosition > originalPosition) {
+        buttonContainer.classList.add('sticky');
+    } else {
+        buttonContainer.classList.remove('sticky');
+    }
 
-  if (currentPosition <= originalPosition) {
-    buttonContainer.classList.remove('sticky');
-  }
+    if (currentPosition <= originalPosition) {
+        buttonContainer.classList.remove('sticky');
+    }
+    });
+
+    window.addEventListener('scroll', function() {
+    var currentPosition = window.pageYOffset || document.documentElement.scrollTop;
+
+    if (currentPosition > originalPosition) {
+        buttonContainer.classList.add('sticky-top');
+    } else {
+        buttonContainer.classList.remove('sticky-top');
+    }
 });
+
+
+    function updateGraph(buttonNumber) {
+        const graph = document.querySelector("#graph");
+        graph.classList.remove("fade-in");
+        graph.textContent = `Graph for Button ${buttonNumber}`;
+        graph.classList.add("fade-in");
+
+        const textContainer = document.querySelector(".text-container");
+        switch (buttonNumber) {
+            case 1:
+                textContainer.innerHTML = "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sollicitudin tortor sed ultrices ullamcorper. Nulla ultricies enim a quam tempus auctor.</p>";
+                break;
+            case 2:
+                textContainer.innerHTML = "<p>Ut suscipit, enim vitae maximus semper, turpis quam volutpat enim, id aliquet odio eros eget ante. Fusce finibus gravida sem, vitae hendrerit nulla iaculis a.</p>";
+                break;
+            case 3:
+                textContainer.innerHTML = "<p>Nullam sagittis elit eget purus facilisis, id dictum justo auctor. Duis auctor dapibus bibendum. Curabitur blandit magna eu urna blandit, sit amet euismod mauris gravida. </p>";
+                break;
+            case 4:
+                textContainer.innerHTML = "<p>Sed vel enim mauris. Duis in leo in erat varius elementum. Vestibulum congue ipsum sapien, vel lacinia leo dapibus a.</p>";
+                break;
+            case 5:
+                textContainer.innerHTML = "<p>Phasellus aliquet augue eget nibh pulvinar bibendum. Etiam finibus risus eu leo elementum suscipit. Donec rutrum elit eget faucibus placerat.</p>";
+                break;
+            default:
+                textContainer.innerHTML = "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sollicitudin tortor sed ultrices ullamcorper. Nulla ultricies enim a quam tempus auctor.</p>";
+        }
+    }
+
 
 
 });

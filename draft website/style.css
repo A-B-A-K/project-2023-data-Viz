@@ -81,6 +81,7 @@ header {
     margin-left: 5px;
     position: absolute;
     margin-right: 20px;
+    z-index: 10;
   }
   
   .button-container.sticky {
@@ -161,8 +162,23 @@ button {
     animation: fade-in 0.8s ease-in-out;
 }
 
-
-.sticky {
+/* This block is redundant since we've already defined the 
+.button-container.sticky class with the same properties. You can remove this block. */
+/* .sticky {               
     position: fixed;
     top: 0;
+  } */
+
+  /* Avoid unwanted scrolling behavior on some devices */
+
+  .button-container.sticky-top {
+      position: fixed;
+      top: 70px;
+      /* 60px (header height) + 10px (extra spacing) */
+      left: 20px;
+      margin-top: 0;
+  }
+
+  * {
+      box-sizing: border-box;
   }
