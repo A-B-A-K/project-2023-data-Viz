@@ -12,24 +12,24 @@
         </div>
     </header>
     <main>
-        <div class = "outer-container">
-            <div class="button-container">
+        <div class="outer-container" style="display: grid; grid-template-columns: 1fr 6fr; grid-gap: 20px;">
+            <div class="button-container" style="max-width: 200px;">
                 <button id="button-1">Button 1</button>
                 <button id="button-2">Button 2</button>
                 <button id="button-3">Button 3</button>
                 <button id="button-4">Button 4</button>
                 <button id="button-5">Button 5</button>
             </div>
-            <div class="map-container">
+            <div class="map-container" style="grid-column: 2;">
                 <div class="map"></div>
-                
                 <div class="graph-container">
                     <canvas id="graph"></canvas>
                 </div>
             </div>
-            
         </div>
+        
     </main>
+    
     <script src="script.js"></script>
 </body>
 </html>
