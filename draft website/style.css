@@ -64,10 +64,13 @@ header {
   .button-container {
     margin-top: 27px;
     display: flex;
+    top: 27px;
+    left: 20px;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     margin-left: 20px;
+    position: fixed;
   }
   
 
@@ -131,3 +134,9 @@ button:active {
 .fade-in {
     animation: fade-in 0.8s ease-in-out;
 }
+
+
+.sticky {
+    position: fixed;
+    top: 0;
+  }
