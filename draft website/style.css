@@ -9,12 +9,13 @@ html, body {
 
 /* Header Styles */
 header {
-    background-color: #E5A732;
+    background-color: #F9F9F9;
     height: 60px;
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding-left: 20%;
+    justify-content: center;
+    text-align: center;
+    font-family: "apercu",sans-serif;
+    padding-left: 0;
 }
 
 .logo {
@@ -25,16 +26,20 @@ header {
     max-width: 100%;
     max-height: 100%; /* Ensures the image doesn't exceed the .logo container dimensions */
     height: 96%; /* Adjust this value to change the size of the logo image */
-    border: 1px solid #E5A732;
+    border: 1px solid #F9F9F9;
     border-radius: 5px;
 }
 
 /* Map Styles */
+
 .map-container {
     display: flex;
     flex-direction: column;
     /*justify-content: center;*/
     align-items: center;
+    max-width: 100%;
+    min-width: 0;
+    width:auto;
     margin-top: 30px;
     width: 80%;
     padding-bottom: 45%; /* 9/16 * 100% = 56.25% for a 16:9 aspect ratio; adjust this value based on your desired aspect ratio */
@@ -44,6 +49,7 @@ header {
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
     position: relative;
 }
+
 
 .outer-container {
     display: flex;
@@ -87,32 +93,42 @@ header {
 
 /* Add this block for the press animation */
 
+@media screen and (max-width: 768px) {
+    .outer-container {
+        display: block;
+    }
+    .map-container, .button-container {
+        width: 100%;
+    }
+}
 
 
 button {
-    background-color: #FFC400;
-    color: #3C3C3C;
+    color: #000000;
     font-size: 1.1rem;
     font-weight: bold;
-    border: none;
-    border-radius: 5px;
+    border: none; /* remove the border frame */
+    border-radius: 20px;
     padding: 10px 15px;
     margin: 5px;
     cursor: pointer;
-    transition: all 0.1s ease-in-out; /* Change the duration from 0.2s to 0.1s to make the animation faster */
+    transition: all 0.1s ease-in-out;
     transform: scale(1);
-}
-
-button:hover {
-    background-color: #E5A732;
-    color: #FFFFFF;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-}
-
-button:active {
-    transform: scale(0.95); /* Scale down the button size when pressed */
+    background-color: transparent;
   }
-
+  
+  button:hover {
+    color: #000000;
+    font-weight: bold;
+  }
+  
+  button:active {
+    font-size: 1.2rem; /* increase font size on click */
+    font-weight: bold;
+  }
+  
+  
+  
 
 
 #switch-button {
