@@ -73,7 +73,29 @@ document.addEventListener("DOMContentLoaded", function() {
         graph.classList.remove("fade-in");
         graph.textContent = `Graph for Button ${buttonNumber}`;
         graph.classList.add("fade-in");
+
+        const textContainer = document.querySelector(".text-container");
+        switch (buttonNumber) {
+            case 1:
+                textContainer.innerHTML = "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sollicitudin tortor sed ultrices ullamcorper. Nulla ultricies enim a quam tempus auctor.</p>";
+                break;
+            case 2:
+                textContainer.innerHTML = "<p>Ut suscipit, enim vitae maximus semper, turpis quam volutpat enim, id aliquet odio eros eget ante. Fusce finibus gravida sem, vitae hendrerit nulla iaculis a.</p>";
+                break;
+            case 3:
+                textContainer.innerHTML = "<p>Nullam sagittis elit eget purus facilisis, id dictum justo auctor. Duis auctor dapibus bibendum. Curabitur blandit magna eu urna blandit, sit amet euismod mauris gravida. </p>";
+                break;
+            case 4:
+                textContainer.innerHTML = "<p>Sed vel enim mauris. Duis in leo in erat varius elementum. Vestibulum congue ipsum sapien, vel lacinia leo dapibus a.</p>";
+                break;
+            case 5:
+                textContainer.innerHTML = "<p>Phasellus aliquet augue eget nibh pulvinar bibendum. Etiam finibus risus eu leo elementum suscipit. Donec rutrum elit eget faucibus placerat.</p>";
+                break;
+            default:
+                textContainer.innerHTML = "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sollicitudin tortor sed ultrices ullamcorper. Nulla ultricies enim a quam tempus auctor.</p>";
+        }
     }
+
 
 
 });
