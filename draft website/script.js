@@ -2,24 +2,9 @@
 document.addEventListener("DOMContentLoaded", function() {
     
     // Define variables for the map container and switch button
+
     const mapContainer = document.querySelector(".map");
-    const switchButton = document.querySelector("#switch-button");
-    
-    // Define a variable for the map type (spherical or planar)
-    let mapType = "spherical";
-    
-    // Add a click event listener to the switch button
-    switchButton.addEventListener("click", function() {
-        // Toggle the map type between spherical and planar
-        if (mapType === "spherical") {
-            mapContainer.style.borderRadius = "0";
-            mapType = "planar";
-        } else {
-            mapContainer.style.borderRadius = "15px";
-            mapType = "spherical";
-        }
-    });
-    
+    mapContainer.style.borderRadius = "0";
     // Define variables for the five other buttons
     const button1 = document.querySelector("#button-1");
     const button2 = document.querySelector("#button-2");
@@ -67,5 +52,33 @@ document.addEventListener("DOMContentLoaded", function() {
         graph.textContent = "Graph for Button 5";
         graph.classList.add("fade-in");
     });
-    
+
+    //We want to create a function that will make it so that when the user has scrolled passed a threshold the buttons start to follow him
+
+
+    //We want to create a function that will make it so that when the user has scrolled passed a threshold the buttons start to follow him
+    window.onscroll = function() {myFunction()};
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop-100000;
+
+    function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky");
+            button1.classList.add("sticky");
+            button2.classList.add("sticky");
+            button3.classList.add("sticky");
+            button4.classList.add("sticky");
+            button5.classList.add("sticky");
+        } else {
+            navbar.classList.remove("sticky");
+            button1.classList.remove("sticky");
+            button2.classList.remove("sticky");
+            button3.classList.remove("sticky");
+            button4.classList.remove("sticky");
+            button5.classList.remove("sticky");
+        }
+    }
+
+
+
 });
