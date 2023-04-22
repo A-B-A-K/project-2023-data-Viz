@@ -77,7 +77,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const textContainer = document.querySelector(".text-container");
         switch (buttonNumber) {
             case 1:
-                textContainer.innerHTML = "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sollicitudin tortor sed ultrices ullamcorper. Nulla ultricies enim a quam tempus auctor.</p>";
+                textContainer.innerHTML = "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sollicitudin tortor sed ultrices ullamcorper. Nulla ultricies enim a quam tempus auctor.</p> <div class='graph1' style='border: 3px solid #3C3C3C; border-radius: 15px;'> </div>";
                 break;
             case 2:
                 textContainer.innerHTML = "<p>Ut suscipit, enim vitae maximus semper, turpis quam volutpat enim, id aliquet odio eros eget ante. Fusce finibus gravida sem, vitae hendrerit nulla iaculis a.</p>";
