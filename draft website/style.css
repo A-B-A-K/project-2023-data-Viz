@@ -1,5 +1,6 @@
 /* Global Styles */
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
     height: 100%;
@@ -14,18 +15,18 @@ header {
     display: flex;
     justify-content: center;
     text-align: center;
-    font-family: "apercu",sans-serif;
+    font-family: "apercu", sans-serif;
     padding-left: 0;
 }
 
 .logo {
-    height: 100%; /* Changed from 40px to 100% so that the .logo container takes up the full height of the header */
+    height: 100%;
 }
 
 .logo img {
     max-width: 100%;
-    max-height: 100%; /* Ensures the image doesn't exceed the .logo container dimensions */
-    height: 96%; /* Adjust this value to change the size of the logo image */
+    max-height: 100%;
+    height: 96%;
     border: 1px solid #F9F9F9;
     border-radius: 5px;
 }
@@ -35,14 +36,13 @@ header {
 .map-container {
     display: flex;
     flex-direction: column;
-    /*justify-content: center;*/
     align-items: center;
     max-width: 100%;
     min-width: 0;
-    width:auto;
+    width: auto;
     margin-top: 30px;
     width: 80%;
-    padding-bottom: 45%; /* 9/16 * 100% = 56.25% for a 16:9 aspect ratio; adjust this value based on your desired aspect ratio */
+    padding-bottom: 45%;
     border: 3px solid #3C3C3C;
     border-radius: 15px;
     background-color: #e1d9d9;
@@ -50,27 +50,26 @@ header {
     position: relative;
 }
 
-
 .outer-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    grid-gap: 20px;
     justify-content: center;
     align-items: flex-start;
-    
-  }
+}
 
-  
-  .map {
+.map {
     width: 80%;
-    padding-bottom: 45%; /* 9/16 * 100% = 56.25% for a 16:9 aspect ratio; adjust this value based on your desired aspect ratio */
+    padding-bottom: 45%;
     border: 3px solid #E5A732;
     border-radius: 15px;
     background-color: #F9F9F9;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
     position: relative;
     overflow: hidden;
-  }
-  
-  .button-container {
+}
+
+.button-container {
     margin-top: 50px;
     display: flex;
     top: 50px;
@@ -79,35 +78,34 @@ header {
     justify-content: flex-start;
     align-items: flex-start;
     margin-left: 5px;
-    position: absolute;
     margin-right: 20px;
+    max-width: 200px;
     z-index: 10;
-  }
-  
-  .button-container.sticky {
+}
+
+.button-container.sticky {
     position: fixed;
     top: 0;
     left: 20px;
     margin-top: 0;
-  }
-
-/* Add this block for the press animation */
+}
 
 @media screen and (max-width: 768px) {
     .outer-container {
         display: block;
     }
-    .map-container, .button-container {
+
+    .map-container,
+    .button-container {
         width: 100%;
     }
 }
-
 
 button {
     color: #000000;
     font-size: 1.1rem;
     font-weight: bold;
-    border: none; /* remove the border frame */
+    border: none;
     border-radius: 20px;
     padding: 10px 15px;
     margin: 5px;
@@ -115,21 +113,16 @@ button {
     transition: all 0.1s ease-in-out;
     transform: scale(1);
     background-color: transparent;
-  }
   
-  button:hover {
+button:hover {
     color: #7e9b93;
     font-weight: bold;
-  }
-  
-  button:active {
-    font-size: 1.2rem; /* increase font size on click */
-    font-weight: bold;
-  }
-  
-  
-  
+}
 
+button:active {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
 
 #switch-button {
     background-color: #FF5733;
@@ -140,45 +133,37 @@ button {
     margin-top: 20px;
     width: 80%;
     max-height: 150px;
-    overflow: hidden;
-}
-
-#graph {
-    width: 100%;
-    height: 100%;
-}
-
-/* Animations */
-@keyframes fade-in {
-    from {
-        opacity: 0;
+        overflow: hidden;
     }
-    to {
-        opacity: 1;
+    
+    #graph {
+        width: 100%;
+        height: 100%;
     }
-}
-
-.fade-in {
-    animation: fade-in 0.8s ease-in-out;
-}
-
-/* This block is redundant since we've already defined the 
-.button-container.sticky class with the same properties. You can remove this block. */
-/* .sticky {               
-    position: fixed;
-    top: 0;
-  } */
-
-  /* Avoid unwanted scrolling behavior on some devices */
-
-  .button-container.sticky-top {
-      position: fixed;
-      top: 70px;
-      /* 60px (header height) + 10px (extra spacing) */
-      left: 20px;
-      margin-top: 0;
-  }
-
-  * {
-      box-sizing: border-box;
-  }
+    
+    /* Animations */
+    @keyframes fade-in {
+        from {
+            opacity: 0;
+        }
+    
+        to {
+            opacity: 1;
+        }
+    }
+    
+    .fade-in {
+        animation: fade-in 0.8s ease-in-out;
+    }
+    
+    .button-container.sticky-top {
+        position: fixed;
+        top: 70px;
+        /* 60px (header height) + 10px (extra spacing) */
+        left: 20px;
+        margin-top: 0;
+    }
+    
+    * {
+        box-sizing: border-box;
+    }
