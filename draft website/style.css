@@ -113,10 +113,9 @@ button {
     transition: all 0.1s ease-in-out;
     transform: scale(1);
     background-color: transparent;
-}
-
+  
 button:hover {
-    color: #000000;
+    color: #7e9b93;
     font-weight: bold;
 }
 
