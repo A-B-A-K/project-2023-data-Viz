@@ -1,6 +1,6 @@
 // Wait for the HTML and CSS to load before running JavaScript
-document.addEventListener("DOMContentLoaded", function() {
-    
+document.addEventListener("DOMContentLoaded", function () {
+
     // Define variables for the map container and switch button
 
     const mapContainer = document.querySelector(".map");
@@ -11,29 +11,29 @@ document.addEventListener("DOMContentLoaded", function() {
     const button3 = document.querySelector("#button-3");
     const button4 = document.querySelector("#button-4");
     const button5 = document.querySelector("#button-5");
-    
+
     // Add click event listeners to the five buttons
-    button1.addEventListener("click", function() {
+    button1.addEventListener("click", function () {
         // Change the graph display to show statistics related to button 1
         updateGraph(1);
     });
-    
-    button2.addEventListener("click", function() {
+
+    button2.addEventListener("click", function () {
         // Change the graph display to show statistics related to button 2
         updateGraph(2);
     });
-    
-    button3.addEventListener("click", function() {
+
+    button3.addEventListener("click", function () {
         // Change the graph display to show statistics related to button 3
         updateGraph(3);
     });
-    
-    button4.addEventListener("click", function() {
+
+    button4.addEventListener("click", function () {
         // Change the graph display to show statistics related to button 4
         updateGraph(4);
     });
-    
-    button5.addEventListener("click", function() {
+
+    button5.addEventListener("click", function () {
         // Change the graph display to show statistics related to button 5
         updateGraph(5);
     });
@@ -43,29 +43,44 @@ document.addEventListener("DOMContentLoaded", function() {
     var buttonContainer = document.querySelector('.button-container');
     var originalPosition = buttonContainer.offsetTop;
 
-    window.addEventListener('scroll', function() {
-    var currentPosition = window.pageYOffset || document.documentElement.scrollTop;
+    window.addEventListener('scroll', function () {
+        var currentPosition = window.pageYOffset || document.documentElement.scrollTop;
 
-    if (currentPosition > originalPosition) {
-        buttonContainer.classList.add('sticky');
-    } else {
-        buttonContainer.classList.remove('sticky');
-    }
+        if (currentPosition > originalPosition) {
+            buttonContainer.classList.add('sticky');
+        } else {
+            buttonContainer.classList.remove('sticky');
+        }
 
-    if (currentPosition <= originalPosition) {
-        buttonContainer.classList.remove('sticky');
-    }
+        if (currentPosition <= originalPosition) {
+            buttonContainer.classList.remove('sticky');
+        }
     });
 
-    window.addEventListener('scroll', function() {
-    var currentPosition = window.pageYOffset || document.documentElement.scrollTop;
+    window.addEventListener('scroll', function () {
+        var currentPosition = window.pageYOffset || document.documentElement.scrollTop;
 
-    if (currentPosition > originalPosition) {
-        buttonContainer.classList.add('sticky-top');
-    } else {
-        buttonContainer.classList.remove('sticky-top');
-    }
-});
+        if (currentPosition > originalPosition) {
+            buttonContainer.classList.add('sticky-top');
+        } else {
+            buttonContainer.classList.remove('sticky-top');
+        }
+    });
+
+    const XLSX = require('xlsx');
+    const fetch = require('node-fetch');
+
+    fetch('https://github.com/com-480-data-visualization/project-2023-data-vizares/blob/85a86b62202a95cd0d313663083bcaa38dec96c6/data/globalterrorismdb_0522dist.xlsx?raw=true')
+        .then(response => response.arrayBuffer())
+        .then(buffer => {
+            const workbook = XLSX.read(buffer, { type: 'buffer' });
+            const sheetName = workbook.SheetNames[0];
+            const worksheet = workbook.Sheets[sheetName];
+            const data = XLSX.utils.sheet_to_json(worksheet, { raw: false });
+            console.log(data); // Do something with the data
+        })
+        .catch(error => console.log(error));
+
 
 
     function updateGraph(buttonNumber) {
