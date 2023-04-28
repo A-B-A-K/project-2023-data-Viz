@@ -3,7 +3,7 @@ html,
 body {
     margin: 0;
     padding: 0;
-    height: 100%;
+    min-height: 100%;
     background-color: #F9F9F9;
     font-family: Arial, sans-serif;
 }
@@ -52,8 +52,8 @@ header {
 
 .outer-container {
     display: grid;
-    grid-template-columns: 1fr 6fr;
-    grid-gap: 20px;
+    grid-template-columns: 1fr 4fr;
+    /* grid-gap: 20px; */
     justify-content: center;
     align-items: flex-start;
 }
@@ -77,18 +77,18 @@ header {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    margin-left: 5px;
-    margin-right: 20px;
+    /* margin-left: 5px;
+    margin-right: 20px; */
     max-width: 200px;
     z-index: 10;
 }
 
-.button-container.sticky {
+/* .button-container.sticky {
     position: fixed;
     top: 0;
     left: 20px;
     margin-top: 0;
-}
+} */
 
 @media screen and (max-width: 768px) {
     .outer-container {
@@ -103,24 +103,28 @@ header {
 
 button {
     color: #000000;
-    font-size: 1.1rem;
+    font-size: 0.73rem;
     font-weight: bold;
     border: none;
     border-radius: 20px;
     padding: 10px 15px;
-    margin: 5px;
+    /* margin: 5px; */
     cursor: pointer;
     transition: all 0.1s ease-in-out;
     transform: scale(1);
     background-color: transparent;
+    width: 100%;
+    text-align: left;
+}
   
 button:hover {
+    font-size: 0.72rem;
     color: #7e9b93;
     font-weight: bold;
 }
 
 button:active {
-    font-size: 1.2rem;
+    font-size: 0.75rem;
     font-weight: bold;
 }
 
@@ -156,13 +160,6 @@ button:active {
         animation: fade-in 0.8s ease-in-out;
     }
     
-    .button-container.sticky-top {
-        position: fixed;
-        top: 70px;
-        /* 60px (header height) + 10px (extra spacing) */
-        left: 20px;
-        margin-top: 0;
-    }
     
     * {
         box-sizing: border-box;
