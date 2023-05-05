@@ -109,12 +109,35 @@ document.addEventListener("DOMContentLoaded", function () {
     function updateGraph(buttonNumber) {
 
         const textContainer = document.querySelector(".text-container");
+        const graphContainer = document.querySelector(".graph-container");
         switch (buttonNumber) {
             case 1:
-                textContainer.innerHTML = `<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sollicitudin tortor sed ultrices ullamcorper. Nulla ultricies enim a quam tempus auctor.</p>`;
+                textContainer.innerHTML = "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sollicitudin tortor sed ultrices ullamcorper. Nulla ultricies enim a quam tempus auctor.</p> <div class='graph1' style='border: 3px solid #3C3C3C; border-radius: 15px;'> </div>";
+                // add image to the map container
+                const image1 = document.createElement('img');   // Should not be created every time
+                image1.src = 'images/plot1page1.png';
+                image1.alt = 'Image 1';
+                const image2 = document.createElement('img');   // Should not be created every time
+                image2.src = 'images/plot2page1.png';
+                image2.alt = 'Image 2';
+
+                const imageContainer1 = document.createElement('div');
+                imageContainer1.classList.add('image-container');
+                imageContainer1.appendChild(image1);
+                const imageContainer2 = document.createElement('div');
+                imageContainer2.classList.add('image-container');
+                imageContainer2.appendChild(image2);
+
+                const imageContainer = document.createElement('div');
+                imageContainer.classList.add('image-container');
+                imageContainer.appendChild(imageContainer1);
+                imageContainer.appendChild(imageContainer2);
+                graphContainer.appendChild(imageContainer);
                 break;
             case 2:
                 textContainer.innerHTML = "<p>Ut suscipit, enim vitae maximus semper, turpis quam volutpat enim, id aliquet odio eros eget ante. Fusce finibus gravida sem, vitae hendrerit nulla iaculis a.</p>";
+                imageContainer1.classList.
+                    imageContainer2.classList.remove(image2)
                 break;
             case 3:
                 textContainer.innerHTML = "<p>Nullam sagittis elit eget purus facilisis, id dictum justo auctor. Duis auctor dapibus bibendum. Curabitur blandit magna eu urna blandit, sit amet euismod mauris gravida. </p>";
