@@ -8,7 +8,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* Header Styles */
+/* Header Styles
 header {
     background-color: #F9F9F9;
     height: 60px;
@@ -17,6 +17,68 @@ header {
     text-align: center;
     font-family: monospace;
     padding-left: 0;
+} */
+
+.top-container {
+    height: 100px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: row;
+    margin-left: 25px;
+}
+
+#button-logo {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: row;
+    font-size: medium;
+    font-weight: bold;
+    font-family: monospace;
+
+}
+
+.help-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-right: 25px;
+}
+
+#button-help {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+
+#helpWindow {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px;
+    z-index: 9999;
 }
 
 .logo {
@@ -106,6 +168,23 @@ button.selected {
 #switch-button {
     background-color: #FF5733;
     color: #FFFFFF;
+}
+
+/* Reset Button Styles */
+#reset-button {
+    width: 15px;
+    height: 15px;
+    padding: 0;
+    margin-top: 10px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+
+#reset-button img {
+    width: 100%;
+    height: auto;
 }
 
 /* Animations */
