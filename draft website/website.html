@@ -1,8 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>World Map Statistics</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -19,21 +18,21 @@
                 <button id="button-5">Terrorism in each country</button>
             </div>
             <div class="map-container" style="grid-column: 2;">
-                <div class="map"></div>
-                <div class="graph-container">
+                <div id="map" class="map"></div>
                 <div class="text-container">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sollicitudin tortor sed ultrices ullamcorper.
                         Nulla ultricies enim a quam tempus auctor.</p>
                 </div>
-
-                    <canvas id="graph"></canvas>
-                    <p>yes</p>
+                <div class="graph-container">
+                    <!-- <canvas id="graph"></canvas> -->
                 </div>
             </div>
         </div>
         
     </main>
     
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
     <script src="script.js"></script>
 </body>
-</html>
+
+

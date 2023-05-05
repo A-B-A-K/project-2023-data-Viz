@@ -2,14 +2,14 @@
 html, body {
     margin: 0;
     padding: 0;
-    height: 100%;
-    background-color: #F9F9F9;
+    height: fit-content;
+    background-color: #f8e6e6;
     font-family: Arial, sans-serif;
 }
 
 /* Header Styles */
 header {
-    background-color: #F9F9F9;
+    background-color: #f8e6e6;
     height: 60px;
     display: flex;
     justify-content: center;
@@ -17,6 +17,11 @@ header {
     font-family: "apercu",sans-serif;
     padding-left: 0;
 }
+
+main {
+    overflow: visible;
+    height:fit-content;
+  }
 
 .logo {
     height: 100%; /* Changed from 40px to 100% so that the .logo container takes up the full height of the header */
@@ -42,27 +47,33 @@ header {
     width:auto;
     margin-top: 30px;
     width: 80%;
-    padding-bottom: 45%; /* 9/16 * 100% = 56.25% for a 16:9 aspect ratio; adjust this value based on your desired aspect ratio */
-    border: 3px solid #3C3C3C;
+    /*padding-bottom: 45%;*/ /* 9/16 * 100% = 56.25% for a 16:9 aspect ratio; adjust this value based on your desired aspect ratio */
+    /*border: 3px solid #3C3C3C;*/
+    border: 3px solid #f8e6e6;
     border-radius: 15px;
-    background-color: #e1d9d9;
+    background-color: #f8e6e6;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
     position: relative;
+    height:fit-content;
+    overflow-y: auto;
 }
 
+.graph-container{
+    height: max-content;
+}
 
 .outer-container {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    
+    height: 100%;
   }
 
   
   .map {
     width: 80%;
     padding-bottom: 45%; /* 9/16 * 100% = 56.25% for a 16:9 aspect ratio; adjust this value based on your desired aspect ratio */
-    border: 3px solid #E5A732;
+    border: 3px solid #F9F9F9;
     border-radius: 15px;
     background-color: #F9F9F9;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
@@ -77,7 +88,7 @@ header {
     left: 20px;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
     margin-left: 5px;
     position: absolute;
     margin-right: 20px;
@@ -107,7 +118,7 @@ button {
     color: #000000;
     font-size: 1.1rem;
     font-weight: bold;
-    border: none; /* remove the border frame */
+    border: none; 
     border-radius: 20px;
     padding: 10px 15px;
     margin: 5px;
@@ -115,11 +126,15 @@ button {
     transition: all 0.1s ease-in-out;
     transform: scale(1);
     background-color: transparent;
+    /*border: 0 solid #e2e8f0;
+    border-radius: 1.5rem;
+    box-sizing: border-box;*/
   }
   
   button:hover {
     color: #7e9b93;
     font-weight: bold;
+    /*background-color: azure;*/
   }
   
   button:active {
@@ -139,7 +154,6 @@ button {
 .graph-container {
     margin-top: 20px;
     width: 80%;
-    max-height: 150px;
     overflow: hidden;
 }
 
@@ -182,3 +196,35 @@ button {
   * {
       box-sizing: border-box;
   }
+
+  .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    max-width: 100%;
+    overflow-y: auto;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+    margin: 5px;
+  }
+  
+ /* .image-responsive {
+    width: 100%;
+    height: auto;
+    
+  }*/
+
+
+.image-responsive {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* IE8 */
+    /* The following properties ensure that the images scale proportionally and fit within the container */
+    vertical-align: middle;
+    object-fit: contain;
+  }
+  

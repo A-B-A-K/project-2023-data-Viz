@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const button3 = document.querySelector("#button-3");
     const button4 = document.querySelector("#button-4");
     const button5 = document.querySelector("#button-5");
+    let previousLayer;
     
     // Add click event listeners to the five buttons
     button1.addEventListener("click", function() {
@@ -69,18 +70,41 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
     function updateGraph(buttonNumber) {
-        const graph = document.querySelector("#graph");
+        /*const graph = document.querySelector("#graph");
         graph.classList.remove("fade-in");
         graph.textContent = `Graph for Button ${buttonNumber}`;
-        graph.classList.add("fade-in");
+        graph.classList.add("fade-in");*/
 
         const textContainer = document.querySelector(".text-container");
+        const graphContainer = document.querySelector(".graph-container");
         switch (buttonNumber) {
             case 1:
                 textContainer.innerHTML = "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sollicitudin tortor sed ultrices ullamcorper. Nulla ultricies enim a quam tempus auctor.</p> <div class='graph1' style='border: 3px solid #3C3C3C; border-radius: 15px;'> </div>";
+                // add image to the map container
+                const image1 = document.createElement('img');
+                image1.src = 'images/plot1page1.png';
+                image1.alt = 'Image 1';
+                const image2 = document.createElement('img');
+                image2.src = 'images/plot2page1.png';
+                image2.alt = 'Image 2';
+
+                const imageContainer1 = document.createElement('div');
+                imageContainer1.classList.add('image-container');
+                imageContainer1.appendChild(image1);
+                const imageContainer2 = document.createElement('div');
+                imageContainer2.classList.add('image-container');
+                imageContainer2.appendChild(image2);
+
+                const imageContainer = document.createElement('div');
+                imageContainer.classList.add('image-container');
+                imageContainer.appendChild(imageContainer1);
+                imageContainer.appendChild(imageContainer2);
+                graphContainer.appendChild(imageContainer);
                 break;
             case 2:
                 textContainer.innerHTML = "<p>Ut suscipit, enim vitae maximus semper, turpis quam volutpat enim, id aliquet odio eros eget ante. Fusce finibus gravida sem, vitae hendrerit nulla iaculis a.</p>";
+                imageContainer1.classList.
+                imageContainer2.classList.remove(image2)
                 break;
             case 3:
                 textContainer.innerHTML = "<p>Nullam sagittis elit eget purus facilisis, id dictum justo auctor. Duis auctor dapibus bibendum. Curabitur blandit magna eu urna blandit, sit amet euismod mauris gravida. </p>";
@@ -97,5 +121,40 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
 
+    // Define the map object and add it to the "map" div container
+    var mymap = L.map('map').setView([51.505, -0.09], 13);
+    // Add the tile layer to the map
+    //L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    //    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+    //    maxZoom: 18,
+    //    tileSize: 512,
+    //    zoomOffset: -1
+    //}).addTo(mymap);
+
+
+    // We want to highlight france when clicking on the button "button1"
+    mymap.createPane('labels');
+    mymap.getPane('labels').style.zIndex = 650;
+    mymap.getPane('labels').style.pointerEvents = 'none';
+    
+
+    var positron = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png', {
+        attribution: '©OpenStreetMap, ©CartoDB'
+    }).addTo(mymap);
+
+    var positronLabels = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}.png', {
+        attribution: '©OpenStreetMap, ©CartoDB',
+        pane: 'labels'
+    }).addTo(mymap);
+
+    var geojson = L.geoJson(GeoJsonData, geoJsonOptions).addTo(mymap);
+
+    geojson.eachLayer(function (layer) {
+        layer.bindPopup(layer.feature.properties.name);
+    });
+        
+    mymap.fitBounds(geojson.getBounds());
+
+    var geojson = L.geoJson(GeoJsonData, geoJsonOptions).addTo(mymap);
 
 });
