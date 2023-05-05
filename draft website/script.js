@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const button3 = document.querySelector("#button-3");
     const button4 = document.querySelector("#button-4");
     const button5 = document.querySelector("#button-5");
+    let previousLayer;
 
     // Add click event listeners to the five buttons
     button1.addEventListener("click", function () {
@@ -48,38 +49,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
         if (currentPosition > originalPosition) {
             buttonContainer.classList.add('sticky');
+            // buttonContainer.classList.add('sticky-top'); // Add this line
         } else {
             buttonContainer.classList.remove('sticky');
-        }
-
-        if (currentPosition <= originalPosition) {
-            buttonContainer.classList.remove('sticky');
+            // buttonContainer.classList.remove('sticky-top'); // Add this line
         }
     });
-
-    window.addEventListener('scroll', function () {
-        var currentPosition = window.pageYOffset || document.documentElement.scrollTop;
-
-        if (currentPosition > originalPosition) {
-            buttonContainer.classList.add('sticky-top');
-        } else {
-            buttonContainer.classList.remove('sticky-top');
-        }
-    });
-
-    const XLSX = require('xlsx');
-    const fetch = require('node-fetch');
-
-    fetch('https://github.com/com-480-data-visualization/project-2023-data-vizares/blob/85a86b62202a95cd0d313663083bcaa38dec96c6/data/globalterrorismdb_0522dist.xlsx?raw=true')
-        .then(response => response.arrayBuffer())
-        .then(buffer => {
-            const workbook = XLSX.read(buffer, { type: 'buffer' });
-            const sheetName = workbook.SheetNames[0];
-            const worksheet = workbook.Sheets[sheetName];
-            const data = XLSX.utils.sheet_to_json(worksheet, { raw: false });
-            console.log(data); // Do something with the data
-        })
-        .catch(error => console.log(error));
 
 
 
@@ -109,8 +84,53 @@ document.addEventListener("DOMContentLoaded", function () {
             default:
                 textContainer.innerHTML = "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sollicitudin tortor sed ultrices ullamcorper. Nulla ultricies enim a quam tempus auctor.</p>";
         }
+
+        // Deselect all buttons
+        const buttons = document.querySelectorAll(".button-container button");
+        buttons.forEach(button => {
+            button.classList.remove("selected");
+        });
+
+        // Select the clicked button
+        const clickedButton = document.querySelector(`#button-${buttonNumber}`);
+        clickedButton.classList.add("selected", "hover");
     }
 
 
+    // Define the map object and add it to the "map" div container
+    var mymap = L.map('map').setView([51.505, -0.09], 13);
+    // Add the tile layer to the map
+    //L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    //    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+    //    maxZoom: 18,
+    //    tileSize: 512,
+    //    zoomOffset: -1
+    //}).addTo(mymap);
+
+
+    // We want to highlight france when clicking on the button "button1"
+    mymap.createPane('labels');
+    mymap.getPane('labels').style.zIndex = 650;
+    mymap.getPane('labels').style.pointerEvents = 'none';
+
+
+    var positron = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png', {
+        attribution: '©OpenStreetMap, ©CartoDB'
+    }).addTo(mymap);
+
+    var positronLabels = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}.png', {
+        attribution: '©OpenStreetMap, ©CartoDB',
+        pane: 'labels'
+    }).addTo(mymap);
+
+    var geojson = L.geoJson(GeoJsonData, geoJsonOptions).addTo(mymap);
+
+    geojson.eachLayer(function (layer) {
+        layer.bindPopup(layer.feature.properties.name);
+    });
+
+    mymap.fitBounds(geojson.getBounds());
+
+    var geojson = L.geoJson(GeoJsonData, geoJsonOptions).addTo(mymap);
 
 });
