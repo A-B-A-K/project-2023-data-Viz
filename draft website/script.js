@@ -106,41 +106,99 @@ document.addEventListener("DOMContentLoaded", function () {
         graph.classList.add("fade-in");
     }
 
+    const imageContainer = document.createElement('div');
+    imageContainer.classList.add('image-container');
+
     function updateGraph(buttonNumber) {
 
         const textContainer = document.querySelector(".text-container");
         const graphContainer = document.querySelector(".graph-container");
+        
         switch (buttonNumber) {
             case 1:
+                while (imageContainer.firstChild) {
+                    imageContainer.removeChild(imageContainer.firstChild);
+                }
                 textContainer.innerHTML = "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sollicitudin tortor sed ultrices ullamcorper. Nulla ultricies enim a quam tempus auctor.</p> <div class='graph1' style='border: 3px solid #3C3C3C; border-radius: 15px;'> </div>";
-                // add image to the map container
-                const image1 = document.createElement('img');   // Should not be created every time
-                image1.src = 'images/plot1page1.png';
-                image1.alt = 'Image 1';
-                const image2 = document.createElement('img');   // Should not be created every time
-                image2.src = 'images/plot2page1.png';
-                image2.alt = 'Image 2';
+                if (!imageContainer.hasChildNodes()) {
+                    // add image to the map container
+                    const image1 = document.createElement('img');   // Should not be created every time
+                    image1.src = 'images/plot1page1.png';
+                    image1.alt = 'Image 1';
+                    const image2 = document.createElement('img');   // Should not be created every time
+                    image2.src = 'images/plot2page1.png';
+                    image2.alt = 'Image 2';
 
-                const imageContainer1 = document.createElement('div');
-                imageContainer1.classList.add('image-container');
-                imageContainer1.appendChild(image1);
-                const imageContainer2 = document.createElement('div');
-                imageContainer2.classList.add('image-container');
-                imageContainer2.appendChild(image2);
+                    const imageContainer1 = document.createElement('div');
+                    imageContainer1.classList.add('image-container');
+                    imageContainer1.appendChild(image1);
+                    const imageContainer2 = document.createElement('div');
+                    imageContainer2.classList.add('image-container');
+                    imageContainer2.appendChild(image2);
 
-                const imageContainer = document.createElement('div');
-                imageContainer.classList.add('image-container');
-                imageContainer.appendChild(imageContainer1);
-                imageContainer.appendChild(imageContainer2);
-                graphContainer.appendChild(imageContainer);
+                    imageContainer.appendChild(imageContainer1);
+                    imageContainer.appendChild(imageContainer2);
+                    graphContainer.appendChild(imageContainer);
+                }
                 break;
             case 2:
+                while (imageContainer.firstChild) {
+                    imageContainer.removeChild(imageContainer.firstChild);
+                }
+    
                 textContainer.innerHTML = "<p>Ut suscipit, enim vitae maximus semper, turpis quam volutpat enim, id aliquet odio eros eget ante. Fusce finibus gravida sem, vitae hendrerit nulla iaculis a.</p>";
-                imageContainer1.classList.
-                    imageContainer2.classList.remove(image2)
+    
+                // Create a slider
+                const slider = document.createElement('input');
+                slider.type = 'range';
+                slider.min = '1970';
+                slider.max = '2020';
+                slider.value = '1990';
+                slider.classList.add('slider');
+    
+                // Create a label to display the slider value
+                const sliderLabel = document.createElement('span');
+                sliderLabel.innerHTML = `Year: ${slider.value}`;
+                sliderLabel.classList.add('slider-label');
+    
+                // Add an event listener to update the label when the slider value changes
+                slider.addEventListener('input', () => {
+                    sliderLabel.innerHTML = `Year: ${slider.value}`;
+                });
+    
+                // Append the slider and label to the imageContainer
+                imageContainer.appendChild(slider);
+                imageContainer.appendChild(sliderLabel);
+    
+                // Append the imageContainer to the graphContainer
+                graphContainer.appendChild(imageContainer);
+            // ... (the rest of the cases remain the same)
                 break;
             case 3:
+                while (imageContainer.firstChild) {
+                    imageContainer.removeChild(imageContainer.firstChild);
+                }
                 textContainer.innerHTML = "<p>Nullam sagittis elit eget purus facilisis, id dictum justo auctor. Duis auctor dapibus bibendum. Curabitur blandit magna eu urna blandit, sit amet euismod mauris gravida. </p>";
+                if (!imageContainer.hasChildNodes()) {
+                    // add image to the map container
+                    const image1 = document.createElement('img');   // Should not be created every time
+                    const image2 = document.createElement('img');   // Should not be created every time
+                    image1.src = 'images/plot1page3.png';
+                    image1.alt = 'Image 1';
+                    image2.src = 'images/plot2page3.png';
+                    image2.alt = 'Image 2';
+                    
+                    const imageContainer1 = document.createElement('div');
+                    imageContainer1.classList.add('image-container');
+                    imageContainer1.appendChild(image1);
+                    const imageContainer2 = document.createElement('div');
+                    imageContainer2.classList.add('image-container');
+                    imageContainer2.appendChild(image2);
+                    
+                    imageContainer.appendChild(imageContainer1);
+                    imageContainer.appendChild(imageContainer2);
+                    graphContainer.appendChild(imageContainer);
+                }
                 break;
             case 4:
                 textContainer.innerHTML = "<p>Sed vel enim mauris. Duis in leo in erat varius elementum. Vestibulum congue ipsum sapien, vel lacinia leo dapibus a.</p>";

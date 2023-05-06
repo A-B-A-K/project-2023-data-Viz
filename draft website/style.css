@@ -324,3 +324,32 @@ button.selected {
     object-fit: contain;
   }
   
+
+  .slider {
+    width: 100%; /* Adjust the width of the slider */
+    height: 2px; /* Adjust the height of the slider track */
+    margin: 20px 0;
+    background-color: black; /* Set the background color of the slider track */
+    outline: none; /* Remove the outline around the slider */
+    -webkit-appearance: none; /* Remove default appearance for Webkit browsers */
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Remove default appearance for Webkit browsers */
+    width: 20px; /* Adjust the width of the slider thumb */
+    height: 20px; /* Adjust the height of the slider thumb */
+    background-color: rgb(62, 60, 60); /* Set the background color of the slider thumb */
+    border-radius: 50%; /* Make the slider thumb round */
+    cursor: pointer; /* Change the cursor to a pointer when hovering over the slider thumb */
+}
+
+.slider::-moz-range-thumb {
+    width: 20px; /* Adjust the width of the slider thumb */
+    height: 20px; /* Adjust the height of the slider thumb */
+    background-color: white; /* Set the background color of the slider thumb */
+    border-radius: 50%; /* Make the slider thumb round */
+    cursor: pointer; /* Change the cursor to a pointer when hovering over the slider thumb */
+}
+.slider-text {
+    margin-top: 20px; /* Add margin to the top of the text underneath the slider */
+}
