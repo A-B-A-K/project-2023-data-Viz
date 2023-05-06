@@ -108,6 +108,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const imageContainer = document.createElement('div');
     imageContainer.classList.add('image-container');
+    const countryNames = ['Afghanistan', 'Albania', 'Algeria', 'Andorra', 'Angola', 'Antigua and Barbuda', 'Argentina', 'Armenia', 'Australia', 'Austria', 'Azerbaijan', 'Bahamas', 'Bahrain', 'Bangladesh', 'Barbados', 'Belarus', 'Belgium', 'Belize', 'Benin', 'Bhutan', 'Bolivia', 'Bosnia-Herzegovina', 'Botswana', 'Brazil', 'Brunei', 'Bulgaria', 'Burkina Faso', 'Burundi', 'Cambodia', 'Cameroon', 'Canada', 'Central African Republic', 'Chad', 'Chile', 'China', 'Colombia', 'Comoros', 'Costa Rica', 'Croatia', 'Cuba', 'Cyprus', 'Czech Republic', 'Czechoslovakia', 'Democratic Republic of the Congo', 'Denmark', 'Djibouti', 'Dominica', 'Dominican Republic', 'East Germany (GDR)', 'East Timor', 'Ecuador', 'Egypt', 'El Salvador', 'Equatorial Guinea', 'Eritrea', 'Estonia', 'Ethiopia', 'Falkland Islands', 'Fiji', 'Finland', 'France', 'French Guiana', 'French Polynesia', 'Gabon', 'Gambia', 'Georgia', 'Germany', 'Ghana', 'Greece', 'Grenada', 'Guadeloupe', 'Guatemala', 'Guinea', 'Guinea-Bissau', 'Guyana', 'Haiti', 'Honduras', 'Hong Kong', 'Hungary', 'Iceland', 'India', 'Indonesia', 'International', 'Iran', 'Iraq', 'Ireland', 'Israel', 'Italy', 'Ivory Coast', 'Jamaica', 'Japan', 'Jordan', 'Kazakhstan', 'Kenya', 'Kosovo', 'Kuwait', 'Kyrgyzstan', 'Laos', 'Latvia', 'Lebanon', 'Lesotho', 'Liberia', 'Libya', 'Lithuania', 'Luxembourg', 'Macau', 'Macedonia', 'Madagascar', 'Malawi', 'Malaysia', 'Maldives', 'Mali', 'Malta', 'Martinique', 'Mauritania', 'Mauritius', 'Mexico', 'Moldova', 'Montenegro', 'Morocco', 'Mozambique', 'Myanmar', 'Namibia', 'Nepal', 'Netherlands', 'New Caledonia', 'New Hebrides', 'New Zealand', 'Nicaragua', 'Niger', 'Nigeria', 'North Korea', 'North Yemen', 'Norway', 'Pakistan', 'Panama', 'Papua New Guinea', 'Paraguay', "People's Republic of the Congo", 'Peru', 'Philippines', 'Poland', 'Portugal', 'Qatar', 'Republic of the Congo', 'Rhodesia', 'Romania', 'Russia', 'Rwanda', 'Saudi Arabia', 'Senegal', 'Serbia', 'Serbia-Montenegro', 'Seychelles', 'Sierra Leone', 'Singapore', 'Slovak Republic', 'Slovenia', 'Solomon Islands', 'Somalia', 'South Africa', 'South Korea', 'South Sudan', 'South Yemen', 'Soviet Union', 'Spain', 'Sri Lanka', 'St. Kitts and Nevis', 'St. Lucia', 'Sudan', 'Suriname', 'Swaziland', 'Sweden', 'Switzerland', 'Syria', 'Taiwan', 'Tajikistan', 'Tanzania', 'Thailand', 'Togo', 'Trinidad and Tobago', 'Tunisia', 'Turkey', 'Turkmenistan', 'Uganda', 'Ukraine', 'United Arab Emirates', 'United Kingdom', 'United States', 'Uruguay', 'Uzbekistan', 'Vanuatu', 'Vatican City', 'Venezuela', 'Vietnam', 'Wallis and Futuna', 'West Bank and Gaza Strip', 'West Germany (FRG)', 'Western Sahara', 'Yemen', 'Yugoslavia', 'Zaire', 'Zambia', 'Zimbabwe']
+    const regionNames =['Australasia & Oceania','Central America & Caribbean','Central Asia','East Asia','Eastern Europe','Middle East & North Africa','North America','South America','South Asia','Southeast Asia','Sub-Saharan Africa','Western Europe']
 
     function updateGraph(buttonNumber) {
 
@@ -201,10 +203,77 @@ document.addEventListener("DOMContentLoaded", function () {
                 }
                 break;
             case 4:
+                while (imageContainer.firstChild) {
+                    imageContainer.removeChild(imageContainer.firstChild);
+                }
                 textContainer.innerHTML = "<p>Sed vel enim mauris. Duis in leo in erat varius elementum. Vestibulum congue ipsum sapien, vel lacinia leo dapibus a.</p>";
+                
+                                // Create a dropdown menu (select element)
+                const regionSelect = document.createElement('select');
+                regionSelect.classList.add('region-select');
+        
+                // Create an img element to display the region image
+                const regionImage = document.createElement('img');
+                regionImage.classList.add('region-image');
+        
+                // Populate the dropdown menu with region options
+                regionNames.forEach(region => {
+                    const regionOption = document.createElement('option');
+                    regionOption.value = region;
+                    regionOption.text = region;
+                    regionSelect.appendChild(regionOption);
+                });
+        
+                // Add an event listener to update the displayed image based on the selected country
+                regionSelect.addEventListener('change', () => {
+                    // Update the image source (modify this to match your actual file paths and naming conventions)
+                    regionImage.src = `/data/regions/${regionSelect.value.replace(/ /g, '_')}.png`;
+                    regionImage.alt = regionSelect.value;
+                });
+        
+                // Append the dropdown menu and the image to the imageContainer
+                imageContainer.appendChild(regionSelect);
+                imageContainer.appendChild(regionImage);
+        
+                // Append the imageContainer to the graphContainer
+                graphContainer.appendChild(imageContainer);
+                
                 break;
             case 5:
+                while (imageContainer.firstChild) {
+                    imageContainer.removeChild(imageContainer.firstChild);
+                }
                 textContainer.innerHTML = "<p>Phasellus aliquet augue eget nibh pulvinar bibendum. Etiam finibus risus eu leo elementum suscipit. Donec rutrum elit eget faucibus placerat.</p>";
+
+                // Create a dropdown menu (select element)
+                const countrySelect = document.createElement('select');
+                countrySelect.classList.add('country-select');
+        
+                // Create an img element to display the country image
+                const countryImage = document.createElement('img');
+                countryImage.classList.add('country-image');
+        
+                // Populate the dropdown menu with country options
+                countryNames.forEach(country => {
+                    const countryOption = document.createElement('option');
+                    countryOption.value = country;
+                    countryOption.text = country;
+                    countrySelect.appendChild(countryOption);
+                });
+        
+                // Add an event listener to update the displayed image based on the selected country
+                countrySelect.addEventListener('change', () => {
+                    // Update the image source (modify this to match your actual file paths and naming conventions)
+                    countryImage.src = `/data/countries/${countrySelect.value.replace(/ /g, '_')}.png`;
+                    countryImage.alt = countrySelect.value;
+                });
+        
+                // Append the dropdown menu and the image to the imageContainer
+                imageContainer.appendChild(countrySelect);
+                imageContainer.appendChild(countryImage);
+        
+                // Append the imageContainer to the graphContainer
+                graphContainer.appendChild(imageContainer);
                 break;
             default:
                 textContainer.innerHTML = `<p>Welcome to "Mapping the Shadows: An Interactive Journey Through Five Decades of Global
