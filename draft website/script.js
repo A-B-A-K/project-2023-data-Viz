@@ -283,14 +283,14 @@ document.addEventListener("DOMContentLoaded", function () {
                             leveraging the power of the Global Terrorism Database(GTD), our goal is to provide an
                             engaging and informative
                             experience that sheds light on the trends, patterns, and impacts of terrorist activities
-                worldwide.< br >
+                worldwide.<br>
                     In this project, you will find a variety of visualizations, including histograms, heatmaps,
                         and parallel coordinate
                 plots, all designed to present the data in a clear and accessible manner.At the heart of
                             our project is an
                             interactive map that adapts to your selections, allowing you to examine different aspects of
                 terrorism, such as the
-                            density of attacks, fatalities per country, and seasonality, among others.< br >
+                            density of attacks, fatalities per country, and seasonality, among others.<br>
                     We believe that understanding the historical context and trends of terrorism is essential
                 for
                             fostering informed
@@ -298,15 +298,15 @@ document.addEventListener("DOMContentLoaded", function () {
                 this project deals with
                             sensitive subject matter, and we have made every effort to present the information in an
                             unbiased and respectful
-                manner.< br >
+                manner.<br>
                     To begin your exploration, simply scroll down and interact with the visualizations below.If
                             you need help navigating
                             the website or understanding the visualizations, you can access our help guide by clicking
                             the button in the
-                top - right corner of the page.< br >
+                top - right corner of the page.<br>
                     We hope that this project provides you with valuable insights and encourages thoughtful
                             reflection on the complex
-                            phenomenon of terrorism.</p > `;
+                            phenomenon of terrorism.</p>`;
         }
 
     }
