@@ -1,22 +1,51 @@
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>World Map Statistics</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
-        <h1>World Map Statistics</h1>
+        <!-- <h1>Mapping the Shadows: An Interactive Journey Through Five Decades of Global Terrorism</h1> -->
     </header>
     <main>
+        <div class="top-container">
+            <div class="logo-container">
+                <button id="button-logo">
+                    <img src="logo.jpg" height="75px">
+                </button>
+
+            </div>
+            <div class="title-container">
+                <h1>World Map Statistics</h1>
+            </div>
+            <div class="help-container">
+                <button id="button-help">
+                    <img src="question_mark_icon.png" height="25px">
+                </button>
+            </div>
+            <div id="helpWindow" style="display: none">
+                <div id="helpContent">
+                    <h2>Help Window</h2>
+                    <p>Some helpful infoemation about the page...</p>
+                    <button id="closeButton">Close</button>
+                </div>
+            </div>
+        </div>
         <div class="outer-container" style="display: grid; grid-template-columns: 1fr 6fr; grid-gap: 20px;">
             <div class="button-container" style="max-width: 200px;">
                 <button id="button-1">Terrorist Groups</button>
                 <button id="button-2">Terrorism Density Map</button>
                 <button id="button-3">Fatalities Per Country</button>
-                <button id="button-4">Seasonality of Terrorism</button>
+                <button id="button-4">Growth of Terrorism</button>
                 <button id="button-5">Terrorism in each country</button>
+                <button id="reset-button">
+                    <img>
+                </button>
             </div>
+<<<<<<< HEAD
             <div class="map-container" style="grid-column: 2;">
                 <div id="map" class="map"></div>
                 <div class="text-container">
@@ -25,14 +54,60 @@
                 </div>
                 <div class="graph-container">
                     <!-- <canvas id="graph"></canvas> -->
+=======
+
+            <div class="map-container" style="grid-column: 2;">
+                <div id="map" class="map"></div>
+                <div class="graph-container">
+                    <div class="text-container">
+                        <p>Welcome to "Mapping the Shadows: An Interactive Journey Through Five Decades of Global
+                            Terrorism", an interactive data
+                            visualization project that invites you to explore the complex landscape of global terrorism
+                            from 1970 to 2020. By
+                            leveraging the power of the Global Terrorism Database (GTD), our goal is to provide an
+                            engaging and informative
+                            experience that sheds light on the trends, patterns, and impacts of terrorist activities
+                            worldwide.<br>
+                            In this project, you will find a variety of visualizations, including histograms, heatmaps,
+                            and parallel coordinate
+                            plots, all designed to present the data in a clear and accessible manner. At the heart of
+                            our project is an
+                            interactive map that adapts to your selections, allowing you to examine different aspects of
+                            terrorism, such as the
+                            density of attacks, fatalities per country, and seasonality, among others.<br>
+                            We believe that understanding the historical context and trends of terrorism is essential
+                            for
+                            fostering informed
+                            conversations and decision-making in our increasingly interconnected world. Please note that
+                            this project deals with
+                            sensitive subject matter, and we have made every effort to present the information in an
+                            unbiased and respectful
+                            manner.<br>
+                            To begin your exploration, simply scroll down and interact with the visualizations below. If
+                            you need help navigating
+                            the website or understanding the visualizations, you can access our help guide by clicking
+                            the button in the
+                            top-right corner of the page.<br>
+                            We hope that this project provides you with valuable insights and encourages thoughtful
+                            reflection on the complex
+                            phenomenon of terrorism.</p>
+                    </div>
+>>>>>>> 3a1c0fdae9a969e7e83cd35a46524d339aba2bd5
                 </div>
             </div>
         </div>
-        
+
     </main>
+<<<<<<< HEAD
     
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
     <script src="script.js"></script>
 </body>
 
 
+=======
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+>>>>>>> 3a1c0fdae9a969e7e83cd35a46524d339aba2bd5
