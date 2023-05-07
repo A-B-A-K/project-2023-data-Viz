@@ -25,6 +25,8 @@ The submission for Milestone 1 can be found in a PDF format in the file Mileston
 
 **10% of the final grade**
 
+The submission for Milestone 2 can be found in a PDF format in the file Milestone2
+
 
 ## Milestone 3 (4th June, 5pm)
 
