@@ -180,7 +180,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 while (imageContainer.firstChild) {
                     imageContainer.removeChild(imageContainer.firstChild);
                 }
-                textContainer.innerHTML = "<p>Nullam sagittis elit eget purus facilisis, id dictum justo auctor. Duis auctor dapibus bibendum. Curabitur blandit magna eu urna blandit, sit amet euismod mauris gravida. </p>";
+                textContainer.innerHTML = "<p>Before dwelving deeper in the analysis of the data we tried figuring out if there was a particular time in the year that the attacks are more prone to happen. Another graph that  </p>";
                 if (!imageContainer.hasChildNodes()) {
                     // add image to the map container
                     const image1 = document.createElement('img');   // Should not be created every time
