@@ -120,29 +120,28 @@ document.addEventListener("DOMContentLoaded", function () {
             case 1:
                 while (imageContainer.firstChild) {
                     imageContainer.removeChild(imageContainer.firstChild);
-                }
-                textContainer.innerHTML = "<p>The first step into studying the nature of terrorist attacks was to study the groups that perpetrated them. We therefore present you a graph listing the terrorist organisations with the most casualties. Next to it we deemed interesting to study the weapons used most commonly by these groups which we represented by a heatmap.</p> <div class='graph1' style='border: 3px solid #3C3C3C; border-radius: 15px;'> </div>";
-                if (!imageContainer.hasChildNodes()) {
-                    // add image to the map container
-                    const image1 = document.createElement('img');   // Should not be created every time
-                    image1.src = 'images/plot1page1.png';
-                    image1.alt = 'Image 1';
-                    const image2 = document.createElement('img');   // Should not be created every time
-                    image2.src = 'images/plot2page1.png';
-                    image2.alt = 'Image 2';
-
-                    const imageContainer1 = document.createElement('div');
-                    imageContainer1.classList.add('image-container');
-                    imageContainer1.appendChild(image1);
-                    const imageContainer2 = document.createElement('div');
-                    imageContainer2.classList.add('image-container');
-                    imageContainer2.appendChild(image2);
-
-                    imageContainer.appendChild(imageContainer1);
-                    imageContainer.appendChild(imageContainer2);
-                    graphContainer.appendChild(imageContainer);
-                }
-                break;
+                  }
+                  textContainer.innerHTML = "<p>The first step into studying the nature of terrorist attacks was to study the groups that perpetrated them. We therefore present you a graph listing the terrorist organisations with the most casualties. Next to it we deemed interesting to study the weapons used most commonly by these groups which we represented by a heatmap.</p> <div class='graph1' style='border: 3px solid #3C3C3C; border-radius: 15px;'> </div>";
+            
+                  // Fetch the JSON file
+                  fetch('../data/miscellaneous/fatalities_per_group.json')
+                    .then(response => response.json())
+                    .then(data => {
+                      processData(data); // Process the JSON data as needed
+                    })
+                    .catch(error => {
+                      console.error('Error:', error);
+                    });
+            
+                  function processData(data) {
+                    // Sort the data by nkill descending and slice the first 10
+                    let top10 = data.sort((a, b) => b.nkill - a.nkill).slice(0, 10);
+            
+                    // Plot the data
+                    plotData(top10);
+                  }
+                  break;
+                // Other cases
             case 2:
                 while (imageContainer.firstChild) {
                     imageContainer.removeChild(imageContainer.firstChild);
@@ -309,6 +308,60 @@ document.addEventListener("DOMContentLoaded", function () {
                             phenomenon of terrorism.</p>`;
         }
 
+    }
+
+    function plotData(data) {
+        // Set the dimensions and margins of the graph
+        var margin = {top: 10, right: 30, bottom: 90, left: 40},
+            width = 460 - margin.left - margin.right,
+            height = 400 - margin.top - margin.bottom;
+    
+        // Append the svg object to the graph1 class inside the body
+        var svg = d3.select(".graph1")
+            .append("svg")
+            .attr("width", width + margin.left + margin.right)
+            .attr("height", height + margin.top + margin.bottom)
+            .append("g")
+            .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+    
+        // X axis
+        var x = d3.scaleBand()
+            .range([0, width])
+            .domain(data.map(function(d) { return d.gname; }))
+            .padding(0.2);
+        svg.append("g")
+            .attr("transform", "translate(0," + height + ")")
+            .call(d3.axisBottom(x))
+            .selectAll("text")
+            .attr("transform", "translate(-10,0)rotate(-45)")
+            .style("text-anchor", "end");
+    
+        // Add Y axis
+        var y = d3.scaleLinear()
+            .domain([0, d3.max(data, function(d) { return +d.nkill; })])
+            .range([height, 0]);
+        svg.append("g")
+            .call(d3.axisLeft(y));
+    
+        // Bars
+        svg.selectAll("mybar")
+            .data(data)
+            .enter()
+            .append("rect")
+            .attr("x", function(d) { return x(d.gname); })
+            .attr("width", x.bandwidth())
+            .attr("fill", "#69b3a2")
+            // no bar at the beginning thus:
+            .attr("height", function(d) { return height - y(0); }) // always equal to 0
+            .attr("y", function(d) { return y(0); })
+    
+        // Animation
+        svg.selectAll("rect")
+            .transition()
+            .duration(800)
+            .attr("y", function(d) { return y(d.nkill); })
+            .attr("height", function(d) { return height - y(d.nkill); })
+            .delay(function(d,i){return(i*100)})
     }
 
 
