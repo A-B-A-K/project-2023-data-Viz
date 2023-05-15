@@ -121,7 +121,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 while (imageContainer.firstChild) {
                     imageContainer.removeChild(imageContainer.firstChild);
                 }
-                textContainer.innerHTML = "<p>The first step into studying the nature of terrorist attacks was to study the groups that perpetrated them. We therefore present you a graph listing the most deadful terrorist organisations. Next to it we deemed interesting to study the weapons used most commonly by these groups which we represented by a heatmap.</p> <div class='graph1' style='border: 3px solid #3C3C3C; border-radius: 15px;'> </div>";
+                textContainer.innerHTML = "<p>The first step into studying the nature of terrorist attacks was to study the groups that perpetrated them. We therefore present you a graph listing the terrorist organisations with the most casualties. Next to it we deemed interesting to study the weapons used most commonly by these groups which we represented by a heatmap.</p> <div class='graph1' style='border: 3px solid #3C3C3C; border-radius: 15px;'> </div>";
                 if (!imageContainer.hasChildNodes()) {
                     // add image to the map container
                     const image1 = document.createElement('img');   // Should not be created every time
@@ -148,7 +148,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     imageContainer.removeChild(imageContainer.firstChild);
                 }
     
-                textContainer.innerHTML = "<p>We found interesting to study terrorism and its evolution by visualizing the activity and its evolution along the years on the globe. It is also interesting to link them to their context like the spike in terrorist attacks in 2011 that are the aftermath of the arab spring.</p>";
+                textContainer.innerHTML = "<p>We found interesting to study terrorism and its evolution by visualizing the activity of terrorist groups through the years on the globe.</p>";
     
                 // Create a slider
                 const slider = document.createElement('input');
@@ -180,7 +180,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 while (imageContainer.firstChild) {
                     imageContainer.removeChild(imageContainer.firstChild);
                 }
-                textContainer.innerHTML = "<p>Before dwelving deeper in the analysis of the data we tried figuring out if there was a particular time in the year that the attacks are more prone to happen. Another graph that  </p>";
+                textContainer.innerHTML = "<p>Before delving deeper in the analysis of the data we tried figuring out if there were specific trends in when the attacks were committed during the year</p>";
                 if (!imageContainer.hasChildNodes()) {
                     // add image to the map container
                     const image1 = document.createElement('img');   // Should not be created every time
@@ -206,7 +206,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 while (imageContainer.firstChild) {
                     imageContainer.removeChild(imageContainer.firstChild);
                 }
-                textContainer.innerHTML = "<p>Sed vel enim mauris. Duis in leo in erat varius elementum. Vestibulum congue ipsum sapien, vel lacinia leo dapibus a.</p>";
+                textContainer.innerHTML = "<p>To truly understand the dynamics of each region of the world we added their growth tendencies of terrorist activities.</p>";
                 
                                 // Create a dropdown menu (select element)
                 const regionSelect = document.createElement('select');
@@ -243,7 +243,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 while (imageContainer.firstChild) {
                     imageContainer.removeChild(imageContainer.firstChild);
                 }
-                textContainer.innerHTML = "<p>Phasellus aliquet augue eget nibh pulvinar bibendum. Etiam finibus risus eu leo elementum suscipit. Donec rutrum elit eget faucibus placerat.</p>";
+                textContainer.innerHTML = "<p>Lastly, in order to give as much information as possible we have added statistics on the different countries</p>";
 
                 // Create a dropdown menu (select element)
                 const countrySelect = document.createElement('select');
