@@ -5,7 +5,7 @@ Al-Shabaab,Grenade,289
 Al-Shabaab,Handgun,249
 Al-Shabaab,Landmine,358
 Al-Shabaab,Other Explosive Type,31
-Al-Shabaab,"Projectile (rockets, mortars, RPGs, etc.)",537
+Al-Shabaab,Projectile,537
 Al-Shabaab,Unknown Explosive Type,411
 Al-Shabaab,Unknown Gun Type,1096
 Al-Shabaab,Vehicle,294
@@ -15,7 +15,7 @@ Boko Haram,Grenade,29
 Boko Haram,Handgun,4
 Boko Haram,Landmine,49
 Boko Haram,Other Explosive Type,40
-Boko Haram,"Projectile (rockets, mortars, RPGs, etc.)",184
+Boko Haram,Projectile,184
 Boko Haram,Unknown Explosive Type,384
 Boko Haram,Unknown Gun Type,1178
 Boko Haram,Vehicle,93
@@ -24,7 +24,8 @@ Farabundo Marti National Liberation Front (FMLN),Automatic or Semi-Automatic Rif
 Farabundo Marti National Liberation Front (FMLN),Grenade,14
 Farabundo Marti National Liberation Front (FMLN),Handgun,70
 Farabundo Marti National Liberation Front (FMLN),Landmine,21
-Farabundo Marti National Liberation Front (FMLN),"Projectile (rockets, mortars, RPGs, etc.)",54
+Farabundo Marti National Liberation Front (FMLN),Other Explosive Type,0
+Farabundo Marti National Liberation Front (FMLN),Projectile,54
 Farabundo Marti National Liberation Front (FMLN),Unknown Explosive Type,1250
 Farabundo Marti National Liberation Front (FMLN),Unknown Gun Type,6
 Farabundo Marti National Liberation Front (FMLN),Vehicle,3
@@ -34,7 +35,7 @@ Houthi extremists (Ansar Allah),Grenade,3
 Houthi extremists (Ansar Allah),Handgun,2
 Houthi extremists (Ansar Allah),Landmine,139
 Houthi extremists (Ansar Allah),Other Explosive Type,4
-Houthi extremists (Ansar Allah),"Projectile (rockets, mortars, RPGs, etc.)",1316
+Houthi extremists (Ansar Allah),Projectile,1316
 Houthi extremists (Ansar Allah),Unknown Explosive Type,208
 Houthi extremists (Ansar Allah),Unknown Gun Type,361
 Houthi extremists (Ansar Allah),Vehicle,25
@@ -44,7 +45,7 @@ Irish Republican Army (IRA),Grenade,16
 Irish Republican Army (IRA),Handgun,192
 Irish Republican Army (IRA),Landmine,44
 Irish Republican Army (IRA),Other Explosive Type,5
-Irish Republican Army (IRA),"Projectile (rockets, mortars, RPGs, etc.)",93
+Irish Republican Army (IRA),Projectile,93
 Irish Republican Army (IRA),Unknown Explosive Type,863
 Irish Republican Army (IRA),Unknown Gun Type,531
 Irish Republican Army (IRA),Vehicle,166
@@ -54,7 +55,7 @@ Islamic State of Iraq and the Levant (ISIL),Grenade,30
 Islamic State of Iraq and the Levant (ISIL),Handgun,6
 Islamic State of Iraq and the Levant (ISIL),Landmine,56
 Islamic State of Iraq and the Levant (ISIL),Other Explosive Type,71
-Islamic State of Iraq and the Levant (ISIL),"Projectile (rockets, mortars, RPGs, etc.)",636
+Islamic State of Iraq and the Levant (ISIL),Projectile,636
 Islamic State of Iraq and the Levant (ISIL),Unknown Explosive Type,1578
 Islamic State of Iraq and the Levant (ISIL),Unknown Gun Type,700
 Islamic State of Iraq and the Levant (ISIL),Vehicle,1529
@@ -64,7 +65,7 @@ Kurdistan Workers' Party (PKK),Grenade,25
 Kurdistan Workers' Party (PKK),Handgun,32
 Kurdistan Workers' Party (PKK),Landmine,97
 Kurdistan Workers' Party (PKK),Other Explosive Type,105
-Kurdistan Workers' Party (PKK),"Projectile (rockets, mortars, RPGs, etc.)",287
+Kurdistan Workers' Party (PKK),Projectile,287
 Kurdistan Workers' Party (PKK),Unknown Explosive Type,285
 Kurdistan Workers' Party (PKK),Unknown Gun Type,313
 Kurdistan Workers' Party (PKK),Vehicle,129
@@ -74,7 +75,7 @@ New People's Army (NPA),Grenade,67
 New People's Army (NPA),Handgun,307
 New People's Army (NPA),Landmine,199
 New People's Army (NPA),Other Explosive Type,32
-New People's Army (NPA),"Projectile (rockets, mortars, RPGs, etc.)",53
+New People's Army (NPA),Projectile,53
 New People's Army (NPA),Unknown Explosive Type,242
 New People's Army (NPA),Unknown Gun Type,1094
 New People's Army (NPA),Vehicle,1
@@ -84,7 +85,7 @@ Shining Path (SL),Grenade,16
 Shining Path (SL),Handgun,437
 Shining Path (SL),Landmine,19
 Shining Path (SL),Other Explosive Type,6
-Shining Path (SL),"Projectile (rockets, mortars, RPGs, etc.)",15
+Shining Path (SL),Projectile,15
 Shining Path (SL),Unknown Explosive Type,1847
 Shining Path (SL),Unknown Gun Type,90
 Shining Path (SL),Vehicle,39
@@ -94,7 +95,7 @@ Taliban,Grenade,49
 Taliban,Handgun,17
 Taliban,Landmine,851
 Taliban,Other Explosive Type,154
-Taliban,"Projectile (rockets, mortars, RPGs, etc.)",789
+Taliban,Projectile,789
 Taliban,Unknown Explosive Type,1104
 Taliban,Unknown Gun Type,3527
 Taliban,Vehicle,651
