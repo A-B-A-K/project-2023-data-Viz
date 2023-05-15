@@ -122,21 +122,23 @@ document.addEventListener("DOMContentLoaded", function () {
                     imageContainer.removeChild(imageContainer.firstChild);
                   }
                   textContainer.innerHTML = "<p>The first step into studying the nature of terrorist attacks was to study the groups that perpetrated them. We therefore present you a graph listing the terrorist organisations with the most casualties. Next to it we deemed interesting to study the weapons used most commonly by these groups which we represented by a heatmap.</p> <div class='graph1' style='border: 3px solid #3C3C3C; border-radius: 15px;'> </div>";
-            
-                  // Fetch the JSON file
-                  fetch('../data/miscellaneous/fatalities_per_group.json')
-                    .then(response => response.json())
+              
+                  fetch("https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/Alex/data/miscellaneous/fatalities_per_group.csv")
+                    .then(response => response.text()) // Parse response as text
                     .then(data => {
-                      processData(data); // Process the JSON data as needed
+                      processData(data); // Process the CSV data
                     })
                     .catch(error => {
                       console.error('Error:', error);
                     });
-            
+              
                   function processData(data) {
+                    // Convert CSV text to array of objects
+                    const dataArray = d3.csvParse(data);
+              
                     // Sort the data by nkill descending and slice the first 10
-                    let top10 = data.sort((a, b) => b.nkill - a.nkill).slice(0, 10);
-            
+                    let top10 = dataArray.sort((a, b) => b.nkill - a.nkill).slice(0, 10);
+              
                     // Plot the data
                     plotData(top10);
                   }
