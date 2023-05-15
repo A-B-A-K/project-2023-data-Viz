@@ -132,10 +132,9 @@ document.addEventListener("DOMContentLoaded", function () {
                   .catch(error => console.error('Error:', error));
               
               // Fetch and process heatmap_data_pivot.csv
-              fetch("https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/Alex/data/heatmap/heatmap_data.csv")
-                  .then(response => response.text())
-                  .then(heatmapdata => {
-                      const processedHeatmapData = processHeatmap(heatmapdata);
+                d3.csv("https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/Alex/data/heatmap/heatmap_data.csv")
+                  .then(data => {
+                      const processedHeatmapData = processHeatmap(data);
                       plotHeatmap(processedHeatmapData);
                   })
                   .catch(error => console.error('Error:', error));
@@ -144,6 +143,9 @@ document.addEventListener("DOMContentLoaded", function () {
                   // Process heatmap data here
                   // Assuming d3.csvParse is needed for this data too
                   //const dataArray = d3.csvParse(data);
+                  data.forEach(d => {
+                    d.count = +d.count; // unary plus operator converts string to number
+                  });
                   return data
                   // Add your additional processing logic here
                   //return dataArray;
@@ -376,17 +378,16 @@ document.addEventListener("DOMContentLoaded", function () {
         svg.selectAll("rect")
             .transition()
             .duration(800)
-            .attr("y", function(d) { return y(d.weapsubtype1_txt); })
+            .attr("y", function(d) { return y(d.nkill); })
             .attr("height", function(d) { return height - y(d.nkill); })
             .delay(function(d,i){return(i*100)})
     }
 
     function plotHeatmap(data) {
-        console.log(data);
         var margin = { top: 30, right: 30, bottom: 30, left: 30 },
           width = 450 - margin.left - margin.right,
           height = 450 - margin.top - margin.bottom;
-        
+      
         var svg = d3
           .select(".graph2")
           .append("svg")
@@ -395,14 +396,15 @@ document.addEventListener("DOMContentLoaded", function () {
           .append("g")
           .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
       
-        var myGroups = ["Arson/Fire","Automatic or Semi-Automatic Rifle", "Grenade","Handgun","Landmine", "Other Explosive Type", "Projectile (rockets, mortars, RPGs, etc.)","Unknown Explosive Type","Unknown Gun Type","Vehicle" ];
-        var myVars = ["Al-Shabaab", "Boko Haram", "Farabundo Marti National Liberation Front (FMLN)","Houthi extremists (Ansar Allah)","Irish Republican Army (IRA)","Islamic State of Iraq and the Levant (ISIL)","Kurdistan Workers' Party (PKK)","Maoists","New People's Army (NPA)","Palestinians","Revolutionary Armed Forces of Colombia (FARC)","Shining Path (SL)","Taliban"];
-      
-        //var myGroups = [...new Set(data.map(item => item.gname))];
-        //var myVars = [...new Set(data.map(item => item.weapsubtype1_txt))];
+        const xValue = d => d.gname;
+        const yValue = d => d.weapsubtype1_txt;
+        const count = d => d.count;
+        console.log("PEOS")
+        console.log(data.map(d => count(d)));
+
         var x = d3.scaleBand()
           .range([0, width])
-          .domain(myGroups)
+          .domain(data.map(d => xValue(d)))
           .padding(0.01);
         svg.append("g")
           .attr("transform", "translate(0," + height + ")")
@@ -410,14 +412,14 @@ document.addEventListener("DOMContentLoaded", function () {
       
         var y = d3.scaleBand()
           .range([height, 0])
-          .domain(myVars)
+          .domain(data.map(d => yValue(d)))
           .padding(0.01);
         svg.append("g")
           .call(d3.axisLeft(y));
       
         var myColor = d3.scaleLinear()
-          .range(["white", "#69b3a2"])
-          .domain([1, 100]);
+          .range(["white", "#e8bcf0"])
+          .domain([1, 1500]);
       
         var tooltip = d3.select(".graph2")
           .append("div")
@@ -459,8 +461,7 @@ document.addEventListener("DOMContentLoaded", function () {
       }
 
 
-    //plotHeatmap has 
-
+    
     // Define the map object and add it to the "map" div container
     var mymap = L.map('map').setView([46.5197, 6.6323], 13);
     // Add the tile layer to the map
