@@ -132,10 +132,10 @@ document.addEventListener("DOMContentLoaded", function () {
                   .catch(error => console.error('Error:', error));
               
               // Fetch and process heatmap_data_pivot.csv
-              fetch("https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/Alex/data/heatmap/heatmap_data_pivot.csv")
+              fetch("https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/Alex/data/heatmap/heatmap_data.csv")
                   .then(response => response.text())
-                  .then(data => {
-                      const processedHeatmapData = processHeatmap(data);
+                  .then(heatmapdata => {
+                      const processedHeatmapData = processHeatmap(heatmapdata);
                       plotHeatmap(processedHeatmapData);
                   })
                   .catch(error => console.error('Error:', error));
@@ -376,16 +376,17 @@ document.addEventListener("DOMContentLoaded", function () {
         svg.selectAll("rect")
             .transition()
             .duration(800)
-            .attr("y", function(d) { return y(d.nkill); })
+            .attr("y", function(d) { return y(d.weapsubtype1_txt); })
             .attr("height", function(d) { return height - y(d.nkill); })
             .delay(function(d,i){return(i*100)})
     }
 
     function plotHeatmap(data) {
+        console.log(data);
         var margin = { top: 30, right: 30, bottom: 30, left: 30 },
           width = 450 - margin.left - margin.right,
           height = 450 - margin.top - margin.bottom;
-      
+        
         var svg = d3
           .select(".graph2")
           .append("svg")
@@ -456,6 +457,10 @@ document.addEventListener("DOMContentLoaded", function () {
         .on("mousemove", mousemove)
         .on("mouseleave", mouseleave)
       }
+
+
+    //plotHeatmap has 
+
     // Define the map object and add it to the "map" div container
     var mymap = L.map('map').setView([46.5197, 6.6323], 13);
     // Add the tile layer to the map
