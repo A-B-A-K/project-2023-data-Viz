@@ -123,35 +123,41 @@ document.addEventListener("DOMContentLoaded", function () {
                   }
                   textContainer.innerHTML = "<p>The first step into studying the nature of terrorist attacks was to study the groups that perpetrated them. We therefore present you a graph listing the terrorist organisations with the most casualties. Next to it we deemed interesting to study the weapons used most commonly by these groups which we represented by a heatmap.</p> <div class='graph1' style='border: 3px solid #3C3C3C; border-radius: 15px;'> </div> <div class='graph2' style='border: 3px solid #3C3C3C; border-radius: 15px;'> </div>";
                 
-                  // Fetch fatalities_per_group.csv
                   fetch("https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/Alex/data/miscellaneous/fatalities_per_group.csv")
-                    .then(response => response.text()) // Parse response as text
-                    .then(data => {
-                      processData(data); // Process the CSV data for the first graph
-                      return fetch("https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/Alex/data/heatmap/heatmap_data_pivot.csv");
-                    })
-                    .then(response => response.text()) // Parse response as text
-                    .then(data => {
-                      processHeatmap(data); // Process the CSV data for the heatmap
-                    })
-                    .catch(error => {
-                      console.error('Error:', error);
-                    });
-                
-                    function processHeatmap(data) {
-                        plotHeatmap(data);
-                      }
-                
-                  function processData(data) {
-                    // Convert CSV text to array of objects
-                    const dataArray = d3.csvParse(data);
-                
-                    // Sort the data by nkill descending and slice the first 10
-                    let top10 = dataArray.sort((a, b) => b.nkill - a.nkill).slice(0, 10);
-                
-                    // Plot the data for the first graph
-                    plotData(top10);
-                  }
+                  .then(response => response.text())
+                  .then(data => {
+                      const processedData = processData(data);
+                      plotData(processedData);
+                  })
+                  .catch(error => console.error('Error:', error));
+              
+              // Fetch and process heatmap_data_pivot.csv
+              fetch("https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/Alex/data/heatmap/heatmap_data_pivot.csv")
+                  .then(response => response.text())
+                  .then(data => {
+                      const processedHeatmapData = processHeatmap(data);
+                      plotHeatmap(processedHeatmapData);
+                  })
+                  .catch(error => console.error('Error:', error));
+              
+              function processHeatmap(data) {
+                  // Process heatmap data here
+                  // Assuming d3.csvParse is needed for this data too
+                  //const dataArray = d3.csvParse(data);
+                  return data
+                  // Add your additional processing logic here
+                  //return dataArray;
+              }
+              
+              function processData(data) {
+                  // Convert CSV text to array of objects
+                  const dataArray = d3.csvParse(data);
+              
+                  // Sort the data by nkill descending and slice the first 10
+                  let top10 = dataArray.sort((a, b) => b.nkill - a.nkill).slice(0, 10);
+              
+                  return top10;
+              }
                   break;
             case 2:
                 while (imageContainer.firstChild) {
@@ -391,6 +397,8 @@ document.addEventListener("DOMContentLoaded", function () {
         var myGroups = ["Arson/Fire","Automatic or Semi-Automatic Rifle", "Grenade","Handgun","Landmine", "Other Explosive Type", "Projectile (rockets, mortars, RPGs, etc.)","Unknown Explosive Type","Unknown Gun Type","Vehicle" ];
         var myVars = ["Al-Shabaab", "Boko Haram", "Farabundo Marti National Liberation Front (FMLN)","Houthi extremists (Ansar Allah)","Irish Republican Army (IRA)","Islamic State of Iraq and the Levant (ISIL)","Kurdistan Workers' Party (PKK)","Maoists","New People's Army (NPA)","Palestinians","Revolutionary Armed Forces of Colombia (FARC)","Shining Path (SL)","Taliban"];
       
+        //var myGroups = [...new Set(data.map(item => item.gname))];
+        //var myVars = [...new Set(data.map(item => item.weapsubtype1_txt))];
         var x = d3.scaleBand()
           .range([0, width])
           .domain(myGroups)
