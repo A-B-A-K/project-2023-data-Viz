@@ -138,11 +138,9 @@ document.addEventListener("DOMContentLoaded", function () {
                       console.error('Error:', error);
                     });
                 
-                  function processHeatmap(data) {
-                    // Convert CSV text to array of objects
-                    const dataArray = d3.csvParse(data);
-                    plotHeatmap(dataArray); // Plot the heatmap
-                  }
+                    function processHeatmap(data) {
+                        plotHeatmap(data);
+                      }
                 
                   function processData(data) {
                     // Convert CSV text to array of objects
@@ -378,12 +376,10 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function plotHeatmap(data) {
-        // Define the dimensions of the heatmap
-        var margin = { top: 50, right: 50, bottom: 50, left: 50 },
-          width = 800 - margin.left - margin.right,
-          height = 500 - margin.top - margin.bottom;
+        var margin = { top: 30, right: 30, bottom: 30, left: 30 },
+          width = 450 - margin.left - margin.right,
+          height = 450 - margin.top - margin.bottom;
       
-        // Append the SVG container
         var svg = d3
           .select(".graph2")
           .append("svg")
@@ -392,63 +388,66 @@ document.addEventListener("DOMContentLoaded", function () {
           .append("g")
           .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
       
-        // Convert data types
-        data.forEach(function (d) {
-          d.gname = d.gname;
-          d["Arson/Fire"] = +d["Arson/Fire"];
-          d["Automatic or Semi-Automatic Rifle"] = +d["Automatic or Semi-Automatic Rifle"];
-          d["Grenade"] = +d["Grenade"];
-          d["Handgun"] = +d["Handgun"];
-          d["Landmine"] = +d["Landmine"];
-          d["Other Explosive Type"] = +d["Other Explosive Type"];
-          d["Projectile (rockets, mortars, RPGs, etc.)"] = +d["Projectile (rockets, mortars, RPGs, etc.)"];
-          d["Unknown Explosive Type"] = +d["Unknown Explosive Type"];
-          d["Unknown Gun Type"] = +d["Unknown Gun Type"];
-          d["Vehicle"] = +d["Vehicle"];
-        });
+        var myGroups = ["Arson/Fire","Automatic or Semi-Automatic Rifle", "Grenade","Handgun","Landmine", "Other Explosive Type", "Projectile (rockets, mortars, RPGs, etc.)","Unknown Explosive Type","Unknown Gun Type","Vehicle" ];
+        var myVars = ["Al-Shabaab", "Boko Haram", "Farabundo Marti National Liberation Front (FMLN)","Houthi extremists (Ansar Allah)","Irish Republican Army (IRA)","Islamic State of Iraq and the Levant (ISIL)","Kurdistan Workers' Party (PKK)","Maoists","New People's Army (NPA)","Palestinians","Revolutionary Armed Forces of Colombia (FARC)","Shining Path (SL)","Taliban"];
       
-        // Define the color scale
-        var colorScale = d3.scaleSequential(d3.interpolateCool).domain([0, d3.max(data, function (d) { return d3.max(Object.values(d).slice(1)); })]);
-      
-        // Define the x and y scales
-        var xScale = d3.scaleBand()
+        var x = d3.scaleBand()
           .range([0, width])
-          .domain(data.map(function (d) { return d.gname; }))
-          .padding(0.1);
-      
-        var yScale = d3.scaleBand()
-          .range([height, 0])
-          .domain(Object.keys(data[0]).slice(1))
-          .padding(0.1);
-      
-        // Create the heatmap rectangles
-        svg.selectAll()
-          .data(data, function (d) { return d.gname + ":" + Object.keys(d)[1]; })
-          .enter()
-          .append("rect")
-          .attr("x", function (d) { return xScale(d.gname); })
-          .attr("y", function (d) { return yScale(Object.keys(d)[1]); })
-          .attr("width", xScale.bandwidth())
-          .attr("height", yScale.bandwidth())
-          .style("fill", function (d) { return colorScale(d[Object.keys(d)[1]]); });
-      
-        // Add x-axis
+          .domain(myGroups)
+          .padding(0.01);
         svg.append("g")
           .attr("transform", "translate(0," + height + ")")
-          .call(d3.axisBottom(xScale))
-          .selectAll("text")
-          .style("text-anchor", "end")
-          .attr("transform", "rotate(-45)")
-          .attr("dx", "-.8em")
-          .attr("dy", ".15em");
+          .call(d3.axisBottom(x));
       
-        // Add y-axis
+        var y = d3.scaleBand()
+          .range([height, 0])
+          .domain(myVars)
+          .padding(0.01);
         svg.append("g")
-          .call(d3.axisLeft(yScale));
+          .call(d3.axisLeft(y));
       
-        // Add color legend
+        var myColor = d3.scaleLinear()
+          .range(["white", "#69b3a2"])
+          .domain([1, 100]);
+      
+        var tooltip = d3.select(".graph2")
+          .append("div")
+          .style("opacity", 0)
+          .attr("class", "tooltip")
+          .style("background-color", "white")
+          .style("border", "solid")
+          .style("border-width", "2px")
+          .style("border-radius", "5px")
+          .style("padding", "5px");
+      
+        var mouseover = function (d) {
+          tooltip.style("opacity", 1);
+        };
+      
+        var mousemove = function (d) {
+          tooltip
+            .html("The exact value of<br>this cell is: " + d.count)
+            .style("left", (d3.pointer(this)[0] + 70) + "px")
+            .style("top", (d3.pointer(this)[1]) + "px");
+        };
+      
+        var mouseleave = function (d) {
+          tooltip.style("opacity", 0);
+        };
+      
+        svg.selectAll()
+        .data(data, function(d) {return d.gname+':'+d.weapsubtype1_txt;})
+        .enter()
+        .append("rect")
+            .attr("x", function(d) { return x(d.gname) })
+            .attr("y", function(d) { return y(d.weapsubtype1_txt) })
+            .attr("width", x.bandwidth() )
+            .attr("height", y.bandwidth() )
+            .style("fill", function(d) { return myColor(d.count)} )
+        .on("mouseover", mouseover)
+        .on("mousemove", mousemove)
+        .on("mouseleave", mouseleave)
       }
-
     // Define the map object and add it to the "map" div container
     var mymap = L.map('map').setView([46.5197, 6.6323], 13);
     // Add the tile layer to the map
