@@ -121,29 +121,40 @@ document.addEventListener("DOMContentLoaded", function () {
                 while (imageContainer.firstChild) {
                     imageContainer.removeChild(imageContainer.firstChild);
                   }
-                  textContainer.innerHTML = "<p>The first step into studying the nature of terrorist attacks was to study the groups that perpetrated them. We therefore present you a graph listing the terrorist organisations with the most casualties. Next to it we deemed interesting to study the weapons used most commonly by these groups which we represented by a heatmap.</p> <div class='graph1' style='border: 3px solid #3C3C3C; border-radius: 15px;'> </div>";
-              
+                  textContainer.innerHTML = "<p>The first step into studying the nature of terrorist attacks was to study the groups that perpetrated them. We therefore present you a graph listing the terrorist organisations with the most casualties. Next to it we deemed interesting to study the weapons used most commonly by these groups which we represented by a heatmap.</p> <div class='graph1' style='border: 3px solid #3C3C3C; border-radius: 15px;'> </div> <div class='graph2' style='border: 3px solid #3C3C3C; border-radius: 15px;'> </div>";
+                
+                  // Fetch fatalities_per_group.csv
                   fetch("https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/Alex/data/miscellaneous/fatalities_per_group.csv")
                     .then(response => response.text()) // Parse response as text
                     .then(data => {
-                      processData(data); // Process the CSV data
+                      processData(data); // Process the CSV data for the first graph
+                      return fetch("https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/Alex/data/heatmap/heatmap_data_pivot.csv");
+                    })
+                    .then(response => response.text()) // Parse response as text
+                    .then(data => {
+                      processHeatmap(data); // Process the CSV data for the heatmap
                     })
                     .catch(error => {
                       console.error('Error:', error);
                     });
-              
+                
+                  function processHeatmap(data) {
+                    // Convert CSV text to array of objects
+                    const dataArray = d3.csvParse(data);
+                    plotHeatmap(dataArray); // Plot the heatmap
+                  }
+                
                   function processData(data) {
                     // Convert CSV text to array of objects
                     const dataArray = d3.csvParse(data);
-              
+                
                     // Sort the data by nkill descending and slice the first 10
                     let top10 = dataArray.sort((a, b) => b.nkill - a.nkill).slice(0, 10);
-              
-                    // Plot the data
+                
+                    // Plot the data for the first graph
                     plotData(top10);
                   }
                   break;
-                // Other cases
             case 2:
                 while (imageContainer.firstChild) {
                     imageContainer.removeChild(imageContainer.firstChild);
@@ -366,6 +377,77 @@ document.addEventListener("DOMContentLoaded", function () {
             .delay(function(d,i){return(i*100)})
     }
 
+    function plotHeatmap(data) {
+        // Define the dimensions of the heatmap
+        var margin = { top: 50, right: 50, bottom: 50, left: 50 },
+          width = 800 - margin.left - margin.right,
+          height = 500 - margin.top - margin.bottom;
+      
+        // Append the SVG container
+        var svg = d3
+          .select(".graph2")
+          .append("svg")
+          .attr("width", width + margin.left + margin.right)
+          .attr("height", height + margin.top + margin.bottom)
+          .append("g")
+          .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+      
+        // Convert data types
+        data.forEach(function (d) {
+          d.gname = d.gname;
+          d["Arson/Fire"] = +d["Arson/Fire"];
+          d["Automatic or Semi-Automatic Rifle"] = +d["Automatic or Semi-Automatic Rifle"];
+          d["Grenade"] = +d["Grenade"];
+          d["Handgun"] = +d["Handgun"];
+          d["Landmine"] = +d["Landmine"];
+          d["Other Explosive Type"] = +d["Other Explosive Type"];
+          d["Projectile (rockets, mortars, RPGs, etc.)"] = +d["Projectile (rockets, mortars, RPGs, etc.)"];
+          d["Unknown Explosive Type"] = +d["Unknown Explosive Type"];
+          d["Unknown Gun Type"] = +d["Unknown Gun Type"];
+          d["Vehicle"] = +d["Vehicle"];
+        });
+      
+        // Define the color scale
+        var colorScale = d3.scaleSequential(d3.interpolateCool).domain([0, d3.max(data, function (d) { return d3.max(Object.values(d).slice(1)); })]);
+      
+        // Define the x and y scales
+        var xScale = d3.scaleBand()
+          .range([0, width])
+          .domain(data.map(function (d) { return d.gname; }))
+          .padding(0.1);
+      
+        var yScale = d3.scaleBand()
+          .range([height, 0])
+          .domain(Object.keys(data[0]).slice(1))
+          .padding(0.1);
+      
+        // Create the heatmap rectangles
+        svg.selectAll()
+          .data(data, function (d) { return d.gname + ":" + Object.keys(d)[1]; })
+          .enter()
+          .append("rect")
+          .attr("x", function (d) { return xScale(d.gname); })
+          .attr("y", function (d) { return yScale(Object.keys(d)[1]); })
+          .attr("width", xScale.bandwidth())
+          .attr("height", yScale.bandwidth())
+          .style("fill", function (d) { return colorScale(d[Object.keys(d)[1]]); });
+      
+        // Add x-axis
+        svg.append("g")
+          .attr("transform", "translate(0," + height + ")")
+          .call(d3.axisBottom(xScale))
+          .selectAll("text")
+          .style("text-anchor", "end")
+          .attr("transform", "rotate(-45)")
+          .attr("dx", "-.8em")
+          .attr("dy", ".15em");
+      
+        // Add y-axis
+        svg.append("g")
+          .call(d3.axisLeft(yScale));
+      
+        // Add color legend
+      }
 
     // Define the map object and add it to the "map" div container
     var mymap = L.map('map').setView([46.5197, 6.6323], 13);

@@ -353,3 +353,11 @@ button.selected {
 .slider-text {
     margin-top: 20px; /* Add margin to the top of the text underneath the slider */
 }
+
+.graph1,
+.graph2 {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  height: auto;
+}
