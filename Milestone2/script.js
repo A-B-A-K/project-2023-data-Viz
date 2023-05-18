@@ -261,7 +261,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 while (imageContainer.firstChild) {
                     imageContainer.removeChild(imageContainer.firstChild);
                 }
-                textContainer.innerHTML = "<p>Lastly, in order to give as much information as possible we have added statistics on the different countries</p>";
+                textContainer.innerHTML = "<p>Lastly, in order to give as much information as possible we have added statistics on the different countries</p><div class='graph3' style='border: 3px solid #3C3C3C; border-radius: 15px;'> </div>";
 
                 // Create a dropdown menu (select element)
                 const countrySelect = document.createElement('select');
@@ -282,8 +282,20 @@ document.addEventListener("DOMContentLoaded", function () {
                 // Add an event listener to update the displayed image based on the selected country
                 countrySelect.addEventListener('change', () => {
                     // Update the image source (modify this to match your actual file paths and naming conventions)
-                    countryImage.src = `/data/countries/${countrySelect.value.replace(/ /g, '_')}.png`;
-                    countryImage.alt = countrySelect.value;
+                    //countryImage.src = `/data/countries/${countrySelect.value.replace(/ /g, '_')}.png`;
+                    //countryImage.alt = countrySelect.value;
+                    const selectedCountry = countrySelect.value.replace(/ /g, '_');
+                    //const imageUrl = `/data/countries/${selectedCountry}.png`;
+                    const dataUrl = `https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/Alex/data/countries/${selectedCountry}/${selectedCountry}_yearly_monthly.csv`;
+                    fetch(dataUrl)	
+                    .then(response => response.text())
+                    .then(data => {
+                        console.log(data);
+                        const processedData = processCountryData(data);
+                        console.log(processedData)
+                    })
+                    .catch(error => console.error('Error:', error));
+                    
                 });
         
                 // Append the dropdown menu and the image to the imageContainer
@@ -292,6 +304,9 @@ document.addEventListener("DOMContentLoaded", function () {
         
                 // Append the imageContainer to the graphContainer
                 graphContainer.appendChild(imageContainer);
+
+                
+                
                 break;
             default:
                 textContainer.innerHTML = `<p>Welcome to "Mapping the Shadows: An Interactive Journey Through Five Decades of Global
@@ -499,3 +514,131 @@ document.addEventListener("DOMContentLoaded", function () {
     var geojson = L.geoJson(GeoJsonData, geoJsonOptions).addTo(mymap);
 
 });
+
+
+function processCountryData(csvData) {
+    const data = d3.csvParse(csvData, d3.autoType);
+
+    let result = [];
+    let years = [...new Set(data.map(item => item.iyear))]; // get unique years
+
+    // initialize result with years and empty months
+    years.forEach(year => {
+        let row = { Year: year };
+        for (let i = 1; i <= 12; i++) {
+            row[i] = 0; // initialize months to 0
+        }
+        result.push(row);
+    });
+
+    // fill the result with data
+    data.forEach(item => {
+        let row = result.find(r => r.Year === item.iyear);
+        if (row) {
+            row[item.imonth] = item.count;
+        }
+    });
+
+    // Convert month numbers to names
+    result = result.map(row => {
+        let newRow = { Year: row.Year };
+        let months = [null, 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+        for (let i = 1; i <= 12; i++) {
+            newRow[months[i]] = row[i];
+        }
+        return newRow;
+    });
+    console.log(result);
+    plotmovinggraphs(result);
+    return result;
+}
+
+function plotmovinggraphs(data) {
+    var margin = {top: 20, right: 30, bottom: 0, left: 10},
+        width = 460 - margin.left - margin.right,
+        height = 400 - margin.top - margin.bottom;
+
+    var svg = d3.select(".graph3")
+      .append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+      .append("g")
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+    var keys = Object.keys(data[0]).slice(1);   // Month names
+
+    //var x = d3.scaleBand()
+    //    .domain(keys)
+    //    .range([ 0, width ]);
+
+    var x = d3.scaleBand()
+        .domain(['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'])
+        .range([ 0, width ]);
+    svg.append("g")
+        .attr("transform", "translate(0," + height*0.8 + ")")
+        .call(d3.axisBottom(x).tickSize(-height*.7))
+        .select(".domain").remove();
+
+    svg.selectAll(".tick line").attr("stroke", "#b8b8b8");  // Vertical grid lines above month names
+
+    svg.append("text")
+        .attr("text-anchor", "end")
+        .attr("x", width)
+        .attr("y", height-30 )
+        .text("Time (month)");
+
+    var y = d3.scaleLinear()
+        .domain([-100000, 100000])
+        .range([ height, 0 ]);
+
+    var color = d3.scaleOrdinal()
+        .domain(keys)
+        .range(d3.schemeDark2);
+
+    var stackedData = d3.stack()
+        .offset(d3.stackOffsetSilhouette)
+        .keys(keys)
+        (data);
+
+    var Tooltip = svg
+        .append("text")
+        .attr("x", 0)
+        .attr("y", 0)
+        .style("opacity", 0)
+        .style("font-size", 17);
+
+    //var mouseover = function(d) {
+    //    Tooltip.style("opacity", 1)
+    //    d3.selectAll(".myArea").style("opacity", .2)
+    //    d3.select(this)
+    //        .style("stroke", "black")
+    //        .style("opacity", 1)
+    //}
+    //var mousemove = function(d,i) {
+    //    var year = d.data.Year;
+    //    Tooltip.text(year);
+    //}
+    //var mouseleave = function(d) {
+    //    Tooltip.style("opacity", 0)
+    //    d3.selectAll(".myArea").style("opacity", 1).style("stroke", "none")
+    //}
+
+    console.log(data)
+    
+    var area = d3.area()
+        .x(function(d) { return x(d.data.key); })
+        .y0(function(d) { return y(d[0]); })
+        .y1(function(d) { return y(d[1]); });
+
+    svg
+        .selectAll("mylayers")
+        .data(stackedData)
+        .enter()
+        .append("path")
+        .attr("class", "myArea")
+        .style("fill", function(d) { return color(d.key); })
+//.attr("d", area)
+    //    .on("mouseover", mouseover)
+    //    .on("mousemove", mousemove)
+    //    .on("mouseleave", mouseleave);
+}
