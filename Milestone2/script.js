@@ -287,11 +287,8 @@ document.addEventListener("DOMContentLoaded", function () {
                     const selectedCountry = countrySelect.value.replace(/ /g, '%20');
                     //const imageUrl = `/data/countries/${selectedCountry}.png`;
                     const dataUrl = `https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/Aristotelis/data/streamgraph/${selectedCountry}.csv`;
-                    // const dataUrl = `https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/Alex/data/countries/${selectedCountry}/${selectedCountry}_yearly_monthly.csv`;
                     d3.csv(dataUrl)	
                     .then(data => {
-                        console.log(data)
-                        const processedData = processCountryData(data);
                         plotStreamgraph(data);
                     })
                     .catch(error => console.error('Error:', error));
@@ -305,8 +302,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 // Append the imageContainer to the graphContainer
                 graphContainer.appendChild(imageContainer);
 
-                
-                
                 break;
             default:
                 textContainer.innerHTML = `<p>Welcome to "Mapping the Shadows: An Interactive Journey Through Five Decades of Global
@@ -580,65 +575,6 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-function processCountryData(data) {
-
-
-    let result = [];
-    let years = [...new Set(data.map(item => item.iyear))]; // get unique years
-
-    // initialize result with years and empty months
-    years.forEach(year => {
-        let row = { Year: year };
-        for (let i = 1; i <= 12; i++) {
-            row[i] = 0; // initialize months to 0
-        }
-        result.push(row);
-    });
-
-    // fill the result with data
-    data.forEach(item => {
-        let row = result.find(r => r.Year === item.iyear);
-        if (row) {
-            row[item.imonth] = item.count;
-        }
-    });
-
-    // Convert month numbers to names
-    result = result.map(row => {
-        let newRow = { Year: row.Year };
-        // let months = [null, 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
-        let months = [null, 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec']
-        for (let i = 1; i <= 12; i++) {
-            newRow[months[i]] = row[i];
-        }
-        return newRow;
-    });
-
-    let output = [];
-    let months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'];
-
-    let yearsSet = new Set();
-    result.forEach(obj => yearsSet.add(obj.Year));
-    let years_ = [...yearsSet];
-
-    let columns = ['Month', ...years_];
-
-    months.forEach(month => {
-        let newObj = { Month: month };
-
-        result.forEach(obj => {
-            newObj[obj.Year] = obj[month];
-        });
-
-        output.push(newObj);
-    });
-
-    
-
-
-    return { columns, output };
-}
-
 function plotStreamgraph(data) {
     const width = 460;
     const height = 400
@@ -685,7 +621,7 @@ function plotStreamgraph(data) {
         .text("Time (month)");
 
     var y = d3.scaleLinear()
-        .domain([-d3.max(countsByMonth), d3.max(countsByMonth)])
+        .domain([-d3.max(countsByMonth) * 2.5, d3.max(countsByMonth) * 2.5])
         .range([ innerHeight, 0 ]);
     svg.append("g")
         .call(d3.axisLeft(y))
@@ -693,19 +629,21 @@ function plotStreamgraph(data) {
 
     var color = d3.scaleOrdinal()
         .domain(keys)
-        .range(d3.schemeDark2);
+        .range(d3.schemeTableau10);
 
     var stackedData = d3.stack()
         .offset(d3.stackOffsetSilhouette)
         .keys(keys)
         (data);
 
-    var tooltip = svg
-        .append("text")
-        .attr("x", 0)
-        .attr("y", 0)
-        .style("opacity", 0);
-
+    var tooltip = d3.select("body")
+        .append("div")
+        .style("opacity", 0)
+        .style("font-size", 10)
+        .attr("class", "tooltip-streamgraph")
+        .style("font-size", 17)
+        .style("z-index", 1000);
+        
     
     var area = d3.area()
         .x(function(d) { return x(d.data.imonth); })
@@ -718,21 +656,27 @@ function plotStreamgraph(data) {
         .append("path")
             .attr("class", "myArea") 
             .style("fill", function(d) { return color(d.key); })
+            .style("opacity", .8)
        .attr("d", area)
-       .on("mouseover", function(d) {
-            tooltip.style("opacity", 1)
+       .on("mouseover", function(event, d) {
+           tooltip.transition()
+               .duration(200)
+               .style("opacity", 0.9);
+           tooltip.html(`<p>${d.key} </p>`)
+               .style("left", `${event.pageX}px`)
+               .style("top", `${event.pageY - 28}px`)
+               .style("background-color", color(d.key));
             d3.selectAll(".myArea").style("opacity", .2)
             d3.select(this)
                 .style("stroke", "black")
                 .style("opacity", 1)
         })
-       .on("mousemove", function(d,i) {
-           grp = keys[i]
-           console.log(grp)
-           tooltip.text(grp)
+       .on("mousemove", function(event, d) {
+           tooltip.style("left", `${event.pageX}px`)
+               .style("top", `${event.pageY - 28}px`);
         })
        .on("mouseleave", function(d) {
             tooltip.style("opacity", 0)
-            d3.selectAll(".myArea").style("opacity", 1).style("stroke", "none")
+            d3.selectAll(".myArea").style("opacity", .8).style("stroke", "none")
         });
 }
