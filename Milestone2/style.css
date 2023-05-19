@@ -388,6 +388,15 @@ button.selected {
     pointer-events: none;
 }
 
+.tooltip-streamgraph {
+    position: absolute;
+    background-color: goldenrod;
+    padding: 8px;
+    font-size: 14px;
+    color: white;
+    pointer-events: none;
+}
+
 .pretty-select {
     padding: 10px 15px;
     border-radius: 5px;
