@@ -387,3 +387,29 @@ button.selected {
     color: white;
     pointer-events: none;
 }
+
+.pretty-select {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    /* box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.2); */
+    font-size: 16px;
+    color: #f8f8f8;
+    background: gray;
+    appearance: none;
+    /* removes default select dropdown arrow */
+    position: relative;
+}
+
+.pretty-select:after {
+    content: '▼';
+    /* this is your custom dropdown arrow */
+    font-size: 10px;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    pointer-events: none;
+    /* this makes sure clicking on the arrow doesn't do anything */
+}

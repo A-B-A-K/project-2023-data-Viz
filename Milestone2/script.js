@@ -256,11 +256,20 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 // Create a dropdown menu (select element)
                 const countrySelect = document.createElement('select');
-                countrySelect.classList.add('country-select');
+                countrySelect.classList.add('country-select', 'pretty-select');
         
                 // Create an img element to display the country image
                 const countryImage = document.createElement('img');
                 countryImage.classList.add('country-image');
+
+                // Create a placeholder option
+                const placeholderOption = document.createElement('option');
+                placeholderOption.text = "Please select a country..."; 
+                placeholderOption.value = "";
+                placeholderOption.disabled = true;
+                placeholderOption.selected = true;
+                placeholderOption.hidden = true;
+                countrySelect.appendChild(placeholderOption);
         
                 // Populate the dropdown menu with country options
                 countryNames.forEach(country => {
@@ -275,14 +284,15 @@ document.addEventListener("DOMContentLoaded", function () {
                     // Update the image source (modify this to match your actual file paths and naming conventions)
                     //countryImage.src = `/data/countries/${countrySelect.value.replace(/ /g, '_')}.png`;
                     //countryImage.alt = countrySelect.value;
-                    const selectedCountry = countrySelect.value.replace(/ /g, '_');
+                    const selectedCountry = countrySelect.value.replace(/ /g, '%20');
                     //const imageUrl = `/data/countries/${selectedCountry}.png`;
-                    const dataUrl = `https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/master/data/countries/Greece/Greece_yearly_monthly.csv`;
+                    const dataUrl = `https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/Aristotelis/data/streamgraph/${selectedCountry}.csv`;
                     // const dataUrl = `https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/Alex/data/countries/${selectedCountry}/${selectedCountry}_yearly_monthly.csv`;
                     d3.csv(dataUrl)	
                     .then(data => {
+                        console.log(data)
                         const processedData = processCountryData(data);
-                        plotStreamgraph(processedData);
+                        plotStreamgraph(data);
                     })
                     .catch(error => console.error('Error:', error));
                     
@@ -623,7 +633,7 @@ function processCountryData(data) {
         output.push(newObj);
     });
 
-    console.log({ columns, output });
+    
 
 
     return { columns, output };
@@ -632,9 +642,20 @@ function processCountryData(data) {
 function plotStreamgraph(data) {
     const width = 460;
     const height = 400
-    var margin = {top: 20, right: 30, bottom: 0, left: 10};        
+    var margin = {top: 20, right: 30, bottom: 10, left: 75};        
     var innerWidth = width - margin.left - margin.right;
     var innerHeight = height - margin.top - margin.bottom;
+
+    // Calculate list of total per month
+    const countsByMonth = Array(12).fill(0); // Initialize an array to store counts for each month (assuming 12 months)
+
+    data.forEach(obj => {
+        const monthIndex = parseInt(obj.imonth) - 1; // Get the month index (subtract 1 since JavaScript uses zero-based indexing)
+        const values = Object.values(obj).slice(1, 32); // Get the values for each day of the month
+
+        const monthCount = values.reduce((acc, val) => acc + parseFloat(val), 0); // Calculate the sum of values for the month
+        countsByMonth[monthIndex] += monthCount; // Add the month count to the corresponding index in the countsByMonth array
+    });    
 
     var svg = d3.select(".graph3")
       .append("svg")
@@ -643,19 +664,12 @@ function plotStreamgraph(data) {
       .append("g")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-    // var keys = Object.keys(data[0]).slice(1);   // Month names
+    // console.log(data)
     var keys = data.columns.slice(1);   // Month names
-    console.log("keys")
-    console.log(keys)
 
-    //var x = d3.scaleBand()
-    //    .domain(keys)
-    //    .range([ 0, width ]);
-
-    var x = d3.scaleBand()
-        .domain(d3.extent(data, function (d) { return d.Month; }))
-        .range([0, innerWidth])
-        .padding(0.1);
+    var x = d3.scaleLinear()
+        .domain([1, 12])
+        .range([0, innerWidth]);
     svg.append("g")
         .attr("transform", "translate(0," + innerHeight * .8 + ")")
         .call(d3.axisBottom(x).tickSize(-innerHeight * .7))
@@ -672,8 +686,11 @@ function plotStreamgraph(data) {
         .text("Time (month)");
 
     var y = d3.scaleLinear()
-        .domain([-100, 100])
+        .domain([-d3.max(countsByMonth), d3.max(countsByMonth)])
         .range([ innerHeight, 0 ]);
+    svg.append("g")
+        .call(d3.axisLeft(y))
+        .attr("transform", "translate(-25, 0)");
 
     var color = d3.scaleOrdinal()
         .domain(keys)
@@ -684,34 +701,20 @@ function plotStreamgraph(data) {
         .keys(keys)
         (data);
 
-    // var Tooltip = svg
-    //     .append("text")
-    //     .attr("x", 0)
-    //     .attr("y", 0)
-    //     .style("opacity", 0)
-    //     .style("font-size", 17);
+    var tooltip = svg
+        .append("text")
+        .attr("x", 0)
+        .attr("y", 0)
+        .style("opacity", 0)
+        .style("font-size", 17)
+        .style("z-index", 1000)
+        .style("border", "solid")
+        .style("border-width", "5px");
 
-    //var mouseover = function(d) {
-    //    Tooltip.style("opacity", 1)
-    //    d3.selectAll(".myArea").style("opacity", .2)
-    //    d3.select(this)
-    //        .style("stroke", "black")
-    //        .style("opacity", 1)
-    //}
-    //var mousemove = function(d,i) {
-    //    var year = d.data.Year;
-    //    Tooltip.text(year);
-    //}
-    //var mouseleave = function(d) {
-    //    Tooltip.style("opacity", 0)
-    //    d3.selectAll(".myArea").style("opacity", 1).style("stroke", "none")
-    //}
-
-    console.log("data")
-    console.log(data)
+        
     
     var area = d3.area()
-        .x(function(d) { return x(d.data.key); })
+        .x(function(d) { return x(d.data.imonth); })
         .y0(function(d) { return y(d[0]); })
         .y1(function(d) { return y(d[1]); });
 
@@ -720,12 +723,22 @@ function plotStreamgraph(data) {
         .enter()
         .append("path")
             .attr("class", "myArea") 
-            .style("fill", function(d) { 
-                // console.log(d.key)
-                return color(d.key); 
-            })
-    //    .attr("d", area)
-    //    .on("mouseover", mouseover)
-    //    .on("mousemove", mousemove)
-    //    .on("mouseleave", mouseleave);
+            .style("fill", function(d) { return color(d.key); })
+       .attr("d", area)
+       .on("mouseover", function(d) {
+            tooltip.style("opacity", 1)
+            d3.selectAll(".myArea").style("opacity", .2)
+            d3.select(this)
+                .style("stroke", "black")
+                .style("opacity", 1)
+        })
+       .on("mousemove", function(d,i) {
+           grp = keys[i]
+           console.log(grp)
+           tooltip.text(grp)
+        })
+       .on("mouseleave", function(d) {
+            tooltip.style("opacity", 0)
+            d3.selectAll(".myArea").style("opacity", 1).style("stroke", "none")
+        });
 }
