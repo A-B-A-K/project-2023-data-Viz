@@ -566,17 +566,19 @@ function plotmovinggraphs(data) {
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
     var keys = Object.keys(data[0]).slice(1);   // Month names
+    console.log("keyyyyysss", keys);
 
     //var x = d3.scaleBand()
     //    .domain(keys)
     //    .range([ 0, width ]);
 
     var x = d3.scaleBand()
-        .domain(['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'])
+        //.domain(['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'])
+        .domain(d3.extent(data, function(d) { return d.year; }))
         .range([ 0, width ]);
     svg.append("g")
         .attr("transform", "translate(0," + height*0.8 + ")")
-        .call(d3.axisBottom(x).tickSize(-height*.7))
+        .call(d3.axisBottom(x).tickSize(-height*.7).tickValues(['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']))
         .select(".domain").remove();
 
     svg.selectAll(".tick line").attr("stroke", "#b8b8b8");  // Vertical grid lines above month names
@@ -588,7 +590,7 @@ function plotmovinggraphs(data) {
         .text("Time (month)");
 
     var y = d3.scaleLinear()
-        .domain([-100000, 100000])
+        .domain([-1000, 1000])
         .range([ height, 0 ]);
 
     var color = d3.scaleOrdinal()
@@ -607,38 +609,65 @@ function plotmovinggraphs(data) {
         .style("opacity", 0)
         .style("font-size", 17);
 
-    //var mouseover = function(d) {
-    //    Tooltip.style("opacity", 1)
-    //    d3.selectAll(".myArea").style("opacity", .2)
-    //    d3.select(this)
-    //        .style("stroke", "black")
-    //        .style("opacity", 1)
-    //}
+    var mouseover = function(d) {
+        Tooltip.style("opacity", 1)
+        d3.selectAll(".myArea").style("opacity", .2)
+        d3.select(this)
+            .style("stroke", "black")
+            .style("opacity", 1)
+    }
     //var mousemove = function(d,i) {
     //    var year = d.data.Year;
     //    Tooltip.text(year);
     //}
-    //var mouseleave = function(d) {
-    //    Tooltip.style("opacity", 0)
-    //    d3.selectAll(".myArea").style("opacity", 1).style("stroke", "none")
-    //}
+
+    var mousemove = function(d,i) {
+        grp = keys[i]
+        Tooltip.text(grp)
+      }
+
+    var mouseleave = function(d) {
+        Tooltip.style("opacity", 0)
+        d3.selectAll(".myArea").style("opacity", 1).style("stroke", "none")
+    }
 
     console.log(data)
     
+    //var area = d3.area()
+    //    .x(function(d) { return x(d.data.key); })
+    //    .y0(function(d) { return y(d[0]); })
+    //   .y1(function(d) { return y(d[1]); });
+
+    
     var area = d3.area()
-        .x(function(d) { return x(d.data.key); })
-        .y0(function(d) { return y(d[0]); })
-        .y1(function(d) { return y(d[1]); });
+    .x(function(d) {
+        var xValue = x(d.data.year);
+        console.log("x - Input: ", d);
+        console.log("x - Output: ", xValue);
+        return xValue;
+    })
+    .y0(function(d) {
+        var y0Value = y(d[0]);
+        console.log("y0 - Input: ", d);
+        console.log("y0 - Output: ", y0Value);
+        return y0Value;
+    })
+    .y1(function(d) {
+        var y1Value = y(d[1]);
+        console.log("y1 - Input: ", d);
+        console.log("y1 - Output: ", y1Value);
+        return y1Value;
+    });
 
     svg
-        .selectAll("mylayers")
+        .selectAll(".mylayers")
         .data(stackedData)
         .enter()
         .append("path")
-        .attr("class", "myArea")
-        .style("fill", function(d) { return color(d.key); })
-//.attr("d", area)
-    //    .on("mouseover", mouseover)
-    //    .on("mousemove", mousemove)
-    //    .on("mouseleave", mouseleave);
+            .attr("class", "myArea")
+            .style("fill", function(d) { return color(d.key); })
+            .attr("d", area)
+            .on("mouseover", mouseover)
+            .on("mousemove", mousemove)
+            .on("mouseleave", mouseleave);
 }
