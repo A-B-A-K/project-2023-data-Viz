@@ -277,13 +277,12 @@ document.addEventListener("DOMContentLoaded", function () {
                     //countryImage.alt = countrySelect.value;
                     const selectedCountry = countrySelect.value.replace(/ /g, '_');
                     //const imageUrl = `/data/countries/${selectedCountry}.png`;
-                    const dataUrl = `https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/Alex/data/countries/${selectedCountry}/${selectedCountry}_yearly_monthly.csv`;
-                    fetch(dataUrl)	
-                    .then(response => response.text())
+                    const dataUrl = `https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/master/data/countries/Greece/Greece_yearly_monthly.csv`;
+                    // const dataUrl = `https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/Alex/data/countries/${selectedCountry}/${selectedCountry}_yearly_monthly.csv`;
+                    d3.csv(dataUrl)	
                     .then(data => {
-                        console.log(data);
                         const processedData = processCountryData(data);
-                        console.log(processedData)
+                        plotStreamgraph(processedData);
                     })
                     .catch(error => console.error('Error:', error));
                     
@@ -498,13 +497,13 @@ document.addEventListener("DOMContentLoaded", function () {
                     .transition().duration(200)
                     .style("filter", "brightness(1)")
                     .style("stroke", "black")
-                    .style("stroke-width", "2px");
+                    .style("stroke-width", "1px");
 
                 d3.selectAll(`.${weapsubtype1_txtMapping[d.weapsubtype1_txt]}`)
                     .transition().duration(200)
                     .style("filter", "brightness(1)")
                     .style("stroke", "black")
-                    .style("stroke-width", "2px");
+                    .style("stroke-width", "1px");
 
                 tooltip.transition()
                     .duration(200)
@@ -530,9 +529,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 tooltip.style("opacity", 0);
             })
-      }
-
-
+    }
     
     // Define the map object and add it to the "map" div container
     var mymap = L.map('map').setView([46.5197, 6.6323], 13);
@@ -573,8 +570,8 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-function processCountryData(csvData) {
-    const data = d3.csvParse(csvData, d3.autoType);
+function processCountryData(data) {
+
 
     let result = [];
     let years = [...new Set(data.map(item => item.iyear))]; // get unique years
@@ -599,55 +596,84 @@ function processCountryData(csvData) {
     // Convert month numbers to names
     result = result.map(row => {
         let newRow = { Year: row.Year };
-        let months = [null, 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
-        // let months = [null, 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec']
+        // let months = [null, 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+        let months = [null, 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec']
         for (let i = 1; i <= 12; i++) {
             newRow[months[i]] = row[i];
         }
         return newRow;
     });
-    console.log(result);
-    plotmovinggraphs(result);
-    return result;
+
+    let output = [];
+    let months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'];
+
+    let yearsSet = new Set();
+    result.forEach(obj => yearsSet.add(obj.Year));
+    let years_ = [...yearsSet];
+
+    let columns = ['Month', ...years_];
+
+    months.forEach(month => {
+        let newObj = { Month: month };
+
+        result.forEach(obj => {
+            newObj[obj.Year] = obj[month];
+        });
+
+        output.push(newObj);
+    });
+
+    console.log({ columns, output });
+
+
+    return { columns, output };
 }
 
-function plotmovinggraphs(data) {
-    var margin = {top: 20, right: 30, bottom: 0, left: 10},
-        width = 460 - margin.left - margin.right,
-        height = 400 - margin.top - margin.bottom;
+function plotStreamgraph(data) {
+    const width = 460;
+    const height = 400
+    var margin = {top: 20, right: 30, bottom: 0, left: 10};        
+    var innerWidth = width - margin.left - margin.right;
+    var innerHeight = height - margin.top - margin.bottom;
 
     var svg = d3.select(".graph3")
       .append("svg")
-        .attr("width", width + margin.left + margin.right)
-        .attr("height", height + margin.top + margin.bottom)
+        .attr("width", innerWidth + margin.left + margin.right)
+        .attr("height", innerHeight + margin.top + margin.bottom)
       .append("g")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-    var keys = Object.keys(data[0]).slice(1);   // Month names
+    // var keys = Object.keys(data[0]).slice(1);   // Month names
+    var keys = data.columns.slice(1);   // Month names
+    console.log("keys")
+    console.log(keys)
 
     //var x = d3.scaleBand()
     //    .domain(keys)
     //    .range([ 0, width ]);
 
     var x = d3.scaleBand()
-        .domain(['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'])
-        .range([ 0, width ]);
+        .domain(d3.extent(data, function (d) { return d.Month; }))
+        .range([0, innerWidth])
+        .padding(0.1);
     svg.append("g")
-        .attr("transform", "translate(0," + height*0.8 + ")")
-        .call(d3.axisBottom(x).tickSize(-height*.7))
-        .select(".domain").remove();
+        .attr("transform", "translate(0," + innerHeight * .8 + ")")
+        .call(d3.axisBottom(x).tickSize(-innerHeight * .7))
+        .select(".domain")
+        .remove();
 
     svg.selectAll(".tick line").attr("stroke", "#b8b8b8");  // Vertical grid lines above month names
 
+    // Add X axis label:
     svg.append("text")
         .attr("text-anchor", "end")
-        .attr("x", width)
-        .attr("y", height-30 )
+        .attr("x", 2*innerWidth/3)
+        .attr("y", innerHeight - 30 )
         .text("Time (month)");
 
     var y = d3.scaleLinear()
-        .domain([-100000, 100000])
-        .range([ height, 0 ]);
+        .domain([-100, 100])
+        .range([ innerHeight, 0 ]);
 
     var color = d3.scaleOrdinal()
         .domain(keys)
@@ -658,12 +684,12 @@ function plotmovinggraphs(data) {
         .keys(keys)
         (data);
 
-    var Tooltip = svg
-        .append("text")
-        .attr("x", 0)
-        .attr("y", 0)
-        .style("opacity", 0)
-        .style("font-size", 17);
+    // var Tooltip = svg
+    //     .append("text")
+    //     .attr("x", 0)
+    //     .attr("y", 0)
+    //     .style("opacity", 0)
+    //     .style("font-size", 17);
 
     //var mouseover = function(d) {
     //    Tooltip.style("opacity", 1)
@@ -681,6 +707,7 @@ function plotmovinggraphs(data) {
     //    d3.selectAll(".myArea").style("opacity", 1).style("stroke", "none")
     //}
 
+    console.log("data")
     console.log(data)
     
     var area = d3.area()
@@ -688,14 +715,16 @@ function plotmovinggraphs(data) {
         .y0(function(d) { return y(d[0]); })
         .y1(function(d) { return y(d[1]); });
 
-    svg
-        .selectAll("mylayers")
+    svg.selectAll("mylayers")
         .data(stackedData)
         .enter()
         .append("path")
-        .attr("class", "myArea")
-        .style("fill", function(d) { return color(d.key); })
-//.attr("d", area)
+            .attr("class", "myArea") 
+            .style("fill", function(d) { 
+                // console.log(d.key)
+                return color(d.key); 
+            })
+    //    .attr("d", area)
     //    .on("mouseover", mouseover)
     //    .on("mousemove", mousemove)
     //    .on("mouseleave", mouseleave);
