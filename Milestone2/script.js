@@ -600,7 +600,6 @@ function plotStreamgraph(data) {
       .append("g")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-    // console.log(data)
     var keys = data.columns.slice(1);   // Month names
 
     var x = d3.scaleLinear()
