@@ -664,7 +664,6 @@ function plotStreamgraph(data) {
       .append("g")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-    // console.log(data)
     var keys = data.columns.slice(1);   // Month names
 
     var x = d3.scaleLinear()
@@ -705,13 +704,8 @@ function plotStreamgraph(data) {
         .append("text")
         .attr("x", 0)
         .attr("y", 0)
-        .style("opacity", 0)
-        .style("font-size", 17)
-        .style("z-index", 1000)
-        .style("border", "solid")
-        .style("border-width", "5px");
+        .style("opacity", 0);
 
-        
     
     var area = d3.area()
         .x(function(d) { return x(d.data.imonth); })
