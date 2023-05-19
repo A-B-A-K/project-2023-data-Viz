@@ -33,7 +33,7 @@ header {
     align-items: center;
     height: 100%;
     flex-direction: row;
-    margin-left: 25px;
+    margin-left: 25px;    
     mix-blend-mode: multiply;
 }
 
