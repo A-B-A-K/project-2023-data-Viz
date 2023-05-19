@@ -362,3 +362,28 @@ button.selected {
   padding: 20px;
   height: auto;
 }
+
+.tooltip-bar {
+    position: absolute;
+    background-color: #69b3a2;
+    padding: 8px;
+    font-size: 14px;
+    color: white;
+    pointer-events: none;
+}
+
+.hovered-bar {
+    filter: brightness(125%);
+    /* Reduce brightness to 85% (or adjust as desired) */
+    transition: filter 0.2s ease;
+    /* Apply a smooth transition effect */
+}
+
+.tooltip-heatmap {
+    position: absolute;
+    background-color: #69b3a2;
+    padding: 8px;
+    font-size: 14px;
+    color: white;
+    pointer-events: none;
+}
