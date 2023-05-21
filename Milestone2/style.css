@@ -1,4 +1,6 @@
 /* Global Styles */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 html,
 body {
     margin: 0;
@@ -6,7 +8,7 @@ body {
     height: 100%;
     background-color: #f7f7ef;
     /* background-color: #FFABAB; */
-    font-family: Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* Header Styles
@@ -63,7 +65,7 @@ canvas#sketch {
     flex-direction: row;
     font-size: medium;
     font-weight: bold;
-    font-family: monospace;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
     /* color: #ef554b; */
     color: #D14D72;
@@ -160,7 +162,7 @@ button {
     transition: all 0.1s ease-in-out;
     transform: scale(1);
     background-color: transparent;
-    font-family: monospace;
+    font-family: 'Montserrat', sans-serif;
 }
 
 button:hover {
@@ -234,7 +236,7 @@ button.selected {
     width: 90%;
     padding-bottom: 45%;
     /* 9/16 * 100% = 56.25% for a 16:9 aspect ratio; adjust this value based on your desired aspect ratio */
-    border: 3px solid #3C3C3C;
+    border: 0px solid #3C3C3C;
     border-radius: 15px;
     background-color: #F9F9F9;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
@@ -261,10 +263,10 @@ button.selected {
 
 .map {
     width: 80%;
-    padding-bottom: 45%;
     height: 100%;
-    /* 9/16 * 100% = 56.25% for a 16:9 aspect ratio; adjust this value based on your desired aspect ratio */
-    border: 3px solid #F9F9F9;
+    padding-bottom: 45%;
+    margin-top: 5%;
+    border: 3px solid dimgrey;
     border-radius: 15px;
     background-color: #F9F9F9;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
@@ -351,6 +353,7 @@ button.selected {
     background-color: black; /* Set the background color of the slider track */
     outline: none; /* Remove the outline around the slider */
     -webkit-appearance: none; /* Remove default appearance for Webkit browsers */
+
 }
 
 .slider::-webkit-slider-thumb {
