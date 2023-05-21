@@ -115,6 +115,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
         const textContainer = document.querySelector(".text-container");
         const graphContainer = document.querySelector(".graph-container");
+        const mapContainer = document.getElementById('map');
+        const mapBox = document.querySelector(".map leaflet-container leaflet-touch leaflet-retina leaflet-fade-anim leaflet-grab leaflet-touch-drag leaflet-touch-zoom");
         
         switch (buttonNumber) {
             case 1:
@@ -189,26 +191,20 @@ document.addEventListener("DOMContentLoaded", function () {
                 while (imageContainer.firstChild) {
                     imageContainer.removeChild(imageContainer.firstChild);
                 }
-                textContainer.innerHTML = "<p>Before delving deeper in the analysis of the data we tried figuring out if there were specific trends in when the attacks were committed during the year</p>";
+                textContainer.innerHTML = "<p>Before delving deeper in the analysis of the data we tried figuring out if there were specific trends in when the attacks were committed during the year</p><div class='graph5' style='border: 3px solid #3C3C3C; border-radius: 15px;'> </div>";
                 if (!imageContainer.hasChildNodes()) {
-                    // add image to the map container
-                    const image1 = document.createElement('img');   // Should not be created every time
-                    const image2 = document.createElement('img');   // Should not be created every time
-                    image1.src = 'images/plot1page3.png';
-                    image1.alt = 'Image 1';
-                    image2.src = 'images/plot2page3.png';
-                    image2.alt = 'Image 2';
-                    
-                    const imageContainer1 = document.createElement('div');
-                    imageContainer1.classList.add('image-container');
-                    imageContainer1.appendChild(image1);
-                    const imageContainer2 = document.createElement('div');
-                    imageContainer2.classList.add('image-container');
-                    imageContainer2.appendChild(image2);
-                    
-                    imageContainer.appendChild(imageContainer1);
-                    imageContainer.appendChild(imageContainer2);
-                    graphContainer.appendChild(imageContainer);
+                    d3.csv("https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/Alex/data/miscellaneous/seasonality_raw.csv")
+                  .then(data => {
+                      plotSeasonality(processHeatmap(data));
+                  })
+                  .catch(error => console.error('Error:', error));
+              
+                function processHeatmap(data) {
+                    data.forEach(d => {
+                        d.count = +d.count; // unary plus operator converts string to number
+                    });
+                    return data;
+                }
                 }
                 break;
             case 4:
@@ -252,7 +248,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 while (imageContainer.firstChild) {
                     imageContainer.removeChild(imageContainer.firstChild);
                 }
-                textContainer.innerHTML = "<p>Lastly, in order to give as much information as possible we have added statistics on the different countries</p><div class='graph3' style='border: 3px solid #3C3C3C; border-radius: 15px;'> </div>";
+                textContainer.innerHTML = "<p>Lastly, in order to give as much information as possible we have added statistics on the different countries</p><div class='graph3' style='border: 3px solid #3C3C3C; border-radius: 15px;'>";
+                //mapContainer.innerHTML = " </div><canvas id='my_dataviz'></canvas>"
+                //plotMap();
 
                 // Create a dropdown menu (select element)
                 const countrySelect = document.createElement('select');
@@ -277,7 +275,10 @@ document.addEventListener("DOMContentLoaded", function () {
                     //countryImage.alt = countrySelect.value;
                     const selectedCountry = countrySelect.value.replace(/ /g, '_');
                     //const imageUrl = `/data/countries/${selectedCountry}.png`;
+                    const quotedCountry = "'" + selectedCountry + "'";
                     const dataUrl = `https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/Alex/data/countries/${selectedCountry}/${selectedCountry}_yearly_monthly.csv`;
+                    console.log("vfjdsiorjoigrjagra", quotedCountry)
+                    highlightCountry(selectedCountry);
                     fetch(dataUrl)	
                     .then(response => response.text())
                     .then(data => {
@@ -533,6 +534,150 @@ document.addEventListener("DOMContentLoaded", function () {
       }
 
 
+    function plotSeasonality(data) {
+        const width = 450;
+        const height = 450;
+
+        var margin = { top: 30, right: 30, bottom: 130, left: 150 };
+        const innerWidth = width - margin.left - margin.right;
+        const innerHeight = height - margin.top - margin.bottom;
+
+        const tooltip = d3.select("body")
+            .append("div")
+            .attr("class", "tooltip-heatmap")
+            .style("opacity", 0);
+
+        var svg = d3
+            .select(".graph5")
+            .append("svg")
+            .attr("width", innerWidth + margin.left + margin.right)
+            .attr("height", innerHeight + margin.top + margin.bottom)
+            .append("g")
+            .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+        const xValue = d => d.imonth;
+        const yValue = d => d.iday;
+        const count = d => d.count;
+
+        var x = d3.scaleBand()
+            .range([0, innerWidth])
+            .domain(data.map(d => xValue(d)))
+            .padding(0.01);
+        svg.append("g")
+            .attr("transform", "translate(0," + innerHeight + ")")
+            .call(d3.axisBottom(x));
+
+        var y = d3.scaleBand()
+            .range([innerHeight, 0])
+            .domain(data.map(d => yValue(d)))
+            .padding(0.01);
+        svg.append("g")
+            .call(d3.axisLeft(y));
+
+        var myColor = d3.scaleSequential()
+            .interpolator(d3.interpolateViridis)
+            .domain([0, 750]);;
+
+        //let gnameMapping = {};
+        //let weapsubtype1_txtMapping = {};
+        //let gnameCounter = 0;
+        //let weapsubtype1_txtCounter = 0;
+
+        //data.forEach(d => {
+        //    if (!gnameMapping[d.imonth]) {
+        //        gnameMapping[d.imonth] = 'month' + gnameCounter++;
+        //    }
+        //    if (!weapsubtype1_txtMapping[d.iday]) {
+        //        weapsubtype1_txtMapping[d.iday] = 'day' + weapsubtype1_txtCounter++;
+        //    }
+        //});
+
+        svg.selectAll()
+            .data(data, function (d) { return d.imonth + ':' + d.iday; })
+            .enter()
+            .append("rect")
+            .attr("x", function (d) { return x(d.imonth) })
+            .attr("y", function (d) { return y(d.iday) })
+            .attr("width", x.bandwidth())
+            .attr("height", y.bandwidth())
+            .attr("rx", 4)
+            .attr("ry", 4)
+            //.attr("class", function (d) { return `${gnameMapping[d.imonth]} ${weapsubtype1_txtMapping[d.iday]}` })
+            .style("fill", function (d) { return myColor(d.count) })
+            .on("mouseover", function (event, d) {
+                //d3.selectAll('rect')
+                //    .transition().duration(200)
+                //    .style("filter", "brightness(0.9)")
+                //    .style("stroke", "none")
+                //    .style("stroke-width", "0px");
+
+                //d3.selectAll(`.${gnameMapping[d.imonth]}`)
+                //    .transition().duration(200)
+                //    .style("filter", "brightness(1)")
+                //    .style("stroke", "black")
+                //    .style("stroke-width", "2px");
+
+                //d3.selectAll(`.${weapsubtype1_txtMapping[d.iday]}`)
+                //    .transition().duration(200)
+                //    .style("filter", "brightness(1)")
+                //    .style("stroke", "black")
+                //    .style("stroke-width", "2px");
+
+                const numToMonth = d => {
+                    switch (d) {
+                        case 1:
+                            return 'January';
+                        case 2:
+                            return 'February';
+                        case 3:
+                            return 'March';
+                        case 4:
+                            return 'April';
+                        case 5:
+                            return 'May';
+                        case 6:
+                            return 'June';
+                        case 7:
+                            return 'July';
+                        case 8:
+                            return 'August';
+                        case 9:
+                            return 'September';
+                        case 10:
+                            return 'October';
+                        case 11:
+                            return 'November';
+                        case 12:
+                            return 'December';
+                    }}
+
+                tooltip.transition()
+                    .duration(200)
+                    .style("opacity", 0.9);
+                tooltip.html(`<p> The <b>${d.iday} of ${numToMonth(+d.imonth)}</b>  <br> has on average ${d.count} attacks</p>`)
+                    .style("left", `${event.pageX}px`)
+                    .style("top", `${event.pageY - 28}px`)
+                    .style("background-color", d3.select(this).attr("fill"))
+                    .style("border-color", myColor(d.count))
+                    .style("weight", "12px")
+                    .style("border-style", "solid");
+            })
+            .on("mousemove", function (event, d) {
+                tooltip.style("left", `${event.pageX}px`)
+                    .style("top", `${event.pageY - 28}px`);
+            })
+            .on("mouseout", function (d) {
+                d3.selectAll('rect')
+                    .transition().duration(200)
+                    .style("filter", "brightness(1)")
+                    .style("stroke", "none")
+                    .style("stroke-width", "0px")
+
+                tooltip.style("opacity", 0);
+            })
+      }
+
+
     
     // Define the map object and add it to the "map" div container
     var mymap = L.map('map').setView([46.5197, 6.6323], 13);
@@ -545,7 +690,6 @@ document.addEventListener("DOMContentLoaded", function () {
     //}).addTo(mymap);
 
 
-    // We want to highlight france when clicking on the button "button1"
     mymap.createPane('labels');
     mymap.getPane('labels').style.zIndex = 650;
     mymap.getPane('labels').style.pointerEvents = 'none';
@@ -559,8 +703,54 @@ document.addEventListener("DOMContentLoaded", function () {
         attribution: '©OpenStreetMap, ©CartoDB',
         pane: 'labels'
     }).addTo(mymap);
+    
+    var GeoJsonData; // Variable to hold the GeoJSON data
 
+    fetch('https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson')
+    .then(response => response.json())
+    .then(data => {
+        // Assign the fetched GeoJSON data to the variable
+        GeoJsonData = data;
+
+        /*var franceFeature = GeoJsonData.features.find(feature => feature.properties.name === 'France');
+        if (franceFeature) {
+          // Create a Leaflet GeoJSON layer with only the France feature
+          var franceLayer = L.geoJson(franceFeature, {
+            style: {
+              fillColor: 'red',
+              weight: 3,
+              color: 'red',
+              fillOpacity: 0.5
+            }
+          }).addTo(mymap);
+    
+          // Fit the map to the bounds of the France layer
+          mymap.fitBounds(franceLayer.getBounds());
+        }*/
+    })
+    .catch(error => {
+        // Handle any errors that occur during the fetch
+        console.error('Error fetching GeoJSON data:', error);
+    });
+
+    var geoJsonOptions = {
+        style: function (feature) {
+          // Define the style for each GeoJSON feature
+          return {
+            fillColor: 'blue',
+            weight: 2,
+            opacity: 1,
+            color: 'white',
+            fillOpacity: 0.5
+          };
+        },
+        onEachFeature: function (feature, layer) {
+          // Perform operations for each GeoJSON feature
+          layer.bindPopup(feature.properties.name);
+        }
+      };
     var geojson = L.geoJson(GeoJsonData, geoJsonOptions).addTo(mymap);
+    console.log(geojson)
 
     geojson.eachLayer(function (layer) {
         layer.bindPopup(layer.feature.properties.name);
@@ -570,8 +760,57 @@ document.addEventListener("DOMContentLoaded", function () {
 
     var geojson = L.geoJson(GeoJsonData, geoJsonOptions).addTo(mymap);
 
-});
+    // Assuming the 'name' property is used to identify France in the GeoJSON data
+    var targetCountry = 'France';
 
+    geojson.eachLayer(function (layer) {
+        // Check if the layer represents the target country
+          // Highlight the layer by changing its style
+          layer.setStyle({
+            fillColor: 'yellow',  // Change the fill color to yellow (or any other desired color)
+            weight: 3,            // Increase the border weight
+            color: 'red'          // Change the border color to red (or any other desired color)
+          });
+      
+          // You can also perform other actions, such as opening a popup or executing custom code
+          layer.bindPopup('France'); // Open a popup with a message
+          console.log('France layer:', layer); // Log the layer object
+        
+      });
+
+      function highlightCountry(countryName) {
+        //countryName = "'" + countryName + "'";
+        fetch('https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson')
+        .then(response => response.json())
+        .then(data => {
+            // Assign the fetched GeoJSON data to the variable
+            GeoJsonData = data;
+        })
+        .catch(error => {
+            // Handle any errors that occur during the fetch
+            console.error('Error fetching GeoJSON data:', error);
+        });
+        // Find the feature representing the specified country in the GeoJSON data
+        var countryFeature = GeoJsonData.features.find(feature => feature.properties.name === countryName);
+        if (countryFeature) {
+          // Create a Leaflet GeoJSON layer with only the specified country feature
+          var countryLayer = L.geoJson(countryFeature, {
+            style: {
+              fillColor: 'red',
+              weight: 3,
+              color: 'red',
+              fillOpacity: 0.5
+            }
+          }).addTo(mymap);
+      
+          // Fit the map to the bounds of the country layer
+          mymap.fitBounds(countryLayer.getBounds());
+        }
+      }
+
+});
+  
+  
 
 function processCountryData(csvData) {
     const data = d3.csvParse(csvData, d3.autoType);
@@ -729,3 +968,61 @@ function plotmovinggraphs(data) {
             .on("mousemove", mousemove)
             .on("mouseleave", mouseleave);
 }
+
+function changeColorCountry(Country){
+    d3.json("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson", function(data){
+
+});
+
+}
+
+/*function plotMap() {  
+    // select the div element with id='map'.
+    var divmap = document.getElementById('map');
+    var canvas = document.getElementById('my_dataviz');
+
+
+    // Actual width and height. No idea if clienWidth would be a better option..?
+    var width = divmap.clientWidth
+    var height = divmap.clientHeight
+    canvas.width = width;
+  canvas.height = height;
+
+
+    
+    //var boundingRect = canvas.getBoundingClientRect();
+    //var width = boundingRect.width;
+    //var height = boundingRect.height;
+    console.log("width", width);
+    console.log("height", height);
+
+    // Set a projection for the map. Projection = transform a lat/long on a position on the 2d map.
+    var projection = d3.geoNaturalEarth1()
+        .scale(width / 1.3 / Math.PI)
+        .translate([width / 2, height / 2])
+
+    // Get the 'context'
+    var ctx = canvas.getContext('2d');
+
+    // geographic path generator for given projection and canvas context
+    const pathGenerator = d3.geoPath(projection, ctx);
+
+    // Load external data and boot
+    d3.json("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson", function(data){
+
+      // initialize the path
+      ctx.beginPath();
+
+      // Got the positions of the path
+      pathGenerator(data);
+
+      // Fill the paths
+      ctx.fillStyle = "#999";
+      ctx.fill();
+
+      // Add stroke
+      ctx.strokeStyle = "#69b3a2";
+      ctx.stroke()
+
+    })
+}*/

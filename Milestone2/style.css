@@ -24,7 +24,16 @@ header {
     justify-content: space-between;
     display: flex;
     align-items: center;
+    position: relative;
     margin-top: 25px;
+    z-index: 1;
+}
+
+canvas#sketch {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0; /* Set a lower z-index value for the canvas */
 }
 
 .logo-container {
@@ -210,9 +219,9 @@ button.selected {
     flex-direction: column;
     /*justify-content: center;*/
     align-items: center;
-    max-width: 100%;
+    /*max-width: 100%;
     min-width: 0;
-    width: auto;
+    width: auto;*/
     margin-top: 30px;
     width: 90%;
     padding-bottom: 45%;
@@ -245,6 +254,7 @@ button.selected {
 .map {
     width: 80%;
     padding-bottom: 45%;
+    height: 100%;
     /* 9/16 * 100% = 56.25% for a 16:9 aspect ratio; adjust this value based on your desired aspect ratio */
     border: 3px solid #F9F9F9;
     border-radius: 15px;
