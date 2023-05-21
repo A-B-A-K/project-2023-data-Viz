@@ -284,7 +284,8 @@ document.addEventListener("DOMContentLoaded", function () {
                     graphContainer.appendChild(div1);
 
 
-                    const dataUrl = `https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/Aristotelis/data/regions/${encodeURIComponent(regionSelect.value) }.csv`
+                    // const dataUrl = `https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/Aristotelis/data/regions/all/${encodeURIComponent(regionSelect.value) }.csv`
+                    const dataUrl = `https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/Aristotelis/data/regions/victims/${encodeURIComponent(regionSelect.value) }.csv`
                     d3.csv(dataUrl)
                         .then(data => {
                             plotScatterplot(data);
@@ -425,8 +426,8 @@ document.addEventListener("DOMContentLoaded", function () {
         const svg = d3.select(".graph1");
 
         const g = svg.append("svg")
-            .attr("width", innerWidth + margin.left + margin.right)
-            .attr("height", innerHeight + margin.top + margin.bottom)
+            .attr("width", width + margin.left + margin.right)
+            .attr("height", height + margin.top + margin.bottom)
             .append('g')
             .attr('transform', `translate(${margin.left}, ${margin.top})`);
             
@@ -506,8 +507,8 @@ document.addEventListener("DOMContentLoaded", function () {
         var svg = d3.select(".graph2");
 
         const g = svg.append("svg")
-            .attr("width", innerWidth + margin.left + margin.right)
-            .attr("height", innerHeight + margin.top + margin.bottom)
+            .attr("width", width + margin.left + margin.right)
+            .attr("height", height + margin.top + margin.bottom)
             .append('g')
             .attr('transform', `translate(${margin.left}, ${margin.top})`);
 
@@ -625,8 +626,8 @@ document.addEventListener("DOMContentLoaded", function () {
         var svg = d3.select(".graph1");
 
         const g = svg.append("svg")
-            .attr("width", innerWidth + margin.left + margin.right)
-            .attr("height", innerHeight + margin.top + margin.bottom)
+            .attr("width", width + margin.left + margin.right)
+            .attr("height", height + margin.top + margin.bottom)
             .append('g')
             .attr('transform', `translate(${margin.left}, ${margin.top})`);
 
@@ -727,8 +728,8 @@ document.addEventListener("DOMContentLoaded", function () {
         var svg = d3.select(".graph1");
 
         const g = svg.append("svg")
-            .attr("width", innerWidth + margin.left + margin.right)
-            .attr("height", innerHeight + margin.top + margin.bottom)
+            .attr("width", width + margin.left + margin.right)
+            .attr("height", height + margin.top + margin.bottom)
             .append('g')
             .attr('transform', `translate(${margin.left}, ${margin.top})`);
 
@@ -825,7 +826,7 @@ document.addEventListener("DOMContentLoaded", function () {
             })
     }
 
-    function plotScatterplot(data) {
+    function plotScatterplot(data) {    // Implemet zooming in data
         const width = 460;
         const height = 400;
 
@@ -841,8 +842,8 @@ document.addEventListener("DOMContentLoaded", function () {
         var svg = d3.select(".graph1");
 
         const g = svg.append("svg")
-            .attr("width", innerWidth + margin.left + margin.right)
-            .attr("height", innerHeight + margin.top + margin.bottom)
+            .attr("width", width + margin.left + margin.right)
+            .attr("height", height + margin.top + margin.bottom)
             .append('g')
             .attr('transform', `translate(${margin.left}, ${margin.top})`);
 
@@ -856,10 +857,14 @@ document.addEventListener("DOMContentLoaded", function () {
             .attr("opacity", 0);
 
         var y = d3.scaleLinear()
-            .domain([0, 500])
+            .domain([0, 0])
             .range([innerHeight, 0]);
         g.append("g")
-            .call(d3.axisLeft(y));
+            .attr("class", "y-axis")
+            .call(d3.axisLeft(y))
+            .attr("opacity", 0);
+
+        var myColor = d3.scaleOrdinal(d3.schemeCategory10);
 
         g.append('g')
             .selectAll("dot")
@@ -869,7 +874,32 @@ document.addEventListener("DOMContentLoaded", function () {
             .attr("cx", function (d) { return x(+d.year); })
             .attr("cy", function (d) { return y(+d.nkill); })
             .attr("r", 1.5)
-            .style("fill", "#69b3a2"); // Categorize in some way with color
+            .style("opacity", 0.5)
+            .style("fill", function (d) { return myColor(d.country_txt); }) // Categorize in some way with color
+            .on("mouseover", function (event, d) {
+                // Make tooltip visible
+                tooltip.transition()
+                    .duration(200)
+                    .style("opacity", .9);
+                // Update tooltip content
+                tooltip.html(`<p><i>${d.eventid}</i><br><br>
+                                <b>${d.country_txt}</b><br>
+                                Year: ${d3.format("d")(d.year)}<br>
+                                Casualties: ${d3.format("d")(d.nkill)}
+                                </p>`)
+                    .style("left", `${event.pageX}px`)
+                    .style("top", `${event.pageY - 28}px`)
+                    .style("background-color", function (d) { return myColor(d.country_txt); })
+                    .style("border-color", "white")
+                    .style("weight", "12px")
+                    .style("border-style", "solid");
+            })
+            .on("mouseout", function (d) {
+                // Make tooltip invisible
+                tooltip.transition()
+                    .duration(500)
+                    .style("opacity", 0);
+            });
 
             x.domain([1970, 2020])
             g.select(".x-axis")
@@ -877,6 +907,13 @@ document.addEventListener("DOMContentLoaded", function () {
                 .duration(1000)
                 .attr("opacity", 1)
                 .call(d3.axisBottom(x).tickFormat(d3.format("d")));
+
+            y.domain([0, 200])  // Cap on the max number of casualties
+            g.select(".y-axis")
+                .transition()
+                .duration(1000)
+                .attr("opacity", 1)
+                .call(d3.axisLeft(y));
 
             g.selectAll("circle")
                 .transition()

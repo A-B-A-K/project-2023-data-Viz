@@ -444,6 +444,15 @@ button.selected {
     pointer-events: none;
 }
 
+.tooltip-scatterplot {
+    position: absolute;
+    background-color: #69b3a2;
+    padding: 8px;
+    font-size: 14px;
+    color: white;
+    pointer-events: none;
+}
+
 .pretty-select {
     padding: 10px 15px;
     border-radius: 5px;
