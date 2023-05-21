@@ -114,6 +114,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
         const textContainer = document.querySelector(".text-container");
         const graphContainer = document.querySelector(".graph-container");
+        const mapContainer = document.getElementById('map');
+        const mapBox = document.querySelector(".map leaflet-container leaflet-touch leaflet-retina leaflet-fade-anim leaflet-grab leaflet-touch-drag leaflet-touch-zoom");
         
         switch (buttonNumber) {
             case 1:
@@ -188,26 +190,20 @@ document.addEventListener("DOMContentLoaded", function () {
                 while (imageContainer.firstChild) {
                     imageContainer.removeChild(imageContainer.firstChild);
                 }
-                textContainer.innerHTML = "<p>Before delving deeper in the analysis of the data we tried figuring out if there were specific trends in when the attacks were committed during the year</p>";
+                textContainer.innerHTML = "<p>Before delving deeper in the analysis of the data we tried figuring out if there were specific trends in when the attacks were committed during the year</p><div class='graph5' style='border: 3px solid #3C3C3C; border-radius: 15px;'> </div>";
                 if (!imageContainer.hasChildNodes()) {
-                    // add image to the map container
-                    const image1 = document.createElement('img');   // Should not be created every time
-                    const image2 = document.createElement('img');   // Should not be created every time
-                    image1.src = 'images/plot1page3.png';
-                    image1.alt = 'Image 1';
-                    image2.src = 'images/plot2page3.png';
-                    image2.alt = 'Image 2';
-                    
-                    const imageContainer1 = document.createElement('div');
-                    imageContainer1.classList.add('image-container');
-                    imageContainer1.appendChild(image1);
-                    const imageContainer2 = document.createElement('div');
-                    imageContainer2.classList.add('image-container');
-                    imageContainer2.appendChild(image2);
-                    
-                    imageContainer.appendChild(imageContainer1);
-                    imageContainer.appendChild(imageContainer2);
-                    graphContainer.appendChild(imageContainer);
+                    d3.csv("https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/Alex/data/miscellaneous/seasonality_raw.csv")
+                  .then(data => {
+                      plotSeasonality(processHeatmap(data));
+                  })
+                  .catch(error => console.error('Error:', error));
+              
+                function processHeatmap(data) {
+                    data.forEach(d => {
+                        d.count = +d.count; // unary plus operator converts string to number
+                    });
+                    return data;
+                }
                 }
                 break;
             case 4:
@@ -251,6 +247,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 while (imageContainer.firstChild) {
                     imageContainer.removeChild(imageContainer.firstChild);
                 }
+
                 textContainer.innerHTML = "<p>Lastly, in order to give as much information as possible we have added statistics on the different countries</p>";
 
                 // Create a dropdown menu (select element)
@@ -299,6 +296,12 @@ document.addEventListener("DOMContentLoaded", function () {
                     //countryImage.alt = countrySelect.value;
                     const selectedCountry = countrySelect.value.replace(/ /g, '%20');
                     //const imageUrl = `/data/countries/${selectedCountry}.png`;
+
+                    const quotedCountry = "'" + selectedCountry + "'";
+                    console.log("vfjdsiorjoigrjagra", quotedCountry)
+                    highlightCountry(selectedCountry);
+     
+
                     const dataUrl = `https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/Aristotelis/data/streamgraph/${selectedCountry}.csv`;
                     d3.csv(dataUrl)	
                     .then(data => {
@@ -548,112 +551,231 @@ document.addEventListener("DOMContentLoaded", function () {
                 tooltip.style("opacity", 0);
             })
     }
-
+  
     function plotStreamgraph(data) {
-        const width = 460;
-        const height = 400
-        var margin = { top: 20, right: 30, bottom: 10, left: 75 };
-        var innerWidth = width - margin.left - margin.right;
-        var innerHeight = height - margin.top - margin.bottom;
+      const width = 460;
+      const height = 400
+      var margin = {top: 20, right: 30, bottom: 10, left: 75};        
+      var innerWidth = width - margin.left - margin.right;
+      var innerHeight = height - margin.top - margin.bottom;
 
-        // Calculate list of total per month
-        const countsByMonth = Array(12).fill(0); // Initialize an array to store counts for each month (assuming 12 months)
+      // Calculate list of total per month
+      const countsByMonth = Array(12).fill(0); // Initialize an array to store counts for each month (assuming 12 months)
 
-        data.forEach(obj => {
-            const monthIndex = parseInt(obj.imonth) - 1; // Get the month index (subtract 1 since JavaScript uses zero-based indexing)
-            const values = Object.values(obj).slice(1, 32); // Get the values for each day of the month
+      data.forEach(obj => {
+          const monthIndex = parseInt(obj.imonth) - 1; // Get the month index (subtract 1 since JavaScript uses zero-based indexing)
+          const values = Object.values(obj).slice(1, 32); // Get the values for each day of the month
 
-            const monthCount = values.reduce((acc, val) => acc + parseFloat(val), 0); // Calculate the sum of values for the month
-            countsByMonth[monthIndex] += monthCount; // Add the month count to the corresponding index in the countsByMonth array
-        });
+          const monthCount = values.reduce((acc, val) => acc + parseFloat(val), 0); // Calculate the sum of values for the month
+          countsByMonth[monthIndex] += monthCount; // Add the month count to the corresponding index in the countsByMonth array
+      });    
 
-        var svg = d3.select(".graph3")
+      var svg = d3.select(".graph3")
+        .append("svg")
+          .attr("width", innerWidth + margin.left + margin.right)
+          .attr("height", innerHeight + margin.top + margin.bottom)
+        .append("g")
+          .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+      var keys = data.columns.slice(1);   // Month names
+
+      var x = d3.scaleLinear()
+          .domain([1, 12])
+          .range([0, innerWidth]);
+      svg.append("g")
+          .attr("transform", "translate(0," + innerHeight * .8 + ")")
+          .call(d3.axisBottom(x).tickSize(-innerHeight * .7))
+          .select(".domain")
+          .remove();
+
+      svg.selectAll(".tick line").attr("stroke", "#b8b8b8");  // Vertical grid lines above month names
+
+      // Add X axis label:
+      svg.append("text")
+          .attr("text-anchor", "end")
+          .attr("x", 2*innerWidth/3)
+          .attr("y", innerHeight - 30 )
+          .text("Time (month)");
+
+      var y = d3.scaleLinear()
+          .domain([-d3.max(countsByMonth) * 2.5, d3.max(countsByMonth) * 2.5])
+          .range([ innerHeight, 0 ]);
+      svg.append("g")
+          .call(d3.axisLeft(y))
+          .attr("transform", "translate(-25, 0)");
+
+      var color = d3.scaleOrdinal()
+          .domain(keys)
+          .range(d3.schemeTableau10);
+
+      var stackedData = d3.stack()
+          .offset(d3.stackOffsetSilhouette)
+          .keys(keys)
+          (data);
+
+      var tooltip = d3.select("body")
+          .append("div")
+          .style("opacity", 0)
+          .style("font-size", 10)
+          .attr("class", "tooltip-streamgraph")
+          .style("font-size", 17)
+          .style("z-index", 1000);
+
+
+      var area = d3.area()
+          .x(function(d) { return x(d.data.imonth); })
+          .y0(function(d) { return y(d[0]); })
+          .y1(function(d) { return y(d[1]); });
+
+      svg.selectAll("mylayers")
+          .data(stackedData)
+          .enter()
+          .append("path")
+              .attr("class", "myArea") 
+              .style("fill", function(d) { return color(d.key); })
+              .style("opacity", .8)
+         .attr("d", area)
+         .on("mouseover", function(event, d) {
+             tooltip.transition()
+                 .duration(200)
+                 .style("opacity", 0.9);
+             tooltip.html(`<p>${d.key} </p>`)
+                 .style("left", `${event.pageX}px`)
+                 .style("top", `${event.pageY - 28}px`)
+                 .style("background-color", color(d.key));
+              d3.selectAll(".myArea").style("opacity", .2)
+              d3.select(this)
+                  .style("stroke", "black")
+                  .style("opacity", 1)
+          })
+         .on("mousemove", function(event, d) {
+             tooltip.style("left", `${event.pageX}px`)
+                 .style("top", `${event.pageY - 28}px`);
+          })
+         .on("mouseleave", function(d) {
+              tooltip.style("opacity", 0)
+              d3.selectAll(".myArea").style("opacity", .8).style("stroke", "none")
+          });
+  }
+
+      }
+
+
+    function plotSeasonality(data) {
+        const width = 450;
+        const height = 450;
+
+        var margin = { top: 30, right: 30, bottom: 130, left: 150 };
+        const innerWidth = width - margin.left - margin.right;
+        const innerHeight = height - margin.top - margin.bottom;
+
+        const tooltip = d3.select("body")
+            .append("div")
+            .attr("class", "tooltip-heatmap")
+            .style("opacity", 0);
+
+        var svg = d3
+            .select(".graph5")
             .append("svg")
             .attr("width", innerWidth + margin.left + margin.right)
             .attr("height", innerHeight + margin.top + margin.bottom)
             .append("g")
             .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-        var keys = data.columns.slice(1);   // Month names
+        const xValue = d => d.imonth;
+        const yValue = d => d.iday;
+        const count = d => d.count;
 
-        var x = d3.scaleLinear()
-            .domain([1, 12])
-            .range([0, innerWidth]);
+        var x = d3.scaleBand()
+            .range([0, innerWidth])
+            .domain(data.map(d => xValue(d)))
+            .padding(0.01);
         svg.append("g")
-            .attr("transform", "translate(0," + innerHeight * .8 + ")")
-            .call(d3.axisBottom(x).tickSize(-innerHeight * .7))
-            .select(".domain")
-            .remove();
+            .attr("transform", "translate(0," + innerHeight + ")")
+            .call(d3.axisBottom(x));
 
-        svg.selectAll(".tick line").attr("stroke", "#b8b8b8");  // Vertical grid lines above month names
-
-        // Add X axis label:
-        svg.append("text")
-            .attr("text-anchor", "end")
-            .attr("x", 2 * innerWidth / 3)
-            .attr("y", innerHeight - 30)
-            .text("Time (month)");
-
-        var y = d3.scaleLinear()
-            .domain([-d3.max(countsByMonth) * 2.5, d3.max(countsByMonth) * 2.5])
-            .range([innerHeight, 0]);
+        var y = d3.scaleBand()
+            .range([innerHeight, 0])
+            .domain(data.map(d => yValue(d)))
+            .padding(0.01);
         svg.append("g")
-            .call(d3.axisLeft(y))
-            .attr("transform", "translate(-25, 0)");
+            .call(d3.axisLeft(y));
 
-        var color = d3.scaleOrdinal()
-            .domain(keys)
-            .range(d3.schemeTableau10);
-
-        var stackedData = d3.stack()
-            .offset(d3.stackOffsetSilhouette)
-            .keys(keys)
-            (data);
-
-        var tooltip = d3.select("body")
-            .append("div")
-            .style("opacity", 0)
-            .style("font-size", 10)
-            .attr("class", "tooltip-streamgraph")
-            .style("font-size", 17)
-            .style("z-index", 1000);
+        var myColor = d3.scaleSequential()
+            .interpolator(d3.interpolateViridis)
+            .domain([0, 750]);;
 
 
-        var area = d3.area()
-            .x(function (d) { return x(d.data.imonth); })
-            .y0(function (d) { return y(d[0]); })
-            .y1(function (d) { return y(d[1]); });
 
-        svg.selectAll("mylayers")
-            .data(stackedData)
+        svg.selectAll()
+            .data(data, function (d) { return d.imonth + ':' + d.iday; })
             .enter()
-            .append("path")
-            .attr("class", "myArea")
-            .style("fill", function (d) { return color(d.key); })
-            .style("opacity", .8)
-            .attr("d", area)
+            .append("rect")
+            .attr("x", function (d) { return x(d.imonth) })
+            .attr("y", function (d) { return y(d.iday) })
+            .attr("width", x.bandwidth())
+            .attr("height", y.bandwidth())
+            .attr("rx", 4)
+            .attr("ry", 4)
+            //.attr("class", function (d) { return `${gnameMapping[d.imonth]} ${weapsubtype1_txtMapping[d.iday]}` })
+            .style("fill", function (d) { return myColor(d.count) })
             .on("mouseover", function (event, d) {
+
+                const numToMonth = d => {
+                    switch (d) {
+                        case 1:
+                            return 'January';
+                        case 2:
+                            return 'February';
+                        case 3:
+                            return 'March';
+                        case 4:
+                            return 'April';
+                        case 5:
+                            return 'May';
+                        case 6:
+                            return 'June';
+                        case 7:
+                            return 'July';
+                        case 8:
+                            return 'August';
+                        case 9:
+                            return 'September';
+                        case 10:
+                            return 'October';
+                        case 11:
+                            return 'November';
+                        case 12:
+                            return 'December';
+                    }}
+
                 tooltip.transition()
                     .duration(200)
                     .style("opacity", 0.9);
-                tooltip.html(`<p>${d.key} </p>`)
+                tooltip.html(`<p> The <b>${d.iday} of ${numToMonth(+d.imonth)}</b>  <br> has on average ${d.count} attacks</p>`)
                     .style("left", `${event.pageX}px`)
                     .style("top", `${event.pageY - 28}px`)
-                    .style("background-color", color(d.key));
-                d3.selectAll(".myArea").style("opacity", .2)
-                d3.select(this)
-                    .style("stroke", "black")
-                    .style("opacity", 1)
+                    .style("background-color", d3.select(this).attr("fill"))
+                    .style("border-color", myColor(d.count))
+                    .style("weight", "12px")
+                    .style("border-style", "solid");
             })
             .on("mousemove", function (event, d) {
                 tooltip.style("left", `${event.pageX}px`)
                     .style("top", `${event.pageY - 28}px`);
             })
-            .on("mouseleave", function (d) {
-                tooltip.style("opacity", 0)
-                d3.selectAll(".myArea").style("opacity", .8).style("stroke", "none")
-            });
-    }
+
+            .on("mouseout", function (d) {
+                d3.selectAll('rect')
+                    .transition().duration(200)
+                    .style("filter", "brightness(1)")
+                    .style("stroke", "none")
+                    .style("stroke-width", "0px")
+
+                tooltip.style("opacity", 0);
+            })
+      }
+
     
     // Define the map object and add it to the "map" div container
     var mymap = L.map('map').setView([46.5197, 6.6323], 2);
@@ -666,7 +788,6 @@ document.addEventListener("DOMContentLoaded", function () {
     //}).addTo(mymap);
 
 
-    // We want to highlight france when clicking on the button "button1"
     mymap.createPane('labels');
     mymap.getPane('labels').style.zIndex = 650;
     mymap.getPane('labels').style.pointerEvents = 'none';
@@ -680,8 +801,54 @@ document.addEventListener("DOMContentLoaded", function () {
         attribution: '©OpenStreetMap, ©CartoDB',
         pane: 'labels'
     }).addTo(mymap);
+    
+    var GeoJsonData; // Variable to hold the GeoJSON data
 
+    fetch('https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson')
+    .then(response => response.json())
+    .then(data => {
+        // Assign the fetched GeoJSON data to the variable
+        GeoJsonData = data;
+
+        /*var franceFeature = GeoJsonData.features.find(feature => feature.properties.name === 'France');
+        if (franceFeature) {
+          // Create a Leaflet GeoJSON layer with only the France feature
+          var franceLayer = L.geoJson(franceFeature, {
+            style: {
+              fillColor: 'red',
+              weight: 3,
+              color: 'red',
+              fillOpacity: 0.5
+            }
+          }).addTo(mymap);
+    
+          // Fit the map to the bounds of the France layer
+          mymap.fitBounds(franceLayer.getBounds());
+        }*/
+    })
+    .catch(error => {
+        // Handle any errors that occur during the fetch
+        console.error('Error fetching GeoJSON data:', error);
+    });
+
+    var geoJsonOptions = {
+        style: function (feature) {
+          // Define the style for each GeoJSON feature
+          return {
+            fillColor: 'blue',
+            weight: 2,
+            opacity: 1,
+            color: 'white',
+            fillOpacity: 0.5
+          };
+        },
+        onEachFeature: function (feature, layer) {
+          // Perform operations for each GeoJSON feature
+          layer.bindPopup(feature.properties.name);
+        }
+      };
     var geojson = L.geoJson(GeoJsonData, geoJsonOptions).addTo(mymap);
+    console.log(geojson)
 
     geojson.eachLayer(function (layer) {
         layer.bindPopup(layer.feature.properties.name);
@@ -691,4 +858,53 @@ document.addEventListener("DOMContentLoaded", function () {
 
     var geojson = L.geoJson(GeoJsonData, geoJsonOptions).addTo(mymap);
 
+    // Assuming the 'name' property is used to identify France in the GeoJSON data
+    var targetCountry = 'France';
+
+    geojson.eachLayer(function (layer) {
+        // Check if the layer represents the target country
+          // Highlight the layer by changing its style
+          layer.setStyle({
+            fillColor: 'yellow',  // Change the fill color to yellow (or any other desired color)
+            weight: 3,            // Increase the border weight
+            color: 'red'          // Change the border color to red (or any other desired color)
+          });
+      
+          // You can also perform other actions, such as opening a popup or executing custom code
+          layer.bindPopup('France'); // Open a popup with a message
+          console.log('France layer:', layer); // Log the layer object
+        
+      });
+
+      function highlightCountry(countryName) {
+        //countryName = "'" + countryName + "'";
+        fetch('https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson')
+        .then(response => response.json())
+        .then(data => {
+            // Assign the fetched GeoJSON data to the variable
+            GeoJsonData = data;
+        })
+        .catch(error => {
+            // Handle any errors that occur during the fetch
+            console.error('Error fetching GeoJSON data:', error);
+        });
+        // Find the feature representing the specified country in the GeoJSON data
+        var countryFeature = GeoJsonData.features.find(feature => feature.properties.name === countryName);
+        if (countryFeature) {
+          // Create a Leaflet GeoJSON layer with only the specified country feature
+          var countryLayer = L.geoJson(countryFeature, {
+            style: {
+              fillColor: 'red',
+              weight: 3,
+              color: 'red',
+              fillOpacity: 0.5
+            }
+          }).addTo(mymap);
+      
+          // Fit the map to the bounds of the country layer
+          mymap.fitBounds(countryLayer.getBounds());
+        }
+      }
+
 });
+
