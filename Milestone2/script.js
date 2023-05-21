@@ -854,7 +854,8 @@ function plotmovinggraphs(data) {
     var margin = {top: 20, right: 30, bottom: 0, left: 10},
         width = 460 - margin.left - margin.right,
         height = 400 - margin.top - margin.bottom;
-
+    
+    
     var svg = d3.select(".graph3")
       .append("svg")
         .attr("width", width + margin.left + margin.right)
