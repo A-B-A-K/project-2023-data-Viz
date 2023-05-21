@@ -656,10 +656,7 @@ document.addEventListener("DOMContentLoaded", function () {
               tooltip.style("opacity", 0)
               d3.selectAll(".myArea").style("opacity", .8).style("stroke", "none")
           });
-  }
-
-      }
-
+    }
 
     function plotSeasonality(data) {
         const width = 450;
@@ -774,7 +771,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 tooltip.style("opacity", 0);
             })
-      }
+    }
 
     
     // Define the map object and add it to the "map" div container
