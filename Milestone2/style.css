@@ -4,7 +4,8 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
-    background-color: #F9F9F9;
+    background-color: #f7f7ef;
+    /* background-color: #FFABAB; */
     font-family: Arial, sans-serif;
 }
 
@@ -44,6 +45,7 @@ canvas#sketch {
     flex-direction: row;
     margin-left: 25px;    
     mix-blend-mode: multiply;
+
 }
 
 #button-logo {
@@ -62,7 +64,9 @@ canvas#sketch {
     font-size: medium;
     font-weight: bold;
     font-family: monospace;
-
+    font-size: 1.5rem;
+    /* color: #ef554b; */
+    color: #D14D72;
 }
 
 .help-container {
@@ -122,6 +126,7 @@ canvas#sketch {
 /* Button Styles */
 
 .button-container {
+    background-color: #eaeae3;
     margin-top: 90px;
     display: flex;
     top: 50px;
@@ -143,7 +148,7 @@ canvas#sketch {
 }
 
 button {
-    color: #000000;
+    color: #10afb1;
     font-size: 1rem;
     font-weight: bold;
     border: none;
@@ -159,19 +164,22 @@ button {
 }
 
 button:hover {
-    background-color: #BCC0C4;
+    /* background-color: #BCC0C4; */
+    filter: brightness(0.5);
     font-weight: bold;
 }
 
 button:active {
-    background-color: #65676B;
+    /* background-color: #BCC0C4; */
+    filter: brightness(0.5);
     /* increase font size on click */
     font-weight: bold;
 }
 
 
 button.selected {
-    background-color: #BCC0C4;
+    /* background-color: #BCC0C4; */
+    filter: brightness(0.5);
 }
 
 
@@ -396,4 +404,39 @@ button.selected {
     font-size: 14px;
     color: white;
     pointer-events: none;
+}
+
+.tooltip-streamgraph {
+    position: absolute;
+    background-color: goldenrod;
+    padding: 8px;
+    font-size: 14px;
+    color: white;
+    pointer-events: none;
+}
+
+.pretty-select {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    /* box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.2); */
+    font-size: 16px;
+    color: #f8f8f8;
+    background: gray;
+    appearance: none;
+    /* removes default select dropdown arrow */
+    position: relative;
+}
+
+.pretty-select:after {
+    content: '▼';
+    /* this is your custom dropdown arrow */
+    font-size: 10px;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    pointer-events: none;
+    /* this makes sure clicking on the arrow doesn't do anything */
 }

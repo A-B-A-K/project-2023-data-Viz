@@ -108,8 +108,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const imageContainer = document.createElement('div');
     imageContainer.classList.add('image-container');
-    const countryNames = ['Afghanistan', 'Albania', 'Algeria', 'Andorra', 'Angola', 'Antigua and Barbuda', 'Argentina', 'Armenia', 'Australia', 'Austria', 'Azerbaijan', 'Bahamas', 'Bahrain', 'Bangladesh', 'Barbados', 'Belarus', 'Belgium', 'Belize', 'Benin', 'Bhutan', 'Bolivia', 'Bosnia-Herzegovina', 'Botswana', 'Brazil', 'Brunei', 'Bulgaria', 'Burkina Faso', 'Burundi', 'Cambodia', 'Cameroon', 'Canada', 'Central African Republic', 'Chad', 'Chile', 'China', 'Colombia', 'Comoros', 'Costa Rica', 'Croatia', 'Cuba', 'Cyprus', 'Czech Republic', 'Czechoslovakia', 'Democratic Republic of the Congo', 'Denmark', 'Djibouti', 'Dominica', 'Dominican Republic', 'East Germany (GDR)', 'East Timor', 'Ecuador', 'Egypt', 'El Salvador', 'Equatorial Guinea', 'Eritrea', 'Estonia', 'Ethiopia', 'Falkland Islands', 'Fiji', 'Finland', 'France', 'French Guiana', 'French Polynesia', 'Gabon', 'Gambia', 'Georgia', 'Germany', 'Ghana', 'Greece', 'Grenada', 'Guadeloupe', 'Guatemala', 'Guinea', 'Guinea-Bissau', 'Guyana', 'Haiti', 'Honduras', 'Hong Kong', 'Hungary', 'Iceland', 'India', 'Indonesia', 'International', 'Iran', 'Iraq', 'Ireland', 'Israel', 'Italy', 'Ivory Coast', 'Jamaica', 'Japan', 'Jordan', 'Kazakhstan', 'Kenya', 'Kosovo', 'Kuwait', 'Kyrgyzstan', 'Laos', 'Latvia', 'Lebanon', 'Lesotho', 'Liberia', 'Libya', 'Lithuania', 'Luxembourg', 'Macau', 'Macedonia', 'Madagascar', 'Malawi', 'Malaysia', 'Maldives', 'Mali', 'Malta', 'Martinique', 'Mauritania', 'Mauritius', 'Mexico', 'Moldova', 'Montenegro', 'Morocco', 'Mozambique', 'Myanmar', 'Namibia', 'Nepal', 'Netherlands', 'New Caledonia', 'New Hebrides', 'New Zealand', 'Nicaragua', 'Niger', 'Nigeria', 'North Korea', 'North Yemen', 'Norway', 'Pakistan', 'Panama', 'Papua New Guinea', 'Paraguay', "People's Republic of the Congo", 'Peru', 'Philippines', 'Poland', 'Portugal', 'Qatar', 'Republic of the Congo', 'Rhodesia', 'Romania', 'Russia', 'Rwanda', 'Saudi Arabia', 'Senegal', 'Serbia', 'Serbia-Montenegro', 'Seychelles', 'Sierra Leone', 'Singapore', 'Slovak Republic', 'Slovenia', 'Solomon Islands', 'Somalia', 'South Africa', 'South Korea', 'South Sudan', 'South Yemen', 'Soviet Union', 'Spain', 'Sri Lanka', 'St. Kitts and Nevis', 'St. Lucia', 'Sudan', 'Suriname', 'Swaziland', 'Sweden', 'Switzerland', 'Syria', 'Taiwan', 'Tajikistan', 'Tanzania', 'Thailand', 'Togo', 'Trinidad and Tobago', 'Tunisia', 'Turkey', 'Turkmenistan', 'Uganda', 'Ukraine', 'United Arab Emirates', 'United Kingdom', 'United States', 'Uruguay', 'Uzbekistan', 'Vanuatu', 'Vatican City', 'Venezuela', 'Vietnam', 'Wallis and Futuna', 'West Bank and Gaza Strip', 'West Germany (FRG)', 'Western Sahara', 'Yemen', 'Yugoslavia', 'Zaire', 'Zambia', 'Zimbabwe']
-    const regionNames =['Australasia & Oceania','Central America & Caribbean','Central Asia','East Asia','Eastern Europe','Middle East & North Africa','North America','South America','South Asia','Southeast Asia','Sub-Saharan Africa','Western Europe']
+    const countryNames = ['World','Afghanistan', 'Albania', 'Algeria', 'Andorra', 'Angola', 'Antigua and Barbuda', 'Argentina', 'Armenia', 'Australia', 'Austria', 'Azerbaijan', 'Bahamas', 'Bahrain', 'Bangladesh', 'Barbados', 'Belarus', 'Belgium', 'Belize', 'Benin', 'Bhutan', 'Bolivia', 'Bosnia-Herzegovina', 'Botswana', 'Brazil', 'Brunei', 'Bulgaria', 'Burkina Faso', 'Burundi', 'Cambodia', 'Cameroon', 'Canada', 'Central African Republic', 'Chad', 'Chile', 'China', 'Colombia', 'Comoros', 'Costa Rica', 'Croatia', 'Cuba', 'Cyprus', 'Czech Republic', 'Czechoslovakia', 'Democratic Republic of the Congo', 'Denmark', 'Djibouti', 'Dominica', 'Dominican Republic', 'East Germany (GDR)', 'East Timor', 'Ecuador', 'Egypt', 'El Salvador', 'Equatorial Guinea', 'Eritrea', 'Estonia', 'Ethiopia', 'Falkland Islands', 'Fiji', 'Finland', 'France', 'French Guiana', 'French Polynesia', 'Gabon', 'Gambia', 'Georgia', 'Germany', 'Ghana', 'Greece', 'Grenada', 'Guadeloupe', 'Guatemala', 'Guinea', 'Guinea-Bissau', 'Guyana', 'Haiti', 'Honduras', 'Hong Kong', 'Hungary', 'Iceland', 'India', 'Indonesia', 'International', 'Iran', 'Iraq', 'Ireland', 'Israel', 'Italy', 'Ivory Coast', 'Jamaica', 'Japan', 'Jordan', 'Kazakhstan', 'Kenya', 'Kosovo', 'Kuwait', 'Kyrgyzstan', 'Laos', 'Latvia', 'Lebanon', 'Lesotho', 'Liberia', 'Libya', 'Lithuania', 'Luxembourg', 'Macau', 'Macedonia', 'Madagascar', 'Malawi', 'Malaysia', 'Maldives', 'Mali', 'Malta', 'Martinique', 'Mauritania', 'Mauritius', 'Mexico', 'Moldova', 'Montenegro', 'Morocco', 'Mozambique', 'Myanmar', 'Namibia', 'Nepal', 'Netherlands', 'New Caledonia', 'New Hebrides', 'New Zealand', 'Nicaragua', 'Niger', 'Nigeria', 'North Korea', 'North Yemen', 'Norway', 'Pakistan', 'Panama', 'Papua New Guinea', 'Paraguay', "People's Republic of the Congo", 'Peru', 'Philippines', 'Poland', 'Portugal', 'Qatar', 'Republic of the Congo', 'Rhodesia', 'Romania', 'Russia', 'Rwanda', 'Saudi Arabia', 'Senegal', 'Serbia', 'Serbia-Montenegro', 'Seychelles', 'Sierra Leone', 'Singapore', 'Slovak Republic', 'Slovenia', 'Solomon Islands', 'Somalia', 'South Africa', 'South Korea', 'South Sudan', 'South Yemen', 'Soviet Union', 'Spain', 'Sri Lanka', 'St. Kitts and Nevis', 'St. Lucia', 'Sudan', 'Suriname', 'Swaziland', 'Sweden', 'Switzerland', 'Syria', 'Taiwan', 'Tajikistan', 'Tanzania', 'Thailand', 'Togo', 'Trinidad and Tobago', 'Tunisia', 'Turkey', 'Turkmenistan', 'Uganda', 'Ukraine', 'United Arab Emirates', 'United Kingdom', 'United States', 'Uruguay', 'Uzbekistan', 'Vanuatu', 'Vatican City', 'Venezuela', 'Vietnam', 'Wallis and Futuna', 'West Bank and Gaza Strip', 'West Germany (FRG)', 'Western Sahara', 'Yemen', 'Yugoslavia', 'Zaire', 'Zambia', 'Zimbabwe']
+    const regionNames = ['Australasia & Oceania','Central America & Caribbean','Central Asia','East Asia','Eastern Europe','Middle East & North Africa','North America','South America','South Asia','Southeast Asia','Sub-Saharan Africa','Western Europe']
 
     function updateGraph(buttonNumber) {
 
@@ -254,12 +254,22 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 // Create a dropdown menu (select element)
                 const countrySelect = document.createElement('select');
-                countrySelect.classList.add('country-select');
+                countrySelect.classList.add('country-select', 'pretty-select');
         
                 // Create an img element to display the country image
                 const countryImage = document.createElement('img');
                 countryImage.classList.add('country-image');
-        
+
+                // Create a placeholder option
+                const placeholderOption = document.createElement('option');
+                placeholderOption.text = "Please select a country..."; 
+                placeholderOption.value = "";
+                placeholderOption.disabled = true;
+                placeholderOption.selected = true;
+                placeholderOption.hidden = true;
+                countrySelect.appendChild(placeholderOption);
+                
+    
                 // Populate the dropdown menu with country options
                 countryNames.forEach(country => {
                     const countryOption = document.createElement('option');
@@ -273,18 +283,18 @@ document.addEventListener("DOMContentLoaded", function () {
                     // Update the image source (modify this to match your actual file paths and naming conventions)
                     //countryImage.src = `/data/countries/${countrySelect.value.replace(/ /g, '_')}.png`;
                     //countryImage.alt = countrySelect.value;
-                    const selectedCountry = countrySelect.value.replace(/ /g, '_');
+                    const selectedCountry = countrySelect.value.replace(/ /g, '%20');
                     //const imageUrl = `/data/countries/${selectedCountry}.png`;
+
                     const quotedCountry = "'" + selectedCountry + "'";
-                    const dataUrl = `https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/Alex/data/countries/${selectedCountry}/${selectedCountry}_yearly_monthly.csv`;
                     console.log("vfjdsiorjoigrjagra", quotedCountry)
                     highlightCountry(selectedCountry);
-                    fetch(dataUrl)	
-                    .then(response => response.text())
+     
+
+                    const dataUrl = `https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/Aristotelis/data/streamgraph/${selectedCountry}.csv`;
+                    d3.csv(dataUrl)	
                     .then(data => {
-                        console.log(data);
-                        const processedData = processCountryData(data);
-                        console.log(processedData)
+                        plotStreamgraph(data);
                     })
                     .catch(error => console.error('Error:', error));
                     
@@ -297,8 +307,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 // Append the imageContainer to the graphContainer
                 graphContainer.appendChild(imageContainer);
 
-                
-                
                 break;
             default:
                 textContainer.innerHTML = `<p>Welcome to "Mapping the Shadows: An Interactive Journey Through Five Decades of Global
@@ -499,13 +507,13 @@ document.addEventListener("DOMContentLoaded", function () {
                     .transition().duration(200)
                     .style("filter", "brightness(1)")
                     .style("stroke", "black")
-                    .style("stroke-width", "2px");
+                    .style("stroke-width", "1px");
 
                 d3.selectAll(`.${weapsubtype1_txtMapping[d.weapsubtype1_txt]}`)
                     .transition().duration(200)
                     .style("filter", "brightness(1)")
                     .style("stroke", "black")
-                    .style("stroke-width", "2px");
+                    .style("stroke-width", "1px");
 
                 tooltip.transition()
                     .duration(200)
@@ -677,7 +685,6 @@ document.addEventListener("DOMContentLoaded", function () {
             })
       }
 
-
     
     // Define the map object and add it to the "map" div container
     var mymap = L.map('map').setView([46.5197, 6.6323], 13);
@@ -812,218 +819,108 @@ document.addEventListener("DOMContentLoaded", function () {
   
   
 
-function processCountryData(csvData) {
-    const data = d3.csvParse(csvData, d3.autoType);
+function plotStreamgraph(data) {
+    const width = 460;
+    const height = 400
+    var margin = {top: 20, right: 30, bottom: 10, left: 75};        
+    var innerWidth = width - margin.left - margin.right;
+    var innerHeight = height - margin.top - margin.bottom;
 
-    let result = [];
-    let years = [...new Set(data.map(item => item.iyear))]; // get unique years
+    // Calculate list of total per month
+    const countsByMonth = Array(12).fill(0); // Initialize an array to store counts for each month (assuming 12 months)
 
-    // initialize result with years and empty months
-    years.forEach(year => {
-        let row = { Year: year };
-        for (let i = 1; i <= 12; i++) {
-            row[i] = 0; // initialize months to 0
-        }
-        result.push(row);
-    });
+    data.forEach(obj => {
+        const monthIndex = parseInt(obj.imonth) - 1; // Get the month index (subtract 1 since JavaScript uses zero-based indexing)
+        const values = Object.values(obj).slice(1, 32); // Get the values for each day of the month
 
-    // fill the result with data
-    data.forEach(item => {
-        let row = result.find(r => r.Year === item.iyear);
-        if (row) {
-            row[item.imonth] = item.count;
-        }
-    });
+        const monthCount = values.reduce((acc, val) => acc + parseFloat(val), 0); // Calculate the sum of values for the month
+        countsByMonth[monthIndex] += monthCount; // Add the month count to the corresponding index in the countsByMonth array
+    });    
 
-    // Convert month numbers to names
-    result = result.map(row => {
-        let newRow = { Year: row.Year };
-        let months = [null, 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
-        // let months = [null, 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec']
-        for (let i = 1; i <= 12; i++) {
-            newRow[months[i]] = row[i];
-        }
-        return newRow;
-    });
-    console.log(result);
-    plotmovinggraphs(result);
-    return result;
-}
-
-function plotmovinggraphs(data) {
-    var margin = {top: 20, right: 30, bottom: 0, left: 10},
-        width = 460 - margin.left - margin.right,
-        height = 400 - margin.top - margin.bottom;
-    
-    
     var svg = d3.select(".graph3")
       .append("svg")
-        .attr("width", width + margin.left + margin.right)
-        .attr("height", height + margin.top + margin.bottom)
+        .attr("width", innerWidth + margin.left + margin.right)
+        .attr("height", innerHeight + margin.top + margin.bottom)
       .append("g")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-    var keys = Object.keys(data[0]).slice(1);   // Month names
-    console.log("keyyyyysss", keys);
+    var keys = data.columns.slice(1);   // Month names
 
-    //var x = d3.scaleBand()
-    //    .domain(keys)
-    //    .range([ 0, width ]);
-
-    var x = d3.scaleBand()
-        //.domain(['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'])
-        .domain(d3.extent(data, function(d) { return d.year; }))
-        .range([ 0, width ]);
+    var x = d3.scaleLinear()
+        .domain([1, 12])
+        .range([0, innerWidth]);
     svg.append("g")
-        .attr("transform", "translate(0," + height*0.8 + ")")
-        .call(d3.axisBottom(x).tickSize(-height*.7).tickValues(['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']))
-        .select(".domain").remove();
+        .attr("transform", "translate(0," + innerHeight * .8 + ")")
+        .call(d3.axisBottom(x).tickSize(-innerHeight * .7))
+        .select(".domain")
+        .remove();
 
     svg.selectAll(".tick line").attr("stroke", "#b8b8b8");  // Vertical grid lines above month names
 
+    // Add X axis label:
     svg.append("text")
         .attr("text-anchor", "end")
-        .attr("x", width)
-        .attr("y", height-30 )
+        .attr("x", 2*innerWidth/3)
+        .attr("y", innerHeight - 30 )
         .text("Time (month)");
 
     var y = d3.scaleLinear()
-        .domain([-1000, 1000])
-        .range([ height, 0 ]);
+        .domain([-d3.max(countsByMonth) * 2.5, d3.max(countsByMonth) * 2.5])
+        .range([ innerHeight, 0 ]);
+    svg.append("g")
+        .call(d3.axisLeft(y))
+        .attr("transform", "translate(-25, 0)");
 
     var color = d3.scaleOrdinal()
         .domain(keys)
-        .range(d3.schemeDark2);
+        .range(d3.schemeTableau10);
 
     var stackedData = d3.stack()
         .offset(d3.stackOffsetSilhouette)
         .keys(keys)
         (data);
 
-    var Tooltip = svg
-        .append("text")
-        .attr("x", 0)
-        .attr("y", 0)
+    var tooltip = d3.select("body")
+        .append("div")
         .style("opacity", 0)
-        .style("font-size", 17);
-
-    var mouseover = function(d) {
-        Tooltip.style("opacity", 1)
-        d3.selectAll(".myArea").style("opacity", .2)
-        d3.select(this)
-            .style("stroke", "black")
-            .style("opacity", 1)
-    }
-    //var mousemove = function(d,i) {
-    //    var year = d.data.Year;
-    //    Tooltip.text(year);
-    //}
-
-    var mousemove = function(d,i) {
-        grp = keys[i]
-        Tooltip.text(grp)
-      }
-
-    var mouseleave = function(d) {
-        Tooltip.style("opacity", 0)
-        d3.selectAll(".myArea").style("opacity", 1).style("stroke", "none")
-    }
-
-    console.log(data)
-    
-    //var area = d3.area()
-    //    .x(function(d) { return x(d.data.key); })
-    //    .y0(function(d) { return y(d[0]); })
-    //   .y1(function(d) { return y(d[1]); });
-
+        .style("font-size", 10)
+        .attr("class", "tooltip-streamgraph")
+        .style("font-size", 17)
+        .style("z-index", 1000);
+        
     
     var area = d3.area()
-    .x(function(d) {
-        var xValue = x(d.data.year);
-        console.log("x - Input: ", d);
-        console.log("x - Output: ", xValue);
-        return xValue;
-    })
-    .y0(function(d) {
-        var y0Value = y(d[0]);
-        console.log("y0 - Input: ", d);
-        console.log("y0 - Output: ", y0Value);
-        return y0Value;
-    })
-    .y1(function(d) {
-        var y1Value = y(d[1]);
-        console.log("y1 - Input: ", d);
-        console.log("y1 - Output: ", y1Value);
-        return y1Value;
-    });
+        .x(function(d) { return x(d.data.imonth); })
+        .y0(function(d) { return y(d[0]); })
+        .y1(function(d) { return y(d[1]); });
 
-    svg
-        .selectAll(".mylayers")
+    svg.selectAll("mylayers")
         .data(stackedData)
         .enter()
         .append("path")
-            .attr("class", "myArea")
+            .attr("class", "myArea") 
             .style("fill", function(d) { return color(d.key); })
-            .attr("d", area)
-            .on("mouseover", mouseover)
-            .on("mousemove", mousemove)
-            .on("mouseleave", mouseleave);
+            .style("opacity", .8)
+       .attr("d", area)
+       .on("mouseover", function(event, d) {
+           tooltip.transition()
+               .duration(200)
+               .style("opacity", 0.9);
+           tooltip.html(`<p>${d.key} </p>`)
+               .style("left", `${event.pageX}px`)
+               .style("top", `${event.pageY - 28}px`)
+               .style("background-color", color(d.key));
+            d3.selectAll(".myArea").style("opacity", .2)
+            d3.select(this)
+                .style("stroke", "black")
+                .style("opacity", 1)
+        })
+       .on("mousemove", function(event, d) {
+           tooltip.style("left", `${event.pageX}px`)
+               .style("top", `${event.pageY - 28}px`);
+        })
+       .on("mouseleave", function(d) {
+            tooltip.style("opacity", 0)
+            d3.selectAll(".myArea").style("opacity", .8).style("stroke", "none")
+        });
 }
-
-function changeColorCountry(Country){
-    d3.json("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson", function(data){
-
-});
-
-}
-
-/*function plotMap() {  
-    // select the div element with id='map'.
-    var divmap = document.getElementById('map');
-    var canvas = document.getElementById('my_dataviz');
-
-
-    // Actual width and height. No idea if clienWidth would be a better option..?
-    var width = divmap.clientWidth
-    var height = divmap.clientHeight
-    canvas.width = width;
-  canvas.height = height;
-
-
-    
-    //var boundingRect = canvas.getBoundingClientRect();
-    //var width = boundingRect.width;
-    //var height = boundingRect.height;
-    console.log("width", width);
-    console.log("height", height);
-
-    // Set a projection for the map. Projection = transform a lat/long on a position on the 2d map.
-    var projection = d3.geoNaturalEarth1()
-        .scale(width / 1.3 / Math.PI)
-        .translate([width / 2, height / 2])
-
-    // Get the 'context'
-    var ctx = canvas.getContext('2d');
-
-    // geographic path generator for given projection and canvas context
-    const pathGenerator = d3.geoPath(projection, ctx);
-
-    // Load external data and boot
-    d3.json("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson", function(data){
-
-      // initialize the path
-      ctx.beginPath();
-
-      // Got the positions of the path
-      pathGenerator(data);
-
-      // Fill the paths
-      ctx.fillStyle = "#999";
-      ctx.fill();
-
-      // Add stroke
-      ctx.strokeStyle = "#69b3a2";
-      ctx.stroke()
-
-    })
-}*/
