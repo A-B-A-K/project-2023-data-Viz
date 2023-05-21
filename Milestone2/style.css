@@ -348,32 +348,58 @@ button.selected {
 
   .slider {
     width: 100%; /* Adjust the width of the slider */
-    height: 2px; /* Adjust the height of the slider track */
+    height: 4px; /* Adjust the height of the slider track */
     margin: 20px 0;
-    background-color: black; /* Set the background color of the slider track */
+    /* background-color: black; Set the background color of the slider track */
+    background: linear-gradient(to right, cornflowerblue, crimson);
+        /* Set a gradient color to the slider track */
     outline: none; /* Remove the outline around the slider */
     -webkit-appearance: none; /* Remove default appearance for Webkit browsers */
+    transition: background-color 0.3s ease;
 
+}
+
+.slider:hover {
+    background-color: #ff5500;
+    /* Change the color when hovered */
 }
 
 .slider::-webkit-slider-thumb {
-    -webkit-appearance: none; /* Remove default appearance for Webkit browsers */
-    width: 20px; /* Adjust the width of the slider thumb */
-    height: 20px; /* Adjust the height of the slider thumb */
-    background-color: rgb(62, 60, 60); /* Set the background color of the slider thumb */
-    border-radius: 50%; /* Make the slider thumb round */
-    cursor: pointer; /* Change the cursor to a pointer when hovering over the slider thumb */
+    -webkit-appearance: none;
+    /* Remove default appearance for Webkit browsers */
+    width: 20px;
+    /* Adjust the width of the slider thumb */
+    height: 20px;
+    /* Adjust the height of the slider thumb */
+    background-color: dimgrey;
+    /* Set the background color of the slider thumb */
+    border-radius: 50%;
+    /* Make the slider thumb round */
+    cursor: pointer;
+    /* Change the cursor to a pointer when hovering over the slider thumb */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
 }
 
 .slider::-moz-range-thumb {
-    width: 20px; /* Adjust the width of the slider thumb */
-    height: 20px; /* Adjust the height of the slider thumb */
-    background-color: white; /* Set the background color of the slider thumb */
-    border-radius: 50%; /* Make the slider thumb round */
-    cursor: pointer; /* Change the cursor to a pointer when hovering over the slider thumb */
+    width: 20px;
+    /* Adjust the width of the slider thumb */
+    height: 20px;
+    /* Adjust the height of the slider thumb */
+    background-color: white;
+    /* Set the background color of the slider thumb */
+    border: 2px solid dimgrey;
+    /* Add a border around the slider thumb */
+    border-radius: 50%;
+    /* Make the slider thumb round */
+    cursor: pointer;
+    /* Change the cursor to a pointer when hovering over the slider thumb */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
 }
+
 .slider-text {
     margin-top: 20px; /* Add margin to the top of the text underneath the slider */
+    font-size: 14px;
+    color: dimgrey;
 }
 
 .graph1,

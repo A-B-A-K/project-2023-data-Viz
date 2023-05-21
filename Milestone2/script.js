@@ -117,17 +117,45 @@ document.addEventListener("DOMContentLoaded", function () {
         const mapContainer = document.getElementById('map');
         const mapBox = document.querySelector(".map leaflet-container leaflet-touch leaflet-retina leaflet-fade-anim leaflet-grab leaflet-touch-drag leaflet-touch-zoom");
         
+        const oldDiv1 = graphContainer.querySelector('.graph1');
+        const oldDiv2 = graphContainer.querySelector('.graph2');
+
+        const div1 = document.createElement('div');
+        div1.className = 'graph1';
+        div1.style.width = '100%';
+        div1.style.height = '100%';
+        div1.style.border = '0px solid #3C3C3C';
+        div1.innerHTML = `Graph1`;
+
+        const div2 = document.createElement('div');
+        div2.className = 'graph2';
+        div2.style.width = '100%';
+        div2.style.height = '100%';
+        div2.style.border = '0px solid #3C3C3C';
+        div2.innerHTML = `Graph2`;
+
+        if (oldDiv1) {
+            oldDiv1.remove();
+        }
+
+        if (oldDiv2) {
+            oldDiv2.remove();
+        }
+
         switch (buttonNumber) {
             case 1:
                 while (imageContainer.firstChild) {
                     imageContainer.removeChild(imageContainer.firstChild);
-                  }
-                  textContainer.innerHTML = "<p>The first step into studying the nature of terrorist attacks was to study the groups that perpetrated them. We therefore present you a graph listing the terrorist organisations with the most casualties. Next to it we deemed interesting to study the weapons used most commonly by these groups which we represented by a heatmap.</p> <div class='graph1' style='border: 0px solid #3C3C3C; border-radius: 15px;'> </div> <div class='graph2' style='border: 3px solid #3C3C3C; border-radius: 15px;'> </div>";
-                
+                }
+                textContainer.innerHTML = "<p>The first step into studying the nature of terrorist attacks was to study the groups that perpetrated them. We therefore present you a graph listing the terrorist organisations with the most casualties. Next to it we deemed interesting to study the weapons used most commonly by these groups which we represented by a heatmap.</p>";
+
+                graphContainer.appendChild(div1);
+                graphContainer.appendChild(div2);
 
                 d3.csv("https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/Alex/data/miscellaneous/fatalities_per_group.csv")
                   .then(data => {
-                    plotData(processData(data));
+                      var processedData = data.sort((a, b) => b.nkill - a.nkill).slice(0, 10);
+                      plotData(processedData);
                   })
                   .catch(error => console.error('Error:', error))
 
@@ -135,31 +163,17 @@ document.addEventListener("DOMContentLoaded", function () {
               // Fetch and process heatmap_data_pivot.csv
                 d3.csv("https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/Alex/data/heatmap/heatmap_data.csv")
                   .then(data => {
-                      plotHeatmap(processHeatmap(data));
+                      plotHeatmap(data);
                   })
                   .catch(error => console.error('Error:', error));
-              
-                function processHeatmap(data) {
-                    data.forEach(d => {
-                        d.count = +d.count; // unary plus operator converts string to number
-                    });
-                    return data;
-                }
                 
-                function processData(data) {
-                    // Sort the data by nkill descending and slice the first 10
-                    let top10 = data.sort((a, b) => b.nkill - a.nkill).slice(0, 10);
-
-                    return top10;
-                }
                   break;
             case 2:
                 while (imageContainer.firstChild) {
                     imageContainer.removeChild(imageContainer.firstChild);
                 }
-    
                 textContainer.innerHTML = "<p>We found interesting to study terrorism and its evolution by visualizing the activity of terrorist groups through the years on the globe.</p>";
-    
+
                 // Create a slider
                 const slider = document.createElement('input');
                 slider.type = 'range';
@@ -190,20 +204,17 @@ document.addEventListener("DOMContentLoaded", function () {
                 while (imageContainer.firstChild) {
                     imageContainer.removeChild(imageContainer.firstChild);
                 }
-                textContainer.innerHTML = "<p>Before delving deeper in the analysis of the data we tried figuring out if there were specific trends in when the attacks were committed during the year</p><div class='graph5' style='border: 3px solid #3C3C3C; border-radius: 15px;'> </div>";
+                textContainer.innerHTML = "<p>Before delving deeper in the analysis of the data we tried figuring out if there were specific trends in when the attacks were committed during the year</p>";
+
+                graphContainer.appendChild(div1);
+
                 if (!imageContainer.hasChildNodes()) {
                     d3.csv("https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/Alex/data/miscellaneous/seasonality_raw.csv")
-                  .then(data => {
-                      plotSeasonality(processHeatmap(data));
-                  })
-                  .catch(error => console.error('Error:', error));
+                      .then(data => {
+                          plotSeasonality(data);
+                      })
+                      .catch(error => console.error('Error:', error));
               
-                function processHeatmap(data) {
-                    data.forEach(d => {
-                        d.count = +d.count; // unary plus operator converts string to number
-                    });
-                    return data;
-                }
                 }
                 break;
             case 4:
@@ -211,14 +222,23 @@ document.addEventListener("DOMContentLoaded", function () {
                     imageContainer.removeChild(imageContainer.firstChild);
                 }
                 textContainer.innerHTML = "<p>To truly understand the dynamics of each region of the world we added their growth tendencies of terrorist activities.</p>";
-                
+
                                 // Create a dropdown menu (select element)
                 const regionSelect = document.createElement('select');
-                regionSelect.classList.add('region-select');
+                regionSelect.classList.add('region-select', 'pretty-select');
         
                 // Create an img element to display the region image
                 const regionImage = document.createElement('img');
                 regionImage.classList.add('region-image');
+
+                // Create a placeholder option
+                const placeholderRegion = document.createElement('option');
+                placeholderRegion.text = "Please select a region...";
+                placeholderRegion.value = "";
+                placeholderRegion.disabled = true;
+                placeholderRegion.selected = true;
+                placeholderRegion.hidden = true;
+                regionSelect.appendChild(placeholderRegion);
         
                 // Populate the dropdown menu with region options
                 regionNames.forEach(region => {
@@ -231,8 +251,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 // Add an event listener to update the displayed image based on the selected country
                 regionSelect.addEventListener('change', () => {
                     // Update the image source (modify this to match your actual file paths and naming conventions)
-                    regionImage.src = `/data/regions/${regionSelect.value.replace(/ /g, '_')}.png`;
-                    regionImage.alt = regionSelect.value;
+                    // regionImage.src = `/data/regions/${regionSelect.value.replace(/ /g, '_')}.png`;
+                    // regionImage.alt = regionSelect.value;
                 });
         
                 // Append the dropdown menu and the image to the imageContainer
@@ -241,13 +261,43 @@ document.addEventListener("DOMContentLoaded", function () {
         
                 // Append the imageContainer to the graphContainer
                 graphContainer.appendChild(imageContainer);
+
+                regionSelect.addEventListener('change', () => {
+
+                    if (oldDiv1) {
+                        oldDiv1.remove();
+                    }
+
+                    if (oldDiv2) {
+                        oldDiv2.remove();
+                    }
+ 
+                    // const oldDiv = graphContainer.querySelector('.graph4');
+
+                    // const div = document.createElement('div');
+                    // div.className = 'graph4';
+                    // div.style.width = '100%';
+                    // div.style.height = '100%';
+                    div1.style.border = '3px solid #3C3C3C';
+                    // div.style.borderRadius = '15px';
+                    div1.innerHTML = `<b>${regionSelect.value}</b>`;
+                    graphContainer.appendChild(div1);
+
+
+                    const dataUrl = `https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/Aristotelis/data/regions/${encodeURIComponent(regionSelect.value) }.csv`
+                    d3.csv(dataUrl)
+                        .then(data => {
+                            plotScatterplot(data);
+                        })
+                        .catch(error => console.error('Error:', error));
+                });
+
                 
                 break;
             case 5:
                 while (imageContainer.firstChild) {
                     imageContainer.removeChild(imageContainer.firstChild);
                 }
-
                 textContainer.innerHTML = "<p>Lastly, in order to give as much information as possible we have added statistics on the different countries</p>";
 
                 // Create a dropdown menu (select element)
@@ -259,13 +309,13 @@ document.addEventListener("DOMContentLoaded", function () {
                 countryImage.classList.add('country-image');
 
                 // Create a placeholder option
-                const placeholderOption = document.createElement('option');
-                placeholderOption.text = "Please select a country..."; 
-                placeholderOption.value = "";
-                placeholderOption.disabled = true;
-                placeholderOption.selected = true;
-                placeholderOption.hidden = true;
-                countrySelect.appendChild(placeholderOption);
+                const placeholderCountry = document.createElement('option');
+                placeholderCountry.text = "Please select a country..."; 
+                placeholderCountry.value = "";
+                placeholderCountry.disabled = true;
+                placeholderCountry.selected = true;
+                placeholderCountry.hidden = true;
+                countrySelect.appendChild(placeholderCountry);
                 
     
                 // Populate the dropdown menu with country options
@@ -281,28 +331,31 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 // Add an event listener to update the displayed image based on the selected country
                 countrySelect.addEventListener('change', () => {
-                    
-                    console.log("change");
-                    var childToRemove = textContainer.querySelector('.graph3');
-                    console.log(childToRemove);
-                    if (childToRemove) {
-                        console.log("removing child");
-                        textContainer.removeChild(childToRemove);
+
+
+                    if (oldDiv1) {
+                        console.log("removing oldDiv1");
+                        oldDiv1.remove();
                     }
-                    textContainer.innerHTML = "<p>Lastly, in order to give as much information as possible we have added statistics on the different countries</p><div class='graph3' style='border: 0px solid #3C3C3C; border-radius: 15px;'> </div>";
-                    
+
+                    if (oldDiv2) {
+                        console.log("removing oldDiv2");
+                        oldDiv2.remove();
+                    }
+
+
+                    div1.innerHTML = `<b>${countrySelect.value}</b>`
+                    graphContainer.appendChild(div1);
                     // Update the image source (modify this to match your actual file paths and naming conventions)
                     //countryImage.src = `/data/countries/${countrySelect.value.replace(/ /g, '_')}.png`;
                     //countryImage.alt = countrySelect.value;
-                    const selectedCountry = countrySelect.value.replace(/ /g, '%20');
                     //const imageUrl = `/data/countries/${selectedCountry}.png`;
 
-                    const quotedCountry = "'" + selectedCountry + "'";
-                    console.log("vfjdsiorjoigrjagra", quotedCountry)
-                    highlightCountry(selectedCountry);
+        
+                    highlightCountry(countrySelect.value);
      
 
-                    const dataUrl = `https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/Aristotelis/data/streamgraph/${selectedCountry}.csv`;
+                    const dataUrl = `https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/Aristotelis/data/streamgraph/${encodeURIComponent(countrySelect.value) }.csv`;
                     d3.csv(dataUrl)	
                     .then(data => {
                         plotStreamgraph(data);
@@ -372,8 +425,8 @@ document.addEventListener("DOMContentLoaded", function () {
         const svg = d3.select(".graph1");
 
         const g = svg.append("svg")
-            .attr("width", width + margin.left + margin.right)
-            .attr("height", height + margin.top + margin.bottom)
+            .attr("width", innerWidth + margin.left + margin.right)
+            .attr("height", innerHeight + margin.top + margin.bottom)
             .append('g')
             .attr('transform', `translate(${margin.left}, ${margin.top})`);
             
@@ -450,23 +503,22 @@ document.addEventListener("DOMContentLoaded", function () {
             .attr("class", "tooltip-heatmap")
             .style("opacity", 0);
 
-        var svg = d3
-            .select(".graph2")
-            .append("svg")
+        var svg = d3.select(".graph2");
+
+        const g = svg.append("svg")
             .attr("width", innerWidth + margin.left + margin.right)
             .attr("height", innerHeight + margin.top + margin.bottom)
-            .append("g")
-            .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+            .append('g')
+            .attr('transform', `translate(${margin.left}, ${margin.top})`);
 
         const xValue = d => d.gname;
         const yValue = d => d.weapsubtype1_txt;
-        const count = d => d.count;
 
         var x = d3.scaleBand()
             .range([0, innerWidth])
             .domain(data.map(d => xValue(d)))
             .padding(0.01);
-        svg.append("g")
+        g.append("g")
             .attr("transform", "translate(0," + innerHeight + ")")
             .call(d3.axisBottom(x));
 
@@ -474,7 +526,7 @@ document.addEventListener("DOMContentLoaded", function () {
             .range([innerHeight, 0])
             .domain(data.map(d => yValue(d)))
             .padding(0.01);
-        svg.append("g")
+        g.append("g")
             .call(d3.axisLeft(y));
 
         var myColor = d3.scaleLinear()
@@ -495,7 +547,7 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         });
 
-        svg.selectAll()
+        g.selectAll()
             .data(data, function (d) { return d.gname + ':' + d.weapsubtype1_txt; })
             .enter()
             .append("rect")
@@ -506,7 +558,7 @@ document.addEventListener("DOMContentLoaded", function () {
             .attr("rx", 4)
             .attr("ry", 4)
             .attr("class", function (d) { return `${gnameMapping[d.gname]} ${weapsubtype1_txtMapping[d.weapsubtype1_txt]}` })
-            .style("fill", function (d) { return myColor(d.count) })
+            .style("fill", function (d) { return myColor(+d.count) })
             .on("mouseover", function (event, d) {
                 d3.selectAll('rect')
                     .transition().duration(200)
@@ -529,11 +581,11 @@ document.addEventListener("DOMContentLoaded", function () {
                 tooltip.transition()
                     .duration(200)
                     .style("opacity", 0.9);
-                tooltip.html(`<p> The <b>${d.gname}</b> group <br> used <b>${d.weapsubtype1_txt}</b> ${d.count} times</p>`)
+                tooltip.html(`<p> The <b>${d.gname}</b> group <br> used <b>${d.weapsubtype1_txt}</b> ${+d.count} times</p>`)
                     .style("left", `${event.pageX}px`)
                     .style("top", `${event.pageY - 28}px`)
                     .style("background-color", d3.select(this).attr("fill"))
-                    .style("border-color", myColor(d.count))
+                    .style("border-color", myColor(+d.count))
                     .style("weight", "12px")
                     .style("border-style", "solid");
             })
@@ -553,109 +605,110 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   
     function plotStreamgraph(data) {
-      const width = 460;
-      const height = 400
-      var margin = {top: 20, right: 30, bottom: 10, left: 75};        
-      var innerWidth = width - margin.left - margin.right;
-      var innerHeight = height - margin.top - margin.bottom;
+        const width = 460;
+        const height = 400
+        var margin = {top: 20, right: 30, bottom: 10, left: 75};        
+        var innerWidth = width - margin.left - margin.right;
+        var innerHeight = height - margin.top - margin.bottom;
 
-      // Calculate list of total per month
-      const countsByMonth = Array(12).fill(0); // Initialize an array to store counts for each month (assuming 12 months)
+        // Calculate list of total per month
+        const countsByMonth = Array(12).fill(0); // Initialize an array to store counts for each month (assuming 12 months)
 
-      data.forEach(obj => {
-          const monthIndex = parseInt(obj.imonth) - 1; // Get the month index (subtract 1 since JavaScript uses zero-based indexing)
-          const values = Object.values(obj).slice(1, 32); // Get the values for each day of the month
+        data.forEach(obj => {
+            const monthIndex = parseInt(obj.imonth) - 1; // Get the month index (subtract 1 since JavaScript uses zero-based indexing)
+            const values = Object.values(obj).slice(1, 32); // Get the values for each day of the month
 
-          const monthCount = values.reduce((acc, val) => acc + parseFloat(val), 0); // Calculate the sum of values for the month
-          countsByMonth[monthIndex] += monthCount; // Add the month count to the corresponding index in the countsByMonth array
-      });    
+            const monthCount = values.reduce((acc, val) => acc + parseFloat(val), 0); // Calculate the sum of values for the month
+            countsByMonth[monthIndex] += monthCount; // Add the month count to the corresponding index in the countsByMonth array
+        });    
 
-      var svg = d3.select(".graph3")
-        .append("svg")
-          .attr("width", innerWidth + margin.left + margin.right)
-          .attr("height", innerHeight + margin.top + margin.bottom)
-        .append("g")
-          .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+        var svg = d3.select(".graph1");
 
-      var keys = data.columns.slice(1);   // Month names
+        const g = svg.append("svg")
+            .attr("width", innerWidth + margin.left + margin.right)
+            .attr("height", innerHeight + margin.top + margin.bottom)
+            .append('g')
+            .attr('transform', `translate(${margin.left}, ${margin.top})`);
 
-      var x = d3.scaleLinear()
-          .domain([1, 12])
-          .range([0, innerWidth]);
-      svg.append("g")
-          .attr("transform", "translate(0," + innerHeight * .8 + ")")
-          .call(d3.axisBottom(x).tickSize(-innerHeight * .7))
-          .select(".domain")
-          .remove();
+        var keys = data.columns.slice(1);   // Month names
 
-      svg.selectAll(".tick line").attr("stroke", "#b8b8b8");  // Vertical grid lines above month names
+        var x = d3.scaleLinear()
+            .domain([1, 12])
+            .range([0, innerWidth]);
+        g.append("g")
+            .attr("transform", "translate(0," + innerHeight * .8 + ")")
+            .call(d3.axisBottom(x).tickSize(-innerHeight * .7))
+            .select(".domain")
+            .remove();
 
-      // Add X axis label:
-      svg.append("text")
-          .attr("text-anchor", "end")
-          .attr("x", 2*innerWidth/3)
-          .attr("y", innerHeight - 30 )
-          .text("Time (month)");
+        g.selectAll(".tick line").attr("stroke", "#b8b8b8");  // Vertical grid lines above month names
 
-      var y = d3.scaleLinear()
-          .domain([-d3.max(countsByMonth) * 2.5, d3.max(countsByMonth) * 2.5])
-          .range([ innerHeight, 0 ]);
-      svg.append("g")
-          .call(d3.axisLeft(y))
-          .attr("transform", "translate(-25, 0)");
+        // Add X axis label:
+        g.append("text")
+            .attr("text-anchor", "end")
+            .attr("x", 2*innerWidth/3)
+            .attr("y", innerHeight - 30 )
+            .text("Time (month)");
 
-      var color = d3.scaleOrdinal()
-          .domain(keys)
-          .range(d3.schemeTableau10);
+        var y = d3.scaleLinear()
+            .domain([-d3.max(countsByMonth) * 2.5, d3.max(countsByMonth) * 2.5])
+            .range([ innerHeight, 0 ]);
+        g.append("g")
+            .call(d3.axisLeft(y))
+            .attr("transform", "translate(-25, 0)");
 
-      var stackedData = d3.stack()
-          .offset(d3.stackOffsetSilhouette)
-          .keys(keys)
-          (data);
+        var color = d3.scaleOrdinal()
+            .domain(keys)
+            .range(d3.schemeTableau10);
 
-      var tooltip = d3.select("body")
-          .append("div")
-          .style("opacity", 0)
-          .style("font-size", 10)
-          .attr("class", "tooltip-streamgraph")
-          .style("font-size", 17)
-          .style("z-index", 1000);
+        var stackedData = d3.stack()
+            .offset(d3.stackOffsetSilhouette)
+            .keys(keys)
+            (data);
+
+        var tooltip = d3.select("body")
+            .append("div")
+            .style("opacity", 0)
+            .style("font-size", 10)
+            .attr("class", "tooltip-streamgraph")
+            .style("font-size", 17)
+            .style("z-index", 1000);
 
 
-      var area = d3.area()
-          .x(function(d) { return x(d.data.imonth); })
-          .y0(function(d) { return y(d[0]); })
-          .y1(function(d) { return y(d[1]); });
+        var area = d3.area()
+            .x(function(d) { return x(d.data.imonth); })
+            .y0(function(d) { return y(d[0]); })
+            .y1(function(d) { return y(d[1]); });
 
-      svg.selectAll("mylayers")
-          .data(stackedData)
-          .enter()
-          .append("path")
-              .attr("class", "myArea") 
-              .style("fill", function(d) { return color(d.key); })
-              .style("opacity", .8)
-         .attr("d", area)
-         .on("mouseover", function(event, d) {
-             tooltip.transition()
-                 .duration(200)
-                 .style("opacity", 0.9);
-             tooltip.html(`<p>${d.key} </p>`)
-                 .style("left", `${event.pageX}px`)
-                 .style("top", `${event.pageY - 28}px`)
-                 .style("background-color", color(d.key));
-              d3.selectAll(".myArea").style("opacity", .2)
-              d3.select(this)
-                  .style("stroke", "black")
-                  .style("opacity", 1)
-          })
-         .on("mousemove", function(event, d) {
-             tooltip.style("left", `${event.pageX}px`)
-                 .style("top", `${event.pageY - 28}px`);
-          })
-         .on("mouseleave", function(d) {
-              tooltip.style("opacity", 0)
-              d3.selectAll(".myArea").style("opacity", .8).style("stroke", "none")
-          });
+        g.selectAll("mylayers")
+            .data(stackedData)
+            .enter()
+            .append("path")
+                .attr("class", "myArea") 
+                .style("fill", function(d) { return color(d.key); })
+                .style("opacity", .8)
+            .attr("d", area)
+            .on("mouseover", function(event, d) {
+                tooltip.transition()
+                    .duration(200)
+                    .style("opacity", 0.9);
+                tooltip.html(`<p>${d.key} </p>`)
+                    .style("left", `${event.pageX}px`)
+                    .style("top", `${event.pageY - 28}px`)
+                    .style("background-color", color(d.key));
+                d3.selectAll(".myArea").style("opacity", .2)
+                d3.select(this)
+                    .style("stroke", "black")
+                    .style("opacity", 1)
+            })
+            .on("mousemove", function(event, d) {
+                tooltip.style("left", `${event.pageX}px`)
+                    .style("top", `${event.pageY - 28}px`);
+            })
+            .on("mouseleave", function(d) {
+                tooltip.style("opacity", 0)
+                d3.selectAll(".myArea").style("opacity", .8).style("stroke", "none")
+            });
     }
 
     function plotSeasonality(data) {
@@ -671,23 +724,22 @@ document.addEventListener("DOMContentLoaded", function () {
             .attr("class", "tooltip-heatmap")
             .style("opacity", 0);
 
-        var svg = d3
-            .select(".graph5")
-            .append("svg")
+        var svg = d3.select(".graph1");
+
+        const g = svg.append("svg")
             .attr("width", innerWidth + margin.left + margin.right)
             .attr("height", innerHeight + margin.top + margin.bottom)
-            .append("g")
-            .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+            .append('g')
+            .attr('transform', `translate(${margin.left}, ${margin.top})`);
 
         const xValue = d => d.imonth;
         const yValue = d => d.iday;
-        const count = d => d.count;
 
         var x = d3.scaleBand()
             .range([0, innerWidth])
             .domain(data.map(d => xValue(d)))
             .padding(0.01);
-        svg.append("g")
+        g.append("g")
             .attr("transform", "translate(0," + innerHeight + ")")
             .call(d3.axisBottom(x));
 
@@ -695,16 +747,44 @@ document.addEventListener("DOMContentLoaded", function () {
             .range([innerHeight, 0])
             .domain(data.map(d => yValue(d)))
             .padding(0.01);
-        svg.append("g")
+        g.append("g")
             .call(d3.axisLeft(y));
 
         var myColor = d3.scaleSequential()
             .interpolator(d3.interpolateViridis)
             .domain([0, 750]);;
 
+        const numToMonth = d => {
+            switch (d) {
+                case 1:
+                    return 'January';
+                case 2:
+                    return 'February';
+                case 3:
+                    return 'March';
+                case 4:
+                    return 'April';
+                case 5:
+                    return 'May';
+                case 6:
+                    return 'June';
+                case 7:
+                    return 'July';
+                case 8:
+                    return 'August';
+                case 9:
+                    return 'September';
+                case 10:
+                    return 'October';
+                case 11:
+                    return 'November';
+                case 12:
+                    return 'December';
+            }
+        }
 
 
-        svg.selectAll()
+        g.selectAll()
             .data(data, function (d) { return d.imonth + ':' + d.iday; })
             .enter()
             .append("rect")
@@ -715,45 +795,17 @@ document.addEventListener("DOMContentLoaded", function () {
             .attr("rx", 4)
             .attr("ry", 4)
             //.attr("class", function (d) { return `${gnameMapping[d.imonth]} ${weapsubtype1_txtMapping[d.iday]}` })
-            .style("fill", function (d) { return myColor(d.count) })
+            .style("fill", function (d) { return myColor(+d.count) })
             .on("mouseover", function (event, d) {
-
-                const numToMonth = d => {
-                    switch (d) {
-                        case 1:
-                            return 'January';
-                        case 2:
-                            return 'February';
-                        case 3:
-                            return 'March';
-                        case 4:
-                            return 'April';
-                        case 5:
-                            return 'May';
-                        case 6:
-                            return 'June';
-                        case 7:
-                            return 'July';
-                        case 8:
-                            return 'August';
-                        case 9:
-                            return 'September';
-                        case 10:
-                            return 'October';
-                        case 11:
-                            return 'November';
-                        case 12:
-                            return 'December';
-                    }}
 
                 tooltip.transition()
                     .duration(200)
                     .style("opacity", 0.9);
-                tooltip.html(`<p> The <b>${d.iday} of ${numToMonth(+d.imonth)}</b>  <br> has on average ${d.count} attacks</p>`)
+                tooltip.html(`<p> The <b>${d.iday} of ${numToMonth(+d.imonth)}</b>  <br> has on average ${+d.count} attacks</p>`)
                     .style("left", `${event.pageX}px`)
                     .style("top", `${event.pageY - 28}px`)
                     .style("background-color", d3.select(this).attr("fill"))
-                    .style("border-color", myColor(d.count))
+                    .style("border-color", myColor(+d.count))
                     .style("weight", "12px")
                     .style("border-style", "solid");
             })
@@ -771,6 +823,68 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 tooltip.style("opacity", 0);
             })
+    }
+
+    function plotScatterplot(data) {
+        const width = 460;
+        const height = 400;
+
+        var margin = { top: 10, right: 30, bottom: 30, left: 60 };
+        const innerWidth = width - margin.left - margin.right;
+        const innerHeight = height - margin.top - margin.bottom;
+
+        const tooltip = d3.select("body")
+            .append("div")
+            .attr("class", "tooltip-scatterplot")
+            .style("opacity", 0);
+
+        var svg = d3.select(".graph1");
+
+        const g = svg.append("svg")
+            .attr("width", innerWidth + margin.left + margin.right)
+            .attr("height", innerHeight + margin.top + margin.bottom)
+            .append('g')
+            .attr('transform', `translate(${margin.left}, ${margin.top})`);
+
+        var x = d3.scaleLinear()
+            .domain([0, 0])
+            .range([0, innerWidth]);
+        g.append("g")
+            .attr("class", "x-axis")
+            .attr("transform", "translate(0," + innerHeight + ")")
+            .call(d3.axisBottom(x))
+            .attr("opacity", 0);
+
+        var y = d3.scaleLinear()
+            .domain([0, 500])
+            .range([innerHeight, 0]);
+        g.append("g")
+            .call(d3.axisLeft(y));
+
+        g.append('g')
+            .selectAll("dot")
+            .data(data)
+            .enter()
+            .append("circle")
+            .attr("cx", function (d) { return x(+d.year); })
+            .attr("cy", function (d) { return y(+d.nkill); })
+            .attr("r", 1.5)
+            .style("fill", "#69b3a2"); // Categorize in some way with color
+
+            x.domain([1970, 2020])
+            g.select(".x-axis")
+                .transition()
+                .duration(1000)
+                .attr("opacity", 1)
+                .call(d3.axisBottom(x).tickFormat(d3.format("d")));
+
+            g.selectAll("circle")
+                .transition()
+                .delay(function (d, i) { return (i * 3) })
+                .duration(200)
+                .attr("cx", function (d) { return x(+d.year); })
+                .attr("cy", function (d) { return y(+d.nkill); })
+
     }
 
     
@@ -886,6 +1000,7 @@ document.addEventListener("DOMContentLoaded", function () {
             console.error('Error fetching GeoJSON data:', error);
         });
         // Find the feature representing the specified country in the GeoJSON data
+        console.log(countryName)
         var countryFeature = GeoJsonData.features.find(feature => feature.properties.name === countryName);
         if (countryFeature) {
           // Create a Leaflet GeoJSON layer with only the specified country feature
