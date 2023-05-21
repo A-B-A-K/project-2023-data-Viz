@@ -63,6 +63,7 @@ document.addEventListener("DOMContentLoaded", function () {
         helpWindow.style.display = "none";
     });
 
+
     //We want to create a function that will make it so that when the user has scrolled passed a threshold the buttons start to follow him
 
     var buttonContainer = document.querySelector('.button-container');
@@ -73,10 +74,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
         if (currentPosition > originalPosition) {
             buttonContainer.classList.add('sticky');
-            // buttonContainer.classList.add('sticky-top'); // Add this line
         } else {
             buttonContainer.classList.remove('sticky');
-            // buttonContainer.classList.remove('sticky-top'); // Add this line
         }
     });
 
@@ -121,7 +120,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 while (imageContainer.firstChild) {
                     imageContainer.removeChild(imageContainer.firstChild);
                   }
-                  textContainer.innerHTML = "<p>The first step into studying the nature of terrorist attacks was to study the groups that perpetrated them. We therefore present you a graph listing the terrorist organisations with the most casualties. Next to it we deemed interesting to study the weapons used most commonly by these groups which we represented by a heatmap.</p> <div class='graph1' style='border: 3px solid #3C3C3C; border-radius: 15px;'> </div> <div class='graph2' style='border: 3px solid #3C3C3C; border-radius: 15px;'> </div>";
+                  textContainer.innerHTML = "<p>The first step into studying the nature of terrorist attacks was to study the groups that perpetrated them. We therefore present you a graph listing the terrorist organisations with the most casualties. Next to it we deemed interesting to study the weapons used most commonly by these groups which we represented by a heatmap.</p> <div class='graph1' style='border: 0px solid #3C3C3C; border-radius: 15px;'> </div> <div class='graph2' style='border: 3px solid #3C3C3C; border-radius: 15px;'> </div>";
                 
 
                 d3.csv("https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/Alex/data/miscellaneous/fatalities_per_group.csv")
@@ -252,7 +251,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 while (imageContainer.firstChild) {
                     imageContainer.removeChild(imageContainer.firstChild);
                 }
-                textContainer.innerHTML = "<p>Lastly, in order to give as much information as possible we have added statistics on the different countries</p><div class='graph3' style='border: 3px solid #3C3C3C; border-radius: 15px;'> </div>";
+                textContainer.innerHTML = "<p>Lastly, in order to give as much information as possible we have added statistics on the different countries</p>";
 
                 // Create a dropdown menu (select element)
                 const countrySelect = document.createElement('select');
@@ -279,9 +278,22 @@ document.addEventListener("DOMContentLoaded", function () {
                     countryOption.text = country;
                     countrySelect.appendChild(countryOption);
                 });
-        
+
+                // Append the imageContainer to the graphContainer
+                graphContainer.appendChild(imageContainer);
+
                 // Add an event listener to update the displayed image based on the selected country
                 countrySelect.addEventListener('change', () => {
+                    
+                    console.log("change");
+                    var childToRemove = textContainer.querySelector('.graph3');
+                    console.log(childToRemove);
+                    if (childToRemove) {
+                        console.log("removing child");
+                        textContainer.removeChild(childToRemove);
+                    }
+                    textContainer.innerHTML = "<p>Lastly, in order to give as much information as possible we have added statistics on the different countries</p><div class='graph3' style='border: 0px solid #3C3C3C; border-radius: 15px;'> </div>";
+                    
                     // Update the image source (modify this to match your actual file paths and naming conventions)
                     //countryImage.src = `/data/countries/${countrySelect.value.replace(/ /g, '_')}.png`;
                     //countryImage.alt = countrySelect.value;
@@ -295,16 +307,16 @@ document.addEventListener("DOMContentLoaded", function () {
                     .catch(error => console.error('Error:', error));
                     
                 });
-        
+
                 // Append the dropdown menu and the image to the imageContainer
-                imageContainer.appendChild(countrySelect);
-                imageContainer.appendChild(countryImage);
-        
-                // Append the imageContainer to the graphContainer
-                graphContainer.appendChild(imageContainer);
+                imageContainer.appendChild(countrySelect);  
+                imageContainer.appendChild(countryImage);      
 
                 break;
             default:
+                while (imageContainer.firstChild) {
+                    imageContainer.removeChild(imageContainer.firstChild);
+                }
                 textContainer.innerHTML = `<p>Welcome to "Mapping the Shadows: An Interactive Journey Through Five Decades of Global
                             Terrorism", an interactive data
                             visualization project that invites you to explore the complex landscape of global terrorism
@@ -536,9 +548,115 @@ document.addEventListener("DOMContentLoaded", function () {
                 tooltip.style("opacity", 0);
             })
     }
+
+    function plotStreamgraph(data) {
+        const width = 460;
+        const height = 400
+        var margin = { top: 20, right: 30, bottom: 10, left: 75 };
+        var innerWidth = width - margin.left - margin.right;
+        var innerHeight = height - margin.top - margin.bottom;
+
+        // Calculate list of total per month
+        const countsByMonth = Array(12).fill(0); // Initialize an array to store counts for each month (assuming 12 months)
+
+        data.forEach(obj => {
+            const monthIndex = parseInt(obj.imonth) - 1; // Get the month index (subtract 1 since JavaScript uses zero-based indexing)
+            const values = Object.values(obj).slice(1, 32); // Get the values for each day of the month
+
+            const monthCount = values.reduce((acc, val) => acc + parseFloat(val), 0); // Calculate the sum of values for the month
+            countsByMonth[monthIndex] += monthCount; // Add the month count to the corresponding index in the countsByMonth array
+        });
+
+        var svg = d3.select(".graph3")
+            .append("svg")
+            .attr("width", innerWidth + margin.left + margin.right)
+            .attr("height", innerHeight + margin.top + margin.bottom)
+            .append("g")
+            .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+        var keys = data.columns.slice(1);   // Month names
+
+        var x = d3.scaleLinear()
+            .domain([1, 12])
+            .range([0, innerWidth]);
+        svg.append("g")
+            .attr("transform", "translate(0," + innerHeight * .8 + ")")
+            .call(d3.axisBottom(x).tickSize(-innerHeight * .7))
+            .select(".domain")
+            .remove();
+
+        svg.selectAll(".tick line").attr("stroke", "#b8b8b8");  // Vertical grid lines above month names
+
+        // Add X axis label:
+        svg.append("text")
+            .attr("text-anchor", "end")
+            .attr("x", 2 * innerWidth / 3)
+            .attr("y", innerHeight - 30)
+            .text("Time (month)");
+
+        var y = d3.scaleLinear()
+            .domain([-d3.max(countsByMonth) * 2.5, d3.max(countsByMonth) * 2.5])
+            .range([innerHeight, 0]);
+        svg.append("g")
+            .call(d3.axisLeft(y))
+            .attr("transform", "translate(-25, 0)");
+
+        var color = d3.scaleOrdinal()
+            .domain(keys)
+            .range(d3.schemeTableau10);
+
+        var stackedData = d3.stack()
+            .offset(d3.stackOffsetSilhouette)
+            .keys(keys)
+            (data);
+
+        var tooltip = d3.select("body")
+            .append("div")
+            .style("opacity", 0)
+            .style("font-size", 10)
+            .attr("class", "tooltip-streamgraph")
+            .style("font-size", 17)
+            .style("z-index", 1000);
+
+
+        var area = d3.area()
+            .x(function (d) { return x(d.data.imonth); })
+            .y0(function (d) { return y(d[0]); })
+            .y1(function (d) { return y(d[1]); });
+
+        svg.selectAll("mylayers")
+            .data(stackedData)
+            .enter()
+            .append("path")
+            .attr("class", "myArea")
+            .style("fill", function (d) { return color(d.key); })
+            .style("opacity", .8)
+            .attr("d", area)
+            .on("mouseover", function (event, d) {
+                tooltip.transition()
+                    .duration(200)
+                    .style("opacity", 0.9);
+                tooltip.html(`<p>${d.key} </p>`)
+                    .style("left", `${event.pageX}px`)
+                    .style("top", `${event.pageY - 28}px`)
+                    .style("background-color", color(d.key));
+                d3.selectAll(".myArea").style("opacity", .2)
+                d3.select(this)
+                    .style("stroke", "black")
+                    .style("opacity", 1)
+            })
+            .on("mousemove", function (event, d) {
+                tooltip.style("left", `${event.pageX}px`)
+                    .style("top", `${event.pageY - 28}px`);
+            })
+            .on("mouseleave", function (d) {
+                tooltip.style("opacity", 0)
+                d3.selectAll(".myArea").style("opacity", .8).style("stroke", "none")
+            });
+    }
     
     // Define the map object and add it to the "map" div container
-    var mymap = L.map('map').setView([46.5197, 6.6323], 13);
+    var mymap = L.map('map').setView([46.5197, 6.6323], 2);
     // Add the tile layer to the map
     //L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     //    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
@@ -574,110 +692,3 @@ document.addEventListener("DOMContentLoaded", function () {
     var geojson = L.geoJson(GeoJsonData, geoJsonOptions).addTo(mymap);
 
 });
-
-
-function plotStreamgraph(data) {
-    const width = 460;
-    const height = 400
-    var margin = {top: 20, right: 30, bottom: 10, left: 75};        
-    var innerWidth = width - margin.left - margin.right;
-    var innerHeight = height - margin.top - margin.bottom;
-
-    // Calculate list of total per month
-    const countsByMonth = Array(12).fill(0); // Initialize an array to store counts for each month (assuming 12 months)
-
-    data.forEach(obj => {
-        const monthIndex = parseInt(obj.imonth) - 1; // Get the month index (subtract 1 since JavaScript uses zero-based indexing)
-        const values = Object.values(obj).slice(1, 32); // Get the values for each day of the month
-
-        const monthCount = values.reduce((acc, val) => acc + parseFloat(val), 0); // Calculate the sum of values for the month
-        countsByMonth[monthIndex] += monthCount; // Add the month count to the corresponding index in the countsByMonth array
-    });    
-
-    var svg = d3.select(".graph3")
-      .append("svg")
-        .attr("width", innerWidth + margin.left + margin.right)
-        .attr("height", innerHeight + margin.top + margin.bottom)
-      .append("g")
-        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-
-    var keys = data.columns.slice(1);   // Month names
-
-    var x = d3.scaleLinear()
-        .domain([1, 12])
-        .range([0, innerWidth]);
-    svg.append("g")
-        .attr("transform", "translate(0," + innerHeight * .8 + ")")
-        .call(d3.axisBottom(x).tickSize(-innerHeight * .7))
-        .select(".domain")
-        .remove();
-
-    svg.selectAll(".tick line").attr("stroke", "#b8b8b8");  // Vertical grid lines above month names
-
-    // Add X axis label:
-    svg.append("text")
-        .attr("text-anchor", "end")
-        .attr("x", 2*innerWidth/3)
-        .attr("y", innerHeight - 30 )
-        .text("Time (month)");
-
-    var y = d3.scaleLinear()
-        .domain([-d3.max(countsByMonth) * 2.5, d3.max(countsByMonth) * 2.5])
-        .range([ innerHeight, 0 ]);
-    svg.append("g")
-        .call(d3.axisLeft(y))
-        .attr("transform", "translate(-25, 0)");
-
-    var color = d3.scaleOrdinal()
-        .domain(keys)
-        .range(d3.schemeTableau10);
-
-    var stackedData = d3.stack()
-        .offset(d3.stackOffsetSilhouette)
-        .keys(keys)
-        (data);
-
-    var tooltip = d3.select("body")
-        .append("div")
-        .style("opacity", 0)
-        .style("font-size", 10)
-        .attr("class", "tooltip-streamgraph")
-        .style("font-size", 17)
-        .style("z-index", 1000);
-        
-    
-    var area = d3.area()
-        .x(function(d) { return x(d.data.imonth); })
-        .y0(function(d) { return y(d[0]); })
-        .y1(function(d) { return y(d[1]); });
-
-    svg.selectAll("mylayers")
-        .data(stackedData)
-        .enter()
-        .append("path")
-            .attr("class", "myArea") 
-            .style("fill", function(d) { return color(d.key); })
-            .style("opacity", .8)
-       .attr("d", area)
-       .on("mouseover", function(event, d) {
-           tooltip.transition()
-               .duration(200)
-               .style("opacity", 0.9);
-           tooltip.html(`<p>${d.key} </p>`)
-               .style("left", `${event.pageX}px`)
-               .style("top", `${event.pageY - 28}px`)
-               .style("background-color", color(d.key));
-            d3.selectAll(".myArea").style("opacity", .2)
-            d3.select(this)
-                .style("stroke", "black")
-                .style("opacity", 1)
-        })
-       .on("mousemove", function(event, d) {
-           tooltip.style("left", `${event.pageX}px`)
-               .style("top", `${event.pageY - 28}px`);
-        })
-       .on("mouseleave", function(d) {
-            tooltip.style("opacity", 0)
-            d3.selectAll(".myArea").style("opacity", .8).style("stroke", "none")
-        });
-}
