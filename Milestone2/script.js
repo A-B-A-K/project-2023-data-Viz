@@ -177,6 +177,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 // Add an event listener to update the label when the slider value changes
                 slider.addEventListener('input', () => {
                     sliderLabel.innerHTML = `Year: ${slider.value}`;
+                    parseOrangedots(slider.value)
                 });
     
                 // Append the slider and label to the imageContainer
@@ -335,6 +336,30 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
     }
+    function parseOrangedots(sliderValue) {
+        const csvUrl = `https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/master/data/density_map/density_map_${sliderValue}.csv`;
+      
+        fetch(csvUrl)
+          .then(response => response.text())
+          .then(data => {
+            // Process the CSV data if needed
+            // Assuming the data is in the same format as mentioned earlier
+            const rows = data.split('\n').slice(1); // Remove header row
+      
+            // Convert the CSV rows to an array of objects
+            const parsedData = rows.map(row => {
+              const [iyear, imonth, iday, latitude, longitude, eventid] = row.split(',');
+              return { iyear, imonth, iday, latitude, longitude, eventid };
+            });
+      
+            // Call the function to add orange dots with the parsed data
+            addOrangeDots(parsedData);
+          })
+          .catch(error => {
+            console.error('Error fetching CSV data:', error);
+          });
+      }
+      
 
     function plotData(data) {
         // Set the dimensions and margins of the graph
@@ -807,6 +832,34 @@ document.addEventListener("DOMContentLoaded", function () {
           mymap.fitBounds(countryLayer.getBounds());
         }
       }
+
+      var orangeDotsLayerGroup;
+    
+      function addOrangeDots(data) {
+        // Check if the orange dots layer group already exists
+        if (orangeDotsLayerGroup) {
+          // Remove the existing orange dots layer group from the map
+          mymap.removeLayer(orangeDotsLayerGroup);
+        }
+      
+        // Create a new layer group to hold the orange dots
+        orangeDotsLayerGroup = L.layerGroup().addTo(mymap);
+      
+        data.forEach((row) => {
+          const latitude = parseFloat(row.latitude);
+          const longitude = parseFloat(row.longitude);
+      
+          if (!isNaN(latitude) && !isNaN(longitude)) {
+            L.circleMarker([latitude, longitude], {
+              fillColor: 'orange',
+              color: 'orange',
+              radius: 5
+            }).addTo(orangeDotsLayerGroup);
+          }
+        });
+      }
+      
+      
 
 });
   
