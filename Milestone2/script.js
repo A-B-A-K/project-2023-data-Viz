@@ -278,7 +278,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     // div.className = 'graph4';
                     // div.style.width = '100%';
                     // div.style.height = '100%';
-                    div1.style.border = '3px solid #3C3C3C';
+                    // div1.style.border = '0px solid #3C3C3C';
                     // div.style.borderRadius = '15px';
                     div1.innerHTML = `<b>${regionSelect.value}</b>`;
                     graphContainer.appendChild(div1);
@@ -288,7 +288,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     const dataUrl = `https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/Aristotelis/data/regions/victims/${encodeURIComponent(regionSelect.value) }.csv`
                     d3.csv(dataUrl)
                         .then(data => {
-                            plotScatterplot(data);
+                            plotScatterPlot(data);
                         })
                         .catch(error => console.error('Error:', error));
                 });
@@ -826,9 +826,9 @@ document.addEventListener("DOMContentLoaded", function () {
             })
     }
 
-    function plotScatterplot(data) {    // Implemet zooming in data
-        const width = 460;
-        const height = 400;
+    function plotScatterPlot(data) {    
+        const width = 660;
+        const height = 600;
 
         var margin = { top: 10, right: 30, bottom: 30, left: 60 };
         const innerWidth = width - margin.left - margin.right;
@@ -837,7 +837,10 @@ document.addEventListener("DOMContentLoaded", function () {
         const tooltip = d3.select("body")
             .append("div")
             .attr("class", "tooltip-scatterplot")
-            .style("opacity", 0);
+            .style("opacity", 0)
+            .style("display", "flex")
+            .style("justify-content", "space-between")
+            .style("align-items", "center");
 
         var svg = d3.select(".graph1");
 
@@ -864,8 +867,6 @@ document.addEventListener("DOMContentLoaded", function () {
             .call(d3.axisLeft(y))
             .attr("opacity", 0);
 
-        var myColor = d3.scaleOrdinal(d3.schemeCategory10);
-
         g.append('g')
             .selectAll("dot")
             .data(data)
@@ -873,24 +874,29 @@ document.addEventListener("DOMContentLoaded", function () {
             .append("circle")
             .attr("cx", function (d) { return x(+d.year); })
             .attr("cy", function (d) { return y(+d.nkill); })
-            .attr("r", 1.5)
+            .attr("r", 3)
             .style("opacity", 0.5)
-            .style("fill", function (d) { return myColor(d.country_txt); }) // Categorize in some way with color
+            .style("fill", function (d) { return getCountryColors(d.country_txt)[0]; }) // Categorize in some way with color
             .on("mouseover", function (event, d) {
                 // Make tooltip visible
                 tooltip.transition()
                     .duration(200)
                     .style("opacity", .9);
                 // Update tooltip content
-                tooltip.html(`<p><i>${d.eventid}</i><br><br>
-                                <b>${d.country_txt}</b><br>
-                                Year: ${d3.format("d")(d.year)}<br>
-                                Casualties: ${d3.format("d")(d.nkill)}
-                                </p>`)
+                tooltip.html(`  <div>
+                                    <img src="https://raw.githubusercontent.com/HatScripts/circle-flags/gh-pages/flags/${getCountryAbbr(d.country_txt)}.svg" style="width: 30px; height: 30px; margin-right: 20px">
+                                </div>
+                                <div>
+                                    <p><i>${d.eventid}</i><br><br>
+                                    <b>${d.country_txt}</b><br>
+                                    Year: ${d3.format("d")(d.year)}<br>
+                                    Casualties: ${d3.format("d")(d.nkill)}
+                                    </p>
+                                </div>`)
                     .style("left", `${event.pageX}px`)
                     .style("top", `${event.pageY - 28}px`)
-                    .style("background-color", function (d) { return myColor(d.country_txt); })
-                    .style("border-color", "white")
+                    .style("background-color", getCountryColors(d.country_txt)[0])
+                    .style("border-color", getCountryColors(d.country_txt)[1])
                     .style("weight", "12px")
                     .style("border-style", "solid");
             })
@@ -924,6 +930,844 @@ document.addEventListener("DOMContentLoaded", function () {
 
     }
 
+
+    function getCountryAbbr(country) {
+        // Reference: https://github.com/HatScripts/circle-flags
+        switch (country) {
+            case "Afghanistan":
+                return "af";
+            case "Albania":
+                return "al";
+            case "Algeria":
+                return "dz";
+            case "Andorra":
+                return "ad";
+            case "Angola":
+                return "ao";
+            case "Antigua and Barbuda":
+                return "ag";
+            case "Argentina":
+                return "ar";
+            case "Armenia":
+                return "am";
+            case "Australia":
+                return "au";
+            case "Austria":
+                return "at";
+            case "Azerbaijan":
+                return "az";
+            case "Bahamas":
+                return "bs";
+            case "Bahrain":
+                return "bh";
+            case "Bangladesh":
+                return "bd";
+            case "Barbados":
+                return "bb";
+            case "Belarus":
+                return "by";
+            case "Belgium":
+                return "be";
+            case "Belize":
+                return "bz";
+            case "Benin":
+                return "bj";
+            case "Bhutan":
+                return "bt";
+            case "Bolivia":
+                return "bo";
+            case "Bosnia-Herzegovina":
+                return "ba";
+            case "Botswana":
+                return "bw";
+            case "Brazil":
+                return "br";
+            case "Brunei":
+                return "bn";
+            case "Bulgaria":
+                return "bg";
+            case "Burkina Faso":
+                return "bf";
+            case "Burundi":
+                return "bi";
+            case "Cambodia":
+                return "kh";
+            case "Cameroon":
+                return "cm";
+            case "Canada":
+                return "ca";
+            case "Central African Republic":
+                return "cf";
+            case "Chad":
+                return "td";
+            case "Chile":
+                return "cl";
+            case "China":
+                return "cn";
+            case "Colombia":
+                return "co";
+            case "Comoros":
+                return "km";
+            case "Congo":
+                return "cg";
+            case "Costa Rica":
+                return "cr";
+            case "Croatia":
+                return "hr";
+            case "Cuba":
+                return "cu";
+            case "Cyprus":
+                return "cy";
+            case "Czech Republic":
+                return "cz";
+            case "Czechoslovakia":
+                return "cz";
+            case "Democratic Republic of the Congo":
+                return "cd";
+            case "Denmark":
+                return "dk";
+            case "Djibouti":
+                return "dj";
+            case "Dominica":
+                return "dm";
+            case "Dominican Republic":
+                return "do";
+            case "East Germany (GDR)":
+                return "de";
+            case "East Timor":
+                return "tl";
+            case "Ecuador":
+                return "ec";
+            case "Egypt":
+                return "eg";
+            case "El Salvador":
+                return "sv";
+            case "Equatorial Guinea":
+                return "gq";
+            case "Eritrea":
+                return "er";
+            case "Estonia":
+                return "ee";
+            case "Ethiopia":
+                return "et";
+            case "Falkland Islands":
+                return "fk";
+            case "Fiji":
+                return "fj";
+            case "Finland":
+                return "fi";
+            case "France":
+                return "fr";
+            case "French Guiana":
+                return "gf";
+            case "French Polynesia":
+                return "pf";
+            case "Gabon":
+                return "ga";
+            case "Gambia":
+                return "gm";
+            case "Georgia":
+                return "ge";
+            case "Germany":
+                return "de";
+            case "Ghana":
+                return "gh";
+            case "Greece":
+                return "gr";
+            case "Grenada":
+                return "gd";
+            case "Guadeloupe":
+                return "gp";
+            case "Guatemala":
+                return "gt";
+            case "Guinea":
+                return "gn";
+            case "Guinea-Bissau":
+                return "gw";
+            case "Guyana":
+                return "gy";
+            case "Haiti":
+                return "ht";
+            case "Honduras":
+                return "hn";
+            case "Hungary":
+                return "hu";
+            case "Hong Kong":
+                return "hk";
+            case "Iceland":
+                return "is";
+            case "India":
+                return "in";
+            case "Indonesia":
+                return "id";
+            case "International":
+                return "earth";
+            case "Iran":
+                return "ir";
+            case "Iraq":
+                return "iq";
+            case "Ireland":
+                return "ie";
+            case "Israel":
+                return "il";
+            case "Italy":
+                return "it";
+            case "Ivory Coast":
+                return "ci";
+            case "Jamaica":
+                return "jm";
+            case "Japan":
+                return "jp";
+            case "Jordan":
+                return "jo";
+            case "Kazakhstan":
+                return "kz";
+            case "Kenya":
+                return "ke";
+            case "Kosovo":
+                return "xk";
+            case "Kuwait":
+                return "kw";
+            case "Kyrgyzstan":
+                return "kg";
+            case "Laos":
+                return "la";
+            case "Latvia":
+                return "lv";
+            case "Lebanon":
+                return "lb";
+            case "Lesotho":
+                return "ls";
+            case "Liberia":
+                return "lr";
+            case "Libya":
+                return "ly";
+            case "Lithuania":
+                return "lt";
+            case "Luxembourg":
+                return "lu";
+            case "Macau":
+                return "mo";
+            case "Macedonia":
+                return "mk";
+            case "Madagascar":
+                return "mg";
+            case "Malawi":
+                return "mw";
+            case "Malaysia":
+                return "my";
+            case "Maldives":
+                return "mv";
+            case "Mali":
+                return "ml";
+            case "Malta":
+                return "mt";
+            case "Martinique":
+                return "mq";
+            case "Mauritania":
+                return "mr";
+            case "Mauritius":
+                return "mu";
+            case "Mexico":
+                return "mx";
+            case "Moldova":
+                return "md";
+            case "Montenegro":
+                return "me";
+            case "Morocco":
+                return "ma";
+            case "Mozambique":
+                return "mz";
+            case "Myanmar":
+                return "mm";
+            case "Namibia":
+                return "na";
+            case "Nepal":
+                return "np";
+            case "Netherlands":
+                return "nl";
+            case "New Caledonia":
+                return "nc";
+            case "New Hebrides":
+                return "vu";
+            case "New Zealand":
+                return "nz";
+            case "Nicaragua":
+                return "ni";
+            case "Niger":
+                return "ne";
+            case "Nigeria":
+                return "ng";
+            case "North Korea":
+                return "kp";
+            case "North Yemen":
+                return "ye";
+            case "Norway":
+                return "no";
+            case "Pakistan":
+                return "pk";
+            case "Panama":
+                return "pa";
+            case "Papua New Guinea":
+                return "pg";
+            case "Paraguay":
+                return "py";
+            case "People's Republic of the Congo":
+                return "cg";
+            case "Peru":
+                return "pe";
+            case "Philippines":
+                return "ph";
+            case "Poland":
+                return "pl";
+            case "Portugal":
+                return "pt";
+            case "Qatar":
+                return "qa";
+            case "Republic of the Congo":
+                return "cd";
+            case "Rhodesia":
+                return "zw";
+            case "Romania":
+                return "ro";
+            case "Russia":
+                return "ru";
+            case "Rwanda":
+                return "rw";
+            case "Saudi Arabia":
+                return "sa";
+            case "Senegal":
+                return "sn";
+            case "Serbia":
+                return "rs";
+            case "Serbia-Montenegro":
+                return "xx";
+            case "Seychelles":
+                return "sc";
+            case "Sierra Leone":
+                return "sl";
+            case "Singapore":
+                return "sg";
+            case "Slovak Republic":
+                return "sk";
+            case "Slovenia":
+                return "si";
+            case "Solomon Islands":
+                return "sb";
+            case "Somalia":
+                return "so";
+            case "South Africa":
+                return "za";
+            case "South Korea":
+                return "kr";
+            case "South Sudan":
+                return "ss";
+            case "South Yemen":
+                return "ye";
+            case "Soviet Union":
+                return "xx";
+                // return "su";   // deprecated
+            case "Spain":
+                return "es";
+            case "Sri Lanka":
+                return "lk";
+            case "St. Kitts and Nevis":
+                return "kn";
+            case "St. Lucia":
+                return "lc";
+            case "Sudan":
+                return "sd";
+            case "Suriname":
+                return "sr";
+            case "Swaziland":
+                return "sz";
+            case "Sweden":
+                return "se";
+            case "Switzerland":
+                return "ch";
+            case "Syria":
+                return "sy";
+            case "Taiwan":
+                return "tw";
+            case "Tajikistan":
+                return "tj";
+            case "Tanzania":
+                return "tz";
+            case "Thailand":
+                return "th";
+            case "Togo":
+                return "tg";
+            case "Trinidad and Tobago":
+                return "tt";
+            case "Tunisia":
+                return "tn";
+            case "Turkey":
+                return "tr";
+            case "Turkmenistan":
+                return "tm";
+            case "Uganda":
+                return "ug";
+            case "Ukraine":
+                return "ua";
+            case "United Arab Emirates":
+                return "ae";
+            case "United Kingdom":
+                return "gb";
+            case "United States":
+                return "us";
+            case "Uruguay":
+                return "uy";
+            case "Uzbekistan":
+                return "uz";
+            case "Vanuatu":
+                return "vu";
+            case "Venezuela":
+                return "ve";
+            case "Vietnam":
+                return "vn";
+            case "Wallis and Futuna":
+                return "wf";
+            case "West Bank and Gaza Strip":
+                return "ps";
+            case "West Germany (FRG)":
+                return "de";
+            case "Western Sahara":
+                return "eh";
+            case "Yemen":
+                return "ye";
+            case "Yugoslavia":
+                return "xx";
+            case "Zaire":
+                return "cd";
+            case "Zambia":
+                return "zm";
+            case "Zimbabwe":
+                return "zw";
+            default:
+                return "xx";
+
+
+        }
+    }
+
+
+    function getCountryColors(country) {
+        switch (country) {
+            case "Afghanistan":
+                return ["#009900", "#ffffff"];
+            case "Albania":
+                return ["#e41a1c", "#000000"];
+            case "Algeria":
+                return ["#008000", "#ffffff"];
+            case "Andorra":
+                return ["#00308f", "#fe0000"];
+            case "Angola":
+                return ["#ff0000", "#000000"];
+            case "Antigua and Barbuda":
+                return ["#e03a3e", "#fcd116"];
+            case "Argentina":
+                return ["#74acdf", "#ffffff"];
+            case "Armenia":
+                return ["#d90012", "#0033a0"];
+            case "Australia":
+                return ["#00247d", "#ffcc00"];
+            case "Austria":
+                return ["#ed2939", "#ffffff"];
+            case "Azerbaijan":
+                return ["#3f9c35", "#ed2939"];
+            case "Bahamas":
+                return ["#002868", "#ffc726"];
+            case "Bahrain":
+                return ["#ce1126", "#ffffff"];
+            case "Bangladesh":
+                return ["#006a4e", "#f42a41"];
+            case "Barbados":
+                return ["#00267f", "#ffd700"];
+            case "Belarus":
+                return ["#c8313e", "#fedf00"];
+            case "Belgium":
+                return ["#000000", "#ed2939"];
+            case "Belize":
+                return ["#ce1126", "#003f87"];
+            case "Benin":
+                return ["#008751", "#ffc726"];
+            case "Bhutan":
+                return ["#e23d34", "#ffe982"];
+            case "Bolivia":
+                return ["#d52b1e", "#ffd700"];
+            case "Bosnia-Herzegovina":
+                return ["#005cbf", "#ffe200"];
+            case "Botswana":
+                return ["#75aadb", "#000000"];
+            case "Brazil":
+                return ["#009b3a", "#ffd700"];
+            case "Brunei":
+                return ["#ff0000", "#ffc726"];
+            case "Bulgaria":
+                return ["#d62612", "#ffffff"];
+            case "Burkina Faso":
+                return ["#009e49", "#ce1126"];
+            case "Burundi":
+                return ["#006a4e", "#ffc726"];
+            case "Cambodia":
+                return ["#032ea1", "#e4002b"];
+            case "Cameroon":
+                return ["#fcd116", "#007a5e"];
+            case "Canada":
+                return ["#ff0000", "#ffffff"];
+            case "Central African Republic":
+                return ["#4189dd", "#fcd116"];
+            case "Chad":
+                return ["#002664", "#cd2a3e"];
+            case "Chile":
+                return ["#d52b1e", "#ffffff"];
+            case "China":
+                return ["#de2910", "#ffde00"];
+            case "Colombia":
+                return ["#fdbb30", "#003893"];
+            case "Comoros":
+                return ["#007a5e", "#ffffff"];
+            case "Costa Rica":
+                return ["#002b7f", "#ce1126"];
+            case "Croatia":
+                return ["#dc143c", "#ffffff"];
+            case "Cuba":
+                return ["#002a8f", "#ffffff"];
+            case "Cyprus":
+                return ["#d91023", "#ffffff"];
+            case "Czech Republic":
+                return ["#d7141a", "#ffffff"];
+            case "Czechoslovakia":
+                return ["#d7141a", "#ffffff"];
+            case "Democratic Republic of the Congo":
+                return ["#008000", "#000000"];
+            case "Denmark":
+                return ["#c60c30", "#ffffff"];
+            case "Djibouti":
+                return ["#12a4d9", "#12a4d9"];
+            case "Dominica":
+                return ["#007a5e", "#ffd700"];
+            case "Dominican Republic":
+                return ["#002d62", "#ce1126"];
+            case "East Germany (GDR)":
+                return ["#ffce00", "#ffce00"];
+            case "East Timor":
+                return ["#ff0000", "#ffd700"];
+            case "Ecuador":
+                return ["#ed1c24", "#ffd700"];
+            case "Egypt":
+                return ["#000000", "#ffffff"];
+            case "El Salvador":
+                return ["#003b71", "#ffffff"];
+            case "Equatorial Guinea":
+                return ["#3f922d", "#ce1126"];
+            case "Eritrea":
+                return ["#009543", "#d21034"];
+            case "Estonia":
+                return ["#0072ce", "#000000"];
+            case "Ethiopia":
+                return ["#006633", "#ffc726"];
+            case "Falkland Islands":
+                return ["#00247d", "#d21034"];
+            case "Fiji":
+                return ["#002868", "#cf142b"];
+            case "Finland":
+                return ["#003580", "#ffffff"];
+            case "France":
+                return ["#002395", "#ed2939"];
+            case "French Guiana":
+                return ["#e51937", "#d7d7d7"];
+            case "French Polynesia":
+                return ["#002f6c", "#d21034"];
+            case "Gabon":
+                return ["#009e60", "#fcd116"];
+            case "Gambia":
+                return ["#cf142b", "#3f922d"];
+            case "Georgia":
+                return ["#ce1126", "#ffd700"];
+            case "Germany":
+                return ["#000000", "#dd0000"];
+            case "Ghana":
+                return ["#006b3f", "#ce1126"];
+            case "Greece":
+                return ["#0d5eaf", "#ffffff"];
+            case "Grenada":
+                return ["#e41a1c", "#fcd116"];
+            case "Guadeloupe":
+                return ["#007f3e", "#ffcc00"];
+            case "Guatemala":
+                return ["#4997d0", "#ffffff"];
+            case "Guinea":
+                return ["#ce1126", "#fcd116"];
+            case "Guinea-Bissau":
+                return ["#de2910", "#ffd700"];
+            case "Guyana":
+                return ["#009e49", "#ffd700"];
+            case "Haiti":
+                return ["#00209f", "#d21034"];
+            case "Honduras":
+                return ["#0073cf", "#ffffff"];
+            case "Hong Kong":
+                return ["#de2910", "#ffffff"];
+            case "Hungary":
+                return ["#436f4d", "#ce1126"];
+            case "Iceland":
+                return ["#003897", "#d72828"];
+            case "India":
+                return ["#ff9933", "#128807"];
+            case "Indonesia":
+                return ["#ce1126", "#ffffff"];
+            case "International":
+                return ["#000000", "#000000"];
+            case "Iran":
+                return ["#da0000", "#ffffff"];
+            case "Iraq":
+                return ["#007a3d", "#ffffff"];
+            case "Ireland":
+                return ["#169b62", "#ffffff"];
+            case "Israel":
+                return ["#003399", "#ffffff"];
+            case "Italy":
+                return ["#009246", "#ce1126"];
+            case "Ivory Coast":
+                return ["#f77f00", "#ffffff"];
+            case "Jamaica":
+                return ["#000000", "#ffcc00"];
+            case "Japan":
+                return ["#bc002d", "#ffffff"];
+            case "Jordan":
+                return ["#007a3d", "#ffffff"];
+            case "Kazakhstan":
+                return ["#1c3fbf", "#ffd700"];
+            case "Kenya":
+                return ["#006600", "#ffffff"];
+            case "Kosovo":
+                return ["#002d62", "#ffc726"];
+            case "Kuwait":
+                return ["#007a3d", "#ce1126"];
+            case "Kyrgyzstan":
+                return ["#ce1126", "#ffd700"];
+            case "Laos":
+                return ["#ce1126", "#003399"];
+            case "Latvia":
+                return ["#9e3039", "#ffffff"];
+            case "Lebanon":
+                return ["#ed1c24", "#ffffff"];
+            case "Lesotho":
+                return ["#009543", "#ce1126"];
+            case "Liberia":
+                return ["#cf142b", "#000000"];
+            case "Libya":
+                return ["#000000", "#ffffff"];
+            case "Lithuania":
+                return ["#006a4e", "#ffb612"];
+            case "Luxembourg":
+                return ["#00a2db", "#ed2939"];
+            case "Macau":
+                return ["#fcd116", "#ffffff"];
+            case "Macedonia":
+                return ["#d20000", "#ffd700"];
+            case "Madagascar":
+                return ["#007a3d", "#ffffff"];
+            case "Malawi":
+                return ["#ce1126", "#000000"];
+            case "Malaysia":
+                return ["#cc0000", "#ffffff"];
+            case "Maldives":
+                return ["#d21034", "#002b7f"];
+            case "Mali":
+                return ["#ce1126", "#fcd116"];
+            case "Malta":
+                return ["#cf142b", "#ffffff"];
+            case "Martinique":
+                return ["#00843d", "#ffcc00"];
+            case "Mauritania":
+                return ["#006600", "#ffce00"];
+            case "Mauritius":
+                return ["#000000", "#ffcd00"];
+            case "Mexico":
+                return ["#006847", "#ce1126"];
+            case "Moldova":
+                return ["#007f3e", "#cc092f"];
+            case "Montenegro":
+                return ["#dc143c", "#003366"];
+            case "Morocco":
+                return ["#c1272d", "#006233"];
+            case "Mozambique":
+                return ["#e13a3e", "#00a877"];
+            case "Myanmar":
+                return ["#f31a1a", "#f9e814"];
+            case "Namibia":
+                return ["#00a550", "#fcdc00"];
+            case "Nepal":
+                return ["#de2910", "#003893"];
+            case "Netherlands":
+                return ["#ae1c28", "#ffffff"];
+            case "New Caledonia":
+                return ["#002ba0", "#d21034"];
+            case "New Hebrides":
+                return ["#007a3d", "#ffce00"];
+            case "New Zealand":
+                return ["#00247d", "#ffffff"];
+            case "Nicaragua":
+                return ["#002868", "#ffffff"];
+            case "Niger":
+                return ["#008751", "#ffce00"];
+            case "Nigeria":
+                return ["#008751", "#ffffff"];
+            case "North Korea":
+                return ["#024fa2", "#ce1126"];
+            case "North Yemen":
+                return ["#000000", "#000000"];
+            case "Norway":
+                return ["#ef2b2d", "#ffffff"];
+            case "Pakistan":
+                return ["#006600", "#ffffff"];
+            case "Panama":
+                return ["#005293", "#d90012"];
+            case "Papua New Guinea":
+                return ["#000000", "#ce1126"];
+            case "Paraguay":
+                return ["#0038a8", "#ffffff"];
+            case "People's Republic of the Congo":
+                return ["#009e49", "#ffd700"];
+            case "Peru":
+                return ["#d91023", "#ffffff"];
+            case "Philippines":
+                return ["#0038a8", "#ce1126"];
+            case "Poland":
+                return ["#dc143c", "#ffffff"];
+            case "Portugal":
+                return ["#006600", "#ff0000"];
+            case "Qatar":
+                return ["#8e8e8e", "#8e8e8e"];
+            case "Republic of the Congo":
+                return ["#009e49", "#ffd700"];
+            case "Rhodesia":
+                return ["#11a61d", "#e41a1c"];
+            case "Romania":
+                return ["#002b7f", "#ffc726"];
+            case "Russia":
+                return ["#cc092f", "#ffd700"];
+            case "Rwanda":
+                return ["#75b12b", "#ce1126"];
+            case "Saudi Arabia":
+                return ["#006b3f", "#ffffff"];
+            case "Senegal":
+                return ["#008751", "#ffd700"];
+            case "Serbia":
+                return ["#dc143c", "#ffffff"];
+            case "Serbia-Montenegro":
+                return ["#002ba0", "#ed1c24"];
+            case "Seychelles":
+                return ["#003f87", "#ffffff"];
+            case "Sierra Leone":
+                return ["#1eb53a", "#0072c6"];
+            case "Singapore":
+                return ["#ed2939", "#ffffff"];
+            case "Slovak Republic":
+                return ["#ee1c25", "#0033a0"];
+            case "Slovenia":
+                return ["#ed2939", "#005da4"];
+            case "Solomon Islands":
+                return ["#0038a8", "#ffd700"];
+            case "Somalia":
+                return ["#4189dd", "#ffffff"];
+            case "South Africa":
+                return ["#007a4d", "#ffc726"];
+            case "South Korea":
+                return ["#003478", "#d21034"];
+            case "South Sudan":
+                return ["#3e896d", "#ce1126"];
+            case "South Yemen":
+                return ["#000000", "#000000"];
+            case "Soviet Union":
+                return ["#cc092f", "#ffd700"];
+            case "Spain":
+                return ["#c60b1e", "#ffc400"];
+            case "Sri Lanka":
+                return ["#007a3d", "#ffce00"];
+            case "St. Kitts and Nevis":
+                return ["#009e49", "#ce1126"];
+            case "St. Lucia":
+                return ["#007a3d", "#ffcd00"];
+            case "Sudan":
+                return ["#d21034", "#ffffff"];
+            case "Suriname":
+                return ["#007a5e", "#ffde00"];
+            case "Swaziland":
+                return ["#002868", "#ffc726"];
+            case "Sweden":
+                return ["#005cbf", "#ffce00"];
+            case "Switzerland":
+                return ["#ed0000", "#ffffff"];
+            case "Syria":
+                return ["#000000", "#ffffff"];
+            case "Taiwan":
+                return ["#ff0000", "#003399"];
+            case "Tajikistan":
+                return ["#006600", "#ffffff"];
+            case "Tanzania":
+                return ["#1eb53a", "#0072c6"];
+            case "Thailand":
+                return ["#ed2939", "#ffffff"];
+            case "Togo":
+                return ["#006a4e", "#ffc726"];
+            case "Trinidad and Tobago":
+                return ["#ce1126", "#ffffff"];
+            case "Tunisia":
+                return ["#ce1126", "#ffffff"];
+            case "Turkey":
+                return ["#e30a17", "#ffffff"];
+            case "Turkmenistan":
+                return ["#1eb53a", "#ffffff"];
+            case "Uganda":
+                return ["#000000", "#ffc726"];
+            case "Ukraine":
+                return ["#005bbb", "#ffd700"];
+            case "United Arab Emirates":
+                return ["#00732f", "#ffffff"];
+            case "United Kingdom":
+                return ["#00247d", "#cf142b"];
+            case "United States":
+                return ["#b22234", "#ffffff"];
+            case "Uruguay":
+                return ["#0038a8", "#ffd700"];
+            case "Uzbekistan":
+                return ["#1eb53a", "#ffd700"];
+            case "Vanuatu":
+                return ["#006a4e", "#ffce00"];
+            case "Vatican City":
+                return ["#ffd700", "#ffffff"];
+            case "Venezuela":
+                return ["#cf142b", "#002b7f"];
+            case "Vietnam":
+                return ["#da251d", "#ffd700"];
+            case "Wallis and Futuna":
+                return ["#002ba0", "#d21034"];
+            case "West Bank and Gaza Strip":
+                return ["#006847", "#ce1126"];
+            case "West Germany (FRG)":
+                return ["#000000", "#000000"];
+            case "Western Sahara":
+                return ["#d21034", "#ffffff"];
+            case "Yemen":
+                return ["#ce1126", "#ffffff"];
+            case "Yugoslavia":
+                return ["#d21034", "#005da4"];
+            case "Zaire":
+                return ["#009543", "#ffd700"];
+            case "Zambia":
+                return ["#000000", "#00a862"];
+            case "Zimbabwe":
+                return ["#007a5e", "#ffc726"];
+            default:
+                return ["#000000", "#ffffff"];
+        }
+    }
+
+
+    
     
     // Define the map object and add it to the "map" div container
     var mymap = L.map('map').setView([46.5197, 6.6323], 2);
