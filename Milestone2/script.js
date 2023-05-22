@@ -414,9 +414,22 @@ document.addEventListener("DOMContentLoaded", function () {
         const width = 600;
         const height = 400;
 
-        var margin = {top: 10, right: 10, bottom: 10, left: 235};
+        var margin = {top: 10, right: 10, bottom: 10, left: 100};
         const innerWidth = width - margin.left - margin.right;
         const innerHeight = height - margin.top - margin.bottom;
+
+        const groupAlias = {
+            'Taliban': 'Taliban',
+            'Islamic State of Iraq and the Levant (ISIL)': 'ISIS',
+            'Boko Haram': 'Boko Haram',
+            'Al-Shabaab': 'Al-Shabaab',
+            'Shining Path (SL)': 'Shining Path',
+            'Liberation Tigers of Tamil Eelam (LTTE)': 'LTTE',
+            'Farabundo Marti National Liberation Front (FMLN)': 'FMLN',
+            'Nicaraguan Democratic Force (FDN)': 'FDN',
+            'Houthi extremists (Ansar Allah)': 'Houthi',
+            'Tehrik-i-Taliban Pakistan (TTP)': 'TTP'
+        }
 
         const tooltip = d3.select("body")
             .append("div")
@@ -440,7 +453,7 @@ document.addEventListener("DOMContentLoaded", function () {
             .range([0, innerWidth]);
 
         const yScale = d3.scaleBand()
-            .domain(data.map(d => yValue(d)))
+            .domain(data.map(d => groupAlias[yValue(d)]))
             .range([0, innerHeight])
             .padding(0.1);
 
@@ -450,7 +463,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         g.selectAll('rect').data(data)
             .enter().append('rect')
-            .attr('y', d => yScale(d.gname))
+            .attr('y', d => yScale(groupAlias[yValue(d)]))
             .attr('width', xScale(0))
             .attr('height', yScale.bandwidth())
             .attr('x', xScale(0))
@@ -499,6 +512,32 @@ document.addEventListener("DOMContentLoaded", function () {
         const innerWidth = width - margin.left - margin.right;
         const innerHeight = height - margin.top - margin.bottom;
 
+        const groupAlias = {
+            'Taliban': 'Taliban',
+            'Islamic State of Iraq and the Levant (ISIL)': 'ISIL',
+            'Shining Path (SL)': 'Shining Path',
+            'Al-Shabaab': 'Al-Shabaab',
+            "New People's Army (NPA)": 'NPA',
+            'Farabundo Marti National Liberation Front (FMLN)': 'FMLN',
+            'Boko Haram': 'Boko Haram',
+            'Houthi extremists (Ansar Allah)': 'Houthi',
+            'Irish Republican Army (IRA)': 'IRA',
+            'Kurdistan Workers\' Party (PKK)': 'PKK'
+        };
+
+        const weaponSubtypeAliases = {
+            'Unknown Explosive Type': 'Explosive',
+            'Unknown Gun Type': 'Gun',
+            'Automatic or Semi-Automatic Rifle': 'Rifle',
+            'Projectile': 'Projectile',
+            'Vehicle': 'Vehicle',
+            'Other Explosive Type': 'Explosive (Other)',
+            'Handgun': 'Handgun',
+            'Grenade': 'Grenade',
+            'Arson/Fire': 'Arson',
+            'Landmine': 'Landmine'
+        };
+
         const tooltip = d3.select("body")
             .append("div")
             .attr("class", "tooltip-heatmap")
@@ -517,15 +556,20 @@ document.addEventListener("DOMContentLoaded", function () {
 
         var x = d3.scaleBand()
             .range([0, innerWidth])
-            .domain(data.map(d => xValue(d)))
+            .domain(data.map(d => groupAlias[xValue(d)]))
             .padding(0.01);
         g.append("g")
             .attr("transform", "translate(0," + innerHeight + ")")
-            .call(d3.axisBottom(x));
+            .call(d3.axisBottom(x))
+            .selectAll("text")
+            .style("text-anchor", "end")
+            .attr("dx", "-0.8em")
+            .attr("dy", "0.15em")
+            .attr("transform", "rotate(-65)");
 
         var y = d3.scaleBand()
             .range([innerHeight, 0])
-            .domain(data.map(d => yValue(d)))
+            .domain(data.map(d => weaponSubtypeAliases[yValue(d)]))
             .padding(0.01);
         g.append("g")
             .call(d3.axisLeft(y));
@@ -552,8 +596,8 @@ document.addEventListener("DOMContentLoaded", function () {
             .data(data, function (d) { return d.gname + ':' + d.weapsubtype1_txt; })
             .enter()
             .append("rect")
-            .attr("x", function (d) { return x(d.gname) })
-            .attr("y", function (d) { return y(d.weapsubtype1_txt) })
+            .attr("x", function (d) { return x(groupAlias[d.gname]) })
+            .attr("y", function (d) { return y(weaponSubtypeAliases[d.weapsubtype1_txt]) })
             .attr("width", x.bandwidth())
             .attr("height", y.bandwidth())
             .attr("rx", 4)
