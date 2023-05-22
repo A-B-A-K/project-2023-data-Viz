@@ -1394,7 +1394,6 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
-
     function getCountryColors(country) {
         switch (country) {
             case "Afghanistan":
