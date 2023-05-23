@@ -1,3 +1,56 @@
+const descriptions = {
+    'Private Citizens & Property': 'Red is often associated with danger, urgency, and attention. It represents the vulnerability of private citizens and their property to various threats.',
+    'Government (Diplomatic)': 'Orange is a warm and vibrant color. It symbolizes diplomacy, communication, and international relations, which are often associated with government diplomatic activities.',
+    'Journalists & Media': 'Yellow is bright and eye-catching. It represents the role of journalists and the media in bringing light, truth, and spreading information.',
+    'Police': 'Green is commonly associated with law enforcement. It represents safety, security, and the authority of the police in maintaining law and order.',
+    'Utilities': 'Cyan is a calming and soothing color. It represents utility services such as electricity, water, and other essential public services that contribute to the smooth functioning of society.',
+    'Military': 'Navy blue is a deep and strong color. It symbolizes the armed forces, defense, and military operations.',
+    'Government (General)': 'Indigo is a deep shade of blue. It represents the general functioning of the government and encompasses various government activities beyond diplomacy.',
+    'Airports & Aircraft': 'Purple is a regal color associated with air travel and aviation. It represents airports, aircraft, and the aviation industry.',
+    'Business': 'Magenta is a vibrant and dynamic color. It represents the business sector, entrepreneurship, and commercial activities.',
+    'Educational Institution': 'Maroon is a rich and classic color. It symbolizes educational institutions, academia, and the pursuit of knowledge.',
+    'Violent Political Party': 'Hot pink is a bold and intense color. It represents violent political parties and their aggressive and confrontational nature.',
+    'Religious Figures/Institutions': 'Gold is a color associated with spirituality, reverence, and divine qualities. It symbolizes religious figures and institutions.',
+    'Unknown': 'Gray is a neutral color. It represents cases where the target type is unknown or not specified.',
+    'Transportation': 'Dark green is a color associated with transportation and logistics. It represents various modes of transportation, such as roads, railways, and vehicles.',
+    'Tourists': 'Slate blue is a calm and serene color. It represents tourists and travel-related activities.',
+    'NGO': 'Green yellow is a vibrant and cheerful color. It represents non-governmental organizations (NGOs) and their contributions to social welfare and humanitarian efforts.',
+    'Telecommunication': 'Light sky blue is a soothing and refreshing color. It symbolizes telecommunication services, connectivity, and communication networks.',
+    'Food or Water Supply': 'Indian red is a warm and earthy color. It represents the food or water supply sector and the challenges related to food security and clean water access.',
+    'Terrorists/Non-State Militia': 'Maroon (same as \'Educational Institution\') is used again to represent terrorists and non-state militia. The repetition signifies the danger and gravity associated with these groups.',
+    'Other': 'Sienna is a natural and earthy color. It represents target types that do not fall into the other specified categories.',
+    'Maritime': 'Blue is a color associated with the sea and maritime activities. It represents maritime operations, shipping, and naval activities.',
+    'Abortion Related': 'Medium violet red is a strong and intense color. It represents target types related to abortion issues and debates.',
+};
+
+var colorMapping = {
+    'Government (Diplomatic)': '#FFA500', // Orange
+    'Government (General)': '#4B0082', // Indigo
+    'Military': '#000080', // Navy Blue
+    'Maritime': '#0000FF', // Blue
+    'Transportation': '#006400', // Dark Green
+    'Police': '#008000', // Green
+    'Utilities': '#00FFFF', // Cyan
+    'Tourists': '#6A5ACD', // Slate Blue
+    'Business': '#FF00FF', // Magenta
+    'Private Citizens & Property': '#FF0000', // Red
+    'Violent Political Party': '#FF69B4', // Hot Pink
+    'Religious Figures/Institutions': '#FFD700', // Gold
+    'Telecommunication': '#87CEFA', // Light Sky Blue
+    'Journalists & Media': '#FFFF00', // Yellow
+    'Unknown': '#808080', // Gray
+    'Airports & Aircraft': '#800080', // Purple
+    'Educational Institution': '#800000', // Maroon
+    'Terrorists/Non-State Militia': '#800000', // Maroon
+    'NGO': '#ADFF2F', // Green Yellow
+    'Food or Water Supply': '#CD5C5C', // Indian Red
+    'Other': '#A0522D', // Sienna
+    'Abortion Related': '#C71585' // Medium Violet Red
+};
+
+var dotsLayerGroup;
+
+
 // Wait for the HTML and CSS to load before running JavaScript
 document.addEventListener("DOMContentLoaded", function () {
 
@@ -119,20 +172,19 @@ document.addEventListener("DOMContentLoaded", function () {
         
         const oldDiv1 = graphContainer.querySelector('.graph1');
         const oldDiv2 = graphContainer.querySelector('.graph2');
+        const oldDiv3 = graphContainer.querySelector('.legend-container');
 
         const div1 = document.createElement('div');
         div1.className = 'graph1';
         div1.style.width = '100%';
         div1.style.height = '100%';
         div1.style.border = '0px solid #3C3C3C';
-        div1.innerHTML = `Graph1`;
 
         const div2 = document.createElement('div');
         div2.className = 'graph2';
         div2.style.width = '100%';
         div2.style.height = '100%';
         div2.style.border = '0px solid #3C3C3C';
-        div2.innerHTML = `Graph2`;
 
         if (oldDiv1) {
             oldDiv1.remove();
@@ -140,6 +192,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
         if (oldDiv2) {
             oldDiv2.remove();
+        }
+
+        if (oldDiv3) {
+            oldDiv3.remove();
+        }
+
+        if (dotsLayerGroup) {
+            // Remove the existing orange dots layer group from the map
+            mymap.removeLayer(dotsLayerGroup);
         }
 
         switch (buttonNumber) {
@@ -190,8 +251,15 @@ document.addEventListener("DOMContentLoaded", function () {
                 // Add an event listener to update the label when the slider value changes
                 slider.addEventListener('input', () => {
                     sliderLabel.innerHTML = `Year: ${slider.value}`;
-                    parseOrangedots(slider.value)
-                });
+
+                    const dataUrl = `https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/Aristotelis/data/density_map/density_map_${slider.value}.csv`
+                    d3.csv(dataUrl)
+                        .then(data => {
+                            populateMap(data)
+                        })
+                        .catch(error => console.error('Error:', error));
+                })
+
     
                 // Append the slider and label to the imageContainer
                 imageContainer.appendChild(slider);
@@ -199,7 +267,42 @@ document.addEventListener("DOMContentLoaded", function () {
     
                 // Append the imageContainer to the graphContainer
                 graphContainer.appendChild(imageContainer);
-                // ... (the rest of the cases remain the same)
+                
+                // Create the legend container
+                const legendContainer = document.createElement('div');
+                legendContainer.classList.add('legend-container');
+
+                // Iterate through the colorMapping object and create legend items
+                for (const target in colorMapping) {
+                    const color = colorMapping[target];
+
+                    // Create a legend item
+                    const legendItem = document.createElement('div');
+                    legendItem.classList.add('legend-item');
+
+                    // Create a color circle
+                    const colorCircle = document.createElement('div');
+                    colorCircle.classList.add('color-circle');
+                    colorCircle.style.backgroundColor = color;
+
+                    // Create a label for the target subtype
+                    const label = document.createElement('span');
+                    label.innerHTML = target;
+
+                    // Add tooltip to the legend item
+                    legendItem.setAttribute('title', descriptions[target]);
+
+                    // Append the color circle and label to the legend item
+                    legendItem.appendChild(colorCircle);
+                    legendItem.appendChild(label);
+
+                    // Append the legend item to the legend container
+                    legendContainer.appendChild(legendItem);
+                }
+
+                // Append the legend container to the graphContainer
+                graphContainer.appendChild(legendContainer);
+
                 break;
             case 3:
                 while (imageContainer.firstChild) {
@@ -272,15 +375,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     if (oldDiv2) {
                         oldDiv2.remove();
                     }
- 
-                    // const oldDiv = graphContainer.querySelector('.graph4');
 
-                    // const div = document.createElement('div');
-                    // div.className = 'graph4';
-                    // div.style.width = '100%';
-                    // div.style.height = '100%';
-                    // div1.style.border = '0px solid #3C3C3C';
-                    // div.style.borderRadius = '15px';
                     div1.innerHTML = `<b>${regionSelect.value}</b>`;
                     graphContainer.appendChild(div1);
 
@@ -409,29 +504,6 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
     }
-    function parseOrangedots(sliderValue) {
-        const csvUrl = `https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/master/data/density_map/density_map_${sliderValue}.csv`;
-      
-        fetch(csvUrl)
-          .then(response => response.text())
-          .then(data => {
-            // Process the CSV data if needed
-            // Assuming the data is in the same format as mentioned earlier
-            const rows = data.split('\n').slice(1); // Remove header row
-      
-            // Convert the CSV rows to an array of objects
-            const parsedData = rows.map(row => {
-              const [iyear, imonth, iday, latitude, longitude, eventid] = row.split(',');
-              return { iyear, imonth, iday, latitude, longitude, eventid };
-            });
-      
-            // Call the function to add orange dots with the parsed data
-            addOrangeDots(parsedData);
-          })
-          .catch(error => {
-            console.error('Error fetching CSV data:', error);
-          });
-      }
       
 
     function plotData(data) {
@@ -997,6 +1069,51 @@ document.addEventListener("DOMContentLoaded", function () {
                 .attr("cx", function (d) { return x(+d.year); })
                 .attr("cy", function (d) { return y(+d.nkill); })
 
+    }
+
+    function populateMap(data) {
+
+        // Check if the orange dots layer group already exists
+        if (dotsLayerGroup) {
+            // Remove the existing orange dots layer group from the map
+            mymap.removeLayer(dotsLayerGroup);
+        }
+
+        // Create a new layer group to hold the orange dots
+        dotsLayerGroup = L.layerGroup().addTo(mymap);
+
+        data.forEach((row) => {
+            const latitude = parseFloat(row.latitude);
+            const longitude = parseFloat(row.longitude);
+
+            var circleMarker = L.circleMarker([latitude, longitude], {
+                fillColor: colorMapping[row.targtype1_txt],
+                color: colorMapping[row.targtype1_txt],
+                fillOpacity: 0.5,
+                stroke: false,
+                radius: 5
+            }).addTo(dotsLayerGroup);
+
+            var countryFlagSrc = `https://raw.githubusercontent.com/HatScripts/circle-flags/gh-pages/flags/${getCountryAbbr(row.country_txt)}.svg`;
+            var content = `
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+                <div>
+                    <img src="${countryFlagSrc}" style="width: 30px; height: 30px; margin-right: 50px">
+                </div>
+                <div>
+                    <b>${row.targtype1_txt}</b><br>
+                    ${row.country_txt}<br>
+                    ${row.gname}<br>
+                    ${row.summary}
+                </div>
+            </div>`;
+
+
+            circleMarker.bindPopup(content);
+            circleMarker.on('mouseover', function (e) {
+                this.openPopup();
+            });                
+        });
     }
 
 
