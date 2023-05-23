@@ -143,10 +143,10 @@ canvas#sketch {
 
 .button-container {
     background-color: #eaeae3;
-    background: linear-gradient(145deg, #ffffff, #deded7);
-    box-shadow: inset 10px 10px 20px #8c8c88, 
-                inset -10px -10px 20px #ffffff;
-    border-radius: 15px;
+    background: transparent;
+    box-shadow: 2px 2px 15px dimgrey inset;
+    border: 5px solid white;
+    /* border-radius: 15px; */
     margin-top: 90px;
     display: flex;
     top: 50px;
@@ -495,4 +495,67 @@ button.selected {
     position: absolute;
     pointer-events: none;
     /* this makes sure clicking on the arrow doesn't do anything */
+}
+
+.legend-container {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    font-size: smaller;
+}
+
+.color-circle {
+    width: 12px;
+    height: 12px;
+    opacity: 0.5;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.legend-item {
+    position: relative;
+}
+
+.tooltip-container {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.legend-item:hover .tooltip-container {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.tooltip-content {
+    max-width: 200px;
+}
+
+.ack {
+    font-size: xx-small;
+    color: cornflowerblue;
+}
+
+.special-ref {
+    color: inherit;
+    text-decoration: none;
 }
