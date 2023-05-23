@@ -176,7 +176,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199601150001,Pakistan,31.50547,74.34288,1.0,,Violent Political Party,Unknown
 199601150002,West Bank and Gaza Strip,31.704338,35.194355,0.0,,Private Citizens & Property,Hamas (Islamic Resistance Movement)
 199601150003,Algeria,36.480453,2.83388,5.0,,Business,Unknown
-199601150004,Guatemala,,,1.0,,Military,Guatemalan National Revolutionary Unity (URNG)
 199601150005,Brazil,-22.908278,-43.197026,0.0,,Business,Unknown
 199601160001,Pakistan,24.891115,67.143311,2.0,,Private Citizens & Property,Unknown
 199601160002,Pakistan,24.891115,67.143311,1.0,,Unknown,Unknown
@@ -189,7 +188,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199601160009,Colombia,4.667128,-74.106056,0.0,,Military,Unknown
 199601160010,France,43.395936,-1.45459,0.0,,Government (General),Iparretarrak (IK)
 199601160011,Guatemala,14.622869,-90.529068,0.0,,Unknown,Guatemalan National Revolutionary Unity (URNG)
-199601160012,Guatemala,,,0.0,,Military,Guatemalan National Revolutionary Unity (URNG)
 199601160013,Turkey,41.002697,39.716763,0.0,"1/16/1996-1/20/1996: Nine Chechen Rebels hijacked a ferry as it was about to leave from the port in Trabzon, Trabzon, Turkey. The 199 hostages on board were aboard Russian ferry bound for Sochi in Russia. The rebels demanded that Russian forces stop their assault on the town of Pervomayskaya. The incident was resolved without any loss of life and only one hostage being slightly wounded. Nine men, including the leader of the group (Mohammed Tokan) were arrested and convicted. No information on where the incident ended was available.",Unknown,Chechen Rebels
 199601170001,Mexico,25.673211,-100.309201,1.0,,Private Citizens & Property,Unknown
 199601170002,Nigeria,11.974328,8.50026,14.0,,Government (General),United Front for Nigeria's Liberation (UFNL)
@@ -199,7 +197,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199601170006,Bangladesh,23.791275,90.418205,0.0,,Unknown,Unknown
 199601170007,Bangladesh,23.791275,90.418205,0.0,,Unknown,Unknown
 199601170008,Bangladesh,23.791275,90.418205,0.0,,Unknown,Unknown
-199601170009,Colombia,,,0.0,,Utilities,National Liberation Army of Colombia (ELN)
 199601180001,Nigeria,10.530204,7.437338,1.0,,Business,Unknown
 199601180002,Pakistan,31.50547,74.34288,0.0,,Educational Institution,Unknown
 199601180003,Pakistan,31.50547,74.34288,0.0,,Private Citizens & Property,Unknown
@@ -210,8 +207,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199601190001,Pakistan,30.197843,71.467629,1.0,,Private Citizens & Property,Unknown
 199601190002,West Bank and Gaza Strip,32.460617,35.301247,3.0,,Military,Unknown
 199601190003,Colombia,6.462828,-75.556394,1.0,,Government (General),Unknown
-199601190004,Indonesia,,,,,Maritime,East Timorese extremists
-199601200001,Myanmar,,,20.0,,Private Citizens & Property,Karen National Union
 199601200002,Pakistan,24.891115,67.143311,4.0,,Unknown,Unknown
 199601200003,Pakistan,24.891115,67.143311,1.0,,Unknown,Unknown
 199601200004,Pakistan,24.891115,67.143311,2.0,,Unknown,Unknown
@@ -253,7 +248,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199601250003,Sri Lanka,7.301756,81.67473,4.0,,Police,Liberation Tigers of Tamil Eelam (LTTE)
 199601250004,Yemen,15.45639,45.324871,0.0,,Tourists,Tribal Group
 199601260001,Pakistan,24.891115,67.143311,2.0,,Unknown,Unknown
-199601260002,Algeria,,,7.0,,Private Citizens & Property,Unknown
 199601260003,Egypt,28.010769,30.789906,1.0,,Transportation,Unknown
 199601260004,India,26.912434,75.787271,0.0,,Government (General),Unknown
 199601260005,India,34.08374,74.789902,0.0,,Government (General),Separatists
@@ -288,7 +282,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199601300002,United Kingdom,54.607712,-5.95621,1.0,,Terrorists/Non-State Militia,Irish National Liberation Army (INLA)
 199601300003,Sri Lanka,7.529372,81.794609,0.0,,Unknown,Liberation Tigers of Tamil Eelam (LTTE)
 199601300004,Sri Lanka,7.414383,81.830633,1.0,,Unknown,Liberation Tigers of Tamil Eelam (LTTE)
-199601300005,Thailand,,,3.0,,Private Citizens & Property,Democratic Karen Buddhist Army (DKBA)
 199601300006,Algeria,36.763763,3.055413,2.0,,Unknown,Unknown
 199601300007,Bangladesh,23.791275,90.418205,0.0,,Government (General),Unknown
 199601300008,India,12.971599,77.594563,0.0,,Business,Karnataka State Farmers Association
@@ -297,7 +290,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199601310001,Mexico,20.083333,-98.366667,4.0,,Private Citizens & Property,Rival peasant band
 199601310002,Sri Lanka,6.941837,79.861687,90.0,,Business,Liberation Tigers of Tamil Eelam (LTTE)
 199601310003,Algeria,36.763763,3.055413,3.0,,Private Citizens & Property,Unknown
-199602000001,Sierra Leone,,,2.0,,Business,Revolutionary United Front (RUF)
 199602010001,Philippines,14.596051,120.978666,,,Private Citizens & Property,Unknown
 199602010002,Algeria,36.763763,3.055413,6.0,,Religious Figures/Institutions,Unknown
 199602010003,Colombia,4.667128,-74.106056,2.0,,Private Citizens & Property,Dignity for Colombia
@@ -325,7 +317,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199602040006,Israel,32.608879,35.289967,0.0,,Military,Unknown
 199602050001,Russia,55.751377,37.579914,1.0,,Business,Unknown
 199602050002,Algeria,36.296387,3.66993,5.0,,Business,Unknown
-199602050003,Bangladesh,,,0.0,,Private Citizens & Property,Opposition Group
 199602050004,Bangladesh,22.341896,91.815117,1.0,,Violent Political Party,Unknown
 199602050005,Bangladesh,22.341896,91.815117,0.0,,Violent Political Party,Unknown
 199602050006,Bangladesh,23.013072,91.394048,1.0,,Violent Political Party,Awami League
@@ -403,7 +394,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199602140017,Bangladesh,22.341896,91.815117,0.0,,Government (General),Opposition Group
 199602140018,Bangladesh,22.341896,91.815117,0.0,,Government (General),Opposition Group
 199602140019,Bangladesh,22.341896,91.815117,0.0,,Government (General),Opposition Group
-199602140020,Bangladesh,,,0.0,,Government (General),Opposition Group
 199602140021,Bangladesh,23.013862,89.829361,0.0,,Government (General),Opposition Group
 199602140022,Colombia,7.75809,-76.65758,11.0,,Government (General),Revolutionary Armed Forces of Colombia (FARC)
 199602140023,Germany,53.583772,9.698664,0.0,,Business,Unknown
@@ -447,12 +437,10 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199602190009,France,41.930607,8.742907,1.0,,Terrorists/Non-State Militia,Unknown
 199602190010,Egypt,27.181122,31.179426,2.0,,Police,Al-Gama'at al-Islamiyya (IG)
 199602190011,Egypt,27.181122,31.179426,2.0,,Police,Al-Gama'at al-Islamiyya (IG)
-199602190012,Ivory Coast,,,5.0,,Business,U/I Liberians
 199602200001,Lebanon,33.214611,35.461758,1.0,,Unknown,Hezbollah
 199602200002,Nicaragua,14.152916,-85.07312,3.0,,NGO,Unknown
 199602200004,Colombia,4.667128,-74.106056,2.0,,Government (General),Unknown
 199602200005,Guatemala,14.622869,-90.529068,0.0,,Private Citizens & Property,Unknown
-199602210001,Nicaragua,,,2.0,,Private Citizens & Property,Unknown
 199602210002,Nicaragua,12.293445,-84.411145,0.0,,Transportation,Unknown
 199602210003,Nicaragua,12.293445,-84.411145,0.0,,Transportation,Unknown
 199602210004,Nicaragua,12.293445,-84.411145,0.0,,Transportation,Unknown
@@ -498,7 +486,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199602260012,France,43.696036,7.265592,0.0,,Business,Unknown
 199602260013,France,43.696036,7.265592,0.0,,Business,Unknown
 199602260014,France,43.696036,7.265592,0.0,,Business,Unknown
-199602260015,India,,,7.0,,Military,Bodo Militants
 199602260016,India,24.798346,93.94043,0.0,,Private Citizens & Property,Unknown
 199602260017,Israel,31.771599,35.2034,3.0,,Transportation,Unknown
 199602270001,Lebanon,33.139179,35.400552,1.0,,Terrorists/Non-State Militia,Hezbollah
@@ -506,10 +493,8 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199602270003,Nepal,28.743442,82.475276,6.0,,Police,Unknown
 199602270004,Russia,55.751377,37.579914,1.0,,Journalists & Media,Unknown
 199602270005,Russia,59.853371,30.348433,3.0,,Private Citizens & Property,Unknown
-199602270006,Sri Lanka,,,1.0,,Private Citizens & Property,Liberation Tigers of Tamil Eelam (LTTE)
 199602270007,Sri Lanka,7.640506,80.427088,0.0,,Private Citizens & Property,Liberation Tigers of Tamil Eelam (LTTE)
 199602270008,Germany,49.4019,8.680285,0.0,,Religious Figures/Institutions,Unknown
-199602280001,Philippines,,,0.0,,Military,New People's Army (NPA)
 199602280002,Azerbaijan,40.41724,49.903461,1.0,,Government (General),Unknown
 199602280003,Bangladesh,22.341896,91.815117,0.0,,Police,Opposition Group
 199602280004,Bangladesh,22.341896,91.815117,0.0,,Transportation,Opposition Group
@@ -543,14 +528,11 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199603020005,India,18.658327,84.23601,1.0,,Private Citizens & Property,People's War Group (PWG)
 199603030001,Bangladesh,22.341896,91.815117,0.0,,Police,Opposition Group
 199603030002,Bangladesh,23.791275,90.418205,1.0,,Private Citizens & Property,Opposition Group
-199603030003,Ecuador,,,0.0,,Government (General),Social Christian Party (PSC)
 199603030004,India,9.451517,77.554421,1.0,,Private Citizens & Property,Thavar Caste
 199603030006,India,16.687615,81.491741,1.0,,Police,People's War Group (PWG)
 199603030007,Israel,31.771599,35.2034,20.0,,Transportation,Hamas (Islamic Resistance Movement)
-199603040001,Lebanon,,,4.0,,Military,Hezbollah
 199603040002,West Bank and Gaza Strip,31.530243,35.094162,0.0,,Private Citizens & Property,Unknown
 199603040003,Russia,55.751377,37.579914,1.0,,Business,Unknown
-199603040004,Spain,,,1.0,,Police,Basque Fatherland and Freedom (ETA)
 199603040005,Sri Lanka,8.457907,81.268402,0.0,,Unknown,Unknown
 199603040006,Bangladesh,22.948277,91.397781,1.0,,Private Citizens & Property,Political Group
 199603040007,Bangladesh,24.749201,90.402618,3.0,,Unknown,Jamaat-E-Islami (Bangladesh)
@@ -576,7 +558,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199603080004,Uganda,2.878003,32.718138,28.0,,Private Citizens & Property,Lord's Resistance Army (LRA)
 199603080005,Algeria,34.946084,-1.048757,10.0,,Transportation,Unknown
 199603080006,France,41.621822,8.97472,1.0,,Government (General),Unknown
-199603090001,Lebanon,,,1.0,,Terrorists/Non-State Militia,Unknown
 199603090002,Uganda,2.878003,32.718138,0.0,,Transportation,Lord's Resistance Army (LRA)
 199603090003,United Kingdom,51.504387,-0.140041,0.0,,Private Citizens & Property,Irish Republican Army (IRA)
 199603090004,Bangladesh,22.758374,91.73712,1.0,,Private Citizens & Property,Political Group
@@ -605,7 +586,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199603100006,Philippines,6.700414,121.972557,,,Private Citizens & Property,Abu Sayyaf Group (ASG)
 199603100007,Somalia,2.059819,45.326115,1.0,,Private Citizens & Property,Unknown
 199603100008,Uganda,2.245546,32.246325,21.0,,Private Citizens & Property,Lord's Resistance Army (LRA)
-199603100009,Burundi,,,3.0,,Educational Institution,Unknown
 199603100012,France,48.697161,2.189617,0.0,,Journalists & Media,Unknown
 199603100013,Indonesia,-4.266966,137.0472,0.0,,Business,Irianese Tribesmen
 199603110001,Philippines,6.929089,122.07885,,,Business,Abu Sayyaf Group (ASG)
@@ -619,7 +599,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199603120001,Algeria,36.763763,3.055413,1.0,,Journalists & Media,Unknown
 199603120002,Colombia,4.667128,-74.106056,0.0,,Transportation,Left-Wing Guerrillas
 199603120003,Colombia,5.19688,-73.14554,1.0,,Police,Revolutionary Armed Forces of Colombia (FARC)
-199603120004,Colombia,,,0.0,,Government (General),National Liberation Army of Colombia (ELN)
 199603120005,Indonesia,-4.55013,136.889096,0.0,,Business,Irianese Tribesmen
 199603130001,Morocco,33.59,-7.61,0.0,,Educational Institution,Al-Adl Wal Ihsane
 199603130002,Pakistan,24.891115,67.143311,0.0,,Transportation,Muttahida Qami Movement (MQM)
@@ -627,7 +606,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199603130004,Philippines,6.929089,122.07885,,,Business,Abu Sayyaf Group (ASG)
 199603130005,Uganda,2.245546,32.246325,24.0,,Transportation,Lord's Resistance Army (LRA)
 199603130006,Yemen,14.297678,44.380596,3.0,,Business,Unknown
-199603130007,Colombia,,,1.0,,Police,Revolutionary Armed Forces of Colombia (FARC)
 199603130008,Colombia,9.54637,-75.31266,11.0,,Police,Revolutionary Armed Forces of Colombia (FARC)
 199603130009,Colombia,7.060051,-73.853115,1.0,,Police,Revolutionary Armed Forces of Colombia (FARC)
 199603140001,Pakistan,24.891115,67.143311,1.0,,Military,Unknown
@@ -710,8 +688,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199603210014,Colombia,4.667128,-74.106056,0.0,,Government (Diplomatic),Unknown
 199603220001,Mexico,16.338913,-92.56344,3.0,,Police,Militant Peasants (NFI)
 199603220002,Rwanda,-1.679123,29.261201,2.0,,Government (General),Hutu extremists
-199603220003,Bangladesh,,,0.0,,Transportation,Opposition Group
-199603220004,Bangladesh,,,0.0,,Transportation,Opposition Group
 199603220005,China,30.658601,104.064856,0.0,,Government (Diplomatic),Unknown
 199603220006,Ecuador,-0.211188,-78.522629,1.0,,Government (Diplomatic),Unknown
 199603230001,Macau,22.192266,113.547631,0.0,,Business,Unknown
@@ -791,7 +767,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199604040005,Sri Lanka,7.799444,81.577222,0.0,,Transportation,Liberation Tigers of Tamil Eelam (LTTE)
 199604040006,Algeria,35.962222,3.155278,6.0,,Business,Unknown
 199604040007,Argentina,-34.68631,-58.528473,0.0,,Police,People's Revolutionary Organization
-199604040008,Bangladesh,,,0.0,,Airports & Aircraft,Unknown
 199604050001,Libya,32.069286,20.151144,3.0,,Government (Diplomatic),Unknown
 199604050002,Sri Lanka,8.964041,80.787941,1.0,,Private Citizens & Property,Liberation Tigers of Tamil Eelam (LTTE)
 199604050003,Sri Lanka,8.964041,80.787941,1.0,,Private Citizens & Property,Liberation Tigers of Tamil Eelam (LTTE)
@@ -811,42 +786,15 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199604080002,Philippines,14.596051,120.978666,,,Private Citizens & Property,Unknown
 199604080003,Sri Lanka,7.716666,81.700188,0.0,,Transportation,Liberation Tigers of Tamil Eelam (LTTE)
 199604080004,Algeria,36.266667,1.966667,0.0,,Transportation,Unknown
-199604080005,Colombia,,,0.0,,Private Citizens & Property,Left-Wing Guerrillas
-199604080006,Colombia,,,0.0,,Private Citizens & Property,Left-Wing Guerrillas
-199604080007,Colombia,,,0.0,,Private Citizens & Property,Left-Wing Guerrillas
-199604080008,Colombia,,,0.0,,Private Citizens & Property,Left-Wing Guerrillas
-199604080009,Colombia,,,0.0,,Private Citizens & Property,Left-Wing Guerrillas
-199604080010,Colombia,,,0.0,,Private Citizens & Property,Left-Wing Guerrillas
-199604080011,Colombia,,,0.0,,Private Citizens & Property,Left-Wing Guerrillas
-199604080012,Colombia,,,0.0,,Private Citizens & Property,Left-Wing Guerrillas
-199604080013,Colombia,,,0.0,,Private Citizens & Property,Left-Wing Guerrillas
 199604080014,Colombia,7.946283,-72.898807,7.0,,Military,Left-Wing Guerrillas
 199604080015,Colombia,7.946283,-72.898807,0.0,,Military,Left-Wing Guerrillas
-199604080016,Colombia,,,0.0,,Utilities,Left-Wing Guerrillas
-199604080017,Colombia,,,0.0,,Utilities,Left-Wing Guerrillas
 199604080018,India,9.451517,77.554421,1.0,,Business,Rival caste
 199604080019,India,9.451517,77.554421,1.0,,Transportation,Rival caste
 199604080020,India,33.871517,74.89955,1.0,,Government (General),Muslim Separatists
 199604080021,Italy,41.890961,12.490069,0.0,,Government (Diplomatic),Unknown
 199604090001,Pakistan,31.50547,74.34288,0.0,,Journalists & Media,Unknown
-199604090002,Uganda,,,10.0,,Private Citizens & Property,Unknown
 199604090003,Bangladesh,22.341896,91.815117,0.0,,Violent Political Party,Opposition Militants
 199604090004,Bangladesh,22.341896,91.815117,1.0,,Violent Political Party,Opposition Militants
-199604090005,Bangladesh,,,0.0,,Private Citizens & Property,Unknown
-199604090006,Bangladesh,,,0.0,,Private Citizens & Property,Unknown
-199604090007,Bangladesh,,,0.0,,Private Citizens & Property,Unknown
-199604090008,Bangladesh,,,0.0,,Private Citizens & Property,Unknown
-199604090009,Bangladesh,,,0.0,,Private Citizens & Property,Unknown
-199604090010,Bangladesh,,,0.0,,Private Citizens & Property,Unknown
-199604090011,Bangladesh,,,0.0,,Private Citizens & Property,Unknown
-199604090012,Bangladesh,,,0.0,,Private Citizens & Property,Unknown
-199604090013,Bangladesh,,,0.0,,Private Citizens & Property,Unknown
-199604090014,Bangladesh,,,0.0,,Private Citizens & Property,Unknown
-199604090015,Bangladesh,,,0.0,,Private Citizens & Property,Unknown
-199604090016,Bangladesh,,,0.0,,Private Citizens & Property,Unknown
-199604090017,Bangladesh,,,0.0,,Private Citizens & Property,Unknown
-199604090018,Bangladesh,,,0.0,,Private Citizens & Property,Unknown
-199604090019,Bangladesh,,,0.0,,Private Citizens & Property,Unknown
 199604090020,Bangladesh,22.341896,91.815117,1.0,,Violent Political Party,Opposition Militants
 199604090021,Bolivia,-17.783219,-63.182042,0.0,,Business,Unknown
 199604090022,Cambodia,13.344637,103.847055,1.0,,Military,Unknown
@@ -868,8 +816,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199604110001,Sri Lanka,8.899722,80.833889,2.0,,Private Citizens & Property,Liberation Tigers of Tamil Eelam (LTTE)
 199604110002,Thailand,13.785793,100.560852,1.0,,Business,Unknown
 199604110003,Argentina,-34.61768,-58.444435,0.0,,Military,People's Revolutionary Organization
-199604110004,Colombia,,,0.0,,Utilities,National Liberation Army of Colombia (ELN)
-199604110005,Colombia,,,0.0,,Utilities,National Liberation Army of Colombia (ELN)
 199604110006,Colombia,4.667128,-74.106056,0.0,,Police,Left-Wing Guerrillas
 199604120001,Mexico,25.673211,-100.309201,0.0,,Government (Diplomatic),Unknown
 199604120002,Sri Lanka,6.941837,79.861687,10.0,,Maritime,Liberation Tigers of Tamil Eelam (LTTE)
@@ -957,7 +903,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199604230002,Colombia,4.667128,-74.106056,0.0,,Police,Left-Wing Guerrillas
 199604230003,Colombia,4.667128,-74.106056,0.0,,Police,Left-Wing Guerrillas
 199604230004,Colombia,5.19688,-73.14554,2.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
-199604230005,Colombia,,,4.0,,Transportation,Left-Wing Guerrillas
 199604230006,Georgia,41.709981,44.792998,1.0,,Business,Unknown
 199604240001,Poland,52.229676,21.012229,1.0,,Business,GN-95
 199604240002,Colombia,6.242026,-75.564766,0.0,,Government (General),Unknown
@@ -975,8 +920,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199604260002,Pakistan,24.891115,67.143311,2.0,,Police,Unknown
 199604260003,Spain,43.291618,-1.977903,0.0,,Police,Unknown
 199604260004,Venezuela,7.9137,-72.141613,0.0,,Government (Diplomatic),Unknown
-199604260005,Burundi,,,200.0,,Private Citizens & Property,Tutsi extremists
-199604260006,Colombia,,,5.0,,Unknown,Unknown
 199604260007,Colombia,6.828333,-75.513056,3.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
 199604260008,Colombia,6.828333,-75.513056,1.0,,Unknown,Unknown
 199604260009,Colombia,6.828333,-75.513056,1.0,,Unknown,Unknown
@@ -1003,7 +946,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199604290004,United States,47.65878,-117.426047,0.0,,Government (General),White supremacists/nationalists
 199604290005,Cambodia,13.1,103.2,4.0,,Military,Unknown
 199604290006,Canada,51.038021,-114.060989,0.0,,NGO,Unknown
-199604290007,China,,,4.0,,Private Citizens & Property,Muslims
 199604290008,Colombia,7.116294,-73.120026,0.0,,Transportation,National Liberation Army of Colombia (ELN)
 199604290009,India,15.9129,79.739988,2.0,,Private Citizens & Property,Rival Activists
 199604290010,India,15.9129,79.739988,1.0,,Unknown,Unknown
@@ -1052,8 +994,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199605050004,India,25.096074,85.313119,4.0,,Police,Unknown
 199605050006,India,34.08374,74.789902,8.0,,Private Citizens & Property,Separatists
 199605060001,Sri Lanka,7.733107,81.68882,0.0,,Military,Liberation Tigers of Tamil Eelam (LTTE)
-199605060002,Sri Lanka,,,1.0,,Military,Liberation Tigers of Tamil Eelam (LTTE)
-199605060003,Sri Lanka,,,30.0,,Military,Liberation Tigers of Tamil Eelam (LTTE)
 199605060004,Sri Lanka,9.660688,80.165638,0.0,,Military,Liberation Tigers of Tamil Eelam (LTTE)
 199605060005,Tajikistan,38.552185,68.767441,1.0,,Educational Institution,Unknown
 199605060006,Bahrain,26.253864,50.613705,0.0,,Transportation,Unknown
@@ -1104,7 +1044,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199605110010,Haiti,18.527716,-72.33284,0.0,,Journalists & Media,Unknown
 199605120001,West Bank and Gaza Strip,31.907141,35.198219,0.0,,Military,Unknown
 199605120002,Spain,43.258434,-2.921819,0.0,,Military,Basque Fatherland and Freedom (ETA)
-199605120004,Zaire,,,100.0,,Private Citizens & Property,Hutu extremists
 199605120005,China,43.793028,87.627812,0.0,,Government (General),Unknown
 199605120006,India,24.06718,91.605672,8.0,,Private Citizens & Property,Separatists
 199605130001,West Bank and Gaza Strip,31.933333,35.216667,1.0,,Transportation,Unknown
@@ -1115,7 +1054,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199605140001,Philippines,14.596051,120.978666,,,Government (General),Unknown
 199605140002,Zaire,-1.215,28.916944,10.0,,Religious Figures/Institutions,Unknown
 199605140003,Colombia,5.004875,-76.003109,0.0,,Police,Unknown
-199605140004,Colombia,,,2.0,,Business,Revolutionary Armed Forces of Colombia (FARC)
 199605140005,Colombia,3.429344,-76.516037,0.0,,Private Citizens & Property,Unknown
 199605140006,France,41.930607,8.742907,0.0,,Government (General),Unknown
 199605140007,France,41.930607,8.742907,0.0,,Government (General),Unknown
@@ -1143,11 +1081,9 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199605170001,Philippines,6.929089,122.07885,,,Business,Unknown
 199605170002,Brazil,-25.516336,-54.585376,0.0,,Transportation,Unknown
 199605170003,Burundi,-3.336811,29.673113,50.0,,Private Citizens & Property,Unknown
-199605170005,Colombia,,,0.0,,Transportation,National Liberation Army of Colombia (ELN)
 199605170006,France,42.699997,9.447317,0.0,,Police,Corsican National Liberation Front- Historic Channel
 199605170007,India,26.200605,92.937574,1.0,,Journalists & Media,Unknown
 199605180001,Philippines,14.680798,120.540428,3.0,,Private Citizens & Property,Unknown
-199605180002,Spain,,,0.0,,Business,Unknown
 199605180003,Sri Lanka,9.69636,80.184717,3.0,,Private Citizens & Property,Liberation Tigers of Tamil Eelam (LTTE)
 199605180004,Cambodia,11.558831,104.917445,1.0,,Journalists & Media,Unknown
 199605180005,Greece,40.620663,22.952,0.0,,Police,Unknown
@@ -1172,13 +1108,10 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199605180024,India,26.401436,90.266699,1.0,,Private Citizens & Property,Tribal Group
 199605180025,India,26.401436,90.266699,1.0,,Private Citizens & Property,Tribal Group
 199605190001,Mexico,17.713732,-98.935856,1.0,,Government (General),Unknown
-199605190002,Myanmar,,,20.0,,Terrorists/Non-State Militia,Democratic Karen Buddhist Army (DKBA)
 199605190003,Rwanda,-2.698556,29.008173,37.0,,Police,Unidentified Infiltrators
 199605190004,Sri Lanka,8.941674,80.986695,0.0,,Police,Liberation Tigers of Tamil Eelam (LTTE)
-199605190005,Sri Lanka,,,1.0,,Private Citizens & Property,Liberation Tigers of Tamil Eelam (LTTE)
 199605190006,Sri Lanka,8.758981,80.984445,2.0,,Private Citizens & Property,Liberation Tigers of Tamil Eelam (LTTE)
 199605190007,Zaire,-2.997014,28.466619,1.0,,NGO,Hutu extremists
-199605190008,Bangladesh,,,1.0,,Military,Shanti Bahini - Peace Force
 199605190009,Colombia,6.828333,-75.513056,1.0,,Business,Revolutionary Armed Forces of Colombia (FARC)
 199605190010,France,41.94122,9.330645,0.0,,Police,Corsican National Liberation Front- Historic Channel
 199605190011,Ecuador,-1.57248,-79.468738,1.0,,Government (General),Unknown
@@ -1216,8 +1149,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199605230005,Sri Lanka,9.7,80.316667,1.0,,Military,Liberation Tigers of Tamil Eelam (LTTE)
 199605230006,United States,43.618518,-116.214619,0.0,,Business,Unknown
 199605230007,Burundi,-3.016027,29.450726,375.0,,Private Citizens & Property,Tutsi extremists
-199605230008,Colombia,,,4.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
-199605230009,Colombia,,,1.0,,Government (General),Revolutionary Armed Forces of Colombia (FARC)
 199605230010,Colombia,7.289972,-75.392693,1.0,,Government (General),Revolutionary Armed Forces of Colombia (FARC)
 199605230011,El Salvador,13.69288,-89.199161,0.0,,Business,Unknown
 199605230012,Guinea,7.638653,-8.797507,2.0,,Private Citizens & Property,National Patriotic Front of Liberia (NPFL)
@@ -1228,22 +1159,11 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199605250002,Pakistan,25.763455,68.661841,7.0,,Police,Bandits
 199605250003,Tajikistan,38.574907,68.967372,8.0,,Police,Unknown
 199605250004,Algeria,36.742386,3.722816,0.0,,Transportation,Unknown
-199605250005,Cambodia,,,0.0,,Private Citizens & Property,Khmer Rouge
-199605250006,Cambodia,,,0.0,,Private Citizens & Property,Khmer Rouge
-199605250007,Cambodia,,,0.0,,Private Citizens & Property,Khmer Rouge
-199605250008,Cambodia,,,0.0,,Private Citizens & Property,Khmer Rouge
-199605250009,Cambodia,,,0.0,,Private Citizens & Property,Khmer Rouge
-199605250010,Cambodia,,,0.0,,Private Citizens & Property,Khmer Rouge
-199605250011,Cambodia,,,0.0,,Private Citizens & Property,Khmer Rouge
-199605250012,Cambodia,,,0.0,,Private Citizens & Property,Khmer Rouge
-199605250013,Cambodia,,,0.0,,Private Citizens & Property,Khmer Rouge
-199605250014,Cambodia,,,0.0,,Private Citizens & Property,Khmer Rouge
 199605250015,India,33.14575,75.548049,1.0,,Private Citizens & Property,Unknown
 199605250016,United Kingdom,54.607712,-5.95621,1.0,,Terrorists/Non-State Militia,Irish National Liberation Army (INLA)
 199605260001,Pakistan,31.50547,74.34288,1.0,,Government (General),Unknown
 199605260002,Pakistan,31.834328,70.90905,4.0,,Religious Figures/Institutions,Unknown
 199605260003,Pakistan,31.50547,74.34288,0.0,,Government (General),Jamaat-E-Islami (India/Pakistan)
-199605260004,Rwanda,,,17.0,,Private Citizens & Property,Hutu extremists
 199605260005,Uganda,2.896079,32.453801,1.0,,Military,Lord's Resistance Army (LRA)
 199605260006,Colombia,4.085809,-76.197188,0.0,,Journalists & Media,Dignity for Colombia
 199605260007,France,41.930607,8.742907,0.0,,Business,Unknown
@@ -1251,7 +1171,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199605270001,Jordan,32.54533,35.857158,0.0,,Government (General),Unknown
 199605270002,Sri Lanka,9.814937,80.16608,2.0,,Military,Liberation Tigers of Tamil Eelam (LTTE)
 199605270003,Colombia,6.242026,-75.564766,1.0,,Military,Revolutionary Armed Forces of Colombia (FARC)
-199605270004,Colombia,,,4.0,,Business,Revolutionary Armed Forces of Colombia (FARC)
 199605270005,Haiti,18.527716,-72.33284,1.0,,Police,Unknown
 199605270006,India,34.08374,74.789902,,,Police,Separatists
 199605270007,India,34.08374,74.789902,,,Police,Separatists
@@ -1274,11 +1193,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199605290007,India,34.08374,74.789902,,,Business,Separatists
 199605300001,Lebanon,33.246259,35.5001,8.0,,Military,Unknown
 199605300002,Lebanon,33.246259,35.5001,8.0,,Military,Unknown
-199605300003,Nicaragua,,,0.0,,Government (Diplomatic),Recontras
-199605300004,Spain,,,0.0,,Government (General),Unknown
-199605300005,Spain,,,0.0,,Government (General),Unknown
-199605300006,Spain,,,0.0,,Government (General),Unknown
-199605300007,Spain,,,0.0,,Government (General),Unknown
 199605300008,Zambia,-12.988619,28.653344,0.0,,Journalists & Media,Unknown
 199605300009,Burundi,-3.923747,29.989884,2.0,,Private Citizens & Property,Hutu extremists
 199605300010,Colombia,6.828333,-75.513056,2.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
@@ -1329,7 +1243,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199606040005,Burundi,-2.889815,29.121514,3.0,,NGO,Unknown
 199606040006,France,42.554742,9.424047,0.0,,Private Citizens & Property,Corsican Separatists
 199606050002,Mexico,18.93402,-99.231483,0.0,,Business,Unknown
-199606050003,Myanmar,,,1.0,,Transportation,Karen Insurgents
 199606050004,Pakistan,30.751389,67.806944,5.0,,Private Citizens & Property,Kaka-Tribesmen
 199606050005,Sudan,15.450113,36.400021,0.0,,Food or Water Supply,Unknown
 199606050006,Venezuela,10.482834,-66.962128,0.0,,Transportation,Unknown
@@ -1365,7 +1278,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199606100005,Pakistan,31.975063,74.223297,3.0,,Private Citizens & Property,Unknown
 199606100006,Sri Lanka,7.921328,81.52467,4.0,,Private Citizens & Property,Liberation Tigers of Tamil Eelam (LTTE)
 199606100007,Sri Lanka,8.272958,79.842354,14.0,,Private Citizens & Property,Liberation Tigers of Tamil Eelam (LTTE)
-199606100008,Uganda,,,17.0,,Transportation,Lord's Resistance Army (LRA)
 199606110001,Russia,55.751377,37.579914,4.0,,Transportation,Unknown
 199606110002,Sri Lanka,9.733889,79.874167,2.0,,Military,Liberation Tigers of Tamil Eelam (LTTE)
 199606110003,Egypt,29.966667,32.55,2.0,,Police,Unknown
@@ -1374,24 +1286,20 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199606120003,Algeria,36.72735,3.40995,3.0,,Business,Unknown
 199606120004,Algeria,36.763763,3.055413,1.0,,Government (General),Unknown
 199606120005,Algeria,36.72735,3.40995,2.0,,Private Citizens & Property,Unknown
-199606120006,Bangladesh,,,0.0,,Unknown,Unknown
 199606120007,Bangladesh,23.791275,90.418205,0.0,,Unknown,Unknown
 199606120008,Bangladesh,22.945403,90.834162,2.0,,Private Citizens & Property,Awami League
 199606120009,Bangladesh,24.419107,91.753882,1.0,,Unknown,Unknown
-199606120010,Bangladesh,,,1.0,,Unknown,Unknown
 199606120011,Bangladesh,23.238231,91.12313,1.0,,Unknown,Unknown
 199606120012,Bangladesh,22.341896,91.815117,2.0,,Unknown,Unknown
 199606120013,Brazil,-4.315293,-46.460541,4.0,,Business,Landless Peasants' Movement (MST)
 199606130001,Peru,-7.244488,-76.825965,10.0,,Military,Shining Path (SL)
 199606130002,Philippines,14.596051,120.978666,1.0,,Government (General),Unknown
 199606130003,Russia,55.6,38.1,1.0,,Government (General),Unknown
-199606130004,Sri Lanka,,,3.0,,Police,Liberation Tigers of Tamil Eelam (LTTE)
 199606130005,Sri Lanka,6.941837,79.861687,0.0,,Utilities,Liberation Tigers of Tamil Eelam (LTTE)
 199606130006,Thailand,16.723537,98.584374,0.0,,Private Citizens & Property,Democratic Karen Buddhist Army (DKBA)
 199606130008,Algeria,36.763763,3.055413,2.0,,Government (General),Unknown
 199606130009,Burundi,-2.585139,30.091356,0.0,,Private Citizens & Property,Unknown
 199606130010,Burundi,-3.427512,29.924253,70.0,,Private Citizens & Property,Tutsi extremists
-199606140001,Lebanon,,,1.0,,Terrorists/Non-State Militia,Hezbollah
 199606140002,Lebanon,33.209058,35.516274,3.0,,Unknown,Hezbollah
 199606140003,Sri Lanka,8.324973,81.30074,1.0,,Private Citizens & Property,Liberation Tigers of Tamil Eelam (LTTE)
 199606140004,France,41.591369,9.278311,0.0,,Business,Unknown
@@ -1405,7 +1313,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199606160004,Pakistan,32.813311,73.884332,2.0,,Transportation,Unknown
 199606160005,West Bank and Gaza Strip,32.222271,35.253506,1.0,,Police,Popular Front for the Liberation of Palestine (PFLP)
 199606160006,Yugoslavia,42.880888,20.867213,1.0,,Police,Kosovo Liberation Army (KLA)
-199606160007,Thailand,,,1.0,,Private Citizens & Property,Cambodian Gunmen
 199606160008,Turkey,41.106178,28.689863,0.0,,Police,Devrimici Halk Kurtulus Cephesi (DHKP/C)
 199606170001,Lebanon,33.550434,35.370964,6.0,,Terrorists/Non-State Militia,Unknown
 199606170002,Philippines,6.929089,122.07885,,,Business,Unknown
@@ -1457,8 +1364,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199606240003,Papua New Guinea,-6.72367,146.990906,0.0,,NGO,Unknown
 199606240004,Peru,-9.147417,-78.280093,1.0,,Government (General),Unknown
 199606240005,South Africa,-29.81536,30.849844,0.0,,Private Citizens & Property,Unknown
-199606240006,Sri Lanka,,,0.0,,Police,Liberation Tigers of Tamil Eelam (LTTE)
-199606240007,Sri Lanka,,,0.0,,Police,Liberation Tigers of Tamil Eelam (LTTE)
 199606240008,Sri Lanka,8.404581,81.312434,2.0,,Military,Liberation Tigers of Tamil Eelam (LTTE)
 199606240009,Sri Lanka,7.945965,81.24913,0.0,,Transportation,Liberation Tigers of Tamil Eelam (LTTE)
 199606240010,Turkey,38.730203,35.48072,3.0,,Government (General),Unknown
@@ -1472,13 +1377,10 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199606250004,Mexico,17.987557,-92.929147,0.0,,Transportation,Democratic Revolutionary Party
 199606250005,Mexico,17.987557,-92.929147,0.0,,Transportation,Democratic Revolutionary Party
 199606250006,Saudi Arabia,26.26622,50.150466,19.0,,Military,Saudi Hezbollah
-199606250007,Colombia,,,0.0,,Utilities,Unknown
 199606260001,Albania,41.3275,19.818889,1.0,,Police,Unknown
 199606260002,Iran,36.249917,46.273502,2.0,,Police,Kurdish Rebels
 199606260003,West Bank and Gaza Strip,31.967743,35.455577,3.0,,Military,Unknown
-199606270001,Myanmar,,,,,Terrorists/Non-State Militia,Democratic Karen Buddhist Army (DKBA)
 199606270003,Rwanda,-1.679123,29.261201,27.0,,Private Citizens & Property,Hutu extremists
-199606270004,Burundi,,,31.0,,Military,Hutu extremists
 199606280001,Nicaragua,12.103822,-86.267014,0.0,,Government (Diplomatic),Viviana Gallardo Command
 199606280002,Zaire,-4.480278,14.411944,8.0,,Private Citizens & Property,Unknown
 199606280003,Germany,52.267281,8.053188,0.0,,Military,Irish Republican Army (IRA)
@@ -1489,7 +1391,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199606300002,Turkey,39.106709,39.545246,10.0,,Military,Unknown
 199606300003,Algeria,36.763763,3.055413,0.0,,Religious Figures/Institutions,Unknown
 199606300004,Colombia,6.242026,-75.564766,4.0,,Business,Unknown
-199606300005,Colombia,,,0.0,,Private Citizens & Property,National Liberation Army of Colombia (ELN)
 199607010001,Sri Lanka,6.954722,81.488889,64.0,,Military,Liberation Tigers of Tamil Eelam (LTTE)
 199607010002,Turkey,39.74887,37.016499,0.0,,Police,Unknown
 199607010003,Algeria,36.716365,4.049834,0.0,,Utilities,Unknown
@@ -1503,7 +1404,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199607030002,Pakistan,24.891115,67.143311,1.0,,Violent Political Party,Unknown
 199607030003,Peru,-11.967368,-76.978462,0.0,,Business,Shining Path (SL)
 199607030005,Burundi,-3.209682,29.563585,80.0,,Business,Hutu extremists
-199607030006,Colombia,,,0.0,,Police,Revolutionary Armed Forces of Colombia (FARC)
 199607030007,Egypt,27.929867,30.838026,1.0,,Police,Al-Gama'at al-Islamiyya (IG)
 199607040001,Pakistan,24.891115,67.143311,1.0,,Private Citizens & Property,Unknown
 199607040002,Pakistan,24.891115,67.143311,1.0,,Private Citizens & Property,Unknown
@@ -1527,7 +1427,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199607070002,Sri Lanka,8.345185,80.388133,0.0,,Transportation,Liberation Tigers of Tamil Eelam (LTTE)
 199607070003,Sri Lanka,9.086163,79.818989,1.0,,Police,Liberation Tigers of Tamil Eelam (LTTE)
 199607070004,United States,43.618518,-116.214619,0.0,,Abortion Related,Anti-Abortion extremists
-199607070005,Colombia,,,5.0,,Business,National Liberation Army of Colombia (ELN)
 199607070006,Cyprus,35.166778,33.36763,1.0,,Journalists & Media,Turkish Revenge Brigade
 199607080001,Pakistan,31.408822,73.083021,3.0,,Transportation,Unknown
 199607080002,Peru,-11.967368,-76.978462,0.0,,Government (General),Unknown
@@ -1583,7 +1482,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199607160004,Spain,36.719648,-4.420016,0.0,,Tourists,Basque Fatherland and Freedom (ETA)
 199607160005,Spain,42.815372,-1.653616,0.0,,Business,Basque Fatherland and Freedom (ETA)
 199607160006,Ukraine,50.4501,30.5234,0.0,,Government (General),Unknown
-199607160007,Brazil,,,0.0,,Private Citizens & Property,Kaingang Indians
 199607160008,Colombia,5.548323,-75.6441,6.0,,Business,Unknown
 199607160009,Germany,50.11797,8.644191,0.0,,Religious Figures/Institutions,Unknown
 199607170001,Japan,35.689125,139.747742,0.0,,Business,Unknown
@@ -1616,7 +1514,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199607200005,Spain,41.154818,1.108676,0.0,,Airports & Aircraft,Basque Fatherland and Freedom (ETA)
 199607200006,Algeria,36.63905,2.765038,5.0,,Business,Unknown
 199607200007,Algeria,36.626889,3.479504,2.0,,Transportation,Unknown
-199607200008,Burundi,,,304.0,,Private Citizens & Property,Hutu extremists
 199607200009,China,43.793028,87.627812,0.0,,Transportation,Uighur Separatists
 199607200010,China,43.793028,87.627812,0.0,,Transportation,Uighur Separatists
 199607200011,China,43.793028,87.627812,0.0,,Transportation,Uighur Separatists
@@ -1702,7 +1599,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199607250003,Turkey,41.106178,28.689863,1.0,,Police,Unknown
 199607250004,Uganda,2.878003,32.718138,58.0,,Private Citizens & Property,Lord's Resistance Army (LRA)
 199607250005,Algeria,35.696944,-0.633056,0.0,,Airports & Aircraft,Unarmed Algerian
-199607250006,Bangladesh,,,0.0,,Private Citizens & Property,Shanti Bahini - Peace Force
 199607250007,Bosnia-Herzegovina,44.057222,17.450833,0.0,,Religious Figures/Institutions,Unknown
 199607250008,Bosnia-Herzegovina,43.823169,17.608302,0.0,,Religious Figures/Institutions,Unknown
 199607250009,Burundi,-3.375828,29.364107,,,Private Citizens & Property,Unknown
@@ -1720,7 +1616,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199607260010,Germany,51.435146,6.762691,0.0,,Business,Unknown
 199607260011,West Bank and Gaza Strip,31.995965,35.27111,3.0,,Transportation,Unknown
 199607270001,Russia,43.320229,45.654491,0.0,,NGO,Unknown
-199607270002,Spain,,,0.0,,Business,Unknown
 199607270003,United States,33.74502,-84.391669,1.0,"07/27/1996: At 1:25 Saturday morning, a pipe bomb detonated in Centennial Olympic Park in Atlanta, Georgia, United States. At the time of the explosion there was a crowd of approximately 60,000 people in the park attending a concert and festivities in celebration of the 1996 Olympic Games. One person was killed as a direct result of the explosion and 111 were injured, including six state troopers and one Georgia Bureau of Investigation agent. A cameraman suffered a heart attack and died while running toward the scene. A call to 911 from a nearby phone booth warned ""There is bomb in Centennial Park. You have 30 minutes."" However, there were delays in communicating this message to authorities in the park, where the bomb was found about five minutes before it exploded. Analysts suspect that the call was intended to lure law enforcement officials to the park to injure them. Authorities initially and erroneously suspected that the person who found the bomb under a bench in the park and warned authorities about it was responsible for planting the device. In 2005, Eric Rudolph was convicted and sentenced to four life terms for carrying out this attack and others, including the bombing of an abortion clinic in January 1997 and the bombing of a gay and lesbian bar in February 1997.",Private Citizens & Property,Army of God
 199607270004,Indonesia,-6.208821,106.846046,5.0,,Government (General),Opposition Group
 199607270005,Indonesia,-6.208821,106.846046,0.0,,Government (General),Opposition Group
@@ -1743,7 +1638,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199607290005,Russia,43.006184,46.442115,1.0,,Government (General),Unknown
 199607290006,South Africa,-26.31662,26.81629,0.0,,Educational Institution,Unknown
 199607290007,Algeria,36.763763,3.055413,1.0,,Business,Unknown
-199607290008,Colombia,,,0.0,,Terrorists/Non-State Militia,Paramilitaries
 199607290009,Germany,51.213924,6.780691,0.0,,Business,Unknown
 199607290010,Germany,48.139126,11.580186,0.0,,Business,Unknown
 199607290011,Germany,49.251389,11.234261,0.0,,Government (Diplomatic),Unknown
@@ -1795,15 +1689,12 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199608040006,Sri Lanka,8.345185,80.388133,0.0,,Government (General),Unknown
 199608040007,Uganda,3.104179,32.083745,24.0,,Private Citizens & Property,Lord's Resistance Army (LRA)
 199608040008,Algeria,35.37849,1.32569,0.0,,Private Citizens & Property,Unknown
-199608040009,Colombia,,,0.0,,Utilities,Unknown
 199608040010,Guatemala,14.971912,-89.529025,4.0,,Tourists,Unknown
 199608040011,Italy,45.690989,13.138748,0.0,,Business,Unknown
 199608050001,Lebanon,33.176111,35.443333,0.0,,Military,Hezbollah
 199608050002,Pakistan,32.082884,72.671445,1.0,,Government (General),Unknown
 199608050003,Russia,48.7,44.516667,1.0,,Military,Unknown
 199608050004,China,34.264987,108.944269,0.0,,Transportation,Unknown
-199608050005,Colombia,,,0.0,,Utilities,Unknown
-199608050006,Colombia,,,8.0,,Utilities,National Liberation Army of Colombia (ELN)
 199608050007,Colombia,8.04928,-73.085536,3.0,,Military,National Liberation Army of Colombia (ELN)
 199608050009,Ethiopia,8.977146,38.773226,2.0,,Business,Unknown
 199608050010,France,48.856644,2.34233,1.0,,Government (General),Unknown
@@ -1832,7 +1723,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199608110004,Sri Lanka,7.921328,81.52467,0.0,,Government (General),Liberation Tigers of Tamil Eelam (LTTE)
 199608110005,Algeria,36.989722,6.460278,0.0,,Transportation,Unknown
 199608110006,Algeria,36.81694,3.85722,1.0,,Government (General),Unknown
-199608110007,Colombia,,,0.0,,Business,Revolutionary Armed Forces of Colombia (FARC)
 199608120001,Russia,48.783333,44.766667,0.0,,Transportation,Unknown
 199608120002,South Africa,-25.748281,28.212069,0.0,,Transportation,Unknown
 199608120004,Sri Lanka,7.821533,81.550106,0.0,,Transportation,Liberation Tigers of Tamil Eelam (LTTE)
@@ -1850,8 +1740,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199608130006,Sri Lanka,7.939525,81.000963,1.0,,Police,Liberation Tigers of Tamil Eelam (LTTE)
 199608130007,Colombia,0.66643,-76.87192,2.0,,Private Citizens & Property,Unknown
 199608130008,Indonesia,-7.797224,110.368797,1.0,,Journalists & Media,Unknown
-199608140001,Sri Lanka,,,0.0,,Business,Liberation Tigers of Tamil Eelam (LTTE)
-199608140002,Sri Lanka,,,0.0,,Private Citizens & Property,Liberation Tigers of Tamil Eelam (LTTE)
 199608140003,Colombia,5.74514,-75.97625,0.0,,Police,National Liberation Army of Colombia (ELN)
 199608140004,Colombia,4.5981,-74.07603,0.0,,Private Citizens & Property,National Liberation Army of Colombia (ELN)
 199608140005,France,41.930607,8.742907,0.0,,Government (General),Unknown
@@ -1867,7 +1755,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199608150010,Bosnia-Herzegovina,44.966944,15.943056,0.0,,Government (General),Unknown
 199608150011,Bosnia-Herzegovina,44.966944,15.943056,0.0,,Government (General),Unknown
 199608150012,Bosnia-Herzegovina,44.966944,15.943056,0.0,,Government (General),Unknown
-199608150013,Colombia,,,0.0,,Unknown,Right-Wing Gunmen
 199608150014,Colombia,6.270526,-75.572173,0.0,,Private Citizens & Property,National Liberation Army of Colombia (ELN)
 199608150015,Honduras,14.0273,-86.568619,1.0,,Tourists,Unknown
 199608150016,India,26.524472,91.350511,1.0,,Police,United Liberation Front of Assam (ULFA)
@@ -1900,7 +1787,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199608190005,France,41.930607,8.742907,0.0,,Government (General),Unknown
 199608190006,France,43.388051,-1.663055,0.0,,Business,Iparretarrak (IK)
 199608190007,Haiti,18.527716,-72.33284,1.0,,Police,Unknown
-199608200001,Peru,,,1.0,,Private Citizens & Property,Shining Path (SL)
 199608200002,Russia,42.98542,47.450668,0.0,,Government (General),Unknown
 199608200003,Russia,42.98542,47.450668,4.0,,Government (General),Unknown
 199608200004,Algeria,36.763763,3.055413,0.0,,Government (Diplomatic),Unknown
@@ -1913,7 +1799,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199608210001,Spain,42.118092,-8.849579,0.0,,Private Citizens & Property,Basque Fatherland and Freedom (ETA)
 199608210002,Spain,42.880447,-8.546303,0.0,,Religious Figures/Institutions,Basque Fatherland and Freedom (ETA)
 199608210003,Colombia,7.882318,-76.630626,1.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
-199608210004,Colombia,,,0.0,,Business,Unknown
 199608210005,Colombia,2.043924,-72.331113,5.0,,Military,Revolutionary Armed Forces of Colombia (FARC)
 199608210006,France,42.63651,8.937046,0.0,,Government (General),Corsican National Liberation Front (FLNC)
 199608210007,Egypt,27.732365,30.843773,2.0,,Private Citizens & Property,Al-Gama'at al-Islamiyya (IG)
@@ -2011,7 +1896,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199609020001,United Kingdom,54.607712,-5.95621,0.0,,Private Citizens & Property,Unknown
 199609020002,Pakistan,31.752604,72.92238,0.0,,Religious Figures/Institutions,Unknown
 199609020003,Sri Lanka,7.689011,81.72947,0.0,,Police,Liberation Tigers of Tamil Eelam (LTTE)
-199609020004,Colombia,,,0.0,,Government (General),Paramilitaries
 199609020005,Colombia,6.242026,-75.564766,0.0,,Terrorists/Non-State Militia,Peasant Self-Defense Group (ACCU)
 199609020006,France,46.958955,-0.889664,0.0,,Religious Figures/Institutions,Unknown
 199609030001,Lebanon,33.888523,35.503513,0.0,,Airports & Aircraft,Unknown
@@ -2030,7 +1914,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199609040005,Tajikistan,37.486729,71.549843,0.0,,Government (General),Unknown
 199609040006,Bangladesh,22.244854,92.017787,0.0,,Violent Political Party,Rival Activists
 199609040007,Colombia,9.142038,-75.061115,0.0,,Business,Revolutionary Armed Forces of Colombia (FARC)
-199609040008,Colombia,,,0.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
 199609040009,France,42.63651,8.937046,0.0,,Government (General),Corsican National Liberation Front- Historic Channel
 199609040010,France,41.930607,8.742907,0.0,,Business,Corsican National Liberation Front- Historic Channel
 199609050001,Colombia,7.08582,-70.75779,0.0,,Military,Unknown
@@ -2072,7 +1955,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199609080010,Colombia,9.56049,-73.33269,0.0,,Government (General),National Liberation Army of Colombia (ELN)
 199609080011,Colombia,6.547306,-71.002231,2.0,,Utilities,National Liberation Army of Colombia (ELN)
 199609080012,Cyprus,35.132985,33.934618,1.0,,Police,Unknown
-199609090001,Sri Lanka,,,4.0,,Private Citizens & Property,Liberation Tigers of Tamil Eelam (LTTE)
 199609090002,Tajikistan,38.552185,68.767441,0.0,,Private Citizens & Property,Unknown
 199609090003,Bangladesh,22.65735,92.173271,30.0,,Private Citizens & Property,Shanti Bahini - Peace Force
 199609090004,Burundi,-3.427512,29.924253,4.0,,Religious Figures/Institutions,Hutu extremists
@@ -2088,15 +1970,12 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199609100006,Burundi,-3.080156,29.397914,14.0,,Private Citizens & Property,Hutu extremists
 199609100007,France,42.699997,9.447317,0.0,,Government (General),Unknown
 199609110001,Laos,17.965664,102.623034,5.0,,Transportation,Gunmen
-199609110002,Myanmar,,,6.0,,Government (General),Democratic Karen Buddhist Army (DKBA)
 199609110003,Sri Lanka,7.716666,81.700188,0.0,,Utilities,Liberation Tigers of Tamil Eelam (LTTE)
 199609110005,Ecuador,-2.170832,-79.922359,0.0,,Private Citizens & Property,Unknown
 199609110006,India,33.789497,75.103386,0.0,,Government (General),Muslim Separatists
 199609120001,Pakistan,33.671638,73.056068,1.0,,Terrorists/Non-State Militia,Sunni Muslim extremists
 199609120002,Philippines,7.209594,124.241966,,,Transportation,Unknown
-199609120003,Philippines,,,5.0,,Transportation,Gunmen
 199609120004,Sri Lanka,7.301756,81.67473,11.0,,Transportation,Liberation Tigers of Tamil Eelam (LTTE)
-199609120005,Zaire,,,13.0,,Private Citizens & Property,Unknown
 199609120006,Algeria,36.66655,3.09606,2.0,,Police,Unknown
 199609120007,China,28.292519,117.245497,1.0,,Business,Unknown
 199609120008,Colombia,7.882318,-76.630626,2.0,,Business,Gunmen
@@ -2117,7 +1996,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199609140005,Venezuela,7.670869,-71.521469,1.0,,Military,National Liberation Army of Colombia (ELN)
 199609140006,Colombia,1.804883,-75.89077,4.0,,Police,Revolutionary Armed Forces of Colombia (FARC)
 199609140007,Colombia,7.08071,-74.70101,0.0,,Police,National Liberation Army of Colombia (ELN)
-199609140008,Colombia,,,0.0,,Transportation,National Liberation Army of Colombia (ELN)
 199609140009,France,41.621822,8.97472,0.0,,Private Citizens & Property,Unknown
 199609150001,Mexico,17.054348,-96.712954,0.0,,Journalists & Media,Unknown
 199609150002,Philippines,7.057424,124.678935,2.0,,Military,Moro Islamic Liberation Front (MILF)
@@ -2149,7 +2027,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199609180008,India,34.08374,74.789902,0.0,,Educational Institution,Muslim Separatists
 199609180009,United States,36.050845,-95.789504,0.0,"9/18/1996: A juvenile (whose name was not released by authorities) threw a Molotov cocktail at the Planned Parenthood of Eastern Oklahoma and Western Arkansas Broken Arrow Family Planning clinic in Oklahoma, United States. There were no casualties but the abortion clinic was damaged.",Abortion Related,Anti-Abortion extremists
 199609190001,Lebanon,33.444387,35.567616,0.0,,Military,Unknown
-199609190002,Lebanon,,,2.0,,Terrorists/Non-State Militia,Hezbollah
 199609190003,Mexico,16.994353,-92.891749,1.0,,Police,Gunmen
 199609190004,Somalia,2.059819,45.326115,0.0,,NGO,Unknown
 199609190005,India,34.08374,74.789902,0.0,,Police,Muslim Separatists
@@ -2199,7 +2076,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199609210003,Turkey,38.675209,39.222745,4.0,,Business,Kurdistan Workers' Party (PKK)
 199609210004,Turkey,38.675209,39.222745,0.0,,Military,Kurdistan Workers' Party (PKK)
 199609210005,Colombia,7.060051,-73.853115,0.0,,Religious Figures/Institutions,National Liberation Army of Colombia (ELN)
-199609210006,Colombia,,,0.0,,Business,Left-Wing Guerrillas
 199609210007,Colombia,9.800379,-74.392536,0.0,,Military,Unknown
 199609210008,Colombia,9.56049,-73.33269,2.0,,Private Citizens & Property,Peasant Self-Defense Group (ACCU)
 199609210009,Colombia,9.56049,-73.33269,1.0,,Private Citizens & Property,Peasant Self-Defense Group (ACCU)
@@ -2234,18 +2110,11 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199609240001,Mexico,19.371887,-99.086624,0.0,,Business,Gunmen
 199609240002,Slovenia,46.554722,15.646667,0.0,,Government (General),Unknown
 199609240003,Colombia,3.429344,-76.516037,0.0,,Transportation,National Liberation Army of Colombia (ELN)
-199609240004,Colombia,,,0.0,,Private Citizens & Property,National Liberation Army of Colombia (ELN)
-199609240005,Colombia,,,0.0,,Private Citizens & Property,National Liberation Army of Colombia (ELN)
-199609240006,Colombia,,,0.0,,Private Citizens & Property,National Liberation Army of Colombia (ELN)
-199609240007,Colombia,,,0.0,,Private Citizens & Property,National Liberation Army of Colombia (ELN)
-199609240008,Colombia,,,0.0,,Private Citizens & Property,National Liberation Army of Colombia (ELN)
-199609240009,Colombia,,,0.0,,Private Citizens & Property,National Liberation Army of Colombia (ELN)
 199609240010,Colombia,10.0355,-73.23725,1.0,,Private Citizens & Property,Peasant Self-Defense Group (ACCU)
 199609240011,Colombia,6.547306,-71.002231,0.0,,Utilities,National Liberation Army of Colombia (ELN)
 199609250001,Sri Lanka,9.66123,80.02558,15.0,,Military,Liberation Tigers of Tamil Eelam (LTTE)
 199609250003,Colombia,7.08071,-74.70101,0.0,,Police,National Liberation Army of Colombia (ELN)
 199609250004,Egypt,27.929867,30.838026,0.0,,Maritime,Al-Gama'at al-Islamiyya (IG)
-199609250005,Sudan,,,0.0,,NGO,Sudan People's Liberation Army (SPLA)
 199609260001,Russia,43.361746,45.410999,0.0,,NGO,Unknown
 199609260002,Bangladesh,23.905927,89.054947,0.0,,Private Citizens & Property,Jamaat-E-Islami (Bangladesh)
 199609260003,France,41.591369,9.278311,0.0,,Private Citizens & Property,Unknown
@@ -2280,7 +2149,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199609300006,Sri Lanka,7.06291,80.035856,0.0,,Transportation,Liberation Tigers of Tamil Eelam (LTTE)
 199609300007,Sri Lanka,7.924677,81.544937,0.0,,Police,Liberation Tigers of Tamil Eelam (LTTE)
 199609300008,Turkey,41.106178,28.689863,0.0,,Religious Figures/Institutions,Unknown
-199609300009,Turkey,,,2.0,,Business,Kurdistan Workers' Party (PKK)
 199609300010,Bosnia-Herzegovina,43.343333,17.808056,0.0,,Government (General),Unknown
 199609300011,Bosnia-Herzegovina,44.13525,18.079741,1.0,,Religious Figures/Institutions,Unknown
 199609300012,India,33.778175,76.576171,0.0,,Government (General),Muslim Separatists
@@ -2334,16 +2202,13 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199610050007,Hungary,47.793308,18.741933,0.0,,Transportation,Unknown
 199610050008,India,34.08374,74.789902,1.0,,Unknown,Unknown
 199610050009,India,34.356813,74.664196,7.0,,Private Citizens & Property,Unknown
-199610050010,Iran,,,1.0,,Religious Figures/Institutions,Unknown
 199610060001,Papua New Guinea,-5.848889,142.950556,2.0,,Private Citizens & Property,Lufa Tribesmen
-199610060002,Zaire,,,40.0,,Business,Tutsi extremists
 199610060003,Colombia,6.270526,-75.572173,0.0,,Government (General),Unknown
 199610060004,Colombia,7.89014,-75.66967,3.0,,Private Citizens & Property,Popular Liberation Army (EPL)
 199610060005,Colombia,5.17069,-72.546829,2.0,,Police,National Liberation Army of Colombia (ELN)
 199610060006,Colombia,0.869892,-73.841906,1.0,,Government (General),Unknown
 199610060007,Colombia,7.440534,-77.118906,8.0,,Private Citizens & Property,Unknown
 199610060008,Germany,50.927054,11.589237,0.0,"10/06/1996: An explosive device was discovered at the Ernst-Abbe-Sportfield, a stadium, in Jena city, Thuringia state, Germany. The outcome of the attack was unknown. No group claimed responsibility; however, sources attributed the incident to the National Socialist Underground.",Business,National Socialist Underground
-199610070001,Kenya,,,0.0,,Food or Water Supply,Ethiopian Dongiro tribesmen
 199610070002,United Kingdom,54.515694,-6.055724,1.0,,Military,Irish Republican Army (IRA)
 199610070003,United Kingdom,54.515694,-6.055724,1.0,,Military,Irish Republican Army (IRA)
 199610070004,Pakistan,31.50547,74.34288,0.0,,Government (General),Anti-Bhutto demonstrators
@@ -2431,7 +2296,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199610140004,Togo,6.172553,1.231572,3.0,,Police,Unknown
 199610140005,Uganda,3.360808,31.847721,0.0,,Government (Diplomatic),Unknown
 199610140006,Algeria,36.562222,3.594444,3.0,,Private Citizens & Property,Unknown
-199610140007,Bangladesh,,,5.0,,Private Citizens & Property,Bangladesh Sarbahara Party
 199610140008,France,41.930607,8.742907,0.0,,Police,Unknown
 199610140009,Guatemala,14.622869,-90.529068,2.0,,Business,Unknown
 199610150001,Algeria,36.763763,3.055413,1.0,,Journalists & Media,Unknown
@@ -2550,7 +2414,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199610270003,West Bank and Gaza Strip,31.530243,35.094162,0.0,,Private Citizens & Property,Jewish Extremists
 199610270004,West Bank and Gaza Strip,31.704338,35.194355,1.0,,Private Citizens & Property,Jewish Extremists
 199610270005,Australia,-33.873651,151.20689,0.0,,Transportation,Unknown
-199610270006,Burundi,,,15.0,,Private Citizens & Property,Hutu extremists
 199610270007,Colombia,9.521667,-73.689167,6.0,,Private Citizens & Property,Unknown
 199610270008,France,42.093826,9.502568,0.0,,Police,Unknown
 199610280001,Mexico,19.24647,-99.10135,0.0,,Military,Popular Revolutionary Army (Mexico)
@@ -2602,7 +2465,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199611000008,France,42.699997,9.447317,0.0,,Business,Unknown
 199611010001,Peru,-9.2875,-75.973889,3.0,,Police,Shining Path (SL)
 199611010002,Spain,41.980462,-1.443253,0.0,,Police,Basque Fatherland and Freedom (ETA)
-199611010003,Sudan,,,0.0,,NGO,Unknown
 199611010005,United States,39.70355,-91.376109,0.0,,Abortion Related,Anti-Abortion extremists
 199611010006,France,43.395936,-1.45459,0.0,,Government (General),Iparretarrak (IK)
 199611020001,Spain,43.545261,-5.661926,0.0,,Government (General),Basque Fatherland and Freedom (ETA)
@@ -2614,7 +2476,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199611040001,Mexico,16.738601,-92.633229,0.0,,Private Citizens & Property,Unknown
 199611040002,Mexico,16.738601,-92.633229,0.0,,Business,Unknown
 199611040003,Slovenia,46.359167,15.110278,0.0,,Government (General),Unknown
-199611040004,Zaire,,,0.0,,Religious Figures/Institutions,Unknown
 199611040005,France,41.702751,9.123025,0.0,,Government (General),Unknown
 199611040006,El Salvador,13.703618,-89.715008,8.0,,Private Citizens & Property,Unknown
 199611040007,France,43.529742,5.447427,0.0,,Government (General),Unknown
@@ -2678,7 +2539,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199611120007,France,42.699997,9.447317,0.0,,Private Citizens & Property,Unknown
 199611120008,India,34.08374,74.789902,3.0,,Military,Unknown
 199611120009,India,34.08374,74.789902,1.0,,Military,Kashmiri extremists
-199611120010,Iraq,,,1.0,,Government (Diplomatic),Unknown
 199611120011,United States,44.820491,-93.306364,0.0,"11/12/1996:  Members of the Animal Liberation Front (ALF) are suspected to be responsible for throwing an incendiary through the window of Alaskan Fur Company Inc., near Bloomington, Minnesota in the United States, resulting in arson which caused an estimated $2 million in property damage to fur coats and other merchandise as well as $250,000 in structural damage to the two-story brick building. There were no casualties in the incident.",Business,Animal Liberation Front (ALF)
 199611130001,Lebanon,33.474535,35.359255,1.0,,Terrorists/Non-State Militia,Hezbollah
 199611130002,Mexico,17.406262,-100.33632,5.0,,Private Citizens & Property,Unknown
@@ -2755,7 +2615,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199611240009,El Salvador,13.786461,-89.045407,5.0,,Private Citizens & Property,Gang
 199611240010,Hungary,47.498406,19.040758,0.0,,Violent Political Party,Unknown
 199611250001,Lebanon,33.246259,35.5001,1.0,,Terrorists/Non-State Militia,Unknown
-199611250002,Lebanon,,,0.0,,Terrorists/Non-State Militia,Unknown
 199611250003,Sri Lanka,8.5922,81.196796,1.0,,Police,Liberation Tigers of Tamil Eelam (LTTE)
 199611250004,Algeria,36.133317,2.916647,1.0,,Transportation,Armed Islamic Group (GIA)
 199611250005,Colombia,2.44186,-76.60617,1.0,,Business,Unknown
@@ -2851,7 +2710,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199612040006,Colombia,6.31609,-76.13397,4.0,,Police,Revolutionary Armed Forces of Colombia (FARC)
 199612040007,Colombia,7.894195,-72.503885,1.0,,Religious Figures/Institutions,Unknown
 199612040008,France,42.613144,9.419263,0.0,,Government (General),Unknown
-199612040009,Honduras,,,0.0,,Educational Institution,Unknown
 199612040010,Honduras,15.50167,-88.02774,0.0,,Government (General),Unknown
 199612040011,Hungary,47.498406,19.040758,0.0,,Business,Unknown
 199612040012,India,33.64542,75.019676,4.0,,Violent Political Party,Kashmiri extremists
@@ -2886,7 +2744,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199612070009,France,41.67615,8.903952,1.0,,Military,Unknown
 199612080001,Colombia,6.242026,-75.564766,5.0,,Private Citizens & Property,Unknown
 199612080002,France,42.699997,9.447317,0.0,,Business,Unknown
-199612090001,Rwanda,,,12.0,,Private Citizens & Property,Tutsi extremists
 199612090002,South Africa,-29.340513,30.630557,0.0,,Private Citizens & Property,Unknown
 199612090003,South Africa,-29.340513,30.630557,0.0,,Private Citizens & Property,Unknown
 199612090004,South Africa,-29.340513,30.630557,0.0,,Private Citizens & Property,Unknown
@@ -2965,8 +2822,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199612180001,Lebanon,34.438094,35.830837,0.0,,Military,Unknown
 199612180002,Nigeria,6.618911,3.305532,0.0,,Transportation,Unknown
 199612180003,Russia,43.320229,45.654491,6.0,,Private Citizens & Property,Unknown
-199612180004,Spain,,,0.0,,Police,Unknown
-199612180005,Spain,,,0.0,,Police,Unknown
 199612180006,Sri Lanka,7.716666,81.700188,1.0,,Terrorists/Non-State Militia,Liberation Tigers of Tamil Eelam (LTTE)
 199612180007,United States,29.951027,-90.071422,0.0,,Abortion Related,Anti-Abortion extremists
 199612180008,China,34.746611,113.625355,1.0,,Private Citizens & Property,Unknown
@@ -2977,14 +2832,11 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199612190001,Russia,59.853371,30.348433,0.0,,Transportation,Unknown
 199612190002,Sri Lanka,7.86778,81.510266,1.0,,Military,Liberation Tigers of Tamil Eelam (LTTE)
 199612190003,Sweden,57.696994,11.9865,0.0,,Business,Unknown
-199612190004,Yemen,,,0.0,,Tourists,Tribal Group
-199612190005,Colombia,,,0.0,,Airports & Aircraft,Unknown
 199612190006,Cyprus,35.166779,33.367631,0.0,,Private Citizens & Property,Unknown
 199612190007,Greece,37.99749,23.762728,0.0,,Business,Unknown
 199612200001,United Kingdom,54.607712,-5.95621,0.0,,Police,Irish Republican Army (IRA)
 199612200002,Sri Lanka,6.842761,81.339941,10.0,,Military,Liberation Tigers of Tamil Eelam (LTTE)
 199612200003,Sri Lanka,8.641085,80.669598,11.0,,Military,Liberation Tigers of Tamil Eelam (LTTE)
-199612200004,Tajikistan,,,0.0,,Government (Diplomatic),Tajik Rebels
 199612200005,France,41.918891,8.737554,0.0,,Police,Unknown
 199612200006,France,41.930607,8.742907,0.0,,Business,Unknown
 199612210001,Sri Lanka,9.82486,80.236347,2.0,,Military,Liberation Tigers of Tamil Eelam (LTTE)
@@ -3021,7 +2873,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199612250005,West Bank and Gaza Strip,31.530243,35.094162,0.0,,Military,Unknown
 199612250006,Philippines,6.700414,121.972557,5.0,,Private Citizens & Property,Muslim Militants
 199612250007,Yemen,15.174203,44.483566,0.0,,Tourists,Al-Masni Tribe
-199612250008,Zambia,,,0.0,,Business,Unknown
 199612250009,Angola,-12.855348,15.064346,7.0,,Business,Unknown
 199612250010,Bangladesh,22.65735,92.173271,1.0,,Government (Diplomatic),Shanti Bahini - Peace Force
 199612250011,Bulgaria,42.696492,23.326011,0.0,,Government (Diplomatic),Unknown

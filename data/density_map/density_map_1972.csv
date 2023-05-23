@@ -1,7 +1,6 @@
 eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197200000001,Panama,8.994269,-79.518792,0.0,,Airports & Aircraft,Unknown
 197200000002,Philippines,11.586558,122.753716,0.0,,Airports & Aircraft,Unknown
-197201000001,Kuwait,,,0.0,,Business,Popular Front for the Liberation of Palestine (PFLP)
 197201010001,Spain,43.15,-2.610278,0.0,,Business,Basque Fatherland and Freedom (ETA)
 197201030001,Argentina,-34.098808,-59.032291,,,Private Citizens & Property,Montoneros (Argentina)
 197201050001,United Kingdom,54.607712,-5.95621,1.0,,Military,Irish Republican Army (IRA)
@@ -29,7 +28,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197201210002,United Kingdom,54.250039,-6.703625,1.0,,Military,Irish Republican Army (IRA)
 197201220001,United States,40.697132,-73.931351,0.0,,Business,Unknown
 197201260001,Austria,48.208174,16.373819,,,Transportation,Croatian Nationalists
-197201260002,Czechoslovakia,,,26.0,,Airports & Aircraft,Croatian Nationalists
 197201260003,United States,40.697132,-73.931351,1.0,,Business,Jewish Defense League (JDL)
 197201260004,United States,40.697132,-73.931351,0.0,,Tourists,Jewish Defense League (JDL)
 197201260005,United States,40.697132,-73.931351,1.0,,Business,Jewish Defense League (JDL)
@@ -71,7 +69,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197203000002,United States,18.386932,-66.061127,0.0,,Business,Secret Cuban Government
 197203000003,United States,40.697132,-73.931351,0.0,,Business,Secret Cuban Government
 197203010001,United Kingdom,54.365171,-8.036373,1.0,,Military,Irish Republican Army (IRA)
-197203020001,Spain,,,0.0,,Military,Catalan Liberation Front (FAC)
 197203030001,United Kingdom,54.607712,-5.95621,1.0,,Military,Irish Republican Army (IRA)
 197203040001,Spain,40.465595,-3.696263,,,Business,Catalan Liberation Front (FAC)
 197203040002,Spain,40.465595,-3.696263,0.0,,Transportation,Catalan Liberation Front (FAC)
@@ -112,7 +109,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197204100001,Argentina,-32.951052,-60.666365,1.0,,Military,Ejercito Revolucionaria del Pueblo (ERP) (Argentina)
 197204100002,United Kingdom,55.011562,-7.312045,1.0,,Military,Official Irish Republican Army (OIRA)
 197204110001,West Germany (FRG),52.50153,13.401851,0.0,,Military,Unknown
-197204110002,West Germany (FRG),,,,,Military,Unknown
 197204130001,Spain,41.735443,1.977921,,,Private Citizens & Property,Catalan Liberation Front (FAC)
 197204130002,United Kingdom,55.071136,-6.513154,1.0,,Private Citizens & Property,Irish Republican Army (IRA)
 197204150001,United Kingdom,54.607712,-5.95621,1.0,,Military,Official Irish Republican Army (OIRA)
@@ -423,11 +419,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197209230004,Jordan,31.945367,35.928372,0.0,"09/23/1972: A letter bomb addressed to a government official was discovered and defused at the Amman Post Office in Amman, Jordan. This was one of 74 letter bombs that were mailed from Amsterdam and were discovered or detonated between September 19, 1972 and September 28, 1972. Black September claimed responsibility for the incidents.",Government (General),Black September
 197209230005,Jordan,31.945367,35.928372,0.0,"09/23/1972: A letter bomb addressed to a government official was discovered and defused at the Amman Post Office in Amman, Jordan. This was one of 74 letter bombs that were mailed from Amsterdam and were discovered or detonated between September 19, 1972 and September 28, 1972. Black September claimed responsibility for the incidents.",Government (General),Black September
 197209230006,Cambodia,11.556374,104.92821,0.0,"09/23/1972: A letter bomb addressed to a former Israeli Embassy Ambassador detonated at the Central Post Office in Phnom Penh, Cambodia. This was one of 74 letter bombs that were mailed from Amsterdam and were discovered or detonated between September 19, 1972 and September 28, 1972. Black September claimed responsibility for the incidents.",Government (Diplomatic),Black September
-197209250001,Australia,,,0.0,"09/25/1972: A letter bomb addressed to a Sydney Consulate diplomat was discovered and defused in Australia. This was one of 74 letter bombs that were mailed from Amsterdam and were discovered or detonated between September 19, 1972 and September 28, 1972. Black September claimed responsibility for the incidents.",Government (Diplomatic),Black September
-197209250002,Australia,,,0.0,"09/25/1972: A letter bomb addressed to a Sydney Consulate diplomat was discovered and defused in Australia. This was one of 74 letter bombs that were mailed from Amsterdam and were discovered or detonated between September 19, 1972 and September 28, 1972. Black September claimed responsibility for the incidents.",Government (Diplomatic),Black September
-197209250003,Australia,,,0.0,"09/25/1972: A letter bomb addressed to a Canberra Embassy diplomat was discovered and defused in Australia. This was one of 74 letter bombs that were mailed from Amsterdam and were discovered or detonated between September 19, 1972 and September 28, 1972. Black September claimed responsibility for the incidents.",Government (Diplomatic),Black September
-197209250004,Australia,,,0.0,"09/25/1972: A letter bomb addressed to a Canberra Embassy diplomat was discovered and defused in Australia. This was one of 74 letter bombs that were mailed from Amsterdam and were discovered or detonated between September 19, 1972 and September 28, 1972. Black September claimed responsibility for the incidents.",Government (Diplomatic),Black September
-197209250005,Australia,,,0.0,"09/25/1972: A letter bomb addressed to a Canberra Embassy diplomat was discovered and defused in Australia. This was one of 74 letter bombs that were mailed from Amsterdam and were discovered or detonated between September 19, 1972 and September 28, 1972. Black September claimed responsibility for the incidents.",Government (Diplomatic),Black September
 197209250006,Australia,-33.86882,151.209295,0.0,"09/25/1972: A letter bomb addressed to N. Hannah, the United States Consulate consul, was discovered and defused at a post office in Sydney, Australia. No group claimed responsibility for the incident.",Government (Diplomatic),Unknown
 197209260001,United Kingdom,54.607712,-5.95621,1.0,,Private Citizens & Property,Ulster Freedom Fighters (UFF)
 197209260002,United Kingdom,54.607712,-5.95621,1.0,,Private Citizens & Property,Protestant extremists
@@ -435,14 +426,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197209270002,United Kingdom,54.607712,-5.95621,1.0,,Private Citizens & Property,Irish Republican Army (IRA)
 197209270003,United Kingdom,54.607712,-5.95621,1.0,,Private Citizens & Property,Protestant extremists
 197209280001,United Kingdom,54.607712,-5.95621,1.0,,Private Citizens & Property,Ulster Volunteer Force (UVF)
-197209280002,Uruguay,,,0.0,"09/28/1972: A letter bomb addressed to a local Jewish community member was discovered and defused in Uruguay. This was one of 74 letter bombs that were mailed from Amsterdam and were discovered or detonated between September 19, 1972 and September 28, 1972. Black September claimed responsibility for the incidents.",Private Citizens & Property,Black September
-197209280003,Uruguay,,,0.0,"09/28/1972: A letter bomb addressed to a local Jewish community member was discovered and defused in Uruguay. This was one of 74 letter bombs that were mailed from Amsterdam and were discovered or detonated between September 19, 1972 and September 28, 1972. Black September claimed responsibility for the incidents.",Private Citizens & Property,Black September
-197209280004,Uruguay,,,0.0,"09/28/1972: A letter bomb addressed to a local Jewish community member was discovered and defused in Uruguay. This was one of 74 letter bombs that were mailed from Amsterdam and were discovered or detonated between September 19, 1972 and September 28, 1972. Black September claimed responsibility for the incidents.",Private Citizens & Property,Black September
-197209280005,Uruguay,,,0.0,"09/28/1972: A letter bomb addressed to a local Jewish community member was discovered and defused in Uruguay. This was one of 74 letter bombs that were mailed from Amsterdam and were discovered or detonated between September 19, 1972 and September 28, 1972. Black September claimed responsibility for the incidents.",Private Citizens & Property,Black September
-197209280006,Uruguay,,,0.0,"09/28/1972: A letter bomb addressed to a local Jewish community member was discovered and defused in Uruguay. This was one of 74 letter bombs that were mailed from Amsterdam and were discovered or detonated between September 19, 1972 and September 28, 1972. Black September claimed responsibility for the incidents.",Private Citizens & Property,Black September
-197209280007,Uruguay,,,0.0,"09/28/1972: A letter bomb addressed to a local Jewish community member was discovered and defused in Uruguay. This was one of 74 letter bombs that were mailed from Amsterdam and were discovered or detonated between September 19, 1972 and September 28, 1972. Black September claimed responsibility for the incidents.",Private Citizens & Property,Black September
-197209280008,Brazil,,,0.0,"09/28/1972: A letter bomb addressed to the Rio de Janeiro Mission was discovered and defused in Brazil. This was one of 74 letter bombs that were mailed from Amsterdam and were discovered or detonated between September 19, 1972 and September 28, 1972. Black September claimed responsibility for the incidents.",Government (Diplomatic),Black September
-197209280009,Brazil,,,0.0,"09/28/1972: A letter bomb addressed to the Sao Paulo Mission was discovered and defused in Brazil. This was one of 74 letter bombs that were mailed from Amsterdam and were discovered or detonated between September 19, 1972 and September 28, 1972. Black September claimed responsibility for the incidents.",Government (Diplomatic),Black September
 197209280010,Portugal,38.722252,-9.139337,0.0,"09/28/1972: A letter bomb addressed to a retired Jewish importer, was discovered and defused in Lisbon, Portugal. This was one of 74 letter bombs that were mailed from Amsterdam and were discovered or detonated between September 19, 1972 and September 28, 1972. Black September claimed responsibility for the incidents.",Private Citizens & Property,Black September
 197209280011,United States,38.908642,-77.015381,0.0,"09/28/1972: A letter bomb addressed to the Israeli Embassy was discovered and defused in Washington, District of Columbia, United States. This was one of 74 letter bombs that were mailed from Amsterdam and were discovered or detonated between September 19, 1972 and September 28, 1972. Black September claimed responsibility for the incidents.",Government (Diplomatic),Black September
 197209290002,United Kingdom,54.607712,-5.95621,2.0,,Military,Irish Republican Army (IRA)

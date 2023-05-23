@@ -5,7 +5,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197801010002,Italy,46.496714,11.358008,0.0,,Government (General),Proletarian Patrols
 197801010003,Italy,42.350698,13.399934,0.0,,Violent Political Party,Communist Fighting Unit
 197801010004,Japan,35.011636,135.768029,,,Religious Figures/Institutions,Tribal Battlefront
-197801010005,Netherlands,,,0.0,,Food or Water Supply,Arab Revolutionary Army
 197801010006,Turkey,38.395649,27.135641,,,Utilities,Armenian Secret Army for the Liberation of Armenia
 197801020001,Italy,41.890961,12.490069,0.0,,Government (General),Unknown
 197801020002,Colombia,5.989829,-73.770507,1.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
@@ -69,7 +68,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197801110001,Bolivia,-16.509317,-68.10434,0.0,,Journalists & Media,Unknown
 197801110002,Italy,46.496714,11.358008,0.0,,Private Citizens & Property,Armed Nuclei for Territorial Counterpower
 197801110003,Spain,37.38264,-5.996295,0.0,,Business,Unknown
-197801110004,Colombia,,,0.0,,Government (Diplomatic),Unknown
 197801110005,Italy,40.637243,15.802221,0.0,,Government (General),Southern Nucleus of Communist Counterpower
 197801120001,Italy,44.647115,10.925186,0.0,,Business,Unknown
 197801120002,Italy,44.647115,10.925186,0.0,,Business,Unknown
@@ -78,7 +76,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197801120005,Italy,41.890961,12.490069,0.0,,Business,Unknown
 197801120006,Spain,42.815372,-1.653616,0.0,,Religious Figures/Institutions,Iberian Anarchist Federation
 197801120007,Spain,37.983445,-1.12989,0.0,,Government (General),Christ Chaos
-197801120008,Colombia,,,0.0,,Business,Unknown
 197801120009,Colombia,5.067866,-75.517482,0.0,,Private Citizens & Property,M-19 (Movement of April 19)
 197801120010,United Kingdom,54.183052,-6.341388,1.0,,Military,Irish Republican Army (IRA)
 197801130001,Italy,41.890961,12.490069,0.0,,Business,Red Brigades
@@ -99,15 +96,9 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197801150003,Italy,41.890961,12.490069,0.0,,Business,Unknown
 197801150004,Italy,44.079337,10.101236,0.0,,Police,Unknown
 197801150005,Spain,42.815372,-1.653616,0.0,,Business,Iberian Anarchist Federation
-197801150006,Rhodesia,,,,,Religious Figures/Institutions,Zimbabwe African Nationalist Union (ZANU)
 197801150007,Colombia,3.800889,-76.641271,1.0,,Police,M-19 (Movement of April 19)
 197801150008,Spain,41.400635,2.150913,4.0,,Business,Iberian Anarchist Federation
-197801150009,West Germany (FRG),,,0.0,,Food or Water Supply,Arab Revolutionary Army
-197801150010,United Kingdom,,,0.0,,Food or Water Supply,Arab Revolutionary Army
-197801150011,Denmark,,,0.0,,Food or Water Supply,Arab Revolutionary Army
-197801150012,Sweden,,,0.0,,Food or Water Supply,Arab Revolutionary Army
 197801160001,Colombia,3.899726,-76.298083,1.0,,Police,Unknown
-197801160002,Colombia,,,1.0,,Police,Unknown
 197801160003,Belgium,50.836426,4.367415,0.0,,Business,Unknown
 197801160004,Spain,40.465595,-3.696263,0.0,,Transportation,Unknown
 197801160005,Spain,40.465595,-3.696263,0.0,,Transportation,Unknown
@@ -127,7 +118,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197801220002,Turkey,39.930771,32.76754,0.0,,Government (Diplomatic),Unknown
 197801220003,Turkey,39.930771,32.76754,0.0,,Government (Diplomatic),Unknown
 197801220004,Turkey,39.930771,32.76754,0.0,,NGO,Unknown
-197801220005,Colombia,,,0.0,,Transportation,M-19 (Movement of April 19)
 197801230001,Colombia,6.643708,-73.653621,0.0,,Religious Figures/Institutions,National Liberation Army of Colombia (ELN)
 197801230002,France,48.856644,2.34233,0.0,,Business,Armed Nucleus for Popular Autonomy
 197801230003,Nicaragua,12.56957,-87.028634,1.0,,Business,Sandinista National Liberation Front (FSLN)
@@ -142,7 +132,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197801250004,Colombia,3.579001,-76.495065,0.0,,Transportation,M-19 (Movement of April 19)
 197801250005,Colombia,3.579001,-76.495065,0.0,,Military,M-19 (Movement of April 19)
 197801250006,Turkey,38.395649,27.135641,0.0,,Military,Begumcans Cell
-197801260001,Colombia,,,1.0,,Police,M-19 (Movement of April 19)
 197801260002,Italy,41.890961,12.490069,0.0,,Police,Unknown
 197801260003,Argentina,-34.61768,-58.444435,0.0,,Airports & Aircraft,Argentine Youths for Sovereignty
 197801270001,Japan,36.365856,140.471222,1.0,,Terrorists/Non-State Militia,Revolutionary Workers' Council (Kakurokyo)
@@ -155,7 +144,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197801270008,Spain,43.258434,-2.921819,,,Police,Basque Fatherland and Freedom (ETA)
 197801270009,Spain,40.465595,-3.696263,0.0,,Transportation,First of October Antifascist Resistance Group (GRAPO)
 197801280001,Colombia,7.6676,-76.6803,5.0,,Police,M-19 (Movement of April 19)
-197801280002,Colombia,,,0.0,,Transportation,M-19 (Movement of April 19)
 197801280003,Colombia,5.24859,-74.29013,0.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
 197801280004,Colombia,4.837712,-75.66807,0.0,,Utilities,M-19 (Movement of April 19)
 197801290001,Ireland,54.795954,-7.683538,1.0,,Private Citizens & Property,Irish Republican Army (IRA)
@@ -169,7 +157,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197802010002,Belgium,50.836426,4.367415,,,Business,Unknown
 197802010003,Nicaragua,12.93157,-85.224113,,,Military,Sandinista National Liberation Front (FSLN)
 197802010004,Spain,40.465595,-3.696263,0.0,,Business,First of October Antifascist Resistance Group (GRAPO)
-197802010006,France,,,0.0,,Business,Arab Revolutionary Army
 197802010007,Belgium,50.86386,4.69594,0.0,,Business,Arab Revolutionary Army
 197802020001,Spain,40.465595,-3.696263,0.0,,Private Citizens & Property,Canary Islands Independence Movement
 197802020002,Nicaragua,11.92988,-85.95602,14.0,,Private Citizens & Property,Sandinista National Liberation Front (FSLN)
@@ -210,17 +197,14 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197802130003,Italy,43.300738,13.456268,0.0,,Government (General),Revolutionary Communist Party
 197802130004,Spain,42.84964,-2.692359,0.0,,Government (General),Unknown
 197802130005,Spain,28.46981,-16.254856,0.0,,Police,Canary Islands Independence Movement
-197802130006,Colombia,,,0.0,,Business,Unknown
 197802130008,West Germany (FRG),48.139126,11.580186,,,Police,Unknown
 197802140001,Italy,41.890961,12.490069,1.0,,Government (General),Red Brigades
 197802140002,Israel,31.771599,35.2034,2.0,,Transportation,Palestinians
 197802140003,El Salvador,13.69288,-89.199161,,,Government (Diplomatic),People's Revolutionary Army (ERP) (El Salvador)
 197802150001,Nicaragua,12.103822,-86.267014,0.0,,Police,Unknown
 197802150002,United States,38.98637,-77.096919,0.0,,Business,Jewish Committee of Concern
-197802150003,Italy,,,0.0,,Food or Water Supply,Arab Revolutionary Army
 197802150005,United States,64.837778,-147.716389,0.0,,Utilities,Anti-Castro Group
 197802150006,South Africa,-26.184113,28.033232,0.0,,Business,Unknown
-197802150007,South Africa,,,2.0,,Police,African National Congress (South Africa)
 197802160001,Italy,45.469212,9.174508,0.0,,Business,Communist Fighters Association
 197802160002,Israel,31.771599,35.2034,0.0,,Private Citizens & Property,Palestinians
 197802160003,Italy,41.890961,12.490069,0.0,,Business,Proletarian Patrols
@@ -473,7 +457,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197804130001,Spain,43.178205,-2.31164,0.0,,Violent Political Party,Basque Fatherland and Freedom (ETA)
 197804130002,Italy,45.539838,10.222956,0.0,,Government (General),Anti-Imperialistic Communist Revolutionaries
 197804130003,Spain,43.291618,-1.977903,0.0,,Private Citizens & Property,Basque Fatherland and Freedom (ETA)
-197804130005,Philippines,,,43.0,,Transportation,Moro National Liberation Front (MNLF)
 197804140001,Italy,41.890961,12.490069,0.0,,Police,Unknown
 197804140002,Nicaragua,11.936997,-86.190472,,,Military,Sandinista National Liberation Front (FSLN)
 197804140003,United Kingdom,54.08629,-6.576966,1.0,,Military,Irish Republican Army (IRA)
@@ -509,7 +492,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197804200004,West Bank and Gaza Strip,32.222271,35.253506,2.0,,Tourists,Unknown
 197804200005,Italy,43.768732,11.256901,0.0,,Government (General),Prima Linea
 197804200006,Portugal,37.742242,-25.67495,0.0,,Police,Front For the Liberation of the Azores
-197804210001,Western Sahara,,,0.0,,Maritime,Polisario Front
 197804210002,Nicaragua,12.103822,-86.267014,0.0,,Journalists & Media,Sandinista National Liberation Front (FSLN)
 197804220001,Colombia,10.981412,-74.778319,0.0,,Private Citizens & Property,Unknown
 197804220002,Colombia,4.74871,-75.91319,0.0,,Government (General),Unknown
@@ -549,7 +531,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197804300005,Italy,41.890961,12.490069,0.0,,Business,Unknown
 197804300006,Italy,40.840097,14.251636,0.0,,Business,Unknown
 197804300007,Italy,45.409538,11.876554,0.0,,Business,Unknown
-197805000001,Italy,,,0.0,,Military,Red Brigades
 197805010001,Chile,-33.366238,-70.505302,0.0,,Business,Movement of the Revolutionary Left (MIR) (Chile)
 197805010002,Turkey,41.106178,28.689863,0.0,,Private Citizens & Property,Unknown
 197805020001,Spain,43.291618,-1.977903,2.0,,Police,Basque Fatherland and Freedom (ETA)
@@ -621,7 +602,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197805180001,Japan,35.689125,139.747742,0.0,,Police,Unknown
 197805180002,Japan,35.906259,139.628634,0.0,,Police,Unknown
 197805180003,Rhodesia,-18.367345,32.679373,1.0,,Business,Unknown
-197805190001,Rhodesia,,,2.0,,NGO,Unknown
 197805190002,Colombia,7.243889,-76.435556,0.0,,Business,Popular Liberation Army (EPL)
 197805200001,Colombia,6.643708,-73.653621,4.0,,Police,Revolutionary Armed Forces of Colombia (FARC)
 197805200002,Kenya,-1.28518,36.821107,4.0,,Airports & Aircraft,Unknown
@@ -638,7 +618,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197805220005,United States,40.697132,-73.931351,0.0,"05/22/1978: A small fire in the trashcan of the men's restroom at LaGuardia Airport in Queens, New York in the United States, caused minor damage and no casualties. The fire was caused by a small incendiary device that was detonated by a timer, composed of a watch and batteries. The blast was claimed by members of the Armed Forces for National Liberation (FALN) by way of a telephone call to the United Press International. This incident is linked to three other bombings on this day, one at John F. Kennedy Airport in Queens, New York, one at Newark Airport in New Jersey, and one outside of the Department of Justice in Washington, D.C. (197805220004, 197805220006,197805220007), all of which were also claimed by FALN members in the phone call.",Airports & Aircraft,Fuerzas Armadas de Liberacion Nacional (FALN)
 197805220006,United States,40.689531,-74.174462,0.0,"05/22/1978: An incendiary device, detonated by a timer, composed of a watch face and a nine-volt battery exploded behind a toy on a heavy glass shelf the Century Shop, a gift shop at Terminal A near the Trans World Airline desks in the Newark airport in New Jersey, United States. The explosion caused minor damage to the shelf and the adjoining wall, as well as destroyed merchandise, but there were no casualities from the incident. The blast was claimed by members of the Armed Forces for National Liberation (FALN) by way of a telephone call to the United Press International. This incident is linked to three other bombings on this day, one each at John F. Kennedy airport and LaGuardia airport in Queens, New York, and one outside of the Department of Justice in Washington, D.C. (197805220004, 197805220005,197805220007), all of which were also claimed by FALN members in the phone call.",Airports & Aircraft,Fuerzas Armadas de Liberacion Nacional (FALN)
 197805220007,United States,38.908642,-77.015381,0.0,"05/22/1978: A pipe bomb, detonated by a timing device, exploded in the shrubbery outside of the east entrance to the Department of Justice headquarters on Constitution Avenue, between Ninth and 10th Streets in Washington, D.C. in the United States. No damage and no casualties resulted from the explosion. The blast was claimed by members of the Armed Forces for National Liberation (FALN) by way of a telephone call to the United Press International. This incident is linked to three other bombings on this day, one each at John F. Kennedy airport and LaGuardia airport in Queens, New York, and one at Newark airport in New Jersey (197805220004, 197805220005,197805220006), all of which were claimed by FALN members in the phone call.",Government (General),Fuerzas Armadas de Liberacion Nacional (FALN)
-197805230001,Colombia,,,1.0,,Business,Revolutionary Armed Forces of Colombia (FARC)
 197805230002,France,43.552847,7.017369,0.0,,Journalists & Media,Unknown
 197805230003,Spain,40.465595,-3.696263,0.0,,Business,Unknown
 197805240001,Spain,43.338233,-1.789272,1.0,,Business,Basque Fatherland and Freedom (ETA)
@@ -658,7 +637,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197805270006,United Kingdom,54.607712,-5.95621,1.0,,Private Citizens & Property,Ulster Freedom Fighters (UFF)
 197805280001,Colombia,10.77259,-73.00454,1.0,,Private Citizens & Property,Unknown
 197805280002,Spain,43.136978,-2.073914,0.0,,Police,Basque Fatherland and Freedom (ETA)
-197805280003,Rhodesia,,,0.0,,Government (General),Unknown
 197805280004,Spain,43.136978,-2.073914,,,Police,Basque Fatherland and Freedom (ETA)
 197805290001,Colombia,4.667128,-74.106056,1.0,,Business,M-19 (Movement of April 19)
 197805290002,Colombia,2.44186,-76.60617,0.0,,Educational Institution,M-19 (Movement of April 19)
@@ -758,7 +736,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197806250002,France,48.856644,2.34233,0.0,,Business,Unknown
 197806250003,United Kingdom,54.077313,-6.608787,1.0,,Private Citizens & Property,Irish Republican Army (IRA)
 197806250004,United Kingdom,54.296399,-7.871465,1.0,,Military,Irish Republican Army (IRA)
-197806250005,South Africa,,,1.0,,Police,African National Congress (South Africa)
 197806260001,France,48.801399,2.130109,0.0,,Private Citizens & Property,Breton Liberation Front (FLB)
 197806260002,France,48.856644,2.34233,0.0,,Business,Unknown
 197806270001,Rhodesia,-17.947093,29.455442,2.0,,Religious Figures/Institutions,Zimbabwe African People's Union
@@ -775,7 +752,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197807000001,Turkey,41.106178,28.689863,1.0,,Educational Institution,Unknown
 197807010001,Turkey,37.235821,39.762058,1.0,,Government (General),Unknown
 197807010002,Turkey,41.106178,28.689863,1.0,,Police,Unknown
-197807010003,France,,,,,Telecommunication,Unknown
 197807010004,United States,37.755363,-122.443352,0.0,,Government (General),Unknown
 197807020001,France,43.388051,-1.663055,1.0,,Terrorists/Non-State Militia,Argentine Anticommunist Alliance (AAA)
 197807020002,Colombia,4.667128,-74.106056,0.0,,Government (General),Unknown
@@ -892,7 +868,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197808160001,Colombia,4.667128,-74.106056,1.0,,Military,M-19 (Movement of April 19)
 197808160002,Colombia,4.667128,-74.106056,0.0,,Business,M-19 (Movement of April 19)
 197808170001,United Kingdom,54.787715,-6.492314,1.0,,Military,Irish Republican Army (IRA)
-197808170002,Spain,,,0.0,,Telecommunication,Basque Fatherland and Freedom (ETA)
 197808170003,Colombia,4.667128,-74.106056,,,Business,Unknown
 197808170005,United States,41.842602,-87.681229,0.0,,Government (Diplomatic),Croatian Nationalists
 197808180001,Colombia,4.667128,-74.106056,0.0,,Government (Diplomatic),Popular Liberation Army (EPL)
@@ -900,18 +875,8 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197808180003,Colombia,4.667128,-74.106056,,,Journalists & Media,Popular Liberation Army (EPL)
 197808180004,United States,34.097866,-118.407379,0.0,"8/18/1978: The Jewish Defense League claimed responsibility for ignited a fire in the Democratic Party headquarters in Los Angeles, California, United States. There were no casualties but the office sustained an estimated $17,000 in damages.",Private Citizens & Property,Jewish Defense League (JDL)
 197808190001,Colombia,5.16555,-75.76648,1.0,,Government (General),Unknown
-197808190002,Colombia,,,6.0,,Military,Revolutionary Armed Forces of Colombia (FARC)
-197808190003,El Salvador,,,0.0,,Police,Armed Forces of National Resistance (FARN)
 197808190004,Iran,30.345997,48.287136,422.0,,Business,Mujahedin-e Khalq (MEK)
 197808190005,United Kingdom,54.250039,-6.703625,1.0,,Military,Irish Republican Army (IRA)
-197808200001,West Germany (FRG),,,0.0,,Military,Irish Republican Army (IRA)
-197808200002,West Germany (FRG),,,0.0,,Military,Irish Republican Army (IRA)
-197808200003,West Germany (FRG),,,0.0,,Military,Irish Republican Army (IRA)
-197808200004,West Germany (FRG),,,0.0,,Military,Irish Republican Army (IRA)
-197808200005,West Germany (FRG),,,0.0,,Military,Irish Republican Army (IRA)
-197808200006,West Germany (FRG),,,0.0,,Military,Irish Republican Army (IRA)
-197808200007,West Germany (FRG),,,0.0,,Military,Irish Republican Army (IRA)
-197808200008,West Germany (FRG),,,0.0,,Military,Irish Republican Army (IRA)
 197808200009,United Kingdom,51.504387,-0.140041,2.0,,Transportation,Popular Front for the Liberation of Palestine (PFLP)
 197808210001,Colombia,4.667128,-74.106056,0.0,,Business,M-19 (Movement of April 19)
 197808210002,United Kingdom,54.418875,-8.088046,1.0,,Private Citizens & Property,Protestant extremists
@@ -954,7 +919,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197809010002,Ecuador,-2.170832,-79.922359,0.0,,Educational Institution,Unknown
 197809020001,Namibia,-22.305197,17.827417,1.0,,Government (General),South-West Africa People's Organization (SWAPO)
 197809020002,Philippines,7.825203,123.437378,10.0,,Military,Moro National Liberation Front (MNLF)
-197809020003,Philippines,,,4.0,,Government (General),Moro National Liberation Front (MNLF)
 197809030001,Japan,35.772163,140.321777,,,Police,Unknown
 197809030002,Peru,-11.967368,-76.978462,0.0,,Journalists & Media,Peruvian Anti-Communist Alliance (AAP)
 197809030003,Colombia,6.04278,-74.99493,0.0,,Police,Revolutionary Armed Forces of Colombia (FARC)
@@ -966,7 +930,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197809050002,Israel,31.771599,35.2034,0.0,,Tourists,Palestinians
 197809050003,Israel,31.771599,35.2034,0.0,,Business,Palestinians
 197809050004,Italy,43.768732,11.256901,0.0,,Transportation,Unknown
-197809050005,Colombia,,,3.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
 197809060001,Cyprus,35.166723,33.367575,,,Police,National Organization of Cypriot Fighters (EOKA)
 197809060002,Iran,35.724533,51.40519,1.0,,Police,Mujahedin-e Khalq (MEK)
 197809060003,Philippines,8.004674,124.2913,,,Military,Moro National Liberation Front (MNLF)
@@ -996,14 +959,10 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197809100011,Philippines,7.686119,124.692186,0.0,,Utilities,Moro National Liberation Front (MNLF)
 197809100012,Philippines,7.686119,124.692186,0.0,,Utilities,Moro National Liberation Front (MNLF)
 197809100013,Philippines,6.705778,121.972109,3.0,,Private Citizens & Property,Moro National Liberation Front (MNLF)
-197809110002,Guatemala,,,,,Government (General),Mano Blanca
 197809110003,Philippines,7.332382,124.567276,4.0,,Business,Moro National Liberation Front (MNLF)
 197809110004,United Kingdom,54.62486,-7.10829,1.0,,Police,Irish Republican Army (IRA)
 197809120001,Colombia,4.667128,-74.106056,1.0,,Government (General),M-19 (Movement of April 19)
 197809120002,West Bank and Gaza Strip,32.222271,35.253506,0.0,,Government (General),Palestinians
-197809120003,Italy,,,0.0,,Educational Institution,Unknown
-197809120004,Italy,,,0.0,,Journalists & Media,Unknown
-197809120005,Italy,,,0.0,,Government (General),Unknown
 197809130001,Brazil,-19.924254,-43.935343,0.0,,Religious Figures/Institutions,Unknown
 197809130002,Brazil,-19.924254,-43.935343,0.0,,Private Citizens & Property,Unknown
 197809130003,Nicaragua,12.103822,-86.267014,0.0,,Airports & Aircraft,Sandinista National Liberation Front (FSLN)
@@ -1021,16 +980,13 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197809160008,El Salvador,13.69288,-89.199161,0.0,,Government (Diplomatic),People's Liberation Forces (FPL)
 197809160009,Iran,38.030161,46.356069,9.0,,Military,Mujahedin-e Khalq (MEK)
 197809160010,Philippines,7.371695,122.289104,3.0,,Business,Moro National Liberation Front (MNLF)
-197809170001,Guatemala,,,,,Government (General),Mano Blanca
 197809170002,France,48.856644,2.34233,0.0,,Government (Diplomatic),Unknown
 197809180001,El Salvador,13.69288,-89.199161,2.0,,Police,People's Liberation Forces (FPL)
 197809180002,El Salvador,13.69288,-89.199161,0.0,,Educational Institution,People's Revolutionary Army (ERP) (El Salvador)
 197809180003,El Salvador,13.69288,-89.199161,1.0,,Educational Institution,People's Revolutionary Army (ERP) (El Salvador)
-197809180004,Nicaragua,,,,,Government (General),Unknown
 197809180005,El Salvador,13.898333,-89.196944,0.0,,Police,Armed Forces of National Resistance (FARN)
 197809180006,Philippines,7.574132,126.560107,8.0,,Government (General),New People's Army (NPA)
 197809190001,Philippines,6.929089,122.07885,0.0,,Business,Moro National Liberation Front (MNLF)
-197809190002,El Salvador,,,2.0,,Police,Armed Forces of National Resistance (FARN)
 197809200001,United Kingdom,54.607712,-5.95621,,,Business,Irish Republican Army (IRA)
 197809200002,United Kingdom,54.607712,-5.95621,0.0,,Business,Irish Republican Army (IRA)
 197809200003,United Kingdom,54.607712,-5.95621,0.0,,Business,Irish Republican Army (IRA)
@@ -1079,7 +1035,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197809300008,Thailand,9.133885,99.326698,9.0,,Military,Communists
 197810000001,Guatemala,14.983333,-91.55,0.0,,Educational Institution,Unknown
 197810000002,Colombia,4.667128,-74.106056,1.0,,Terrorists/Non-State Militia,Unknown
-197810000003,Spain,,,1.0,,Private Citizens & Property,International Anti-Communist Intelligence Service
 197810000004,Japan,35.689125,139.747742,,,Religious Figures/Institutions,Tribal Battlefront
 197810000005,Italy,39.142946,9.51975,,,Business,Red Brigades
 197810000006,Guatemala,14.622869,-90.529068,,,Educational Institution,Unknown
@@ -1097,7 +1052,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197810030003,Spain,43.258434,-2.921819,1.0,,Military,Basque Fatherland and Freedom (ETA)
 197810030004,United States,18.149731,-65.827379,0.0,,Business,Unknown
 197810030005,El Salvador,13.69288,-89.199161,0.0,,Airports & Aircraft,People's Liberation Forces (FPL)
-197810030006,Guatemala,,,,,Airports & Aircraft,Guerrilla Army of the Poor (EGP)
 197810040001,Spain,43.258434,-2.921819,1.0,,Military,Basque Fatherland and Freedom (ETA)
 197810040003,Mexico,19.371887,-99.086624,0.0,,Business,Independent Peasants Union
 197810040004,United States,41.842602,-87.681229,,"10/04/1978: The Danmarie Cabinet Company, a shop owned by Daniel Nikolic, an American of Croatian descent, was damaged by a firebomb in Chicago, Illinois, United States, by suspected Croatian nationalists after Nikolic refused to contribute to Croatian nationalist funds. Nikolic claimed he also received a letter similar to that of Anthony Cikoja, who was assassinated a week earlier for the same reasons (197809280007). Nikolic said the letter was written in Croatian dialect, demanding money. It is unknown whether there were any injuries or fatalities as a result of the bombing.",Business,Otpor
@@ -1142,7 +1096,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197810130004,United States,18.386932,-66.061127,0.0,,Business,Unknown
 197810130005,Colombia,4.667128,-74.106056,,,Transportation,Unknown
 197810130006,Colombia,4.667128,-74.106056,,,Transportation,Unknown
-197810130007,El Salvador,,,1.0,,Military,People's Liberation Forces (FPL)
 197810130008,Spain,43.258434,-2.921819,2.0,,Police,Basque Fatherland and Freedom (ETA)
 197810140001,Spain,43.258434,-2.921819,2.0,,Police,Basque Fatherland and Freedom (ETA)
 197810140002,Turkey,38.395649,27.135641,0.0,,Business,Unknown
@@ -1171,7 +1124,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197810220002,Italy,44.49419,11.346518,0.0,,Business,Red Army Faction (RAF)
 197810220003,Italy,44.49419,11.346518,0.0,,Business,Red Army Faction (RAF)
 197810220004,Italy,41.890961,12.490069,0.0,,Business,Unknown
-197810230001,South Africa,,,1.0,,Government (General),Unknown
 197810230002,United Kingdom,54.077313,-6.608787,0.0,,Military,Irish Republican Army (IRA)
 197810240001,Italy,45.438328,10.991762,0.0,,Police,Armed Proletarian Groups for Communism
 197810250001,Spain,43.169068,-2.632655,1.0,,Police,Basque Fatherland and Freedom (ETA)
@@ -1193,11 +1145,9 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197810270005,Nicaragua,12.103822,-86.267014,0.0,,Private Citizens & Property,Sandinista National Liberation Front (FSLN)
 197810270006,United States,42.5064,-71.072399,0.0,,Business,United Freedom Front (UFF)
 197810270007,United States,42.37644,-71.235324,0.0,,Business,United Freedom Front (UFF)
-197810270008,Zambia,,,,,Transportation,Zimbabwe Guerrillas
 197810270009,Nicaragua,12.103822,-86.267014,0.0,,Business,Sandinista National Liberation Front (FSLN)
 197810270010,Venezuela,10.482834,-66.962128,0.0,,Business,Unknown
 197810280001,Guatemala,14.791944,-91.920556,1.0,,Educational Institution,Secret Anti-Communist Army (ESA)
-197810280002,Zambia,,,,,Transportation,Unknown
 197810280003,Iran,35.724533,51.40519,5.0,,Military,Unknown
 197810290001,El Salvador,13.5,-88.866667,2.0,,Private Citizens & Property,People's Liberation Forces (FPL)
 197810300003,Nicaragua,12.068668,-85.091877,0.0,,Business,Sandinista National Liberation Front (FSLN)
@@ -1207,9 +1157,7 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197810310002,El Salvador,13.69288,-89.199161,0.0,,Police,United Popular Action Front (FAPU)
 197811000001,Spain,43.189944,-2.052454,1.0,,Police,Basque Fatherland and Freedom (ETA)
 197811000002,Iran,31.285506,48.643416,1.0,,Business,Unknown
-197811000003,Angola,,,0.0,,Private Citizens & Property,National Union for the Total Independence of Angola (UNITA)
 197811000004,Angola,-12.765538,15.732861,0.0,,Private Citizens & Property,National Union for the Total Independence of Angola (UNITA)
-197811000005,Ethiopia,,,0.0,,Business,Tigray Peoples Liberation Front (TPLF)
 197811010001,Italy,45.694903,9.669953,0.0,,Business,Proletarian Combatants for Communism
 197811010002,Italy,45.694903,9.669953,0.0,,Business,Proletarian Combatants for Communism
 197811010003,Turkey,36.201124,36.165597,1.0,,Private Citizens & Property,Turkish People's Liberation Front (TPLF)(THKP-C)
@@ -1226,17 +1174,13 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197811060003,Spain,43.317073,-2.678975,1.0,,Terrorists/Non-State Militia,Basque Fatherland and Freedom (ETA)
 197811060004,West Germany (FRG),50.11797,8.644191,0.0,,Journalists & Media,Red Army Faction (RAF)
 197811060005,Guatemala,14.622869,-90.529068,2.0,,Business,Guerrilla Army of the Poor (EGP)
-197811060006,Namibia,,,,,Utilities,South-West Africa People's Organization (SWAPO)
 197811070001,El Salvador,13.69288,-89.199161,0.0,,Government (General),People's Revolutionary Army (ERP) (El Salvador)
 197811070002,Iran,35.724533,51.40519,1.0,,Airports & Aircraft,Unknown
 197811070003,El Salvador,13.69288,-89.199161,0.0,,Government (General),People's Liberation Forces (FPL)
-197811070004,El Salvador,,,0.0,,Government (General),People's Revolutionary Army (ERP) (El Salvador)
 197811070005,El Salvador,13.69288,-89.199161,0.0,,Business,People's Revolutionary Army (ERP) (El Salvador)
-197811070006,El Salvador,,,0.0,,Government (General),People's Revolutionary Army (ERP) (El Salvador)
 197811070007,El Salvador,13.69288,-89.199161,0.0,,Business,People's Revolutionary Army (ERP) (El Salvador)
 197811070008,Iran,35.724533,51.40519,,,Business,Unknown
 197811080001,Colombia,1.47888,-75.43724,1.0,,Business,Unknown
-197811080002,Colombia,,,1.0,,Business,Revolutionary Armed Forces of Colombia (FARC)
 197811080003,Italy,41.640137,13.351902,3.0,,Government (General),Prima Linea
 197811080004,El Salvador,13.491242,-88.173134,0.0,,Government (General),People's Liberation Forces (FPL)
 197811080005,El Salvador,13.981479,-89.555717,0.0,,Government (General),People's Liberation Forces (FPL)
@@ -1244,7 +1188,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197811080007,El Salvador,13.491242,-88.173134,0.0,,Business,People's Liberation Forces (FPL)
 197811080008,El Salvador,13.69288,-89.199161,0.0,,Business,People's Liberation Forces (FPL)
 197811080009,El Salvador,13.69288,-89.199161,0.0,,Business,People's Liberation Forces (FPL)
-197811080010,Mexico,,,0.0,,Business,People's Armed Revolutionary Branch
 197811080011,Spain,43.267549,-1.975814,0.0,,Business,Basque Fatherland and Freedom (ETA)
 197811080012,United Kingdom,54.077313,-6.608787,1.0,,Military,Irish Republican Army (IRA)
 197811090002,Colombia,4.667128,-74.106056,0.0,,Business,M-19 (Movement of April 19)
@@ -1252,7 +1195,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197811090004,Costa Rica,11.031028,-84.714691,0.0,,Police,Unknown
 197811090005,United Kingdom,54.607712,-5.95621,1.0,,Business,Ulster Volunteer Force (UVF)
 197811090006,United States,41.01519,-73.874889,0.0,,Government (Diplomatic),New Jewish Defense League
-197811100001,Lebanon,,,0.0,,Violent Political Party,Unknown
 197811100002,Nicaragua,11.188153,-85.680286,,,Military,Unknown
 197811110001,Argentina,-34.61768,-58.444435,1.0,,Private Citizens & Property,Montoneros (Argentina)
 197811110002,El Salvador,13.491242,-88.173134,0.0,,Private Citizens & Property,People's Liberation Forces (FPL)
@@ -1287,8 +1229,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197811170004,El Salvador,13.69288,-89.199161,0.0,,Utilities,People's Revolutionary Army (ERP) (El Salvador)
 197811170005,Lebanon,33.888523,35.503513,,,Government (General),Unknown
 197811170006,Nicaragua,11.478161,-84.773332,3.0,,Business,Sandinista National Liberation Front (FSLN)
-197811170007,Philippines,,,1.0,,Military,New People's Army (NPA)
-197811180001,Rhodesia,,,,,Transportation,Unknown
 197811180002,Guyana,7.726018,-59.884352,5.0,"11/18/1978: Leo Ryan, a California Democrat, was shot while trying to leave Jonestown with a group of unhappy sect members. Ryan had initially gone to Guyana to investigate abuses of members of the “Peoples’ Temple,” founded by Reverend Jim Jones. After being threatened with a knife by one of the members, Ryan decided to cut his visit short. As he was boarding an aircraft to leave, reports claim that between 8 and 12 members of the cult were responsible for firing approximately 50 shots. The shots killed three American investigators traveling with Jones, as well as an 18-year-old American woman who was trying to leave. Larry John Leyton, a man posing as a defector, was the only person charged in America for involvement in the murder. Jones organized the murder of Ryan and members of his party in order to keep them from revealing the true conditions at Jonestown.",Government (General),People's Temple
 197811190001,Israel,31.771599,35.2034,0.0,,Private Citizens & Property,Palestinians
 197811190002,Israel,32.08297,34.811886,0.0,,Government (General),Palestinians
@@ -1297,7 +1237,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197811200002,Venezuela,10.033216,-65.599287,,,Private Citizens & Property,Unknown
 197811210001,Lebanon,33.888523,35.503513,4.0,,Transportation,Lebanese Free Will Movement
 197811210003,Nicaragua,13.78918,-86.572159,0.0,,Government (General),Sandinista National Liberation Front (FSLN)
-197811210004,Nicaragua,,,0.0,,Private Citizens & Property,Guerrillas
 197811220001,Chile,-33.366238,-70.505302,0.0,,Private Citizens & Property,Unknown
 197811220002,United States,34.14633,-118.248364,1.0,"11/22/1978: Krizan Brkic, an American of Croatian descent who was a tool and dye manufacturer, was murdered outside his home in Glendale, California, United States, by two bullets from a .32 caliber automatic firearm. Brkic was an active member of political groups in Glendale, and had received an extortion letter in June of 1978 demanding that he contribute money to the Croatian nationalists, similar to the case of Anthony Cikoja (197809280007) in September and the bombing of a shop of a Croatian-American in Chicago in October (197810040004).",Private Citizens & Property,Otpor
 197811230001,Colombia,3.92948,-75.01439,0.0,,Private Citizens & Property,Unknown
@@ -1323,8 +1262,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197811280002,North Yemen,15.325443,44.211895,0.0,,Government (General),Unknown
 197811280003,Colombia,4.667128,-74.106056,0.0,,Government (General),Unknown
 197811280004,Mozambique,-25.891968,32.605135,1.0,,Government (General),Unknown
-197811280005,Spain,,,0.0,,Government (General),Basque Fatherland and Freedom (ETA)
-197811280006,Mexico,,,,,Private Citizens & Property,Unknown
 197811290001,Colombia,4.667128,-74.106056,0.0,,Journalists & Media,Workers' Self-Defense Movement (MAO)
 197811290002,Spain,36.719648,-4.420016,,,Police,Unknown
 197811290003,United States,39.573475,-75.594124,0.0,"11/29/1978: An unknown perpetrator, stationed in a car on the Reedy Point Bridge in Delaware City, Delaware, United States, fired on the Andrian Goncharov, a Soviet freighter, with a sniper rifle as the ship crossed through the Chesapeake and Delaware Canal. There were no casualties but two bullets pierced the wall of the ship's radio room.",Transportation,Unknown
@@ -1333,14 +1270,12 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197811300004,Nicaragua,13.052295,-86.589121,34.0,,Military,Sandinista National Liberation Front (FSLN)
 197812000001,Nicaragua,12.103822,-86.267014,1.0,,Private Citizens & Property,Sandinista National Liberation Front (FSLN)
 197812000002,Switzerland,46.198392,6.142296,0.0,,Government (Diplomatic),New Armenian Resistance
-197812000003,Colombia,,,0.0,,Private Citizens & Property,Unknown
 197812000004,Colombia,4.667128,-74.106056,0.0,,Journalists & Media,Popular Liberation Army (EPL)
 197812010001,United Kingdom,54.347539,-6.656108,0.0,,Business,Irish Republican Army (IRA)
 197812010002,United Kingdom,54.462837,-7.026944,0.0,,Police,Irish Republican Army (IRA)
 197812010003,Nicaragua,12.103822,-86.267014,0.0,,Religious Figures/Institutions,Sandinista National Liberation Front (FSLN)
 197812010004,Philippines,5.928513,121.027923,1.0,,Military,Moro National Liberation Front (MNLF)
 197812010005,Philippines,6.637796,124.599145,3.0,,Government (General),Terrorists
-197812010006,Zambia,,,0.0,,Transportation,Zimbabwe African People's Union
 197812020001,France,48.856644,2.34233,0.0,,Business,Breton Separatists
 197812020002,Namibia,-22.567335,17.083271,0.0,,Private Citizens & Property,Unknown
 197812020003,Namibia,-22.567335,17.083271,0.0,,Business,Unknown
@@ -1409,7 +1344,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197812160001,Colombia,4.667128,-74.106056,0.0,,Business,Unknown
 197812160002,Colombia,4.667128,-74.106056,0.0,,Government (Diplomatic),Red Guard
 197812170001,Japan,35.689125,139.747742,0.0,,Government (General),National Defense Youth Corps
-197812170002,Nicaragua,,,1.0,,Government (General),Unknown
 197812170003,Spain,43.291618,-1.977903,1.0,,Military,Basque Fatherland and Freedom (ETA)
 197812170004,Israel,31.771599,35.2034,0.0,,Transportation,Palestinians
 197812170005,Israel,31.771599,35.2034,0.0,,Transportation,Palestinians
@@ -1457,7 +1391,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197812170047,Greece,37.99749,23.762728,0.0,,Business,Right-wing extremists
 197812170048,Nicaragua,12.318308,-86.018254,,,Business,Unknown
 197812170049,Nicaragua,11.478161,-84.773332,1.0,,Terrorists/Non-State Militia,Sandinista National Liberation Front (FSLN)
-197812180001,Rhodesia,,,1.0,,Government (General),Unknown
 197812180002,Italy,45.409538,11.876554,0.0,,Business,Combatant Communist Front
 197812180003,Spain,40.465595,-3.696263,0.0,,Journalists & Media,Argentine Anticommunist Alliance (AAA)
 197812180004,Colombia,1.29873,-77.4066,,,Business,Revolutionary Armed Forces of Colombia (FARC)
@@ -1471,7 +1404,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197812190009,Italy,45.504691,11.405829,0.0,,Private Citizens & Property,Unknown
 197812190010,United Kingdom,54.607712,-5.95621,0.0,,Police,Irish Republican Army (IRA)
 197812190011,United Kingdom,54.607712,-5.95621,0.0,,Police,Irish Republican Army (IRA)
-197812190012,Colombia,,,0.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
 197812190013,United Kingdom,54.607712,-5.95621,1.0,,Police,Irish Republican Army (IRA)
 197812190014,United States,40.795495,-74.317414,0.0,"12/19/1978: Five members of the May 19 Communist Order robbed two Coin Depot Corporation armored cars leaving the Bamberger's Department Store in Livingston, New Jersey, United States. Two guards were temporarily held hostage during the incident and $200,000 was stolen. No casualties resulted from this incident.",Business,May 19 Communist Order
 197812200001,Israel,31.771599,35.2034,0.0,,Business,Unknown
@@ -1491,7 +1423,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197812210003,Colombia,4.814278,-75.694558,,,Journalists & Media,Popular Liberation Army (EPL)
 197812210004,Colombia,4.814278,-75.694558,,,Religious Figures/Institutions,Popular Liberation Army (EPL)
 197812210005,Italy,41.890961,12.490069,,,Police,Red Brigades
-197812220001,Italy,,,0.0,,Government (General),Red Brigades
 197812220002,Iran,31.285506,48.643416,0.0,,Utilities,Unknown
 197812220003,Peru,-14.063467,-75.729381,0.0,,Educational Institution,Politico-Military Revolutionary Command
 197812220004,Guatemala,15.319722,-91.47833,0.0,,Private Citizens & Property,Guatemalan Labor Party (PGT)
@@ -1505,12 +1436,10 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197812240001,Nicaragua,11.96839,-86.094623,1.0,,Private Citizens & Property,Sandinista National Liberation Front (FSLN)
 197812240002,Nicaragua,11.96839,-86.094623,0.0,,Private Citizens & Property,Sandinista National Liberation Front (FSLN)
 197812240003,Iran,35.724533,51.40519,0.0,,Military,Unknown
-197812240004,Rhodesia,,,4.0,,Private Citizens & Property,Unknown
 197812260001,Turkey,38.395649,27.135641,0.0,,Private Citizens & Property,Unknown
 197812260002,Turkey,38.395649,27.135641,0.0,,Private Citizens & Property,Unknown
 197812260003,Turkey,38.395649,27.135641,0.0,,Police,Unknown
 197812270001,Nicaragua,12.103822,-86.267014,1.0,,Military,Sandinista National Liberation Front (FSLN)
-197812270002,Nicaragua,,,0.0,,Private Citizens & Property,Sandinista National Liberation Front (FSLN)
 197812270003,Nicaragua,11.01844,-84.39811,,,Business,Sandinista National Liberation Front (FSLN)
 197812280001,Argentina,-24.782902,-65.412155,,,Journalists & Media,Unknown
 197812280002,El Salvador,13.69288,-89.199161,,,Private Citizens & Property,Unknown

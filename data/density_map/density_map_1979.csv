@@ -1,7 +1,5 @@
 eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
-197900000001,Japan,,,3.0,,Private Citizens & Property,Unknown
 197900000002,Colombia,4.667128,-74.106056,,,Journalists & Media,Popular Liberation Army (EPL)
-197900000003,Philippines,,,,,Private Citizens & Property,New People's Army (NPA)
 197901000001,Nicaragua,12.43257,-86.881204,0.0,,Business,Sandinista National Liberation Front (FSLN)
 197901000002,Nicaragua,12.509204,-86.661108,13.0,,Business,Sandinista National Liberation Front (FSLN)
 197901000005,Peru,-11.967368,-76.978462,,,Government (General),Unknown
@@ -35,7 +33,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197901040007,Nicaragua,12.103822,-86.267014,0.0,,Business,Sandinista National Liberation Front (FSLN)
 197901040008,Nicaragua,12.103822,-86.267014,1.0,,Business,Sandinista National Liberation Front (FSLN)
 197901050002,United Kingdom,54.607712,-5.95621,2.0,,Private Citizens & Property,Irish Republican Army (IRA)
-197901050003,Rhodesia,,,19.0,,Unknown,Zimbabwe African People's Union
 197901050005,Israel,31.248484,34.787853,1.0,,Business,Palestinians
 197901060001,Italy,41.890961,12.490069,,,Business,Unknown
 197901060002,Italy,41.890961,12.490069,0.0,,Business,Unknown
@@ -52,7 +49,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197901070003,Italy,41.890961,12.490069,0.0,,Educational Institution,Unknown
 197901070004,Myanmar,21.347771,99.033279,0.0,,Military,People's Army (Myanmar)
 197901070005,Colombia,5.459444,-74.338056,7.0,,Military,Revolutionary Armed Forces of Colombia (FARC)
-197901070006,Philippines,,,6.0,,Police,Moro National Liberation Front (MNLF)
 197901080001,Israel,32.08297,34.811886,0.0,,Government (General),Palestinians
 197901080002,Austria,48.208174,16.373819,0.0,,Government (General),Unknown
 197901080003,Italy,45.469212,9.174508,,,Business,Unknown
@@ -66,9 +62,7 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197901100003,Colombia,3.429344,-76.516037,0.0,,Military,M-19 (Movement of April 19)
 197901100004,Jamaica,18.021429,-76.798279,2.0,,Police,Unknown
 197901100005,Nicaragua,13.5064,-86.32761,0.0,,Business,Sandinista National Liberation Front (FSLN)
-197901100006,Nicaragua,,,1.0,,Business,Sandinista National Liberation Front (FSLN)
 197901100007,Philippines,6.309924,120.565896,8.0,,Police,Moro National Liberation Front (MNLF)
-197901100008,Rhodesia,,,0.0,,Transportation,Zimbabwe Patriotic Front
 197901100009,Jamaica,18.021429,-76.798279,2.0,,Police,Unknown
 197901110001,France,42.309409,9.149022,,,Military,Unknown
 197901110002,Peru,-11.967368,-76.978462,0.0,,Transportation,Unknown
@@ -86,7 +80,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197901130003,France,43.388051,-1.663055,0.0,,Terrorists/Non-State Militia,Basque Fatherland and Freedom (ETA)
 197901130004,India,26.200605,92.937574,,,Police,Naga People
 197901130005,Israel,33.014797,35.275805,4.0,,Business,Democratic Front for the Liberation of Palestine (DFLP)
-197901130006,Namibia,,,2.0,,Police,South-West Africa People's Organization (SWAPO)
 197901130007,Rhodesia,-17.828394,31.052986,1.0,,Private Citizens & Property,Rhodesian guerillas
 197901130008,Spain,43.178205,-2.31164,2.0,,Police,Basque Fatherland and Freedom (ETA)
 197901140001,India,24.798346,93.94043,3.0,,Government (General),Unknown
@@ -104,8 +97,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197901150003,Iran,30.275508,57.079332,1.0,,Business,Mujahedin-e Khalq (MEK)
 197901150004,Italy,45.817605,8.826384,0.0,,Police,Armed Proletarian Squads
 197901150005,Nicaragua,12.103822,-86.267014,1.0,,Private Citizens & Property,Unknown
-197901150007,Nicaragua,,,0.0,,Military,Unknown
-197901150008,Nicaragua,,,2.0,,Military,Unknown
 197901150009,Nicaragua,12.103822,-86.267014,,,Business,Unknown
 197901150010,Nicaragua,12.103822,-86.267014,0.0,,Business,Unknown
 197901150011,Nicaragua,12.103822,-86.267014,,,Business,Unknown
@@ -187,7 +178,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197901250002,Guatemala,14.622869,-90.529068,1.0,,Government (General),Armed Action Force (FADA)
 197901250003,Guatemala,14.622869,-90.529068,0.0,,Private Citizens & Property,Unknown
 197901250004,Nicaragua,12.103822,-86.267014,1.0,,Military,Unknown
-197901250005,Myanmar,,,2.0,,Military,Shan State Progressive Party
 197901250006,Nicaragua,12.43257,-86.881204,0.0,,Business,Unknown
 197901250007,Nicaragua,12.919106,-85.916609,0.0,,Business,Unknown
 197901250008,Nicaragua,12.43257,-86.881204,0.0,,Business,Unknown
@@ -209,12 +199,7 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197901270001,Lebanon,33.888523,35.503513,0.0,,Police,Unknown
 197901270002,Spain,42.907739,-2.064756,1.0,,Government (General),Basque Fatherland and Freedom (ETA)
 197901280001,Algeria,35.696944,-0.633056,,,Transportation,Unknown
-197901280002,Israel,,,5.0,,Private Citizens & Property,Palestinians
 197901280003,Spain,41.400635,2.150913,0.0,,Tourists,Basque Fatherland and Freedom (ETA)
-197901280004,Colombia,,,1.0,,Military,Revolutionary Armed Forces of Colombia (FARC)
-197901280005,Myanmar,,,0.0,,Military,Shan State Progressive Party
-197901280006,Myanmar,,,0.0,,Military,Shan State Progressive Party
-197901280007,Myanmar,,,0.0,,Government (General),Shan State Progressive Party
 197901290001,Chile,-33.616667,-70.566667,0.0,,Private Citizens & Property,Unknown
 197901290002,France,48.856644,2.34233,0.0,,Government (Diplomatic),Unknown
 197901290003,Portugal,37.742242,-25.67495,0.0,,Government (General),Front For the Liberation of the Azores
@@ -248,8 +233,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197901310009,Colombia,6.313712,-73.950146,,,Military,Revolutionary Armed Forces of Colombia (FARC)
 197901310010,Nicaragua,12.103822,-86.267014,2.0,,Business,Sandinista National Liberation Front (FSLN)
 197901310011,United Kingdom,54.607712,-5.95621,1.0,,Police,Irish Republican Army (IRA)
-197901310012,Venezuela,,,,,Business,Unknown
-197901310013,Venezuela,,,,,Business,Unknown
 197901310014,Italy,40.320996,9.330356,0.0,,Business,Unknown
 197901310015,France,48.856644,2.34233,0.0,,Government (General),January 22
 197902010001,El Salvador,13.69288,-89.199161,9.0,,Police,People's Revolutionary Army (ERP) (El Salvador)
@@ -266,12 +249,8 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197902010012,Italy,44.807866,10.329548,0.0,,Business,Unknown
 197902020001,El Salvador,13.69288,-89.199161,0.0,,Government (General),People's Revolutionary Army (ERP) (El Salvador)
 197902020002,Italy,40.840097,14.251636,0.0,,Police,Unknown
-197902020003,Myanmar,,,13.0,,Military,Shan State Progressive Party
 197902020004,Colombia,1.804883,-75.89077,7.0,,Private Citizens & Property,Unknown
 197902020005,Italy,45.13344,10.026135,0.0,,Police,Prima Linea
-197902020006,Nicaragua,,,0.0,,Military,Sandinista National Liberation Front (FSLN)
-197902020007,Nicaragua,,,0.0,,Military,Sandinista National Liberation Front (FSLN)
-197902020008,Philippines,,,1.0,,Military,New People's Army (NPA)
 197902020009,Spain,42.815372,-1.653616,0.0,,Business,Basque Fatherland and Freedom (ETA)
 197902030001,Israel,31.771599,35.2034,1.0,,Private Citizens & Property,Palestinians
 197902030002,Italy,45.535858,9.238889,0.0,,Police,Unknown
@@ -284,7 +263,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197902030009,Spain,43.18418,-2.473289,0.0,,Police,Basque Fatherland and Freedom (ETA)
 197902030010,Uganda,0.347834,32.58252,0.0,,Business,Save Uganda Movement
 197902030011,Uganda,0.534526,33.302908,0.0,,Utilities,Save Uganda Movement
-197902030012,Nicaragua,,,,,Business,Unknown
 197902040001,United Kingdom,54.50853,-6.763131,0.0,,Transportation,Irish Republican Army (IRA)
 197902040002,United Kingdom,54.536706,-6.70361,0.0,,Business,Irish Republican Army (IRA)
 197902040003,Spain,41.400635,2.150913,0.0,,Educational Institution,Basque Fatherland and Freedom (ETA)
@@ -317,9 +295,7 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197902070007,Guatemala,15.486484,-91.25585,,,Private Citizens & Property,Guerrilla Army of the Poor (EGP)
 197902070008,Lebanon,34.122954,35.651926,,,Unknown,Muslim Guerrillas
 197902080001,Mexico,19.041297,-98.2062,0.0,,Government (General),Unknown
-197902080002,Rhodesia,,,1.0,,Private Citizens & Property,Black Nationalists
 197902080003,Spain,41.400635,2.150913,2.0,,Police,Catalan Liberation Front (FAC)
-197902080004,Myanmar,,,1.0,,Military,People's Army (Myanmar)
 197902080005,Italy,45.539838,10.222956,,,Business,Unknown
 197902090001,El Salvador,13.69288,-89.199161,0.0,,Government (General),Armed Forces of National Resistance (FARN)
 197902090002,Colombia,6.88105,-73.41157,4.0,,Business,Revolutionary Armed Forces of Colombia (FARC)
@@ -345,9 +321,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197902110005,Spain,35.292339,-2.938794,0.0,,Business,Abd al-Krim Commandos
 197902110006,Spain,35.292339,-2.938794,0.0,,Airports & Aircraft,Abd al-Krim Commandos
 197902110007,Turkey,39.930771,32.76754,1.0,,Government (General),Unknown
-197902110008,Nicaragua,,,1.0,,Police,Sandinista National Liberation Front (FSLN)
-197902110009,Nicaragua,,,0.0,,Police,Sandinista National Liberation Front (FSLN)
-197902110010,Ireland,,,1.0,,Private Citizens & Property,Unknown
 197902120001,Spain,40.465595,-3.696263,0.0,,Government (Diplomatic),First of October Antifascist Resistance Group (GRAPO)
 197902120002,Rhodesia,-16.788805,28.853974,54.0,,Airports & Aircraft,Zimbabwe African People's Union
 197902120003,Colombia,4.814278,-75.694558,1.0,,Business,Revolutionary Armed Forces of Colombia (FARC)
@@ -397,10 +370,7 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197902170001,Nicaragua,12.43257,-86.881204,1.0,,Private Citizens & Property,Sandinista National Liberation Front (FSLN)
 197902170002,Nicaragua,12.103822,-86.267014,0.0,,Business,Sandinista National Liberation Front (FSLN)
 197902170003,Nicaragua,13.37984,-86.48075,2.0,,Military,Sandinista National Liberation Front (FSLN)
-197902170004,Nicaragua,,,2.0,,Private Citizens & Property,Sandinista National Liberation Front (FSLN)
-197902170005,Rhodesia,,,,,Transportation,Unknown
 197902180001,United Kingdom,54.50853,-6.763131,0.0,,Police,Irish Republican Army (IRA)
-197902180002,Nicaragua,,,0.0,,Military,Unknown
 197902180003,Spain,28.124824,-15.430008,0.0,,Journalists & Media,Canary Islands Independence Movement
 197902180004,Colombia,4.42751,-74.975698,1.0,,Business,Revolutionary Armed Forces of Colombia (FARC)
 197902190001,Turkey,41.106178,28.689863,0.0,,Business,Unknown
@@ -409,31 +379,10 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197902190004,Turkey,41.106178,28.689863,0.0,,Business,Unknown
 197902190005,Turkey,41.106178,28.689863,0.0,,Business,Unknown
 197902190006,Turkey,41.106178,28.689863,0.0,,Business,Unknown
-197902190007,Turkey,,,0.0,,Government (General),Unknown
-197902190008,Turkey,,,0.0,,Government (General),Unknown
-197902190009,Turkey,,,0.0,,Government (General),Unknown
-197902190010,Turkey,,,0.0,,Government (General),Unknown
-197902190011,Turkey,,,0.0,,Government (General),Unknown
-197902190012,Turkey,,,0.0,,Government (General),Unknown
-197902190013,Turkey,,,0.0,,Government (General),Unknown
-197902190014,Turkey,,,0.0,,Government (General),Unknown
-197902190015,Turkey,,,0.0,,Government (General),Unknown
-197902190016,Turkey,,,0.0,,Government (General),Unknown
-197902190017,Turkey,,,0.0,,Government (General),Unknown
-197902190018,Turkey,,,0.0,,Government (General),Unknown
-197902190019,Turkey,,,0.0,,Government (General),Unknown
-197902190020,Turkey,,,0.0,,Government (General),Unknown
-197902190021,Turkey,,,0.0,,Government (General),Unknown
-197902190022,Turkey,,,0.0,,Government (General),Unknown
-197902190023,Turkey,,,0.0,,Government (General),Unknown
-197902190024,Turkey,,,0.0,,Government (General),Unknown
-197902190025,Turkey,,,0.0,,Government (General),Unknown
-197902190026,Turkey,,,0.0,,Government (General),Unknown
 197902190027,Turkey,41.106178,28.689863,0.0,,Government (General),Unknown
 197902190028,Turkey,41.106178,28.689863,0.0,,Government (General),Unknown
 197902190029,Turkey,41.106178,28.689863,0.0,,Government (General),Unknown
 197902190030,Turkey,41.106178,28.689863,0.0,,Government (General),Unknown
-197902190031,Turkey,,,0.0,,Business,Unknown
 197902190032,Turkey,38.395649,27.135641,0.0,,Airports & Aircraft,Unknown
 197902190033,Italy,41.467597,12.9037,0.0,,Government (General),Unknown
 197902190034,Turkey,41.106178,28.689863,1.0,,Government (General),Unknown
@@ -442,7 +391,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197902200002,Turkey,38.395649,27.135641,0.0,,Military,Unknown
 197902200003,Nicaragua,12.924807,-85.97294,4.0,,Military,Sandinista National Liberation Front (FSLN)
 197902200004,Spain,41.359583,2.099704,0.0,,Police,Basque Fatherland and Freedom (ETA)
-197902200005,Turkey,,,1.0,,Journalists & Media,Unknown
 197902200006,Rhodesia,-17.828394,31.052986,0.0,,Airports & Aircraft,Black Nationalists
 197902200007,Italy,44.49419,11.346518,0.0,,Educational Institution,Communist Territorial Unit
 197902210001,Turkey,39.930771,32.76754,0.0,,Government (General),Unknown
@@ -485,13 +433,11 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197902270006,Norway,59.913869,10.752245,0.0,,Airports & Aircraft,Anti-Soviet protest group
 197902270007,Namibia,-17.715473,15.01685,0.0,,Military,South-West Africa People's Organization (SWAPO)
 197902280001,Italy,41.594442,12.826349,0.0,,Private Citizens & Property,Unknown
-197903000001,Philippines,,,,,Private Citizens & Property,New People's Army (NPA)
 197903000002,Syria,36.201721,37.14352,,,Police,Unknown
 197903010001,Colombia,4.667128,-74.106056,0.0,,Government (Diplomatic),M-19 (Movement of April 19)
 197903010002,Guatemala,14.622869,-90.529068,1.0,,Business,Rebel Armed Forces of Guatemala (FAR)
 197903010003,Italy,45.072731,7.679541,0.0,,Police,Prima Linea
 197903010004,Iran,37.974156,44.308127,,,Government (General),Unk Iranian Guerrillas
-197903010005,Iran,,,,,Government (General),Unknown
 197903010006,Costa Rica,10.949985,-84.783367,3.0,,Military,Sandinista National Liberation Front (FSLN)
 197903010007,Turkey,41.106178,28.689863,0.0,,Business,Turkish People's Liberation Front (TPLF)(THKP-C)
 197903020001,Spain,40.465595,-3.696263,1.0,,Military,First of October Antifascist Resistance Group (GRAPO)
@@ -504,7 +450,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197903040003,Israel,31.771599,35.2034,,,Transportation,Palestine Liberation Organization (PLO)
 197903050001,Spain,42.815372,-1.653616,0.0,,Private Citizens & Property,Basque Fatherland and Freedom (ETA)
 197903060001,Nicaragua,12.54481,-86.97992,1.0,,Business,Subversives
-197903060002,Nicaragua,,,0.0,,Business,Subversives
 197903060003,Nicaragua,12.62439,-87.129784,0.0,,Business,Sandinista National Liberation Front (FSLN)
 197903060004,Nicaragua,12.15,-86.75,0.0,,Business,Subversives
 197903060005,Nicaragua,12.103822,-86.267014,0.0,,Business,Unknown
@@ -516,10 +461,8 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197903070004,Israel,32.608879,35.289967,0.0,,Tourists,Palestinians
 197903070005,Italy,41.890961,12.490069,0.0,,Business,Unknown
 197903070006,Italy,41.890961,12.490069,0.0,,Business,Organized Comrades for Feminist Counter-Power
-197903070007,Israel,,,0.0,,Business,Unknown
 197903070008,Italy,41.890961,12.490069,0.0,,Business,Unknown
 197903070009,Chile,-33.366238,-70.505302,0.0,,Transportation,Movement of the Revolutionary Left (MIR) (Chile)
-197903070010,Nicaragua,,,1.0,,Business,Unknown
 197903070011,Spain,43.258434,-2.921819,0.0,,Business,Basque Fatherland and Freedom (ETA)
 197903080001,United Kingdom,54.50853,-6.763131,0.0,,Business,Irish Republican Army (IRA)
 197903080002,Colombia,6.263255,-74.298998,6.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
@@ -621,7 +564,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197903180007,United Kingdom,54.22641,-7.649053,0.0,,Military,Irish Republican Army (IRA)
 197903190001,Nicaragua,12.61667,-87.0,,,Military,Sandinista National Liberation Front (FSLN)
 197903190002,Nicaragua,12.103822,-86.267014,0.0,,Military,Sandinista National Liberation Front (FSLN)
-197903190003,Namibia,,,2.0,,Government (General),South-West Africa People's Organization (SWAPO)
 197903190004,United Kingdom,54.192934,-6.576051,1.0,,Military,Irish Republican Army (IRA)
 197903200001,Italy,41.890961,12.490069,1.0,,Journalists & Media,Unknown
 197903200002,Myanmar,21.264053,100.093152,4.0,,Military,Shan State Progressive Party
@@ -704,12 +646,10 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197903250006,Philippines,8.004674,124.2913,1.0,,Police,Moro National Liberation Front (MNLF)
 197903250007,Philippines,8.240043,124.244766,1.0,,Private Citizens & Property,Moro National Liberation Front (MNLF)
 197903250008,Spain,43.325239,-3.011475,0.0,,Government (General),Basque Fatherland and Freedom (ETA)
-197903250009,Namibia,,,1.0,,Police,Zimbabwe African Nationalist Union (ZANU)
 197903260001,Israel,31.771599,35.2034,0.0,,Private Citizens & Property,Unknown
 197903260002,Israel,31.771599,35.2034,0.0,,Business,Unknown
 197903260003,Turkey,39.930771,32.76754,0.0,,Government (Diplomatic),Turkish Revolutionaries
 197903260004,El Salvador,13.981479,-89.555717,1.0,,Government (General),People's Liberation Forces (FPL)
-197903260005,Namibia,,,,,Educational Institution,Zimbabwe African Nationalist Union (ZANU)
 197903270001,France,48.856644,2.34233,0.0,,Private Citizens & Property,Autonomous Intervention Collective Against the Zionist Presence in France
 197903270002,Israel,31.771599,35.2034,1.0,,Private Citizens & Property,Unknown
 197903270003,Israel,31.951466,34.887821,1.0,,Private Citizens & Property,Unknown
@@ -748,8 +688,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197904000002,France,43.580418,7.125102,,,Religious Figures/Institutions,Right-wing extremists
 197904000003,Nicaragua,12.62439,-87.129784,0.0,,Business,Sandinista National Liberation Front (FSLN)
 197904010001,United Kingdom,54.600305,-7.298402,0.0,,Private Citizens & Property,Irish Republican Army (IRA)
-197904010002,Rhodesia,,,0.0,,Military,Zimbabwe African Nationalist Union (ZANU)
-197904010003,Thailand,,,1.0,,Police,Thai Communists
 197904020001,Chile,-33.366238,-70.505302,0.0,,Business,Movement of the Revolutionary Left (MIR) (Chile)
 197904020002,Chile,-33.366238,-70.505302,0.0,,Business,Movement of the Revolutionary Left (MIR) (Chile)
 197904020003,Namibia,-18.623616,17.516841,0.0,,Government (General),South-West Africa People's Organization (SWAPO)
@@ -762,7 +700,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197904020010,Nicaragua,12.103822,-86.267014,0.0,,Business,Sandinista National Liberation Front (FSLN)
 197904020011,Nicaragua,12.103822,-86.267014,0.0,,Business,Sandinista National Liberation Front (FSLN)
 197904020012,Nicaragua,12.103822,-86.267014,0.0,,Business,Sandinista National Liberation Front (FSLN)
-197904020013,Rhodesia,,,0.0,,NGO,Unknown
 197904020014,Spain,43.136978,-2.073914,0.0,,Private Citizens & Property,Unknown
 197904030001,West Germany (FRG),50.11797,8.644191,0.0,,Educational Institution,Unknown
 197904030002,United States,42.358635,-71.056699,0.0,,Airports & Aircraft,Unknown
@@ -822,7 +759,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197904120010,Namibia,-17.436154,14.391604,0.0,,Utilities,Unknown
 197904120011,Italy,45.584006,9.273014,,,Business,Unknown
 197904130001,Chile,-33.366238,-70.505302,0.0,,Transportation,Movement of the Revolutionary Left (MIR) (Chile)
-197904130002,Lebanon,,,2.0,,Government (Diplomatic),Syrian Social Nationalist Party
 197904130003,United Kingdom,54.293235,-6.842351,1.0,,Military,Irish Republican Army (IRA)
 197904130004,Italy,40.922512,9.486855,0.0,,Private Citizens & Property,Unknown
 197904140001,Dominican Republic,18.455759,-69.307808,0.0,,Educational Institution,Unknown
@@ -857,7 +793,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197904180003,Colombia,3.429344,-76.516037,1.0,,Police,M-19 (Movement of April 19)
 197904180004,Lebanon,33.888523,35.503513,0.0,,Government (Diplomatic),Free Lebanon
 197904190001,Chile,-33.366238,-70.505302,0.0,,Private Citizens & Property,Movement of the Revolutionary Left (MIR) (Chile)
-197904190002,Chile,,,0.0,,Private Citizens & Property,Movement of the Revolutionary Left (MIR) (Chile)
 197904190003,Egypt,30.084629,31.334314,1.0,,Government (General),Eagles of the Palestinian Revolution
 197904190004,Spain,39.470239,-0.376805,0.0,,Business,First of October Antifascist Resistance Group (GRAPO)
 197904190005,Colombia,6.18676,-74.58397,4.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
@@ -894,7 +829,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197904230002,Iran,35.724533,51.40519,1.0,,Government (General),Forqan Group
 197904230003,Namibia,-17.789997,15.706292,0.0,,Educational Institution,Unknown
 197904230004,Spain,41.400635,2.150913,0.0,,Transportation,Unknown
-197904230005,Namibia,,,,,Government (General),South-West Africa People's Organization (SWAPO)
 197904240001,Italy,45.072731,7.679541,,,Government (General),Unknown
 197904240002,Italy,45.072731,7.679541,0.0,,Government (General),Unknown
 197904240003,Italy,45.469212,9.174508,0.0,,Police,Unknown
@@ -944,7 +878,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197904300007,Italy,45.434336,12.338786,,,Unknown,Unknown
 197904300015,Italy,45.409538,11.876554,0.0,,Journalists & Media,Unknown
 197904300016,Italy,45.409538,11.876554,,,Police,Unknown
-197904300017,Italy,,,,,Police,Unknown
 197904300018,Italy,46.27354,12.300074,,,Government (General),Unknown
 197904300019,Spain,43.291618,-1.977903,0.0,,Government (Diplomatic),Basque Fatherland and Freedom (ETA)
 197904300020,Spain,43.258434,-2.921819,0.0,,Business,Unknown
@@ -956,7 +889,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197904300026,Guatemala,15.347892,-90.87235,0.0,,Private Citizens & Property,Guerrilla Army of the Poor (EGP)
 197904300027,Chile,-33.366238,-70.505302,,,Journalists & Media,Unknown
 197904300028,Rhodesia,-20.11989,31.770106,1.0,,Private Citizens & Property,Guerrillas
-197905000001,Iran,,,1.0,,Educational Institution,Forqan Group
 197905000002,Philippines,7.083241,125.600998,1.0,,Private Citizens & Property,New People's Army (NPA)
 197905000003,Philippines,7.083241,125.600998,1.0,,Private Citizens & Property,New People's Army (NPA)
 197905000004,Philippines,7.083241,125.600998,1.0,,Private Citizens & Property,New People's Army (NPA)
@@ -991,10 +923,7 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197905020017,United States,33.40203,-86.953994,1.0,,Government (General),Unknown
 197905020018,Spain,43.054198,-2.178116,2.0,,Police,Basque Fatherland and Freedom (ETA)
 197905020019,Ethiopia,14.119147,38.730775,,,Private Citizens & Property,Tigray Peoples Liberation Front (TPLF)
-197905020020,Ethiopia,,,100.0,,Private Citizens & Property,Tigray Peoples Liberation Front (TPLF)
 197905020021,Guatemala,14.622869,-90.529068,0.0,,Police,Unknown
-197905020022,Nicaragua,,,,,Business,Sandinista National Liberation Front (FSLN)
-197905020023,Nicaragua,,,,,Business,Sandinista National Liberation Front (FSLN)
 197905020024,Nicaragua,12.103822,-86.267014,,,Business,Sandinista National Liberation Front (FSLN)
 197905020025,Nicaragua,12.103822,-86.267014,3.0,,Police,Sandinista National Liberation Front (FSLN)
 197905020026,Nicaragua,12.103822,-86.267014,0.0,,Government (General),Sandinista National Liberation Front (FSLN)
@@ -1019,11 +948,9 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197905040010,El Salvador,13.69288,-89.199161,,,Government (Diplomatic),Popular Revolutionary Bloc (BPR)
 197905040011,Colombia,4.667128,-74.106056,0.0,,Government (Diplomatic),Unknown
 197905040012,Nicaragua,11.936997,-86.190472,3.0,,Military,Sandinista National Liberation Front (FSLN)
-197905040013,Nicaragua,,,0.0,,Business,Unknown
 197905040014,Nicaragua,12.103822,-86.267014,0.0,,Business,Unknown
 197905040015,Nicaragua,12.103822,-86.267014,0.0,,Transportation,Unknown
 197905040016,Spain,43.3282,-3.031509,0.0,,Business,Basque Fatherland and Freedom (ETA)
-197905040017,Thailand,,,7.0,,Business,Unknown
 197905040018,Lebanon,33.117106,35.140132,0.0,,Government (Diplomatic),Villagers
 197905040019,Mexico,19.371887,-99.086624,,,Government (General),Unknown
 197905050001,Italy,40.840097,14.251636,0.0,,Government (General),Communists
@@ -1140,7 +1067,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197905130013,Honduras,15.50167,-88.02774,0.0,,Government (Diplomatic),Unknown
 197905130014,Nicaragua,13.122104,-86.149927,,,Private Citizens & Property,Sandinista National Liberation Front (FSLN)
 197905130015,Philippines,6.705778,121.972109,0.0,,Police,Moro National Liberation Front (MNLF)
-197905130016,Philippines,,,3.0,,Maritime,Moro National Liberation Front (MNLF)
 197905130017,Philippines,6.309924,120.565896,2.0,,Maritime,Moro National Liberation Front (MNLF)
 197905140001,Israel,32.788284,35.521675,2.0,,Private Citizens & Property,Palestine Liberation Organization (PLO)
 197905140002,Italy,40.840097,14.251636,0.0,,Business,Communist Nuclei of Counter Power
@@ -1175,7 +1101,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197905160011,Nicaragua,13.853697,-85.593154,,,Military,Sandinista National Liberation Front (FSLN)
 197905160012,Nicaragua,12.103822,-86.267014,0.0,,Government (General),Unknown
 197905160013,Nicaragua,12.103822,-86.267014,0.0,,Educational Institution,Unknown
-197905160014,Rhodesia,,,0.0,,Business,Guerrillas
 197905160015,Turkey,39.930771,32.76754,7.0,,Business,Unknown
 197905170001,El Salvador,13.986667,-89.681111,,,Police,Unknown
 197905170002,Italy,41.890961,12.490069,0.0,,Government (General),Unknown
@@ -1258,9 +1183,7 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197905250007,El Salvador,13.926371,-89.502589,1.0,,Government (General),Unknown
 197905260001,United Kingdom,54.607712,-5.95621,0.0,,Transportation,Unknown
 197905260002,Spain,40.465595,-3.696263,8.0,,Business,First of October Antifascist Resistance Group (GRAPO)
-197905260003,Nicaragua,,,1.0,,Government (General),Sandinista National Liberation Front (FSLN)
 197905260004,Nicaragua,11.43857,-85.936974,16.0,,Government (General),Unknown
-197905260005,Rhodesia,,,0.0,,Private Citizens & Property,Guerrillas
 197905260006,United Kingdom,54.607712,-5.95621,1.0,,Private Citizens & Property,Protestant extremists
 197905260007,United States,34.607389,-86.979767,0.0,"05/26/1979: Members of the Ku Klux Klan, armed with guns, clubs, and sticks, disrupted a march of the Southern Christian Leadership Conference in Decatur, Alabama, United States. The march was in support of a mentally disabled black man who was charged with raping a white woman, and convicted by an all-white jury. During the march, Klansmen blocked the street, disobeyed police orders to allow the marchers to pass, and opened gunfire, injuring two black marchers and five law enforcements officials. Two Klansmen were also shot and wounded. In May 1984, ten Klansmen were charged in federal court for civil rights violations in a violent disruption of black marchers and police, and nine of the men were charged with the conspiracy of use of force or threat of force for purposes of intimidating parade participants because of their race. By January 1989, all ten Klan members had either been found guilty or pleaded guilty to the charges brought against them in this incident.",Private Citizens & Property,Ku Klux Klan
 197905270001,Angola,-8.838837,13.235582,1.0,,Private Citizens & Property,Anti-Government Guerrillas
@@ -1318,14 +1241,8 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197905310031,France,48.856644,2.34233,0.0,,Private Citizens & Property,Corsican National Liberation Front (FLNC)
 197905310032,France,48.856644,2.34233,0.0,,Private Citizens & Property,Corsican National Liberation Front (FLNC)
 197906000001,Colombia,4.667128,-74.106056,0.0,,Business,Unknown
-197906000002,El Salvador,,,1.0,,Educational Institution,Unknown
 197906000003,El Salvador,13.69288,-89.199161,1.0,,Educational Institution,Unknown
-197906000004,El Salvador,,,1.0,,Educational Institution,Unknown
-197906000005,El Salvador,,,1.0,,Educational Institution,Unknown
 197906000006,West Bank and Gaza Strip,31.502407,34.459743,1.0,,Religious Figures/Institutions,Popular Front for the Liberation of Palestine (PFLP)
-197906000007,Nicaragua,,,2.0,,Government (General),Sandinista National Liberation Front (FSLN)
-197906000008,Nicaragua,,,3.0,,Government (General),Sandinista National Liberation Front (FSLN)
-197906000009,Nicaragua,,,1.0,,Journalists & Media,Sandinista National Liberation Front (FSLN)
 197906000010,Syria,35.129181,36.760738,3.0,,Military,Unknown
 197906000011,Syria,36.201721,37.14352,1.0,,Military,Unknown
 197906000012,Syria,36.201721,37.14352,1.0,,Government (General),Unknown
@@ -1356,22 +1273,17 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197906030003,United States,40.81362,-96.707739,0.0,,Private Citizens & Property,International Committee Against Nazism
 197906030004,Spain,40.465595,-3.696263,2.0,,Police,Unknown
 197906030005,Iran,34.640097,50.875948,0.0,,Government (General),Unknown
-197906040001,Rhodesia,,,0.0,,Transportation,Guerrillas
 197906040002,United States,38.878742,-77.100006,0.0,,Government (General),International Committee Against Nazism
-197906040003,El Salvador,,,1.0,,Educational Institution,Union Guerrera Blanca (UGB)
 197906040004,Iran,32.65246,51.67462,0.0,,Business,Unknown
 197906040005,Lebanon,33.888523,35.503513,1.0,,Violent Political Party,Unknown
-197906040006,Rhodesia,,,5.0,,Business,Guerrillas
 197906040007,France,41.930607,8.742907,0.0,,Police,Students
 197906050001,Nicaragua,12.399301,-86.877741,0.0,,Military,Sandinista National Liberation Front (FSLN)
 197906060001,West Germany (FRG),50.11797,8.644191,0.0,,Transportation,Unknown
 197906060002,Spain,43.118217,-2.413358,1.0,,Business,Basque Fatherland and Freedom (ETA)
 197906060003,United Kingdom,54.607712,-5.95621,1.0,,Military,Irish Republican Army (IRA)
-197906060004,El Salvador,,,1.0,,Educational Institution,Unknown
 197906060005,Nicaragua,12.103822,-86.267014,0.0,,Government (General),Sandinista National Liberation Front (FSLN)
 197906060006,Spain,42.815372,-1.653616,0.0,,Government (General),Basque Fatherland and Freedom (ETA)
 197906070001,Spain,42.895218,-2.168798,0.0,,Business,Unknown
-197906070002,El Salvador,,,1.0,,Educational Institution,Union Guerrera Blanca (UGB)
 197906070003,El Salvador,13.502357,-88.923425,1.0,,Educational Institution,Unknown
 197906070004,El Salvador,13.718815,-88.854604,1.0,,Government (General),Guerrillas
 197906070005,Spain,43.136978,-2.073914,1.0,,Military,Basque Fatherland and Freedom (ETA)
@@ -1381,7 +1293,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197906080001,United Kingdom,52.482961,-1.893592,,,Government (General),Irish Republican Army (IRA)
 197906080002,United Kingdom,52.482961,-1.893592,,,Government (General),Irish Republican Army (IRA)
 197906080003,United Kingdom,52.482961,-1.893592,0.0,,Government (General),Irish Republican Army (IRA)
-197906080004,El Salvador,,,1.0,,Educational Institution,Union Guerrera Blanca (UGB)
 197906080005,Italy,45.072731,7.679541,0.0,,Business,Red Brigades
 197906080006,El Salvador,13.738762,-89.054916,0.0,,Government (General),People's Liberation Forces (FPL)
 197906080008,Philippines,12.475771,125.255491,0.0,,Private Citizens & Property,Unknown
@@ -1398,13 +1309,11 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197906080019,France,48.856644,2.34233,0.0,,Business,Corsican National Liberation Front (FLNC)
 197906080020,France,48.856644,2.34233,0.0,,Business,Corsican National Liberation Front (FLNC)
 197906090001,United States,18.201318,-67.145125,0.0,,Government (General),Unknown
-197906090002,El Salvador,,,1.0,,Educational Institution,Union Guerrera Blanca (UGB)
 197906090003,Japan,35.530906,139.703051,2.0,,Private Citizens & Property,Unknown
 197906090004,Philippines,7.209594,124.241966,3.0,,Government (General),Moro National Liberation Front (MNLF)
 197906090005,Spain,42.84964,-2.692359,0.0,,Police,Basque Fatherland and Freedom (ETA)
 197906090006,United Kingdom,54.607712,-5.95621,1.0,,Terrorists/Non-State Militia,Ulster Freedom Fighters (UFF)
 197906100001,Colombia,4.667128,-74.106056,0.0,,Private Citizens & Property,Unknown
-197906100002,El Salvador,,,1.0,,Educational Institution,Union Guerrera Blanca (UGB)
 197906100003,Guatemala,14.622869,-90.529068,3.0,,Military,Unknown
 197906100004,United Kingdom,54.250039,-6.703625,0.0,,Police,Irish Republican Army (IRA)
 197906110001,Chile,-33.366238,-70.505302,0.0,,Journalists & Media,Movement of the Revolutionary Left (MIR) (Chile)
@@ -1509,7 +1418,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197906240004,Israel,32.08297,34.811886,2.0,,Transportation,Palestine Liberation Organization (PLO)
 197906240005,Spain,42.140102,-0.408898,0.0,,Religious Figures/Institutions,Basque Fatherland and Freedom (ETA)
 197906240006,Spain,43.32412,-1.929857,0.0,,Maritime,Basque Fatherland and Freedom (ETA)
-197906240007,Nicaragua,,,1.0,,Government (General),Sandinista National Liberation Front (FSLN)
 197906240008,Syria,33.725571,36.104458,1.0,,Military,Unknown
 197906240009,Colombia,2.796196,-76.483134,1.0,,Police,Revolutionary Armed Forces of Colombia (FARC)
 197906240010,Japan,35.689125,139.747742,,,Police,Radicals
@@ -1529,7 +1437,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197906260008,Turkey,38.620999,27.428638,1.0,,Government (General),Unknown
 197906260009,El Salvador,13.491242,-88.173134,2.0,,Business,People's Revolutionary Army (ERP) (El Salvador)
 197906260010,Pakistan,33.671638,73.056068,0.0,,Government (Diplomatic),Unknown
-197906260011,Syria,,,,,Military,Unknown
 197906260012,Philippines,7.209594,124.241966,6.0,,Unknown,Moro National Liberation Front (MNLF)
 197906260013,Israel,31.248484,34.787853,0.0,,Business,Unknown
 197906270001,Argentina,-34.61768,-58.444435,0.0,,Transportation,Unknown
@@ -1567,10 +1474,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197906300002,Pakistan,33.594013,73.069077,0.0,,Government (General),Supporter of Bhutto
 197906300003,Turkey,39.930771,32.76754,2.0,,Private Citizens & Property,Left-Wing Terrorists
 197906300004,Turkey,39.930771,32.76754,,,Police,Unknown
-197907000001,Rhodesia,,,3.0,,Private Citizens & Property,Unknown
-197907000002,Rhodesia,,,2.0,,Business,Guerrillas
-197907000003,Rhodesia,,,2.0,,Private Citizens & Property,Unknown
-197907000004,Rhodesia,,,3.0,,Private Citizens & Property,Guerrillas
 197907010001,Israel,32.08297,34.811886,0.0,,Business,Palestinians
 197907010002,Israel,32.08297,34.811886,,,Military,Palestine Liberation Organization (PLO)
 197907010003,Israel,31.771599,35.2034,0.0,,Private Citizens & Property,Palestinians
@@ -1579,7 +1482,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197907010006,Israel,32.08297,34.811886,0.0,,Unknown,Unknown
 197907010007,Spain,39.986068,-0.036024,0.0,,Business,Basque Fatherland and Freedom (ETA)
 197907010008,India,26.200604,92.937574,2.0,,Government (General),Mizo National Front
-197907010009,Namibia,,,,,Military,South-West Africa People's Organization (SWAPO)
 197907010010,Philippines,7.820747,124.326546,2.0,,Government (General),Moro National Liberation Front (MNLF)
 197907020001,Spain,40.360286,0.402852,0.0,,Tourists,Basque Fatherland and Freedom (ETA)
 197907020002,France,43.362402,-1.700075,0.0,,Transportation,Basque Justice
@@ -1639,7 +1541,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197907100005,Italy,45.072731,7.679541,0.0,,Business,Unknown
 197907110001,Spain,43.220496,-2.733236,0.0,,Government (General),Unknown
 197907110002,Guyana,6.821806,-58.159218,0.0,,Government (General),Unk (men in army uniforms with arms and gas masks)
-197907110003,Iran,,,0.0,,Police,Unknown
 197907110004,Iran,30.442694,48.183987,,,Maritime,Autonomy-Seeking Arabs
 197907120001,Iran,30.500139,50.000844,0.0,,Transportation,Arabs
 197907120002,Israel,32.089161,34.88382,0.0,,Private Citizens & Property,Palestinians
@@ -1658,17 +1559,14 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197907130003,Turkey,39.930771,32.76754,2.0,,Government (Diplomatic),Eagles of the Palestinian Revolution
 197907130004,Colombia,6.34593,-75.50811,3.0,,Business,Unknown
 197907140001,Spain,40.465595,-3.696263,1.0,,Business,Unknown
-197907140002,Rhodesia,,,3.0,,Private Citizens & Property,Guerrillas
 197907140003,El Salvador,13.981479,-89.555717,0.0,,Journalists & Media,Unknown
 197907140004,Philippines,8.518432,123.09752,12.0,,Government (General),New People's Army (NPA)
-197907140005,Rhodesia,,,4.0,,Private Citizens & Property,Zimbabwe Patriotic Front
 197907150001,Iran,30.442694,48.183987,7.0,,Religious Figures/Institutions,Autonomy-Seeking Arabs
 197907150002,Iran,35.724533,51.40519,0.0,,Government (General),Unknown
 197907150003,Costa Rica,9.933333,-84.083333,0.0,,Government (Diplomatic),Unknown
 197907150004,United Kingdom,54.607712,-5.95621,1.0,,Private Citizens & Property,Irish Republican Army (IRA)
 197907160001,Chile,-33.366238,-70.505302,,,Private Citizens & Property,Movement of the Revolutionary Left (MIR) (Chile)
 197907160002,Chile,-33.366238,-70.505302,,,Business,Movement of the Revolutionary Left (MIR) (Chile)
-197907160003,Lebanon,,,1.0,,Government (Diplomatic),Unknown
 197907170001,Colombia,5.026003,-74.030012,0.0,,Government (General),Unknown
 197907170002,Iran,35.994929,45.885507,9.0,,Private Citizens & Property,Unknown
 197907170003,United Kingdom,54.238631,-7.170908,1.0,,Military,Irish Republican Extremists
@@ -1687,7 +1585,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197907200002,Colombia,6.242026,-75.564766,1.0,,Police,National Liberation Army of Colombia (ELN)
 197907200003,Colombia,6.242026,-75.564766,1.0,,Police,National Liberation Army of Colombia (ELN)
 197907200004,Colombia,4.667128,-74.106056,0.0,,Business,Workers' Self-Defense Movement (MAO)
-197907210001,Chile,,,0.0,,Journalists & Media,Movement of the Revolutionary Left (MIR) (Chile)
 197907210002,Israel,32.322744,34.853921,0.0,,Private Citizens & Property,Palestinians
 197907210003,Spain,43.258434,-2.921819,0.0,,Business,Basque Fatherland and Freedom (ETA)
 197907210004,Malaysia,4.813552,100.828051,5.0,,Military,Communists
@@ -1711,7 +1608,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197907260004,United States,25.774591,-80.214195,,,Business,Unknown
 197907270001,Greece,37.99749,23.762728,0.0,,Government (General),Unknown
 197907270002,United Kingdom,54.42071,-6.443767,1.0,,NGO,Irish National Liberation Army (INLA)
-197907270003,Djibouti,,,4.0,,Military,Armed Subversives
 197907270004,El Salvador,13.716667,-88.933333,1.0,,Police,People's Liberation Forces (FPL)
 197907280001,Spain,43.258434,-2.921819,0.0,,Business,Unknown
 197907280002,Spain,43.258434,-2.921819,2.0,,Police,Unknown
@@ -1735,7 +1631,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197908000006,El Salvador,13.69288,-89.199161,,,Business,People's Liberation Forces (FPL)
 197908000007,Angola,-5.560318,12.190405,,,Utilities,Popular Movement for the Liberation of Cabinda
 197908000008,Angola,-5.560318,12.190405,18.0,,Military,Popular Movement for the Liberation of Cabinda
-197908000009,Colombia,,,,,Business,Unknown
 197908010001,West Bank and Gaza Strip,31.502407,34.459743,0.0,,Business,Palestinians
 197908010002,Lebanon,33.888523,35.503513,0.0,,Journalists & Media,Unknown
 197908020002,France,43.481402,-1.514699,1.0,,Terrorists/Non-State Militia,Spanish National Action
@@ -1747,7 +1642,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197908030002,Turkey,39.930771,32.76754,0.0,,Government (Diplomatic),Unknown
 197908030003,Syria,36.201721,37.14352,2.0,,Government (General),Unknown
 197908030004,Turkey,41.106178,28.689863,1.0,,Police,Unknown
-197908030005,France,,,,,Business,Spanish National Action
 197908030006,Ireland,52.256787,-7.129203,0.0,,Private Citizens & Property,Unknown
 197908030007,Spain,43.291618,-1.977903,,,Private Citizens & Property,Support for Refugees (Appui aux Refugies)
 197908030008,Spain,43.258434,-2.921819,,,Government (General),Spanish National Action
@@ -1787,7 +1681,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197908060001,Lebanon,33.888523,35.503513,0.0,,Private Citizens & Property,Iraqi Communists
 197908060002,Lebanon,33.888523,35.503513,0.0,,Business,Iraqi Communists
 197908060003,Spain,43.291618,-1.977903,,,Government (General),Unknown
-197908060004,Rhodesia,,,2.0,,Business,Zimbabwe African People's Union
 197908070001,El Salvador,13.718889,-89.724167,0.0,,Government (General),People's Liberation Forces (FPL)
 197908070002,El Salvador,13.491242,-88.173134,0.0,,Government (General),People's Liberation Forces (FPL)
 197908070003,Israel,32.322744,34.853921,0.0,,Police,Palestinians
@@ -1860,7 +1753,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197908180002,Iran,36.6736,48.4787,0.0,,Government (General),Unknown
 197908180003,Spain,43.267549,-1.975814,0.0,,Police,Basque Fatherland and Freedom (ETA)
 197908180004,United States,38.887344,-77.17897,1.0,"8/18/1979: Joseph Paul Franklin, while stationed outside a Burger King in Falls Church, Virginia, in the United States, shot and killed Raymond Turner, an African American, who was eating inside the restaurant.",Private Citizens & Property,White supremacists/nationalists
-197908190001,India,,,1.0,,Police,Mizo National Front
 197908200001,Lebanon,33.888523,35.503513,7.0,,Government (General),Unknown
 197908200002,El Salvador,13.743611,-89.498889,1.0,,Government (General),People's Revolutionary Army (ERP) (El Salvador)
 197908200003,India,23.469545,93.337934,1.0,,Police,Mizo National Front
@@ -1878,7 +1770,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197908220004,Switzerland,46.198392,6.142296,0.0,,Government (Diplomatic),Armenian Secret Army for the Liberation of Armenia
 197908220005,Guatemala,14.622869,-90.529068,1.0,,Business,Unknown
 197908220006,Namibia,-17.782873,16.066568,4.0,,Police,South-West Africa People's Organization (SWAPO)
-197908220007,Rhodesia,,,7.0,,Business,Zimbabwe Patriotic Front
 197908230001,Argentina,-31.399301,-64.182129,0.0,,Business,Unknown
 197908230002,West Germany (FRG),50.11797,8.644191,0.0,,Business,Territorial Resistance Army
 197908230003,Spain,43.338233,-1.789272,0.0,,Government (General),Basque Fatherland and Freedom (ETA)
@@ -2013,17 +1904,13 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197909170001,El Salvador,13.69288,-89.199161,0.0,,Business,People's Liberation Forces (FPL)
 197909170002,El Salvador,13.69288,-89.199161,0.0,,Business,People's Liberation Forces (FPL)
 197909170003,El Salvador,13.69288,-89.199161,0.0,,Business,People's Liberation Forces (FPL)
-197909170004,Guatemala,,,,,Airports & Aircraft,Guatemalan Labor Party (PGT)
 197909170005,Spain,43.291618,-1.977903,0.0,,Police,Basque Fatherland and Freedom (ETA)
 197909170006,Colombia,10.333818,-73.181276,1.0,,Private Citizens & Property,Unknown
 197909170007,Italy,45.072731,7.679541,0.0,,Police,Red Brigades
-197909170008,Rhodesia,,,1.0,,Government (General),Zimbabwe Patriotic Front
 197909170009,Turkey,40.614334,43.101224,1.0,,Government (General),Unknown
 197909170010,Turkey,37.067631,37.37315,1.0,,Government (General),Unknown
 197909170011,Uganda,0.350848,32.580224,7.0,,Government (General),Unknown
-197909170012,Colombia,,,,,Business,Revolutionary Organization of People in Arms (ORPA)
 197909170013,Guatemala,14.75,-91.68333,0.0,,Business,Revolutionary Organization of People in Arms (ORPA)
-197909170014,Guatemala,,,,,Business,Guatemalan Labor Party (PGT)
 197909170015,Iran,34.640097,50.875948,0.0,,Private Citizens & Property,Forqan Group
 197909180001,Austria,46.66207,14.63359,0.0,,Private Citizens & Property,Unknown
 197909180002,Austria,46.66207,14.63359,0.0,,Unknown,Unknown
@@ -2037,7 +1924,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197909190006,El Salvador,13.69288,-89.199161,0.0,,Government (General),People's Liberation Forces (FPL)
 197909190007,Turkey,41.106178,28.689863,1.0,,Journalists & Media,Turkish People's Liberation Army
 197909190008,Colombia,4.667128,-74.106056,0.0,,Business,Unknown
-197909190009,United Arab Emirates,,,,,Religious Figures/Institutions,Unknown
 197909200001,Israel,32.08297,34.811886,0.0,,Transportation,Al-Fatah
 197909200002,Israel,32.08297,34.811886,0.0,,Transportation,Palestinians
 197909200003,Colombia,2.243589,-77.010385,1.0,,Business,Revolutionary Armed Forces of Colombia (FARC)
@@ -2064,7 +1950,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197909220009,Namibia,-18.623616,17.516841,4.0,,Private Citizens & Property,South-West Africa People's Organization (SWAPO)
 197909220010,Spain,40.465595,-3.696263,0.0,,Police,First of October Antifascist Resistance Group (GRAPO)
 197909230001,France,48.856644,2.34233,0.0,,Military,Neo-Nazi extremists
-197909230002,Ethiopia,,,1.0,,Government (General),Ethiopian People's Revolutionary Party
 197909230003,Spain,43.291618,-1.977903,1.0,,Military,Basque Fatherland and Freedom (ETA)
 197909230004,El Salvador,13.69288,-89.199161,3.0,,Military,People's Liberation Forces (FPL)
 197909230005,Spain,42.815372,-1.653616,0.0,,Police,Basque Fatherland and Freedom (ETA)
@@ -2108,7 +1993,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197909290001,Turkey,39.930771,32.76754,0.0,,Airports & Aircraft,Armenian Secret Army for the Liberation of Armenia
 197909290002,Spain,43.209374,-2.804965,0.0,,Government (General),Basque Fatherland and Freedom (ETA)
 197909290003,United Kingdom,54.607712,-5.95621,0.0,,Business,Irish Republican Army (IRA)
-197909290004,El Salvador,,,4.0,,Military,Popular Revolutionary Bloc (BPR)
 197909300001,Iran,31.285506,48.643416,,,Telecommunication,Arab Separatists
 197909300002,Spain,43.317073,-2.678975,1.0,,Police,Basque Fatherland and Freedom (ETA)
 197909300003,Spain,43.258434,-2.921819,1.0,,Business,Basque Fatherland and Freedom (ETA)
@@ -2130,7 +2014,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197910010013,Libya,32.867867,13.189067,0.0,,Violent Political Party,Unknown
 197910020001,Colombia,6.48927,-74.40176,7.0,,Military,Revolutionary Armed Forces of Colombia (FARC)
 197910020002,Iran,30.442694,48.183987,0.0,,Government (General),Unknown
-197910020003,West Bank and Gaza Strip,,,0.0,,Business,Palestinians
 197910020004,El Salvador,13.69288,-89.199161,2.0,,Military,People's Liberation Forces (FPL)
 197910020005,El Salvador,13.819602,-87.83913,2.0,,Military,People's Liberation Forces (FPL)
 197910020006,Iran,36.7652,45.722417,0.0,,Journalists & Media,Unknown
@@ -2203,7 +2086,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197910100006,El Salvador,13.718889,-89.724167,0.0,,Business,People's Liberation Forces (FPL)
 197910100007,El Salvador,13.734167,-89.714722,,,Government (General),People's Liberation Forces (FPL)
 197910100008,Spain,43.291618,-1.977903,0.0,,Business,Basque Fatherland and Freedom (ETA)
-197910100009,Spain,,,0.0,,Police,Basque Fatherland and Freedom (ETA)
 197910100010,Honduras,14.0833,-87.2167,1.0,,Military,Unknown
 197910100011,Iran,35.724533,51.40519,0.0,,Government (General),Forqan Group
 197910100012,Nicaragua,12.103822,-86.267014,0.0,,Government (Diplomatic),Unknown
@@ -2326,7 +2208,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197910290001,El Salvador,13.69288,-89.199161,0.0,,Business,People's Liberation Forces (FPL)
 197910290002,El Salvador,13.981479,-89.555717,1.0,,Military,People's Liberation Forces (FPL)
 197910290003,El Salvador,13.69288,-89.199161,,,Journalists & Media,Popular Revolutionary Bloc (BPR)
-197910290004,Philippines,,,,,Business,Moro National Liberation Front (MNLF)
 197910290005,Venezuela,6.926948,-68.524715,,,Military,Unknown
 197910290006,United Kingdom,54.50853,-6.763131,1.0,,Military,Irish Republican Army (IRA)
 197910300001,El Salvador,13.69288,-89.199161,2.0,,Private Citizens & Property,Armed Forces of National Resistance (FARN)
@@ -2336,8 +2217,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197910310001,Spain,43.258434,-2.921819,1.0,,Police,Basque Fatherland and Freedom (ETA)
 197910310002,El Salvador,13.69288,-89.199161,,,Government (Diplomatic),Armed Forces of National Resistance (FARN)
 197910310003,El Salvador,13.5,-88.866667,6.0,,Military,Unknown
-197911000001,El Salvador,,,,,Airports & Aircraft,People's Liberation Forces (FPL)
-197911000002,El Salvador,,,,,Airports & Aircraft,People's Liberation Forces (FPL)
 197911010001,Israel,32.08297,34.811886,1.0,,Transportation,Palestinians
 197911010002,Israel,32.08297,34.811886,0.0,,Transportation,Palestinians
 197911010003,El Salvador,13.69288,-89.199161,1.0,,Business,Armed Forces of National Resistance (FARN)
@@ -2396,10 +2275,8 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197911120006,El Salvador,13.69288,-89.199161,,,Government (Diplomatic),Unknown
 197911130001,United Kingdom,54.077313,-6.608787,1.0,,Military,Irish Republican Army (IRA)
 197911130002,Argentina,-34.61768,-58.444435,2.0,,Business,Montoneros (Argentina)
-197911130003,El Salvador,,,6.0,,Government (General),People's Liberation Forces (FPL)
 197911130004,Spain,40.465595,-3.696263,0.0,,Journalists & Media,Basque Fatherland and Freedom (ETA)
 197911130005,Argentina,-34.61768,-58.444435,4.0,,Government (General),Montoneros (Argentina)
-197911130006,Colombia,,,2.0,,Police,Revolutionary Armed Forces of Colombia (FARC)
 197911130007,Colombia,3.273849,-75.746079,,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
 197911130008,Portugal,38.725299,-9.150036,1.0,,Government (Diplomatic),Unknown
 197911140001,El Salvador,13.69288,-89.199161,,,Business,Unknown
@@ -2411,7 +2288,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197911150005,El Salvador,13.69288,-89.199161,0.0,,Business,Unknown
 197911150006,Nicaragua,12.103822,-86.267014,1.0,,Government (General),Unknown
 197911150008,South Africa,-26.252697,27.870275,2.0,,Police,African National Congress (South Africa)
-197911150009,South Africa,,,0.0,,Police,African National Congress (South Africa)
 197911160001,Argentina,-34.61768,-58.444435,0.0,,Military,Montoneros (Argentina)
 197911160002,Guatemala,14.622869,-90.529068,2.0,,Police,Guerrilla Army of the Poor (EGP)
 197911160003,Guatemala,14.622869,-90.529068,1.0,,Journalists & Media,Unknown
@@ -2435,7 +2311,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197911200001,Turkey,41.106178,28.689863,1.0,,Educational Institution,Turkish People's Liberation Army
 197911200002,Saudi Arabia,21.422512,39.826209,5.0,,Religious Figures/Institutions,Union of the Peoples of the Arabian Peninsula
 197911210001,Italy,44.407062,8.933989,2.0,,Police,Red Brigades
-197911210002,Iraq,,,,,Government (General),Barzani Guerrillas
 197911210004,United States,40.697132,-73.931351,0.0,"11/21/1979: The Islamic Center of Corona Inc., in Queens, New York, United States, was set afire by three male youths. Before setting the fire, the youths painted the words ""Free Americans or You All Will Die"" on the wall of the Center. Then, they broke a window and poured flammable liquid into the wooden building, and ignited it. There were no casualties in this incident, and there was light damage to the front door and first floor of the building. Though the fire spread to the adjoining building, no serious damage occurred there. The fire was set, apparently to protest the holding of American hostages in Iran at the captured American Embassy in Tehran.",Religious Figures/Institutions,Unknown
 197911220001,Colombia,5.82696,-73.03441,0.0,,Private Citizens & Property,M-19 (Movement of April 19)
 197911220002,Pakistan,33.594013,73.069077,,,Private Citizens & Property,Mob
@@ -2475,7 +2350,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197911270004,Colombia,6.64003,-75.64636,2.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
 197911270005,Colombia,6.355278,-74.844444,,,Business,M-19 (Movement of April 19)
 197911270006,France,48.856644,2.34233,0.0,,Airports & Aircraft,Armenian Secret Army for the Liberation of Armenia
-197911280001,Lebanon,,,0.0,,Private Citizens & Property,Palestinians
 197911280002,Thailand,13.785793,100.560852,0.0,,Government (Diplomatic),Unknown
 197911280003,Chile,-33.366238,-70.505302,0.0,,Police,Movement of the Revolutionary Left (MIR) (Chile)
 197911280004,El Salvador,13.738762,-89.054916,1.0,,Government (General),People's Liberation Forces (FPL)
@@ -2493,7 +2367,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197912000002,El Salvador,13.69288,-89.199161,1.0,,Government (General),Unknown
 197912000003,El Salvador,13.69288,-89.199161,0.0,,Business,Popular Revolutionary Bloc (BPR)
 197912000004,El Salvador,13.749987,-89.423305,,,Business,Popular Revolutionary Bloc (BPR)
-197912000005,El Salvador,,,35.0,,Business,February 28 Popular League (El Salvador)
 197912000006,El Salvador,13.69288,-89.199161,1.0,,Government (General),Right-Wing Group
 197912010001,Chile,-33.366238,-70.505302,0.0,,Police,Movement of the Revolutionary Left (MIR) (Chile)
 197912010002,Italy,40.840097,14.251636,0.0,,Police,Prima Linea
@@ -2540,7 +2413,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197912090001,Italy,41.890961,12.490069,0.0,,Airports & Aircraft,New Armenian Resistance
 197912090002,Italy,41.890961,12.490069,0.0,,Airports & Aircraft,New Armenian Resistance
 197912090003,Italy,41.890961,12.490069,0.0,,Airports & Aircraft,New Armenian Resistance
-197912090004,El Salvador,,,1.0,,Private Citizens & Property,People's Liberation Forces (FPL)
 197912090005,El Salvador,13.69288,-89.199161,1.0,,Business,People's Liberation Forces (FPL)
 197912090006,United States,18.234921,-65.635338,0.0,,Military,Puerto Rican Nationalists
 197912090007,Italy,41.890961,12.490069,,,Tourists,Armenian Secret Army for the Liberation of Armenia
@@ -2573,7 +2445,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197912140007,Italy,45.072731,7.679541,0.0,,Business,Red Brigades
 197912140008,Italy,45.072731,7.679541,0.0,,Business,Red Brigades
 197912140009,Nicaragua,12.103822,-86.267014,0.0,,Educational Institution,Counter-revolutionaries
-197912150001,El Salvador,,,3.0,,Government (General),People's Liberation Forces (FPL)
 197912150002,Italy,45.072731,7.679541,1.0,,Police,Prima Linea
 197912150003,South Africa,-32.788923,26.832659,0.0,,Transportation,African National Congress (South Africa)
 197912160001,Guatemala,14.622869,-90.529068,,,Private Citizens & Property,Guerrilla Army of the Poor (EGP)

@@ -140,7 +140,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197403240004,United Kingdom,54.607712,-5.95621,1.0,,Private Citizens & Property,Ulster Volunteer Force (UVF)
 197403250001,Argentina,-34.61768,-58.444435,1.0,,Business,Unknown
 197403250002,Argentina,-34.68631,-58.528473,,,Business,Unknown
-197403260001,Ethiopia,,,,,Business,Eritrean Liberation Front
 197403260002,Jamaica,18.021429,-76.798279,0.0,,Government (Diplomatic),National Front for the Liberation of Cuba (FLNC)
 197403260003,United Kingdom,54.138781,-1.524212,0.0,,Military,Irish Republican Army (IRA)
 197403260004,United Kingdom,54.607712,-5.95621,1.0,,Private Citizens & Property,Irish Republican Army (IRA)
@@ -236,7 +235,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197405240006,United Kingdom,54.607712,-5.95621,1.0,,Military,Irish Republican Army (IRA)
 197405250001,United Kingdom,54.607712,-5.95621,1.0,,Private Citizens & Property,Protestant extremists
 197405270001,Argentina,-31.399301,-64.182129,1.0,,Government (General),Unknown
-197405270002,Ethiopia,,,1.0,,Business,Eritrean Liberation Front
 197405280001,Italy,45.539838,10.222956,8.0,,Government (General),Black Order
 197405280002,Lebanon,33.888523,35.503513,,,Government (Diplomatic),Revolutionary Arab Youth Organization
 197405290001,West Germany (FRG),52.50153,13.401851,0.0,,Airports & Aircraft,Organization of the Sons of Occupied Territories
@@ -298,7 +296,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197406240006,United Kingdom,55.011562,-7.312045,2.0,,Terrorists/Non-State Militia,Irish Republican Army (IRA)
 197406250001,Israel,33.004219,35.092571,14.0,,Private Citizens & Property,Black September
 197406300001,United Kingdom,54.607712,-5.95621,1.0,,Military,Irish Republican Army (IRA)
-197407000001,Netherlands,,,1.0,,Government (General),South Moluccans
 197407020001,United Kingdom,54.192934,-6.576051,1.0,,Military,Irish Republican Army (IRA)
 197407030001,Lebanon,33.888523,35.503513,0.0,,Journalists & Media,Unknown
 197407030002,France,48.856644,2.34233,0.0,,Government (Diplomatic),National Front for the Liberation of Cuba (FLNC)
@@ -306,7 +303,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197407120001,United Kingdom,54.607712,-5.95621,1.0,,Terrorists/Non-State Militia,Irish Republican Army (IRA)
 197407120002,United Kingdom,54.65548,-5.674815,1.0,,Private Citizens & Property,Ulster Volunteer Force (UVF)
 197407140001,France,43.091463,-0.045726,,,Private Citizens & Property,International Revolutionary Action Group (GARI)
-197407140002,Andorra,,,,,Business,International Revolutionary Action Group (GARI)
 197407140003,France,48.856644,2.34233,,,Transportation,International Revolutionary Action Group (GARI)
 197407150001,Japan,34.784306,135.400947,0.0,,Airports & Aircraft,Unknown
 197407160001,France,43.091463,-0.045726,0.0,,Private Citizens & Property,International Revolutionary Action Group (GARI)

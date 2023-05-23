@@ -1,5 +1,4 @@
 eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
-197300000001,Colombia,,,0.0,,Business,National Liberation Army of Colombia (ELN)
 197301010001,Ireland,55.068445,-7.355583,2.0,,Private Citizens & Property,Ulster Freedom Fighters (UFF)
 197301020001,Dominican Republic,19.45,-70.7,0.0,,Private Citizens & Property,Red June of 14 June
 197301020003,United Kingdom,54.595455,-5.797763,1.0,,Private Citizens & Property,Protestant extremists
@@ -46,7 +45,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197301310003,United Kingdom,54.607712,-5.95621,1.0,,Private Citizens & Property,Protestant extremists
 197302010001,United Kingdom,54.607712,-5.95621,1.0,,Private Citizens & Property,Ulster Freedom Fighters (UFF)
 197302010002,United Kingdom,54.819164,-7.467909,1.0,,Military,Irish Republican Army (IRA)
-197302020001,Argentina,,,1.0,,Military,Unknown
 197302020002,Greece,37.99749,23.762728,0.0,,Military,Unknown
 197302020003,United Kingdom,54.607712,-5.95621,1.0,,Private Citizens & Property,Irish Republican Army (IRA)
 197302020004,United Kingdom,54.607712,-5.95621,1.0,,Private Citizens & Property,Protestant extremists
@@ -150,7 +148,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197304140002,United Kingdom,54.607712,-5.95621,1.0,,Terrorists/Non-State Militia,Ulster Volunteer Force (UVF)
 197304150001,Argentina,-34.68631,-58.528473,,,Military,Unknown
 197304150002,United Kingdom,54.607712,-5.95621,1.0,,Private Citizens & Property,Protestant extremists
-197304160001,Myanmar,,,0.0,,Private Citizens & Property,Shan Insurgents
 197304160002,Lebanon,33.429566,35.45704,0.0,,Utilities,Black September
 197304160003,United States,38.908642,-77.015381,0.0,,Government (Diplomatic),Black September
 197304170001,Argentina,-34.61768,-58.444435,0.0,,Police,Ejercito Revolucionaria del Pueblo (ERP) (Argentina)
@@ -222,7 +219,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197306020002,United Kingdom,54.607712,-5.95621,1.0,,Private Citizens & Property,Protestant extremists
 197306030001,United Kingdom,54.607712,-5.95621,2.0,,Private Citizens & Property,Unknown
 197306050001,United States,40.697132,-73.931351,1.0,,Police,Black Liberation Army
-197306050002,Spain,,,,,Business,Iberian Liberation Movement (MIL)
 197306050003,United Kingdom,54.345417,-7.636355,1.0,,Police,Irish Republican Army (IRA)
 197306050004,United Kingdom,54.409928,-7.172562,1.0,,Private Citizens & Property,Irish Republican Army (IRA)
 197306060002,West Germany (FRG),49.4447,7.769004,,,Government (General),Baader-Meinhof Group
@@ -319,7 +315,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197309000002,Spain,40.465595,-3.696263,,,Airports & Aircraft,Revolutionary Communist League (LCR) (Spain)
 197309000003,Spain,41.400635,2.150913,,,Business,Revolutionary Communist League (LCR) (Spain)
 197309040001,United States,40.73197,-74.174184,1.0,,Religious Figures/Institutions,Unknown
-197309050001,Argentina,,,1.0,,Military,Ejercito Revolucionaria del Pueblo (ERP) (Argentina)
 197309050002,Italy,41.733244,12.278939,0.0,,Airports & Aircraft,Black September
 197309050003,France,48.856644,2.34233,0.0,,Government (Diplomatic),Black September
 197309050004,United Kingdom,54.296399,-7.871465,1.0,,Private Citizens & Property,Irish Republican Army (IRA)
@@ -346,7 +341,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197309250001,United Kingdom,52.482961,-1.893592,1.0,,Military,Irish Republican Army (IRA)
 197309250002,United Kingdom,54.673252,-7.627484,1.0,,Terrorists/Non-State Militia,Official Irish Republican Army (OIRA)
 197309260001,United States,29.951027,-90.071422,0.0,"09/26/1973: Byron de la Beckwith was arrested on Interstate 10 on his way into New Orleans in the United States, for transporting a ticking bomb, which was allegedly meant to kill the regional director of the Anti-Defamation League , A.I. Botnick. Allegedly, Beckwith was headed for Botnick's house at the time he was stopped at a roadblock by police.",Private Citizens & Property,White supremacists/nationalists
-197309280001,Austria,,,0.0,,Private Citizens & Property,Black September
 197309280002,Dominican Republic,18.456792,-69.951164,0.0,,Government (Diplomatic),Unknown
 197309280003,Italy,41.890961,12.490069,0.0,,Business,Armed Proletarian Nuclei (NAP)
 197309280004,United States,40.697132,-73.931351,0.0,,Business,"Weather Underground, Weathermen"
@@ -357,7 +351,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197310010002,United Kingdom,54.607712,-5.95621,1.0,,Private Citizens & Property,Ulster Volunteer Force (UVF)
 197310030001,United Kingdom,55.011562,-7.312045,1.0,,Military,Irish Republican Army (IRA)
 197310030002,United Kingdom,54.463367,-6.328597,1.0,,Military,Irish Republican Army (IRA)
-197310040001,Colombia,,,0.0,,Business,National Liberation Army of Colombia (ELN)
 197310040002,West Germany (FRG),52.372068,9.735686,,,Military,Unknown
 197310040003,West Germany (FRG),52.372068,9.735686,0.0,,Private Citizens & Property,Unknown
 197310050001,Argentina,-34.61768,-58.444435,1.0,,Police,Ejercito Revolucionaria del Pueblo (ERP) (Argentina)
@@ -411,7 +404,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197311210001,Argentina,-34.61768,-58.444435,0.0,,Government (General),Unknown
 197311220001,Argentina,-31.399301,-64.182129,1.0,,Business,Ejercito Revolucionaria del Pueblo (ERP) (Argentina)
 197311230001,Argentina,-34.61768,-58.444435,,,Business,Unknown
-197311240001,Venezuela,,,,,Utilities,Movement of the Revolutionary Left (MIR) (Venezuela)
 197311240002,United Kingdom,54.347539,-6.656108,1.0,,Military,Irish Republican Army (IRA)
 197311240003,United Kingdom,54.607712,-5.95621,1.0,,Military,Irish Republican Army (IRA)
 197311250001,Spain,43.054198,-2.178116,,,Military,Unknown

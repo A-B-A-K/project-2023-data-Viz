@@ -13,9 +13,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199201010010,El Salvador,13.69288,-89.199161,0.0,,Journalists & Media,Unknown
 199201010011,El Salvador,13.69288,-89.199161,0.0,,Journalists & Media,Unknown
 199201020001,South Africa,-26.252697,27.870275,2.0,,Police,Pan Africanist Congress (PAC)
-199201020002,Colombia,,,0.0,,Transportation,National Liberation Army of Colombia (ELN)
-199201020003,Colombia,,,0.0,,Transportation,National Liberation Army of Colombia (ELN)
-199201020004,Colombia,,,0.0,,Transportation,National Liberation Army of Colombia (ELN)
 199201020005,Colombia,8.511375,-73.446796,0.0,,Transportation,National Liberation Army of Colombia (ELN)
 199201020006,Germany,53.553813,9.991586,0.0,,Government (Diplomatic),Basque Fatherland and Freedom (ETA)
 199201020007,South Africa,-25.862732,28.192523,0.0,,Government (General),Right-wing extremists
@@ -62,10 +59,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199201060012,Russia,43.320229,45.654491,1.0,,Military,Unknown
 199201060013,Philippines,8.004674,124.2913,0.0,,Religious Figures/Institutions,Unknown
 199201070001,Philippines,14.596051,120.978666,1.0,,Business,Unknown
-199201070002,Bolivia,,,0.0,,Utilities,Tupac Katari Guerrilla Army (EGTK)
-199201070003,Bolivia,,,0.0,,Transportation,Tupac Katari Guerrilla Army (EGTK)
-199201070004,Bolivia,,,0.0,,Utilities,Tupac Katari Guerrilla Army (EGTK)
-199201070005,Bolivia,,,0.0,,Utilities,Tupac Katari Guerrilla Army (EGTK)
 199201070006,Chile,-33.366238,-70.505302,0.0,,Government (General),Unknown
 199201070007,South Africa,-26.184113,28.033232,0.0,,Business,Azania People's Organization (AZAPO)
 199201080001,Colombia,3.429344,-76.516037,1.0,,Terrorists/Non-State Militia,Unknown
@@ -85,8 +78,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199201080015,Nicaragua,12.961756,-86.344276,1.0,,Terrorists/Non-State Militia,Recompras
 199201080016,Peru,-14.770568,-70.902665,2.0,,Police,Shining Path (SL)
 199201080017,Peru,-12.12242,-76.013308,6.0,,Police,Unknown
-199201080018,Peru,,,5.0,,Military,Shining Path (SL)
-199201080019,Peru,,,4.0,,Police,Shining Path (SL)
 199201080020,Peru,-8.18885,-76.510838,6.0,,Military,Shining Path (SL)
 199201080021,Colombia,3.800889,-76.641271,0.0,,Government (General),Unknown
 199201080023,Colombia,3.322222,-76.234722,1.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
@@ -143,7 +134,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199201130010,United Kingdom,54.607712,-5.95621,0.0,,Private Citizens & Property,Unknown
 199201130012,Colombia,4.092517,-75.154538,3.0,,Police,Revolutionary Armed Forces of Colombia (FARC)
 199201130013,Colombia,3.7246,-75.4841,2.0,,Police,Unknown
-199201130014,Colombia,,,2.0,,Private Citizens & Property,Simon Bolivar Guerrilla Coordinating Board (CGSB)
 199201130015,Colombia,7.060051,-73.853115,3.0,,Military,National Liberation Army of Colombia (ELN)
 199201140001,Lebanon,33.888523,35.503513,1.0,,Private Citizens & Property,Unknown
 199201140002,United Kingdom,54.607712,-5.95621,1.0,,Business,Ulster Freedom Fighters (UFF)
@@ -156,7 +146,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199201140009,Colombia,8.833351,-73.200031,0.0,,Utilities,National Liberation Army of Colombia (ELN)
 199201140010,United Kingdom,54.607712,-5.95621,0.0,,Business,Irish Republican Army (IRA)
 199201140011,Colombia,9.70219,-73.27915,3.0,,Police,National Liberation Army of Colombia (ELN)
-199201140012,Colombia,,,2.0,,Military,National Liberation Army of Colombia (ELN)
 199201140013,Ecuador,-2.134982,-79.587118,1.0,,Government (General),Unknown
 199201140014,West Bank and Gaza Strip,31.907141,35.198219,0.0,,Transportation,Hezbollah Palestine
 199201140015,Peru,-13.508825,-72.527962,20.0,,Police,Shining Path (SL)
@@ -169,7 +158,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199201150005,Peru,-11.495531,-77.207192,1.0,,Police,Shining Path (SL)
 199201150006,Somalia,-0.357847,42.54665,1.0,,NGO,Unknown
 199201150007,Spain,39.470239,-0.376805,1.0,,Educational Institution,Basque Fatherland and Freedom (ETA)
-199201150008,Colombia,,,2.0,,Military,National Liberation Army of Colombia (ELN)
 199201150009,Colombia,7.060051,-73.853115,0.0,,Military,Unknown
 199201150010,Ecuador,-2.170832,-79.922359,0.0,,Private Citizens & Property,Workers/Employees
 199201150011,Mozambique,-25.908271,32.489861,2.0,,Government (General),Mozambique National Resistance Movement (MNR)
@@ -194,7 +182,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199201170005,Lebanon,33.145,35.364444,2.0,,Terrorists/Non-State Militia,Hezbollah
 199201170006,United Kingdom,54.645861,-6.745149,8.0,,Business,Irish Republican Army (IRA)
 199201170007,Panama,8.994269,-79.518792,0.0,,Business,Unknown
-199201170008,Philippines,,,0.0,,Utilities,Moro National Liberation Front (MNLF)
 199201170009,Colombia,3.460565,-73.619591,5.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
 199201170010,Colombia,3.2694,-73.37616,1.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
 199201170011,Djibouti,11.519184,42.262496,61.0,,Military,Front for the Restoration of Unity and Democracy
@@ -228,7 +215,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199201200006,Pakistan,25.389288,68.357338,0.0,,Transportation,Unknown
 199201200007,Pakistan,25.416302,68.286728,0.0,,Transportation,Unknown
 199201200008,India,34.08374,74.789902,0.0,,Government (General),Muslim Militants
-199201200009,Lebanon,,,0.0,,Military,Hezbollah
 199201200010,Pakistan,25.389288,68.357338,1.0,,Private Citizens & Property,Unknown
 199201200011,Sri Lanka,7.716666,81.700188,0.0,,Government (General),Liberation Tigers of Tamil Eelam (LTTE)
 199201210001,United Kingdom,54.347539,-6.656108,0.0,,Private Citizens & Property,Unknown
@@ -301,11 +287,9 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199201260004,West Bank and Gaza Strip,32.373376,35.155885,3.0,,Private Citizens & Property,Revolutionary Security Apparatus
 199201260005,United Kingdom,54.607712,-5.95621,0.0,,Police,Irish Republican Army (IRA)
 199201260006,Chile,-33.366238,-70.505302,0.0,,Private Citizens & Property,Unknown
-199201260007,Colombia,,,7.0,,Military,Simon Bolivar Guerrilla Coordinating Board (CGSB)
 199201260008,Nicaragua,13.62679,-85.8254,6.0,,Police,Recompras
 199201260009,United Kingdom,54.607712,-5.95621,0.0,,Police,Irish Republican Army (IRA)
 199201260010,United Kingdom,54.607712,-5.95621,0.0,,Police,Irish Republican Army (IRA)
-199201260011,Peru,,,9.0,,Military,Shining Path (SL)
 199201260012,Sri Lanka,7.528,81.477833,13.0,,Transportation,Liberation Tigers of Tamil Eelam (LTTE)
 199201260013,Italy,45.694903,9.669953,0.0,,Private Citizens & Property,Unknown
 199201260014,United Kingdom,54.607712,-5.95621,1.0,,Private Citizens & Property,Protestant extremists
@@ -321,7 +305,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199201280003,Turkey,41.106178,28.689863,1.0,,Police,Unknown
 199201280004,Azerbaijan,39.756517,46.747628,47.0,,Private Citizens & Property,Armenian Guerrillas
 199201280005,Colombia,7.07386,-75.14591,5.0,,Private Citizens & Property,Simon Bolivar Guerrilla Coordinating Board (CGSB)
-199201280006,Colombia,,,3.0,,Military,Simon Bolivar Guerrilla Coordinating Board (CGSB)
 199201280007,West Bank and Gaza Strip,31.704338,35.194355,0.0,,Government (General),Hasmoneans (Jewish Settler Group)
 199201280008,Liberia,8.016772,-10.265123,7.0,,Military,National Patriotic Front of Liberia (NPFL)
 199201280009,Nicaragua,13.364485,-85.29338,2.0,,Terrorists/Non-State Militia,Recompras
@@ -331,7 +314,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199201290002,United Kingdom,54.607712,-5.95621,0.0,,Transportation,Irish Republican Army (IRA)
 199201290003,Spain,43.3282,-3.031509,0.0,,Business,Unknown
 199201290006,Mozambique,-25.891968,32.605135,18.0,,Private Citizens & Property,Mozambique National Resistance Movement (MNR)
-199201290007,Philippines,,,0.0,,Police,Moro National Liberation Front (MNLF)
 199201290008,Philippines,11.261504,122.536964,5.0,,Military,New People's Army (NPA)
 199201290009,Philippines,6.41871,121.972443,6.0,,Business,Moro National Liberation Front (MNLF)
 199201290010,Sri Lanka,8.577826,81.218719,13.0,,Military,Liberation Tigers of Tamil Eelam (LTTE)
@@ -379,14 +361,12 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199202010010,Sri Lanka,8.980118,79.912462,7.0,,Military,Liberation Tigers of Tamil Eelam (LTTE)
 199202020001,West Bank and Gaza Strip,31.502407,34.459743,2.0,,Private Citizens & Property,Palestinians
 199202020002,United Kingdom,54.607712,-5.95621,1.0,,Private Citizens & Property,Ulster Freedom Fighters (UFF)
-199202020003,Bangladesh,,,14.0,,Maritime,Shanti Bahini - Peace Force
 199202020004,United Kingdom,54.607712,-5.95621,0.0,,Business,Irish Republican Army (IRA)
 199202020005,Netherlands,51.985103,5.89873,0.0,,Military,Free All Political Prisoners in Holland
 199202020006,Peru,-9.590017,-76.502574,10.0,,Police,Shining Path (SL)
 199202020007,South Africa,-29.601439,30.376695,8.0,,Private Citizens & Property,Unknown
 199202030001,United Kingdom,54.50853,-6.763131,1.0,,Private Citizens & Property,Irish Republican Army (IRA)
 199202030002,India,30.245796,75.842072,0.0,,Transportation,Sikh Extremists
-199202030003,Philippines,,,1.0,,Business,Unknown
 199202030004,Sri Lanka,9.666399,80.020477,3.0,,Military,Liberation Tigers of Tamil Eelam (LTTE)
 199202030005,Turkey,36.99154,35.331051,1.0,,Police,Unknown
 199202030006,Turkey,41.106178,28.689863,3.0,,Police,Unknown
@@ -426,7 +406,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199202050017,Colombia,1.61456,-75.6053,0.0,,Business,Unknown
 199202060001,Thailand,13.545801,101.611769,1.0,,Government (General),Unknown
 199202060002,Turkey,41.106178,28.689863,3.0,,Government (General),Dev Sol
-199202060003,Yemen,,,1.0,,Government (General),Unknown
 199202060004,West Bank and Gaza Strip,32.177125,35.055965,0.0,,Military,Palestinians
 199202060005,Kenya,-1.28518,36.821107,0.0,,Government (General),God's Oppressed Army
 199202060006,Lebanon,33.214611,35.461758,0.0,,Terrorists/Non-State Militia,Hezbollah
@@ -437,7 +416,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199202070001,Afghanistan,34.516895,69.147011,0.0,,Government (General),Unknown
 199202070002,Guatemala,14.622869,-90.529068,0.0,,Tourists,Unknown
 199202070003,South Africa,-29.965819,30.882976,1.0,,Government (General),Unknown
-199202070004,Yemen,,,2.0,,Government (General),Unknown
 199202070005,Peru,-11.967368,-76.978462,1.0,,Government (General),Shining Path (SL)
 199202070006,Peru,-11.967368,-76.978462,1.0,,Government (General),Shining Path (SL)
 199202070007,Peru,-11.967368,-76.978462,0.0,,Police,Shining Path (SL)
@@ -469,7 +447,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199202080014,India,34.08374,74.789902,0.0,,Government (General),Unknown
 199202090001,Colombia,8.60075,-73.58638,0.0,,Utilities,National Liberation Army of Colombia (ELN)
 199202090002,Turkey,41.106178,28.689863,0.0,,Military,Kurdistan Workers' Party (PKK)
-199202090003,Guatemala,,,5.0,,Transportation,Unknown
 199202090004,Niger,16.974169,7.986535,3.0,,Military,Tuareg Guerrillas
 199202100001,Algeria,36.742386,3.722816,2.0,,Police,Islamic Salvation Front (FIS)
 199202100002,India,30.34,76.38,1.0,,Educational Institution,Sikh Extremists
@@ -500,9 +477,7 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199202110006,Peru,-11.967368,-76.978462,0.0,,Military,Shining Path (SL)
 199202110007,United Kingdom,51.504387,-0.140041,0.0,,Government (General),Irish Republican Army (IRA)
 199202110008,Japan,35.689125,139.747742,0.0,,Government (General),Great Japan Patriotic Party
-199202110009,Turkey,,,1.0,,Police,Kurdistan Workers' Party (PKK)
 199202120001,France,48.856644,2.34233,1.0,,Airports & Aircraft,Unknown
-199202120002,Guatemala,,,4.0,,Private Citizens & Property,Unknown
 199202120003,Haiti,18.527716,-72.33284,0.0,,Government (General),Unknown
 199202120004,Sri Lanka,9.666399,80.020477,0.0,,Business,Liberation Tigers of Tamil Eelam (LTTE)
 199202120005,Sweden,57.696994,11.9865,0.0,,Private Citizens & Property,Unknown
@@ -510,7 +485,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199202120007,India,30.210994,74.945474,5.0,,Transportation,Sikh Extremists
 199202120008,India,26.846694,80.946166,5.0,,Private Citizens & Property,Hindu extremists
 199202120010,West Bank and Gaza Strip,31.346964,34.30143,1.0,,Military,Palestinians
-199202120011,Sudan,,,7.0,,Private Citizens & Property,Sudan People's Liberation Army (SPLA)
 199202120012,Venezuela,6.205924,-67.454218,0.0,,Military,Colombian Guerrillas
 199202130001,Peru,-11.967368,-76.978462,1.0,,Business,Unknown
 199202130002,United Kingdom,55.011562,-7.312045,0.0,,Private Citizens & Property,Irish Republican Army (IRA)
@@ -546,7 +520,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199202150014,Philippines,7.083241,125.600998,0.0,,Business,New People's Army (NPA)
 199202150015,Philippines,7.083241,125.600998,1.0,,Police,New People's Army (NPA)
 199202150016,Peru,-11.967368,-76.978462,1.0,,Government (General),Shining Path (SL)
-199202160002,India,,,5.0,,Violent Political Party,Sikh Extremists
 199202160003,United Kingdom,54.607712,-5.95621,0.0,,Business,Unknown
 199202160004,United Kingdom,54.607712,-5.95621,0.0,,Business,Unknown
 199202160006,Mozambique,-15.470505,39.616978,0.0,,Private Citizens & Property,Mozambique National Resistance Movement (MNR)
@@ -611,7 +584,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199202200005,Turkey,41.106178,28.689863,1.0,,Private Citizens & Property,Kurdistan Workers' Party (PKK)
 199202200006,Venezuela,10.482834,-66.962128,0.0,,Private Citizens & Property,Unknown
 199202200007,Georgia,42.268768,42.061798,3.0,,Military,Unknown
-199202200008,Peru,,,1.0,,Police,Shining Path (SL)
 199202200009,Peru,-11.967368,-76.978462,2.0,,Police,Shining Path (SL)
 199202200010,Sri Lanka,9.66123,80.02558,1.0,,Military,Liberation Tigers of Tamil Eelam (LTTE)
 199202210001,West Bank and Gaza Strip,32.191238,34.975953,0.0,,Private Citizens & Property,Palestinians
@@ -648,7 +620,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199202240002,Colombia,4.667128,-74.106056,1.0,,Private Citizens & Property,Unknown
 199202240003,India,31.633078,74.878288,9.0,,Private Citizens & Property,Sikh Extremists
 199202240004,West Bank and Gaza Strip,32.460617,35.301247,1.0,,Police,Unknown
-199202240005,Spain,,,0.0,,Transportation,Basque Fatherland and Freedom (ETA)
 199202240006,Turkey,37.885793,41.130124,1.0,,Journalists & Media,Unknown
 199202240007,Georgia,42.973782,41.44218,0.0,,Transportation,Unknown
 199202240008,Guatemala,14.622869,-90.529068,0.0,,Educational Institution,Unknown
@@ -670,7 +641,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199202250012,South Africa,-26.184113,28.033232,6.0,,Transportation,Unknown
 199202250013,Turkey,37.080181,41.220196,0.0,,Police,Unknown
 199202260001,Bangladesh,22.798224,91.988153,0.0,,Private Citizens & Property,Shanti Bahini - Peace Force
-199202260002,Philippines,,,2.0,,Police,New People's Army (NPA)
 199202260003,Greece,37.99749,23.762728,0.0,,Police,November 17 Revolutionary Organization (N17RO)
 199202260004,Bangladesh,23.169875,92.198367,2.0,,Private Citizens & Property,Shanti Bahini - Peace Force
 199202260005,Barbados,13.20232,-59.52676,3.0,,Tourists,Unknown
@@ -691,7 +661,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199202280005,Colombia,8.04053,-77.09336,0.0,,Private Citizens & Property,Unknown
 199202280006,Pakistan,27.090406,67.734592,0.0,,Private Citizens & Property,Unknown
 199202280007,United States,42.731684,-84.477764,0.0,"02/28/1992: Members of the Animal Liberation Front (ALF) were responsible for breaking into two animal research buildings on the Michigan State University campus in East Lansing, Michigan, in the United States, and vandalizing and setting fire to the offices of animal science professors Richard Aulerich and Karen Chou, releasing mink, and destroying research documents and pouring sulfuric acid into feeders at the poultry research facility of professor Aulerich , causing $125,000 in damages and destroying 32 years of laboratory research. Two other offices, a conference room, and a reception area were also damaged by the spreading fire. There were no casualties in the incident. ALF member, Rodney Coronado was indicted for the incident, and pled guilty. He ultimately spent three and a half years in prison for fur industry arsons during his Operation Bite Back.",Educational Institution,Animal Liberation Front (ALF)
-199202290001,Philippines,,,1.0,,Government (General),New People's Army (NPA)
 199202290002,Turkey,37.885793,41.130124,1.0,,Business,Unknown
 199202290003,Israel,31.771599,35.2034,0.0,,Government (General),Palestinians
 199202290004,United Kingdom,51.504387,-0.140041,0.0,,Business,Irish Republican Army (IRA)
@@ -701,7 +670,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199202290008,Peru,-9.40947,-75.971723,2.0,,Terrorists/Non-State Militia,Death Squad
 199202290009,Turkey,37.922218,40.184376,2.0,,Private Citizens & Property,Kurdistan Workers' Party (PKK)
 199203010001,Colombia,10.981412,-74.778319,10.0,,Private Citizens & Property,Death Squad
-199203010002,Philippines,,,2.0,,Government (General),New People's Army (NPA)
 199203010003,South Africa,-29.601439,30.376695,0.0,,Violent Political Party,Unknown
 199203010004,South Africa,-26.252697,27.870275,0.0,,Transportation,Unknown
 199203010005,West Bank and Gaza Strip,31.502407,34.459743,1.0,,Military,Palestinians
@@ -709,15 +677,12 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199203010007,United Kingdom,51.504387,-0.140041,0.0,,Transportation,Irish Republican Army (IRA)
 199203010008,Croatia,45.287984,18.802506,2.0,,Government (General),Unknown
 199203010009,Pakistan,31.975063,74.223297,2.0,,Police,Sikh Extremists
-199203010010,Indonesia,,,0.0,,Private Citizens & Property,Free Papua Movement (OPM-Organisasi Papua Merdeka)
-199203010011,Israel,,,3.0,,Military,Hezbollah
 199203010012,Philippines,8.004674,124.2913,1.0,,Government (General),Muslim Militants
 199203010013,South Africa,-26.184113,28.033232,2.0,,Transportation,Unknown
 199203010014,South Africa,-26.184113,28.033232,2.0,,Transportation,Unknown
 199203010017,India,33.778175,76.576171,0.0,,Government (General),Unknown
 199203020001,Ecuador,-0.618662,-80.427364,1.0,,Government (General),Unknown
 199203020002,Peru,-11.495531,-77.207192,8.0,,Private Citizens & Property,People's Guerrilla Front
-199203020003,Philippines,,,3.0,,Government (General),New People's Army (NPA)
 199203020004,South Africa,-26.252697,27.870275,2.0,,Transportation,Unknown
 199203020005,South Africa,-26.189151,28.31707,1.0,,Private Citizens & Property,Unknown
 199203020006,Colombia,7.198606,-75.341218,0.0,,Utilities,Simon Bolivar Guerrilla Coordinating Board (CGSB)
@@ -730,7 +695,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199203030003,India,31.954356,76.890832,0.0,,Government (General),Unknown
 199203030005,Colombia,10.744572,-75.263912,0.0,,Airports & Aircraft,Simon Bolivar Guerrilla Coordinating Board (CGSB)
 199203030006,Pakistan,24.891115,67.143311,0.0,,Private Citizens & Property,Unknown
-199203030007,Pakistan,,,0.0,,Government (General),Unknown
 199203030008,Pakistan,24.891115,67.143311,0.0,,Journalists & Media,Unknown
 199203030011,Pakistan,27.560076,68.215714,0.0,,Private Citizens & Property,Unknown
 199203030013,Venezuela,8.116667,-63.55,0.0,,Police,Unknown
@@ -762,7 +726,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199203050015,Lebanon,33.117247,35.42888,0.0,,Terrorists/Non-State Militia,Unknown
 199203050016,Myanmar,19.750858,96.101567,7.0,,Private Citizens & Property,Karen National Union
 199203050017,Nicaragua,13.63325,-86.476299,0.0,,Private Citizens & Property,Recontras
-199203050018,Nicaragua,,,0.0,,Government (Diplomatic),Recontras
 199203050019,Rwanda,-2.077969,30.072236,10.0,,Private Citizens & Property,Hutu extremists
 199203060001,Bolivia,-17.783219,-63.182042,0.0,,Private Citizens & Property,Unknown
 199203060003,West Bank and Gaza Strip,32.222271,35.253506,0.0,,Violent Political Party,Al-Fatah
@@ -779,7 +742,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199203070003,Antigua and Barbuda,17.117528,-61.845557,,,Government (General),Unknown
 199203070004,Colombia,3.420628,-76.522119,0.0,,Telecommunication,Revolutionary Armed Forces of Colombia (FARC)
 199203070005,Colombia,1.210589,-77.993327,0.0,,Utilities,Revolutionary Armed Forces of Colombia (FARC)
-199203070006,Colombia,,,0.0,,Utilities,Revolutionary Armed Forces of Colombia (FARC)
 199203070007,Georgia,42.502066,41.861007,0.0,,Government (General),Supporters of Ex-President Gamsakhurdial
 199203070008,Georgia,42.141944,41.676389,0.0,,Government (General),Supporters of Ex-President Gamsakhurdial
 199203070009,Spain,42.84964,-2.692359,0.0,,Business,Unknown
@@ -804,7 +766,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199203090009,Kenya,-2.268333,40.110833,10.0,,Government (General),Unknown
 199203090010,Croatia,44.1142,15.254868,0.0,,Military,Serbian guerrillas
 199203100001,Cambodia,11.558831,104.917445,0.0,,Journalists & Media,Unknown
-199203100002,India,,,5.0,,Business,Sikh Extremists
 199203100003,Malta,35.855556,14.533333,1.0,,Private Citizens & Property,Unknown
 199203100004,United Kingdom,54.607712,-5.95621,1.0,,Private Citizens & Property,Ulster Freedom Fighters (UFF)
 199203100005,Peru,-11.263099,-75.60044,1.0,,Business,Shining Path (SL)
@@ -835,11 +796,8 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199203110009,Chile,-33.366238,-70.505302,0.0,,Utilities,Unknown
 199203110010,Chile,-33.366238,-70.505302,0.0,,Utilities,Unknown
 199203110011,India,28.585836,77.153336,0.0,,Government (Diplomatic),Unknown
-199203110012,Ireland,,,0.0,,Police,Irish Republican Army (IRA)
 199203110013,Martinique,14.609856,-61.068731,0.0,,Journalists & Media,Yich Telga
 199203110014,Spain,43.291618,-1.977903,0.0,,Transportation,Basque Fatherland and Freedom (ETA)
-199203110015,Bangladesh,,,6.0,,Maritime,Pirates
-199203110016,Egypt,,,3.0,,Religious Figures/Institutions,Muslim Militants
 199203110017,Ethiopia,9.356784,42.795518,1.0,,Government (Diplomatic),Unknown
 199203110018,Germany,51.25587,7.149972,0.0,,Private Citizens & Property,Neo-Nazi extremists
 199203110019,Lebanon,33.228651,35.486409,0.0,,Terrorists/Non-State Militia,Unknown
@@ -854,7 +812,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199203120004,United Kingdom,54.607712,-5.95621,1.0,,Private Citizens & Property,Ulster Freedom Fighters (UFF)
 199203120005,Chile,-33.465802,-71.095957,0.0,,Utilities,Unknown
 199203120006,Chile,-33.366238,-70.505302,0.0,,Religious Figures/Institutions,Unknown
-199203120007,Colombia,,,0.0,,Utilities,National Liberation Army of Colombia (ELN)
 199203120008,Lebanon,33.541351,35.586215,1.0,,Terrorists/Non-State Militia,Hezbollah
 199203120009,United Kingdom,54.607712,-5.95621,0.0,,Private Citizens & Property,Irish Republican Army (IRA)
 199203120010,South Africa,-25.748281,28.212069,7.0,,Religious Figures/Institutions,White Wolves
@@ -874,7 +831,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199203130006,South Africa,-24.701161,28.405355,0.0,,Government (General),Unknown
 199203130007,South Africa,-25.669223,28.520682,0.0,,Government (General),Unknown
 199203130008,United Kingdom,51.504387,-0.140041,0.0,,Airports & Aircraft,Unknown
-199203130009,Azerbaijan,,,50.0,,Private Citizens & Property,Armenian Guerrillas
 199203130010,Bangladesh,23.791275,90.418205,1.0,,Private Citizens & Property,Unknown
 199203130011,Georgia,42.502066,41.861007,0.0,,Military,Supporters of Ex-President Gamsakhurdial
 199203130012,India,33.778175,76.576171,4.0,,Police,Kashmiri extremists
@@ -894,9 +850,7 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199203140008,Guatemala,14.622869,-90.529068,1.0,,Government (General),Unknown
 199203140009,New Caledonia,-22.2758,166.458,0.0,,Private Citizens & Property,Unknown
 199203140010,New Caledonia,-22.2758,166.458,0.0,,Business,Unknown
-199203140012,Bangladesh,,,0.0,,Military,Shanti Bahini - Peace Force
 199203140013,India,30.898024,75.860077,9.0,,Business,Sikh Extremists
-199203140014,India,,,9.0,,Government (General),Maoists
 199203140015,India,34.08374,74.789902,1.0,,Police,Kashmiri extremists
 199203140020,Russia,55.751377,37.579914,2.0,,Business,Unknown
 199203140023,West Bank and Gaza Strip,32.222271,35.253506,0.0,,Violent Political Party,Al-Fatah
@@ -990,7 +944,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199203190007,Turkey,37.340288,41.892628,1.0,,Violent Political Party,Kurdistan Workers' Party (PKK)
 199203190008,Turkey,37.33083,42.184602,1.0,,Police,Kurdistan Workers' Party (PKK)
 199203190009,Turkey,37.33083,42.184602,2.0,,Police,Kurdistan Workers' Party (PKK)
-199203190010,Philippines,,,0.0,,Telecommunication,New People's Army (NPA)
 199203190011,Rwanda,-1.949011,30.057852,5.0,,Transportation,Rwanda Patriotic Front (RPF)
 199203190012,Spain,41.400635,2.150913,1.0,,Private Citizens & Property,Basque Fatherland and Freedom (ETA)
 199203190013,Spain,41.5308,2.086581,1.0,,Transportation,Basque Fatherland and Freedom (ETA)
@@ -1002,7 +955,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199203190019,West Bank and Gaza Strip,32.122152,35.171251,0.0,,Private Citizens & Property,Jewish Extremists
 199203190020,West Bank and Gaza Strip,32.22223,35.143633,1.0,,Military,Palestinians
 199203190021,South Africa,-26.252697,27.870275,0.0,,Business,Unknown
-199203190022,Turkey,,,14.0,,Police,Kurdistan Workers' Party (PKK)
 199203190023,Turkey,37.546586,41.720699,4.0,,Police,Kurdistan Workers' Party (PKK)
 199203190024,Turkey,37.926076,41.70203,0.0,,Private Citizens & Property,Kurdistan Workers' Party (PKK)
 199203190025,Turkey,37.926076,41.70203,0.0,,Telecommunication,Kurdistan Workers' Party (PKK)
@@ -1068,8 +1020,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199203230022,Peru,-12.068306,-75.210163,3.0,,Private Citizens & Property,Shining Path (SL)
 199203230023,Sweden,59.332788,18.064488,0.0,,Government (Diplomatic),Unknown
 199203230024,Turkey,36.99154,35.331051,1.0,,Police,Unknown
-199203230025,Turkey,,,0.0,,Police,Kurdistan Workers' Party (PKK)
-199203230026,Turkey,,,0.0,,Police,Unknown
 199203230027,Turkey,41.106178,28.689863,0.0,,Police,Unknown
 199203230028,Turkey,38.38575,27.174642,0.0,,Police,Unknown
 199203230029,Turkey,37.522653,42.452637,2.0,,Private Citizens & Property,Kurdistan Workers' Party (PKK)
@@ -1085,7 +1035,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199203240008,Germany,50.084284,8.238717,0.0,,Business,Kurdistan Workers' Party (PKK)
 199203240009,Germany,49.87242,8.650855,0.0,,Business,Kurdistan Workers' Party (PKK)
 199203240010,United Kingdom,54.607712,-5.95621,0.0,,Police,Irish Republican Army (IRA)
-199203240011,Pakistan,,,0.0,,Utilities,Unknown
 199203240012,Pakistan,26.172116,68.835918,0.0,,Utilities,Unknown
 199203240013,Pakistan,26.172116,68.835918,0.0,,Utilities,Unknown
 199203240014,Pakistan,26.172116,68.835918,0.0,,Utilities,Unknown
@@ -1120,7 +1069,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199203250014,Moldova,47.1463,29.301705,0.0,,Utilities,Unknown
 199203250015,Peru,-13.277193,-72.217872,14.0,,Military,Shining Path (SL)
 199203250016,South Africa,-29.855913,30.775332,2.0,,Private Citizens & Property,Unknown
-199203260001,Colombia,,,5.0,,Government (General),Unknown
 199203260002,Sri Lanka,7.301756,81.67473,2.0,,Private Citizens & Property,Liberation Tigers of Tamil Eelam (LTTE)
 199203260003,Chile,-29.906897,-71.25103,0.0,,Government (General),United Popular Action Movement
 199203260004,Chile,-33.366238,-70.505302,0.0,,Religious Figures/Institutions,United Popular Action Movement
@@ -1128,7 +1076,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199203260006,France,48.583148,7.747882,0.0,,Government (Diplomatic),Kurdistan Workers' Party (PKK)
 199203260007,Nicaragua,12.851472,-86.096955,0.0,,Utilities,Former Govt. Troops
 199203260008,Nicaragua,12.851472,-86.096955,0.0,,Business,Former Govt. Troops
-199203270001,India,,,7.0,,Private Citizens & Property,Sikh Extremists
 199203270002,Peru,-12.068306,-75.210163,1.0,,NGO,Shining Path (SL)
 199203270003,Colombia,4.667128,-74.106056,0.0,,Business,Revolutionary Armed Forces of Colombia (FARC)
 199203270004,Colombia,4.667128,-74.106056,0.0,,Business,Revolutionary Armed Forces of Colombia (FARC)
@@ -1197,7 +1144,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199203300022,South Africa,-26.199812,27.876307,0.0,,Transportation,Unknown
 199203300023,South Africa,-30.201374,30.794471,5.0,,Private Citizens & Property,Unknown
 199203300024,Turkey,41.677005,26.555654,0.0,,Government (General),Kurdistan Workers' Party (PKK)
-199203300025,Turkey,,,3.0,,Military,Kurdistan Workers' Party (PKK)
 199203310001,Ethiopia,5.950903,43.560085,1.0,,Government (Diplomatic),Unknown
 199203310002,Spain,40.465595,-3.696263,1.0,,Military,Basque Fatherland and Freedom (ETA)
 199203310003,Argentina,-34.61768,-58.444435,0.0,,Transportation,Unknown
@@ -1225,13 +1171,11 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199204000009,Angola,-8.838837,13.235582,1.0,,Religious Figures/Institutions,Unknown
 199204010001,Algeria,36.60637,3.08783,1.0,,Police,Muslim Militants
 199204010002,India,30.898024,75.860077,5.0,,Police,Sikh Extremists
-199204010003,Iraq,,,0.0,,Military,Unknown
 199204010004,Colombia,3.429344,-76.516037,3.0,,Business,Revolutionary Armed Forces of Colombia (FARC)
 199204010005,Kenya,-1.28518,36.821107,0.0,,Transportation,Unknown
 199204010006,Peru,-11.967368,-76.978462,0.0,,Business,Unknown
 199204010007,West Bank and Gaza Strip,31.278791,34.256435,3.0,,Military,Palestinians
 199204010010,Philippines,17.613878,121.726719,0.0,,Military,New People's Army (NPA)
-199204010011,Philippines,,,0.0,,Police,New People's Army (NPA)
 199204010012,South Africa,-26.252697,27.870275,5.0,,Violent Political Party,Inkatha Freedom Party (IFP)
 199204010013,South Africa,-26.103533,28.097631,11.0,,Violent Political Party,Inkatha Freedom Party (IFP)
 199204010014,Colombia,5.20649,-74.73641,0.0,,Government (General),Death Squad
@@ -1240,22 +1184,16 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199204020003,United Kingdom,54.951082,-6.558998,1.0,,Government (General),Protestant extremists
 199204020004,United Kingdom,54.463367,-6.328597,1.0,,Private Citizens & Property,Irish Republican Army (IRA)
 199204020005,Pakistan,34.006004,71.53743,1.0,,Violent Political Party,Unknown
-199204020006,Philippines,,,1.0,,Government (General),New People's Army (NPA)
-199204020007,Philippines,,,2.0,,Police,New People's Army (NPA)
 199204020008,Philippines,6.866804,124.466689,0.0,,Government (General),Unknown
 199204020009,Turkey,41.106178,28.689863,1.0,,Police,Dev Sol
 199204020010,Argentina,-34.61768,-58.444435,0.0,,Business,Unknown
 199204020011,Bolivia,-16.509317,-68.10434,0.0,,Government (Diplomatic),Unknown
-199204020012,Bolivia,,,0.0,,Utilities,Tupac Katari Guerrilla Army (EGTK)
 199204020013,Yemen,16.097964,49.52757,0.0,,Business,Unknown
-199204020014,Algeria,,,1.0,,Tourists,Tuareg extremists
-199204020016,Colombia,,,3.0,,Military,Simon Bolivar Guerrilla Coordinating Board (CGSB)
 199204020017,Denmark,55.676075,12.568316,0.0,,Government (Diplomatic),BZers
 199204020018,India,31.8186,75.2028,0.0,,Military,Sikh Extremists
 199204020019,India,30.898024,75.860077,3.0,,Military,Sikh Extremists
 199204020020,West Bank and Gaza Strip,31.502407,34.459743,0.0,,Military,Palestinians
 199204020021,Libya,32.867867,13.189067,0.0,,Government (Diplomatic),Basic People's Congresses
-199204020027,Turkey,,,1.0,,Police,Kurdistan Workers' Party (PKK)
 199204030001,India,31.633078,74.878288,3.0,,Military,Sikh Extremists
 199204030003,West Bank and Gaza Strip,31.502407,34.459743,3.0,,Private Citizens & Property,Palestinians
 199204030004,Turkey,40.532012,41.539789,2.0,,Police,Kurdistan Workers' Party (PKK)
@@ -1273,7 +1211,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199204030016,Turkey,39.930771,32.76754,0.0,,Business,Unknown
 199204030017,Turkey,39.930771,32.76754,0.0,,Business,Unknown
 199204030019,Lebanon,33.469444,35.640833,1.0,,Military,Unknown
-199204030020,Myanmar,,,33.0,,Military,Kachin Independence Army (KIA)
 199204030021,Mozambique,-18.487663,34.487638,35.0,,Military,Mozambique Liberation Front (FRELIMO)
 199204030022,South Africa,-26.363175,28.15222,20.0,,Private Citizens & Property,Unknown
 199204040001,Germany,52.50153,13.401851,1.0,,Government (General),Unknown
@@ -1313,14 +1250,12 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199204060008,Lebanon,33.209058,35.516274,7.0,,Military,Hezbollah
 199204060009,Nepal,27.66897,85.319824,0.0,,Police,Left-Wing Terrorists
 199204060010,Nepal,27.708754,85.329498,6.0,,Police,Left-Wing Terrorists
-199204060011,Peru,,,4.0,,Military,Shining Path (SL)
 199204060012,Turkey,37.192877,40.581143,2.0,,Police,Kurdistan Workers' Party (PKK)
 199204060013,Italy,38.114633,15.650234,0.0,,Business,Unknown
 199204070001,Peru,-11.967368,-76.978462,2.0,,Business,Shining Path (SL)
 199204070002,Colombia,10.413711,-75.533549,1.0,,Government (General),Unknown
 199204070003,Turkey,41.106178,28.689863,0.0,,Police,Unknown
 199204070004,Venezuela,10.482834,-66.962128,0.0,,Food or Water Supply,Anti-govt student groups
-199204070005,Lebanon,,,1.0,,Military,Hezbollah
 199204080001,Colombia,6.242026,-75.564766,1.0,,Business,Unknown
 199204080002,South Africa,-26.103533,28.097631,1.0,,Private Citizens & Property,Unknown
 199204080003,South Africa,-26.355773,28.208044,1.0,,Private Citizens & Property,Unknown
@@ -1339,7 +1274,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199204090001,India,34.08374,74.789902,3.0,,Private Citizens & Property,Kashmiri Hezbollah
 199204090002,Jamaica,18.021429,-76.798279,2.0,,Government (Diplomatic),Unknown
 199204090003,Peru,-5.707626,-78.809843,7.0,,Private Citizens & Property,Unknown
-199204090004,El Salvador,,,1.0,,Police,Unknown
 199204090005,Myanmar,24.250808,97.349053,0.0,,Private Citizens & Property,Kachin Independence Army (KIA)
 199204090006,Colombia,7.08071,-74.70101,5.0,,Police,Simon Bolivar Guerrilla Coordinating Board (CGSB)
 199204090007,El Salvador,13.69288,-89.199161,0.0,,Transportation,Unknown
@@ -1364,8 +1298,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199204120001,Algeria,36.763763,3.055413,1.0,,Police,Muslim Fundamentalists
 199204120002,Peru,-13.152712,-74.218628,1.0,,Private Citizens & Property,Shining Path (SL)
 199204120003,South Africa,-26.004123,28.21116,6.0,,Private Citizens & Property,Unknown
-199204120004,South Africa,,,5.0,,Private Citizens & Property,African National Congress (South Africa)
-199204120005,Ethiopia,,,0.0,,Airports & Aircraft,Unknown
 199204120006,Somalia,10.6163,47.366674,0.0,,Airports & Aircraft,Unknown
 199204120007,Colombia,4.40464,-74.38643,2.0,,Police,Revolutionary Armed Forces of Colombia (FARC)
 199204120008,Colombia,4.40464,-74.38643,6.0,,Police,Revolutionary Armed Forces of Colombia (FARC)
@@ -1374,7 +1306,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199204120011,South Africa,-26.252697,27.870275,1.0,,Private Citizens & Property,Unknown
 199204120012,Peru,-13.152712,-74.218628,1.0,,Private Citizens & Property,Shining Path (SL)
 199204130001,Cameroon,6.464729,12.623141,1.0,,Business,Unknown
-199204130002,Israel,,,1.0,,Private Citizens & Property,Unknown
 199204130003,Pakistan,29.548279,67.879189,8.0,,Private Citizens & Property,Unknown
 199204130004,Philippines,15.9201,120.414,1.0,,Government (General),Unknown
 199204130005,Philippines,7.02556,124.315,2.0,,Government (General),Unknown
@@ -1411,7 +1342,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199204140008,Lebanon,33.385496,35.534855,0.0,,Military,Hezbollah
 199204140009,Sri Lanka,7.482869,81.76503,9.0,,Terrorists/Non-State Militia,Liberation Tigers of Tamil Eelam (LTTE)
 199204140010,Turkey,38.696773,39.932228,2.0,,Military,Kurdistan Workers' Party (PKK)
-199204150001,Egypt,,,0.0,,Police,Muslim Fundamentalists
 199204150002,United Kingdom,54.607712,-5.95621,1.0,,Private Citizens & Property,Ulster Freedom Fighters (UFF)
 199204150003,United Kingdom,54.607712,-5.95621,1.0,,Private Citizens & Property,Ulster Volunteer Force (UVF)
 199204150004,Peru,-11.967368,-76.978462,0.0,,Police,Shining Path (SL)
@@ -1419,7 +1349,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199204150007,West Bank and Gaza Strip,32.222271,35.253506,1.0,,Military,Palestinians
 199204150008,Turkey,37.345275,40.619481,1.0,,Military,Kurdistan Workers' Party (PKK)
 199204150009,United States,37.675211,-122.079314,0.0,"4/15/1992: Unknown perpetrators fired shotgun blasts into an Internal Revenue Service office in Hayward, California, United States. There were no casualties but a window was shattered and the building sustained around $1,000 in damages. This incident took place on the same date as the filing deadline for taxes.",Government (General),Anti-Government Group
-199204160001,India,,,9.0,,Private Citizens & Property,Sikh Extremists
 199204160002,Colombia,6.931857,-71.157523,0.0,,Utilities,National Liberation Army of Colombia (ELN)
 199204160003,Colombia,6.931857,-71.157523,0.0,,Utilities,National Liberation Army of Colombia (ELN)
 199204160004,Peru,-11.122722,-77.610568,0.0,,Government (General),Unknown
@@ -1435,10 +1364,7 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199204160015,Turkey,37.48816,37.294802,0.0,,Government (General),Kurdistan Workers' Party (PKK)
 199204160016,Turkey,41.106178,28.689863,0.0,,Government (Diplomatic),Dev Sol
 199204160019,Turkey,41.106178,28.689863,0.0,,Business,Unknown
-199204160020,India,,,3.0,,Military,Sikh Extremists
 199204170001,United Kingdom,54.607712,-5.95621,0.0,,Business,Irish Republican Army (IRA)
-199204170002,Ethiopia,,,126.0,,Violent Political Party,Oromo Liberation Front
-199204170003,Ethiopia,,,0.0,,Violent Political Party,Oromo Liberation Front
 199204170004,Kenya,0.633677,35.047198,0.0,,Private Citizens & Property,Sabaot Tribe
 199204180001,Algeria,36.480453,2.83388,0.0,,Military,Muslim Fundamentalists
 199204180002,Colombia,7.060051,-73.853115,1.0,,Government (General),Unknown
@@ -1462,7 +1388,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199204190013,Yemen,15.325443,44.211895,0.0,,Government (Diplomatic),Unknown
 199204190014,Germany,48.399623,9.996607,0.0,,Business,Kurdistan Workers' Party (PKK)
 199204200001,El Salvador,13.69288,-89.199161,1.0,,Government (Diplomatic),Unknown
-199204200002,South Africa,,,3.0,,Private Citizens & Property,Unknown
 199204200003,South Africa,-29.601439,30.376695,3.0,,Transportation,Unknown
 199204200004,Turkey,41.106178,28.689863,0.0,,Police,Unknown
 199204200005,Turkey,41.106178,28.689863,2.0,,Transportation,Dev Sol
@@ -1480,7 +1405,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199204210008,Turkey,41.106178,28.689863,0.0,,Business,Unknown
 199204210009,Turkey,41.106178,28.689863,0.0,,Business,Unknown
 199204210010,Turkey,36.99154,35.331051,0.0,,Police,Dev Sol
-199204220001,Azerbaijan,,,14.0,,Transportation,Unknown
 199204230001,Peru,-9.05621,-78.578613,1.0,,Business,Unknown
 199204230002,Turkey,41.106178,28.689863,1.0,,Police,Unknown
 199204230003,Guatemala,14.622869,-90.529068,0.0,,Business,Unknown
@@ -1525,10 +1449,7 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199204270004,United Kingdom,54.607712,-5.95621,0.0,,Private Citizens & Property,Irish Republican Army (IRA)
 199204270005,United Kingdom,54.607712,-5.95621,0.0,,Business,Irish Republican Army (IRA)
 199204270006,Peru,-11.967368,-76.978462,0.0,,Educational Institution,Unknown
-199204270007,India,,,14.0,,Business,Sikh Extremists
 199204270008,Iran,35.724533,51.40519,0.0,,Journalists & Media,Unknown
-199204270010,Philippines,,,0.0,,Police,New People's Army (NPA)
-199204270011,Philippines,,,7.0,,Private Citizens & Property,New People's Army (NPA)
 199204270012,South Africa,-30.050385,30.881266,6.0,,Violent Political Party,African National Congress (South Africa)
 199204270013,Turkey,41.106178,28.689863,1.0,,Police,Dev Sol
 199204270014,Turkey,37.340288,41.892628,4.0,,Private Citizens & Property,Kurdistan Workers' Party (PKK)
@@ -1562,21 +1483,14 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199204290017,South Africa,-26.004123,28.21116,2.0,,Private Citizens & Property,Unknown
 199204290018,Sri Lanka,7.916667,81.133333,12.0,,Private Citizens & Property,Muslims
 199204290019,Sri Lanka,7.375278,80.166667,42.0,,Private Citizens & Property,Muslims
-199204290020,Turkey,,,5.0,,Police,Unknown
-199204290021,Turkey,,,6.0,,Military,Kurdistan Workers' Party (PKK)
 199204290022,Turkey,37.080181,41.220196,1.0,,Military,Kurdistan Workers' Party (PKK)
-199204290023,Turkey,,,1.0,,Private Citizens & Property,Kurdistan Workers' Party (PKK)
-199204290025,Philippines,,,0.0,,Government (General),New People's Army (NPA)
-199204290026,Philippines,,,0.0,,Government (General),New People's Army (NPA)
 199204290027,Philippines,17.611842,121.72723,0.0,,Government (General),New People's Army (NPA)
-199204290028,Philippines,,,0.0,,Government (General),New People's Army (NPA)
 199204300001,Bosnia-Herzegovina,44.143611,17.4,0.0,,Transportation,Unknown
 199204300002,Bosnia-Herzegovina,44.872778,18.808333,0.0,,Transportation,Unknown
 199204300003,Bosnia-Herzegovina,44.872778,18.808333,20.0,,Transportation,Unknown
 199204300004,Spain,40.465595,-3.696263,2.0,,Government (General),First of October Antifascist Resistance Group (GRAPO)
 199204300005,Spain,40.465595,-3.696263,0.0,,Government (General),First of October Antifascist Resistance Group (GRAPO)
 199204300006,Chile,-33.366238,-70.505302,0.0,,Journalists & Media,Red Dawn Front (Frente Amanecer Rojo)
-199204300007,Mozambique,,,21.0,,Business,Unknown
 199204300008,Panama,8.95,-79.566667,0.0,,Police,Unknown
 199204300009,Turkey,36.99154,35.331051,3.0,,Police,Dev Sol
 199204300010,Turkey,38.971412,41.054651,3.0,,Military,Kurdistan Workers' Party (PKK)
@@ -1595,7 +1509,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199205010011,Peru,-10.574505,-75.405895,17.0,,Military,Shining Path (SL)
 199205010012,Afghanistan,34.516895,69.147011,0.0,,Government (General),Unknown
 199205020001,Algeria,36.763763,3.055413,0.0,,Police,Islamic Salvation Front (FIS)
-199205020002,Philippines,,,3.0,,Government (General),Unknown
 199205020003,Turkey,41.106178,28.689863,5.0,,Business,Unknown
 199205020004,Turkey,41.106178,28.689863,5.0,,Police,Dev Sol
 199205020005,Peru,-11.967368,-76.978462,0.0,,Business,Shining Path (SL)
@@ -1611,8 +1524,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199205030006,Colombia,5.067866,-75.517482,0.0,,Business,Simon Bolivar Guerrilla Coordinating Board (CGSB)
 199205030007,Colombia,6.242026,-75.564766,0.0,,Business,Simon Bolivar Guerrilla Coordinating Board (CGSB)
 199205030008,Pakistan,27.859794,69.535337,6.0,,Police,Dacoits
-199205040001,Colombia,,,1.0,,Private Citizens & Property,Unknown
-199205040002,Equatorial Guinea,,,1.0,,Private Citizens & Property,Unknown
 199205040003,Philippines,15.000427,120.652479,1.0,,Government (General),Unknown
 199205040004,Greece,37.99749,23.762728,0.0,,Business,Unknown
 199205040005,Algeria,36.763763,3.055413,2.0,,Police,Islamist extremists
@@ -1625,7 +1536,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199205040012,Turkey,41.106178,28.689863,0.0,,Police,Unknown
 199205050001,Egypt,27.557791,30.811893,0.0,,Government (General),Muslim Fundamentalists
 199205050002,United Kingdom,54.607712,-5.95621,1.0,,Private Citizens & Property,Irish People's Liberation Organization (IPLO)
-199205050003,Togo,,,4.0,,Government (General),Unknown
 199205050004,Algeria,36.763763,3.055413,0.0,,Transportation,Unknown
 199205050005,Algeria,36.763763,3.055413,0.0,,Transportation,Unknown
 199205050006,Algeria,36.763763,3.055413,0.0,,Transportation,Unknown
@@ -1662,8 +1572,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199205060003,Iraq,33.303566000000004,44.371773,1.0,,Police,Islamic Mujahidin
 199205060004,Iraq,33.303566000000004,44.371773,1.0,,Military,Islamic Mujahidin
 199205060005,Philippines,11.263605,122.688646,3.0,,Police,New People's Army (NPA)
-199205060006,South Africa,,,1.0,,Private Citizens & Property,Unknown
-199205060007,South Africa,,,1.0,,Private Citizens & Property,Unknown
 199205060008,South Africa,-26.199812,27.876307,1.0,,Private Citizens & Property,Unknown
 199205060009,Turkey,41.106178,28.689863,2.0,,Police,Unknown
 199205060010,Turkey,41.106178,28.689863,2.0,,Police,Dev Sol
@@ -1718,7 +1626,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199205090001,Bangladesh,23.791275,90.418205,1.0,,Police,Shanti Bahini - Peace Force
 199205090002,India,31.633078,74.878288,10.0,,Government (General),Shia Muslim extremists
 199205090003,Pakistan,25.389288,68.357338,6.0,,Private Citizens & Property,Sindhi nationalists
-199205090004,Philippines,,,1.0,,Government (General),New People's Army (NPA)
 199205090005,South Africa,-26.252697,27.870275,3.0,,Private Citizens & Property,Unknown
 199205090006,Algeria,36.763763,3.055413,,,Journalists & Media,Islamist extremists
 199205090007,Germany,51.964711,7.628498,0.0,,NGO,Left-Wing Demonstrators
@@ -1763,7 +1670,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199205110005,Philippines,14.596051,120.978666,0.0,,Utilities,New People's Army (NPA)
 199205110006,Philippines,14.596051,120.978666,0.0,,Utilities,New People's Army (NPA)
 199205110007,Philippines,14.596051,120.978666,0.0,,Utilities,New People's Army (NPA)
-199205110008,Philippines,,,0.0,,Educational Institution,New People's Army (NPA)
 199205110009,Philippines,6.054022,120.999705,3.0,,Government (General),Bodyguards of Muslim Warlord Governor Tupay Loong
 199205110010,South Africa,-26.687046,27.870962,0.0,,Private Citizens & Property,Unknown
 199205110011,Togo,6.172553,1.231572,0.0,,Educational Institution,Unknown
@@ -1771,7 +1677,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199205110013,Philippines,13.291837,123.491577,0.0,,Government (General),New People's Army (NPA)
 199205120001,Bangladesh,23.850716,90.748528,3.0,,Private Citizens & Property,Shanti Bahini - Peace Force
 199205120002,Israel,32.83333,35.33333,0.0,,Transportation,Popular Front for the Liberation of Palestine (PFLP)
-199205120003,Peru,,,0.0,,Transportation,Unknown
 199205120004,Philippines,17.555726,120.838718,0.0,,Government (General),New People's Army (NPA)
 199205120006,Germany,52.131076,11.636583,1.0,,Private Citizens & Property,Neo-Nazi extremists
 199205120007,Sri Lanka,8.345185,80.388133,5.0,,Military,Liberation Tigers of Tamil Eelam (LTTE)
@@ -1817,7 +1722,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199205150013,Lithuania,54.861864,23.963158,0.0,,Military,Lithuanian Land Guard
 199205150014,Peru,-10.342906,-76.291959,0.0,,NGO,Shining Path (SL)
 199205150015,Philippines,12.26919,123.540417,4.0,,Police,New People's Army (NPA)
-199205150016,Philippines,,,5.0,,Government (General),Unknown
 199205150017,Turkey,38.425501,40.900825,2.0,,Military,Kurdistan Workers' Party (PKK)
 199205160001,Bangladesh,22.798224,91.988153,1.0,,Private Citizens & Property,Shanti Bahini - Peace Force
 199205160002,Mozambique,-25.891968,32.605135,2.0,,Government (General),Mozambique National Resistance Movement (MNR)
@@ -1859,11 +1763,8 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199205180012,Peru,-10.63576,-75.949625,12.0,,Military,Shining Path (SL)
 199205180014,India,30.34,76.38,0.0,,Journalists & Media,Babbar Khalsa International (BKI)
 199205190001,Algeria,36.480453,2.83388,1.0,,Police,Muslim Fundamentalists
-199205190002,Bangladesh,,,3.0,,Private Citizens & Property,Shanti Bahini - Peace Force
-199205190003,Bangladesh,,,0.0,,Educational Institution,Hill Students Council
 199205190004,El Salvador,13.69288,-89.199161,0.0,,Private Citizens & Property,Death Squad
 199205190005,Peru,-11.967368,-76.978462,1.0,,Government (General),Shining Path (SL)
-199205190006,Philippines,,,1.0,,Government (General),Unknown
 199205190007,South Africa,-26.252697,27.870275,1.0,,Police,Unknown
 199205190008,Canada,43.666667,-79.416667,0.0,,Abortion Related,Unknown
 199205190009,Chile,-33.366238,-70.505302,0.0,,Telecommunication,Unknown
@@ -1875,7 +1776,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199205190015,Guatemala,14.622869,-90.529068,0.0,,Military,Unknown
 199205190016,Honduras,14.0833,-87.2167,0.0,,Utilities,Patriotic Morazanista Front (FPM)
 199205190017,South Africa,-26.103533,28.097631,1.0,,Police,Unknown
-199205190018,Venezuela,,,0.0,,Military,Colombian Guerrillas
 199205200002,Philippines,8.004674,124.2913,5.0,,Government (General),Unknown
 199205200003,South Africa,-26.184113,28.033232,4.0,,Transportation,Unknown
 199205200004,South Africa,-26.549382,28.332173,1.0,,Private Citizens & Property,Unknown
@@ -1906,7 +1806,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199205210012,Turkey,41.11295,42.70228,2.0,,Telecommunication,Kurdistan Workers' Party (PKK)
 199205210013,Turkey,38.457543,40.647071,2.0,,Police,Kurdistan Workers' Party (PKK)
 199205210014,Turkey,37.576491,42.042114,4.0,,Private Citizens & Property,Kurdistan Workers' Party (PKK)
-199205210015,Turkey,,,2.0,,Telecommunication,Kurdistan Workers' Party (PKK)
 199205210016,Pakistan,26.172116,68.835918,0.0,,Government (General),Unknown
 199205220001,Bangladesh,22.341896,91.815117,2.0,,Private Citizens & Property,Shanti Bahini - Peace Force
 199205220002,Israel,31.771599,35.2034,0.0,,Private Citizens & Property,Unknown
@@ -1933,21 +1832,17 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199205230007,Colombia,7.491752,-74.868183,2.0,,Utilities,Unknown
 199205230008,Peru,-11.967368,-76.978462,1.0,,Private Citizens & Property,Shining Path (SL)
 199205230009,Algeria,36.481721,3.530677,4.0,,Police,Muslim Fundamentalists
-199205230010,Algeria,,,3.0,,Military,Muslim Fundamentalists
 199205230011,Algeria,36.562222,3.594444,2.0,,Police,Muslim Fundamentalists
 199205230012,Kenya,2.809093,40.927444,1.0,,Private Citizens & Property,United Somali Congress
 199205230013,Turkey,37.758233,42.096003,2.0,,Military,Kurdistan Workers' Party (PKK)
-199205230014,Turkey,,,4.0,,Private Citizens & Property,Kurdistan Workers' Party (PKK)
 199205230016,Thailand,13.785793,100.560852,0.0,,Business,Unknown
 199205240001,India,29.999507,75.393681,5.0,,Business,Sikh Extremists
 199205240002,Israel,32.08297,34.811886,1.0,,Private Citizens & Property,Unknown
 199205240003,Thailand,13.785793,100.560852,0.0,,Journalists & Media,Unknown
-199205240004,India,,,0.0,,Journalists & Media,Liberation Tigers of Tamil Eelam (LTTE)
 199205240005,Spain,40.465595,-3.696263,0.0,,Police,Basque Fatherland and Freedom (ETA)
 199205240006,Spain,41.400635,2.150913,0.0,,Business,Basque Fatherland and Freedom (ETA)
 199205240007,Colombia,7.00063,-76.26572,13.0,,Military,Revolutionary Armed Forces of Colombia (FARC)
 199205240008,Niger,14.5775,0.727222,1.0,,Private Citizens & Property,Tuareg Guerrillas
-199205240009,Philippines,,,4.0,,Military,New People's Army (NPA)
 199205240010,Philippines,7.03147,124.502671,0.0,,Military,Muslim Separatists
 199205240011,Philippines,7.03147,124.502671,1.0,,Private Citizens & Property,Muslim Separatists
 199205240012,Sri Lanka,8.964041,80.787941,6.0,,Military,Liberation Tigers of Tamil Eelam (LTTE)
@@ -1967,7 +1862,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199205250014,Turkey,38.29049,42.117408,1.0,,Military,Kurdistan Workers' Party (PKK)
 199205260001,Canada,45.42153,-75.697193,0.0,,Government (General),Unknown
 199205260002,Haiti,18.527716,-72.33284,1.0,,Business,Unknown
-199205260003,Philippines,,,5.0,,Private Citizens & Property,Muslim Rebels
 199205260004,Colombia,7.894195,-72.503885,0.0,,Utilities,National Liberation Army of Colombia (ELN)
 199205260005,Ecuador,-0.211188,-78.522629,0.0,,Government (General),Heroes of Canto Grande
 199205260006,Kenya,-1.28518,36.821107,0.0,,Business,Unknown
@@ -1983,7 +1877,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199205260016,Azerbaijan,40.338309,48.160792,0.0,,Military,Azerbaijan Guerrillas
 199205260017,Brazil,-22.92251,-43.203199,0.0,,Private Citizens & Property,Unknown
 199205260018,Brazil,-22.511325,-43.177908,0.0,,Government (General),Unknown
-199205270001,Algeria,,,0.0,,Police,Muslim Fundamentalists
 199205270002,West Bank and Gaza Strip,31.403616,34.35907,0.0,,Religious Figures/Institutions,Palestinians
 199205270003,Kenya,-2.26951,40.90099,1.0,,Tourists,Unknown
 199205270004,Bulgaria,42.696492,23.326011,0.0,,Journalists & Media,Unknown
@@ -1993,7 +1886,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199205270008,Peru,-11.967368,-76.978462,2.0,,Business,Unknown
 199205270009,Philippines,8.004674,124.2913,0.0,,Government (General),Unknown
 199205270010,Spain,43.258434,-2.921819,0.0,,Government (General),Basque Fatherland and Freedom (ETA)
-199205270011,Argentina,,,0.0,,Utilities,Unknown
 199205270012,West Bank and Gaza Strip,31.403616,34.35907,0.0,,Government (Diplomatic),Settlers at Kfar Darom
 199205270013,West Bank and Gaza Strip,31.403616,34.35907,0.0,,Government (Diplomatic),Settlers at Kfar Darom
 199205270014,Lebanon,33.273567,35.463655,0.0,,Military,Hezbollah
@@ -2005,7 +1897,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199205280005,Turkey,38.956481,30.120482,5.0,,Military,Kurdistan Workers' Party (PKK)
 199205280006,Turkey,38.174301,40.530184,8.0,,Military,Kurdistan Workers' Party (PKK)
 199205280007,Nigeria,6.618911,3.305532,0.0,,Business,Unknown
-199205290001,Turkey,,,3.0,,Private Citizens & Property,Kurdistan Workers' Party (PKK)
 199205290002,Colombia,7.491752,-74.868183,0.0,,Utilities,Unknown
 199205290003,Colombia,7.491752,-74.868183,0.0,,Utilities,Unknown
 199205290004,Colombia,7.060051,-73.853115,0.0,,Utilities,Unknown
@@ -2024,12 +1915,9 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199205300003,Philippines,15.222743,120.572886,1.0,,Military,New People's Army (NPA)
 199205300004,Philippines,15.222743,120.572886,1.0,,Military,New People's Army (NPA)
 199205300005,India,30.898024,75.860077,6.0,,Police,Sikh Extremists
-199205300006,Bangladesh,,,2.0,,Private Citizens & Property,Shanti Bahini - Peace Force
-199205300007,Bangladesh,,,2.0,,Private Citizens & Property,Shanti Bahini - Peace Force
 199205300008,Colombia,5.21389,-72.86952,15.0,,Military,Revolutionary Armed Forces of Colombia (FARC)
 199205300009,Peru,-11.967368,-76.978462,0.0,,Police,Shining Path (SL)
 199205300010,Philippines,8.004674,124.2913,0.0,,Government (General),Unknown
-199205300011,Philippines,,,1.0,,Private Citizens & Property,"Supporters, House Speaker Ramon Mitra"
 199205300012,Sri Lanka,8.738157,80.477147,3.0,,Military,Liberation Tigers of Tamil Eelam (LTTE)
 199205310001,Israel,31.771599,35.2034,0.0,,Private Citizens & Property,Palestinians
 199205310002,Pakistan,35.918091,74.289803,1.0,,Private Citizens & Property,Sunni Muslim extremists
@@ -2037,7 +1925,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199205310004,France,43.2951,-0.370797,0.0,,Military,Basque extremists
 199205310005,France,43.2951,-0.370797,0.0,,Military,Basque extremists
 199205310006,Pakistan,34.006004,71.53743,2.0,,Government (General),Unknown
-199205310007,Colombia,,,6.0,,Military,Revolutionary Armed Forces of Colombia (FARC)
 199205310008,Papua New Guinea,-5.878393,144.705695,0.0,,Government (General),Unknown
 199206010001,Nepal,27.614192,87.14229,1.0,,Private Citizens & Property,Unknown
 199206010002,Colombia,8.69053,-73.66254,0.0,,Utilities,National Liberation Army of Colombia (ELN)
@@ -2087,7 +1974,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199206040004,Pakistan,24.891115,67.143311,2.0,,Transportation,Unknown
 199206040006,Philippines,8.004674,124.2913,0.0,,Educational Institution,Unknown
 199206040007,Philippines,14.67428,121.057495,0.0,,Business,Unknown
-199206040008,Philippines,,,6.0,,Military,New People's Army (NPA)
 199206040009,Philippines,6.987731,125.271909,2.0,,Military,New People's Army (NPA)
 199206040010,South Africa,-29.601439,30.376695,1.0,,Business,African National Congress (South Africa)
 199206050001,Zaire,-4.389166,15.33762,1.0,,Airports & Aircraft,Unknown
@@ -2139,7 +2025,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199206090013,Germany,50.9217,10.798901,0.0,,Business,Neo-Nazi extremists
 199206090014,Germany,51.059066,11.442314,0.0,,Private Citizens & Property,Neo-Nazi extremists
 199206090015,South Africa,-26.665562,27.849168,34.0,,Private Citizens & Property,Inkatha Freedom Party (IFP)
-199206100001,India,,,11.0,,Private Citizens & Property,Sikh Extremists
 199206100002,Turkey,38.400403,42.109195,13.0,,Transportation,Unknown
 199206100003,Colombia,10.981412,-74.778319,0.0,,Government (Diplomatic),Revolutionary Armed Forces of Colombia (FARC)
 199206100004,Israel,31.771599,35.2034,0.0,,Government (General),Unknown
@@ -2148,7 +2033,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199206100007,Panama,9.15,-79.62,2.0,,Military,Unknown
 199206100008,Panama,8.994269,-79.518792,0.0,,Military,Unknown
 199206100009,Philippines,18.259177,121.997309,5.0,,Police,New People's Army (NPA)
-199206110001,Algeria,,,0.0,,Transportation,Islamist extremists
 199206110002,Ethiopia,9.600875,41.850142,1.0,,Utilities,Unknown
 199206110003,Papua New Guinea,-9.481553,147.190242,0.0,,Government (Diplomatic),Unknown
 199206110004,Turkey,38.736839,41.49156,1.0,,Transportation,Kurdistan Workers' Party (PKK)
@@ -2178,7 +2062,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199206140004,Panama,8.994269,-79.518792,0.0,,Military,Unknown
 199206140007,Laos,17.967621,102.603602,0.0,,Private Citizens & Property,Unknown
 199206140008,Laos,15.11447,105.802101,0.0,,Private Citizens & Property,Unknown
-199206140009,Laos,,,2.0,,Private Citizens & Property,Unknown
 199206140010,Togo,6.172553,1.231572,0.0,,Government (General),Unknown
 199206150001,Pakistan,30.465543,70.96822,1.0,,Private Citizens & Property,Unknown
 199206150002,Pakistan,31.276847,72.32133,1.0,,Private Citizens & Property,Shia Muslim extremists
@@ -2187,7 +2070,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199206150005,South Africa,-26.141151,28.427501,5.0,,Transportation,Unknown
 199206150006,Venezuela,10.171066,-64.679669,0.0,,Business,Anti-Government Demonstrators
 199206150007,Venezuela,9.782279,-69.79294,0.0,,Food or Water Supply,Anti-Government Demonstrators
-199206150008,Germany,,,0.0,,Religious Figures/Institutions,Neo-Nazi extremists
 199206160001,Brunei,4.584472,114.21344,0.0,,Business,Unknown
 199206160002,France,49.615576,3.219421,1.0,,Private Citizens & Property,French National
 199206160003,India,34.08374,74.789902,1.0,,Business,Unknown
@@ -2201,8 +2083,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199206160011,Algeria,36.763763,3.055413,0.0,,Police,Islamist extremists
 199206160012,India,22.986757,87.854975,1.0,,Private Citizens & Property,Communist Trade Union Workers
 199206160013,Pakistan,24.891115,67.143311,0.0,,Government (Diplomatic),Unknown
-199206160014,Turkey,,,7.0,,Transportation,Kurdistan Workers' Party (PKK)
-199206160015,Philippines,,,0.0,,Business,Unknown
 199206170001,Georgia,41.709981,44.792998,1.0,,Terrorists/Non-State Militia,Unknown
 199206170002,France,42.699997,9.447317,0.0,,Business,Unknown
 199206170003,United Kingdom,54.616487,-5.955973,0.0,,Private Citizens & Property,Unknown
@@ -2218,8 +2098,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199206180002,Algeria,36.763763,3.055413,0.0,,Police,Islamist extremists
 199206180003,Algeria,36.763763,3.055413,1.0,,Military,Islamist extremists
 199206180004,Argentina,-34.61768,-58.444435,0.0,,Business,Unknown
-199206180005,Argentina,,,0.0,,Journalists & Media,Unknown
-199206180006,Argentina,,,0.0,,Government (General),Unknown
 199206180007,Colombia,8.63781,-72.73464,0.0,,Journalists & Media,Unknown
 199206180008,United Kingdom,53.799639,-1.549122,0.0,,Business,Irish National Liberation Army (INLA)
 199206180009,United Kingdom,53.799639,-1.549122,0.0,,Business,Irish National Liberation Army (INLA)
@@ -2263,13 +2141,10 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199206220001,West Bank and Gaza Strip,31.346964,34.30143,1.0,,Private Citizens & Property,Hamas (Islamic Resistance Movement)
 199206220002,Turkey,38.576708,42.020709,4.0,,Private Citizens & Property,Kurdistan Workers' Party (PKK)
 199206220003,Algeria,36.466667,7.433333,0.0,,Police,Muslim Militants
-199206220004,Colombia,,,0.0,,Utilities,National Liberation Army of Colombia (ELN)
 199206220005,Philippines,14.596051,120.978666,1.0,,Police,Unknown
 199206220006,Colombia,3.456944,-74.029722,0.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
 199206220007,Colombia,3.56375,-73.79515,3.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
 199206220008,West Bank and Gaza Strip,31.502407,34.459743,0.0,,Police,Hamas (Islamic Resistance Movement)
-199206220009,Philippines,,,0.0,,Business,Unknown
-199206220011,Turkey,,,10.0,,Police,Kurdistan Workers' Party (PKK)
 199206220012,Turkey,37.573583,44.285809,26.0,,Military,Kurdistan Workers' Party (PKK)
 199206220013,Turkey,41.075947,41.757518,2.0,,Police,Kurdistan Workers' Party (PKK)
 199206220014,Venezuela,10.632808,-71.632977,0.0,,Government (Diplomatic),Unknown
@@ -2292,7 +2167,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199206240008,Cambodia,11.558831,104.917445,0.0,,Government (Diplomatic),Khmer Rouge
 199206240009,Georgia,41.709981,44.792998,0.0,,Telecommunication,Rebels backing deposed Pres. Zviad Gamsakhurdia
 199206240010,Iran,29.483576,60.862701,6.0,,Military,Local Residents
-199206250001,India,,,9.0,,Private Citizens & Property,Sikh Extremists
 199206250002,West Bank and Gaza Strip,31.502407,34.459743,2.0,,Business,Hamas (Islamic Resistance Movement)
 199206250003,Turkey,38.133974,40.955919,10.0,,Religious Figures/Institutions,Kurdistan Workers' Party (PKK)
 199206250004,Bangladesh,23.791275,90.418205,0.0,,Transportation,Bangladesh Road Transport Workers Federation
@@ -2306,7 +2180,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199206260002,Algeria,36.763763,3.055413,0.0,,Journalists & Media,Islamic Salvation Front (FIS)
 199206260003,Italy,41.890961,12.490069,0.0,,Business,Unknown
 199206260004,Italy,41.890961,12.490069,0.0,,Government (Diplomatic),Unknown
-199206260005,Cambodia,,,0.0,,Government (Diplomatic),Khmer Rouge
 199206260006,Turkey,37.795445,40.778155,5.0,,Business,Kurdistan Workers' Party (PKK)
 199206270001,West Bank and Gaza Strip,31.530243,35.094162,0.0,,Private Citizens & Property,Palestinians
 199206270002,West Bank and Gaza Strip,32.246808,35.48904,0.0,,Private Citizens & Property,Palestinians
@@ -2349,7 +2222,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199207010001,Philippines,8.240043,124.244766,1.0,,Journalists & Media,Unknown
 199207010002,Chile,-33.366238,-70.505302,0.0,,Police,United Popular Action Movement
 199207010003,Lebanon,33.474535,35.359255,1.0,,Military,Popular Front for the Liberation of Palestine (PFLP)
-199207010004,Turkey,,,2.0,,Military,Kurdistan Workers' Party (PKK)
 199207010005,United Kingdom,54.159548,-6.458147,1.0,,Private Citizens & Property,Irish Republican Army (IRA)
 199207010006,United States,33.61655,-117.930371,0.0,"7/1/1992: Unknown perpetrators ignited a fire at the Family Planning Associates clinic in Newport Beach, California, United States. There were no casualties, but the abortion clinic sustained $9,000 in damages.",Abortion Related,Anti-Abortion extremists
 199207020001,Egypt,27.557791,30.811893,0.0,,Police,Muslim Militants
@@ -2404,10 +2276,8 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199207060004,Turkey,41.115547,42.789392,2.0,,Government (General),Kurdistan Workers' Party (PKK)
 199207060005,Bolivia,-19.047937,-65.259541,2.0,,Utilities,Tupac Katari Guerrilla Army (EGTK)
 199207060006,Georgia,42.526178,41.786343,0.0,,Transportation,Supporters of Ex-President Gamsakhurdial
-199207060007,Georgia,,,0.0,,Transportation,Supporters of Ex-President Gamsakhurdial
 199207060008,Germany,48.139126,11.580186,0.0,,Business,Unknown
 199207060009,India,31.633078,74.878288,1.0,,Private Citizens & Property,Unknown
-199207060010,Iraq,,,4.0,,Government (General),Unknown
 199207060011,Uruguay,-34.891151,-56.187214,0.0,,Educational Institution,Unknown
 199207060012,Armenia,40.789444,43.8475,0.0,,Military,Unknown
 199207060013,Cambodia,13.525791,105.974155,7.0,,Transportation,Unknown
@@ -2442,7 +2312,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199207080009,Colombia,4.667128,-74.106056,8.0,,Business,Narco-Terrorists
 199207080010,Lebanon,33.888523,35.503513,0.0,,Terrorists/Non-State Militia,Unknown
 199207080011,Algeria,36.763763,3.055413,0.0,,Police,Muslim Militants
-199207080012,Kenya,,,0.0,,Government (General),Unknown
 199207080013,Laos,18.7,101.566667,1.0,,Private Citizens & Property,Bandits
 199207080014,Turkey,38.109458,40.567051,2.0,,Food or Water Supply,Kurdistan Workers' Party (PKK)
 199207080015,Turkey,38.395649,27.135641,0.0,,Military,Dev Sol
@@ -2461,7 +2330,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199207090013,Peru,-13.729088,-74.272041,18.0,,Private Citizens & Property,Shining Path (SL)
 199207090014,Georgia,42.651953,42.065207,1.0,,Government (General),Unknown
 199207090015,Georgia,42.565272,42.087206,1.0,,Government (General),Supporters of Ex-President Gamsakhurdial
-199207100001,Turkey,,,1.0,,Police,Kurdistan Workers' Party (PKK)
 199207100002,Argentina,-33.02552,-60.633761,0.0,,Transportation,Unknown
 199207100003,Italy,45.469212,9.174508,0.0,,Business,Basque Fatherland and Freedom (ETA)
 199207100004,Italy,45.469212,9.174508,0.0,,Business,Basque Fatherland and Freedom (ETA)
@@ -2477,19 +2345,16 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199207110007,Sri Lanka,8.345185,80.388133,40.0,,Military,Liberation Tigers of Tamil Eelam (LTTE)
 199207110008,Turkey,37.148394,41.122737,3.0,,Police,Kurdistan Workers' Party (PKK)
 199207110009,Turkey,37.936623,42.547486,1.0,,Police,Kurdistan Workers' Party (PKK)
-199207110010,Turkey,,,2.0,,Private Citizens & Property,Unknown
 199207110011,Turkey,41.106178,28.689863,0.0,,Government (Diplomatic),Unknown
 199207120001,Angola,-9.546402,16.338054,0.0,,Violent Political Party,Popular Movement for the Liberation of Angola
 199207120002,Bosnia-Herzegovina,43.85,18.383333,0.0,,Government (Diplomatic),Serbian guerrillas
 199207120003,El Salvador,13.69288,-89.199161,0.0,,Government (Diplomatic),Unknown
 199207120004,Germany,50.940664,6.959912,0.0,,Private Citizens & Property,Unknown
-199207120005,Israel,,,0.0,,Military,Palestinians
 199207120007,Pakistan,34.006004,71.53743,8.0,,Private Citizens & Property,Sunni Muslim extremists
 199207120008,Peru,-16.435441,-71.517125,5.0,,Police,Shining Path (SL)
 199207120009,Peru,-16.435441,-71.517125,2.0,,Private Citizens & Property,Shining Path (SL)
 199207120010,Philippines,14.596051,120.978666,4.0,,Police,Unknown
 199207120011,Turkey,37.546586,41.720699,7.0,,Police,Kurdistan Workers' Party (PKK)
-199207120012,Turkey,,,12.0,,Police,Kurdistan Workers' Party (PKK)
 199207120013,Turkey,37.253172,43.612234,3.0,,Military,Kurdistan Workers' Party (PKK)
 199207120014,Turkey,37.340288,41.892628,3.0,,Transportation,Kurdistan Workers' Party (PKK)
 199207130001,India,31.633078,74.878288,6.0,,Private Citizens & Property,Sikh Extremists
@@ -2501,7 +2366,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199207130007,Turkey,41.106178,28.689863,0.0,,Police,Dev Sol
 199207130008,Turkey,41.106178,28.689863,0.0,,Government (General),Dev Sol
 199207130009,Turkey,41.106178,28.689863,0.0,,Government (General),Dev Sol
-199207130010,Turkey,,,11.0,,Private Citizens & Property,Soskan tribe
 199207130011,Afghanistan,34.516895,69.147011,0.0,,Religious Figures/Institutions,Hezb-e Wahdat-e Islami-yi Afghanistan
 199207130012,Kuwait,29.347702,47.94912,0.0,,Religious Figures/Institutions,Unknown
 199207140001,Greece,37.99749,23.762728,1.0,,Government (General),November 17 Revolutionary Organization (N17RO)
@@ -2522,7 +2386,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199207150005,Turkey,41.106178,28.689863,0.0,,Business,Dev Sol
 199207150006,Germany,48.777106,9.180769,1.0,,Business,Neo-Nazi extremists
 199207150009,Turkey,37.569603,43.165798,3.0,,Private Citizens & Property,Kurdistan Workers' Party (PKK)
-199207150010,Turkey,,,23.0,,Private Citizens & Property,Kurdistan Workers' Party (PKK)
 199207160001,France,44.837789,-0.57918,1.0,,Religious Figures/Institutions,Unknown
 199207160002,Iraq,36.860813,42.97646,1.0,,Government (Diplomatic),Unknown
 199207160003,Philippines,14.596051,120.978666,1.0,,Business,New People's Army (NPA)
@@ -2534,7 +2397,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199207160009,Georgia,42.224159,43.9632,1.0,,Military,Unknown
 199207160010,Germany,52.396851,13.058481,0.0,,Government (General),Mujahedin-e Khalq (MEK)
 199207160011,India,34.08374,74.789902,1.0,,Military,Muslim Militants
-199207160012,Iraq,,,0.0,,Military,Islamic Salvation Front (FIS)
 199207160013,Iraq,33.926586,44.772064,0.0,,Military,Mujahedin-e Khalq (MEK)
 199207160014,West Bank and Gaza Strip,31.502407,34.459743,0.0,,Violent Political Party,Palestine Liberation Organization (PLO)
 199207170001,Argentina,-34.61768,-58.444435,0.0,,Police,Unknown
@@ -2552,7 +2414,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199207190001,Italy,38.11564,13.361406,5.0,,Government (General),Mafia
 199207190002,Kenya,-1.28518,36.821107,1.0,,Government (Diplomatic),Unknown
 199207190003,Algeria,36.763763,3.055413,1.0,,Police,Islamic Salvation Front (FIS)
-199207190004,Algeria,,,0.0,,Utilities,Islamic Salvation Front (FIS)
 199207190005,Colombia,7.07786,-74.70355,0.0,,Utilities,National Liberation Army of Colombia (ELN)
 199207190006,Peru,-11.967368,-76.978462,0.0,,Transportation,Shining Path (SL)
 199207190007,Peru,-11.967368,-76.978462,0.0,,Business,Shining Path (SL)
@@ -2600,7 +2461,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199207210013,Cambodia,10.6063,104.1819,8.0,,Private Citizens & Property,Unknown
 199207210014,Niger,15.410785,5.728666,2.0,,Private Citizens & Property,Tuareg Guerrillas
 199207210015,Niger,14.731389,0.919444,0.0,,Unknown,Tuareg Guerrillas
-199207220001,Turkey,,,2.0,,Violent Political Party,Kurdistan Workers' Party (PKK)
 199207220002,Algeria,36.763763,3.055413,0.0,,Private Citizens & Property,Islamic Salvation Front (FIS)
 199207220003,Algeria,36.763763,3.055413,0.0,,Government (General),Islamic Salvation Front (FIS)
 199207220004,Algeria,35.55,6.166667,0.0,,Telecommunication,Muslim Militants
@@ -2659,7 +2519,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199207240019,Turkey,41.106178,28.689863,0.0,,Business,Dev Sol
 199207240020,South Africa,-29.861824,31.008293,3.0,,Police,Unknown
 199207240021,South Africa,-34.040083,18.677805,0.0,,Police,Unknown
-199207240022,South Africa,,,0.0,,Government (General),African National Congress (South Africa)
 199207240023,Turkey,41.106178,28.689863,0.0,,Police,Dev Sol
 199207250001,Egypt,27.557791,30.811893,0.0,,Religious Figures/Institutions,Unknown
 199207250002,Bolivia,-17.966712,-67.116624,0.0,,Religious Figures/Institutions,Tupac Katari Guerrilla Army (EGTK)
@@ -2741,7 +2600,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199208010003,Algeria,35.37849,1.32569,0.0,,Telecommunication,Islamic Salvation Front (FIS)
 199208010004,Algeria,35.356388,1.513601,0.0,,Telecommunication,Islamic Salvation Front (FIS)
 199208010005,Afghanistan,34.516895,69.147011,0.0,,Airports & Aircraft,Hizb-I-Islami
-199208010006,Guatemala,,,0.0,,Business,Guatemalan National Revolutionary Unity (URNG)
 199208010007,Turkey,39.290278,41.005833,7.0,,Military,Kurdistan Workers' Party (PKK)
 199208010008,Turkey,37.340288,41.892628,5.0,,Military,Kurdistan Workers' Party (PKK)
 199208010009,Turkey,37.522653,42.452637,3.0,,Military,Kurdistan Workers' Party (PKK)
@@ -2793,7 +2651,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199208040006,France,48.856644,2.34233,0.0,,Business,Corsican National Liberation Front (FLNC)
 199208040007,South Africa,-26.184113,28.033232,0.0,,Journalists & Media,Unknown
 199208040009,West Bank and Gaza Strip,32.365277,35.516016,3.0,,Military,Hezbollah Palestine
-199208040010,Lebanon,,,3.0,,Military,Hezbollah
 199208040011,Senegal,15.283333,-16.683333,7.0,,Private Citizens & Property,Movement of Democratic Forces of Casamance
 199208040012,South Africa,-26.103533,28.097631,8.0,,Violent Political Party,Inkatha Freedom Party (IFP)
 199208040013,Sri Lanka,8.757816,80.487907,15.0,,Military,Liberation Tigers of Tamil Eelam (LTTE)
@@ -2814,8 +2671,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199208050012,France,43.296482,5.36978,0.0,,Business,Corsican National Liberation Front (FLNC)
 199208050013,France,43.696036,7.265592,0.0,,Business,Corsican National Liberation Front (FLNC)
 199208050014,France,43.296482,5.36978,0.0,,Business,Corsican National Liberation Front (FLNC)
-199208050015,Philippines,,,0.0,,Utilities,Muslim Rebels
-199208050016,Philippines,,,0.0,,Utilities,Muslim Rebels
 199208050017,India,25.181797,93.119019,13.0,,Police,National Socialist Council of Nagaland
 199208060001,Turkey,37.080181,41.220196,0.0,,Private Citizens & Property,Turkish Hezbollah
 199208060002,Turkey,37.080181,41.220196,1.0,,Terrorists/Non-State Militia,Kurdistan Workers' Party (PKK)
@@ -2823,20 +2678,16 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199208060004,Cambodia,11.885556,105.366944,0.0,,Government (Diplomatic),Khmer Rouge
 199208060005,Mozambique,-25.599382,32.237041,0.0,,Transportation,Mozambique National Resistance Movement (MNR)
 199208060006,Mozambique,-25.051763,33.650905,9.0,,Private Citizens & Property,Mozambique National Resistance Movement (MNR)
-199208060008,Turkey,,,0.0,,Religious Figures/Institutions,Kurdistan Workers' Party (PKK)
-199208060009,Turkey,,,9.0,,Military,Kurdistan Workers' Party (PKK)
 199208060010,Turkey,37.922218,40.184376,0.0,,Military,Kurdistan Workers' Party (PKK)
 199208060011,Turkey,37.537556,40.887996,3.0,,Police,Kurdistan Workers' Party (PKK)
 199208070001,Senegal,12.495278,-16.193333,0.0,,Government (General),Unknown
 199208070002,France,43.296482,5.36978,0.0,,Business,Corsican National Liberation Front (FLNC)
 199208070003,Italy,40.17547,9.044955,0.0,,Business,Corsican National Liberation Front (FLNC)
-199208070004,Peru,,,25.0,,Private Citizens & Property,Shining Path (SL)
 199208070005,Sri Lanka,6.941837,79.861687,0.0,,Journalists & Media,Unknown
 199208080001,Algeria,35.2,-0.633333,1.0,,Police,Islamic Salvation Front (FIS)
 199208080002,Algeria,36.763763,3.055413,1.0,,Police,Islamic Salvation Front (FIS)
 199208080003,Algeria,36.35,6.6,0.0,,Business,Islamic Salvation Front (FIS)
 199208080004,Algeria,36.35,6.6,0.0,,Telecommunication,Islamic Salvation Front (FIS)
-199208080005,Philippines,,,0.0,,Utilities,New People's Army (NPA)
 199208080006,Algeria,34.666667,3.25,0.0,,Telecommunication,Islamic Salvation Front (FIS)
 199208080007,Algeria,34.666667,3.25,0.0,,Telecommunication,Islamic Salvation Front (FIS)
 199208080008,Algeria,36.266667,1.966667,0.0,,Telecommunication,Islamic Salvation Front (FIS)
@@ -2849,7 +2700,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199208080016,Georgia,42.141944,41.676389,0.0,,Transportation,Georgian guerrillas
 199208080017,Hungary,47.498406,19.040758,0.0,,Government (Diplomatic),Hungarian Skin Head Group
 199208080018,Kenya,0.530713,38.51519,5.0,,Police,Unknown
-199208080019,Philippines,,,1.0,,Business,New People's Army (NPA)
 199208080021,Sri Lanka,9.66123,80.02558,11.0,,Military,Liberation Tigers of Tamil Eelam (LTTE)
 199208080022,United States,39.527395,-119.813414,0.0,"8/8/1992: Michael Andrew Fix threw an incendiary device onto the roof of the West End Women's Health Group in Reno, Nevada, United States. There were no casualties and the abortion facility sustained minor damages.",Abortion Related,Anti-Abortion extremists
 199208090001,India,30.381945,75.546798,14.0,,Police,Sikh Extremists
@@ -2863,7 +2713,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199208090009,South Africa,-26.103533,28.097631,1.0,,Private Citizens & Property,Unknown
 199208090010,South Africa,-26.103533,28.097631,1.0,,Private Citizens & Property,Unknown
 199208090011,Turkey,36.85301,40.048174,1.0,,Journalists & Media,Kurdistan Workers' Party (PKK)
-199208090012,Algeria,,,0.0,,Government (General),Islamic Salvation Front (FIS)
 199208090013,Algeria,36.866667,6.9,0.0,,Telecommunication,Islamic Salvation Front (FIS)
 199208090014,Egypt,27.181122,31.179426,0.0,,Police,Muslim Militants
 199208090015,Egypt,27.557791,30.811893,0.0,,Police,Muslim Militants
@@ -2895,7 +2744,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199208120002,United Kingdom,51.504387,-0.140041,0.0,,Private Citizens & Property,Irish Republican Army (IRA)
 199208120003,Peru,-7.665171,-76.787363,4.0,,Military,Shining Path (SL)
 199208120004,Peru,-7.794691,-76.196402,10.0,,Military,Shining Path (SL)
-199208120005,Senegal,,,5.0,,Police,Movement of Democratic Forces of Casamance
 199208130001,Cambodia,13.860844,103.499144,1.0,,Private Citizens & Property,Unknown
 199208130002,India,31.638549,75.135566,2.0,,Police,Unknown
 199208130003,India,31.147131,75.341218,5.0,,Police,Sikh Extremists
@@ -2931,10 +2779,8 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199208160002,Colombia,4.667128,-74.106056,0.0,,Police,Unknown
 199208160003,Turkey,38.26702,39.765319,1.0,,Unknown,Kurdistan Workers' Party (PKK)
 199208160004,Turkey,36.975594,38.426399,1.0,,Military,Kurdistan Workers' Party (PKK)
-199208160005,Turkey,,,3.0,,Military,Kurdistan Workers' Party (PKK)
 199208160006,Cambodia,13.61846,103.241798,0.0,,Private Citizens & Property,Khmer Rouge
 199208160008,Turkey,38.499753,41.011191,0.0,,Police,Kurdistan Workers' Party (PKK)
-199208160009,Turkey,,,0.0,,Police,Kurdistan Workers' Party (PKK)
 199208160010,Turkey,37.235821,39.762058,1.0,,Police,Kurdistan Workers' Party (PKK)
 199208160011,Turkey,37.025806,36.63097,1.0,,Private Citizens & Property,Kurdistan Workers' Party (PKK)
 199208160012,Turkey,37.025806,36.63097,0.0,,Transportation,Kurdistan Workers' Party (PKK)
@@ -2962,7 +2808,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199208180001,Egypt,27.557791,30.811893,0.0,,Police,Muslim Militants
 199208180002,Lebanon,33.979461,35.637681,1.0,,Journalists & Media,Unknown
 199208180003,United Kingdom,54.607712,-5.95621,1.0,,Government (General),Irish National Liberation Army (INLA)
-199208180004,South Africa,,,4.0,,Violent Political Party,Unknown
 199208180005,South Africa,-32.849062,27.438238,1.0,,Private Citizens & Property,Unknown
 199208180006,Turkey,39.631847,43.019825,1.0,,Private Citizens & Property,Kurdistan Workers' Party (PKK)
 199208180007,Bangladesh,23.791275,90.418205,0.0,,Government (General),Unknown
@@ -3029,7 +2874,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199208230004,South Africa,-31.413235,23.947478,0.0,,Private Citizens & Property,Unknown
 199208230005,Israel,31.771599,35.2034,0.0,,Transportation,Palestinians
 199208230006,Philippines,6.929089,122.07885,4.0,,Religious Figures/Institutions,Muslim Separatists
-199208230007,Philippines,,,0.0,,Transportation,Unknown
 199208230008,Turkey,37.755081,39.317331,2.0,,Private Citizens & Property,Kurdistan Workers' Party (PKK)
 199208230009,Cambodia,11.99141,105.465401,0.0,,Government (Diplomatic),Khmer Rouge
 199208230010,Egypt,27.201389,31.106111,7.0,,Police,Muslim Militants
@@ -3078,7 +2922,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199208260016,Georgia,43.309109,40.253819,4.0,,Private Citizens & Property,Unknown
 199208260017,India,32.726602,74.857026,0.0,,Military,Unknown
 199208260018,West Bank and Gaza Strip,32.460617,35.301247,4.0,,Military,Black Panther Group (Palestinian)
-199208260019,Liberia,,,1.0,,NGO,Unknown
 199208260020,South Africa,-26.184113,28.033232,3.0,,Transportation,Unknown
 199208260021,Yemen,15.45639,45.324871,12.0,,Police,Faqra Tribal Group
 199208260022,Somalia,-0.357847,42.54665,0.0,,NGO,Unknown
@@ -3106,7 +2949,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199208300003,Bangladesh,23.791275,90.418205,1.0,,Educational Institution,Unknown
 199208300004,Germany,52.50153,13.401851,0.0,,Private Citizens & Property,Neo-Nazi extremists
 199208300005,Germany,52.50153,13.401851,0.0,,Private Citizens & Property,Neo-Nazi extremists
-199208300006,India,,,0.0,,Government (General),Naxalites
 199208300007,Iraq,35.45211,44.375465,0.0,,Government (Diplomatic),Unknown
 199208300008,Italy,39.215409,9.109324,0.0,,Military,Unknown
 199208300009,Sri Lanka,8.577826,81.218719,8.0,,Transportation,Liberation Tigers of Tamil Eelam (LTTE)
@@ -3119,14 +2961,12 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199208310001,India,34.08374,74.789902,1.0,,Educational Institution,Kashmiri extremists
 199208310002,Turkey,41.106178,28.689863,1.0,,Transportation,Dev Sol
 199208310003,Thailand,19.039867,98.990794,0.0,,Police,Unknown
-199208310004,Bangladesh,,,0.0,,Government (General),Rohingya Solidarity Organization
 199208310005,India,19.513906,73.686418,5.0,,Police,Kashmiri extremists
 199208310006,Japan,35.346626,139.232842,0.0,,Military,Unknown
 199208310007,Madagascar,-18.913556,47.525394,0.0,,Government (General),Unknown
 199208310008,Tajikistan,38.552185,68.767441,0.0,,Government (General),Protesters
 199208310009,India,34.08374,74.789902,0.0,,Educational Institution,Kashmiri extremists
 199209000001,Kuwait,29.083333,48.083333,0.0,,Business,Unknown
-199209000002,Kuwait,,,0.0,,Business,Unknown
 199209010001,Colombia,6.242026,-75.564766,0.0,,Transportation,Unknown
 199209010002,Colombia,6.242026,-75.564766,9.0,,Private Citizens & Property,Unknown
 199209010003,Germany,51.568986,14.377526,0.0,,Business,Neo-Nazi extremists
@@ -3146,8 +2986,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199209020008,Colombia,8.670438,-74.030012,0.0,,Utilities,Unknown
 199209020009,Germany,52.50153,13.401851,0.0,,Business,Neo-Nazi extremists
 199209020010,Algeria,36.763763,3.055413,2.0,,Police,Islamic Salvation Front (FIS)
-199209020011,Chad,,,150.0,,Private Citizens & Property,Dissident Military Mmbrs of Northern Tribal Group
-199209020012,Ethiopia,,,1.0,,NGO,Bandits
 199209020013,India,34.08374,74.789902,3.0,,Military,Kashmiri extremists
 199209020014,India,34.08374,74.789902,6.0,,Military,Kashmiri extremists
 199209020015,Turkey,40.792837,42.609571,4.0,,Military,Kurdistan Workers' Party (PKK)
@@ -3218,7 +3056,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199209050034,Peru,-13.383333,-73.133333,1.0,,Transportation,Shining Path (SL)
 199209050035,Peru,-13.383333,-73.133333,1.0,,Transportation,Shining Path (SL)
 199209050036,Togo,6.172553,1.231572,0.0,,Private Citizens & Property,Unknown
-199209050037,Colombia,,,5.0,,Police,Revolutionary Armed Forces of Colombia (FARC)
 199209050038,Colombia,4.15127,-73.63872,9.0,,Police,Revolutionary Armed Forces of Colombia (FARC)
 199209050039,Germany,50.732674,7.096299,0.0,,Private Citizens & Property,Neo-Nazi extremists
 199209050040,Germany,52.50153,13.401851,0.0,,Private Citizens & Property,Neo-Nazi extremists
@@ -3251,11 +3088,9 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199209070007,Peru,-11.967368,-76.978462,1.0,,Police,Shining Path (SL)
 199209070008,Turkey,39.744919,39.744919,0.0,,Business,Kurdistan Workers' Party (PKK)
 199209070009,Turkey,39.744919,39.744919,0.0,,Business,Kurdistan Workers' Party (PKK)
-199209070010,Germany,,,0.0,,Business,Neo-Nazi extremists
 199209070011,Hong Kong,22.181944,114.303333,0.0,,Maritime,Pirates
 199209070013,Russia,55.751377,37.579914,0.0,,Government (General),Unknown
 199209070014,South Africa,-33.941849,18.41964,1.0,,Police,Unknown
-199209070016,Turkey,,,1.0,,Transportation,Kurdistan Workers' Party (PKK)
 199209080001,United Kingdom,54.347539,-6.656108,0.0,,Business,Irish Republican Army (IRA)
 199209080002,United Kingdom,54.607712,-5.95621,0.0,,Private Citizens & Property,Protestant extremists
 199209080003,United Kingdom,54.607712,-5.95621,1.0,,Terrorists/Non-State Militia,Ulster Volunteer Force (UVF)
@@ -3332,8 +3167,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199209110019,Turkey,36.99154,35.331051,0.0,,Police,Unknown
 199209120001,West Bank and Gaza Strip,31.346964,34.30143,1.0,,Private Citizens & Property,Palestinians
 199209120002,Israel,32.793921,34.990615,1.0,,Private Citizens & Property,Palestinians
-199209120003,Philippines,,,3.0,,Police,New People's Army (NPA)
-199209120004,Turkey,,,1.0,,Police,Kurdistan Workers' Party (PKK)
 199209120005,Chile,-29.9533,-71.3436,0.0,,Religious Figures/Institutions,Unknown
 199209120006,Germany,50.898777,14.809351,0.0,,Business,Neo-Nazi extremists
 199209120007,Germany,49.590592,8.658034,0.0,,Business,Neo-Nazi extremists
@@ -3346,7 +3179,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199209130002,France,45.764043,4.835659,0.0,,Private Citizens & Property,Neo-Nazi extremists
 199209130004,United Kingdom,54.607712,-5.95621,0.0,,Business,Unknown
 199209130005,Turkey,37.874722,41.915278,2.0,,Military,Kurdistan Workers' Party (PKK)
-199209130006,Turkey,,,52.0,,Military,Kurdistan Workers' Party (PKK)
 199209130007,Turkey,37.449429,43.750656,5.0,,Military,Kurdistan Workers' Party (PKK)
 199209140001,Peru,-11.967368,-76.978462,1.0,,Police,Shining Path (SL)
 199209140002,Spain,43.291618,-1.977903,1.0,,Police,Basque Fatherland and Freedom (ETA)
@@ -3390,7 +3222,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199209170008,Yemen,15.325443,44.211895,0.0,,Government (General),Unknown
 199209170009,Yemen,15.325443,44.211895,0.0,,Government (General),Unknown
 199209170010,West Bank and Gaza Strip,31.502407,34.459743,0.0,,Military,Palestinians
-199209170011,Sri Lanka,,,1.0,,Military,Liberation Tigers of Tamil Eelam (LTTE)
 199209170012,Turkey,37.501389,37.359167,4.0,,Private Citizens & Property,Kurdistan Workers' Party (PKK)
 199209170013,Turkey,39.402752,40.860342,3.0,,Private Citizens & Property,Kurdistan Workers' Party (PKK)
 199209170014,Turkey,39.768452,39.050648,1.0,,Military,Kurdistan Workers' Party (PKK)
@@ -3415,7 +3246,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199209180017,West Bank and Gaza Strip,31.502407,34.459743,0.0,,Military,Hamas (Islamic Resistance Movement)
 199209180019,Germany,53.522604,13.793161,0.0,,Police,Neo-Nazi extremists
 199209190001,India,34.08374,74.789902,4.0,,Military,Muslim Brotherhood
-199209190002,Peru,,,2.0,,Military,Shining Path (SL)
 199209190003,Peru,-11.967368,-76.978462,1.0,,Police,Shining Path (SL)
 199209190004,Turkey,37.539686,40.888059,3.0,,Government (General),Kurdistan Workers' Party (PKK)
 199209190005,Turkey,37.885793,41.130124,1.0,,Private Citizens & Property,Kurdistan Workers' Party (PKK)
@@ -3503,7 +3333,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199209230021,Yemen,15.325443,44.211895,0.0,,Government (Diplomatic),Unknown
 199209230022,Ecuador,-0.211188,-78.522629,0.0,,Government (Diplomatic),Unknown
 199209230023,Somalia,2.349308,42.280334,0.0,,Military,Somali National Alliance
-199209230024,Turkey,,,2.0,,Military,Kurdistan Workers' Party (PKK)
 199209230025,South Korea,37.456256,126.705206,0.0,,Government (General),Unknown
 199209230026,Venezuela,10.482834,-66.962128,0.0,,Private Citizens & Property,Revolutionary Bolivariano Movement 200
 199209230027,Costa Rica,9.933333,-84.083333,0.0,,Government (General),Cinchoneros Popular Liberation Movement
@@ -3540,11 +3369,8 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199209270002,United Kingdom,54.607712,-5.95621,1.0,,Private Citizens & Property,Ulster Freedom Fighters (UFF)
 199209270003,Algeria,36.763763,3.055413,4.0,,Police,Islamic Salvation Front (FIS)
 199209270005,Guatemala,14.14556,-90.661111,0.0,,Police,Guatemalan National Revolutionary Unity (URNG)
-199209270006,Lebanon,,,0.0,,Military,Hezbollah
 199209270007,Turkey,38.405134,42.109333,11.0,,Military,Kurdistan Workers' Party (PKK)
 199209280001,Egypt,27.373611,30.841667,1.0,,Police,Muslim Militants
-199209280002,Sudan,,,1.0,,Government (Diplomatic),Sudan People's Liberation Army (SPLA)
-199209280003,Sudan,,,1.0,,Government (Diplomatic),Sudan People's Liberation Army (SPLA)
 199209280004,India,32.264338,75.642112,4.0,,Transportation,Sikh Extremists
 199209280005,Peru,-11.967368,-76.978462,0.0,,Government (General),Unknown
 199209280006,Hong Kong,22.281867,114.161326,0.0,,Maritime,Pirates
@@ -3587,7 +3413,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199210010004,Sri Lanka,9.66123,80.02558,13.0,,Military,Liberation Tigers of Tamil Eelam (LTTE)
 199210010005,Turkey,38.576708,42.020709,0.0,,Private Citizens & Property,Kurdistan Workers' Party (PKK)
 199210010006,Turkey,37.402222,40.953889,3.0,,Military,Kurdistan Workers' Party (PKK)
-199210010007,Turkey,,,55.0,,Private Citizens & Property,Kurdistan Workers' Party (PKK)
 199210010008,Japan,35.530906,139.703051,0.0,,Government (General),Unknown
 199210010009,Japan,35.664158,138.568449,0.0,,Government (General),Unknown
 199210010010,Dominican Republic,19.180544,-70.020481,0.0,,Private Citizens & Property,Unknown
@@ -3599,23 +3424,16 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199210020003,Lebanon,33.208314,35.300213,0.0,,Government (Diplomatic),Unknown
 199210020004,Philippines,6.929089,122.07885,4.0,,Transportation,Muslim Separatists
 199210020005,Venezuela,11.39431,-69.681034,0.0,,Government (General),Fuerzas Populares Jose Leonardo Chirinos
-199210020006,Colombia,,,0.0,,Utilities,Unknown
 199210020007,Peru,-9.40049,-77.577255,1.0,,Religious Figures/Institutions,Shining Path (SL)
 199210020008,South Africa,-32.85097,27.438947,0.0,,Military,Unknown
 199210030001,Algeria,36.74871,3.19248,0.0,,Police,Islamic Salvation Front (FIS)
 199210030002,Haiti,18.2,-73.75,0.0,,Police,Unknown
-199210030003,Iraq,,,60.0,,Government (General),Anti Kurdish Workers Party Iraq nationals
 199210030004,Peru,-5.316667,-80.716667,0.0,,Military,Tupac Amaru Revolutionary Movement (MRTA)
 199210030005,Japan,35.607221,140.10627,0.0,,Airports & Aircraft,Chukakuha (Middle Core Faction)
 199210030006,Colombia,6.2675,-75.568611,0.0,,Utilities,Unknown
-199210030007,Peru,,,1.0,,Government (General),Shining Path (SL)
-199210030008,Peru,,,1.0,,Terrorists/Non-State Militia,Shining Path (SL)
-199210030009,Algeria,,,1.0,,Government (General),Unknown
 199210040001,India,34.08374,74.789902,4.0,,Military,Unknown
 199210040002,India,29.918738,73.87504,4.0,,Police,Unknown
 199210040003,Japan,38.362265,140.377886,0.0,,Government (General),Unknown
-199210040004,Turkey,,,1.0,,Business,Kurdistan Workers' Party (PKK)
-199210040005,Turkey,,,0.0,,Military,Kurdistan Workers' Party (PKK)
 199210040006,Bolivia,-19.047937,-65.259541,0.0,,Government (General),Unknown
 199210040007,West Bank and Gaza Strip,31.529485,35.115577,0.0,,Private Citizens & Property,Kach
 199210050001,Germany,51.25587,7.149972,0.0,,Educational Institution,Neo-Nazi extremists
@@ -3623,7 +3441,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199210050003,Guyana,6.821806,-58.159218,0.0,,Government (General),Unknown
 199210050004,Peru,-11.967368,-76.978462,0.0,,Business,Shining Path (SL)
 199210050005,Turkey,38.468879,40.172661,3.0,,Military,Kurdistan Workers' Party (PKK)
-199210050006,Turkey,,,15.0,,Military,Kurdistan Workers' Party (PKK)
 199210050007,Turkey,38.193795,41.488862,1.0,,Utilities,Kurdistan Workers' Party (PKK)
 199210050008,Japan,35.689125,139.747742,0.0,,Religious Figures/Institutions,Chukakuha (Middle Core Faction)
 199210050009,Pakistan,24.891115,67.143311,2.0,,Business,Unknown
@@ -3636,7 +3453,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199210050016,Chile,-33.366238,-70.505302,0.0,,Police,United Popular Action Movement
 199210060001,India,25.096074,85.313119,4.0,,Religious Figures/Institutions,Muslim Militants
 199210060002,Kuwait,30.0725,47.349722,0.0,,Military,Unknown
-199210060003,Mozambique,,,2.0,,Business,Mozambique National Resistance Movement (MNR)
 199210060004,Sri Lanka,9.267091,80.814248,1.0,,Military,Liberation Tigers of Tamil Eelam (LTTE)
 199210060005,Turkey,37.415668,41.371505,1.0,,Government (General),Kurdistan Workers' Party (PKK)
 199210060006,Turkey,37.476886,40.487042,1.0,,Business,Kurdistan Workers' Party (PKK)
@@ -3675,7 +3491,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199210080010,Chile,-33.366238,-70.505302,0.0,,Government (Diplomatic),Unknown
 199210080011,Colombia,6.242026,-75.564766,2.0,,Police,Narco-Terrorists
 199210080012,Algeria,35.2,-0.633333,1.0,,Police,Islamic Salvation Front (FIS)
-199210090001,India,,,4.0,,Police,National Socialist Council of Nagaland
 199210090002,Indonesia,-8.46643,126.449704,2.0,,Military,Revolutionary Front for an Independent East Timor (FRETILIN)
 199210090003,Iraq,33.303566000000004,44.371773,10.0,,Military,Supreme Council for Islamic Revolution in Iraq (SCIRI)
 199210090004,Niger,15.0408,2.705,1.0,,Police,Tuareg extremists
@@ -3706,7 +3521,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199210100007,Peru,-9.875174,-77.708213,44.0,,Private Citizens & Property,Shining Path (SL)
 199210100008,Peru,-11.967368,-76.978462,0.0,,Government (Diplomatic),Shining Path (SL)
 199210100009,Peru,-11.967368,-76.978462,0.0,,Government (General),Unknown
-199210100010,Peru,,,0.0,,Private Citizens & Property,Shining Path (SL)
 199210100011,Peru,-11.249536,-75.862728,0.0,,Private Citizens & Property,Shining Path (SL)
 199210100012,Peru,-11.264834,-75.649153,5.0,,Private Citizens & Property,Shining Path (SL)
 199210100013,Peru,-17.777883,-69.959507,5.0,,Private Citizens & Property,Shining Path (SL)
@@ -3780,13 +3594,8 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199210130011,Turkey,36.495608,33.506124,20.0,,Military,Kurdistan Workers' Party (PKK)
 199210130012,Turkey,37.476886,40.487042,5.0,,Military,Kurdistan Workers' Party (PKK)
 199210130013,India,31.326015,75.576183,2.0,,Government (General),Sikh Extremists
-199210130014,Cambodia,,,0.0,,Transportation,Khmer Rouge
-199210130015,Cambodia,,,0.0,,Transportation,Khmer Rouge
 199210130016,Japan,35.856999,139.648849,0.0,,Transportation,Unknown
 199210130017,Japan,35.856999,139.648849,0.0,,Transportation,Unknown
-199210130018,Japan,,,0.0,,Transportation,Unknown
-199210130019,Japan,,,0.0,,Transportation,Unknown
-199210130020,Japan,,,0.0,,Transportation,Unknown
 199210130021,Japan,35.291152,136.911979,0.0,,Religious Figures/Institutions,Unknown
 199210130022,Japan,35.180188,136.906565,0.0,,Transportation,Unknown
 199210130023,India,26.200605,92.937574,18.0,,Transportation,National Democratic Front of Bodoland (NDFB)
@@ -3813,14 +3622,12 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199210140009,Papua New Guinea,-5.463423,143.145372,0.0,,Police,Unknown
 199210140010,Turkey,37.574468,36.925895,25.0,,Police,Kurdistan Workers' Party (PKK)
 199210140011,Cambodia,11.656657,104.942901,0.0,,Transportation,Khmer Rouge
-199210140012,Cambodia,,,0.0,,Private Citizens & Property,Khmer Rouge
 199210140013,Iran,35.724533,51.40519,0.0,,Military,Mujahedin-e Khalq (MEK)
 199210140014,Iran,35.724533,51.40519,0.0,,Military,Mujahedin-e Khalq (MEK)
 199210140015,Turkey,41.106178,28.689863,0.0,,Government (Diplomatic),Unknown
 199210150001,Colombia,2.535935,-75.52767,0.0,,Utilities,Unknown
 199210150002,Cuba,23.131944,-82.364167,0.0,,Business,Unknown
 199210150003,Egypt,26.908611,31.432778,0.0,,Business,Muslim Militants
-199210150004,Sri Lanka,,,10.0,,Private Citizens & Property,Liberation Tigers of Tamil Eelam (LTTE)
 199210150005,Sri Lanka,8.331395,80.976489,10.0,,Private Citizens & Property,Liberation Tigers of Tamil Eelam (LTTE)
 199210150006,Sri Lanka,6.558676,80.156813,,,Private Citizens & Property,Liberation Tigers of Tamil Eelam (LTTE)
 199210150007,Sri Lanka,8.140833,81.105556,84.0,,Private Citizens & Property,Liberation Tigers of Tamil Eelam (LTTE)
@@ -3923,7 +3730,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199210220003,Colombia,5.17069,-72.546829,0.0,,Police,Simon Bolivar Guerrilla Coordinating Board (CGSB)
 199210220004,Colombia,7.027541,-71.428724,0.0,,Business,Simon Bolivar Guerrilla Coordinating Board (CGSB)
 199210220006,Turkey,38.955794,40.036039,10.0,,Military,Kurdistan Workers' Party (PKK)
-199210220007,Philippines,,,0.0,,Religious Figures/Institutions,Unknown
 199210220008,Germany,52.243114,10.219752,0.0,,Business,Neo-Nazi extremists
 199210220009,Germany,50.91667,11.28333,0.0,,Business,Neo-Nazi extremists
 199210220010,Spain,43.297222,-2.991667,1.0,,Unknown,Basque Fatherland and Freedom (ETA)
@@ -3953,7 +3759,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199210230015,Nicaragua,12.103822,-86.267014,0.0,,Government (General),Jose Benito Escobar Workers Federation
 199210230016,Colombia,11.242035,-74.205384,1.0,,Business,Revolutionary Armed Forces of Colombia (FARC)
 199210240001,Colombia,1.68448,-75.28659,1.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
-199210240002,Colombia,,,0.0,,Military,Unknown
 199210240003,Colombia,7.280183,-72.967743,0.0,,Utilities,Revolutionary Armed Forces of Colombia (FARC)
 199210240004,Nicaragua,12.103822,-86.267014,0.0,,Business,Sandinistas
 199210240005,South Africa,-29.994826,30.824819,20.0,,Violent Political Party,African National Congress (South Africa)
@@ -3972,7 +3777,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199210250003,West Bank and Gaza Strip,31.502407,34.459743,0.0,,Transportation,Palestinians
 199210250004,West Bank and Gaza Strip,31.530243,35.094162,1.0,,Military,Palestinians
 199210250005,Somalia,3.115641,43.64658,0.0,,Government (Diplomatic),Unknown
-199210250006,Turkey,,,3.0,,Transportation,Kurdistan Workers' Party (PKK)
 199210250007,Central African Republic,4.258236,15.78983,1.0,,Government (General),Unknown
 199210250008,Philippines,7.02556,124.315,1.0,,Government (General),Moro National Liberation Front Splinter group
 199210250009,Philippines,7.083241,125.600998,0.0,,Private Citizens & Property,Unknown
@@ -3990,9 +3794,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199210250021,Colombia,4.667128,-74.106056,2.0,,Police,Simon Bolivar Guerrilla Coordinating Board (CGSB)
 199210250022,Algeria,36.763763,3.055413,1.0,,Police,Islamic Salvation Front (FIS)
 199210250023,Egypt,31.265259,32.301729,0.0,,Tourists,Muslim Militants
-199210250024,Egypt,,,1.0,,Tourists,Muslim Militants
-199210250025,Lebanon,,,5.0,,Military,Hezbollah
-199210250026,Lebanon,,,5.0,,Military,Hezbollah
 199210260001,Algeria,35.2,-0.633333,0.0,,Police,Islamic Salvation Front (FIS)
 199210260002,Colombia,1.68448,-75.28659,15.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
 199210260003,Colombia,9.142038,-75.061115,3.0,,Military,Unknown
@@ -4014,7 +3815,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199210270006,Israel,33.208716,35.572618,1.0,,Government (General),Palestinians
 199210270007,Lebanon,33.474535,35.359255,2.0,,Private Citizens & Property,Hezbollah
 199210270008,Peru,-7.538333,-77.565278,11.0,,Private Citizens & Property,Shining Path (SL)
-199210270011,Spain,,,0.0,,Utilities,Unknown
 199210270012,Algeria,36.57412,2.91214,2.0,,Police,Islamic Salvation Front (FIS)
 199210270013,Algeria,36.57412,2.91214,0.0,,Police,Islamic Salvation Front (FIS)
 199210270014,West Bank and Gaza Strip,31.502407,34.459743,0.0,,Private Citizens & Property,Palestinians
@@ -4022,7 +3822,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199210270016,South Africa,-29.601439,30.376695,1.0,,Violent Political Party,Unknown
 199210280001,Angola,-14.4955,14.120411,0.0,,Private Citizens & Property,National Union for the Total Independence of Angola (UNITA)
 199210280002,Angola,-13.818111,15.793638,0.0,,Private Citizens & Property,National Union for the Total Independence of Angola (UNITA)
-199210280003,Angola,,,0.0,,Private Citizens & Property,National Union for the Total Independence of Angola (UNITA)
 199210280004,Angola,-8.838837,13.235582,6.0,,Violent Political Party,Popular Movement for the Liberation of Angola
 199210280005,Colombia,6.242026,-75.564766,0.0,,Police,Narco-Terrorists
 199210280006,India,34.419539,74.63827,2.0,,Police,Muslim Militants
@@ -4032,9 +3831,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199210280010,Sri Lanka,7.733107,81.68882,1.0,,Business,Liberation Tigers of Tamil Eelam (LTTE)
 199210280011,Chile,-33.366238,-70.505302,0.0,,Police,Unknown
 199210280012,Chile,-33.366238,-70.505302,0.0,,Police,Manuel Rodriguez Patriotic Front (FPMR)
-199210280013,Chile,,,0.0,,Utilities,Manuel Rodriguez Patriotic Front (FPMR)
-199210280014,Chile,,,0.0,,Utilities,Manuel Rodriguez Patriotic Front (FPMR)
-199210280015,Chile,,,0.0,,Utilities,Manuel Rodriguez Patriotic Front (FPMR)
 199210280016,Chile,-33.366238,-70.505302,0.0,,Utilities,Unknown
 199210280017,Chile,-33.366238,-70.505302,0.0,,Private Citizens & Property,Unknown
 199210280018,Chile,-33.366238,-70.505302,0.0,,Military,Manuel Rodriguez Patriotic Front (FPMR)
@@ -4058,7 +3854,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199210300008,South Africa,-29.767645,30.913095,1.0,,Private Citizens & Property,Unknown
 199210300009,India,30.79503,75.476073,18.0,,Private Citizens & Property,Sikh Extremists
 199210300010,India,30.723455,76.060929,8.0,,Private Citizens & Property,Sikh Extremists
-199210300011,Philippines,,,5.0,,Government (General),New People's Army (NPA)
 199210300012,Japan,35.689125,139.747742,0.0,,Government (Diplomatic),Unknown
 199210300013,France,42.699997,9.447317,0.0,,Business,Unknown
 199210300014,United Kingdom,54.671804,-5.957181,0.0,,Police,Irish Republican Army (IRA)
@@ -4088,7 +3883,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199210310010,South Africa,-29.334943,31.288752,1.0,,Private Citizens & Property,Unknown
 199210310011,South Africa,-26.103533,28.097631,9.0,,Private Citizens & Property,Unknown
 199210310012,Algeria,36.763763,3.055413,0.0,,Government (General),Islamic Salvation Front (FIS)
-199210310013,South Africa,,,0.0,,Government (General),Unknown
 199211010001,Colombia,3.821611,-76.522252,0.0,,Private Citizens & Property,Unknown
 199211010002,France,41.930607,8.742907,0.0,,Business,Corsican National Liberation Front (FLNC)
 199211010003,Egypt,27.641389,30.849444,0.0,,Private Citizens & Property,Muslim Militants
@@ -4119,7 +3913,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199211030002,Afghanistan,34.516895,69.147011,0.0,,Government (General),Unknown
 199211030003,Lebanon,33.474535,35.359255,0.0,,Private Citizens & Property,Palestinians
 199211030004,Turkey,37.764543,38.276758,0.0,,Telecommunication,Unknown
-199211030005,Angola,,,0.0,,Business,National Union for the Total Independence of Angola (UNITA)
 199211030006,Colombia,6.242026,-75.564766,1.0,,Police,Narco-Terrorists
 199211030007,Colombia,6.242026,-75.564766,1.0,,Police,Narco-Terrorists
 199211030008,Colombia,6.242026,-75.564766,1.0,,Police,Narco-Terrorists
@@ -4156,8 +3949,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199211050005,Germany,53.558054,13.261224,0.0,,Private Citizens & Property,Neo-Nazi extremists
 199211050006,Germany,51.339673,12.371364,0.0,,Business,Asylum Seekers
 199211050008,Italy,41.890961,12.490069,0.0,,Government (General),Jewish Extremists
-199211050009,Philippines,,,0.0,,Military,New People's Army (NPA)
-199211050010,Philippines,,,0.0,,Business,New People's Army (NPA)
 199211050011,United Kingdom,54.328629,-5.716669,0.0,,Business,Irish Republican Army (IRA)
 199211050012,United Kingdom,54.607712,-5.95621,0.0,,Government (General),Irish Republican Army (IRA)
 199211050013,Ghana,5.55,-0.2,0.0,,Government (General),Farighan
@@ -4173,10 +3964,8 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199211050023,Brazil,-22.908278,-43.197026,0.0,,Business,Unknown
 199211050024,Algeria,36.16525,1.33452,1.0,,Police,Islamic Salvation Front (FIS)
 199211060001,South Africa,-29.984897,30.703335,0.0,,Violent Political Party,Unknown
-199211060002,Turkey,,,9.0,,Military,Kurdistan Workers' Party (PKK)
 199211060003,Ghana,5.55,-0.2,0.0,,Airports & Aircraft,Farighan
 199211060004,Ghana,5.55,-0.2,0.0,,Journalists & Media,Farighan
-199211060005,Ghana,5.666667,,0.0,,Private Citizens & Property,Unknown
 199211060006,Ghana,5.55,-0.2,0.0,,Private Citizens & Property,Unknown
 199211060007,Panama,8.994269,-79.518792,0.0,,Government (General),20 December Movement (M-20)
 199211060008,Colombia,6.2675,-75.568611,0.0,,Utilities,Unknown
@@ -4240,7 +4029,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199211070066,Colombia,6.270526,-75.572173,0.0,,Business,Narco-Terrorists
 199211070067,Colombia,6.270526,-75.572173,0.0,,Business,Narco-Terrorists
 199211080001,Egypt,30.084629,31.334314,1.0,,Police,Muslim Militants
-199211080002,Myanmar,,,35.0,,Private Citizens & Property,Naga People
 199211080003,Peru,-9.32505,-77.561942,0.0,,Religious Figures/Institutions,Shining Path (SL)
 199211080004,Peru,-9.32505,-77.561942,1.0,,Transportation,Shining Path (SL)
 199211080005,Uruguay,-34.863087,-55.272887,0.0,,Military,Unknown
@@ -4302,19 +4090,16 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199211100024,Colombia,6.242026,-75.564766,0.0,,Police,Narco-Terrorists
 199211100025,Colombia,6.242026,-75.564766,1.0,,Police,Narco-Terrorists
 199211110001,Bangladesh,22.341896,91.815117,1.0,,Private Citizens & Property,Ohabi Islamic Sect
-199211110002,Cambodia,,,0.0,,Private Citizens & Property,Khmer Rouge
 199211110003,Cyprus,35.166768,33.36762,0.0,,Government (General),Unknown
 199211110005,West Bank and Gaza Strip,31.502407,34.459743,1.0,,Military,Popular Front for the Liberation of Palestine (PFLP)
 199211110006,West Bank and Gaza Strip,31.502407,34.459743,2.0,,Military,Palestinians
 199211110007,Malawi,-15.786662,35.005191,2.0,,Private Citizens & Property,Young Pioneers
-199211110008,Myanmar,,,15.0,,Private Citizens & Property,Naga People
 199211110009,Senegal,12.616667,-16.566667,7.0,,Government (General),Movement of Democratic Forces of Casamance
 199211110010,Yugoslavia,42.672479,21.163748,1.0,,Military,Unknown
 199211110011,Somalia,3.115641,43.64658,0.0,,Government (Diplomatic),Unknown
 199211110012,Turkey,37.345275,40.619481,2.0,,Military,Kurdistan Workers' Party (PKK)
 199211110013,Turkey,37.715233,41.917296,6.0,,Military,Kurdistan Workers' Party (PKK)
 199211110014,Turkey,38.457543,40.647071,3.0,,Military,Kurdistan Workers' Party (PKK)
-199211110015,Turkey,,,1.0,,Military,Kurdistan Workers' Party (PKK)
 199211110016,France,43.724934,-1.051409,0.0,,Private Citizens & Property,Iparretarrak (IK)
 199211110017,France,43.724934,-1.051409,0.0,,Government (General),Iparretarrak (IK)
 199211110018,France,43.439236,-1.590062,0.0,,Government (General),Iparretarrak (IK)
@@ -4339,8 +4124,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199211120004,Colombia,5.45394,-73.36205,8.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
 199211120005,Egypt,26.17,32.727222,0.0,,Tourists,Al-Gama'at al-Islamiyya (IG)
 199211120006,Guatemala,15.044444,-91.408333,0.0,,Police,Unknown
-199211120007,Iraq,,,1.0,,Government (General),Iraqi Revolutionary Forces
-199211120008,Iraq,,,1.0,,Military,Iraqi Revolutionary Forces
 199211120010,Senegal,12.583333,-16.266667,0.0,,Utilities,Movement of Democratic Forces of Casamance
 199211120011,Australia,-12.46282,130.841769,0.0,,Government (Diplomatic),East Timorese extremists
 199211120012,Peru,-11.967368,-76.978462,0.0,,Business,Shining Path (SL)
@@ -4357,10 +4140,8 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199211120023,South Africa,-27.750947,30.071117,1.0,,Violent Political Party,Inkatha Freedom Party (IFP)
 199211130001,Algeria,36.651559,3.328976,4.0,,Police,Islamic Salvation Front (FIS)
 199211130002,Algeria,34.666667,3.25,3.0,,Police,Islamic Salvation Front (FIS)
-199211130003,Colombia,,,15.0,,Military,Revolutionary Armed Forces of Colombia (FARC)
 199211130004,Colombia,3.749597,-76.166856,12.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
 199211130005,Guatemala,16.912033,-90.299578,2.0,,Private Citizens & Property,Unknown
-199211130006,Iraq,,,0.0,,Military,Kurdistan Workers' Party (PKK)
 199211130007,West Bank and Gaza Strip,31.530243,35.094162,0.0,,Military,Palestinians
 199211130008,Myanmar,16.482735,97.622191,2.0,,Private Citizens & Property,Karen National Union
 199211130009,Paraguay,-25.51671,-54.616859,0.0,,Journalists & Media,Unknown
@@ -4387,7 +4168,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199211150005,United Kingdom,51.504387,-0.140041,0.0,,Business,Irish Republican Army (IRA)
 199211150006,Peru,-11.967368,-76.978462,0.0,,Police,Shining Path (SL)
 199211150007,Colombia,8.95736,-73.62346,0.0,,Utilities,Unknown
-199211150008,Colombia,,,0.0,,Utilities,Unknown
 199211150009,Colombia,2.627222,-76.291111,0.0,,Utilities,Unknown
 199211150010,United Kingdom,54.296399,-7.871465,1.0,,Police,Irish Republican Army (IRA)
 199211160001,Cambodia,13.525791,105.974155,0.0,,Government (Diplomatic),Khmer Rouge
@@ -4396,8 +4176,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199211160004,Israel,31.771599,35.2034,0.0,,Tourists,Unknown
 199211160005,Turkey,37.566758,41.385015,1.0,,Police,Kurdistan Workers' Party (PKK)
 199211160006,Turkey,37.080181,41.220196,1.0,,Military,Unknown
-199211160007,Turkey,,,2.0,,Military,Kurdistan Workers' Party (PKK)
-199211160008,Turkey,,,4.0,,Police,Kurdistan Workers' Party (PKK)
 199211160009,Venezuela,10.063506,-69.334722,0.0,,Journalists & Media,February 27 Revolutionary Armed Forces
 199211160010,Afghanistan,34.171831,70.621679,0.0,,Government (General),Unknown
 199211160011,Sri Lanka,6.941837,79.861687,4.0,,Military,Liberation Tigers of Tamil Eelam (LTTE)
@@ -4431,7 +4209,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199211180001,Cambodia,13.1,103.2,0.0,,Violent Political Party,Unknown
 199211180002,Georgia,43.02611,40.930596,1.0,,Military,Unknown
 199211180003,Germany,50.58259,8.67211,1.0,,Military,Unknown
-199211180004,Turkey,,,0.0,,Business,Kurdistan Workers' Party (PKK)
 199211180005,Peru,-11.967368,-76.978462,0.0,,Private Citizens & Property,Shining Path (SL)
 199211180006,Peru,-11.967368,-76.978462,0.0,,Private Citizens & Property,Unknown
 199211180007,Peru,-11.967368,-76.978462,0.0,,Private Citizens & Property,Unknown
@@ -4510,7 +4287,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199211210010,Egypt,27.557791,30.811893,0.0,,Police,Muslim Militants
 199211210012,Peru,-11.967368,-76.978462,0.0,,Government (General),Unknown
 199211210013,Peru,-11.967368,-76.978462,0.0,,Police,Shining Path (SL)
-199211210014,Colombia,,,0.0,,Utilities,Unknown
 199211210015,Italy,41.033304,14.301894,1.0,,Government (General),Mafia
 199211210016,Algeria,36.266667,2.75,2.0,,Police,Islamic Salvation Front (FIS)
 199211210017,Turkey,41.106178,28.689863,1.0,,Police,Dev Sol
@@ -4540,7 +4316,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199211230006,Haiti,18.527716,-72.33284,0.0,,Private Citizens & Property,Unknown
 199211230007,Haiti,18.527716,-72.33284,0.0,,Private Citizens & Property,Unknown
 199211230008,Colombia,8.638953,-72.918372,0.0,,Utilities,Unknown
-199211230009,Nicaragua,,,1.0,,Private Citizens & Property,Punitive Leftist Front
 199211230010,South Africa,-29.861824,31.008293,3.0,,Private Citizens & Property,Unknown
 199211230011,Bolivia,-16.509317,-68.10434,0.0,,Government (Diplomatic),Unknown
 199211230012,Italy,40.840097,14.251636,0.0,,Private Citizens & Property,Neo-Nazi extremists
@@ -4590,25 +4365,20 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199211260011,Turkey,37.922218,40.184376,2.0,,Police,Kurdistan Workers' Party (PKK)
 199211270002,South Africa,-26.699603,27.834084,5.0,,Violent Political Party,Unknown
 199211270003,Turkey,37.48816,37.294802,2.0,,Military,Kurdistan Workers' Party (PKK)
-199211270008,Colombia,,,0.0,,Utilities,Unknown
 199211280001,Senegal,12.583333,-16.266667,2.0,,Police,Movement of Democratic Forces of Casamance
 199211280002,Senegal,12.567775,-15.909774,1.0,,Transportation,Movement of Democratic Forces of Casamance
 199211280003,South Africa,-32.882803,27.399676,4.0,,Business,Azania People's Organization (AZAPO)
-199211280004,Turkey,,,1.0,,Police,Kurdistan Workers' Party (PKK)
 199211280005,Philippines,6.700414,121.972557,0.0,,Private Citizens & Property,Unknown
 199211280006,China,23.129163,113.264435,0.0,,Transportation,Unknown
 199211280007,Bolivia,-14.04815,-66.101918,1.0,,Government (General),Unknown
 199211280008,United States,34.0937,-118.127269,0.0,"11/28/1992: Rachelle Shannon set fire to the Pregnancy Consultation Center in Sacramento, California, United States. One firefighter was slightly injured fighting the blaze and the building sustained $175,000 in damages.",Abortion Related,Anti-Abortion extremists
-199211290001,Peru,,,4.0,,Private Citizens & Property,Shining Path (SL)
 199211290002,Peru,-13.152712,-74.218628,6.0,,Private Citizens & Property,Shining Path (SL)
 199211290004,Venezuela,10.482834,-66.962128,0.0,,Government (General),Rebel Military Unit
 199211290006,Mexico,27.480024,-99.510535,0.0,,Government (General),Mob
 199211290007,Colombia,6.17346,-75.59278,0.0,,Police,Narco-Terrorists
 199211290008,Colombia,8.63781,-72.73464,0.0,,Utilities,Unknown
 199211290009,Colombia,8.63781,-72.73464,0.0,,Utilities,Unknown
-199211290010,Colombia,,,0.0,,Utilities,Unknown
 199211290011,Colombia,6.95284,-71.87514,0.0,,Utilities,Unknown
-199211290013,Bolivia,,,1.0,,Government (General),Unknown
 199211290014,Algeria,36.480453,2.83388,1.0,,Police,Islamic Salvation Front (FIS)
 199211290015,Rwanda,-1.949011,30.057852,1.0,,Religious Figures/Institutions,Unknown
 199211300001,Philippines,6.895545,126.013997,4.0,,Military,New People's Army (NPA)
@@ -4624,7 +4394,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199212000002,United States,33.88946,-118.159791,0.0,"12/0/1992: Christopher David Fisher, the leader of the Fourth Reich Skinheads, threw a firebomb into the house of an African American in Paramount, California, United States. It is unknown if the residence sustained any damages.",Private Citizens & Property,Fourth Reich Skinheads
 199212010001,Cambodia,13.344637,103.847055,0.0,,Government (Diplomatic),Khmer Rouge
 199212010002,India,18.438555,79.128841,6.0,,Police,Naxalites
-199212010003,Cambodia,,,0.0,,Government (Diplomatic),Khmer Rouge
 199212010004,Lebanon,33.550434,35.370964,2.0,,Private Citizens & Property,Unknown
 199212010005,France,42.554742,9.424047,0.0,,Private Citizens & Property,Unknown
 199212010006,France,42.554742,9.424047,0.0,,Private Citizens & Property,Unknown
@@ -4638,7 +4407,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199212010014,Colombia,8.69053,-73.66254,0.0,,Utilities,Unknown
 199212010015,Colombia,6.2675,-75.568611,0.0,,Business,National Liberation Army of Colombia (ELN)
 199212010016,Peru,-9.055833,-76.043611,8.0,,Police,Shining Path (SL)
-199212010017,Peru,,,6.0,,Police,Shining Path (SL)
 199212010018,Venezuela,10.482834,-66.962128,0.0,,Police,Unknown
 199212010019,Kazakhstan,52.3,76.95,2.0,,Private Citizens & Property,Chechen Rebels
 199212010020,Algeria,36.763763,3.055413,0.0,,Private Citizens & Property,Unknown
@@ -4656,7 +4424,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199212020009,Haiti,18.527716,-72.33284,0.0,,Private Citizens & Property,Unknown
 199212020011,France,42.699997,9.447317,1.0,,Business,Unknown
 199212030001,Thailand,19.146667,99.619444,2.0,,Business,Unknown
-199212030002,Israel,,,0.0,,Military,Hezbollah
 199212030003,West Bank and Gaza Strip,32.222271,35.253506,1.0,,Private Citizens & Property,Palestinians
 199212030004,South Africa,-31.896578,26.883187,0.0,,Business,Pan Africanist Congress (PAC)
 199212030005,France,41.918891,8.737554,0.0,,Government (General),Corsican National Liberation Front (FLNC)
@@ -4687,7 +4454,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199212030030,United Kingdom,53.480713,-2.234377,0.0,,Private Citizens & Property,Irish Republican Army (IRA)
 199212030031,United Kingdom,53.480713,-2.234377,0.0,,Business,Irish Republican Army (IRA)
 199212030032,Ecuador,-0.211188,-78.522629,0.0,,Business,Unknown
-199212030033,Nicaragua,,,0.0,,Unknown,Punitive Leftist Front
 199212030034,Colombia,6.242026,-75.564766,14.0,,Business,Narco-Terrorists
 199212030035,Iraq,31.044371,46.261452,2.0,,Government (General),Unknown
 199212040001,Philippines,12.367922,123.620761,4.0,,Police,New People's Army (NPA)
@@ -4742,7 +4508,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199212070020,India,19.075984,72.877656,0.0,,Government (General),Hindu extremists
 199212070021,Pakistan,27.706604,68.848197,0.0,,Business,Unknown
 199212070022,West Bank and Gaza Strip,31.502407,34.459743,1.0,,Military,Palestinians
-199212070023,Lebanon,,,0.0,,Terrorists/Non-State Militia,Amal
 199212070024,France,41.591369,9.278311,0.0,,Business,Resistenza
 199212070025,France,41.633183,8.851252,0.0,,Business,Resistenza
 199212070026,France,42.309409,9.149022,0.0,,Police,Resistenza
@@ -4814,7 +4579,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199212090030,Somalia,2.059819,45.326115,0.0,,Government (Diplomatic),Unknown
 199212090032,Suriname,5.025227,-54.992853,0.0,,Police,Unknown
 199212100001,Bangladesh,22.619491,91.658193,0.0,,Private Citizens & Property,Muslim Militants
-199212100002,Israel,,,0.0,,Terrorists/Non-State Militia,Amal
 199212100003,Ireland,53.361675,-6.245485,0.0,,Business,Ulster Freedom Fighters (UFF)
 199212100004,Ireland,53.361675,-6.245485,0.0,,Business,Ulster Freedom Fighters (UFF)
 199212100005,Ireland,53.361675,-6.245485,0.0,,Business,Ulster Freedom Fighters (UFF)
@@ -4846,7 +4610,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199212120001,Philippines,7.508549,122.371604,40.0,,Private Citizens & Property,Unknown
 199212120003,Greece,37.99749,23.762728,0.0,,Government (General),November 17 Revolutionary Organization (N17RO)
 199212120004,Algeria,36.7677,3.250747,1.0,,Police,Islamic Salvation Front (FIS)
-199212120005,Kenya,,,89.0,,Private Citizens & Property,Toposa and Dongiro Tribes
 199212120006,South Africa,-31.413235,23.947478,3.0,,Private Citizens & Property,Unknown
 199212120009,Tajikistan,38.552185,68.767441,0.0,,Government (General),People's Democratic Army
 199212120010,Chile,-38.734133,-72.584651,0.0,,Journalists & Media,United Popular Action Movement
@@ -4889,7 +4652,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199212140012,Colombia,6.242026,-75.564766,3.0,,Transportation,Unknown
 199212140013,Colombia,6.09188,-75.63615,0.0,,Business,Unknown
 199212140014,Colombia,10.981412,-74.778319,0.0,,Business,Unknown
-199212140015,Colombia,,,0.0,,Private Citizens & Property,Unknown
 199212140016,Colombia,11.242035,-74.205384,2.0,,Terrorists/Non-State Militia,Unknown
 199212140018,Israel,31.771599,35.2034,0.0,,Police,Palestinians
 199212140021,West Bank and Gaza Strip,32.222271,35.253506,0.0,,Military,Palestinians
@@ -4975,7 +4737,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199212200008,Nigeria,6.618911,3.305532,0.0,,Government (Diplomatic),Unknown
 199212200009,Philippines,14.596051,120.978666,0.0,,Military,Unknown
 199212210001,India,26.397588,91.897169,0.0,,Business,United Liberation Front of Assam (ULFA)
-199212210002,Turkey,,,3.0,,Police,Kurdistan Workers' Party (PKK)
 199212210003,South Africa,-28.40024,26.710018,2.0,,Private Citizens & Property,Unknown
 199212210004,Guatemala,14.622869,-90.529068,0.0,,Journalists & Media,Unknown
 199212210005,Guatemala,14.622869,-90.529068,0.0,,Government (General),Unknown

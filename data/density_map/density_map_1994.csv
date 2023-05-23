@@ -28,12 +28,10 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199401010026,United Kingdom,54.607712,-5.95621,0.0,,Business,Irish Republican Army (IRA)
 199401010027,United Kingdom,54.607712,-5.95621,0.0,,Business,Irish Republican Army (IRA)
 199401010028,United Kingdom,54.607712,-5.95621,0.0,,Business,Irish Republican Army (IRA)
-199401010029,Tajikistan,,,15.0,,NGO,Unknown
 199401020001,United Kingdom,54.607712,-5.95621,0.0,,Government (General),Unknown
 199401020002,Peru,-9.94069,-76.241065,0.0,,Religious Figures/Institutions,Shining Path (SL)
 199401020003,Turkey,37.922218,40.184376,0.0,,Business,Kurdistan Workers' Party (PKK)
 199401020004,Belgium,50.836426,4.367415,,,Private Citizens & Property,Anti-Kurdish Turks
-199401020005,Chad,,,1.0,,Tourists,Unknown
 199401020006,India,33.778175,76.576171,4.0,,Police,Unknown
 199401020007,Kuwait,29.617631,48.150556,0.0,,Military,Unknown
 199401030001,Peru,-12.642078,-74.863074,1.0,,Private Citizens & Property,Shining Path (SL)
@@ -158,7 +156,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199401150003,Turkey,41.106178,28.689863,0.0,,Government (General),Unknown
 199401150004,Republic of the Congo,-4.225356,15.25106,0.0,,Police,Unknown
 199401150005,France,48.856644,2.34233,0.0,,Terrorists/Non-State Militia,Unknown
-199401150006,Turkey,,,21.0,,Private Citizens & Property,Kurdistan Workers' Party (PKK)
 199401160001,United Kingdom,54.409928,-7.172562,0.0,,Military,Irish Republican Army (IRA)
 199401160002,United Kingdom,54.607712,-5.95621,0.0,,Business,Irish Republican Army (IRA)
 199401160003,United Kingdom,54.607712,-5.95621,0.0,,Business,Irish Republican Army (IRA)
@@ -178,7 +175,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199401180001,Turkey,37.422746,42.492326,1.0,,Military,Kurdistan Workers' Party (PKK)
 199401180002,Ukraine,44.952117,34.102417,2.0,,Government (General),Unknown
 199401180003,Cameroon,10.142427,15.474179,9.0,,Military,Unknown
-199401180004,Colombia,,,0.0,,Utilities,National Liberation Army of Colombia (ELN)
 199401180005,Colombia,7.07786,-74.70355,0.0,,Utilities,National Liberation Army of Colombia (ELN)
 199401180006,Guatemala,14.622869,-90.529068,0.0,,Journalists & Media,Guerrilla Army of the Poor (EGP)
 199401180007,Iraq,36.192589,44.004623,2.0,,NGO,Unknown
@@ -229,8 +225,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199401210003,South Africa,-28.608917,29.925957,1.0,,Private Citizens & Property,Unknown
 199401210004,South Africa,-26.184113,28.033232,5.0,,Transportation,Unknown
 199401210005,South Africa,-28.162586,30.233615,1.0,,Police,Unknown
-199401210006,Turkey,,,4.0,,Private Citizens & Property,Kurdistan Workers' Party (PKK)
-199401210007,Turkey,,,16.0,,Private Citizens & Property,Kurdistan Workers' Party (PKK)
 199401210008,Republic of the Congo,-4.225356,15.25106,0.0,,Government (Diplomatic),Unknown
 199401210009,India,29.945691,78.164248,0.0,,Transportation,Unknown
 199401210010,Israel,31.970541,34.791725,1.0,,Business,Palestinians
@@ -349,10 +343,8 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199402020008,Algeria,35.583333,0.066667,1.0,,Government (General),Unknown
 199402020009,Azerbaijan,40.41724,49.903461,5.0,,Transportation,Unknown
 199402020010,Colombia,4.53581,-76.10659,1.0,,Government (General),Unknown
-199402020011,Colombia,,,2.0,,Transportation,Unknown
 199402020012,Egypt,27.181122,31.179426,0.0,,Police,Al-Gama'at al-Islamiyya (IG)
 199402020013,Germany,52.50153,13.401851,0.0,,Private Citizens & Property,Left-Wing Militants
-199402020014,Guatemala,,,0.0,,Journalists & Media,Unknown
 199402020015,West Bank and Gaza Strip,31.530243,35.094162,,,Private Citizens & Property,Democratic Front for the Liberation of Palestine (DFLP)
 199402020016,West Bank and Gaza Strip,31.502407,34.459743,1.0,,Private Citizens & Property,Palestine Liberation Organization (PLO)
 199402020017,West Bank and Gaza Strip,31.502407,34.459743,1.0,,Private Citizens & Property,Palestinians
@@ -458,7 +450,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199402130004,Somalia,2.059819,45.326115,1.0,,Government (Diplomatic),Unknown
 199402130005,Togo,6.172553,1.231572,3.0,,Government (General),Unknown
 199402130006,Togo,6.172553,1.231572,0.0,,Government (General),Unknown
-199402130007,Colombia,,,5.0,,Business,Unknown
 199402130008,El Salvador,13.69288,-89.199161,1.0,,Violent Political Party,Unknown
 199402130009,Guatemala,14.70208,-91.2506,0.0,,Utilities,Unknown
 199402130010,Guatemala,14.70208,-91.2506,0.0,,Utilities,Unknown
@@ -553,12 +544,7 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199402200012,South Africa,-28.928744,29.615607,0.0,,Private Citizens & Property,"Rival Zulu Group, name not stated"
 199402200013,South Africa,-29.688309,30.187246,6.0,,Violent Political Party,African National Congress (South Africa)
 199402200014,South Africa,-26.209307,28.261949,0.0,,Private Citizens & Property,Unknown
-199402200015,Colombia,,,0.0,,Government (General),Simon Bolivar Guerrilla Coordinating Board (CGSB)
-199402200016,Colombia,,,0.0,,Government (General),Simon Bolivar Guerrilla Coordinating Board (CGSB)
 199402200017,Colombia,6.47116,-75.164723,0.0,,Government (General),Simon Bolivar Guerrilla Coordinating Board (CGSB)
-199402200018,Colombia,,,0.0,,Government (General),Simon Bolivar Guerrilla Coordinating Board (CGSB)
-199402200019,Colombia,,,0.0,,Government (General),Simon Bolivar Guerrilla Coordinating Board (CGSB)
-199402200020,Colombia,,,0.0,,Government (General),Simon Bolivar Guerrilla Coordinating Board (CGSB)
 199402200021,Colombia,2.043924,-72.331113,0.0,,Government (General),Simon Bolivar Guerrilla Coordinating Board (CGSB)
 199402200022,Colombia,4.5981,-74.07603,0.0,,Police,Simon Bolivar Guerrilla Coordinating Board (CGSB)
 199402200023,Colombia,4.5981,-74.07603,0.0,,Police,Simon Bolivar Guerrilla Coordinating Board (CGSB)
@@ -586,7 +572,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199402210007,Turkey,37.885793,41.130124,0.0,,Utilities,Kurdistan Workers' Party (PKK)
 199402210008,Yemen,14.54397,49.12458,2.0,,Business,Unknown
 199402210009,Algeria,36.763763,3.055413,1.0,,Business,Islamic Salvation Front (FIS)
-199402210010,Chile,,,0.0,,Police,United Popular Action Movement
 199402210011,Egypt,27.557791,30.811893,0.0,,Police,Al-Gama'at al-Islamiyya (IG)
 199402210012,Estonia,59.263204,24.213429,0.0,,Military,Unknown
 199402220001,Rwanda,-1.949011,30.057852,0.0,,Government (General),Unknown
@@ -622,7 +607,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199402250005,Jordan,31.950001,35.933331,0.0,,Tourists,Unknown
 199402260001,Peru,-11.057148,-75.061115,1.0,,Business,Tupac Amaru Revolutionary Movement (MRTA)
 199402260002,South Africa,-29.072652,30.606901,1.0,,Violent Political Party,Inkatha Freedom Party (IFP)
-199402260011,Thailand,,,0.0,,Private Citizens & Property,Mon Insurgents
 199402260012,Algeria,36.763763,3.055413,10.0,,Police,Armed Islamic Group (GIA)
 199402260013,Burundi,-3.375828,29.364107,7.0,,Police,Unknown
 199402260014,Jordan,31.950001,35.933331,0.0,,Tourists,Unknown
@@ -634,8 +618,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199402270009,Belgium,50.836426,4.367415,,,Police,Pro-Palestinian Immigrants
 199402270010,Egypt,24.976313,32.876366,10.0,,Police,Al-Gama'at al-Islamiyya (IG)
 199402270011,Hong Kong,22.281867,114.161326,0.0,,Government (General),Unknown
-199402270012,Lebanon,,,5.0,,Terrorists/Non-State Militia,Faithful Resistance
-199402270013,Lebanon,,,10.0,,Religious Figures/Institutions,Unknown
 199402280001,South Africa,-29.861824,31.008293,0.0,,Violent Political Party,Unknown
 199402280002,South Africa,-29.529558,30.932694,4.0,,Private Citizens & Property,Unknown
 199402280003,Algeria,35.696944,-0.633056,0.0,,Airports & Aircraft,Unknown
@@ -653,20 +635,15 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199403010005,Turkey,37.422746,42.492326,12.0,,Military,Kurdistan Workers' Party (PKK)
 199403010006,Uganda,3.288485,32.87895,2.0,,Business,Uganda Democratic Christian Army (UDCA)
 199403010007,United States,40.697132,-73.931351,1.0,,Private Citizens & Property,Anti-Semitic extremists
-199403010008,Algeria,,,0.0,,Private Citizens & Property,Unknown
-199403010009,Argentina,,,0.0,,Utilities,Unknown
 199403010010,Colombia,3.27199,-73.087749,0.0,,Educational Institution,Revolutionary Armed Forces of Colombia (FARC)
 199403010011,Egypt,27.045349,31.319283,0.0,,Business,Al-Gama'at al-Islamiyya (IG)
 199403010012,Egypt,30.084629,31.334314,0.0,,Business,Unknown
 199403010013,Egypt,30.084629,31.334314,0.0,,Business,Unknown
 199403010014,Egypt,27.440416,30.817812,0.0,,Business,Al-Gama'at al-Islamiyya (IG)
 199403010015,Germany,51.482166,11.965814,0.0,,Private Citizens & Property,Neo-Nazi extremists
-199403020001,Algeria,,,0.0,,Educational Institution,Unknown
 199403020002,Algeria,36.821899,5.766102,1.0,,Private Citizens & Property,Moslem Activists
 199403020003,Algeria,36.18898,5.414416,1.0,,Private Citizens & Property,Moslem Activists
 199403020004,Algeria,37.001385,6.55432,1.0,,Private Citizens & Property,Moslem Activists
-199403020005,Algeria,,,1.0,,Police,Unknown
-199403020006,Algeria,,,1.0,,Police,Unknown
 199403020007,Australia,-34.928726,138.599945,1.0,,Government (General),Unknown
 199403020008,France,48.856644,2.34233,0.0,,Religious Figures/Institutions,Unknown
 199403020009,Germany,49.300719,10.571443,0.0,,Religious Figures/Institutions,Neo-Nazi extremists
@@ -688,7 +665,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199403040005,Spain,43.047076,-2.204605,0.0,,Business,Basque Fatherland and Freedom (ETA)
 199403040006,Turkey,41.106178,28.689863,0.0,,Journalists & Media,Unknown
 199403040007,Turkey,37.340288,41.892628,0.0,,Utilities,Kurdistan Workers' Party (PKK)
-199403040008,Turkey,,,11.0,,Military,Kurdistan Workers' Party (PKK)
 199403040009,Turkey,40.061908,41.686803,3.0,,Military,Kurdistan Workers' Party (PKK)
 199403040010,Algeria,36.266667,1.966667,1.0,,Police,Moslem Activists
 199403040011,Colombia,5.067866,-75.517482,0.0,,Religious Figures/Institutions,Unknown
@@ -714,7 +690,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199403060009,Guatemala,14.622869,-90.529068,0.0,,Transportation,Unknown
 199403060010,Guatemala,14.622869,-90.529068,0.0,,Private Citizens & Property,Guatemalan National Revolutionary Unity (URNG)
 199403060011,Guatemala,14.622869,-90.529068,0.0,,Private Citizens & Property,Guatemalan National Revolutionary Unity (URNG)
-199403060012,Ivory Coast,,,1.0,,Business,Manatari Brotherhood
 199403070001,Philippines,14.596051,120.978666,1.0,,Police,Unknown
 199403070002,Philippines,6.703352,121.968689,0.0,,Educational Institution,Moro National Liberation Front (MNLF)
 199403070003,South Africa,-25.748281,28.212069,1.0,,Police,White supremacists/nationalists
@@ -726,16 +701,11 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199403070009,Egypt,27.557791,30.811893,0.0,,Transportation,Al-Gama'at al-Islamiyya (IG)
 199403070010,Egypt,27.557791,30.811893,0.0,,Transportation,Al-Gama'at al-Islamiyya (IG)
 199403070011,Egypt,27.138611,31.175278,1.0,,Police,Muslim Militants
-199403070015,Iran,,,2.0,,Police,Mujahedin-e Khalq (MEK)
 199403070016,Iran,36.32396,59.556959,0.0,,Police,Mujahedin-e Khalq (MEK)
 199403070017,Iran,38.430994,45.774019,0.0,,Police,Mujahedin-e Khalq (MEK)
 199403070018,Iran,37.077975,50.397246,0.0,,NGO,Mujahedin-e Khalq (MEK)
 199403070019,Iran,32.65246,51.67462,0.0,,Police,Mujahedin-e Khalq (MEK)
 199403070020,West Bank and Gaza Strip,31.502407,34.459743,,,Police,Palestinians
-199403070021,Lebanon,,,0.0,,Military,Hezbollah
-199403070022,Lebanon,,,0.0,,Military,Hezbollah
-199403070023,Lebanon,,,0.0,,Terrorists/Non-State Militia,Hezbollah
-199403070024,Lebanon,,,0.0,,Terrorists/Non-State Militia,Hezbollah
 199403070025,Lebanon,33.550434,35.370964,0.0,,Government (Diplomatic),Unknown
 199403070026,Lebanon,33.407173,35.555664,2.0,,Terrorists/Non-State Militia,Popular Front for the Liberation of Palestine (PFLP)
 199403070027,Lebanon,33.158916,35.421121,1.0,,Terrorists/Non-State Militia,Hezbollah
@@ -751,10 +721,8 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199403080010,Croatia,45.655798,17.793247,0.0,,Government (Diplomatic),Unknown
 199403080011,Egypt,27.181122,31.179426,1.0,,Police,Muslim Militants
 199403080012,France,48.856644,2.34233,0.0,,Police,Unknown
-199403080013,Iran,,,0.0,,Business,Mujahedin-e Khalq (MEK)
 199403080014,Iran,35.724533,51.40519,0.0,,Government (General),Mujahedin-e Khalq (MEK)
 199403090001,Nicaragua,12.103822,-86.267014,0.0,,Government (Diplomatic),Recompras
-199403090002,Pakistan,,,0.0,,Religious Figures/Institutions,Unknown
 199403090003,Thailand,14.973849,102.083652,0.0,,Government (General),Unknown
 199403090004,United Kingdom,51.504387,-0.140041,0.0,,Airports & Aircraft,Irish Republican Army (IRA)
 199403090005,United States,25.774591,-80.214195,1.0,,Private Citizens & Property,Unknown
@@ -794,7 +762,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199403120006,South Africa,-29.984897,30.703335,1.0,,Private Citizens & Property,Unknown
 199403120008,South Africa,-29.684008,30.932428,2.0,,Private Citizens & Property,Unknown
 199403120009,South Africa,-29.334943,31.288752,1.0,,Private Citizens & Property,Unknown
-199403120010,South Africa,,,1.0,,Private Citizens & Property,Unknown
 199403120011,South Africa,-30.751443,30.337762,2.0,,Private Citizens & Property,Unknown
 199403120012,South Africa,-28.888896,31.449093,4.0,,Private Citizens & Property,Unknown
 199403120013,South Africa,-29.529558,30.932694,6.0,,Private Citizens & Property,Unknown
@@ -826,14 +793,12 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199403130015,Colombia,4.667128,-74.106056,0.0,,Transportation,Unknown
 199403130016,Colombia,4.667128,-74.106056,0.0,,Transportation,Unknown
 199403130017,Colombia,6.75389,-72.97241,0.0,,Government (General),Unknown
-199403130018,Colombia,,,1.0,,Government (General),Revolutionary Armed Forces of Colombia (FARC)
 199403130019,Egypt,26.992556,31.413811,1.0,,Police,Al-Gama'at al-Islamiyya (IG)
 199403130020,Germany,51.318927,9.496007,0.0,,Business,Neo-Nazi extremists
 199403130021,Iran,36.56332,53.06009,0.0,,Military,Mujahedin-e Khalq (MEK)
 199403130022,Iran,34.792639,48.517698,0.0,,Religious Figures/Institutions,Unknown
 199403130023,Lebanon,33.888523,35.503513,0.0,,Government (Diplomatic),Unknown
 199403140001,Nicaragua,12.103822,-86.267014,0.0,,Government (General),Recompras
-199403140002,Niger,,,1.0,,Private Citizens & Property,Unknown
 199403140003,Peru,-6.58019,-79.236211,5.0,,Private Citizens & Property,Shining Path (SL)
 199403140004,Peru,-11.967368,-76.978462,0.0,,Journalists & Media,Shining Path (SL)
 199403140005,Peru,-11.967368,-76.978462,0.0,,Business,Shining Path (SL)
@@ -852,7 +817,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199403150002,Somalia,3.115641,43.64658,9.0,,Government (Diplomatic),Unknown
 199403150003,South Africa,-29.965819,30.882976,3.0,,Government (General),Unknown
 199403150004,South Africa,-28.752252,31.893167,6.0,,Private Citizens & Property,Unknown
-199403150005,South Africa,,,6.0,,Private Citizens & Property,Unknown
 199403150006,Turkey,41.106178,28.689863,1.0,,Business,Great Eastern Islamic Raiders Front (IBDA-C)
 199403150007,United Kingdom,51.269958,0.19308,0.0,,Transportation,Irish Republican Army (IRA)
 199403150008,Yemen,15.723047,43.957336,0.0,,Government (General),Unknown
@@ -877,19 +841,15 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199403160008,Haiti,18.527716,-72.33284,25.0,,Private Citizens & Property,Revolutionary Front for Hatian Advancement and Progress (FRAPH)
 199403160009,West Bank and Gaza Strip,31.530243,35.094162,,,Private Citizens & Property,Israeli settlers
 199403160010,Latvia,56.946203,24.104287,1.0,,Business,Unknown
-199403160011,Lebanon,,,3.0,,Military,Hezbollah
 199403170003,Turkey,37.922218,40.184376,1.0,,Utilities,Unknown
 199403170004,Guinea,11.316667,-12.283333,2.0,,Military,Unknown
 199403170005,Iran,33.999851,45.494064,0.0,,Military,Mujahedin-e Khalq (MEK)
 199403170006,West Bank and Gaza Strip,31.502407,34.459743,,,Military,Hamas (Islamic Resistance Movement)
 199403170007,West Bank and Gaza Strip,31.502407,34.459743,,,Police,Palestinians
 199403170008,West Bank and Gaza Strip,31.502407,34.459743,,,Transportation,Palestinians
-199403180001,Turkey,,,1.0,,Military,Kurdistan Workers' Party (PKK)
-199403180002,Turkey,,,2.0,,Military,Kurdistan Workers' Party (PKK)
 199403180003,Turkey,41.106178,28.689863,0.0,,Business,Kurdistan Workers' Party (PKK)
 199403180004,Turkey,41.106178,28.689863,0.0,,Transportation,Kurdistan Workers' Party (PKK)
 199403180005,Turkey,37.922218,40.184376,0.0,,Government (General),Kurdistan Workers' Party (PKK)
-199403180006,Turkey,,,1.0,,Private Citizens & Property,Kurdistan Workers' Party (PKK)
 199403180007,Algeria,36.76029,3.472395,0.0,,Transportation,Moslem Activists
 199403180008,Australia,-33.873651,151.20689,0.0,,Religious Figures/Institutions,Unknown
 199403180009,India,32.726602,74.857026,1.0,,Government (General),Minority Unity Forum
@@ -904,7 +864,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199403190004,Algeria,35.391899,0.138188,1.0,,Government (General),Moslem Activists
 199403190005,Algeria,36.763763,3.055413,1.0,,Government (General),Moslem Activists
 199403190006,Azerbaijan,40.41724,49.903461,12.0,,Transportation,Unknown
-199403190007,Cameroon,,,0.0,,Private Citizens & Property,Unknown
 199403190008,Egypt,30.084629,31.334314,0.0,,Business,Al-Gama'at al-Islamiyya (IG)
 199403190009,Germany,48.365448,10.894767,0.0,,Transportation,Kurdistan Workers' Party (PKK)
 199403190010,Germany,48.365448,10.894767,0.0,,Police,Kurdistan Workers' Party (PKK)
@@ -937,13 +896,10 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199403210018,Lebanon,33.444387,35.567616,2.0,,Military,Hezbollah
 199403210019,Lebanon,33.331503,35.52586,1.0,,Terrorists/Non-State Militia,Hezbollah
 199403220001,Nicaragua,13.62679,-85.8254,1.0,,Violent Political Party,Unknown
-199403220002,South Africa,,,8.0,,Violent Political Party,Inkatha Freedom Party (IFP)
 199403220003,South Africa,-29.75086,30.983353,0.0,,Private Citizens & Property,Unknown
 199403220004,South Africa,-29.965819,30.882976,1.0,,Private Citizens & Property,Unknown
-199403220006,Tanzania,,,1.0,,Government (Diplomatic),Unknown
 199403220007,Turkey,38.234373,42.428113,3.0,,Military,Kurdistan Workers' Party (PKK)
 199403220008,Turkey,38.499753,41.011191,4.0,,Military,Kurdistan Workers' Party (PKK)
-199403220009,Turkey,,,3.0,,Military,Kurdistan Workers' Party (PKK)
 199403220010,Algeria,36.763763,3.055413,1.0,,NGO,Unknown
 199403220011,Algeria,36.763763,3.055413,2.0,,Business,Moslem Activists
 199403220012,West Bank and Gaza Strip,32.222271,35.253506,,,Military,Palestinians
@@ -951,7 +907,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199403230001,Papua New Guinea,-6.7465,155.685171,17.0,,Government (General),Bougainville Revolutionary Army (BRA)
 199403230002,Algeria,36.266667,2.75,3.0,,Police,Armed Islamic Group (GIA)
 199403230004,Germany,53.074981,8.807081,0.0,,Business,Neo-Nazi extremists
-199403230005,Ghana,,,7.0,,Private Citizens & Property,Unknown
 199403230006,Ghana,9.412737,-0.117167,3.0,,Private Citizens & Property,Unknown
 199403230007,Ghana,9.412737,-0.117167,3.0,,Private Citizens & Property,Unknown
 199403230008,Israel,31.771599,35.2034,,,Business,Palestinians
@@ -963,7 +918,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199403240006,Turkey,36.975594,38.426399,1.0,,Violent Political Party,Unknown
 199403240007,Turkey,41.106178,28.689863,2.0,,Government (General),Unknown
 199403240008,Turkey,41.106178,28.689863,0.0,,Private Citizens & Property,Unknown
-199403240009,Angola,,,1.0,,Business,National Union for the Total Independence of Angola (UNITA)
 199403240010,Bulgaria,42.193967,24.331984,,,Government (General),Unknown
 199403240011,Cambodia,11.558831,104.917445,,,Journalists & Media,Unknown
 199403240012,Germany,53.869563,10.687579,0.0,,Religious Figures/Institutions,Neo-Nazi extremists
@@ -976,7 +930,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199403250004,Turkey,36.99154,35.331051,0.0,,Government (General),Unknown
 199403250005,Turkey,36.802461,34.629759,1.0,,Government (General),Unknown
 199403250006,Uganda,1.078444,34.181006,1.0,,Government (General),Unknown
-199403250007,Algeria,,,0.0,,Government (General),Unknown
 199403250008,Australia,-37.813187,144.96298,0.0,,Government (Diplomatic),Kurds
 199403250009,Finland,60.466626,26.946006,0.0,,Government (General),Unknown
 199403250010,Germany,53.869563,10.687579,0.0,,Religious Figures/Institutions,Neo-Nazi extremists
@@ -985,7 +938,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199403250013,Haiti,19.143431,-72.003891,0.0,,Government (Diplomatic),Revolutionary Front for Hatian Advancement and Progress (FRAPH)
 199403250014,West Bank and Gaza Strip,31.530243,35.094162,1.0,,Business,Israeli settlers
 199403260001,South Africa,-25.866602,26.899815,0.0,,Business,Unknown
-199403260002,Turkey,,,77.0,,Military,Kurdistan Workers' Party (PKK)
 199403260003,Algeria,36.480453,2.83388,3.0,,Police,Unknown
 199403260004,Algeria,36.066667,1.133333,0.0,,Transportation,Unknown
 199403260006,Colombia,9.14513,-75.50938,4.0,,Private Citizens & Property,Unknown
@@ -1008,7 +960,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199403270013,Georgia,43.033102,41.481171,10.0,,Private Citizens & Property,Unknown
 199403270015,Germany,53.074981,8.807081,0.0,,Private Citizens & Property,Neo-Nazi extremists
 199403270016,India,33.371715,74.315313,0.0,,Military,Muslim Militants
-199403270017,Iraq,,,,,Government (Diplomatic),Unknown
 199403270018,Lebanon,33.228651,35.486409,0.0,,Terrorists/Non-State Militia,Hezbollah
 199403280004,Peru,-11.967368,-76.978462,0.0,,Business,Shining Path (SL)
 199403280005,Peru,-11.967368,-76.978462,0.0,,Business,Shining Path (SL)
@@ -1047,7 +998,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199403300008,Turkey,37.340288,41.892628,15.0,,Transportation,Kurdistan Workers' Party (PKK)
 199403300009,United States,39.103175,-84.511981,0.0,,Journalists & Media,Unknown
 199403300010,Algeria,36.480453,2.83388,8.0,,Police,Unknown
-199403300011,Azerbaijan,,,,,Government (General),Unknown
 199403300012,France,42.016854,9.403982,0.0,,Police,Corsican National Liberation Front (FLNC)
 199403300013,France,42.016854,9.403982,0.0,,Police,Corsican National Liberation Front (FLNC)
 199403300014,France,42.016854,9.403982,0.0,,Police,Corsican National Liberation Front (FLNC)
@@ -1080,7 +1030,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199404020016,Turkey,41.106178,28.689863,2.0,,Private Citizens & Property,Kurdistan Workers' Party (PKK)
 199404020017,West Bank and Gaza Strip,31.502407,34.459743,0.0,,Private Citizens & Property,Hamas (Islamic Resistance Movement)
 199404020018,West Bank and Gaza Strip,31.502407,34.459743,1.0,,Military,Palestine Liberation Organization (PLO)
-199404030001,Philippines,,,1.0,,Terrorists/Non-State Militia,New People's Army (NPA)
 199404030002,South Africa,-27.849551,26.364852,1.0,,Private Citizens & Property,White supremacists/nationalists
 199404030003,Yemen,15.237025,44.487942,0.0,,Private Citizens & Property,Unknown
 199404030004,Algeria,36.266667,1.966667,0.0,,Police,Moslem Activists
@@ -1120,7 +1069,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199404060010,South Africa,-28.465937,30.156491,5.0,,Private Citizens & Property,Unknown
 199404060011,Sudan,15.592615,32.550965,0.0,,Airports & Aircraft,Unknown
 199404060012,Turkey,39.067995,40.777644,10.0,,Military,Kurdistan Workers' Party (PKK)
-199404060013,Algeria,,,16.0,,Police,Moslem Activists
 199404060014,Algeria,36.763763,3.055413,0.0,,Government (General),Unknown
 199404060015,Guatemala,14.622869,-90.529068,0.0,,Government (General),Unknown
 199404060016,Hong Kong,22.281867,114.161326,0.0,,Government (General),Unknown
@@ -1137,11 +1085,9 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199404070008,Rwanda,-1.949011,30.057852,1.0,,Government (General),Unknown
 199404070009,Rwanda,-1.949011,30.057852,1.0,,Government (General),Unknown
 199404070010,Rwanda,-1.949011,30.057852,1.0,,Government (General),Unknown
-199404070011,Tajikistan,,,1.0,,Military,Unknown
 199404070012,United Kingdom,51.504387,-0.140041,0.0,,Government (General),Unknown
 199404070013,Zaire,-4.389166,15.33762,0.0,,Telecommunication,Unknown
 199404070014,Algeria,36.763763,3.055413,1.0,,Violent Political Party,Unknown
-199404070015,Colombia,,,0.0,,Utilities,National Liberation Army of Colombia (ELN)
 199404070016,Colombia,4.667128,-74.106056,0.0,,Business,Unknown
 199404070017,Germany,48.777106,9.180769,0.0,,Police,Kurdistan Workers' Party (PKK)
 199404070018,Germany,52.83393,13.811756,0.0,,Private Citizens & Property,Neo-Nazi extremists
@@ -1180,7 +1126,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199404090019,India,23.587961,72.369325,3.0,,Utilities,Unknown
 199404090020,Israel,31.348022,34.491093,1.0,,Military,Hamas (Islamic Resistance Movement)
 199404090021,Lebanon,33.360833,35.519444,3.0,,Military,Popular Front for the Liberation of Palestine (PFLP)
-199404090022,Lebanon,,,0.0,,Terrorists/Non-State Militia,Unknown
 199404100001,Mexico,15.743255,-92.28566,0.0,,NGO,Unknown
 199404100002,United Kingdom,54.607712,-5.95621,0.0,,Private Citizens & Property,Ulster Freedom Fighters (UFF)
 199404100003,United Kingdom,54.607712,-5.95621,0.0,,Private Citizens & Property,Ulster Freedom Fighters (UFF)
@@ -1230,16 +1175,13 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199404130017,Israel,31.771599,35.2034,0.0,,Business,Palestinians
 199404130018,Lebanon,33.474535,35.359255,1.0,,Terrorists/Non-State Militia,Unknown
 199404130019,Lebanon,33.463846,35.576524,0.0,,Terrorists/Non-State Militia,Unknown
-199404130020,Lebanon,,,1.0,,Terrorists/Non-State Militia,Unknown
 199404140001,United Kingdom,54.607712,-5.95621,1.0,,Government (General),Ulster Freedom Fighters (UFF)
 199404140002,South Africa,-26.53081,25.799399,0.0,,Business,Unknown
-199404140003,Turkey,,,6.0,,Private Citizens & Property,Kurdistan Workers' Party (PKK)
 199404140004,Angola,-12.383203,16.933844,25.0,,Private Citizens & Property,Popular Movement for the Liberation of Angola
 199404140005,Honduras,15.21203,-85.769228,0.0,,Government (General),Cinchoneros Popular Liberation Movement
 199404140006,India,34.205141,74.349494,3.0,,Military,Hizbul Mujahideen (HM)
 199404140007,India,34.205605,74.353867,2.0,,Military,Jammu and Kashmir Liberation Front
 199404140008,India,33.733336,75.148983,0.0,,Police,Kashmiri extremists
-199404140009,Lebanon,,,3.0,,Terrorists/Non-State Militia,Unknown
 199404150001,Pakistan,24.891115,67.143311,1.0,,Government (General),Unknown
 199404150002,Armenia,40.17857,44.535763,1.0,,Government (General),Unknown
 199404150003,India,25.095386,94.361652,3.0,,Police,National Socialist Council of Nagaland
@@ -1254,8 +1196,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199404160007,Egypt,27.045349,31.319283,0.0,,Transportation,Al-Gama'at al-Islamiyya (IG)
 199404160008,France,45.764043,4.835659,0.0,,Private Citizens & Property,Unknown
 199404160009,Lebanon,33.541351,35.586215,2.0,,Terrorists/Non-State Militia,Hezbollah
-199404170001,Philippines,,,3.0,,Police,New People's Army (NPA)
-199404170002,Philippines,,,2.0,,Police,New People's Army (NPA)
 199404170004,France,41.922825,9.405786,0.0,,Military,Corsican National Liberation Front (FLNC)
 199404170005,France,42.37611,9.367888,0.0,,Police,Unknown
 199404170006,France,45.764043,4.835659,0.0,,Educational Institution,Unknown
@@ -1324,9 +1264,7 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199404230002,South Africa,-28.311518,31.418207,1.0,,Violent Political Party,Unknown
 199404230003,South Africa,-28.311518,31.418207,1.0,,Violent Political Party,Unknown
 199404230004,Thailand,8.430398,99.963122,3.0,,Transportation,Unknown
-199404230005,Turkey,,,10.0,,Military,Kurdistan Workers' Party (PKK)
 199404230006,Turkey,37.522653,42.452637,13.0,,Military,Kurdistan Workers' Party (PKK)
-199404230007,Turkey,,,6.0,,Military,Kurdistan Workers' Party (PKK)
 199404230008,France,48.891903,7.254317,0.0,,Private Citizens & Property,Unknown
 199404230009,Germany,51.435519,14.239528,0.0,,Private Citizens & Property,Neo-Nazi extremists
 199404230010,Iran,35.724533,51.40519,0.0,,Government (Diplomatic),Unknown
@@ -1357,10 +1295,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199404250007,South Africa,-26.214336,28.167874,10.0,,Transportation,Unknown
 199404250008,South Africa,-26.178481,27.70325,0.0,,Transportation,White supremacists/nationalists
 199404250009,South Africa,-25.748281,28.212069,2.0,,Business,White supremacists/nationalists
-199404250010,South Africa,,,0.0,,Government (General),Unknown
-199404250011,South Africa,,,0.0,,Government (General),Unknown
-199404250012,South Africa,,,0.0,,Government (General),Unknown
-199404250013,South Africa,,,0.0,,Government (General),Unknown
 199404250014,Algeria,35.2,-0.633333,2.0,,Business,Moslem Activists
 199404250015,Greece,37.99749,23.762728,0.0,,Business,Revolutionary People's Struggle (ELA)
 199404250016,United Kingdom,54.607712,-5.95621,1.0,,Private Citizens & Property,Irish Republican Army (IRA)
@@ -1409,7 +1343,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199404280007,Zaire,-5.25,14.866667,1.0,,Private Citizens & Property,Unknown
 199404280008,Zaire,-5.560387,14.437396,0.0,,Private Citizens & Property,Unknown
 199404280009,Brazil,-23.550711,-46.633475,0.0,,Business,Unknown
-199404280010,Colombia,,,0.0,,Utilities,National Liberation Army of Colombia (ELN)
 199404280011,Colombia,4.87411,-74.56226,2.0,,Military,Revolutionary Armed Forces of Colombia (FARC)
 199404280012,France,43.124228,5.928,0.0,,Police,Youths
 199404290001,Thailand,7.984311,98.330747,0.0,,Business,Unknown
@@ -1421,7 +1354,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199404300003,Sierra Leone,8.311203,-10.848706,35.0,,Private Citizens & Property,Revolutionary United Front (RUF)
 199404300004,South Africa,-30.738701,30.28186,1.0,,Private Citizens & Property,Unknown
 199404300005,South Africa,-29.767645,30.913095,0.0,,Private Citizens & Property,Unknown
-199404300006,South Africa,,,1.0,,Private Citizens & Property,Unknown
 199404300007,South Africa,-29.965819,30.882976,2.0,,Private Citizens & Property,Unknown
 199404300008,South Africa,-28.603649,32.086304,1.0,,Private Citizens & Property,Unknown
 199404300009,Cambodia,13.254595,102.880248,3.0,,Private Citizens & Property,Khmer Rouge
@@ -1430,7 +1362,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199404300012,Cambodia,13.0,105.0,12.0,,Private Citizens & Property,Khmer Rouge
 199404300013,Egypt,26.768056,31.493889,7.0,,Police,Al-Gama'at al-Islamiyya (IG)
 199404300014,India,25.906267,93.72759,0.0,,Business,Naga Students Federation
-199404300015,India,,,0.0,,Business,Naga Students Federation
 199405000001,Turkey,39.788172,42.746941,24.0,,Military,Kurdistan Workers' Party (PKK)
 199405010001,Pakistan,24.891115,67.143311,0.0,,Private Citizens & Property,Mohajir National Movement
 199405010002,Pakistan,24.891115,67.143311,1.0,,Transportation,Mohajir National Movement
@@ -1469,7 +1400,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199405040007,Peru,-11.967368,-76.978462,0.0,,Business,Shining Path (SL)
 199405040008,Philippines,8.509558,124.650732,2.0,,Government (General),Unknown
 199405040009,Togo,6.172553,1.231572,0.0,,Business,Unknown
-199405040010,Turkey,,,15.0,,Military,Kurdistan Workers' Party (PKK)
 199405040011,Turkey,39.307355,39.438778,8.0,,Military,Kurdistan Workers' Party (PKK)
 199405040012,Colombia,0.962302,-77.732459,1.0,,Private Citizens & Property,Unknown
 199405040013,Egypt,26.559074,31.69567,0.0,,Police,Unknown
@@ -1495,7 +1425,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199405080001,United Kingdom,54.50853,-6.763131,0.0,,Private Citizens & Property,Protestant extremists
 199405080002,Peru,-11.967368,-76.978462,1.0,,Business,Shining Path (SL)
 199405080003,Sierra Leone,8.027651,-11.103585,10.0,,Private Citizens & Property,Revolutionary United Front (RUF)
-199405080004,South Africa,,,5.0,,Private Citizens & Property,Unknown
 199405080005,Turkey,41.106178,28.689863,0.0,,Transportation,Unknown
 199405080006,Turkey,41.106178,28.689863,0.0,,Transportation,Unknown
 199405080007,Algeria,36.763763,3.055413,2.0,,Religious Figures/Institutions,Unknown
@@ -1525,7 +1454,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199405100007,Israel,32.08297,34.811886,1.0,,Police,Israeli settlers
 199405100008,Lesotho,-28.951077,28.252662,0.0,,Business,Unknown
 199405110001,Russia,53.998708,112.891865,0.0,,Government (Diplomatic),Unknown
-199405110002,Sierra Leone,,,0.0,,Private Citizens & Property,Revolutionary United Front (RUF)
 199405110003,Sierra Leone,7.777924,-11.725318,0.0,,Private Citizens & Property,Revolutionary United Front (RUF)
 199405110004,Sierra Leone,7.708124,-11.692597,0.0,,Government (General),Revolutionary United Front (RUF)
 199405110005,Spain,43.258434,-2.921819,0.0,,Business,Basque Fatherland and Freedom (ETA)
@@ -1541,7 +1469,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199405120007,Peru,-11.967368,-76.978462,0.0,,Business,Shining Path (SL)
 199405120008,Peru,-11.967368,-76.978462,0.0,,Business,Shining Path (SL)
 199405120009,Philippines,8.240043,124.244766,0.0,,Religious Figures/Institutions,Unknown
-199405120010,Turkey,,,9.0,,Military,Kurdistan Workers' Party (PKK)
 199405120011,Turkey,37.449429,43.750656,34.0,,Military,Kurdistan Workers' Party (PKK)
 199405120012,Turkey,37.422746,42.492326,0.0,,Military,Kurdistan Workers' Party (PKK)
 199405120013,Turkey,37.871045,42.149452,0.0,,Military,Kurdistan Workers' Party (PKK)
@@ -1561,8 +1488,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199405130007,Algeria,36.763763,3.055413,1.0,,Government (General),Moslem Activists
 199405130008,Argentina,-34.61768,-58.444435,0.0,,Government (Diplomatic),People's Revolutionary Organization
 199405130009,Benin,6.366667,2.433333,0.0,,Business,Unknown
-199405130010,Egypt,,,2.0,,Police,Al-Gama'at al-Islamiyya (IG)
-199405130011,Egypt,,,1.0,,Police,Al-Gama'at al-Islamiyya (IG)
 199405130012,Greece,37.99749,23.762728,0.0,,Private Citizens & Property,Furious Rebellion
 199405130013,United Kingdom,54.463367,-6.328597,1.0,,Police,Irish Republican Army (IRA)
 199405140001,United Kingdom,54.250039,-6.703625,1.0,,Military,Irish Republican Army (IRA)
@@ -1595,7 +1520,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199405160007,Peru,-11.967368,-76.978462,1.0,,Business,Shining Path (SL)
 199405160008,Russia,59.853371,30.348433,0.0,,Business,Unknown
 199405160009,Somalia,2.059819,45.326115,5.0,,Government (Diplomatic),Unknown
-199405160010,Algeria,,,3.0,,Military,Moslem Activists
 199405160011,West Bank and Gaza Strip,31.530243,35.094162,0.0,,Private Citizens & Property,Israeli settlers
 199405160012,West Bank and Gaza Strip,31.530243,35.094162,0.0,,Private Citizens & Property,Palestinians
 199405160013,West Bank and Gaza Strip,31.530243,35.094162,0.0,,Private Citizens & Property,Israeli settlers
@@ -1673,7 +1597,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199405230007,Greece,37.99749,23.762728,0.0,,Business,Unknown
 199405230008,Italy,41.890961,12.490069,0.0,,Government (General),Neo-Nazi extremists
 199405240001,Rwanda,-1.949011,30.057852,0.0,,Government (Diplomatic),Unknown
-199405240002,Turkey,,,8.0,,Private Citizens & Property,Kurdistan Workers' Party (PKK)
 199405240003,Turkey,37.522653,42.452637,2.0,,Private Citizens & Property,Kurdistan Workers' Party (PKK)
 199405240004,Turkey,41.106178,28.689863,0.0,,Transportation,Kurdistan Workers' Party (PKK)
 199405240005,Algeria,36.763763,3.055413,1.0,,Business,Moslem Activists
@@ -1708,10 +1631,8 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199405260023,Dominican Republic,19.580351,-70.987427,0.0,,Private Citizens & Property,Unknown
 199405260024,Dominican Republic,19.580351,-70.987427,0.0,,Private Citizens & Property,Unknown
 199405260025,France,43.949317,4.805528,0.0,,Educational Institution,Unknown
-199405260026,Israel,,,0.0,,Military,Palestinian Islamic Jihad (PIJ)
 199405270001,Moldova,46.852809,29.632671,1.0,,Government (General),Unknown
 199405270002,Russia,43.361746,45.410999,3.0,,Government (General),Unknown
-199405270003,Sierra Leone,,,14.0,,Private Citizens & Property,Revolutionary United Front (RUF)
 199405270004,Tajikistan,37.597436,69.383188,1.0,,Military,Unknown
 199405270005,Algeria,34.720589,-1.391068,9.0,,Police,Moslem Activists
 199405270006,Armenia,40.17857,44.535763,0.0,,Business,Unknown
@@ -1758,7 +1679,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199406020006,France,43.344233,3.215795,0.0,,Telecommunication,Unknown
 199406020007,France,43.420958,3.358234,0.0,,Telecommunication,Unknown
 199406020008,West Bank and Gaza Strip,31.704338,35.194355,0.0,,Government (General),Palestinians
-199406030001,United Kingdom,,,0.0,,Business,Unknown
 199406030002,United Kingdom,55.950176,-3.187536,0.0,,Business,Unknown
 199406030003,United Kingdom,51.686612,-1.389524,0.0,,Business,Unknown
 199406030004,United Kingdom,51.866742,-2.24867,0.0,,Business,Unknown
@@ -1776,7 +1696,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199406050002,Russia,55.751377,37.579914,1.0,,Business,Unknown
 199406050003,Spain,43.317073,-2.678975,0.0,,Police,Basque Fatherland and Freedom (ETA)
 199406050004,Thailand,6.545499,101.2799,0.0,,Private Citizens & Property,Unknown
-199406050005,Turkey,,,37.0,,Military,Kurdistan Workers' Party (PKK)
 199406050006,Colombia,7.08582,-70.75779,0.0,,Unknown,Unknown
 199406050007,Djibouti,11.588591,43.145343,2.0,,Police,Unknown
 199406050008,India,21.097542,81.037781,2.0,,Transportation,Unknown
@@ -1796,7 +1715,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199406070007,Guatemala,14.622869,-90.529068,0.0,,Business,Unknown
 199406070008,West Bank and Gaza Strip,31.278791,34.256435,0.0,,Military,Palestinians
 199406070009,Italy,41.467597,12.9037,0.0,,Religious Figures/Institutions,Neo-Nazi extremists
-199406070010,Philippines,,,0.0,,Business,Unknown
 199406080001,Philippines,6.11622,125.169395,3.0,,Private Citizens & Property,Abu Sayyaf Group (ASG)
 199406080002,Philippines,6.700414,121.972557,16.0,,Private Citizens & Property,Abu Sayyaf Group (ASG)
 199406080003,Philippines,14.596051,120.978666,0.0,,Business,Unknown
@@ -1804,12 +1722,10 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199406080005,Russia,55.751377,37.579914,0.0,,Transportation,Unknown
 199406080006,Rwanda,-1.949011,30.057852,13.0,,Religious Figures/Institutions,Rwanda Patriotic Front (RPF)
 199406080007,Rwanda,-1.949011,30.057852,0.0,,Educational Institution,Unknown
-199406080008,Sierra Leone,,,0.0,,Unknown,Revolutionary United Front (RUF)
 199406080009,South Africa,-26.184113,28.033232,2.0,,Private Citizens & Property,Unknown
 199406080010,Algeria,36.763763,3.055413,3.0,,Business,Moslem Activists
 199406080011,France,41.983884,8.796828,0.0,,Business,Unknown
 199406080012,El Salvador,13.703618,-89.715008,11.0,,Transportation,Unknown
-199406080013,Lebanon,,,0.0,,Private Citizens & Property,Unknown
 199406080014,Lebanon,34.034916,36.227844,0.0,,Private Citizens & Property,Unknown
 199406080015,United States,39.291087,-84.482954,0.0,"6/8/1994: Two members of the Aryan Republican Army robbed the Society National Bank in Springdale, Ohio, United States. $11,890 was stolen but the money was attached to a dye pack used by the bank as a security device. While the robbers were driving away, the dye pack exploded rendering the money useless.",Business,Aryan Republican Army
 199406090001,Mexico,19.566519,-101.706829,1.0,,Government (General),Unknown
@@ -1831,7 +1747,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199406110007,United Kingdom,51.504387,-0.140041,0.0,,Business,Irish Republican Army (IRA)
 199406110008,Greece,37.99749,23.762728,0.0,,Government (General),Unknown
 199406110009,Hungary,47.498406,19.040758,0.0,,Government (General),Unknown
-199406110010,Iraq,,,,,Violent Political Party,Patriotic Union of Kurdistan (PUK)
 199406110012,Kenya,-1.28518,36.821107,0.0,,Government (General),Unknown
 199406120001,Mali,16.883333,-1.916667,8.0,,Military,Tuareg extremists
 199406120002,Mali,16.77532,-3.008265,22.0,,Military,Tuareg extremists
@@ -1853,7 +1768,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199406140001,United Kingdom,54.463367,-6.328597,0.0,,Educational Institution,Ulster Freedom Fighters (UFF)
 199406140002,United Kingdom,54.607712,-5.95621,0.0,,Government (General),Ulster Freedom Fighters (UFF)
 199406140004,Spain,39.471975,-0.917042,2.0,,Police,Basque Fatherland and Freedom (ETA)
-199406140005,Tajikistan,,,1.0,,Military,Unknown
 199406140006,Turkey,41.106178,28.689863,0.0,,Transportation,Kurdistan Workers' Party (PKK)
 199406140007,Wallis and Futuna,-13.282509,-176.176447,0.0,,Government (General),Unknown
 199406140008,Algeria,35.391899,0.138188,7.0,,Military,Moslem Activists
@@ -1903,7 +1817,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199406180004,Peru,-11.967368,-76.978462,0.0,,Business,Shining Path (SL)
 199406180005,Philippines,6.929089,122.07885,1.0,,Private Citizens & Property,Unknown
 199406180006,Philippines,6.703352,121.968689,0.0,,Transportation,Unknown
-199406180007,Rwanda,,,1.0,,Government (Diplomatic),Rwanda Patriotic Front (RPF)
 199406180008,Somalia,2.059819,45.326115,0.0,,Journalists & Media,Unknown
 199406180009,Spain,43.222177,-2.885668,0.0,,Police,Basque Fatherland and Freedom (ETA)
 199406180010,Yemen,15.449888,45.018688,0.0,,Utilities,Unknown
@@ -1921,7 +1834,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199406200003,India,33.732216,75.157913,1.0,,Government (General),Unknown
 199406200004,Iran,36.32396,59.556959,70.0,,Religious Figures/Institutions,Unknown
 199406210001,Philippines,8.240043,124.244766,0.0,,Business,Unknown
-199406210002,Turkey,,,0.0,,Business,Kurdistan Workers' Party (PKK)
 199406210003,Republic of the Congo,-4.225356,15.25106,0.0,,Government (General),Unknown
 199406210004,Liberia,6.230845,-9.812493,0.0,,Military,National Patriotic Front of Liberia (NPFL)
 199406220001,Turkey,36.854646,28.271809,0.0,,Unknown,Kurdistan Workers' Party (PKK)
@@ -1989,7 +1901,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199406300002,India,20.46268,85.883253,4.0,,Private Citizens & Property,Unknown
 199406300003,West Bank and Gaza Strip,31.995965,35.27111,0.0,,Private Citizens & Property,Palestinians
 199406300004,West Bank and Gaza Strip,31.502407,34.459743,0.0,,Military,Hamas (Islamic Resistance Movement)
-199407010001,Argentina,,,0.0,,Utilities,Unknown
 199407010002,West Bank and Gaza Strip,31.784838,35.224613,1.0,,Government (General),David's Sword
 199407010003,Italy,41.890961,12.490069,0.0,,Business,Unknown
 199407010004,Italy,43.768732,11.256901,0.0,,Business,Unknown
@@ -2081,7 +1992,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199407140005,Turkey,41.106178,28.689863,0.0,,Business,Great Eastern Islamic Raiders Front (IBDA-C)
 199407140006,France,42.699997,9.447317,0.0,,Business,Corsican Farmers' Front
 199407140007,Germany,52.408418,12.562492,0.0,,Business,Unknown
-199407140008,India,,,7.0,,Police,Bodo Militants
 199407150001,United Kingdom,54.41653,-6.148866,0.0,,Business,Ulster Freedom Fighters (UFF)
 199407150002,United Kingdom,54.50853,-6.763131,0.0,,Police,Unknown
 199407150003,Algeria,36.650003,3.330569,0.0,,Government (Diplomatic),Armed Islamic Group (GIA)
@@ -2096,15 +2006,9 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199407160006,India,32.726602,74.857026,6.0,,Transportation,Kashmiri extremists
 199407170001,United Kingdom,54.238631,-7.170908,1.0,,Private Citizens & Property,Irish Republican Army (IRA)
 199407170002,United Kingdom,54.300453,-6.197929,0.0,,Business,Ulster Freedom Fighters (UFF)
-199407170003,Colombia,,,0.0,,Government (General),Left-Wing Guerrillas
-199407170004,Colombia,,,0.0,,Government (General),Left-Wing Guerrillas
-199407170005,Colombia,,,0.0,,Government (General),Left-Wing Guerrillas
-199407170006,Colombia,,,0.0,,Government (General),Left-Wing Guerrillas
 199407170007,Colombia,7.882318,-76.630626,0.0,,Police,Left-Wing Guerrillas
 199407170008,Colombia,0.49765,-76.49768,0.0,,Airports & Aircraft,Left-Wing Guerrillas
 199407170009,Colombia,1.03033,-76.61475,0.0,,Airports & Aircraft,Left-Wing Guerrillas
-199407170010,Colombia,,,0.0,,Police,Left-Wing Guerrillas
-199407170011,Colombia,,,0.0,,Police,Left-Wing Guerrillas
 199407170012,Djibouti,11.588591,43.145343,4.0,,Private Citizens & Property,Unknown
 199407170013,France,43.696036,7.265592,0.0,,Private Citizens & Property,Youths
 199407180001,Myanmar,17.725159,97.735819,4.0,,Terrorists/Non-State Militia,Karen National Union
@@ -2119,13 +2023,10 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199407190006,Colombia,4.72067,-73.9685,0.0,,Business,Revolutionary Armed Forces of Colombia (FARC)
 199407190007,Colombia,4.72067,-73.9685,0.0,,Business,Revolutionary Armed Forces of Colombia (FARC)
 199407190008,Colombia,4.512971,-73.921204,0.0,,Police,Revolutionary Armed Forces of Colombia (FARC)
-199407190009,Colombia,,,0.0,,Police,Revolutionary Armed Forces of Colombia (FARC)
 199407190010,Colombia,4.72067,-73.9685,1.0,,Police,Revolutionary Armed Forces of Colombia (FARC)
 199407190011,Colombia,4.30831,-74.30138,0.0,,Police,Unknown
 199407190012,Colombia,4.15127,-73.63872,1.0,,Military,Left-Wing Guerrillas
 199407190013,Colombia,5.800833,-72.1675,0.0,,Police,Revolutionary Armed Forces of Colombia (FARC)
-199407200001,Mali,,,25.0,,Private Citizens & Property,Islamic Arab Front of Azawad (FIAA)
-199407200002,Turkey,,,11.0,,Private Citizens & Property,Kurdistan Workers' Party (PKK)
 199407200003,Azerbaijan,40.41724,49.903461,0.0,,Government (General),Unknown
 199407200004,Colombia,4.010004,-75.603807,1.0,,Private Citizens & Property,Unknown
 199407200005,Colombia,0.74522,-75.23414,0.0,,Police,Revolutionary Armed Forces of Colombia (FARC)
@@ -2142,7 +2043,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199407210008,Algeria,35.20855,4.17402,1.0,,Journalists & Media,Unknown
 199407210009,Bolivia,-16.509317,-68.10434,,,Government (Diplomatic),Unknown
 199407210010,Bosnia-Herzegovina,43.85,18.383333,0.0,,NGO,Unknown
-199407210011,Colombia,,,0.0,,Business,Revolutionary Armed Forces of Colombia (FARC)
 199407210012,Colombia,11.77507,-72.44097,0.0,,Police,Revolutionary Armed Forces of Colombia (FARC)
 199407210013,India,26.329008,91.005433,0.0,,Private Citizens & Property,Long-time Muslim immigrants from Bangladesh
 199407210014,India,26.329008,91.005433,0.0,,Private Citizens & Property,Long-time Muslim immigrants from Bangladesh
@@ -2150,7 +2050,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199407210016,India,26.329008,91.005433,0.0,,Private Citizens & Property,Long-time Muslim immigrants from Bangladesh
 199407210017,India,26.329008,91.005433,0.0,,Private Citizens & Property,Long-time Muslim immigrants from Bangladesh
 199407210023,India,26.329008,91.005433,11.0,,Private Citizens & Property,Bodo Militants
-199407210024,India,,,22.0,,Private Citizens & Property,Naga People
 199407210038,Bosnia-Herzegovina,43.85,18.383333,0.0,,NGO,Unknown
 199407210039,Bosnia-Herzegovina,43.85,18.383333,0.0,,NGO,Unknown
 199407210040,India,26.329008,91.005433,0.0,,Private Citizens & Property,Bodo Militants
@@ -2170,7 +2069,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199407220006,United Kingdom,54.607712,-5.95621,0.0,,Business,Unknown
 199407220007,West Bank and Gaza Strip,31.366891,34.316758,0.0,,Military,Palestinian Islamic Jihad (PIJ)
 199407220008,Thailand,18.748655,99.167757,2.0,,Private Citizens & Property,Unknown
-199407220009,Turkey,,,0.0,,Military,Unknown
 199407220012,Colombia,6.35561,-73.24064,2.0,,Business,Unknown
 199407220013,Georgia,41.709981,44.792998,0.0,,Private Citizens & Property,Unknown
 199407220015,India,34.08374,74.789902,1.0,,Tourists,Al-Jehad
@@ -2180,9 +2078,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199407230002,Pakistan,24.891115,67.143311,6.0,,Transportation,Sunni Muslim extremists
 199407230003,Somalia,2.059819,45.326115,0.0,,Government (Diplomatic),Unknown
 199407230004,Turkey,41.106178,28.689863,0.0,,Police,Unknown
-199407230006,Colombia,,,30.0,,Military,Revolutionary Armed Forces of Colombia (FARC)
-199407230007,Colombia,,,1.0,,Private Citizens & Property,Colombia Without Guerrillas
-199407230008,Colombia,,,1.0,,Private Citizens & Property,Colombia Without Guerrillas
 199407230009,Germany,51.021788,11.246999,0.0,,Private Citizens & Property,Neo-Nazi extremists
 199407230010,Germany,52.636455,9.842933,0.0,,Business,Kurdistan Workers' Party (PKK)
 199407230011,Hungary,47.498406,19.040758,0.0,,Religious Figures/Institutions,Serbian Gangsters
@@ -2198,7 +2093,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199407240007,Haiti,18.527716,-72.33284,0.0,,Unknown,New Indigenous Army
 199407240008,India,26.833611,92.223889,70.0,,Private Citizens & Property,Bodo Militants
 199407240009,West Bank and Gaza Strip,31.396667,35.066111,1.0,,Private Citizens & Property,Palestinian Activists
-199407250001,Mali,,,35.0,,Private Citizens & Property,Islamic Arab Front of Azawad (FIAA)
 199407250002,Somalia,4.73538,45.2024,0.0,,Government (Diplomatic),Somali National Alliance
 199407250003,Guatemala,14.622869,-90.529068,0.0,,Religious Figures/Institutions,Unknown
 199407260001,Turkey,36.99154,35.331051,0.0,,Police,Unknown
@@ -2211,13 +2105,9 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199407270003,Spain,43.291618,-1.977903,1.0,,Business,Unknown
 199407270005,United Kingdom,51.504387,-0.140041,0.0,,Private Citizens & Property,Unknown
 199407270006,Colombia,6.040086,-72.636645,6.0,,Military,Revolutionary Armed Forces of Colombia (FARC)
-199407270007,Guatemala,,,0.0,,Utilities,Guatemalan National Revolutionary Unity (URNG)
-199407270008,Guatemala,,,0.0,,Utilities,Guatemalan National Revolutionary Unity (URNG)
-199407270009,Guatemala,,,0.0,,Utilities,Guatemalan National Revolutionary Unity (URNG)
 199407270010,United States,46.919086,-122.939912,0.0,"7/27/1994: Earth First! members claimed responsibility for setting arson to logging equipment at Dave Littlejohn Logging Company near Olympia, Washington in the United States. The arson destroyed a log loader. There were no casualties in the incident. This incident was one in a  series of two; the second arson occurred four days later at the same logging company, damaging more equipment. Nine days later, both incidents were claimed in a phone call to the contract logging association, stating that the destruction was ""retaliation by the Earth Firsters to protect the planet Earth from loggers.""",Business,Earth First!
 199407280001,Pakistan,24.891115,67.143311,1.0,,Police,Unknown
 199407280002,Russia,44.050154,43.05102,6.0,,Transportation,Unknown
-199407280003,Colombia,,,1.0,,Private Citizens & Property,Colombia Without Guerrillas
 199407280004,Czech Republic,50.075538,14.437801,0.0,,Business,Unknown
 199407290001,United Kingdom,54.183052,-6.341388,0.0,,Police,Irish Republican Army (IRA)
 199407290002,Spain,40.465595,-3.696263,3.0,,Military,Basque Fatherland and Freedom (ETA)
@@ -2235,7 +2125,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199407300004,South Africa,-28.86831,31.916861,4.0,,Violent Political Party,Inkatha Freedom Party (IFP)
 199407300005,South Africa,-28.86831,31.916861,5.0,,Violent Political Party,Inkatha Freedom Party (IFP)
 199407300006,United States,38.88549,-77.173624,0.0,,Business,Anti-Abortion extremists
-199407300007,Algeria,,,2.0,,Private Citizens & Property,Muslim Fundamentalists
 199407300008,Colombia,11.354774,-72.520483,0.0,,Government (General),Revolutionary Armed Forces of Colombia (FARC)
 199407300009,India,22.973423,78.656894,16.0,,Police,Naxalites
 199407300012,South Africa,-28.86831,31.916861,0.0,,Violent Political Party,Inkatha Freedom Party (IFP)
@@ -2248,9 +2137,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199408010001,Thailand,18.790977,98.960776,1.0,,Business,Unknown
 199408010002,Bangladesh,22.718485,89.070477,9.0,,Violent Political Party,Communists
 199408010003,Estonia,57.844679,27.002277,0.0,,Unknown,Unknown
-199408010004,Estonia,,,0.0,,Unknown,Unknown
-199408010005,Estonia,,,0.0,,Unknown,Unknown
-199408010006,Estonia,,,0.0,,Unknown,Unknown
 199408010008,Haiti,18.527716,-72.33284,0.0,,Government (General),Unknown
 199408020001,Sri Lanka,7.716666,81.700188,30.0,,Military,Liberation Tigers of Tamil Eelam (LTTE)
 199408020002,Argentina,-34.61768,-58.444435,0.0,,Airports & Aircraft,Unknown
@@ -2313,12 +2199,10 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199408120002,Turkey,41.106178,28.689863,1.0,,Transportation,Kurdistan Workers' Party (PKK)
 199408120003,Ukraine,44.952117,34.102417,0.0,,Private Citizens & Property,Unknown
 199408120004,Ukraine,44.952117,34.102417,0.0,,Business,Unknown
-199408120005,Cuba,,,0.0,,Maritime,Unknown
 199408120006,West Bank and Gaza Strip,31.777551,35.23912,0.0,,Police,Hamas (Islamic Resistance Movement)
 199408120007,Israel,31.771599,35.2034,2.0,,Military,Hamas (Islamic Resistance Movement)
 199408120008,Lebanon,33.329413,35.614849,0.0,,Terrorists/Non-State Militia,Hezbollah
 199408120009,Lebanon,33.347492,35.749159,0.0,,Terrorists/Non-State Militia,Hezbollah
-199408130001,Niger,,,3.0,,Food or Water Supply,Tuareg extremists
 199408130002,Nigeria,6.618911,3.305532,0.0,,Government (General),Council for Popular Justice
 199408130003,Nigeria,6.618911,3.305532,0.0,,Government (General),Council for Popular Justice
 199408130004,Sri Lanka,7.092801,79.994608,1.0,,Violent Political Party,Unknown
@@ -2383,7 +2267,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199408210007,Iran,37.551865,45.057774,0.0,,Business,Anti-Revolutionary Agents
 199408210008,Italy,45.954093,12.502332,0.0,,Private Citizens & Property,Animal Rights extremists
 199408220001,Pakistan,30.197843,71.467629,2.0,,Educational Institution,Unknown
-199408220002,Somalia,,,7.0,,Government (Diplomatic),Habr Gedir Clan
 199408220003,United Kingdom,51.504387,-0.140041,0.0,,Business,Irish Republican Army (IRA)
 199408220004,Iraq,33.303566000000004,44.371773,1.0,,Journalists & Media,Iraqi Islamic Vanguards for National Salvation (IIVNS)
 199408230001,United Kingdom,54.607712,-5.95621,0.0,,Private Citizens & Property,Irish Republican Army (IRA)
@@ -2411,8 +2294,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199408250008,Iraq,36.192589,44.004623,10.0,,Violent Political Party,Unknown
 199408250009,West Bank and Gaza Strip,32.222271,35.253506,0.0,,Military,Unknown
 199408250010,Lebanon,33.43407,35.533752,1.0,,Terrorists/Non-State Militia,Hezbollah
-199408250011,Lebanon,,,0.0,,Terrorists/Non-State Militia,Hezbollah
-199408250012,Lebanon,,,0.0,,Terrorists/Non-State Militia,Hezbollah
 199408260001,United Kingdom,54.874447,-7.312371,0.0,,Police,Unknown
 199408260002,United Kingdom,54.328629,-5.716669,0.0,,Police,Irish Republican Army (IRA)
 199408260003,United Kingdom,54.787715,-6.492314,0.0,,Police,Irish Republican Army (IRA)
@@ -2432,12 +2313,9 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199408270004,Slovenia,45.683333,14.233333,1.0,,Tourists,Unknown
 199408270005,South Africa,-26.1072,28.058292,0.0,,Government (Diplomatic),Unknown
 199408270007,Uganda,2.797971,32.315077,8.0,,Private Citizens & Property,Lord's Resistance Army (LRA)
-199408270008,Cambodia,,,,,Maritime,Khmer Rouge
 199408270009,Egypt,26.916667,31.433333,6.0,,Police,Al-Gama'at al-Islamiyya (IG)
 199408270010,Estonia,59.457001,28.039487,0.0,,Government (General),Unknown
-199408270011,France,,,0.0,,Government (General),Basque Fatherland and Freedom (ETA)
 199408270012,Lebanon,33.888523,35.503513,1.0,,Violent Political Party,Unknown
-199408280001,Myanmar,,,0.0,,Private Citizens & Property,Karen Insurgents
 199408280002,Somalia,3.115641,43.64658,3.0,,Private Citizens & Property,Unknown
 199408280003,Spain,43.07563,-2.223667,0.0,,Police,Unknown
 199408280004,Algeria,36.16525,1.33452,1.0,,Private Citizens & Property,Unknown
@@ -2485,7 +2363,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199409050006,Cambodia,13.100295,103.199887,8.0,,Transportation,Khmer Rouge
 199409050007,France,48.381585,-1.981439,0.0,,Government (General),Breton Liberation Front (FLB)
 199409060001,Mexico,15.966524,-92.628852,1.0,,Violent Political Party,Unknown
-199409060002,Togo,,,0.0,,Government (General),Unknown
 199409060003,United States,39.14076,-121.619399,0.0,,Religious Figures/Institutions,Unknown
 199409060004,Cambodia,11.816202,104.974703,4.0,,Private Citizens & Property,Khmer Rouge
 199409060005,Haiti,18.527716,-72.33284,1.0,,Private Citizens & Property,Unknown
@@ -2526,12 +2403,10 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199409100012,Republic of the Congo,-4.225356,15.25106,2.0,,Religious Figures/Institutions,Presidential Movement (MP) Militiamen
 199409100014,Germany,50.732674,7.096299,0.0,,Private Citizens & Property,Unknown
 199409100015,Iraq,33.303566000000004,44.371773,2.0,,Government (General),Unknown
-199409100016,Lebanon,,,0.0,,Violent Political Party,Unknown
 199409100017,Lebanon,33.542004,35.381153,0.0,,Violent Political Party,Unknown
 199409110001,Philippines,6.862806,124.443649,10.0,,Private Citizens & Property,U/I Private army of wral politician
 199409110002,Bosnia-Herzegovina,43.343333,17.808056,,,Government (Diplomatic),Bosnian Croats
 199409120001,Turkey,38.979431,39.810261,6.0,,Educational Institution,Unknown
-199409120003,Algeria,,,5.0,,Police,Unknown
 199409120004,Algeria,36.835762,7.457068,0.0,,Government (General),Unknown
 199409120005,Angola,-10.732696,13.768836,20.0,,Transportation,National Union for the Total Independence of Angola (UNITA)
 199409120006,Bangladesh,23.791275,90.418205,,,Transportation,Opposition Group
@@ -2562,7 +2437,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199409140006,Russia,43.361746,45.410999,0.0,,Telecommunication,Pro-Khasbulaton Rebels
 199409140007,Spain,43.325239,-3.011475,0.0,,Business,Basque Fatherland and Freedom (ETA)
 199409140008,Thailand,6.867859,101.252068,0.0,,Private Citizens & Property,Unknown
-199409140009,Turkey,,,0.0,,Business,Unknown
 199409140010,Yemen,12.852693,44.894836,0.0,,Airports & Aircraft,Unknown
 199409140012,Egypt,27.491111,30.838889,1.0,,Police,Al-Gama'at al-Islamiyya (IG)
 199409140013,Guatemala,14.7,-91.866667,0.0,,Private Citizens & Property,Unknown
@@ -2571,7 +2445,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199409140018,Thailand,6.867859,101.252068,0.0,,Unknown,Unknown
 199409150001,Tajikistan,38.553056,69.019722,0.0,,Government (General),Unknown
 199409150002,Algeria,36.266667,2.75,1.0,,Private Citizens & Property,Muslim Militants
-199409150003,Algeria,,,5.0,,Unknown,Unknown
 199409150004,Egypt,26.916667,31.433333,1.0,,Police,Islamist extremists
 199409150005,Germany,53.553813,9.991586,0.0,,Private Citizens & Property,Unknown
 199409160001,South Africa,-29.684008,30.932428,5.0,,Business,Unknown
@@ -2583,10 +2456,8 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199409170003,Turkey,39.106709,39.545246,4.0,,Military,Kurdistan Workers' Party (PKK)
 199409170005,Egypt,25.71468,32.717499,5.0,,Police,Al-Gama'at al-Islamiyya (IG)
 199409170006,Iran,35.724533,51.40519,1.0,,Private Citizens & Property,Unknown
-199409180001,Myanmar,,,2.0,,Government (General),Mon Guerrillas
 199409180002,Colombia,6.598449,-75.011559,0.0,,Government (General),National Liberation People's Front (FPLN)
 199409180003,El Salvador,13.676944,-89.279722,0.0,,Police,Unknown
-199409180004,Guatemala,,,1.0,,Military,Left-Wing Guerrillas
 199409190001,Morocco,34.021185,-6.841146,0.0,,Business,Unknown
 199409190002,Nigeria,6.618911,3.305532,0.0,,Government (General),Unknown
 199409190003,Sri Lanka,8.229528,79.759614,30.0,,Military,Liberation Tigers of Tamil Eelam (LTTE)
@@ -2620,7 +2491,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199409220010,Guatemala,14.622869,-90.529068,0.0,,Private Citizens & Property,Unknown
 199409220011,Guatemala,14.622869,-90.529068,0.0,,Private Citizens & Property,Unknown
 199409220012,Japan,35.689125,139.747742,0.0,,Journalists & Media,Unknown
-199409220013,Lebanon,,,0.0,,Government (Diplomatic),Unknown
 199409230001,Peru,-11.967368,-76.978462,0.0,,Airports & Aircraft,Unknown
 199409230002,Peru,-11.967368,-76.978462,0.0,,Business,Shining Path (SL)
 199409230003,Peru,-11.967368,-76.978462,0.0,,Government (General),Unknown
@@ -2638,7 +2508,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199409250005,Turkey,39.930771,32.76754,0.0,,Business,Kurdistan Workers' Party (PKK)
 199409250006,Turkey,39.930771,32.76754,0.0,,Business,Unknown
 199409250007,Turkey,39.930771,32.76754,0.0,,Business,Unknown
-199409250008,Turkey,,,4.0,,Police,Kurdistan Workers' Party (PKK)
 199409250009,Turkey,39.363724,39.215531,2.0,,Military,Kurdistan Workers' Party (PKK)
 199409250010,Turkey,38.539974,40.05142,0.0,,Military,Kurdistan Workers' Party (PKK)
 199409250011,Turkey,38.560833,40.0375,1.0,,Military,Kurdistan Workers' Party (PKK)
@@ -2664,12 +2533,10 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199409270001,Turkey,41.106178,28.689863,1.0,,Government (General),Dev Sol
 199409270002,Turkey,41.106178,28.689863,1.0,,Government (General),Devrimici Halk Kurtulus Cephesi (DHKP/C)
 199409270003,Turkey,41.106178,28.689863,0.0,,Police,Unknown
-199409270004,Algeria,,,10.0,,Private Citizens & Property,Muslim Fundamentalists
 199409270005,Cambodia,13.58111,102.979599,,,NGO,Khmer Bandits
 199409270006,Egypt,27.205332,33.803768,3.0,,Private Citizens & Property,Al-Gama'at al-Islamiyya (IG)
 199409270007,Egypt,27.732365,30.843773,0.0,,Transportation,Unknown
 199409270008,Germany,49.484677,8.476728,0.0,,Government (General),Unknown
-199409270009,Lebanon,,,0.0,,Terrorists/Non-State Militia,Unknown
 199409270011,Haiti,18.527716,-72.33284,5.0,,Private Citizens & Property,Aristide supporters
 199409280001,Mexico,19.371887,-99.086624,1.0,,Government (General),Unknown
 199409280002,Nigeria,10.530204,7.437338,0.0,,Government (General),Unknown
@@ -2709,7 +2576,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199410020001,Azerbaijan,40.41724,49.903461,0.0,,Government (General),Unknown
 199410020002,Egypt,30.758611,31.735833,0.0,,Police,Islamist extremists
 199410020003,Nicaragua,12.57007,-86.27921,1.0,,Government (General),Unknown
-199410020004,Pakistan,,,6.0,,Business,Unknown
 199410030001,Turkey,36.987748,35.327453,2.0,,Government (General),Unknown
 199410030002,Benin,6.366667,2.433333,0.0,,Government (General),Unknown
 199410030003,Cambodia,13.800851,104.029175,0.0,,Private Citizens & Property,Khmer Rouge
@@ -2754,10 +2620,8 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199410080010,France,43.362402,-1.700075,0.0,,Government (General),Iparretarrak (IK)
 199410080013,Germany,52.50153,13.401851,0.0,,Transportation,Neo-Nazi extremists
 199410090001,Togo,6.333763,1.528142,3.0,,Police,Unknown
-199410090002,Algeria,,,1.0,,Educational Institution,Unknown
 199410090003,Algeria,36.183333,1.533333,1.0,,Private Citizens & Property,Unknown
 199410090004,Germany,52.131076,11.636583,0.0,,Private Citizens & Property,Neo-Nazi extremists
-199410090005,West Bank and Gaza Strip,,,5.0,,Military,Hamas (Islamic Resistance Movement)
 199410090006,Israel,31.771599,35.2034,4.0,,Private Citizens & Property,Hamas (Islamic Resistance Movement)
 199410090007,Sri Lanka,9.575,80.466111,0.0,,Maritime,Liberation Tigers of Tamil Eelam (LTTE)
 199410090008,Philippines,14.596051,120.978666,0.0,,Business,Unknown
@@ -2780,7 +2644,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199410110010,Pakistan,24.891115,67.143311,0.0,,Transportation,Unknown
 199410110011,United States,48.20164,-114.314901,0.0,"10/11/1994:  Richard Thomas Andrews set two fires within the offices of Dr. James Armstrong in Kalispell, Montana, United States. There were no casualties, but the office sustained an estimated $75,000 in damages. Dr. Armstrong was the only physician who performed abortions in the area.",Abortion Related,Anti-Abortion extremists
 199410120001,Myanmar,16.687778,98.508333,6.0,,Military,Karen Insurgents
-199410120002,Turkey,,,0.0,,Government (General),Unknown
 199410120003,Algeria,36.763763,3.055413,1.0,,Government (General),Islamist extremists
 199410120004,Algeria,36.79068,3.24952,1.0,,Business,Muslim Fundamentalists
 199410120005,Algeria,36.763763,3.055413,0.0,,Government (General),Armed Islamic Group (GIA)
@@ -2826,7 +2689,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199410160013,United States,33.577858,-101.854814,0.0,"10/16/1994:  In a series of three related attacks, Roy Ray Martin, El Trevino Muniga, and Ricky Rivera Muniga lured Triellis Lee Stewart, an African American, to their car in Lubbock, Texas, United States and shot him. Triellis Lee Stewart was shot in the hand and had a finger amputated. The perpetrators hoped to incite a race war.",Private Citizens & Property,Neo-Nazi extremists
 199410170001,Russia,55.751377,37.579914,1.0,,Journalists & Media,Unknown
 199410170002,Rwanda,-1.96325,29.995181,1.0,,Religious Figures/Institutions,Unknown
-199410170003,Algeria,,,1.0,,Business,Muslim Fundamentalists
 199410170004,Germany,47.854038,9.014727,0.0,,Private Citizens & Property,Neo-Nazi extremists
 199410170005,Guatemala,14.622869,-90.529068,0.0,,Police,Unknown
 199410170006,Haiti,18.527716,-72.33284,0.0,,Private Citizens & Property,Pro-Aristade
@@ -2881,13 +2743,10 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199410220008,Cambodia,13.254595,102.880248,50.0,,Private Citizens & Property,Khmer Rouge
 199410230001,Sierra Leone,9.350089,-11.706829,2.0,,Private Citizens & Property,Revolutionary United Front (RUF)
 199410230002,Algeria,36.763763,3.055413,2.0,,Religious Figures/Institutions,Islamist extremists
-199410230003,Colombia,,,0.0,,Transportation,National Liberation Army of Colombia (ELN)
-199410230004,Colombia,,,10.0,,Private Citizens & Property,Cleansing Squad
 199410230005,Egypt,25.9,32.716667,2.0,,Tourists,Al-Gama'at al-Islamiyya (IG)
 199410230006,Bangladesh,22.845641,89.540328,2.0,,Educational Institution,Students
 199410230007,Haiti,18.527716,-72.33284,1.0,,Private Citizens & Property,Unknown
 199410240001,Mali,16.273971,-0.041066,11.0,,Unknown,Black African Vigilantes
-199410240002,Burundi,,,54.0,,Private Citizens & Property,Rwanda Patriotic Front (RPF)
 199410240003,Colombia,7.441456,-77.11896,9.0,,Police,Revolutionary Armed Forces of Colombia (FARC)
 199410240004,El Salvador,13.344322,-88.437463,0.0,,Government (General),Unknown
 199410240005,Sri Lanka,6.941837,79.861687,54.0,,Violent Political Party,Liberation Tigers of Tamil Eelam (LTTE)
@@ -2896,7 +2755,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199410250001,Russia,42.98542,47.450668,1.0,,Airports & Aircraft,Unknown
 199410250002,Rwanda,-2.077969,30.072236,0.0,,Government (Diplomatic),Unknown
 199410250003,Lebanon,33.273567,35.463655,0.0,,Terrorists/Non-State Militia,Unknown
-199410250004,Kazakhstan,,,0.0,,Private Citizens & Property,Unknown
 199410250005,Bangladesh,22.845641,89.540328,0.0,,Educational Institution,Students
 199410250006,Guatemala,14.622869,-90.529068,0.0,,Government (General),Unknown
 199410250007,Australia,-31.952854,115.857339,1.0,,Police,Unknown
@@ -2923,18 +2781,13 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199410290003,Turkey,41.106178,28.689863,0.0,,Religious Figures/Institutions,Unknown
 199410290004,Cambodia,13.1,103.2,40.0,,Maritime,Unknown
 199410290005,Colombia,8.511375,-73.446796,5.0,,Military,Revolutionary Armed Forces of Colombia (FARC)
-199410290006,Colombia,,,1.0,,Government (General),Simon Bolivar Guerrilla Coordinating Board (CGSB)
-199410290007,Colombia,,,1.0,,Government (General),Simon Bolivar Guerrilla Coordinating Board (CGSB)
 199410290008,Egypt,27.732365,30.843773,1.0,,Police,Al-Gama'at al-Islamiyya (IG)
-199410290009,Lebanon,,,1.0,,Military,Hezbollah
 199410290010,Bolivia,-16.509317,-68.10434,0.0,,Journalists & Media,Dignity Command
 199410290011,United States,38.908642,-77.015381,0.0,,Government (General),Unknown
 199410300001,Colombia,5.20115,-75.868,0.0,,Military,Unknown
 199410300002,Iraq,33.303566000000004,44.371773,4.0,,Religious Figures/Institutions,Unknown
 199410300003,West Bank and Gaza Strip,31.530243,35.094162,0.0,,Unknown,Unknown
-199410300004,Lebanon,,,0.0,,Terrorists/Non-State Militia,Hezbollah
 199410300005,Lebanon,33.176111,35.443333,0.0,,Military,Hezbollah
-199410300006,Lebanon,,,0.0,,Military,Hezbollah
 199410300007,Lebanon,33.138451,35.364799,0.0,,Terrorists/Non-State Militia,Hezbollah
 199410300009,Mexico,16.756932,-93.129235,0.0,,Violent Political Party,Indians
 199410300010,Mexico,17.140579,-92.710906,0.0,,Government (General),Democratic Revolutionary Party
@@ -2953,7 +2806,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199411010010,Central African Republic,4.37474,18.551292,2.0,,Police,Unknown
 199411020001,Colombia,6.978951,-75.296249,12.0,,Police,National Liberation Army of Colombia (ELN)
 199411020002,Russia,55.751377,37.579914,1.0,,Government (General),Unknown
-199411020003,Lebanon,,,1.0,,Military,Hezbollah
 199411020006,Algeria,35.933333,0.083333,5.0,,Private Citizens & Property,Armed Islamic Group (GIA)
 199411030001,Russia,43.320229,45.654491,0.0,,Government (General),Unknown
 199411030003,United States,37.97457,-122.532474,0.0,,Abortion Related,Anti-Abortion extremists
@@ -2997,7 +2849,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199411090001,Egypt,27.732365,30.843773,1.0,,Police,Al-Gama'at al-Islamiyya (IG)
 199411090002,Turkey,41.106178,28.689863,0.0,,Business,Great Eastern Islamic Raiders Front (IBDA-C)
 199411090003,Venezuela,10.482834,-66.962128,0.0,,Utilities,Unknown
-199411090004,Sri Lanka,,,2.0,,Violent Political Party,Unknown
 199411090005,Sri Lanka,7.939525,81.000963,0.0,,Government (General),United National Party
 199411090006,Peru,-11.967368,-76.978462,3.0,,Military,Shining Path (SL)
 199411090008,Bangladesh,23.791275,90.418205,0.0,,Private Citizens & Property,Unknown
@@ -3008,7 +2859,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199411100006,Burundi,-3.375828,29.364107,2.0,,Government (General),Unknown
 199411100007,Pakistan,24.891115,67.143311,13.0,,Violent Political Party,Muttahida Qami Movement (MQM)
 199411100008,Nicaragua,13.544303,-86.165168,1.0,,Terrorists/Non-State Militia,Unknown
-199411100009,Nicaragua,,,6.0,,Private Citizens & Property,Recontras
 199411100010,Peru,-11.967368,-76.978462,0.0,,Military,Unknown
 199411100011,Haiti,18.527716,-72.33284,2.0,,Government (Diplomatic),Unknown
 199411100012,Bangladesh,23.618999,90.498032,0.0,,Violent Political Party,Unknown
@@ -3049,11 +2899,9 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199411150005,West Bank and Gaza Strip,31.770709,35.269102,0.0,,Private Citizens & Property,Unknown
 199411150006,Egypt,27.732365,30.843773,2.0,,Police,Al-Gama'at al-Islamiyya (IG)
 199411150008,Nepal,26.933054,85.280007,1.0,,Private Citizens & Property,Rival Party Members
-199411150009,Nepal,,,0.0,,Private Citizens & Property,Unknown
 199411160001,West Bank and Gaza Strip,32.311973,35.026603,0.0,,Private Citizens & Property,Unknown
 199411160004,Greece,37.99749,23.762728,0.0,,Journalists & Media,Anarchists
 199411160006,Papua New Guinea,-9.481553,147.190242,0.0,,Government (Diplomatic),Unknown
-199411170001,Mali,,,2.0,,Military,Tuareg extremists
 199411170002,Russia,55.751377,37.579914,0.0,,Business,Unknown
 199411170003,United States,40.587515,-122.392934,0.0,,Business,Unknown
 199411170004,Algeria,33.680278,1.020278,55.0,,Police,Armed Islamic Group (GIA)
@@ -3087,7 +2935,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199411200005,France,42.699997,9.447317,0.0,,Private Citizens & Property,Unknown
 199411200006,South Africa,-30.767453,30.415168,3.0,,Violent Political Party,African National Congress (South Africa)
 199411200007,Mali,16.273971,-0.041066,7.0,,Private Citizens & Property,Tuareg extremists
-199411200008,Lebanon,,,0.0,,Military,Unknown
 199411200009,West Bank and Gaza Strip,31.502407,34.459743,1.0,,Military,Hamas (Islamic Resistance Movement)
 199411200010,Burundi,-2.936211,29.569869,22.0,,Private Citizens & Property,Unknown
 199411200011,Cambodia,14.092625,104.939804,22.0,,Business,Khmer Rouge
@@ -3212,14 +3059,11 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199412070006,United Kingdom,51.504387,-0.140041,0.0,,Business,Unknown
 199412070007,Turkey,37.312903,40.733951,1.0,,Educational Institution,Kurdistan Workers' Party (PKK)
 199412070008,Algeria,36.57412,2.91214,1.0,,Educational Institution,Unknown
-199412070009,Lebanon,,,1.0,,Military,Hezbollah
 199412070010,Bangladesh,22.341896,91.815117,0.0,,Private Citizens & Property,Unknown
 199412070011,Cambodia,11.670839,104.949472,2.0,,Business,Khmer Rouge
 199412080001,Egypt,30.689444,31.820833,2.0,,Other,Al-Gama'at al-Islamiyya (IG)
 199412080002,Egypt,27.732365,30.843773,1.0,,Private Citizens & Property,Al-Gama'at al-Islamiyya (IG)
-199412080003,Algeria,,,1.0,,Government (General),Unknown
 199412080004,Burundi,-2.581751,30.096419,5.0,,Private Citizens & Property,Unknown
-199412080005,Lebanon,,,1.0,,Terrorists/Non-State Militia,Hezbollah
 199412080006,Pakistan,24.891115,67.143311,5.0,,Private Citizens & Property,Unknown
 199412080007,Pakistan,24.891115,67.143311,1.0,,Government (General),Unknown
 199412080008,Bangladesh,22.948277,91.397781,0.0,,Business,Opposition Group
@@ -3256,7 +3100,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199412100011,United States,44.081165,-103.230889,0.0,"12/10/1994: Unknown perpetrators set a fire at a Planned Parenthood facility being constructed in Rapid City, South Dakota, United States. There were no casualties, but the unfinished building sustained $1,000 in damages.",Abortion Related,Anti-Abortion extremists
 199412110001,Algeria,36.707684,2.91022,1.0,,Terrorists/Non-State Militia,Unknown
 199412110002,Egypt,27.732365,30.843773,0.0,,Police,Al-Gama'at al-Islamiyya (IG)
-199412110003,Philippines,,,1.0,,Airports & Aircraft,Jihadi-inspired extremists
 199412110004,United States,40.841437,-74.276645,1.0,,Business,Anti-Technology extremists
 199412110005,Algeria,36.707684,2.91022,2.0,,Police,Unknown
 199412110006,Myanmar,17.725159,97.735819,0.0,,Terrorists/Non-State Militia,Karen National Union
@@ -3295,7 +3138,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199412150003,Philippines,7.199509,124.796982,3.0,,Police,Moro Islamic Liberation Front (MILF)
 199412150004,Philippines,14.596051,120.978666,0.0,,Private Citizens & Property,Unknown
 199412150005,Colombia,3.656667,-76.688333,0.0,,Utilities,Simon Bolivar Guerrilla Coordinating Board (CGSB)
-199412150006,Brazil,,,0.0,,Airports & Aircraft,Shining Path (SL)
 199412150007,Turkey,38.675209,39.222745,1.0,,Military,Dev Sol
 199412150008,Spain,43.267454,-2.020169,1.0,,Police,Basque Fatherland and Freedom (ETA)
 199412150009,Algeria,36.803501,3.563821,0.0,,Utilities,Unknown
@@ -3381,7 +3223,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199412220010,Bangladesh,23.791275,90.418205,0.0,,Private Citizens & Property,United Action Council
 199412220011,Bangladesh,23.791275,90.418205,0.0,,Transportation,Muslim Militants
 199412220012,United Kingdom,54.607712,-5.95621,1.0,,Private Citizens & Property,Protestant extremists
-199412230001,Russia,,,0.0,,Transportation,Unknown
 199412230002,Pakistan,24.891115,67.143311,1.0,,Private Citizens & Property,Unknown
 199412230003,Pakistan,24.891115,67.143311,0.0,,Police,Unknown
 199412230004,China,39.905556,116.395833,1.0,,Transportation,Unknown
@@ -3409,8 +3250,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199412280002,Egypt,27.798694,30.772615,1.0,,Police,Al-Gama'at al-Islamiyya (IG)
 199412280003,Turkey,41.106178,28.689863,0.0,,Journalists & Media,Unknown
 199412280004,West Bank and Gaza Strip,31.356553,34.326901,1.0,,Military,Unknown
-199412290001,Egypt,,,3.0,,Police,Al-Gama'at al-Islamiyya (IG)
-199412290002,Egypt,,,1.0,,Police,Al-Gama'at al-Islamiyya (IG)
 199412290003,Jordan,30.476944,35.520556,0.0,,Police,Unknown
 199412290004,Somalia,2.059819,45.326115,0.0,,NGO,Unknown
 199412290005,Bangladesh,22.49422,89.601617,0.0,,Government (General),Opposition Group

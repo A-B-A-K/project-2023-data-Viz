@@ -1,22 +1,12 @@
 eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198200000001,Canada,43.666667,-79.416667,0.0,,Government (Diplomatic),Armenian Secret Army for the Liberation of Armenia
 198201000001,Guatemala,15.73356,-91.456944,0.0,,Government (General),Unknown
-198201000002,Iran,,,3.0,,Military,Mujahedin-e Khalq (MEK)
-198201000003,Colombia,,,0.0,,Private Citizens & Property,Unknown
-198201000004,Colombia,,,0.0,,Private Citizens & Property,Unknown
-198201000005,Colombia,,,0.0,,Government (Diplomatic),National Liberation Army of Colombia (ELN)
 198201000006,Guatemala,14.646389,-90.733889,0.0,,Utilities,Unknown
 198201000007,Guatemala,15.347892,-90.87235,,,Private Citizens & Property,Unknown
 198201010001,Guatemala,14.622869,-90.529068,0.0,,Government (General),Unknown
 198201010002,El Salvador,13.69288,-89.199161,0.0,,Journalists & Media,Unknown
-198201010003,Nicaragua,,,15.0,,Police,Contras
 198201010004,United Kingdom,54.208418,-5.891745,1.0,,Private Citizens & Property,Irish Republican Army (IRA)
 198201020001,Lebanon,34.438103,35.830841,,,Utilities,Iraqi extremists
-198201030001,El Salvador,,,,,Utilities,Unknown
-198201030002,El Salvador,,,,,Utilities,Unknown
-198201030003,El Salvador,,,,,Utilities,Unknown
-198201030004,El Salvador,,,,,Utilities,Unknown
-198201030005,El Salvador,,,,,Utilities,Unknown
 198201030006,Guatemala,14.403889,-90.698611,0.0,,Private Citizens & Property,Guerrilla Army of the Poor (EGP)
 198201030007,El Salvador,13.957222,-89.189722,,,Military,Unknown
 198201030008,Italy,45.070737,11.789796,1.0,,Police,Red Brigades
@@ -88,8 +78,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198201110003,Jordan,31.950001,35.933331,0.0,,Business,Unknown
 198201110004,Guatemala,14.449862,-91.422284,2.0,,Police,Unknown
 198201110005,Iran,35.724533,51.40519,0.0,,Government (General),Unknown
-198201110006,Colombia,,,0.0,,Business,Revolutionary Armed Forces of Colombia (FARC)
-198201110007,Nicaragua,,,1.0,,Military,Contras
 198201110008,Guatemala,15.058649,-91.155218,,,Military,Unknown
 198201110009,Guatemala,15.498381,-90.982067,24.0,,Military,Guerrilla Army of the Poor (EGP)
 198201110010,Guatemala,14.622869,-90.529068,1.0,,Government (General),Unknown
@@ -118,7 +106,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198201140004,Guatemala,14.533333,-91.5,,,Utilities,Unknown
 198201140005,Peru,-11.967368,-76.978462,0.0,,Private Citizens & Property,Left-Wing Terrorists
 198201150001,West Germany (FRG),52.50153,13.401851,1.0,,Business,May 15 Organization for the Liberation of Palestine
-198201150002,Lebanon,,,,,Private Citizens & Property,Unknown
 198201150003,Guatemala,14.622869,-90.529068,2.0,,Government (General),Unknown
 198201150004,Guatemala,14.638379,-91.230164,2.0,,Private Citizens & Property,Unknown
 198201160001,Spain,43.291618,-1.977903,0.0,,Utilities,Basque Fatherland and Freedom (ETA)
@@ -156,18 +143,14 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198201190002,Guatemala,14.622869,-90.529068,0.0,,Government (General),Revolutionary Organization of People in Arms (ORPA)
 198201190003,Guatemala,14.29101,-90.505711,,,Utilities,Revolutionary Organization of People in Arms (ORPA)
 198201190004,Guatemala,15.071479,-91.086662,0.0,,Utilities,Revolutionary Organization of People in Arms (ORPA)
-198201190005,Syria,,,2.0,,Private Citizens & Property,Unknown
 198201190006,Lebanon,33.843333,35.498611,0.0,,Violent Political Party,Unknown
 198201190007,El Salvador,13.777749,-88.567496,,,Private Citizens & Property,Farabundo Marti National Liberation Front (FMLN)
-198201190008,El Salvador,,,,,Private Citizens & Property,Farabundo Marti National Liberation Front (FMLN)
 198201190009,El Salvador,13.316667,-88.583333,2.0,,Business,Farabundo Marti National Liberation Front (FMLN)
-198201190010,Nicaragua,,,1.0,,Military,Contras
 198201190011,Guatemala,15.435278,-91.035556,15.0,,Military,Revolutionary Organization of People in Arms (ORPA)
 198201190012,Guatemala,14.622869,-90.529068,10.0,,Military,Unknown
 198201200001,Israel,32.089161,34.88382,0.0,,Transportation,Palestinians
 198201200002,Guatemala,15.128333,-91.235556,2.0,,Journalists & Media,Unknown
 198201200003,El Salvador,13.69288,-89.199161,,,Military,Unknown
-198201200004,El Salvador,,,19.0,,Private Citizens & Property,Farabundo Marti National Liberation Front (FMLN)
 198201200005,Guatemala,14.622869,-90.529068,1.0,,Police,Revolutionary Organization of People in Arms (ORPA)
 198201200006,Thailand,7.806471,99.589604,,,Telecommunication,Unknown
 198201210001,Honduras,15.50167,-88.02774,0.0,,Business,Juan Rayo Guerilla Group
@@ -222,7 +205,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198201290001,West Bank and Gaza Strip,32.365276,35.515964,0.0,,Military,Palestine Liberation Organization (PLO)
 198201290002,Peru,-14.31884,-74.378173,,,Telecommunication,Unknown
 198201290003,United Kingdom,54.607712,-5.95621,1.0,,Private Citizens & Property,Irish National Liberation Army (INLA)
-198201300001,Guatemala,,,,,Business,31 January People's Front (FP-31)
 198201300002,Lebanon,33.888523,35.503513,,,Business,Armenian Secret Army for the Liberation of Armenia
 198201300003,Lebanon,33.888523,35.503513,,,Airports & Aircraft,Armenian Secret Army for the Liberation of Armenia
 198201310001,Lebanon,33.888523,35.503513,,,Government (Diplomatic),Unknown
@@ -248,8 +230,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198202020007,Guatemala,14.579122,-91.58506,3.0,,Private Citizens & Property,Unknown
 198202020008,Guatemala,14.622869,-90.529068,4.0,,Police,Unknown
 198202020009,Guatemala,16.642962,-89.652765,2.0,,Military,Unknown
-198202030001,Guatemala,,,0.0,,Private Citizens & Property,Unknown
-198202030002,Guatemala,,,0.0,,Private Citizens & Property,Unknown
 198202030003,Guatemala,14.95,-90.366667,4.0,,Private Citizens & Property,Death Squad
 198202030004,Spain,43.291618,-1.977903,0.0,,Military,Basque Fatherland and Freedom (ETA)
 198202040001,Austria,48.208174,16.373819,0.0,,Religious Figures/Institutions,Unknown
@@ -260,10 +240,7 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198202050003,Guatemala,14.622869,-90.529068,1.0,,Journalists & Media,Unknown
 198202050004,Iran,35.724533,51.40519,2.0,,Government (General),Unknown
 198202050005,El Salvador,13.344322,-88.437463,1.0,,Military,Unknown
-198202050006,El Salvador,,,,,Transportation,Unknown
-198202050007,El Salvador,,,0.0,,Military,Unknown
 198202050008,Nicaragua,12.61667,-87.01667,67.0,,Military,Revolutionary Armed Forces of Nicaragua (FARN)
-198202050009,Nicaragua,,,6.0,,Military,Contras
 198202070001,Bolivia,-16.509317,-68.10434,0.0,,Private Citizens & Property,Political Activists
 198202070002,Bolivia,-16.509317,-68.10434,0.0,,Private Citizens & Property,Political Activists
 198202070003,Bolivia,-16.509317,-68.10434,0.0,,Private Citizens & Property,Political Activists
@@ -276,7 +253,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198202080001,El Salvador,13.69288,-89.199161,,,Transportation,Unknown
 198202080002,El Salvador,13.733333,-88.883333,,,Utilities,Unknown
 198202080003,Italy,41.079985,14.256627,0.0,,Military,Red Brigades
-198202080004,Iran,,,1.0,,Government (General),Unknown
 198202090001,Colombia,6.242026,-75.564766,0.0,,Private Citizens & Property,Unknown
 198202090002,Colombia,7.060051,-73.853115,2.0,,Military,Unknown
 198202090003,Guatemala,14.622869,-90.529068,,,Utilities,Unknown
@@ -297,7 +273,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198202090018,Guatemala,14.622869,-90.529068,6.0,,Unknown,Unknown
 198202090019,Guatemala,14.622869,-90.529068,1.0,,Business,Unknown
 198202090020,Syria,36.201721,37.14352,1.0,,Military,Unknown
-198202090021,Colombia,,,,,Business,Revolutionary Armed Forces of Colombia (FARC)
 198202090022,Colombia,1.207787,-77.2772,,,Business,Revolutionary Armed Forces of Colombia (FARC)
 198202090023,El Salvador,13.981479,-89.555717,3.0,,Military,Unknown
 198202090024,Guatemala,14.622869,-90.529068,,,Journalists & Media,Unknown
@@ -313,7 +288,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198202130001,Lebanon,33.550434,35.370964,4.0,,Terrorists/Non-State Militia,Unknown
 198202130002,Guatemala,15.587991,-91.676069,1.0,,Religious Figures/Institutions,Unknown
 198202140001,Brazil,-23.550711,-46.633475,12.0,,Unknown,Death Squad
-198202140002,Colombia,,,0.0,,Religious Figures/Institutions,Unknown
 198202140003,El Salvador,13.723215,-88.819097,7.0,,Military,Unknown
 198202150001,El Salvador,13.79833,-89.17889,0.0,,Transportation,Unknown
 198202150002,Lebanon,33.888523,35.503513,0.0,,Business,Palestinians
@@ -328,7 +302,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198202170001,France,48.801399,2.130109,0.0,,Government (General),Corsican National Liberation Front (FLNC)
 198202170002,France,48.856644,2.34233,0.0,,Business,Corsican National Liberation Front (FLNC)
 198202170003,El Salvador,14.331414,-89.442393,3.0,,Police,Unknown
-198202170004,Colombia,,,0.0,,Military,National Liberation Army of Colombia (ELN)
 198202170005,Guatemala,15.46667,-90.83333,6.0,,Military,Unknown
 198202180001,Colombia,4.667128,-74.106056,0.0,,Government (General),M-19 (Movement of April 19)
 198202180002,Colombia,4.667128,-74.106056,0.0,,Government (General),M-19 (Movement of April 19)
@@ -362,8 +335,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198202210008,Guatemala,14.622869,-90.529068,2.0,,Unknown,Unknown
 198202210009,El Salvador,13.874575,-88.627779,24.0,,Military,Unknown
 198202210010,Guatemala,14.91667,-91.61667,2.0,,Police,Revolutionary Organization of People in Arms (ORPA)
-198202210011,Philippines,,,7.0,,Private Citizens & Property,New People's Army (NPA)
-198202210012,Philippines,,,7.0,,Military,New People's Army (NPA)
 198202210013,United States,25.774591,-80.214195,0.0,,Business,Omega-7
 198202210015,United States,18.386932,-66.061127,0.0,"02/21/1982: Two bombs exploded at the administration building at the University of Puerto Rico campus in Rio Piedras, Puerto Rico, shattering a window. There were no casualties and no damages were reported in the incident, which was claimed by a group calling itself the Antonia Martinez Student Commandos (AMSC). The Associated Press received a communiqué after the explosion, telling students to form military and clandestine groups to fight police repression and American imperialism. The bombing occurred to protest tuition increases at the University and two days prior to this incident, a riot broke out with student groups protesting the tuition hikes and clashing with police.",Educational Institution,Antonia Martinez Student Commandos (AMSC)
 198202220001,Iran,35.724533,51.40519,15.0,,Military,Unknown
@@ -393,7 +364,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198202240009,Lebanon,33.888523,35.503513,0.0,,Airports & Aircraft,Shia Muslim extremists
 198202250001,Iran,35.724533,51.40519,0.0,,Police,Unknown
 198202250002,Colombia,5.00773,-73.4727,,,Telecommunication,M-19 (Movement of April 19)
-198202260001,Tanzania,,,0.0,,Airports & Aircraft,Left-Wing Terrorists
 198202260002,Colombia,6.95284,-71.87514,0.0,,Government (General),Revolutionary Armed Forces of Colombia (FARC)
 198202260003,Israel,31.771599,35.2034,,,Police,Palestinians
 198202260005,Peru,-13.152712,-74.218628,2.0,,Government (General),Shining Path (SL)
@@ -514,7 +484,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198203120012,Peru,-12.137255,-76.232522,2.0,,Police,Shining Path (SL)
 198203120013,West Bank and Gaza Strip,31.898144,35.173237,0.0,,Private Citizens & Property,Unknown
 198203130001,Israel,31.928793,34.866657,0.0,,Transportation,Palestinians
-198203130002,Peru,,,,,Private Citizens & Property,Unknown
 198203140001,Nicaragua,13.631126,-86.528927,,,Transportation,Contras
 198203140002,United Kingdom,51.504387,-0.140041,,,Violent Political Party,Unknown
 198203140003,Iran,35.724533,51.40519,3.0,,Religious Figures/Institutions,Unknown
@@ -530,7 +499,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198203150006,United Kingdom,54.347539,-6.656108,0.0,,Unknown,Irish Republican Army (IRA)
 198203150007,United Kingdom,54.607712,-5.95621,0.0,,Unknown,Irish Republican Army (IRA)
 198203150008,United Kingdom,54.351036,-6.26702,1.0,,Private Citizens & Property,Irish Republican Army (IRA)
-198203150009,Peru,,,0.0,,Government (General),Unknown
 198203150010,Lebanon,33.888523,35.503513,0.0,,Government (Diplomatic),Unknown
 198203150011,Spain,43.291618,-1.977903,1.0,,Police,Basque Fatherland and Freedom (ETA)
 198203150012,Colombia,6.462828,-75.556394,7.0,,Military,M-19 (Movement of April 19)
@@ -543,7 +511,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198203150019,El Salvador,13.69288,-89.199161,6.0,,Police,Farabundo Marti National Liberation Front (FMLN)
 198203150020,El Salvador,13.69288,-89.199161,,,Journalists & Media,Unknown
 198203150021,Lebanon,33.888523,35.503513,0.0,,Government (Diplomatic),Unknown
-198203160001,West Bank and Gaza Strip,,,0.0,,Private Citizens & Property,Palestinians
 198203160002,Lebanon,33.888523,35.503513,1.0,,Government (Diplomatic),Unknown
 198203160003,Lebanon,33.888523,35.503513,3.0,,Government (Diplomatic),Unknown
 198203160004,Peru,-11.967368,-76.978462,,,Private Citizens & Property,Shining Path (SL)
@@ -568,8 +535,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198203180002,Peru,-11.967368,-76.978462,0.0,,Journalists & Media,Shining Path (SL)
 198203180003,Syria,36.201721,37.14352,3.0,,Business,Unknown
 198203180004,El Salvador,13.983333,-88.85,,,Military,Unknown
-198203180005,El Salvador,,,,,Military,Unknown
-198203180006,Nicaragua,,,14.0,,Military,Contras
 198203180007,South Korea,35.179554,129.075642,1.0,,Government (Diplomatic),Unknown
 198203180008,Peru,-13.152712,-74.218628,0.0,,Police,Shining Path (SL)
 198203190001,Greece,37.99749,23.762728,1.0,,Journalists & Media,Unknown
@@ -581,7 +546,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198203190007,Guatemala,14.622869,-90.529068,,,Business,31 January People's Front (FP-31)
 198203190008,Guatemala,14.622869,-90.529068,,,Business,Unknown
 198203190009,Lebanon,33.888523,35.503513,0.0,,Government (Diplomatic),Unknown
-198203190010,El Salvador,,,,,Military,Unknown
 198203190012,Guatemala,14.622869,-90.529068,1.0,,Military,Unknown
 198203190013,Peru,-16.409501,-71.537384,,,Business,Unknown
 198203190014,Peru,-12.050934,-77.126044,0.0,,Business,Unknown
@@ -593,7 +557,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198203200002,El Salvador,13.696111,-89.559167,0.0,,Telecommunication,Unknown
 198203200003,Guatemala,15.365662,-90.47916,1.0,,Business,Guerrilla Army of the Poor (EGP)
 198203200004,South Africa,-33.944709,18.532097,0.0,,Government (General),African National Congress (South Africa)
-198203210001,Colombia,,,4.0,,Military,M-19 (Movement of April 19)
 198203210002,Guatemala,14.664657,-90.82171,,,Business,Unknown
 198203210003,Guatemala,14.563479,-90.982067,,,Private Citizens & Property,Unknown
 198203210004,Guatemala,14.563479,-90.982067,,,Private Citizens & Property,Unknown
@@ -609,7 +572,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198203220005,Lebanon,33.888523,35.503513,0.0,,Private Citizens & Property,Unknown
 198203220006,United States,42.36679,-71.106019,0.0,,Government (Diplomatic),Justice Commandos for the Armenian Genocide
 198203220007,Lebanon,33.888523,35.503513,1.0,,Violent Political Party,Unknown
-198203220008,Guatemala,,,1.0,,Military,Unknown
 198203220009,Spain,43.309635,-3.00694,3.0,,Business,Basque Fatherland and Freedom (ETA)
 198203220010,Lebanon,33.888523,35.503513,1.0,,Government (Diplomatic),Unknown
 198203230001,El Salvador,13.69288,-89.199161,,,Telecommunication,Unknown
@@ -629,7 +591,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198203250002,Peru,-13.152712,-74.218628,,,Telecommunication,Shining Path (SL)
 198203250003,West Bank and Gaza Strip,31.502407,34.459743,1.0,,Military,Democratic Front for the Liberation of Palestine (DFLP)
 198203260001,Peru,-9.0634,-78.583605,,,Business,Shining Path (SL)
-198203260002,Peru,,,0.0,,Utilities,Unknown
 198203260003,Peru,-9.0634,-78.583605,,,Food or Water Supply,Shining Path (SL)
 198203260004,Lebanon,33.893887,35.543678,2.0,,Business,Armenian Secret Army for the Liberation of Armenia
 198203260005,Guatemala,14.277349,-90.303779,2.0,,Police,Left-Wing Terrorists
@@ -679,23 +640,19 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198203310008,West Bank and Gaza Strip,31.716644,35.185665,,,Transportation,Palestinians
 198203310009,Israel,31.771599,35.2034,,,Private Citizens & Property,Democratic Front for the Liberation of Palestine (DFLP)
 198203310010,Lebanon,33.888523,35.503513,2.0,,Private Citizens & Property,Unknown
-198203310011,Namibia,,,2.0,,Government (General),South-West Africa People's Organization (SWAPO)
 198203310012,El Salvador,13.981479,-89.555717,8.0,,Military,Unknown
 198203310013,El Salvador,13.701964,-89.147774,0.0,,Military,Unknown
-198203310014,Iraq,,,,,Business,Kurds
 198203310015,Guatemala,14.70208,-91.2506,2.0,,Police,Left-Wing Guerrillas
 198203310016,Peru,-13.65311,-73.95396,,,Private Citizens & Property,Shining Path (SL)
 198203310017,France,48.856644,2.34233,0.0,,Government (Diplomatic),Palestine Liberation Organization (PLO)
 198203310018,Guatemala,14.622869,-90.529068,0.0,,Government (Diplomatic),Guerrilla Army of the Poor (EGP)
 198203310019,West Bank and Gaza Strip,31.57592,35.010101,0.0,,Government (General),Unknown
 198204000001,Argentina,-34.68631,-58.528473,0.0,,Educational Institution,Unknown
-198204000002,Lebanon,,,,,Religious Figures/Institutions,Unknown
 198204000003,South Africa,-29.861824,31.008293,,,Food or Water Supply,African National Congress (South Africa)
 198204010001,Argentina,-34.61768,-58.444435,0.0,,Business,Unknown
 198204010002,Argentina,-34.61768,-58.444435,0.0,,Business,Unknown
 198204010003,Colombia,3.429344,-76.516037,0.0,,Government (Diplomatic),M-19 (Movement of April 19)
 198204010004,Greece,37.99749,23.762728,0.0,,Government (Diplomatic),Revolutionary People's Struggle (ELA)
-198204010005,Lebanon,,,0.0,,Private Citizens & Property,Unknown
 198204010006,United Kingdom,54.183052,-6.341388,0.0,,Transportation,Irish Republican Army (IRA)
 198204010007,Argentina,-34.61768,-58.444435,0.0,,Business,Unknown
 198204010008,Guatemala,14.781398,-90.792513,3.0,,Military,Unknown
@@ -748,19 +705,15 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198204070006,El Salvador,13.344322,-88.437463,,,Military,Unknown
 198204070007,Israel,31.771599,35.2034,0.0,,Business,Village League
 198204070008,Nicaragua,11.21821,-85.61359,,,Police,Contras
-198204070009,Nicaragua,,,,,Police,Contras
-198204070010,Nicaragua,,,,,Police,Contras
 198204070011,Nicaragua,13.58128,-85.87276,,,Police,Contras
 198204080001,Israel,31.771599,35.2034,,,Religious Figures/Institutions,Rabbi Rahane Group
 198204080002,Canada,45.42153,-75.697193,0.0,,Government (Diplomatic),Armenian Secret Army for the Liberation of Armenia
 198204080003,West Bank and Gaza Strip,32.409504,35.28063,1.0,,Private Citizens & Property,Unknown
-198204080004,Lebanon,,,0.0,,Military,Unknown
 198204080005,Iran,35.724533,51.40519,1.0,,Journalists & Media,Mujahedin-e Khalq (MEK)
 198204080006,Iran,35.31495,46.99883,8.0,,Private Citizens & Property,Kurdish Oppositionists
 198204090001,Lebanon,33.246259,35.5001,,,Military,Palestinians
 198204090002,West Bank and Gaza Strip,32.222271,35.253506,1.0,,Religious Figures/Institutions,Unknown
 198204090003,Colombia,10.3275,-74.757778,5.0,,Military,Revolutionary Armed Forces of Colombia (FARC)
-198204090004,Israel,,,0.0,,Police,Palestinians
 198204100001,West Bank and Gaza Strip,31.502407,34.459743,,,Transportation,Palestinians
 198204100002,Lebanon,33.888523,35.503513,0.0,,Military,Unknown
 198204100003,Lebanon,33.888523,35.503513,1.0,,Police,Unknown
@@ -780,7 +733,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198204130001,West Bank and Gaza Strip,32.173489,35.522856,,,Private Citizens & Property,Democratic Front for the Liberation of Palestine (DFLP)
 198204130002,West Bank and Gaza Strip,31.917246,35.218594,,,Private Citizens & Property,Palestinians
 198204130003,Peru,-11.967368,-76.978462,,,Government (General),Shining Path (SL)
-198204130004,Lebanon,,,1.0,,Government (General),Communists
 198204130005,West Bank and Gaza Strip,32.161957,35.524625,0.0,,Military,Democratic Front for the Liberation of Palestine (DFLP)
 198204130006,West Bank and Gaza Strip,32.243008,35.456097,,,Military,Palestinians
 198204140001,Spain,40.465595,-3.696263,0.0,,Airports & Aircraft,Unknown
@@ -811,7 +763,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198204170003,Colombia,6.242026,-75.564766,5.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
 198204170004,Lebanon,33.888523,35.503513,1.0,,Government (Diplomatic),Unknown
 198204170005,West Bank and Gaza Strip,32.222271,35.253506,0.0,,Business,Unknown
-198204170006,Nicaragua,,,10.0,,Police,Contras
 198204170007,Guatemala,14.822351,-91.132097,30.0,,Military,Unknown
 198204170008,Spain,43.258434,-2.921819,,,Police,Basque Fatherland and Freedom (ETA)
 198204170009,United Kingdom,54.293235,-6.842351,1.0,,Private Citizens & Property,Irish Republican Army (IRA)
@@ -838,7 +789,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198204190010,Colombia,6.242026,-75.564766,2.0,,Police,Unknown
 198204190011,Colombia,10.85887,-74.77304,,,Police,Revolutionary Armed Forces of Colombia (FARC)
 198204190012,Lebanon,34.511667,36.055556,0.0,,Military,Unknown
-198204190013,Lebanon,,,0.0,,Military,Unknown
 198204200001,Colombia,4.667128,-74.106056,,,Telecommunication,M-19 (Movement of April 19)
 198204200002,Colombia,4.43891,-75.23223,,,Journalists & Media,M-19 (Movement of April 19)
 198204200003,Colombia,3.429344,-76.516037,,,Educational Institution,M-19 (Movement of April 19)
@@ -898,7 +848,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198204250006,West Germany (FRG),50.940664,6.959912,0.0,,Business,New Armenian Resistance
 198204260001,West Bank and Gaza Strip,31.704338,35.194355,,,Private Citizens & Property,Palestinians
 198204260002,Lebanon,33.888523,35.503513,1.0,,Government (Diplomatic),Unknown
-198204260003,El Salvador,,,2.0,,Military,Farabundo Marti National Liberation Front (FMLN)
 198204260004,El Salvador,13.559833,-88.713973,2.0,,Military,Farabundo Marti National Liberation Front (FMLN)
 198204260005,El Salvador,13.851327,-88.156206,16.0,,Military,Farabundo Marti National Liberation Front (FMLN)
 198204260006,Lebanon,33.888523,35.503513,1.0,,Religious Figures/Institutions,Unknown
@@ -929,7 +878,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198204290011,Guatemala,14.622869,-90.529068,1.0,,Business,Unknown
 198204300001,Greece,40.620663,22.952,0.0,,Business,Unknown
 198204300002,West Bank and Gaza Strip,32.318116,35.060179,0.0,,Military,Palestinians
-198204300003,Lebanon,,,1.0,,Military,Palestinians
 198204300004,United States,18.386932,-66.061127,0.0,,Government (General),Provisional Coordinating Committee for the Defense of Labor
 198204300005,United States,18.386932,-66.061127,0.0,,Utilities,Provisional Coordinating Committee for the Defense of Labor
 198204300006,El Salvador,13.724167,-89.172778,1.0,,Private Citizens & Property,Farabundo Marti National Liberation Front (FMLN)
@@ -948,7 +896,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198205000007,Israel,31.771599,35.2034,0.0,,Military,Unknown
 198205000008,Israel,31.771599,35.2034,0.0,,Military,Unknown
 198205010001,Guatemala,15.319722,-91.47833,0.0,,Transportation,Guerrilla Army of the Poor (EGP)
-198205010002,Israel,,,,,Transportation,Palestinians
 198205010003,Zimbabwe,-22.216776,30.000044,0.0,,Transportation,Unknown
 198205010004,Zimbabwe,-22.216776,30.000044,0.0,,Utilities,Unknown
 198205010005,Zimbabwe,-22.216776,30.000044,0.0,,Food or Water Supply,Unknown
@@ -986,7 +933,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198205040007,United States,42.386675,-71.098264,1.0,,Government (Diplomatic),Justice Commandos for the Armenian Genocide
 198205040008,Colombia,6.547306,-71.002231,,,Military,Revolutionary Armed Forces of Colombia (FARC)
 198205040009,West Bank and Gaza Strip,31.701906,35.22699,,,Government (General),Palestinians
-198205040010,Nicaragua,,,2.0,,Military,Contras
 198205040011,United Kingdom,55.011562,-7.312045,1.0,,Police,Irish Republican Army (IRA)
 198205050001,Spain,43.317073,-2.678975,0.0,,Police,Basque Fatherland and Freedom (ETA)
 198205050002,El Salvador,13.69288,-89.199161,0.0,,Utilities,Unknown
@@ -1029,10 +975,8 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198205090009,Guatemala,14.791907,-91.71342,2.0,,Private Citizens & Property,Revolutionary Organization of People in Arms (ORPA)
 198205090010,Guatemala,15.294794,-90.118697,1.0,,Private Citizens & Property,Revolutionary Organization of People in Arms (ORPA)
 198205090011,Philippines,17.555726,120.838718,,,Government (General),New People's Army (NPA)
-198205090012,Philippines,,,2.0,,Business,New People's Army (NPA)
 198205090013,Lebanon,33.888523,35.503513,0.0,,Government (Diplomatic),Palestinians
 198205090014,Peru,-11.5192,-75.899141,0.0,,Government (General),Shining Path (SL)
-198205100001,Guatemala,,,,,Business,Unknown
 198205100003,Guatemala,14.191091,-90.982067,0.0,,Business,Unknown
 198205100004,Philippines,6.929089,122.07885,5.0,,Government (General),Moro National Liberation Front (MNLF)
 198205100005,Philippines,6.929089,122.07885,0.0,,Private Citizens & Property,Moro National Liberation Front (MNLF)
@@ -1051,7 +995,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198205100018,Guatemala,14.191091,-90.982067,,,Private Citizens & Property,Unknown
 198205110001,Bolivia,-16.509317,-68.10434,0.0,,Private Citizens & Property,Unknown
 198205110002,Israel,31.670149,34.575153,0.0,,Private Citizens & Property,Palestinians
-198205110003,Israel,,,0.0,,Private Citizens & Property,Palestinians
 198205110004,Guatemala,15.562116,-90.415697,20.0,,Unknown,Guerrilla Army of the Poor (EGP)
 198205120001,Colombia,7.116294,-73.120026,0.0,,Government (Diplomatic),Unknown
 198205120002,Israel,31.771599,35.2034,,,Transportation,Palestinians
@@ -1113,7 +1056,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198205190005,Colombia,2.19673,-75.62909,3.0,,Police,Popular Liberation Army (EPL)
 198205190006,Colombia,5.973708,-75.361239,2.0,,Police,Popular Liberation Army (EPL)
 198205200001,El Salvador,13.64121,-88.785423,,,Utilities,Unknown
-198205200002,Israel,,,,,Private Citizens & Property,Palestinians
 198205200003,Lebanon,33.246259,35.5001,0.0,,Private Citizens & Property,Popular Front for the Liberation of Palestine (PFLP)
 198205200004,Colombia,4.814278,-75.694558,1.0,,Government (General),Unknown
 198205200005,El Salvador,13.69288,-89.199161,,,NGO,Unknown
@@ -1134,13 +1076,10 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198205220003,Guatemala,15.010556,-91.065,2.0,,Military,Unknown
 198205220004,Peru,-13.112405,-74.099228,0.0,,Private Citizens & Property,Shining Path (SL)
 198205230001,El Salvador,13.701964,-89.147774,4.0,,Unknown,Unknown
-198205230002,Lesotho,,,0.0,,Government (General),Unknown
 198205230003,Colombia,10.981412,-74.778319,0.0,,Journalists & Media,M-19 (Movement of April 19)
 198205230004,Guatemala,14.781398,-90.792513,16.0,,Military,Unknown
-198205230005,Philippines,,,23.0,,Military,Unknown
 198205240001,West Bank and Gaza Strip,31.418909,34.352605,,,Military,Palestinians
 198205240002,Israel,31.741533,34.988609,0.0,,Private Citizens & Property,Unknown
-198205240003,El Salvador,,,1.0,,Government (General),Unknown
 198205240004,Lebanon,33.888523,35.503513,12.0,,Government (Diplomatic),Free Nasserite Revolutionaries
 198205250001,El Salvador,13.864829,-88.7494,0.0,,Utilities,Unknown
 198205250002,El Salvador,13.64121,-88.785423,0.0,,Utilities,Unknown
@@ -1171,15 +1110,10 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198205300001,Bolivia,-16.509317,-68.10434,0.0,,Journalists & Media,Unknown
 198205300002,United States,34.097866,-118.407379,0.0,,Airports & Aircraft,Armenian Secret Army for the Liberation of Armenia
 198205310001,Guatemala,14.4875,-90.615278,0.0,,Utilities,Unknown
-198205310002,Guatemala,,,0.0,,Utilities,Unknown
-198205310003,Lebanon,,,0.0,,Private Citizens & Property,Unknown
-198205310004,Philippines,,,0.0,,Transportation,Muslim Rebels
-198206000001,Colombia,,,2.0,,Business,Revolutionary Armed Forces of Colombia (FARC)
 198206000002,Guatemala,14.622869,-90.529068,0.0,,Government (General),Unknown
 198206000003,Philippines,7.629752,123.031662,2.0,,Private Citizens & Property,Muslims
 198206000004,Philippines,6.750046,125.35626,1.0,,Private Citizens & Property,New People's Army (NPA)
 198206000005,Colombia,5.975153,-74.586142,2.0,,Business,Revolutionary Armed Forces of Colombia (FARC)
-198206000006,Mozambique,,,,,Transportation,Unknown
 198206010001,West Germany (FRG),50.11797,8.644191,0.0,,Military,Revolutionary Cells
 198206010002,West Germany (FRG),50.200902,9.192342,0.0,,Military,Revolutionary Cells
 198206010003,West Germany (FRG),50.135398,8.915122,0.0,,Military,Revolutionary Cells
@@ -1248,7 +1182,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198206080006,Spain,43.258434,-2.921819,1.0,,Business,Basque Fatherland and Freedom (ETA)
 198206080007,Spain,43.258434,-2.921819,0.0,,Police,Basque Fatherland and Freedom (ETA)
 198206090001,India,26.149794,91.763931,19.0,,Private Citizens & Property,Unknown
-198206090002,Sri Lanka,,,2.0,,Government (General),Tamils
 198206090003,Colombia,3.429344,-76.516037,2.0,,Police,Popular Liberation Army (EPL)
 198206100001,United States,18.386932,-66.061127,0.0,,Private Citizens & Property,Revolutionary Labor Commandos
 198206100002,El Salvador,13.69288,-89.199161,0.0,,Transportation,Unknown
@@ -1256,8 +1189,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198206110001,Guatemala,15.365662,-90.47916,15.0,,Private Citizens & Property,Unknown
 198206110002,Guatemala,15.4281,-90.76953,15.0,,Private Citizens & Property,Death Squad
 198206110003,United Kingdom,55.011562,-7.312045,1.0,,Police,Irish Republican Army (IRA)
-198206120001,El Salvador,,,0.0,,Utilities,Unknown
-198206120002,El Salvador,,,0.0,,Utilities,Unknown
 198206120003,United Kingdom,54.077313,-6.608787,0.0,,Military,Unknown
 198206120004,Spain,43.136978,-2.073914,0.0,,Business,Basque Fatherland and Freedom (ETA)
 198206120005,Guatemala,15.4281,-90.76953,8.0,,Military,Unknown
@@ -1274,13 +1205,11 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198206140005,Guatemala,15.408333,-91.147222,100.0,,Private Citizens & Property,Unknown
 198206140006,India,28.585836,77.153336,1.0,,Government (Diplomatic),Unknown
 198206140007,Iraq,36.354145,43.14357,,,Private Citizens & Property,Unknown
-198206140008,Colombia,,,14.0,,Military,Revolutionary Armed Forces of Colombia (FARC)
 198206140009,Spain,40.465595,-3.696263,0.0,,Government (General),Unknown
 198206150001,India,23.727107,92.717639,1.0,,Government (General),Unknown
 198206150002,Iran,35.724533,51.40519,0.0,,Government (General),Mujahedin-e Khalq (MEK)
 198206150003,Spain,43.32412,-1.929857,1.0,,Police,Basque Fatherland and Freedom (ETA)
 198206150004,Colombia,0.435951,-75.52767,3.0,,Military,M-19 (Movement of April 19)
-198206150005,El Salvador,,,2.0,,Military,Unknown
 198206150006,Colombia,2.113188,-74.769206,8.0,,Military,Revolutionary Armed Forces of Colombia (FARC)
 198206150007,United Kingdom,54.819164,-7.467909,1.0,,Military,Irish Republican Army (IRA)
 198206150008,Lebanon,33.888523,35.503513,1.0,,Terrorists/Non-State Militia,Armenian Secret Army for the Liberation of Armenia
@@ -1302,15 +1231,12 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198206200005,Spain,41.400635,2.150913,0.0,,Police,First of October Antifascist Resistance Group (GRAPO)
 198206200006,Guatemala,14.8,-89.55,0.0,,Police,Unknown
 198206210001,Colombia,6.313712,-73.950146,3.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
-198206210002,Colombia,,,0.0,,Private Citizens & Property,National Liberation Army of Colombia (ELN)
 198206220001,Guatemala,14.622869,-90.529068,,,Business,Unknown
 198206220002,Guatemala,14.622869,-90.529068,,,Business,Unknown
 198206230001,El Salvador,13.69288,-89.199161,0.0,,Utilities,Farabundo Marti National Liberation Front (FMLN)
 198206230002,El Salvador,13.69288,-89.199161,,,Telecommunication,Farabundo Marti National Liberation Front (FMLN)
 198206230003,Guatemala,14.622869,-90.529068,,,Government (General),Guerrilla Army of the Poor (EGP)
 198206230004,El Salvador,13.986667,-89.681111,0.0,,Transportation,Farabundo Marti National Liberation Front (FMLN)
-198206230005,Nicaragua,,,5.0,,Military,Contras
-198206240001,El Salvador,,,,,Business,Farabundo Marti National Liberation Front (FMLN)
 198206240002,El Salvador,13.69288,-89.199161,,,Transportation,Farabundo Marti National Liberation Front (FMLN)
 198206240003,Italy,41.890961,12.490069,1.0,,Police,Armed Revolutionary Nuclei (NAR)
 198206240004,Colombia,4.667128,-74.106056,,,Government (General),M-19 (Movement of April 19)
@@ -1340,7 +1266,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198206300007,United Kingdom,55.011562,-7.312045,0.0,,Military,Irish Republican Army (IRA)
 198207010001,Lebanon,33.888523,35.503513,3.0,,Private Citizens & Property,Unknown
 198207010002,Spain,43.297222,-2.991667,1.0,,Business,Basque Fatherland and Freedom (ETA)
-198207010003,El Salvador,,,0.0,,Business,Farabundo Marti National Liberation Front (FMLN)
 198207020001,El Salvador,13.69288,-89.199161,,,Food or Water Supply,Farabundo Marti National Liberation Front (FMLN)
 198207020002,West Germany (FRG),50.11797,8.644191,0.0,,Military,Revolutionary Cells
 198207020003,Greece,37.99749,23.762728,0.0,,Business,Revolutionary People's Struggle (ELA)
@@ -1369,7 +1294,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198207050007,United States,40.697132,-73.931351,0.0,,Private Citizens & Property,Croatian Nationalists
 198207050008,United States,40.697132,-73.931351,0.0,,Private Citizens & Property,Croatian Nationalists
 198207050009,United States,40.697132,-73.931351,0.0,"07/05/1982: A small pipe bomb exploded outside of the French Consulate General at 934 Fifth Avenue, near 75th Street in Manhattan, New York, United States. No casualties resulted from the incident; however, there was minor damage in the form of shattering glass of the front doorway. The bomb was thrown from a vehicle and exploded when it hit the ground in front of the consulate. Authorities attribute the incident to the Jewish Defense League (JDL) as a member claiming to be from the JDL called the press and claimed responsibility for the attack; however, the spokesperson for the JDL had initially denied the group's involvement. This incident is linked to the bombing of the Lebanese Consulate the same day, only minutes after the attack on the French Consulate (198207050001) for which the JDL was also responsible.",Government (Diplomatic),Jewish Defense League (JDL)
-198207060001,El Salvador,,,0.0,,Utilities,Unknown
 198207060002,El Salvador,13.483333,-89.258754,0.0,,Transportation,Unknown
 198207060003,Nicaragua,14.03507,-83.38882,11.0,,Military,Contras
 198207060004,Nicaragua,14.27202,-83.66849,11.0,,Military,Contras
@@ -1389,9 +1313,7 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198207090003,El Salvador,13.491242,-88.173134,0.0,,Private Citizens & Property,Farabundo Marti National Liberation Front (FMLN)
 198207090004,Colombia,4.667128,-74.106056,3.0,,Military,Unknown
 198207090005,Peru,-12.787148,-74.973207,1.0,,Police,Shining Path (SL)
-198207100001,Mozambique,,,,,Transportation,Mozambican Rebels
 198207100003,Peru,-13.61,-73.74,,,Private Citizens & Property,Unknown
-198207100004,Peru,,,0.0,,Private Citizens & Property,Shining Path (SL)
 198207110001,Peru,-10.566091,-76.53811,,,Government (General),Shining Path (SL)
 198207110002,Peru,-15.220762,-72.317423,1.0,,Government (General),Shining Path (SL)
 198207120001,Peru,-14.385277,-73.962606,0.0,,Utilities,Shining Path (SL)
@@ -1406,8 +1328,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198207130006,Guatemala,15.365662,-90.47916,13.0,,Private Citizens & Property,Unknown
 198207140001,Colombia,3.429344,-76.516037,,,Private Citizens & Property,Unknown
 198207140002,Colombia,3.684798,-76.530044,,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
-198207140003,El Salvador,,,13.0,,Transportation,Unknown
-198207140004,Peru,,,,,Military,Unknown
 198207140005,Peru,-13.796667,-73.988056,1.0,,Government (General),Shining Path (SL)
 198207150001,France,41.930607,8.742907,0.0,,Tourists,Unknown
 198207150002,France,42.567651,8.757222,0.0,,Business,Unknown
@@ -1484,7 +1404,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198207230001,Guatemala,14.622869,-90.529068,,,Airports & Aircraft,Rebel Armed Forces of Guatemala (FAR)
 198207230002,Philippines,6.750046,125.35626,2.0,,Government (General),New People's Army (NPA)
 198207230003,France,48.856644,2.34233,1.0,,Terrorists/Non-State Militia,Unknown
-198207230004,Zimbabwe,,,,,Tourists,Unknown
 198207230005,Guatemala,15.227778,-91.268611,0.0,,Military,Guerrilla Army of the Poor (EGP)
 198207230006,Zimbabwe,-17.931788,25.825523,6.0,,Tourists,Anti-Government extremists
 198207240001,France,48.856644,2.34233,0.0,,Business,Armenian Secret Army for the Liberation of Armenia
@@ -1515,7 +1434,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198207270007,El Salvador,13.800174,-89.183105,7.0,,Transportation,Unknown
 198207270008,Peru,-7.162225,-78.512094,,,Business,Unknown
 198207270009,Peru,-5.707626,-78.809843,,,Business,Unknown
-198207270010,Peru,,,0.0,,Private Citizens & Property,Unknown
 198207270011,Peru,-13.152712,-74.218628,0.0,,Business,Unknown
 198207280001,Guatemala,15.779233,-91.925732,0.0,,Transportation,Unknown
 198207280002,Guatemala,15.448756,-91.759396,0.0,,Transportation,Unknown
@@ -1531,7 +1449,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198207280012,El Salvador,13.69288,-89.199161,,,Private Citizens & Property,Unknown
 198207280013,Guatemala,14.654444,-90.889444,6.0,,Private Citizens & Property,Unknown
 198207280014,Peru,-13.65311,-73.95396,0.0,,Police,Unknown
-198207280015,Lesotho,,,0.0,,Government (General),Lesotho Liberation Army (LLA)
 198207280016,Guatemala,15.381389,-91.303889,22.0,,Private Citizens & Property,Unknown
 198207290001,Austria,47.80949,13.05501,,,Business,Unknown
 198207290002,Peru,-13.152712,-74.218628,,,Utilities,Unknown
@@ -1568,7 +1485,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198208030001,Colombia,2.925561,-75.290777,0.0,,Religious Figures/Institutions,Unknown
 198208030002,Colombia,2.925561,-75.290777,0.0,,Private Citizens & Property,M-19 (Movement of April 19)
 198208030003,El Salvador,13.703735,-88.804566,2.0,,Private Citizens & Property,Farabundo Marti National Liberation Front (FMLN)
-198208030004,Guatemala,,,39.0,,Military,Unknown
 198208030005,Philippines,7.083241,125.600998,,,Business,Moro National Liberation Front (MNLF)
 198208040001,Costa Rica,9.989424,-83.037394,0.0,,Private Citizens & Property,Unknown
 198208040002,El Salvador,13.69288,-89.199161,,,Utilities,Unknown
@@ -1583,7 +1499,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198208040011,Colombia,4.667128,-74.106056,,,Journalists & Media,M-19 (Movement of April 19)
 198208040012,Colombia,2.449942,-76.807846,0.0,,Business,Revolutionary Armed Forces of Colombia (FARC)
 198208040013,Argentina,-34.61768,-58.444435,0.0,,Military,Unknown
-198208040014,Colombia,,,3.0,,Military,Revolutionary Armed Forces of Colombia (FARC)
 198208040015,Peru,-13.698608,-74.115842,1.0,,Private Citizens & Property,Shining Path (SL)
 198208040016,Peru,-13.152712,-74.218628,0.0,,Educational Institution,Shining Path (SL)
 198208050001,Austria,48.208174,16.373819,0.0,,Private Citizens & Property,Unknown
@@ -1596,9 +1511,7 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198208050008,El Salvador,13.876111,-89.359722,,,Business,Unknown
 198208050009,El Salvador,13.876111,-89.359722,,,Business,Unknown
 198208050010,El Salvador,13.876111,-89.359722,,,Business,Unknown
-198208050011,Israel,,,0.0,,Military,Palestinians
 198208050012,Philippines,7.083241,125.600998,12.0,,Military,Moro National Liberation Front (MNLF)
-198208050013,Zimbabwe,,,1.0,,Military,Supporters of Joshua Nkomo
 198208060001,El Salvador,13.595253,-88.448924,,,Utilities,Unknown
 198208060002,El Salvador,13.595253,-88.448924,,,Utilities,Unknown
 198208060003,El Salvador,13.595253,-88.448924,0.0,,Military,Unknown
@@ -1614,14 +1527,11 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198208080008,Turkey,39.930771,32.76754,9.0,,Airports & Aircraft,Armenian Secret Army for the Liberation of Armenia
 198208080009,France,48.856644,2.34233,0.0,,Unknown,Orly Organization
 198208090001,Philippines,7.209594,124.241966,0.0,,Private Citizens & Property,Unknown
-198208090002,El Salvador,,,1.0,,Military,Unknown
-198208090003,El Salvador,,,6.0,,Military,Unknown
 198208090004,El Salvador,13.7,-88.1,,,Military,Unknown
 198208090005,France,48.856644,2.34233,6.0,,Business,Abu Nidal Organization (ANO)
 198208090006,United Kingdom,54.787715,-6.492314,0.0,,Police,Irish Republican Extremists
 198208100001,France,48.856644,2.34233,0.0,,Business,Action Directe
 198208100002,Mexico,20.673343,-103.344177,0.0,,Religious Figures/Institutions,Unknown
-198208100003,Mozambique,,,14.0,,Transportation,Mozambique National Resistance Movement (MNR)
 198208100004,Peru,-3.743667,-73.251874,,,Business,Unknown
 198208110001,France,48.856644,2.34233,0.0,,Government (Diplomatic),Movement of Islamic Action of Iraq
 198208110002,France,42.699997,9.447317,0.0,,Private Citizens & Property,Unknown
@@ -1635,7 +1545,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198208130001,Peru,-12.7275,-74.125,2.0,,Journalists & Media,Shining Path (SL)
 198208130002,Peru,-13.012617,-73.980897,,,Private Citizens & Property,Shining Path (SL)
 198208130003,Peru,-13.218358,-74.042507,,,Private Citizens & Property,Shining Path (SL)
-198208130004,Peru,,,,,Private Citizens & Property,Shining Path (SL)
 198208130005,United States,38.813372,-89.956805,0.0,"8/13/1982: Donald Benny Anderson, Matthew Moore and Wayne Moore kidnapped Dr. Hector Zevallos and his wife Rosalie Jean from their home in Edwardsville, Illinois, United States. Dr. Zevallos was the director of the Hope Clinic for Women in nearby Granite City, Illinois. The perpetrators, claiming to be part of the Army of God, demanded that President Ronald Reagan denounce abortion as a requirement for the release of the doctor and his wife. Eight days after the original kidnapping, Hector and Rosalie Zevallos were freed unharmed.",Abortion Related,Army of God
 198208140001,El Salvador,13.69288,-89.199161,0.0,,Government (General),Farabundo Marti National Liberation Front (FMLN)
 198208140002,El Salvador,13.723215,-88.819097,1.0,,Private Citizens & Property,Farabundo Marti National Liberation Front (FMLN)
@@ -1689,7 +1598,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198208200001,Austria,48.208174,16.373819,0.0,,Private Citizens & Property,Unknown
 198208200002,El Salvador,13.55,-88.833333,0.0,,Transportation,Unknown
 198208200003,Colombia,4.667128,-74.106056,1.0,,Educational Institution,Unknown
-198208200004,Lebanon,,,0.0,,Violent Political Party,Unknown
 198208200005,El Salvador,13.64121,-88.785423,1.0,,Military,Farabundo Marti National Liberation Front (FMLN)
 198208200006,El Salvador,13.64121,-88.785423,,,Business,Farabundo Marti National Liberation Front (FMLN)
 198208200007,El Salvador,13.5,-88.866667,2.0,,Military,Farabundo Marti National Liberation Front (FMLN)
@@ -1697,7 +1605,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198208200009,El Salvador,13.755754,-88.73273,30.0,,Military,Farabundo Marti National Liberation Front (FMLN)
 198208200010,El Salvador,13.653775,-88.681393,,,Military,Farabundo Marti National Liberation Front (FMLN)
 198208200011,El Salvador,13.664223,-88.660622,,,Military,Farabundo Marti National Liberation Front (FMLN)
-198208200012,El Salvador,,,0.0,,Military,Farabundo Marti National Liberation Front (FMLN)
 198208200013,El Salvador,13.723215,-88.819097,,,Military,Farabundo Marti National Liberation Front (FMLN)
 198208200014,El Salvador,13.718815,-88.854604,,,Military,Farabundo Marti National Liberation Front (FMLN)
 198208200015,El Salvador,13.536835,-88.780584,1.0,,Private Citizens & Property,Farabundo Marti National Liberation Front (FMLN)
@@ -1755,10 +1662,8 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198208270008,Peru,-11.371389,-75.318611,0.0,,Business,Shining Path (SL)
 198208270009,El Salvador,14.125746,-89.495479,0.0,,Transportation,Farabundo Marti National Liberation Front (FMLN)
 198208270010,United Kingdom,54.347539,-6.656108,1.0,,Military,Irish Republican Army (IRA)
-198208280001,El Salvador,,,0.0,,Telecommunication,Unknown
 198208290001,El Salvador,13.69288,-89.199161,0.0,,Telecommunication,Farabundo Marti National Liberation Front (FMLN)
 198208290002,El Salvador,13.69288,-89.199161,0.0,,Telecommunication,Farabundo Marti National Liberation Front (FMLN)
-198208290003,El Salvador,,,,,Telecommunication,Unknown
 198208290004,Nicaragua,13.416608,-85.266748,1.0,,Government (General),Contras
 198208290005,Peru,-14.845208,-74.944076,1.0,,Government (General),Shining Path (SL)
 198208300001,Peru,-11.86707,-77.077373,,,Utilities,Shining Path (SL)
@@ -1769,8 +1674,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198208300006,Peru,-12.905839,-76.364049,0.0,,Business,Shining Path (SL)
 198208300007,Peru,-12.905839,-76.364049,0.0,,Business,Shining Path (SL)
 198208300008,Colombia,10.981412,-74.778319,3.0,,Police,Unknown
-198208300009,Colombia,,,,,Police,Revolutionary Armed Forces of Colombia (FARC)
-198208300010,El Salvador,,,,,Military,Farabundo Marti National Liberation Front (FMLN)
 198208300011,El Salvador,14.250913,-89.08324,,,Military,Farabundo Marti National Liberation Front (FMLN)
 198208300012,El Salvador,13.663669,-88.172009,3.0,,Military,Farabundo Marti National Liberation Front (FMLN)
 198208310001,Peru,-11.967368,-76.978462,0.0,,Utilities,Unknown
@@ -1792,7 +1695,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198209010005,El Salvador,13.586201,-88.750773,,,Utilities,Farabundo Marti National Liberation Front (FMLN)
 198209010006,El Salvador,13.586201,-88.750773,,,Utilities,Farabundo Marti National Liberation Front (FMLN)
 198209010007,Peru,-11.967368,-76.978462,,,Utilities,Shining Path (SL)
-198209010008,Peru,,,,,Utilities,Shining Path (SL)
 198209010009,Peru,-11.967368,-76.978462,,,Utilities,Shining Path (SL)
 198209010010,Peru,-11.967368,-76.978462,,,Utilities,Shining Path (SL)
 198209010011,Peru,-11.967368,-76.978462,,,Utilities,Shining Path (SL)
@@ -1852,13 +1754,11 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198209130002,El Salvador,13.491242,-88.173134,6.0,,Unknown,Unknown
 198209130003,El Salvador,13.336944,-87.843889,2.0,,Unknown,Unknown
 198209130004,Pakistan,24.891115,67.143311,3.0,,Government (General),Unknown
-198209130005,El Salvador,,,,,Military,Farabundo Marti National Liberation Front (FMLN)
 198209130006,El Salvador,14.169631,-89.102686,,,Military,Farabundo Marti National Liberation Front (FMLN)
 198209140001,Lebanon,33.888523,35.503513,21.0,,Government (General),Unknown
 198209140002,Guatemala,15.39556,-91.30972,,,Private Citizens & Property,Unknown
 198209140003,Guatemala,15.408333,-91.147222,,,Military,Unknown
 198209140004,Spain,43.311307,-1.900896,4.0,,Police,Basque Fatherland and Freedom (ETA)
-198209150001,El Salvador,,,,,Transportation,Farabundo Marti National Liberation Front (FMLN)
 198209150002,Guatemala,14.722778,-92.034444,,,Journalists & Media,Unknown
 198209150003,Peru,-12.939782,-74.247478,0.0,,Journalists & Media,Shining Path (SL)
 198209150004,Peru,-13.163874,-74.223564,1.0,,Transportation,Shining Path (SL)
@@ -1866,7 +1766,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198209160001,West Germany (FRG),52.50153,13.401851,0.0,,Business,Palestinians
 198209160002,El Salvador,13.981479,-89.555717,7.0,,Unknown,Unknown
 198209160003,Pakistan,24.891115,67.143311,0.0,,Government (Diplomatic),Unknown
-198209160004,Philippines,,,5.0,,Government (General),New People's Army (NPA)
 198209160005,Peru,-13.152712,-74.218628,1.0,,Police,Shining Path (SL)
 198209160006,Spain,40.465595,-3.696263,1.0,,Government (Diplomatic),Unknown
 198209160007,United Kingdom,54.607712,-5.95621,3.0,,Military,Irish National Liberation Army (INLA)
@@ -1893,7 +1792,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198209200007,United States,40.697132,-73.931351,0.0,,Business,Fuerzas Armadas de Liberacion Nacional (FALN)
 198209210001,Spain,40.465595,-3.696263,0.0,,Government (Diplomatic),Unknown
 198209210002,Guatemala,14.622869,-90.529068,1.0,,Government (General),Unknown
-198209210003,Colombia,,,3.0,,Military,Revolutionary Armed Forces of Colombia (FARC)
 198209210004,Spain,43.321127,-1.898775,0.0,,Business,Basque Fatherland and Freedom (ETA)
 198209210005,Spain,43.052649,-3.001022,0.0,,Business,Basque Fatherland and Freedom (ETA)
 198209210006,Spain,43.052649,-3.001022,0.0,,Business,Basque Fatherland and Freedom (ETA)
@@ -1906,20 +1804,16 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198209230002,Colombia,6.242026,-75.564766,0.0,,Business,National Liberation Army of Colombia (ELN)
 198209230003,Colombia,6.242026,-75.564766,0.0,,Business,National Liberation Army of Colombia (ELN)
 198209230004,Colombia,6.242026,-75.564766,0.0,,Business,National Liberation Army of Colombia (ELN)
-198209230005,El Salvador,,,,,Utilities,Unknown
 198209230006,Spain,43.222177,-2.885668,0.0,,Utilities,Basque Fatherland and Freedom (ETA)
 198209230007,Colombia,6.313712,-73.950146,4.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
 198209230008,Spain,43.307458,-2.946418,1.0,,Military,Basque Fatherland and Freedom (ETA)
 198209230009,Colombia,4.667128,-74.106056,0.0,,Government (Diplomatic),M-19 (Movement of April 19)
 198209230010,Peru,-14.083889,-73.588889,1.0,,Educational Institution,Shining Path (SL)
-198209240001,Colombia,,,4.0,,Military,Revolutionary Armed Forces of Colombia (FARC)
 198209240002,Egypt,30.022924,31.185192,0.0,,Tourists,Egyptian Islamic Jihad (Al-Jihad)
 198209250001,Mozambique,-19.833307,34.849994,,,Utilities,Mozambique National Resistance Movement (MNR)
 198209250002,El Salvador,13.957222,-89.189722,0.0,,Police,Farabundo Marti National Liberation Front (FMLN)
 198209250003,El Salvador,13.957222,-89.189722,,,Military,Farabundo Marti National Liberation Front (FMLN)
-198209250004,Mozambique,,,4.0,,Private Citizens & Property,Insurgents
 198209250005,Peru,-16.850833,-69.476667,1.0,,Police,Shining Path (SL)
-198209250006,Philippines,,,2.0,,Military,Unknown
 198209250007,Philippines,6.633826,124.067887,3.0,,Police,New People's Army (NPA)
 198209250008,United States,25.774591,-80.214195,0.0,,Government (Diplomatic),Omega-7
 198209250009,United Kingdom,54.607712,-5.95621,1.0,,Private Citizens & Property,Irish National Liberation Army (INLA)
@@ -1935,7 +1829,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198209280002,El Salvador,13.957222,-89.189722,,,Police,Farabundo Marti National Liberation Front (FMLN)
 198209280003,El Salvador,13.957222,-89.189722,,,Military,Farabundo Marti National Liberation Front (FMLN)
 198209280004,El Salvador,13.253889,-88.247778,,,Military,Farabundo Marti National Liberation Front (FMLN)
-198209280005,Peru,,,1.0,,Police,Shining Path (SL)
 198209290001,Spain,37.884727,-4.779152,0.0,,Government (General),First of October Antifascist Resistance Group (GRAPO)
 198209290002,Spain,39.470239,-0.376805,0.0,,Business,First of October Antifascist Resistance Group (GRAPO)
 198209290003,Spain,43.360299,-5.844781,0.0,,Government (General),First of October Antifascist Resistance Group (GRAPO)
@@ -1990,8 +1883,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198210040007,Venezuela,9.311059,-64.35976,26.0,,Military,Red Flag (Venezuela)
 198210050001,United Kingdom,55.011562,-7.312045,1.0,,Police,Irish Republican Army (IRA)
 198210050002,Spain,42.433619,-8.648053,0.0,,Government (General),First of October Antifascist Resistance Group (GRAPO)
-198210060001,El Salvador,,,0.0,,Utilities,Farabundo Marti National Liberation Front (FMLN)
-198210060002,El Salvador,,,0.0,,Utilities,Farabundo Marti National Liberation Front (FMLN)
 198210060003,El Salvador,13.69288,-89.199161,,,Private Citizens & Property,Farabundo Marti National Liberation Front (FMLN)
 198210060004,Spain,43.32412,-1.929857,0.0,,Business,Basque Fatherland and Freedom (ETA)
 198210060005,El Salvador,13.558889,-88.43,,,Business,Farabundo Marti National Liberation Front (FMLN)
@@ -2000,7 +1891,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198210070003,Peru,-13.152712,-74.218628,0.0,,Utilities,Unknown
 198210070004,United Kingdom,54.347539,-6.656108,2.0,,Military,Irish Republican Army (IRA)
 198210070005,Nicaragua,13.193481,-84.072455,10.0,,Military,Contras
-198210070006,Nicaragua,,,0.0,,Military,Contras
 198210070007,Nicaragua,13.45,-86.71667,0.0,,Military,Contras
 198210080001,Colombia,4.08509,-72.9536,7.0,,Business,Revolutionary Armed Forces of Colombia (FARC)
 198210080002,Guatemala,14.622869,-90.529068,,,Educational Institution,Unknown
@@ -2029,7 +1919,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198210110005,Colombia,10.266667,-75.466667,4.0,,Military,M-19 (Movement of April 19)
 198210110006,Colombia,3.194857,-75.645906,,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
 198210110007,Colombia,2.95485,-76.26825,3.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
-198210110008,El Salvador,,,4.0,,Military,Left-Wing Guerrillas
 198210110009,El Salvador,13.487179,-88.765032,,,Private Citizens & Property,Farabundo Marti National Liberation Front (FMLN)
 198210110010,El Salvador,13.916667,-88.233333,,,Private Citizens & Property,Farabundo Marti National Liberation Front (FMLN)
 198210110011,El Salvador,13.949826,-88.146348,,,Private Citizens & Property,Farabundo Marti National Liberation Front (FMLN)
@@ -2103,7 +1992,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198210200002,United Kingdom,54.607712,-5.95621,0.0,,Government (General),Irish National Liberation Army (INLA)
 198210200003,El Salvador,13.69288,-89.199161,,,Educational Institution,Unknown
 198210200004,El Salvador,14.073542,-88.787842,,,Private Citizens & Property,Farabundo Marti National Liberation Front (FMLN)
-198210200005,El Salvador,,,,,Private Citizens & Property,Farabundo Marti National Liberation Front (FMLN)
 198210200006,El Salvador,14.050173,-88.837704,,,Private Citizens & Property,Farabundo Marti National Liberation Front (FMLN)
 198210200007,El Salvador,13.43333,-88.26667,114.0,,Military,Farabundo Marti National Liberation Front (FMLN)
 198210200008,El Salvador,13.383333,-88.35,,,Military,Farabundo Marti National Liberation Front (FMLN)
@@ -2112,7 +2000,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198210200011,El Salvador,13.433333,-88.783333,,,Military,Farabundo Marti National Liberation Front (FMLN)
 198210200012,El Salvador,14.209702,-89.558219,,,Military,Farabundo Marti National Liberation Front (FMLN)
 198210200013,El Salvador,13.633333,-88.666667,,,Military,Farabundo Marti National Liberation Front (FMLN)
-198210200014,El Salvador,,,,,Military,Farabundo Marti National Liberation Front (FMLN)
 198210200015,El Salvador,13.916667,-88.133333,,,Military,Farabundo Marti National Liberation Front (FMLN)
 198210200016,El Salvador,13.89271,-88.043983,,,Military,Farabundo Marti National Liberation Front (FMLN)
 198210200017,El Salvador,13.487179,-88.765032,,,Private Citizens & Property,Farabundo Marti National Liberation Front (FMLN)
@@ -2128,7 +2015,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198210220005,Guatemala,14.622869,-90.529068,0.0,,Government (Diplomatic),Unknown
 198210220006,United States,40.008171,-75.13549,0.0,,Government (Diplomatic),Justice Commandos for the Armenian Genocide
 198210230001,United Kingdom,54.607712,-5.95621,0.0,,Private Citizens & Property,Ulster Volunteer Force (UVF)
-198210230002,Spain,,,0.0,,Business,Basque Fatherland and Freedom (ETA)
 198210230003,Spain,43.118217,-2.413358,0.0,,Business,Basque Fatherland and Freedom (ETA)
 198210230004,Spain,43.34872,-3.010091,1.0,,Business,Basque Fatherland and Freedom (ETA)
 198210230005,El Salvador,13.90668,-88.157021,,,Military,Farabundo Marti National Liberation Front (FMLN)
@@ -2160,7 +2046,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198210260010,El Salvador,13.69288,-89.199161,0.0,,Private Citizens & Property,Farabundo Marti National Liberation Front (FMLN)
 198210260011,India,31.633078,74.878288,1.0,,Religious Figures/Institutions,Unknown
 198210260012,Guatemala,14.622869,-90.529068,0.0,,Police,Unknown
-198210260013,Nicaragua,,,,,Private Citizens & Property,Contras
 198210260014,El Salvador,13.561416,-88.687385,7.0,,Military,Farabundo Marti National Liberation Front (FMLN)
 198210260015,El Salvador,13.445104,-88.246118,124.0,,Military,Farabundo Marti National Liberation Front (FMLN)
 198210260016,El Salvador,13.495364,-88.979678,10.0,,Military,Farabundo Marti National Liberation Front (FMLN)
@@ -2195,11 +2080,8 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198210290011,Colombia,2.44186,-76.60617,0.0,,Journalists & Media,M-19 (Movement of April 19)
 198210290012,Colombia,4.85851,-74.05903,7.0,,Private Citizens & Property,M-19 (Movement of April 19)
 198210290013,El Salvador,13.64121,-88.785423,6.0,,Military,Unknown
-198210290014,El Salvador,,,,,Private Citizens & Property,Farabundo Marti National Liberation Front (FMLN)
 198210290015,El Salvador,14.070743,-88.905453,4.0,,Private Citizens & Property,Farabundo Marti National Liberation Front (FMLN)
 198210290016,Peru,-13.752746,-74.066323,,,Police,Shining Path (SL)
-198210300001,Colombia,,,0.0,,Journalists & Media,M-19 (Movement of April 19)
-198210300002,Colombia,,,0.0,,Journalists & Media,M-19 (Movement of April 19)
 198210300003,Peru,-11.967368,-76.978462,0.0,,Government (Diplomatic),Shining Path (SL)
 198210310001,West Germany (FRG),50.11797,8.644191,0.0,,Military,Unknown
 198211000001,Suriname,5.82789,-55.17622,0.0,,Government (General),Unknown
@@ -2220,7 +2102,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198211040007,United States,40.697132,-73.931351,0.0,"11/4/1982:  Two members of the Jewish Defense League rolled two smoke grenades down the aisle of Carnegie Hall Cinema in Manhattan, New York, United States. This incident took place during a Soviet film festival. Only one of the devices ignited causing carpet burns and disrupting the showing of the film for thirty minutes. There were no casualties.",Business,Jewish Defense League (JDL)
 198211050001,Angola,-10.2958,16.364028,0.0,,Private Citizens & Property,National Union for the Total Independence of Angola (UNITA)
 198211050002,Netherlands,52.370216,4.895168,0.0,,Government (Diplomatic),Dev Sol
-198211050003,Peru,,,1.0,,Police,Shining Path (SL)
 198211050004,Peru,-13.661389,-74.106111,1.0,,Government (General),Shining Path (SL)
 198211060001,Honduras,14.0833,-87.2167,,,Business,Lorenzo Zelaya Revolutionary Front (LZRF)
 198211060002,Honduras,14.0833,-87.2167,,,Business,Lorenzo Zelaya Revolutionary Front (LZRF)
@@ -2231,12 +2112,10 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198211070004,Peru,-9.297478,-75.996312,,,Police,Shining Path (SL)
 198211070005,Peru,-10.680652,-76.259918,,,Police,Shining Path (SL)
 198211070006,Peru,-13.60916,-73.343826,3.0,,Private Citizens & Property,Shining Path (SL)
-198211080001,West Bank and Gaza Strip,,,0.0,,Private Citizens & Property,Al-Fatah
 198211080002,Israel,32.08297,34.811886,0.0,,Religious Figures/Institutions,Unknown
 198211080003,Israel,32.08297,34.811886,,,Military,Abu Nidal Organization (ANO)
 198211080004,Spain,43.090476,-2.31322,1.0,,Government (General),Basque Fatherland and Freedom (ETA)
 198211080005,Colombia,6.950833,-71.188056,3.0,,Military,Revolutionary Armed Forces of Colombia (FARC)
-198211080006,Nicaragua,,,0.0,,Military,Contras
 198211080007,Peru,-11.967368,-76.978462,,,Police,Shining Path (SL)
 198211080008,Spain,43.32412,-1.929857,0.0,,Police,Basque Fatherland and Freedom (ETA)
 198211080009,South Africa,-27.616575,32.03345,0.0,,Business,African National Congress (South Africa)
@@ -2260,7 +2139,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198211110010,Colombia,4.814278,-75.694558,1.0,,Business,Unknown
 198211110011,Colombia,4.814278,-75.694558,1.0,,Police,Unknown
 198211110012,Costa Rica,9.933619,-84.167992,0.0,,Unknown,Unknown
-198211110013,Nicaragua,,,,,Military,Contras
 198211110014,Peru,-10.055128,-77.5363,0.0,,Business,Shining Path (SL)
 198211110015,Lebanon,33.287166,35.236186,90.0,"11/11/1982: A suspected suicide car bomb detonated at an Israeli military headquarters on the outskirts of Tyre city, Tyre district, Lebanon. The headquarters were demolished in the explosion. Early counts indicated that only 15 people were killed; however, over several days, that number rose to 89 casualties. Two groups, Armed Struggle Orgnanization and Military Command of the Lebanese Resistance, claimed responsibility for the incident but authorities suspect the involvement of Palestine Liberation Organization (PLO).",Military,Palestine Liberation Organization (PLO)
 198211120001,Colombia,6.2675,-75.568611,1.0,,Private Citizens & Property,Death to Kidnappers (MAS)
@@ -2285,9 +2163,7 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198211160001,Peru,-14.31884,-74.378173,0.0,,Utilities,Shining Path (SL)
 198211160002,Spain,43.258434,-2.921819,0.0,,Business,Basque Fatherland and Freedom (ETA)
 198211160003,Colombia,5.615262,-75.624692,20.0,,Private Citizens & Property,M-19 (Movement of April 19)
-198211160004,El Salvador,,,,,Military,Farabundo Marti National Liberation Front (FMLN)
 198211160005,El Salvador,13.318889,-87.643889,,,Military,Farabundo Marti National Liberation Front (FMLN)
-198211160006,Peru,,,2.0,,Business,Shining Path (SL)
 198211160007,Peru,-13.056944,-74.213611,,,Private Citizens & Property,Shining Path (SL)
 198211160008,United Kingdom,54.607712,-5.95621,1.0,,Private Citizens & Property,Protestant extremists
 198211160009,United Kingdom,54.298121,-6.521291,2.0,,Police,Irish National Liberation Army (INLA)
@@ -2309,7 +2185,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198211190007,Spain,42.06388,-1.605718,,,Government (General),Unknown
 198211190008,Peru,-12.939782,-74.247478,1.0,,Private Citizens & Property,Shining Path (SL)
 198211190009,El Salvador,14.073542,-88.787842,,,Military,Farabundo Marti National Liberation Front (FMLN)
-198211190010,El Salvador,,,,,Military,Farabundo Marti National Liberation Front (FMLN)
 198211200001,United Kingdom,54.607712,-5.95621,1.0,,Private Citizens & Property,Protestant extremists
 198211210001,Colombia,2.60024,-76.50141,5.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
 198211210002,South Africa,-25.674634,31.875862,0.0,,Police,African National Congress (South Africa)
@@ -2418,14 +2293,11 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198212130003,Spain,43.136978,-2.073914,1.0,,Police,Basque Fatherland and Freedom (ETA)
 198212130004,Nicaragua,12.6622,-86.80007,,,Police,Contras
 198212130005,Honduras,14.073693,-86.418731,,,Police,Contras
-198212130006,Nicaragua,,,,,Police,Contras
 198212130007,Nicaragua,12.99414,-86.79305,,,Police,Contras
 198212140001,West Germany (FRG),50.11797,8.644191,0.0,,Military,Unknown
 198212140002,West Germany (FRG),50.437107,8.673504,0.0,,Military,Unknown
 198212140003,Israel,32.08297,34.811886,0.0,,Transportation,Unknown
 198212140004,United Kingdom,54.607712,-5.95621,0.0,,Police,Irish National Liberation Army (INLA)
-198212140005,Nicaragua,,,0.0,,Police,Contras
-198212140006,Nicaragua,,,,,Police,Contras
 198212140007,Nicaragua,13.78918,-86.572159,,,Police,Contras
 198212140008,Peru,-13.163874,-74.223564,,,Business,Unknown
 198212140009,Peru,-13.629385,-74.128128,2.0,,Private Citizens & Property,Shining Path (SL)
@@ -2436,14 +2308,11 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198212150004,Peru,-12.787148,-74.973207,0.0,,Utilities,Shining Path (SL)
 198212150005,Peru,-12.787148,-74.973207,0.0,,Utilities,Shining Path (SL)
 198212150006,South Africa,-26.184113,28.033232,0.0,,Utilities,Unknown
-198212150007,El Salvador,,,,,Military,Farabundo Marti National Liberation Front (FMLN)
 198212150008,El Salvador,13.947352,-89.120181,,,Military,Farabundo Marti National Liberation Front (FMLN)
 198212150009,El Salvador,13.32417,-87.97611,,,Military,Farabundo Marti National Liberation Front (FMLN)
 198212150010,Peru,-8.972021,-78.107731,0.0,,Utilities,Shining Path (SL)
 198212150011,Peru,-13.163874,-74.223564,1.0,,Private Citizens & Property,Unknown
 198212150012,South Africa,-29.115897,26.219814,1.0,,Government (General),Unknown
-198212160001,El Salvador,,,,,Utilities,Farabundo Marti National Liberation Front (FMLN)
-198212160002,El Salvador,,,,,Utilities,Farabundo Marti National Liberation Front (FMLN)
 198212160003,United States,40.970073,-73.712231,0.0,,Business,United Freedom Front (UFF)
 198212160004,United States,40.700882,-73.712936,0.0,,Business,United Freedom Front (UFF)
 198212160005,Lebanon,33.888523,35.503513,0.0,,Government (General),Unknown
@@ -2464,7 +2333,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198212170008,El Salvador,13.6667,-88.208264,3.0,,Private Citizens & Property,Unknown
 198212170009,Guatemala,14.622869,-90.529068,,,Transportation,Unknown
 198212170010,Lebanon,34.435788,35.851498,6.0,,Military,Sunni Muslim extremists
-198212180001,El Salvador,,,0.0,,Business,Farabundo Marti National Liberation Front (FMLN)
 198212180002,El Salvador,13.316667,-88.583333,0.0,,Business,Farabundo Marti National Liberation Front (FMLN)
 198212180003,South Africa,-33.941849,18.41964,0.0,,Utilities,African National Congress (South Africa)
 198212180004,El Salvador,13.981479,-89.555717,3.0,,Unknown,Farabundo Marti National Liberation Front (FMLN)
@@ -2514,8 +2382,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198212280003,Peru,-11.967368,-76.978462,1.0,,Police,Shining Path (SL)
 198212280004,Lebanon,33.888523,35.503513,0.0,,Government (General),Phalange
 198212280005,Nicaragua,13.78944,-86.012157,0.0,,Business,Contras
-198212290001,El Salvador,,,0.0,,Utilities,Farabundo Marti National Liberation Front (FMLN)
-198212290002,El Salvador,,,0.0,,Utilities,Farabundo Marti National Liberation Front (FMLN)
 198212290003,El Salvador,13.483333,-88.466667,8.0,,Military,Farabundo Marti National Liberation Front (FMLN)
 198212290004,Colombia,6.242026,-75.564766,0.0,,Business,National Liberation Army of Colombia (ELN)
 198212290005,Nicaragua,13.720458,-86.507078,3.0,,Private Citizens & Property,Contras
@@ -2525,7 +2391,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198212290009,Lebanon,33.888523,35.503513,1.0,,Terrorists/Non-State Militia,Justice Commandos for the Armenian Genocide
 198212300001,Argentina,-34.61768,-58.444435,0.0,,Government (General),Unknown
 198212300002,El Salvador,13.69288,-89.199161,0.0,,Business,Farabundo Marti National Liberation Front (FMLN)
-198212300003,Nicaragua,,,,,Police,Contras
 198212310001,Peru,-12.905839,-76.364049,0.0,,Business,Shining Path (SL)
 198212310002,Peru,-12.905839,-76.364049,0.0,,Business,Shining Path (SL)
 198212310003,Peru,-12.905839,-76.364049,0.0,,Police,Shining Path (SL)
@@ -2539,6 +2404,5 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198212310011,United States,40.697132,-73.931351,0.0,,Private Citizens & Property,Fuerzas Armadas de Liberacion Nacional (FALN)
 198212310012,United States,40.697132,-73.931351,0.0,,Government (General),Fuerzas Armadas de Liberacion Nacional (FALN)
 198212310013,France,42.309409,9.149022,0.0,,Private Citizens & Property,Corsican National Liberation Front (FLNC)
-198212310014,Nicaragua,,,,,Private Citizens & Property,Contras
 198212310015,Peru,-13.152712,-74.218628,0.0,,Business,Shining Path (SL)
 198212310016,Zimbabwe,-18.533157,27.549585,6.0,,Private Citizens & Property,Supporters of Joshua Nkomo

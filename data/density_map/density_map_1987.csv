@@ -1,7 +1,6 @@
 eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198601100011,Lebanon,33.888523,35.503513,0.0,"1/20/1987: Terry Waite, an envoy from the Church of England, was kidnapped by Hezbollah in Lebanon. He was released along with several other hostages on November 19, 1991, in exchange for the release of Lebanese prisoners held in Israel.",Religious Figures/Institutions,Hezbollah
 198701010001,India,28.585836,77.153336,1.0,,Police,Unknown
-198701010003,El Salvador,,,0.0,,Military,Farabundo Marti National Liberation Front (FMLN)
 198701010004,Peru,-11.967368,-76.978462,0.0,,Private Citizens & Property,Shining Path (SL)
 198701010005,South Africa,-26.103533,28.097631,0.0,,Military,African National Congress (South Africa)
 198701020001,India,13.08268,80.270718,0.0,,Transportation,Unknown
@@ -26,7 +25,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198701050002,South Africa,-26.184113,28.033232,3.0,,Private Citizens & Property,Unknown
 198701050003,Peru,-13.152712,-74.218628,3.0,,Government (General),Shining Path (SL)
 198701050004,El Salvador,13.805691,-88.145787,2.0,,Private Citizens & Property,Farabundo Marti National Liberation Front (FMLN)
-198701050005,Colombia,,,3.0,,Business,Unknown
 198701060001,Honduras,14.0833,-87.2167,0.0,,Government (Diplomatic),Unknown
 198701060002,Peru,-11.967368,-76.978462,0.0,,Airports & Aircraft,Tupac Amaru Revolutionary Movement (MRTA)
 198701060003,Peru,-13.152712,-74.218628,3.0,,Utilities,Shining Path (SL)
@@ -71,7 +69,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198701090011,South Africa,-26.184113,28.033232,0.0,,Business,African National Congress (South Africa)
 198701090012,South Africa,-33.978578,18.580468,1.0,,Police,African National Congress (South Africa)
 198701100001,Cyprus,34.917861,33.633003,0.0,,Private Citizens & Property,Unknown
-198701100002,Honduras,,,0.0,,Private Citizens & Property,Contras
 198701100003,Honduras,14.0833,-87.2167,0.0,,Government (Diplomatic),Unknown
 198701110001,El Salvador,13.69288,-89.199161,0.0,,Utilities,Marxists
 198701110002,Peru,-11.967368,-76.978462,2.0,,Police,Shining Path (SL)
@@ -152,11 +149,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198701190013,India,13.08268,80.270718,0.0,,Transportation,Unknown
 198701190014,Peru,-13.152712,-74.218628,1.0,,Military,Subversives
 198701190015,Lebanon,33.888523,35.503513,0.0,,Business,Palestine Liberation Organization (PLO)
-198701200001,Philippines,,,0.0,,Transportation,Armed People
-198701200002,Philippines,,,0.0,,Transportation,Armed People
-198701200003,Philippines,,,0.0,,Transportation,Armed People
-198701200004,Philippines,,,0.0,,Transportation,Armed People
-198701200005,Philippines,,,0.0,,Transportation,Armed People
 198701200006,Sri Lanka,6.941837,79.861687,6.0,,Transportation,Unknown
 198701200007,Peru,-16.719896,-71.314889,2.0,,Military,Shining Path (SL)
 198701200008,Colombia,4.667128,-74.106056,0.0,,Utilities,National Liberation Army of Colombia (ELN)
@@ -168,7 +160,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198701210003,Argentina,-34.61768,-58.444435,0.0,,Government (General),Unknown
 198701210004,Lebanon,33.888523,35.503513,0.0,,Private Citizens & Property,Unknown
 198701220001,France,41.918891,8.737554,0.0,,Business,Corsican National Liberation Front (FLNC)
-198701220002,Kuwait,,,0.0,,Private Citizens & Property,Iranian extremists
 198701220003,Peru,-11.967368,-76.978462,0.0,,Government (General),Terrorists
 198701220004,Peru,-11.967368,-76.978462,0.0,,Government (General),Terrorists
 198701220005,Peru,-11.967368,-76.978462,0.0,,Business,Terrorists
@@ -189,10 +180,8 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198701240001,Lebanon,33.888523,35.503513,0.0,,Educational Institution,Hezbollah
 198701240002,Colombia,3.429344,-76.516037,7.0,,Military,Revolutionary Armed Forces of Colombia (FARC)
 198701240003,Italy,46.496714,11.358008,0.0,,Government (General),Unknown
-198701240004,Kuwait,,,0.0,,Police,Islamic Holy Star
 198701240005,Colombia,6.643708,-73.653621,8.0,,Military,Revolutionary Armed Forces of Colombia (FARC)
 198701240006,Colombia,7.243889,-76.435556,,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
-198701240007,Bolivia,,,0.0,,Utilities,Shining Path (SL)
 198701240008,Colombia,4.667128,-74.106056,0.0,,Police,National Liberation Army of Colombia (ELN)
 198701240009,Lebanon,33.888523,35.503513,0.0,,Educational Institution,Hezbollah
 198701240010,South Africa,-32.264292,28.509864,0.0,,Police,African National Congress (South Africa)
@@ -201,7 +190,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198701250003,Colombia,3.429344,-76.516037,,,Transportation,M-19 (Movement of April 19)
 198701250004,Colombia,3.429344,-76.516037,,,Transportation,M-19 (Movement of April 19)
 198701250005,Colombia,3.429344,-76.516037,,,Transportation,M-19 (Movement of April 19)
-198701250006,Kuwait,,,0.0,,Business,Iranian extremists
 198701250007,India,30.733315,76.779418,8.0,,Government (General),Sikh Extremists
 198701260001,Spain,41.656285,-0.876533,3.0,,Military,Basque Separatists
 198701260002,Peru,-11.967368,-76.978462,1.0,,Police,Shining Path (SL)
@@ -223,7 +211,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198701280001,Colombia,4.667128,-74.106056,0.0,,Government (General),National Liberation Army of Colombia (ELN)
 198701280002,Colombia,4.667128,-74.106056,0.0,,Government (General),National Liberation Army of Colombia (ELN)
 198701280003,Colombia,4.667128,-74.106056,0.0,,Government (General),National Liberation Army of Colombia (ELN)
-198701280004,Suriname,,,0.0,,Utilities,Brunswijk Jungle Commando
 198701280005,Colombia,2.3889,-75.89255,4.0,,Military,National Liberation Army of Colombia (ELN)
 198701280006,Sri Lanka,6.941837,79.861687,21.0,,Police,Tamils
 198701280007,Pakistan,24.891115,67.143311,0.0,,Government (General),Unknown
@@ -234,8 +221,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198701300003,Peru,-11.900371,-74.600005,3.0,,Private Citizens & Property,Shining Path (SL)
 198701300004,South Africa,-26.103533,28.097631,4.0,,Military,African National Congress (South Africa)
 198701310002,India,31.147131,75.341218,1.0,,Educational Institution,Terrorists
-198701310003,Peru,,,8.0,,Private Citizens & Property,Shining Path (SL)
-198701310004,Peru,,,8.0,,Private Citizens & Property,Shining Path (SL)
 198701310005,Ireland,53.361675,-6.245485,1.0,,Private Citizens & Property,Irish National Liberation Army (INLA)
 198701310006,South Africa,-26.249031,27.944123,0.0,,Government (General),African National Congress (South Africa)
 198702010001,Israel,31.771599,35.2034,0.0,,Transportation,Unknown
@@ -247,7 +232,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198702010007,Philippines,14.596051,120.978666,0.0,,Religious Figures/Institutions,Unknown
 198702010008,Peru,-11.967368,-76.978462,1.0,,Government (General),Shining Path (SL)
 198702020001,Peru,-14.31884,-74.378173,1.0,,Military,Unknown
-198702020002,South Africa,,,0.0,,Police,African National Congress (South Africa)
 198702030001,United Kingdom,54.515694,-6.055724,0.0,,Business,Unknown
 198702030002,United Kingdom,54.607712,-5.95621,0.0,,Business,Unknown
 198702030003,Spain,43.297222,-2.991667,0.0,,Business,Unknown
@@ -262,7 +246,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198702040008,Peru,-13.152712,-74.218628,0.0,,Utilities,Unknown
 198702040009,Peru,-11.967368,-76.978462,7.0,,Private Citizens & Property,Unknown
 198702040010,Peru,-13.152712,-74.218628,1.0,,Government (General),Terrorists
-198702040011,Peru,,,7.0,,Private Citizens & Property,Unknown
 198702050001,South Africa,-33.941849,18.41964,0.0,,Government (General),Unknown
 198702050002,South Africa,-33.941849,18.41964,0.0,,Transportation,Unknown
 198702050003,Greece,37.99749,23.762728,0.0,,Private Citizens & Property,Marxists
@@ -271,9 +254,7 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198702060003,Pakistan,30.200819,66.994354,1.0,,Business,Unknown
 198702070001,India,31.147131,75.341218,1.0,,Private Citizens & Property,Terrorists
 198702070002,Philippines,14.596051,120.978666,5.0,,Private Citizens & Property,Filipino Communists
-198702070003,Philippines,,,3.0,,Military,New People's Army (NPA)
 198702070005,Lebanon,33.888523,35.503513,0.0,,Private Citizens & Property,Unknown
-198702080001,Philippines,,,1.0,,Private Citizens & Property,Communists
 198702080002,Sri Lanka,6.941837,79.861687,28.0,,Private Citizens & Property,Liberation Tigers of Tamil Eelam (LTTE)
 198702080003,Sri Lanka,6.941837,79.861687,13.0,,Private Citizens & Property,Liberation Tigers of Tamil Eelam (LTTE)
 198702090001,Ireland,53.361675,-6.245485,0.0,,Business,Ulster Freedom Fighters (UFF)
@@ -294,13 +275,9 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198702090016,Ireland,53.361675,-6.245485,0.0,,Business,Ulster Freedom Fighters (UFF)
 198702090017,Ireland,53.361675,-6.245485,0.0,,Business,Ulster Freedom Fighters (UFF)
 198702090018,Ireland,53.361675,-6.245485,0.0,,Business,Ulster Freedom Fighters (UFF)
-198702090019,Lebanon,,,15.0,,Business,Unknown
 198702090020,Lebanon,33.888523,35.503513,80.0,,Private Citizens & Property,Palestine Liberation Organization (PLO)
 198702090021,Chile,-33.366238,-70.505302,0.0,,Business,Unknown
 198702090022,India,31.147131,75.341218,5.0,,Police,Terrorists
-198702090023,Mozambique,,,0.0,,Religious Figures/Institutions,Mozambique National Resistance Movement (MNR)
-198702090024,Mozambique,,,0.0,,Religious Figures/Institutions,Mozambique National Resistance Movement (MNR)
-198702090025,Mozambique,,,0.0,,Religious Figures/Institutions,Mozambique National Resistance Movement (MNR)
 198702100001,Colombia,4.667128,-74.106056,0.0,,Utilities,Unknown
 198702100002,Colombia,4.667128,-74.106056,0.0,,Utilities,Unknown
 198702100003,India,31.147131,75.341218,2.0,,Private Citizens & Property,Terrorists
@@ -318,8 +295,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198702120007,Peru,-13.478333,-72.379444,1.0,,Private Citizens & Property,Shining Path (SL)
 198702120008,Guatemala,15.640074,-91.069429,3.0,,Military,Guerrilla Army of the Poor (EGP)
 198702120010,Lebanon,33.888523,35.503513,0.0,,Government (General),Unknown
-198702120011,Lebanon,,,0.0,,Educational Institution,Unknown
-198702120012,Lebanon,,,0.0,,Educational Institution,Unknown
 198702130001,Colombia,4.21557,-73.81502,0.0,,Transportation,Unknown
 198702130002,Colombia,5.346103,-74.491672,0.0,,Transportation,National Liberation Army of Colombia (ELN)
 198702130003,Colombia,5.346103,-74.491672,0.0,,Transportation,National Liberation Army of Colombia (ELN)
@@ -346,7 +321,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198702160005,Venezuela,9.632536,-66.916357,0.0,,Business,National Liberation Army of Colombia (ELN)
 198702160006,Colombia,4.667128,-74.106056,0.0,,Police,Revolutionary Armed Forces of Colombia (FARC)
 198702170001,Israel,32.08297,34.811886,0.0,,Business,Palestinians
-198702170002,Philippines,,,1.0,,Transportation,New People's Army (NPA)
 198702170003,Colombia,4.667128,-74.106056,1.0,,Police,Popular Liberation Army (EPL)
 198702180001,Spain,43.3282,-3.031509,0.0,,Business,Basque Fatherland and Freedom (ETA)
 198702180002,Colombia,4.667128,-74.106056,0.0,,Private Citizens & Property,Popular Liberation Army (EPL)
@@ -375,7 +349,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198702190012,Peru,-11.967368,-76.978462,0.0,,Journalists & Media,Tupac Amaru Revolutionary Movement (MRTA)
 198702190013,Philippines,17.092014,121.965256,19.0,,Military,New People's Army (NPA)
 198702190014,Turkey,37.752051,42.181756,2.0,,Private Citizens & Property,Separatists
-198702190015,South Africa,,,0.0,,Violent Political Party,African National Congress (South Africa)
 198702200001,Peru,-11.967368,-76.978462,0.0,,Educational Institution,Shining Path (SL)
 198702200002,Peru,-11.967368,-76.978462,0.0,,Educational Institution,Shining Path (SL)
 198702200003,Peru,-11.967368,-76.978462,0.0,,Educational Institution,Shining Path (SL)
@@ -415,7 +388,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198702240016,Peru,-4.988231,-80.586892,1.0,,Government (General),Unknown
 198702240017,Peru,-11.967368,-76.978462,0.0,,Government (General),Shining Path (SL)
 198702250001,Colombia,3.538611,-74.896111,2.0,,Private Citizens & Property,Unknown
-198702250002,Colombia,,,3.0,,Private Citizens & Property,Quintin Lame
 198702250003,Colombia,5.449497,-74.667911,1.0,,Business,Unknown
 198702250004,Colombia,11.77507,-72.44097,1.0,,Business,M-19 (Movement of April 19)
 198702250005,Colombia,3.429344,-76.516037,1.0,,Business,M-19 (Movement of April 19)
@@ -533,7 +505,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198703050001,Costa Rica,9.933333,-84.083333,0.0,,Government (General),Unknown
 198703050002,Peru,-11.967368,-76.978462,0.0,,Business,Unknown
 198703050003,Argentina,-34.61768,-58.444435,0.0,,Military,Unknown
-198703050004,Nicaragua,,,,,Military,Nicaraguan Democratic Force (FDN)
 198703060001,Honduras,14.0833,-87.2167,0.0,,Private Citizens & Property,Lorenzo Zelaya Revolutionary Front (LZRF)
 198703060002,Honduras,14.0833,-87.2167,0.0,,Private Citizens & Property,Lorenzo Zelaya Revolutionary Front (LZRF)
 198703060003,Honduras,14.0833,-87.2167,0.0,,Private Citizens & Property,Lorenzo Zelaya Revolutionary Front (LZRF)
@@ -554,7 +525,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198703060018,Peru,-11.967368,-76.978462,0.0,,Business,Tupac Amaru Revolutionary Movement (MRTA)
 198703060019,Venezuela,10.54382,-71.692016,,,Business,Unknown
 198703070001,Lebanon,33.888523,35.503513,0.0,,Government (General),Lebanese Liberation Front
-198703070002,Peru,,,0.0,,Utilities,Terrorists
 198703070003,Sri Lanka,6.941837,79.861687,17.0,,Military,Tamils
 198703070004,United Kingdom,54.081638,-6.448779,1.0,,Terrorists/Non-State Militia,Irish National Liberation Army (INLA)
 198703080001,El Salvador,13.833333,-88.716667,9.0,,Military,Farabundo Marti National Liberation Front (FMLN)
@@ -587,8 +557,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198703110001,Colombia,4.667128,-74.106056,0.0,,Government (General),Unknown
 198703110002,Colombia,4.667128,-74.106056,0.0,,Government (General),Unknown
 198703110003,Colombia,4.667128,-74.106056,0.0,,Government (General),Unknown
-198703110004,Nicaragua,,,,,Military,Nicaraguan Democratic Force (FDN)
-198703110006,South Africa,,,1.0,,Police,African National Congress (South Africa)
 198703120003,Colombia,4.667128,-74.106056,0.0,,Business,National Liberation Army of Colombia (ELN)
 198703120004,El Salvador,13.69288,-89.199161,0.0,,Private Citizens & Property,Terrorists
 198703130001,Mozambique,-25.924026,32.46584,2.0,,Private Citizens & Property,Antonio
@@ -603,7 +571,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198703140005,El Salvador,13.874575,-88.627779,16.0,,Military,Farabundo Marti National Liberation Front (FMLN)
 198703140006,United Kingdom,54.10733,-6.321974,1.0,,Government (General),Irish National Liberation Army (INLA)
 198703150001,Peru,-9.0634,-78.583605,0.0,,Private Citizens & Property,Shining Path (SL)
-198703150002,Peru,,,0.0,,Government (General),Shining Path (SL)
 198703150003,Peru,-12.068306,-75.210163,0.0,,Government (General),Shining Path (SL)
 198703150004,Peru,-12.068306,-75.210163,0.0,,Government (General),Shining Path (SL)
 198703150005,Peru,-13.152712,-74.218628,0.0,,Utilities,Shining Path (SL)
@@ -637,19 +604,16 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198703170004,Honduras,14.690891,-89.071551,2.0,,Military,Unknown
 198703170005,Colombia,7.48008,-73.92076,27.0,,Military,National Liberation Army of Colombia (ELN)
 198703170006,South Africa,-29.861824,31.008293,7.0,,Private Citizens & Property,Inkatha Freedom Party (IFP)
-198703170009,South Africa,,,0.0,,Transportation,African National Congress (South Africa)
 198703170010,South Africa,-29.684008,30.932428,2.0,,Police,African National Congress (South Africa)
 198703180001,Lebanon,33.888523,35.503513,0.0,,Violent Political Party,Unknown
 198703180002,Philippines,14.596051,120.978666,19.0,,Military,New People's Army (NPA)
 198703180004,South Africa,-26.184113,28.033232,2.0,,Transportation,African National Congress (South Africa)
 198703180005,Djibouti,11.588591,43.145343,10.0,,Business,Extremist Nat'list Group
 198703180006,Greece,37.99749,23.762728,0.0,,Government (Diplomatic),Unknown
-198703180007,Philippines,,,19.0,,Military,New People's Army (NPA)
 198703180008,Suriname,5.82789,-55.17622,0.0,,Military,Brunswijk Jungle Commando
 198703180009,Colombia,4.15127,-73.63872,1.0,,Government (General),Unknown
 198703190001,Peru,-11.967368,-76.978462,0.0,,Military,Shining Path (SL)
 198703190002,Argentina,-31.74126,-60.511264,0.0,,Private Citizens & Property,Unknown
-198703190003,Colombia,,,,,Utilities,National Liberation Army of Colombia (ELN)
 198703190004,Lebanon,33.888523,35.503513,3.0,,Business,Unknown
 198703190005,Lebanon,33.888523,35.503513,0.0,,Educational Institution,Unknown
 198703190006,Spain,43.1839,-2.265466,0.0,,Business,Basque Fatherland and Freedom (ETA)
@@ -717,10 +681,8 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198703270002,Nicaragua,12.419,-86.93726,9.0,,Government (General),Nicaraguan Democratic Force (FDN)
 198703280001,Lebanon,33.888523,35.503513,5.0,,Private Citizens & Property,Unknown
 198703280002,Peru,-8.058895,-79.055438,0.0,,Government (General),Terrorists
-198703280003,Swaziland,,,4.0,,Military,Unknown
 198703290001,Nicaragua,13.091683,-86.000314,0.0,,Utilities,Nicaraguan Democratic Force (FDN)
 198703290002,Lebanon,33.888523,35.503513,8.0,,Business,Unknown
-198703290003,Lebanon,,,1.0,,Military,Liberation Hawks
 198703290004,Peru,-11.967368,-76.978462,0.0,,Business,Tupac Amaru Revolutionary Movement (MRTA)
 198703290005,Peru,-11.967368,-76.978462,0.0,,Business,Tupac Amaru Revolutionary Movement (MRTA)
 198703290006,Peru,-11.967368,-76.978462,0.0,,Business,Tupac Amaru Revolutionary Movement (MRTA)
@@ -761,15 +723,11 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198704030005,United Kingdom,54.607712,-5.95621,2.0,,Private Citizens & Property,Irish Republican Army (IRA)
 198704030006,United Kingdom,54.53222,-7.657627,1.0,,Military,Irish Republican Army (IRA)
 198704030007,United Kingdom,54.403903,-5.894062,1.0,,Police,Irish Republican Army (IRA)
-198704030009,South Africa,,,0.0,,Private Citizens & Property,Unknown
 198704040001,Argentina,-32.951052,-60.666365,0.0,,Business,Unknown
 198704040002,Nicaragua,12.49104,-86.28169,10.0,,Military,Nicaraguan Democratic Force (FDN)
 198704040003,Sri Lanka,9.666399,80.020477,65.0,,Government (General),Liberation Tigers of Tamil Eelam (LTTE)
-198704050001,Nicaragua,,,0.0,,Utilities,Nicaraguan Democratic Force (FDN)
-198704050002,Nicaragua,,,0.0,,Utilities,Nicaraguan Democratic Force (FDN)
 198704050003,South Africa,-26.107742,27.777284,0.0,,Transportation,Unknown
 198704050004,South Africa,-26.107742,27.777284,0.0,,Transportation,Unknown
-198704050005,Nicaragua,,,,,Military,Nicaraguan Democratic Force (FDN)
 198704050006,El Salvador,13.916667,-88.233333,,,Military,Farabundo Marti National Liberation Front (FMLN)
 198704060001,Spain,42.530333,-1.674269,2.0,,Business,Basque Fatherland and Freedom (ETA)
 198704060002,Nicaragua,13.304902,-86.186265,0.0,,Government (General),Nicaraguan Democratic Force (FDN)
@@ -791,7 +749,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198704060018,Guatemala,14.781992,-89.775818,,,Military,Unknown
 198704060019,Guatemala,14.75,-90.266667,,,Military,Unknown
 198704060020,Guatemala,14.75,-89.883333,2.0,,Military,Unknown
-198704060021,Guatemala,,,4.0,,Military,Unknown
 198704060022,United Kingdom,54.607712,-5.95621,0.0,,Private Citizens & Property,Irish Republican Army (IRA)
 198704060023,Spain,42.815372,-1.653616,,,Military,Basque Fatherland and Freedom (ETA)
 198704070001,India,31.633979,74.872264,5.0,,Private Citizens & Property,Unknown
@@ -844,14 +801,11 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198704120002,Nicaragua,13.564251,-86.02984,0.0,,Utilities,Nicaraguan Democratic Force (FDN)
 198704120003,West Germany (FRG),47.909587,11.280462,0.0,,Business,Unknown
 198704120004,Lebanon,33.888523,35.503513,0.0,,Business,Unknown
-198704120005,Nicaragua,,,0.0,,Transportation,Nicaraguan Resistance
 198704120006,Colombia,6.828333,-75.513056,1.0,,Private Citizens & Property,Unknown
 198704130001,Pakistan,34.006004,71.53743,0.0,,Transportation,Unknown
 198704130002,Peru,-11.967368,-76.978462,2.0,,Business,Shining Path (SL)
 198704130003,Spain,41.400635,2.150913,0.0,,Government (General),Terra Lliure
-198704130004,Nicaragua,,,18.0,,Military,Nicaraguan Democratic Force (FDN)
 198704130005,Nicaragua,14.024389,-84.148178,1.0,,Government (General),Nicaraguan Democratic Force (FDN)
-198704130006,Colombia,,,5.0,,Military,National Liberation Army of Colombia (ELN)
 198704130007,Colombia,5.126434,-74.385545,1.0,,Private Citizens & Property,National Liberation Army of Colombia (ELN)
 198704130008,Colombia,5.126434,-74.385545,1.0,,Private Citizens & Property,National Liberation Army of Colombia (ELN)
 198704130009,Colombia,5.126434,-74.385545,1.0,,Private Citizens & Property,National Liberation Army of Colombia (ELN)
@@ -898,7 +852,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198704150023,South Africa,-29.965819,30.882976,3.0,,Police,African National Congress (South Africa)
 198704160001,West Germany (FRG),49.993038,8.247247,0.0,,Military,Unknown
 198704160002,Lebanon,33.888523,35.503513,0.0,,Military,Lebanese Liberation Front
-198704160003,South Africa,,,0.0,,Transportation,Unknown
 198704160004,South Africa,-26.184113,28.033232,0.0,,Transportation,Unknown
 198704160005,South Africa,-27.741497,29.935178,0.0,,Business,Unknown
 198704160006,South Africa,-26.184113,28.033232,0.0,,Transportation,Unknown
@@ -906,7 +859,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198704160008,El Salvador,13.344322,-88.437463,,,Business,Farabundo Marti National Liberation Front (FMLN)
 198704160009,El Salvador,13.818333,-87.971389,,,Private Citizens & Property,Farabundo Marti National Liberation Front (FMLN)
 198704160010,El Salvador,13.43204,-88.592239,,,Private Citizens & Property,Farabundo Marti National Liberation Front (FMLN)
-198704160011,Philippines,,,1.0,,Military,New People's Army (NPA)
 198704160012,Philippines,14.844402,121.96946,2.0,,Military,New People's Army (NPA)
 198704160014,United States,38.538232,-121.761712,0.0,"04/16/1987: A fire set to the animal diagnostic center at the Veterinary Medicine Research Building at the University of California-Davis, in the United States, partially destroyed the building, causing an estimated $3,500,000 in damages. Additionally, vandals slashed tires and painted slogans such as ""Animal Liberation Front"" and ""Stop the Torture,"" on about seventeen parked cars including university vehicles, in lots on the campus, about a half-mile from the fire. There were no casualties in the incident. Hand-printed notes, signed ""ALF,"" for Animal Liberation Front, claimed the vandalism of vehicles was ""to retaliate in the name of thousands of animals tortured each year in campus labs."" The notes were slipped under the front door of a building in Sacramento housing offices of both The Associated Press and United Press International. Additionally, in an anonymous telephone call made to a Sacramento television station after the fire, the caller stated that ALF was responsible for the arson as well.",Educational Institution,Animal Liberation Front (ALF)
 198704170001,United Kingdom,51.504387,-0.140041,0.0,,Government (General),Irish Republican Army (IRA)
@@ -961,7 +913,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198704210014,Colombia,8.23342,-73.35331,10.0,,Military,Popular Liberation Army (EPL)
 198704210016,Peru,-11.967368,-76.978462,0.0,,Business,Shining Path (SL)
 198704210017,Sri Lanka,6.941837,79.861687,106.0,,Transportation,Liberation Tigers of Tamil Eelam (LTTE)
-198704210018,South Africa,,,1.0,,Police,Unknown
 198704210019,Colombia,8.094167,-74.775556,1.0,,Government (General),Death Squad
 198704210020,Colombia,6.339722,-73.616944,7.0,,Private Citizens & Property,Death Squad
 198704210021,Colombia,8.21121,-73.23843,3.0,,Private Citizens & Property,National Liberation Army of Colombia (ELN)
@@ -1044,17 +995,11 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198705010002,Peru,-11.967368,-76.978462,0.0,,Business,Shining Path (SL)
 198705010003,Peru,-11.967368,-76.978462,0.0,,Government (Diplomatic),Shining Path (SL)
 198705010004,Chile,-33.366238,-70.505302,0.0,,Utilities,Manuel Rodriguez Patriotic Front (FPMR)
-198705010005,Nicaragua,,,7.0,,Government (General),Nicaraguan Democratic Force (FDN)
 198705010006,Nicaragua,12.93157,-85.224113,0.0,,Military,Nicaraguan Democratic Force (FDN)
-198705010007,Nicaragua,,,,,Military,Nicaraguan Democratic Force (FDN)
-198705010008,Nicaragua,,,,,Military,Nicaraguan Democratic Force (FDN)
 198705010009,Nicaragua,12.800014,-85.133347,,,Military,Nicaraguan Democratic Force (FDN)
-198705010010,Nicaragua,,,,,Military,Nicaraguan Democratic Force (FDN)
 198705010011,Nicaragua,13.54204,-85.53942,7.0,,Military,Nicaraguan Democratic Force (FDN)
 198705010012,El Salvador,13.7,-88.1,,,Police,Farabundo Marti National Liberation Front (FMLN)
 198705010013,El Salvador,13.7,-88.1,18.0,,Military,Farabundo Marti National Liberation Front (FMLN)
-198705010014,Colombia,,,,,Business,National Liberation Army of Colombia (ELN)
-198705010015,Colombia,,,5.0,,Military,National Liberation Army of Colombia (ELN)
 198705010016,Lebanon,33.888523,35.503513,0.0,,Government (Diplomatic),Druzes
 198705010018,United States,25.857518,-80.278182,0.0,"5/1/1987: Unknown perpetrators bombed Almacen El Espanol in Hialeah, Florida, United States. There were no casualties but the bomb caused slight structural damage to the building. Almacen El Espanol was a business establishment that sent pharmaceutical supplies to Cuba.",Business,Cuban Exiles
 198705020001,Greece,37.99749,23.762728,0.0,,Business,Anarchists
@@ -1089,7 +1034,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198705040026,Pakistan,33.006516,70.068253,0.0,,Government (General),Unknown
 198705040027,Pakistan,33.006516,70.068253,7.0,,Religious Figures/Institutions,Unknown
 198705040028,Nicaragua,13.22972,-85.55496,,,Military,Nicaraguan Democratic Force (FDN)
-198705040029,Philippines,,,16.0,,Military,New People's Army (NPA)
 198705040032,South Africa,-22.351154,30.039773,1.0,,Military,African National Congress (South Africa)
 198705050001,Chile,-33.044823,-71.373466,0.0,,Government (General),Unknown
 198705050002,Peru,-11.967368,-76.978462,0.0,,Government (General),Shining Path (SL)
@@ -1097,9 +1041,7 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198705050004,South Africa,-33.95278,18.56417,0.0,,Transportation,Unknown
 198705050005,South Africa,-25.748281,28.212069,0.0,,Private Citizens & Property,Unknown
 198705050006,South Africa,-22.351154,30.039773,1.0,,Business,Unknown
-198705050007,Nicaragua,,,,,Government (General),Nicaraguan Democratic Force (FDN)
 198705050008,El Salvador,13.666667,-88.783333,2.0,,Police,Farabundo Marti National Liberation Front (FMLN)
-198705050009,El Salvador,,,0.0,,Military,Farabundo Marti National Liberation Front (FMLN)
 198705050010,El Salvador,13.645009,-88.653177,,,Military,Farabundo Marti National Liberation Front (FMLN)
 198705050011,El Salvador,13.64121,-88.785423,2.0,,Military,Farabundo Marti National Liberation Front (FMLN)
 198705050012,El Salvador,13.64121,-88.785423,2.0,,Military,Farabundo Marti National Liberation Front (FMLN)
@@ -1148,7 +1090,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198705130005,Peru,-11.967368,-76.978462,0.0,,Private Citizens & Property,Shining Path (SL)
 198705130006,Peru,-11.967368,-76.978462,0.0,,Private Citizens & Property,Shining Path (SL)
 198705130007,Peru,-11.967368,-76.978462,0.0,,Private Citizens & Property,Shining Path (SL)
-198705130008,Philippines,,,0.0,,Government (General),Unknown
 198705130009,Nicaragua,12.726881,-86.381799,,,Military,Nicaraguan Democratic Force (FDN)
 198705130010,Colombia,6.242026,-75.564766,1.0,,Government (General),Unknown
 198705130011,Mozambique,-19.09249,33.653033,0.0,,Religious Figures/Institutions,Mozambique National Resistance Movement (MNR)
@@ -1161,14 +1102,11 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198705140007,Pakistan,34.006004,71.53743,7.0,,Transportation,Unknown
 198705140008,Sri Lanka,8.5922,81.196796,6.0,,Military,Unknown
 198705140009,Nicaragua,13.131923,-86.345742,1.0,,Government (General),Nicaraguan Democratic Force (FDN)
-198705140010,Nicaragua,,,,,Military,Nicaraguan Democratic Force (FDN)
 198705140011,Peru,-8.082048,-79.02385,1.0,,Government (General),Shining Path (SL)
 198705140012,Venezuela,7.246772,-70.729167,0.0,,Business,National Liberation Army of Colombia (ELN)
 198705150001,Spain,43.090476,-2.31322,0.0,,Business,Basque Fatherland and Freedom (ETA)
 198705150002,West Bank and Gaza Strip,31.530243,35.094162,0.0,,Military,Abu Musa Group
 198705150003,Nicaragua,12.30556,-85.55227,,,Military,Nicaraguan Democratic Force (FDN)
-198705160001,Peru,,,1.0,,Military,Shining Path (SL)
-198705160002,Nicaragua,,,,,Military,Nicaraguan Democratic Force (FDN)
 198705160003,El Salvador,13.69288,-89.199161,0.0,,Government (General),Farabundo Marti National Liberation Front (FMLN)
 198705160006,South Africa,-27.74358,29.935437,0.0,,Police,African National Congress (South Africa)
 198705170001,Spain,40.465595,-3.696263,,,Military,Basque Fatherland and Freedom (ETA)
@@ -1209,7 +1147,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198705200010,Peru,-10.737187,-75.271626,3.0,,Military,Shining Path (SL)
 198705200011,El Salvador,13.612599,-89.007177,3.0,,Private Citizens & Property,Farabundo Marti National Liberation Front (FMLN)
 198705200012,El Salvador,13.383333,-88.75,2.0,,Military,Farabundo Marti National Liberation Front (FMLN)
-198705200013,El Salvador,,,0.0,,Private Citizens & Property,Farabundo Marti National Liberation Front (FMLN)
 198705200014,Colombia,5.384329,-75.161146,1.0,,Government (General),Unknown
 198705200015,Colombia,4.528694,-75.703846,1.0,,Business,Unknown
 198705200016,India,31.305986,75.63972,1.0,,Police,Unknown
@@ -1227,7 +1164,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198705210011,Turkey,37.922218,40.184376,2.0,,Educational Institution,Unknown
 198705210012,Spain,43.325239,-3.011475,0.0,,Business,Basque Fatherland and Freedom (ETA)
 198705210013,Ireland,54.183,-7.23371,1.0,,Military,Irish Republican Army (IRA)
-198705220001,Nicaragua,,,4.0,,Utilities,Nicaraguan Democratic Force (FDN)
 198705220002,Argentina,-34.61768,-58.444435,0.0,,Business,Unknown
 198705220003,Argentina,-34.61768,-58.444435,0.0,,Government (General),Unknown
 198705220004,Argentina,-34.61768,-58.444435,0.0,,Government (General),Unknown
@@ -1238,14 +1174,12 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198705220009,Peru,-12.2034,-75.7993,0.0,,Business,Shining Path (SL)
 198705230001,Italy,46.496714,11.358008,0.0,,Government (General),Unknown
 198705230002,Italy,46.496714,11.358008,0.0,,Police,Unknown
-198705230003,Peru,,,10.0,,Military,Shining Path (SL)
 198705230004,Colombia,2.19673,-75.62909,1.0,,Government (General),Unknown
 198705240001,Cyprus,35.166749,33.367601,0.0,,Business,Unknown
 198705240002,Guatemala,16.783116,-90.116653,7.0,,Military,Unknown
 198705240003,Guatemala,14.932339,-91.692795,5.0,,Military,Unknown
 198705240004,El Salvador,13.808486,-88.409066,6.0,,Military,Farabundo Marti National Liberation Front (FMLN)
 198705240005,El Salvador,14.09396,-88.889278,3.0,,Military,Farabundo Marti National Liberation Front (FMLN)
-198705240006,Colombia,,,6.0,,Military,Simon Bolivar Guerrilla Coordinating Board (CGSB)
 198705240007,Colombia,2.2086,-76.49673,7.0,,Military,Quintin Lame
 198705240008,Colombia,5.615262,-75.624692,2.0,,Military,Revolutionary Armed Forces of Colombia (FARC)
 198705240009,Colombia,5.82932,-72.16271,1.0,,Government (General),Unknown
@@ -1263,7 +1197,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198705250012,United States,18.386932,-66.061127,0.0,,Police,Guerrilla Forces for Liberation
 198705250013,Colombia,2.243589,-77.010385,8.0,,Military,Simon Bolivar Guerrilla Coordinating Board (CGSB)
 198705250014,Italy,46.635648,11.147666,0.0,,Police,Unknown
-198705250015,Peru,,,10.0,,Military,Shining Path (SL)
 198705250016,Colombia,6.21906,-73.81111,2.0,,Private Citizens & Property,National Liberation Army of Colombia (ELN)
 198705250017,United States,25.774591,-80.214195,0.0,,Business,Anti-Castro Group
 198705250019,United States,18.238724,-66.035227,0.0,"5/25/1987: In a series of related attacks, the Guerrilla Forces for Liberation bombed the New York Department Store in Caguas, Puerto Rico. Another bomb at the site failed to explode. There were no casualties but the store was damaged.",Business,Guerrilla Forces for Liberation
@@ -1285,7 +1218,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198705300002,Peru,-9.036944,-75.5075,2.0,,Private Citizens & Property,Shining Path (SL)
 198705300003,Peru,-9.036944,-75.5075,2.0,,Transportation,Shining Path (SL)
 198705310001,Philippines,13.962909,121.526711,0.0,,Government (General),New People's Army (NPA)
-198705310003,Afghanistan,,,0.0,,Private Citizens & Property,Afghan Mujahideen
 198706010001,El Salvador,13.69288,-89.199161,0.0,,Utilities,Farabundo Marti National Liberation Front (FMLN)
 198706010002,El Salvador,13.69288,-89.199161,0.0,,Utilities,Farabundo Marti National Liberation Front (FMLN)
 198706010003,Colombia,4.582298,-74.219465,1.0,,Police,National Liberation Army of Colombia (ELN)
@@ -1353,7 +1285,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198706070006,Colombia,2.51379,-76.38945,10.0,,Military,Simon Bolivar Guerrilla Coordinating Board (CGSB)
 198706070007,Peru,-11.967368,-76.978462,0.0,,Business,Shining Path (SL)
 198706070008,Philippines,8.161256,123.958794,3.0,,Military,New People's Army (NPA)
-198706070009,Philippines,,,1.0,,Military,New People's Army (NPA)
 198706070011,Colombia,6.242026,-75.564766,8.0,,Private Citizens & Property,Death Squad
 198706070012,Cyprus,35.16675,33.367602,1.0,,Police,Unknown
 198706070013,Philippines,15.153002,120.591942,2.0,,Police,New People's Army (NPA)
@@ -1367,7 +1298,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198706080007,Peru,-11.967368,-76.978462,0.0,,Journalists & Media,Tupac Amaru Revolutionary Movement (MRTA)
 198706080008,Peru,-11.967368,-76.978462,0.0,,Journalists & Media,Tupac Amaru Revolutionary Movement (MRTA)
 198706080009,Philippines,14.67428,121.057495,0.0,,Terrorists/Non-State Militia,New People's Army (NPA)
-198706080010,Colombia,,,0.0,,Government (General),National Liberation Army of Colombia (ELN)
 198706080011,Colombia,9.24605,-74.7595,0.0,,Business,National Liberation Army of Colombia (ELN)
 198706080015,United States,41.67086,-83.543846,0.0,"6/8/1987: Marjorie Reed set fire to the Toledo Medical Services in Toledo, Ohio, United States. There were no casualties but the building sustained $200 in damages.",Abortion Related,Anti-Abortion extremists
 198706090001,Peru,-11.967368,-76.978462,0.0,,Private Citizens & Property,Tupac Amaru Revolutionary Movement (MRTA)
@@ -1405,7 +1335,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198706120003,India,28.585836,77.153336,3.0,,Private Citizens & Property,Sikh Extremists
 198706120004,Greece,37.99749,23.762728,0.0,,Military,Unknown
 198706120005,Philippines,14.596051,120.978666,1.0,,Police,New People's Army (NPA)
-198706120006,Nicaragua,,,15.0,,Military,Nicaraguan Democratic Force (FDN)
 198706120007,United Kingdom,54.530989,-6.02939,1.0,,Military,Irish Republican Army (IRA)
 198706120010,South Africa,-25.86809,29.246447,2.0,,Police,African National Congress (South Africa)
 198706120011,South Africa,-26.184113,28.033232,,,Government (General),African National Congress (South Africa)
@@ -1422,7 +1351,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198706130011,Chile,-33.366238,-70.505302,0.0,,Business,Manuel Rodriguez Patriotic Front (FPMR)
 198706130012,India,28.585836,77.153336,5.0,,Government (General),Sikh Extremists
 198706130013,India,30.672393,74.755048,3.0,,Police,Sikh Extremists
-198706130014,Peru,,,8.0,,Private Citizens & Property,Shining Path (SL)
 198706130015,Peru,-11.024674,-75.405337,7.0,,Private Citizens & Property,Shining Path (SL)
 198706130016,India,28.585836,77.153336,1.0,,Private Citizens & Property,Sikh Extremists
 198706130017,India,28.585836,77.153336,2.0,,Private Citizens & Property,Sikh Extremists
@@ -1434,7 +1362,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198706140005,Peru,-11.967368,-76.978462,0.0,,Business,Tupac Amaru Revolutionary Movement (MRTA)
 198706140006,Peru,-11.967368,-76.978462,0.0,,Business,Shining Path (SL)
 198706140007,Philippines,14.67428,121.057495,0.0,,Religious Figures/Institutions,Unknown
-198706140008,Nicaragua,,,1.0,,Business,Nicaraguan Democratic Force (FDN)
 198706140009,Philippines,14.596051,120.978666,2.0,,Police,New People's Army (NPA)
 198706140010,Philippines,16.41639,120.59306,2.0,,Police,New People's Army (NPA)
 198706140011,India,28.585836,77.153336,4.0,,Violent Political Party,Sikh Extremists
@@ -1453,7 +1380,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198706160004,Philippines,7.209594,124.241966,0.0,,Private Citizens & Property,Unknown
 198706160005,Spain,41.400635,2.150913,0.0,,Business,Basque Fatherland and Freedom (ETA)
 198706160006,Spain,41.400635,2.150913,0.0,,Business,Red Army for the Liberation of Catalonia
-198706160007,Colombia,,,32.0,,Military,Revolutionary Armed Forces of Colombia (FARC)
 198706160008,Colombia,4.667128,-74.106056,2.0,,Police,National Liberation Army of Colombia (ELN)
 198706160009,Honduras,13.729643,-87.569391,10.0,,Military,Nicaraguan Democratic Force (FDN)
 198706160010,Nicaragua,11.948718,-84.901224,25.0,,Military,Nicaraguan Democratic Force (FDN)
@@ -1476,7 +1402,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198706190005,Nicaragua,12.82166,-84.203876,0.0,,Maritime,Nicaraguan Democratic Force (FDN)
 198706190006,Nicaragua,10.953278,-83.921751,10.0,,Military,Nicaraguan Resistance
 198706190007,Nicaragua,13.091683,-86.000314,18.0,,Military,Nicaraguan Democratic Force (FDN)
-198706190008,Peru,,,19.0,,Maritime,Shining Path (SL)
 198706190009,Chile,-33.366238,-70.505302,0.0,,Police,Manuel Rodriguez Patriotic Front (FPMR)
 198706190010,Cyprus,35.166751,33.367603,0.0,,Police,Unknown
 198706200001,West Germany (FRG),50.732674,7.096299,0.0,,Government (Diplomatic),Unknown
@@ -1492,7 +1417,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198706200011,India,27.046316,88.271156,1.0,,Business,Gurkha National Liberation Front (GNLF)
 198706200012,Malta,35.89779,14.514106,0.0,,Tourists,Unknown
 198706200013,Philippines,10.295334,123.87825,1.0,,Police,New People's Army (NPA)
-198706200014,Turkey,,,31.0,,Government (General),Kurdish Rebels
 198706210001,Chile,-37.4728,-72.354453,2.0,,Business,Manuel Rodriguez Patriotic Front (FPMR)
 198706210002,Chile,-33.366238,-70.505302,0.0,,Government (General),Manuel Rodriguez Patriotic Front (FPMR)
 198706210003,Nicaragua,12.870545,-86.54232,7.0,,Government (General),Nicaraguan Resistance
@@ -1519,9 +1443,7 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198706230012,Philippines,15.544809,120.763556,0.0,,Private Citizens & Property,New People's Army (NPA)
 198706230013,India,31.513241,75.983333,1.0,,Police,Sikh Extremists
 198706230014,India,30.954424,74.612085,1.0,,Police,Sikh Extremists
-198706230015,India,,,1.0,,Business,Sikh Extremists
 198706230016,Lebanon,33.266151,35.214058,1.0,,Military,Unknown
-198706230017,Philippines,,,0.0,,Government (General),New People's Army (NPA)
 198706230018,United Kingdom,54.607712,-5.95621,1.0,,Police,Irish Republican Army (IRA)
 198706240001,Argentina,-34.61768,-58.444435,0.0,,Government (General),Unknown
 198706240002,Argentina,-34.61768,-58.444435,0.0,,Government (General),Unknown
@@ -1567,7 +1489,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198706270005,Colombia,3.529901,-76.298006,3.0,,Military,Revolutionary Armed Forces of Colombia (FARC)
 198706280001,United Kingdom,53.286192,-3.582769,0.0,,Business,Welsh Extremists
 198706280002,United Kingdom,52.927765,-4.133943,0.0,,Government (General),Welsh Extremists
-198706280003,Colombia,,,8.0,,Military,Revolutionary Armed Forces of Colombia (FARC)
 198706280004,Colombia,2.116667,-74.766667,1.0,,Military,Revolutionary Armed Forces of Colombia (FARC)
 198706290001,Chile,-35.43058,-71.65762,0.0,,Government (General),Manuel Rodriguez Patriotic Front (FPMR)
 198706290002,Chile,-35.43058,-71.65762,0.0,,Government (General),Manuel Rodriguez Patriotic Front (FPMR)
@@ -1593,7 +1514,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198707020002,Peru,-11.967368,-76.978462,0.0,,Educational Institution,Tupac Amaru Revolutionary Movement (MRTA)
 198707020003,Peru,-15.84065,-70.027891,0.0,,Educational Institution,Shining Path (SL)
 198707020004,Peru,-16.409501,-71.537384,0.0,,Government (General),Tupac Amaru Revolutionary Movement (MRTA)
-198707020005,Sri Lanka,,,0.0,,Government (General),Tamils
 198707030001,Peru,-12.068306,-75.210163,0.0,,Government (General),Shining Path (SL)
 198707030002,Peru,-12.068306,-75.210163,0.0,,Government (General),Shining Path (SL)
 198707030003,Peru,-12.068306,-75.210163,0.0,,Government (General),Shining Path (SL)
@@ -1602,7 +1522,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198707030006,Peru,-12.068306,-75.210163,0.0,,Business,Shining Path (SL)
 198707030007,Peru,-12.068306,-75.210163,0.0,,Business,Shining Path (SL)
 198707030008,Peru,-12.068306,-75.210163,0.0,,Business,Shining Path (SL)
-198707030009,Peru,,,1.0,,Police,Shining Path (SL)
 198707030010,Sri Lanka,9.666399,80.020477,0.0,,Government (General),Tamils
 198707030011,United Kingdom,54.607712,-5.95621,1.0,,Business,Ulster Freedom Fighters (UFF)
 198707040001,Pakistan,33.671638,73.056068,1.0,,Business,Unknown
@@ -1647,7 +1566,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198707080001,South Africa,-26.184113,28.033232,0.0,,Business,African National Congress (South Africa)
 198707080002,Angola,-14.652046,17.684097,4.0,,Private Citizens & Property,National Union for the Total Independence of Angola (UNITA)
 198707080003,Colombia,7.116294,-73.120026,4.0,,Police,Revolutionary Armed Forces of Colombia (FARC)
-198707080004,Colombia,,,4.0,,Private Citizens & Property,National Liberation Army of Colombia (ELN)
 198707080017,Turkey,40.016742,33.005748,16.0,,Private Citizens & Property,Kurdistan Workers' Party (PKK)
 198707080018,Turkey,36.686832,36.45323,9.0,,Private Citizens & Property,Kurdistan Workers' Party (PKK)
 198707080019,Peru,-13.152712,-74.218628,0.0,,Journalists & Media,Shining Path (SL)
@@ -1690,9 +1608,7 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198707130013,Spain,41.359583,2.099704,0.0,,Police,Terra Lliure
 198707130014,Chile,-33.366238,-70.505302,0.0,,Police,Manuel Rodriguez Patriotic Front (FPMR)
 198707130015,India,31.51655,75.28897,4.0,,Government (General),Sikh Extremists
-198707130016,Nicaragua,,,1.0,,Government (General),Nicaraguan Resistance
 198707130017,Philippines,17.633959,121.780851,8.0,,Military,New People's Army (NPA)
-198707130018,Turkey,,,1.0,,Private Citizens & Property,Unknown
 198707130019,Turkey,38.742984,39.972528,2.0,,Military,Unknown
 198707140001,Kuwait,29.347702,47.94912,0.0,,Private Citizens & Property,Unknown
 198707140002,Lebanon,34.438094,35.830837,6.0,,Private Citizens & Property,Muslim Fundamentalists
@@ -1745,7 +1661,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198707170006,Peru,-11.161067,-75.99309,0.0,,Utilities,Shining Path (SL)
 198707170007,Peru,-11.967368,-76.978462,0.0,,Private Citizens & Property,Tupac Amaru Revolutionary Movement (MRTA)
 198707170008,Philippines,14.596051,120.978666,0.0,,Business,New People's Army (NPA)
-198707170009,Philippines,,,8.0,,Military,New People's Army (NPA)
 198707170010,Colombia,7.116294,-73.120026,1.0,,Private Citizens & Property,Death Squad
 198707170011,United Kingdom,54.607712,-5.95621,1.0,,Private Citizens & Property,Ulster Freedom Fighters (UFF)
 198707180001,Mozambique,-23.738177,34.974707,388.0,,Private Citizens & Property,Mozambique National Resistance Movement (MNR)
@@ -1873,7 +1788,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198707300011,Spain,42.815372,-1.653616,0.0,,Business,Basque Fatherland and Freedom (ETA)
 198707300012,India,28.690073,77.213982,1.0,,Violent Political Party,Sikh Extremists
 198707300013,India,28.690073,77.213982,1.0,,Violent Political Party,Sikh Extremists
-198707300014,South Africa,,,0.0,,Military,African National Congress (South Africa)
 198707300015,South Africa,-26.184113,28.033232,1.0,,Military,African National Congress (South Africa)
 198707300016,United States,25.774591,-80.214195,0.0,"7/30/1987: Unknown perpetrators bombed the Machi Community Service building in Miami, Florida, United States. There were no casualties but the facility sustained slight structural damage. Machi Community Service sent supplies and airline tickets to Cuba.",Private Citizens & Property,Cuban Exiles
 198707310001,Turkey,37.276535,37.013742,5.0,,Private Citizens & Property,Kurds
@@ -1899,11 +1813,7 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198708020013,Tunisia,35.894,10.596,0.0,,Business,Hezbollah
 198708020014,Tunisia,35.783333,10.833333,0.0,,Business,Hezbollah
 198708020015,Tunisia,35.783333,10.833333,0.0,,Business,Hezbollah
-198708020016,Nicaragua,,,0.0,,Military,Nicaraguan Resistance
 198708020017,Nicaragua,12.12018,-84.442863,0.0,,Military,Nicaraguan Resistance
-198708020018,Nicaragua,,,0.0,,Military,Nicaraguan Resistance
-198708020019,Nicaragua,,,0.0,,Military,Nicaraguan Resistance
-198708020020,Nicaragua,,,0.0,,Military,Nicaraguan Resistance
 198708020021,West Bank and Gaza Strip,31.502407,34.459743,1.0,,Military,Force 17
 198708030001,Lebanon,33.888523,35.503513,0.0,,Government (Diplomatic),Hezbollah
 198708030002,Lebanon,33.888523,35.503513,0.0,,Airports & Aircraft,Hezbollah
@@ -1915,11 +1825,8 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198708040001,Ecuador,-0.211188,-78.522629,0.0,,Private Citizens & Property,Unknown
 198708040002,France,42.699997,9.447317,1.0,,Police,Corsican National Liberation Front (FLNC)
 198708040003,Philippines,7.696292,123.41283,7.0,,Military,New People's Army (NPA)
-198708040004,Philippines,,,0.0,,Business,New People's Army (NPA)
-198708040006,Philippines,,,1.0,,Military,New People's Army (NPA)
 198708050001,Chile,-33.366238,-70.505302,0.0,,Business,Manuel Rodriguez Patriotic Front (FPMR)
 198708050002,Chile,-33.366238,-70.505302,0.0,,Business,Manuel Rodriguez Patriotic Front (FPMR)
-198708050003,Colombia,,,4.0,,Military,Revolutionary Armed Forces of Colombia (FARC)
 198708050004,Colombia,6.28281,-75.33184,0.0,,Military,Revolutionary Armed Forces of Colombia (FARC)
 198708050005,Peru,-10.403488,-77.396721,0.0,,Private Citizens & Property,Shining Path (SL)
 198708050006,Philippines,14.800875,120.536954,1.0,,Business,New People's Army (NPA)
@@ -1996,7 +1903,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198708130001,Colombia,2.77772,-75.25743,2.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
 198708130002,Colombia,5.45394,-73.36205,1.0,,Military,Revolutionary Armed Forces of Colombia (FARC)
 198708130003,Egypt,30.084629,31.334314,0.0,,Government (General),Unknown
-198708130004,Colombia,,,1.0,,Government (General),Revolutionary Armed Forces of Colombia (FARC)
 198708130005,Peru,-6.639321,-79.78782,1.0,,Government (General),Shining Path (SL)
 198708130006,South Africa,-26.252697,27.870275,0.0,,Police,African National Congress (South Africa)
 198708140001,Chile,-33.516667,-70.766667,0.0,,Government (General),Manuel Rodriguez Patriotic Front (FPMR)
@@ -2050,7 +1956,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198708190003,India,31.22402,75.770801,2.0,,Private Citizens & Property,Sikh Extremists
 198708190004,India,31.633979,74.872264,1.0,,Police,Sikh Extremists
 198708190005,India,31.633979,74.872264,1.0,,Police,Sikh Extremists
-198708190006,Nicaragua,,,0.0,,Military,Nicaraguan Resistance
 198708190007,Nicaragua,12.8665,-84.928413,0.0,,Military,Nicaraguan Resistance
 198708190008,Nicaragua,13.36497,-85.83496,0.0,,Military,Nicaraguan Resistance
 198708190009,Nicaragua,13.550007,-85.783292,0.0,,Military,Nicaraguan Resistance
@@ -2064,7 +1969,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198708200006,Chile,-33.366238,-70.505302,0.0,,Business,Manuel Rodriguez Patriotic Front (FPMR)
 198708200007,United Kingdom,54.673252,-7.627484,0.0,,Business,Irish Republican Army (IRA)
 198708200008,United Kingdom,54.607712,-5.95621,0.0,,Military,Irish Republican Army (IRA)
-198708200009,Peru,,,3.0,,Transportation,Shining Path (SL)
 198708200010,Peru,-9.825118,-73.087749,6.0,,Police,Shining Path (SL)
 198708200011,Peru,-2.666667,-75.683333,7.0,,Private Citizens & Property,Shining Path (SL)
 198708200012,Peru,-2.666667,-75.683333,0.0,,Private Citizens & Property,Shining Path (SL)
@@ -2134,7 +2038,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198708270003,Colombia,1.61456,-75.6053,0.0,,Police,Unknown
 198708270004,Colombia,1.61456,-75.6053,0.0,,Government (General),Unknown
 198708270005,Japan,35.689125,139.747742,0.0,,Government (General),Chukakuha (Middle Core Faction)
-198708270006,Peru,,,5.0,,Private Citizens & Property,Shining Path (SL)
 198708270007,South Africa,-26.252697,27.870275,2.0,,Government (General),African National Congress (South Africa)
 198708270008,United States,25.857518,-80.278182,0.0,"8/27/1987: Unknown perpetrators bombed the offices of the Va-Cuba in Hialeah, Florida, United States. There were no casualties but the facility sustained slight structural damage. Va-Cuba sent  pharmaceutical supplies to Cuba.",Business,Cuban Exiles
 198708280001,Chile,-33.366238,-70.505302,0.0,,Military,Unknown
@@ -2188,8 +2091,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198709020012,Chile,-33.366238,-70.505302,0.0,,Government (General),Manuel Rodriguez Patriotic Front (FPMR)
 198709020013,Peru,-11.967368,-76.978462,0.0,,Government (General),Shining Path (SL)
 198709020014,Peru,-11.967368,-76.978462,0.0,,Business,Shining Path (SL)
-198709020015,Philippines,,,21.0,,Military,New People's Army (NPA)
-198709020016,Philippines,,,6.0,,Police,New People's Army (NPA)
 198709020017,Peru,-12.068306,-75.210163,1.0,,Journalists & Media,Shining Path (SL)
 198709020018,Peru,-12.068306,-75.210163,1.0,,Journalists & Media,Shining Path (SL)
 198709020019,Sri Lanka,8.457907,81.268402,1.0,,Government (General),Tamils
@@ -2207,13 +2108,11 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198709060001,Peru,-12.948146,-74.020842,0.0,,Utilities,Shining Path (SL)
 198709060002,Peru,-12.948146,-74.020842,0.0,,Utilities,Shining Path (SL)
 198709060003,India,32.040763,75.401886,0.0,,Private Citizens & Property,Sikh Extremists
-198709060004,Peru,,,0.0,,Utilities,Shining Path (SL)
 198709060005,Sri Lanka,7.169049,79.948054,0.0,,Government (General),Tamils
 198709060006,Sri Lanka,8.799167,80.271111,0.0,,Terrorists/Non-State Militia,Liberation Tigers of Tamil Eelam (LTTE)
 198709060007,Colombia,3.429344,-76.516037,1.0,,Journalists & Media,Death Squad
 198709060008,India,31.660681,75.12243,2.0,,Police,Sikh Extremists
 198709060009,United Kingdom,54.607712,-5.95621,0.0,,Government (General),Irish Republican Army (IRA)
-198709060010,Peru,,,1.0,,Private Citizens & Property,Shining Path (SL)
 198709060011,Sri Lanka,8.933333,79.966667,7.0,,Private Citizens & Property,Tamils
 198709060012,Philippines,6.929089,122.07885,19.0,,Police,Unknown
 198709070001,France,48.856644,2.34233,0.0,,Business,Unknown
@@ -2244,7 +2143,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198709090005,South Africa,-29.791166,30.901771,0.0,,Transportation,Unknown
 198709090006,Spain,43.317073,-2.678975,2.0,,Police,Basque Fatherland and Freedom (ETA)
 198709090007,India,32.040763,75.401886,1.0,,Police,Sikh Extremists
-198709090008,Nicaragua,,,9.0,,Private Citizens & Property,Nicaraguan Resistance
 198709090009,United Kingdom,54.607712,-5.95621,1.0,,Private Citizens & Property,Irish Republican Army (IRA)
 198709100001,Chile,-33.366238,-70.505302,0.0,,Transportation,Manuel Rodriguez Patriotic Front (FPMR)
 198709100002,Chile,-33.366238,-70.505302,0.0,,Government (General),Manuel Rodriguez Patriotic Front (FPMR)
@@ -2270,7 +2168,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198709110007,Peru,-11.967368,-76.978462,0.0,,Business,Tupac Amaru Revolutionary Movement (MRTA)
 198709110008,Peru,-11.967368,-76.978462,0.0,,Business,Tupac Amaru Revolutionary Movement (MRTA)
 198709110009,Peru,-11.967368,-76.978462,0.0,,Transportation,Tupac Amaru Revolutionary Movement (MRTA)
-198709110010,Colombia,,,2.0,,Police,Unknown
 198709120001,Chile,-33.366238,-70.505302,1.0,,Police,Manuel Rodriguez Patriotic Front (FPMR)
 198709120002,Nicaragua,12.0129,-85.24166,10.0,,Military,Nicaraguan Resistance
 198709120003,Peru,-12.068306,-75.210163,0.0,,Business,Shining Path (SL)
@@ -2282,7 +2179,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198709130005,Chile,-33.050125,-71.612251,0.0,,Military,Manuel Rodriguez Patriotic Front (FPMR)
 198709130006,Chile,-33.366238,-70.505302,0.0,,Transportation,Manuel Rodriguez Patriotic Front (FPMR)
 198709130007,Colombia,5.53168,-74.10442,6.0,,Private Citizens & Property,Unknown
-198709130008,Nicaragua,,,1.0,,Military,Nicaraguan Resistance
 198709130009,Peru,-14.102594,-72.706655,3.0,,Private Citizens & Property,Shining Path (SL)
 198709130010,Sri Lanka,7.716666,81.700188,33.0,,Violent Political Party,Liberation Tigers of Tamil Eelam (LTTE)
 198709130011,Sri Lanka,7.716666,81.700188,30.0,,Violent Political Party,Liberation Tigers of Tamil Eelam (LTTE)
@@ -2300,15 +2196,12 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198709150008,Peru,-12.068306,-75.210163,0.0,,Business,Shining Path (SL)
 198709150009,Colombia,7.709167,-74.753333,3.0,,Military,National Liberation Army of Colombia (ELN)
 198709150010,El Salvador,13.69288,-89.199161,15.0,,Military,Farabundo Marti National Liberation Front (FMLN)
-198709150011,Lebanon,,,3.0,,Military,Lebanese National Resistance Front
 198709150012,Nicaragua,12.97578,-85.37352,0.0,,Private Citizens & Property,Nicaraguan Resistance
-198709150013,Nicaragua,,,0.0,,Private Citizens & Property,Nicaraguan Resistance
 198709150014,Peru,-10.920784,-76.059497,0.0,,Private Citizens & Property,Shining Path (SL)
 198709150015,Peru,-10.920784,-76.059497,1.0,,Government (General),Shining Path (SL)
 198709150016,Sri Lanka,7.301756,81.67473,1.0,,Government (General),Tamils
 198709150017,Iraq,36.354145,43.14357,0.0,,Business,Kurdistan National Union
 198709150018,South Africa,-24.96434,29.282892,2.0,,Police,African National Congress (South Africa)
-198709150019,South Africa,,,6.0,,Police,African National Congress (South Africa)
 198709160001,Bolivia,-16.509317,-68.10434,0.0,,Business,Unknown
 198709160002,South Africa,-28.867819,31.916368,0.0,,Police,Unknown
 198709160003,El Salvador,13.628881,-88.672032,16.0,,Military,Farabundo Marti National Liberation Front (FMLN)
@@ -2344,27 +2237,21 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198709190004,Peru,-14.280833,-73.976111,6.0,,Private Citizens & Property,Shining Path (SL)
 198709190005,India,31.147131,75.341218,4.0,,Private Citizens & Property,Sikh Extremists
 198709190006,Philippines,14.596051,120.978666,1.0,,Government (General),Unknown
-198709190007,Turkey,,,0.0,,Private Citizens & Property,Kurdish Separatists
 198709200001,Philippines,13.922197,122.595477,0.0,,Transportation,New People's Army (NPA)
-198709200002,Colombia,,,2.0,,Military,Revolutionary Armed Forces of Colombia (FARC)
 198709200003,Nicaragua,12.992778,-86.030278,2.0,,Military,Nicaraguan Resistance
 198709200004,Peru,-12.955214,-74.252729,0.0,,Private Citizens & Property,Shining Path (SL)
 198709200005,Philippines,13.922197,122.595477,0.0,,Transportation,New People's Army (NPA)
 198709200006,Philippines,13.922197,122.595477,6.0,,Police,New People's Army (NPA)
 198709200007,Colombia,7.882318,-76.630626,1.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
 198709200008,United Kingdom,54.607712,-5.95621,1.0,,Private Citizens & Property,Ulster Freedom Fighters (UFF)
-198709210001,Colombia,,,3.0,,Military,Revolutionary Armed Forces of Colombia (FARC)
-198709210003,Peru,,,3.0,,Food or Water Supply,Shining Path (SL)
 198709210004,Turkey,37.561049,42.290622,11.0,,Private Citizens & Property,Unknown
 198709220001,Colombia,4.667128,-74.106056,0.0,,Business,Unknown
 198709220002,Nicaragua,12.0129,-85.24166,0.0,,Private Citizens & Property,Nicaraguan Resistance
 198709220003,Nicaragua,11.701622,-84.330582,10.0,,Military,Nicaraguan Resistance
-198709220004,Nicaragua,,,4.0,,Military,Nicaraguan Resistance
 198709220005,United States,44.943829,-93.093326,0.0,"9/22/1987:  Unknown perpetrators failed in their attempts to ignite two firebombs on the roof of the Planned Parenthood of Minnesota in the Highland Park area of St. Paul, Minnesota, United States. After the failed firebombing, the perpetrators notified authorities of the incendiary devices which were subsequently removed.",Abortion Related,Anti-Abortion extremists
 198709230001,Chile,-33.366238,-70.505302,0.0,,Transportation,Manuel Rodriguez Patriotic Front (FPMR)
 198709230002,Chile,-33.366238,-70.505302,0.0,,Educational Institution,Manuel Rodriguez Patriotic Front (FPMR)
 198709230003,Chile,-33.366238,-70.505302,0.0,,Transportation,Manuel Rodriguez Patriotic Front (FPMR)
-198709230004,Nicaragua,,,1.0,,Government (General),Nicaraguan Resistance
 198709230005,Colombia,6.04278,-74.99493,1.0,,Private Citizens & Property,Death Squad
 198709230006,Colombia,6.04278,-74.99493,1.0,,Private Citizens & Property,Death Squad
 198709230007,Colombia,6.04278,-74.99493,1.0,,Private Citizens & Property,Death Squad
@@ -2418,9 +2305,7 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198709250020,Colombia,4.423445,-69.287753,2.0,,Military,Revolutionary Armed Forces of Colombia (FARC)
 198709250021,Colombia,6.1876,-74.99429,2.0,,Police,Revolutionary Armed Forces of Colombia (FARC)
 198709250022,Honduras,15.50167,-88.02774,2.0,,Police,Lorenzo Zelaya Revolutionary Front (LZRF)
-198709250023,Nicaragua,,,0.0,,Military,Nicaraguan Resistance
 198709250024,Nicaragua,12.931506,-85.223777,3.0,,Military,Nicaraguan Resistance
-198709250025,Nicaragua,,,0.0,,Military,Nicaraguan Resistance
 198709250026,Nicaragua,13.333325,-85.372013,0.0,,Military,Nicaraguan Resistance
 198709250027,Nicaragua,12.069311,-84.539748,0.0,,Military,Nicaraguan Resistance
 198709250028,Nicaragua,13.253834,-85.73421,0.0,,Military,Nicaraguan Resistance
@@ -2467,10 +2352,8 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198710020002,Peru,-11.967368,-76.978462,2.0,,Journalists & Media,Unknown
 198710020003,Peru,-11.967368,-76.978462,2.0,,Private Citizens & Property,Tupac Amaru Revolutionary Movement (MRTA)
 198710020004,India,31.84,74.76,4.0,,Police,Sikh Extremists
-198710020005,Nicaragua,,,0.0,,Telecommunication,Nicaraguan Resistance
 198710020006,Peru,-11.967368,-76.978462,2.0,,Government (General),Shining Path (SL)
 198710020007,Philippines,15.149722,120.769828,4.0,,Military,New People's Army (NPA)
-198710020008,Philippines,,,7.0,,Police,New People's Army (NPA)
 198710020009,Peru,-11.967368,-76.978462,2.0,,Government (General),Shining Path (SL)
 198710020010,United Kingdom,51.504387,-0.140041,2.0,,Private Citizens & Property,Guardians of the Islamic Revolution
 198710020011,Iraq,34.92485,43.491413,0.0,,Business,Kurdistan National Union
@@ -2507,7 +2390,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198710070004,Chile,-33.366238,-70.505302,0.0,,Private Citizens & Property,Manuel Rodriguez Patriotic Front (FPMR)
 198710070005,Peru,-11.918478,-75.312889,1.0,,Police,Shining Path (SL)
 198710070006,Sri Lanka,7.716666,81.700188,14.0,,Military,Liberation Tigers of Tamil Eelam (LTTE)
-198710070007,Sri Lanka,,,2.0,,Private Citizens & Property,Tamils
 198710070008,Belgium,50.836426,4.367415,1.0,,Government (Diplomatic),Syrian Mujahideen
 198710070009,India,31.147131,75.341218,1.0,,Private Citizens & Property,Sikh Extremists
 198710070010,India,31.147131,75.341218,1.0,,Private Citizens & Property,Sikh Extremists
@@ -2558,7 +2440,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198710140003,South Africa,-28.752252,31.893167,0.0,,Government (General),Unknown
 198710140004,South Africa,-28.752252,31.893167,0.0,,Government (General),Unknown
 198710140005,India,13.00807,77.570329,13.0,,Private Citizens & Property,Tripura National Volunteers (TNV)
-198710140006,India,,,2.0,,Private Citizens & Property,Tripura National Volunteers (TNV)
 198710140007,Nicaragua,12.0483,-84.99362,0.0,,Military,Nicaraguan Resistance
 198710140008,Nicaragua,12.069311,-84.539748,0.0,,Military,Nicaraguan Resistance
 198710140009,Nicaragua,12.0483,-84.61886,20.0,,Military,Nicaraguan Resistance
@@ -2575,13 +2456,11 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198710150004,Nicaragua,11.999035,-84.779857,0.0,,Military,Nicaraguan Resistance
 198710150005,Sri Lanka,7.641944,80.083056,9.0,,Private Citizens & Property,Liberation Tigers of Tamil Eelam (LTTE)
 198710150006,Colombia,6.2675,-75.568611,1.0,,Government (General),Death Squad
-198710150007,India,,,2.0,,Government (General),Sikh Extremists
 198710150008,India,31.225925,75.350692,2.0,,Private Citizens & Property,Sikh Extremists
 198710150009,Peru,-11.967368,-76.978462,0.0,,Government (General),Shining Path (SL)
 198710150010,Peru,-15.482268,-70.138855,3.0,,Government (General),Shining Path (SL)
 198710160001,Fiji,-18.1416,178.4419,0.0,,Business,Unknown
 198710160002,Nicaragua,12.030665,-85.262102,0.0,,Military,Nicaraguan Resistance
-198710160003,Sri Lanka,,,11.0,,Transportation,Tamils
 198710160004,Peru,-11.967368,-76.978462,0.0,,Police,Unknown
 198710170001,Spain,42.815372,-1.653616,0.0,,Business,Basque Fatherland and Freedom (ETA)
 198710170002,Colombia,4.667128,-74.106056,0.0,,Police,Popular Liberation Army (EPL)
@@ -2631,7 +2510,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198710220009,Angola,-12.765538,15.732861,0.0,,Military,National Union for the Total Independence of Angola (UNITA)
 198710220010,Colombia,5.65712,-74.18078,11.0,,Transportation,Unknown
 198710220011,Colombia,7.86881,-75.85315,15.0,,Military,Popular Liberation Army (EPL)
-198710220012,Nicaragua,,,6.0,,Military,Nicaraguan Resistance
 198710230001,Argentina,-31.74126,-60.511264,1.0,,Private Citizens & Property,Unknown
 198710230002,Colombia,5.45394,-73.36205,5.0,,Transportation,Unknown
 198710230003,Pakistan,34.006004,71.53743,4.0,,Private Citizens & Property,Unknown
@@ -2652,7 +2530,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198710250006,Sri Lanka,7.29384,80.640669,0.0,,Government (General),People's Liberation Front (JVP)
 198710250007,Guatemala,15.23959,-91.84293,0.0,,Private Citizens & Property,Revolutionary Organization of People in Arms (ORPA)
 198710250008,Guatemala,14.533333,-91.316667,1.0,,Military,Revolutionary Organization of People in Arms (ORPA)
-198710250009,India,,,1.0,,Private Citizens & Property,Sikh Extremists
 198710250010,India,31.326015,75.576183,2.0,,Government (General),Sikh Extremists
 198710250011,Peru,-12.068306,-75.210163,2.0,,Police,Shining Path (SL)
 198710250012,Peru,-13.152712,-74.218628,1.0,,Police,Shining Path (SL)
@@ -2665,16 +2542,13 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198710260007,Peru,-13.152712,-74.218628,0.0,,Police,Shining Path (SL)
 198710260008,Peru,-12.068306,-75.210163,1.0,,Police,Shining Path (SL)
 198710260009,Peru,-12.068306,-75.210163,1.0,,Police,Shining Path (SL)
-198710270001,Philippines,,,0.0,,Transportation,New People's Army (NPA)
 198710280001,Myanmar,16.887781,96.149559,0.0,,Business,Unknown
 198710280002,Peru,-13.152712,-74.218628,6.0,,Military,Shining Path (SL)
-198710280003,Peru,,,0.0,,Military,Shining Path (SL)
 198710280004,Sri Lanka,6.714108,79.905627,1.0,,Police,People's Liberation Front (JVP)
 198710280005,Philippines,15.153002,120.591942,1.0,,Military,New People's Army (NPA)
 198710280006,Philippines,15.153002,120.591942,2.0,,Military,New People's Army (NPA)
 198710280007,Philippines,15.153002,120.591942,1.0,,Military,New People's Army (NPA)
 198710280008,United Kingdom,55.011562,-7.312045,2.0,,Terrorists/Non-State Militia,Irish Republican Army (IRA)
-198710280009,South Africa,,,1.0,,Police,African National Congress (South Africa)
 198710290001,France,41.930607,8.742907,0.0,,Government (General),Corsican National Liberation Front (FLNC)
 198710290002,France,42.6042,8.929852,0.0,,Private Citizens & Property,Corsican National Liberation Front (FLNC)
 198710290003,France,42.6042,8.929852,0.0,,Private Citizens & Property,Corsican National Liberation Front (FLNC)
@@ -2688,7 +2562,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198710290011,Colombia,1.61456,-75.6053,1.0,,Government (General),Death Squad
 198710290012,Lebanon,33.888523,35.503513,3.0,,Military,Unknown
 198710290013,Lebanon,33.888523,35.503513,2.0,,Military,Tanyus Shanin Armed Unit
-198710290014,Philippines,,,3.0,,Military,New People's Army (NPA)
 198710290015,Philippines,14.596051,120.978666,1.0,,Police,New People's Army (NPA)
 198710300001,Bangladesh,22.372936,90.337372,20.0,,Government (General),Unknown
 198710300002,Bolivia,-16.509317,-68.10434,0.0,,Government (General),Unknown
@@ -2700,8 +2573,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198710300008,Colombia,6.547306,-71.002231,10.0,,Police,National Liberation Army of Colombia (ELN)
 198710300009,Colombia,1.03405,-75.91928,2.0,,Military,Revolutionary Armed Forces of Colombia (FARC)
 198710300010,Colombia,6.242026,-75.564766,0.0,,Business,National Liberation Army of Colombia (ELN)
-198710300011,Nicaragua,,,0.0,,Military,Nicaraguan Resistance
-198710300012,Nicaragua,,,0.0,,Military,Nicaraguan Resistance
 198710300013,Nicaragua,14.36548,-85.19564,0.0,,Military,Nicaraguan Resistance
 198710300014,Colombia,3.123889,-73.751389,1.0,,Government (General),Death Squad
 198710300015,Panama,8.994269,-79.518792,1.0,,Government (General),Unknown
@@ -2759,7 +2630,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198711040014,Haiti,18.527716,-72.33284,0.0,,Government (General),Unknown
 198711040015,Haiti,18.527716,-72.33284,1.0,,Government (General),Unknown
 198711040017,Nicaragua,13.2457,-85.96667,0.0,,Private Citizens & Property,Nicaraguan Resistance
-198711040018,Philippines,,,0.0,,Business,New People's Army (NPA)
 198711040019,Colombia,8.402925,-75.899867,1.0,,Government (General),Death Squad
 198711040020,Colombia,8.402925,-75.899867,1.0,,Government (General),Death Squad
 198711040021,Sri Lanka,8.457907,81.268402,1.0,,Private Citizens & Property,Tamils
@@ -2786,20 +2656,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198711070001,United Kingdom,54.345417,-7.636355,11.0,,Government (General),Irish Republican Army (IRA)
 198711070002,Colombia,6.011997,-75.687716,1.0,,Government (General),Death Squad
 198711070003,Colombia,6.242026,-75.564766,1.0,,Government (General),Death Squad
-198711070004,El Salvador,,,0.0,,Utilities,Unknown
-198711070005,El Salvador,,,0.0,,Utilities,Unknown
-198711070006,El Salvador,,,0.0,,Utilities,Unknown
-198711070007,El Salvador,,,0.0,,Utilities,Unknown
-198711070008,El Salvador,,,0.0,,Utilities,Unknown
-198711070009,El Salvador,,,0.0,,Utilities,Unknown
-198711070010,El Salvador,,,0.0,,Utilities,Unknown
-198711070011,El Salvador,,,0.0,,Utilities,Unknown
-198711070012,El Salvador,,,0.0,,Utilities,Unknown
-198711070013,El Salvador,,,0.0,,Utilities,Unknown
-198711070014,El Salvador,,,0.0,,Utilities,Unknown
-198711070015,El Salvador,,,0.0,,Utilities,Unknown
-198711070016,El Salvador,,,0.0,,Utilities,Unknown
-198711070017,El Salvador,,,0.0,,Utilities,Unknown
 198711070018,United States,35.1982,-111.651304,0.0,"11/07/1987: Members of the Evan Mecham Eco-Terrorist International Conspiracy (EMETIC), claimed responsibility for damaging the pylons and cables which supported the main ski chairlift at the Fairfield Snow Bowl Ski Resort in Flagstaff, Arizona in the United States,   There were no casualties, but the property damage was estimated at $26,000 and an additional $30,000 to heighten security at the resort. In a letter to the ski resort, the group stated that ""if trees were not allowed to grow back"" and ""ski operations not discontinued,"" then more damage would occur. Marc Leslie Davis, Margaret Katherine Millet, Ilse Washington Asplund, and Marc Andre Baker were arrested and in 1991, pled guilty and sentenced for their involvement in this incident.",Business,Evan Mecham Eco-Terrorist International Conspiracy (EMETIC)
 198711080001,West Bank and Gaza Strip,31.502407,34.459743,0.0,,Maritime,Abu Nidal Organization (ANO)
 198711080002,Nicaragua,12.105436,-86.584388,2.0,,Private Citizens & Property,Nicaraguan Resistance
@@ -2860,7 +2716,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198711150009,Nicaragua,13.09171,-86.00177,0.0,,Military,Nicaraguan Resistance
 198711150010,Nicaragua,13.09171,-86.00177,0.0,,Utilities,Nicaraguan Resistance
 198711150011,Sri Lanka,6.941837,79.861687,0.0,,Government (General),Unknown
-198711150012,India,,,3.0,,Private Citizens & Property,Tripura National Volunteers (TNV)
 198711160001,Chile,-33.366238,-70.505302,,,Utilities,Manuel Rodriguez Patriotic Front (FPMR)
 198711160002,Argentina,-31.399301,-64.182129,,,Military,Unknown
 198711160003,El Salvador,13.33,-88.15139,9.0,,Military,Farabundo Marti National Liberation Front (FMLN)
@@ -2911,37 +2766,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198711190001,Chile,-33.366238,-70.505302,0.0,,Utilities,Manuel Rodriguez Patriotic Front (FPMR)
 198711190002,Chile,-33.366238,-70.505302,0.0,,Utilities,Manuel Rodriguez Patriotic Front (FPMR)
 198711190003,Chile,-38.232213,-72.351653,0.0,,Utilities,Manuel Rodriguez Patriotic Front (FPMR)
-198711190004,El Salvador,,,0.0,,Utilities,Farabundo Marti National Liberation Front (FMLN)
-198711190005,El Salvador,,,0.0,,Utilities,Farabundo Marti National Liberation Front (FMLN)
-198711190006,El Salvador,,,0.0,,Utilities,Farabundo Marti National Liberation Front (FMLN)
-198711190007,El Salvador,,,0.0,,Utilities,Farabundo Marti National Liberation Front (FMLN)
-198711190008,El Salvador,,,0.0,,Utilities,Farabundo Marti National Liberation Front (FMLN)
-198711190009,El Salvador,,,0.0,,Utilities,Farabundo Marti National Liberation Front (FMLN)
-198711190010,El Salvador,,,0.0,,Utilities,Farabundo Marti National Liberation Front (FMLN)
-198711190011,El Salvador,,,0.0,,Utilities,Farabundo Marti National Liberation Front (FMLN)
-198711190012,El Salvador,,,0.0,,Utilities,Farabundo Marti National Liberation Front (FMLN)
-198711190013,El Salvador,,,0.0,,Utilities,Farabundo Marti National Liberation Front (FMLN)
-198711190014,El Salvador,,,0.0,,Utilities,Farabundo Marti National Liberation Front (FMLN)
-198711190015,El Salvador,,,0.0,,Utilities,Farabundo Marti National Liberation Front (FMLN)
-198711190016,El Salvador,,,0.0,,Utilities,Farabundo Marti National Liberation Front (FMLN)
-198711190017,El Salvador,,,0.0,,Utilities,Farabundo Marti National Liberation Front (FMLN)
-198711190018,El Salvador,,,0.0,,Utilities,Farabundo Marti National Liberation Front (FMLN)
-198711190019,El Salvador,,,0.0,,Utilities,Farabundo Marti National Liberation Front (FMLN)
-198711190020,El Salvador,,,0.0,,Utilities,Farabundo Marti National Liberation Front (FMLN)
-198711190021,El Salvador,,,0.0,,Utilities,Farabundo Marti National Liberation Front (FMLN)
-198711190022,El Salvador,,,0.0,,Utilities,Farabundo Marti National Liberation Front (FMLN)
-198711190023,El Salvador,,,0.0,,Utilities,Farabundo Marti National Liberation Front (FMLN)
-198711190024,El Salvador,,,0.0,,Utilities,Farabundo Marti National Liberation Front (FMLN)
-198711190025,El Salvador,,,0.0,,Utilities,Farabundo Marti National Liberation Front (FMLN)
-198711190026,El Salvador,,,0.0,,Utilities,Farabundo Marti National Liberation Front (FMLN)
-198711190027,El Salvador,,,0.0,,Utilities,Farabundo Marti National Liberation Front (FMLN)
-198711190028,El Salvador,,,0.0,,Utilities,Farabundo Marti National Liberation Front (FMLN)
-198711190029,El Salvador,,,0.0,,Utilities,Farabundo Marti National Liberation Front (FMLN)
-198711190030,El Salvador,,,0.0,,Utilities,Farabundo Marti National Liberation Front (FMLN)
-198711190031,El Salvador,,,0.0,,Utilities,Farabundo Marti National Liberation Front (FMLN)
-198711190032,El Salvador,,,0.0,,Utilities,Farabundo Marti National Liberation Front (FMLN)
-198711190033,El Salvador,,,0.0,,Utilities,Farabundo Marti National Liberation Front (FMLN)
-198711190034,El Salvador,,,0.0,,Utilities,Farabundo Marti National Liberation Front (FMLN)
 198711190035,Sri Lanka,6.906079,79.969628,2.0,,Business,Unknown
 198711190036,Peru,-9.538854,-77.582718,9.0,,Private Citizens & Property,Shining Path (SL)
 198711190037,Colombia,7.027345,-71.428555,1.0,,Government (General),National Liberation Army of Colombia (ELN)
@@ -2950,12 +2774,9 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198711200002,Peru,-12.068306,-75.210163,0.0,,Private Citizens & Property,Tupac Amaru Revolutionary Movement (MRTA)
 198711200003,El Salvador,13.7682,-88.129139,2.0,,Military,Farabundo Marti National Liberation Front (FMLN)
 198711200004,El Salvador,13.7682,-88.129139,3.0,,Military,Farabundo Marti National Liberation Front (FMLN)
-198711200005,Nicaragua,,,0.0,,Military,Nicaraguan Resistance
-198711200006,Nicaragua,,,9.0,,Private Citizens & Property,Nicaraguan Resistance
 198711200007,Nicaragua,12.4,-86.91667,8.0,,Private Citizens & Property,Nicaraguan Resistance
 198711200008,Peru,-12.068306,-75.210163,1.0,,Business,Tupac Amaru Revolutionary Movement (MRTA)
 198711200009,Peru,-12.068306,-75.210163,0.0,,Journalists & Media,Tupac Amaru Revolutionary Movement (MRTA)
-198711200010,Philippines,,,0.0,,Business,New People's Army (NPA)
 198711200011,Sri Lanka,7.733107,81.68882,0.0,,Police,Tamils
 198711210001,Peru,-15.173056,-72.830833,0.0,,Private Citizens & Property,Shining Path (SL)
 198711210002,South Africa,-26.252697,27.870275,0.0,,Government (General),Unknown
@@ -3027,7 +2848,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198712020002,Ecuador,-0.211188,-78.522629,0.0,,Government (Diplomatic),Ecuadorian Communist Youth
 198712020003,Nicaragua,13.125189,-85.238357,0.0,,Military,Nicaraguan Resistance
 198712030001,Turkey,37.189394,40.58967,1.0,,Military,Unknown
-198712030002,Peru,,,1.0,,Religious Figures/Institutions,Shining Path (SL)
 198712040001,Nicaragua,11.67915,-86.146136,0.0,,Utilities,Nicaraguan Resistance
 198712040002,Nicaragua,11.67915,-86.146136,0.0,,Utilities,Nicaraguan Resistance
 198712040003,Nicaragua,11.67915,-86.146136,0.0,,Utilities,Nicaraguan Resistance
@@ -3040,7 +2860,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198712060002,Nicaragua,12.21635,-85.16595,0.0,,Transportation,Nicaraguan Resistance
 198712070001,Argentina,-34.61768,-58.444435,0.0,,Private Citizens & Property,Unknown
 198712070002,Argentina,-34.61768,-58.444435,0.0,,Government (General),Unknown
-198712070003,Nicaragua,,,0.0,,Business,Nicaraguan Resistance
 198712070004,Sri Lanka,8.834273,80.051047,2.0,,Terrorists/Non-State Militia,Liberation Tigers of Tamil Eelam (LTTE)
 198712070005,India,30.954424,74.612085,4.0,,Private Citizens & Property,Unknown
 198712070006,Colombia,2.47973,-72.95746,0.0,,Military,Revolutionary Armed Forces of Colombia (FARC)
@@ -3049,7 +2868,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198712080003,Philippines,14.596051,120.978666,0.0,,Airports & Aircraft,New People's Army (NPA)
 198712080004,Peru,-13.71009,-76.203116,1.0,,Government (General),Shining Path (SL)
 198712080005,Ireland,54.117879,-6.733377,1.0,,Private Citizens & Property,Irish National Liberation Army (INLA)
-198712090001,South Africa,,,0.0,,Police,African National Congress (South Africa)
 198712090002,Bangladesh,23.791275,90.418205,0.0,,Government (General),Unknown
 198712100001,Greece,37.99749,23.762728,0.0,,Business,Anti-Authority Group (Greece)
 198712100002,Philippines,14.596051,120.978666,0.0,,Government (General),New People's Army (NPA)
@@ -3059,8 +2877,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198712100006,Nicaragua,13.51457,-85.24557,0.0,,Utilities,Nicaraguan Resistance
 198712100007,Nicaragua,13.009165,-85.123572,0.0,,Military,Nicaraguan Resistance
 198712100008,Nicaragua,13.52628,-84.89873,0.0,,Military,Nicaraguan Resistance
-198712100009,Nicaragua,,,0.0,,Military,Nicaraguan Resistance
-198712100010,Nicaragua,,,0.0,,Military,Nicaraguan Resistance
 198712100011,Nicaragua,12.83543,-85.462486,0.0,,Utilities,Nicaraguan Resistance
 198712100012,Nicaragua,12.58767,-86.5054,1.0,,Government (General),Nicaraguan Resistance
 198712100013,Peru,-7.538333,-77.565278,24.0,,Private Citizens & Property,Shining Path (SL)
@@ -3114,15 +2930,12 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198712170004,Lebanon,33.888523,35.503513,2.0,,Educational Institution,Unknown
 198712170005,El Salvador,13.69288,-89.199161,3.0,,Police,Farabundo Marti National Liberation Front (FMLN)
 198712170006,Colombia,6.242026,-75.564766,0.0,,Government (General),Death Squad
-198712170007,Philippines,,,1.0,,Government (General),New People's Army (NPA)
 198712180001,Colombia,10.44678,-74.95989,0.0,,Police,Popular Liberation Army (EPL)
 198712180002,Colombia,1.47888,-75.43724,5.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
-198712180003,India,,,6.0,,Private Citizens & Property,Tripura National Volunteers (TNV)
 198712180004,Namibia,-17.445833,15.822715,1.0,,Private Citizens & Property,Unknown
 198712180005,Nicaragua,14.041927,-84.561538,0.0,,Private Citizens & Property,Nicaraguan Resistance
 198712180006,Nicaragua,13.927562,-84.404596,0.0,,Government (General),Nicaraguan Resistance
 198712180007,Nicaragua,12.163411,-84.216936,5.0,,Business,Nicaraguan Resistance
-198712180008,Philippines,,,0.0,,Police,New People's Army (NPA)
 198712180009,South Africa,-33.941849,18.41964,0.0,,Police,African National Congress (South Africa)
 198712180010,Colombia,6.242026,-75.564766,1.0,,Educational Institution,Death Squad
 198712190001,Nicaragua,13.73321,-84.77725,0.0,,Private Citizens & Property,Nicaraguan Resistance
@@ -3146,17 +2959,13 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198712230009,Lebanon,33.888523,35.503513,2.0,,Military,Unknown
 198712230010,Sri Lanka,6.941837,79.861687,3.0,,Government (General),People's Liberation Front (JVP)
 198712240001,Argentina,-31.399301,-64.182129,0.0,,Private Citizens & Property,Unknown
-198712250001,Colombia,,,4.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
 198712250002,Colombia,4.62082,-75.63422,0.0,,Private Citizens & Property,National Liberation Army of Colombia (ELN)
 198712250003,Colombia,6.792231,-71.775544,0.0,,Police,National Liberation Army of Colombia (ELN)
 198712250004,El Salvador,13.27417,-88.05611,0.0,,Telecommunication,Farabundo Marti National Liberation Front (FMLN)
-198712250005,Philippines,,,4.0,,Business,New People's Army (NPA)
-198712250006,Philippines,,,0.0,,Government (General),New People's Army (NPA)
 198712260001,Pakistan,33.671638,73.056068,0.0,,Business,Unknown
 198712260002,Pakistan,33.671638,73.056068,1.0,,Business,Unknown
 198712260003,El Salvador,13.933732,-89.025836,0.0,,Private Citizens & Property,Farabundo Marti National Liberation Front (FMLN)
 198712260004,Guatemala,15.987447,-90.784191,0.0,,Military,Unknown
-198712260005,Nicaragua,,,3.0,,Military,Nicaraguan Resistance
 198712260006,Nicaragua,11.37233,-84.23884,3.0,,Military,Nicaraguan Resistance
 198712260007,Philippines,13.291837,123.491577,5.0,,Military,New People's Army (NPA)
 198712270001,Colombia,7.377136,-73.914562,0.0,,Transportation,Simon Bolivar Guerrilla Coordinating Board (CGSB)
@@ -3170,10 +2979,8 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198712280004,El Salvador,13.876111,-89.359722,0.0,,Military,Farabundo Marti National Liberation Front (FMLN)
 198712280005,El Salvador,13.703735,-88.804566,4.0,,Military,Farabundo Marti National Liberation Front (FMLN)
 198712290001,West Bank and Gaza Strip,31.529287,35.115455,0.0,,Private Citizens & Property,Palestinians
-198712300001,Nicaragua,,,5.0,,Military,Nicaraguan Resistance
 198712300002,Sri Lanka,6.583059,80.573258,0.0,,Police,Unknown
 198712300003,Israel,32.08297,34.811886,0.0,,Private Citizens & Property,Unknown
-198712300004,Philippines,,,1.0,,Police,New People's Army (NPA)
 198712300005,Sri Lanka,7.679855,81.672561,1.0,,Private Citizens & Property,Unknown
 198712310001,Sri Lanka,7.29384,80.640669,4.0,,Business,Liberation Tigers of Tamil Eelam (LTTE)
 198712310002,India,24.898333,79.251389,4.0,,Private Citizens & Property,Sikh Extremists
@@ -3181,4 +2988,3 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198712310004,Sri Lanka,8.155665,80.7093,10.0,,Government (General),Liberation Tigers of Tamil Eelam (LTTE)
 198712310005,India,31.147131,75.341218,9.0,,Police,Khalistan Liberation Force
 198712310006,Philippines,8.096466,123.487682,1.0,,Government (General),New People's Army (NPA)
-198712310007,Philippines,,,1.0,,Government (General),New People's Army (NPA)

@@ -16,7 +16,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197101120001,United States,33.78359,-118.353879,0.0,"1/12/1971: Unknown perpetrators threw a Molotov cocktail through the front window of the Palos Verdes Peninsula Chamber of Commerce office in Rolling Hills Estates, California, United States. There were no casualties but damage to the chamber of commerce and two businesses housed in the same facility amounted to an estimated $12,000.",Government (General),Left-Wing Militants
 197101130001,United States,37.755363,-122.443352,1.0,,Police,Black Liberation Army
 197101130002,West Germany (FRG),48.139126,11.580186,,,Police,Unknown
-197101150001,Zambia,,,1.0,,Government (General),Revolutionary Committee of Mozambique (COREMO)
 197101150004,United States,40.697132,-73.931351,0.0,"1/15/1971: In a series of related incidents, an unknown perpetrator bombed a Marine Recruiting Station located in the National Bronx Bank Building in the Bronx, New York, United States. Two people were injured and the bomb caused minor damage.",Military,Left-Wing Militants
 197101150005,United States,40.697132,-73.931351,0.0,"1/15/1971: In a series of related incidents, unknown perpetrators bombed an Air Force Recruiting Station in Manhattan, New York, United States. There were no casualties and the bomb caused minor damage.",Military,Left-Wing Militants
 197101160001,West Germany (FRG),48.139126,11.580186,,,Government (Diplomatic),Unknown
@@ -24,7 +23,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197101190001,United States,37.755363,-122.443352,0.0,"1/19/1971: Unknown perpetrators bombed a Housing Authority Police Station in San Francisco, California, United States. There were no casualties but about thirty windows were shattered and power and communication lines were knocked out.",Police,Black Nationalists
 197101190002,United States,37.755363,-122.443352,0.0,"1/19/1971: Unknown perpetrators placed a time bomb adjacent to military recruiting offices housed in the old federal building at the San Francisco Civic Center in California, United States. The bomb was discovered and defused.",Government (General),Left-Wing Militants
 197101190003,United States,41.479561,-81.675461,0.0,"1/19/1971: Unknown perpetrators firebombed the home of James Ford in Cleveland, Ohio, United States. There were no casualties but Ford's home sustained $15,000 in damages. Ford was an administrator at the Cuyahoga Metropolitan Housing Authority. At the time, dissident employees of the organization were on strike.",Private Citizens & Property,Strikers
-197101210001,Guatemala,,,,,Educational Institution,Unknown
 197101220001,Turkey,39.930771,32.76754,0.0,,Government (Diplomatic),Turkish People's Liberation Army
 197101220002,Turkey,39.930771,32.76754,0.0,,Military,Unknown
 197101220003,Ethiopia,11.583513,37.397019,0.0,,Airports & Aircraft,Eritrean Liberation Front
@@ -87,7 +85,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197102270001,United States,37.874043,-122.280022,0.0,,Business,Unknown
 197102270002,United States,18.386932,-66.061127,0.0,"2/27/1971: Unknown perpetrators placed a bomb in a Selective Service office in Rio Piedras, Puerto Rico. It is unknown if the bomb detonated.",Government (General),Puerto Rican Nationalists
 197103000001,Philippines,15.153002,120.591942,,,Business,Unknown
-197103000002,Philippines,,,0.0,,Military,New People's Army (NPA)
 197103010001,Venezuela,10.482834,-66.962128,0.0,,Business,Armed Forces of National Liberation- Venezuela (FALN)
 197103010002,United States,34.097866,-118.407379,0.0,,Business,Chicano Liberation Front
 197103010003,United States,38.908642,-77.015381,0.0,,Government (General),"Weather Underground, Weathermen"
@@ -140,7 +137,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197104000002,Iran,32.65246,51.67462,,,Military,Unknown
 197104000003,Iran,35.724533,51.40519,,,Police,Unknown
 197104010001,United States,34.097866,-118.407379,,,Government (General),Unknown
-197104020001,Jordan,,,0.0,,Utilities,Popular Front for the Liberation of Palestine (PFLP)
 197104020002,Spain,40.465595,-3.696263,0.0,,Journalists & Media,Catalan Liberation Front (FAC)
 197104020003,United States,33.953349,-117.396156,2.0,"4/2/1971: Police Officers Leonard A. Christiansen and Paul C. Teel were ambushed while on duty in Riverside, California, United States. The officers, responding to a fake burglary call, were shot and killed as they got out of their car. Police believed that the attack was carried out by three Black militants.",Police,Black Nationalists
 197104030001,Spain,41.400635,2.150913,0.0,,Educational Institution,Catalan Liberation Front (FAC)
@@ -225,7 +221,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197105110003,United States,34.097866,-118.407379,0.0,"5/11/1971: In a series of two incidents that might have been part of a multiple attack, suspected members of the Chicano Liberation Front firebombed the Bank of America Woodland Hills branch in Los Angeles, California, United States. The bomb smashed through a window but did not cause any damage to the interior of the building.",Business,Chicano Liberation Front
 197105110004,United States,34.250636,-118.61481,0.0,"5/11/1971: In a series of two incidents that might have been part of a multiple attack, unknown perpetrators firebombed the Bank of America Chatworth branch in Los Angeles, California, United States. There were no casualties but the rear door of the building was damaged.",Business,Left-Wing Militants
 197105110005,United States,39.308342,-76.616104,0.0,"5/11/1971: Unknown perpetrators firebombed Army Reserve Jeeps stationed at the Sheridan Armory in Baltimore, Maryland, United States. There were no casualties but three Jeeps sustained a total of $1,500 in damages. Nine other unexploded incendiary devices were discovered at the scene.",Military,Left-Wing Militants
-197105120001,Bolivia,,,,,Business,Unknown
 197105120002,United States,26.714388,-80.052689,0.0,"5/12/1971: Unknown perpetrators bombed the car of Lloyd Early, the Superintendent of Palm Beach County. The car was stationed in the parking lot of North Shore Junior-Senior High School in West Palm Beach, Florida, United States. The vehicle sustained minor damages. The Palm Beach County school district was the scene of intense racial conflict.",Private Citizens & Property,Black Nationalists
 197105130001,United States,41.842602,-87.681229,0.0,,Police,Black Panthers
 197105130002,Iran,35.724533,51.40519,,,Business,Unknown
@@ -252,7 +247,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197106030001,United States,34.097866,-118.407379,0.0,,Business,Unknown
 197106040001,Spain,38.951603,-0.138765,,,Telecommunication,Catalan Liberation Front (FAC)
 197106050002,United States,40.697132,-73.931351,1.0,,Business,Black Liberation Army
-197106060001,Spain,,,0.0,,Utilities,Catalan Liberation Front (FAC)
 197106060002,United States,37.454697,-122.177909,0.0,,Business,Unknown
 197106100001,United States,38.232471,-122.644448,0.0,,Business,Unknown
 197106110001,South Yemen,12.825647,44.846416,0.0,,Maritime,Popular Front for the Liberation of Palestine (PFLP)
@@ -354,14 +348,12 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197109040001,United Kingdom,54.183052,-6.341388,1.0,,Military,Official Irish Republican Army (OIRA)
 197109070001,United States,37.755363,-122.443352,0.0,"9/7/1971: In a series of nine related incidents, Ronald Kaufman placed a time bomb in a security deposit box at a Bank of America branch in San Francisco, California, United States in July 1971. The bomb, set to explode nine months later, prematurely detonated on September 7, 1971. There were no casualties and the bank sustained minor damage. Ronald Kaufman hoped to use this incident to show the government that he should be considered a serious threat. He warned that he would plan bombings in the future to leverage the federal government into releasing political prisoners.",Business,Left-Wing Militants
 197109080001,Lebanon,33.888523,35.503513,,,Airports & Aircraft,Unknown
-197109090001,Jordan,,,0.0,,Business,Black September
 197109090002,United Kingdom,54.552254,-6.086832,1.0,,Military,Irish Republican Army (IRA)
 197109130001,United Kingdom,54.607712,-5.95621,1.0,,Private Citizens & Property,Protestant extremists
 197109130002,United Kingdom,54.607712,-5.95621,1.0,,Private Citizens & Property,Protestant extremists
 197109140001,United Kingdom,55.011562,-7.312045,1.0,,Military,Official Irish Republican Army (OIRA)
 197109140002,United Kingdom,54.531707,-6.737144,1.0,,Military,Irish Republican Army (IRA)
 197109140003,United Kingdom,54.607712,-5.95621,1.0,,Military,Irish Republican Army (IRA)
-197109150001,Jordan,,,0.0,,Business,Black September
 197109160001,Israel,31.771599,35.2034,1.0,,Tourists,Unknown
 197109160002,United Kingdom,54.607712,-5.95621,1.0,,Private Citizens & Property,Protestant extremists
 197109160003,United Kingdom,54.607712,-5.95621,1.0,,Military,Irish Republican Army (IRA)

@@ -7,31 +7,9 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198401010005,United Kingdom,54.645861,-6.745149,0.0,,Business,Irish Republican Army (IRA)
 198401010006,United Kingdom,54.489224,-6.920883,,,Business,Irish Republican Army (IRA)
 198401010007,United Kingdom,54.645861,-6.745149,0.0,,Business,Irish Republican Army (IRA)
-198401010008,Lebanon,,,0.0,,Military,Palestinians
 198401010009,Lebanon,33.377007,35.483707,0.0,,Military,Palestinians
 198401010010,Lebanon,33.550434,35.370964,0.0,,Military,Palestine Liberation Organization (PLO)
 198401010011,Lebanon,33.541351,35.586215,0.0,,Military,Palestine Liberation Organization (PLO)
-198401010012,Peru,,,0.0,,Utilities,Shining Path (SL)
-198401010013,Peru,,,0.0,,Utilities,Shining Path (SL)
-198401010014,Peru,,,0.0,,Utilities,Shining Path (SL)
-198401010015,Peru,,,0.0,,Utilities,Shining Path (SL)
-198401010016,Peru,,,0.0,,Utilities,Shining Path (SL)
-198401010017,Peru,,,0.0,,Utilities,Shining Path (SL)
-198401010018,Peru,,,0.0,,Utilities,Shining Path (SL)
-198401010019,Peru,,,0.0,,Utilities,Shining Path (SL)
-198401010020,Peru,,,0.0,,Utilities,Shining Path (SL)
-198401010021,Peru,,,0.0,,Utilities,Shining Path (SL)
-198401010022,Peru,,,0.0,,Utilities,Shining Path (SL)
-198401010023,Peru,,,0.0,,Utilities,Shining Path (SL)
-198401010024,Peru,,,0.0,,Utilities,Shining Path (SL)
-198401010025,Peru,,,0.0,,Utilities,Shining Path (SL)
-198401010026,Peru,,,0.0,,Utilities,Shining Path (SL)
-198401010027,Peru,,,0.0,,Utilities,Shining Path (SL)
-198401010028,Peru,,,0.0,,Utilities,Shining Path (SL)
-198401010029,Peru,,,0.0,,Utilities,Shining Path (SL)
-198401010030,Peru,,,0.0,,Utilities,Shining Path (SL)
-198401010031,Peru,,,0.0,,Utilities,Shining Path (SL)
-198401010032,Peru,,,0.0,,Utilities,Shining Path (SL)
 198401010033,Colombia,4.667128,-74.106056,0.0,,Journalists & Media,M-19 (Movement of April 19)
 198401010034,El Salvador,13.69288,-89.199161,5.0,,Transportation,Farabundo Marti National Liberation Front (FMLN)
 198401010035,Nicaragua,10.984639,-84.323565,132.0,,Military,Democratic Revolutionary Alliance (ARDE)
@@ -87,7 +65,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198401080005,Lebanon,33.888523,35.503513,1.0,,Military,Unknown
 198401080006,Nicaragua,13.229233,-86.86908,65.0,,Military,Nicaraguan Democratic Force (FDN)
 198401080007,Nicaragua,14.74189,-83.9717,30.0,,Military,Nicaraguan Democratic Force (FDN)
-198401080008,Nicaragua,,,2.0,,Military,Nicaraguan Democratic Force (FDN)
 198401080009,Nicaragua,13.00583,-87.50278,,,Maritime,Nicaraguan Democratic Force (FDN)
 198401090001,Lebanon,33.888523,35.503513,,,Military,Unknown
 198401090002,Lebanon,33.888523,35.503513,0.0,,Business,Unknown
@@ -100,7 +77,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198401100001,Spain,43.291618,-1.977903,0.0,,Business,Basque Fatherland and Freedom (ETA)
 198401100002,Spain,43.291618,-1.977903,0.0,,Business,Basque Fatherland and Freedom (ETA)
 198401100003,France,41.918891,8.737554,0.0,,Business,Corsican National Liberation Front (FLNC)
-198401100004,Lebanon,,,0.0,,Military,Palestine Liberation Organization (PLO)
 198401100005,Spain,43.222177,-2.885668,,,Business,Basque Fatherland and Freedom (ETA)
 198401100006,Spain,43.222177,-2.885668,,,Business,Basque Fatherland and Freedom (ETA)
 198401100007,Uganda,0.350848,32.580224,7.0,,Transportation,Anti-Government Guerrillas
@@ -174,7 +150,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198401180003,France,41.930607,8.742907,0.0,,Government (General),Unknown
 198401180004,West Bank and Gaza Strip,31.862497,35.46188,0.0,,Police,Palestine Liberation Organization (PLO)
 198401180005,Lebanon,33.377007,35.483707,0.0,,Military,Palestine Liberation Organization (PLO)
-198401180006,Lebanon,,,0.0,,Military,Palestine Liberation Organization (PLO)
 198401180007,Lebanon,33.550434,35.370964,1.0,,Military,Unknown
 198401180008,Lebanon,33.888523,35.503513,1.0,,Educational Institution,Hezbollah
 198401190001,Colombia,6.34053,-75.562227,0.0,,Utilities,Unknown
@@ -235,7 +210,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198401260009,Chile,-33.366238,-70.505302,0.0,,Business,Movement of the Revolutionary Left (MIR) (Chile)
 198401260010,Colombia,4.74871,-75.91319,1.0,,Police,Revolutionary Armed Forces of Colombia (FARC)
 198401260011,El Salvador,13.9,-88.216667,1.0,,Transportation,Unknown
-198401260012,Nicaragua,,,270.0,,Military,Nicaraguan Democratic Force (FDN)
 198401260013,Peru,-13.152712,-74.218628,1.0,,Private Citizens & Property,Shining Path (SL)
 198401260014,Guatemala,14.622869,-90.529068,0.0,,Government (General),Revolutionary Organization of People in Arms (ORPA)
 198401270001,Chile,-33.366238,-70.505302,0.0,,Utilities,Unknown
@@ -280,20 +254,16 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198402000001,India,31.147131,75.341218,0.0,,Private Citizens & Property,Sikh Extremists
 198402000002,India,31.147131,75.341218,2.0,,Private Citizens & Property,Sikh Extremists
 198402000003,France,43.359399,-1.766148,0.0,,Transportation,Basque Fatherland and Freedom (ETA)
-198402000004,Mozambique,,,6.0,,Transportation,Mozambique National Resistance Movement (MNR)
 198402000005,Peru,-10.680652,-76.259918,0.0,,Police,Shining Path (SL)
 198402000006,Peru,-10.680652,-76.259918,0.0,,Police,Shining Path (SL)
 198402000007,Peru,-9.666635,-75.966647,0.0,,Police,Shining Path (SL)
 198402010001,United Kingdom,54.463367,-6.328597,0.0,,Business,Irish Republican Army (IRA)
 198402010002,Guatemala,14.622869,-90.529068,1.0,,Police,Unknown
 198402010003,Lebanon,34.438094,35.830837,1.0,,Private Citizens & Property,Unknown
-198402010004,El Salvador,,,12.0,,Military,Farabundo Marti National Liberation Front (FMLN)
-198402010005,El Salvador,,,11.0,,Military,Farabundo Marti National Liberation Front (FMLN)
 198402010006,El Salvador,13.43204,-88.592239,,,Military,Farabundo Marti National Liberation Front (FMLN)
 198402010007,India,23.940848,91.988153,4.0,,Military,Tripura National Volunteers (TNV)
 198402010008,Lebanon,33.888523,35.503513,0.0,,Military,Palestine Liberation Organization (PLO)
 198402010009,Nicaragua,11.327162,-84.038559,22.0,,Military,Democratic Revolutionary Alliance (ARDE)
-198402010010,Nicaragua,,,25.0,,Military,Democratic Revolutionary Alliance (ARDE)
 198402010011,Peru,-13.152712,-74.218628,5.0,,Police,Shining Path (SL)
 198402020001,Colombia,7.116294,-73.120026,0.0,,Private Citizens & Property,National Liberation Army of Colombia (ELN)
 198402020002,Colombia,7.116294,-73.120026,0.0,,Private Citizens & Property,National Liberation Army of Colombia (ELN)
@@ -301,15 +271,12 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198402020004,Colombia,7.116294,-73.120026,0.0,,Private Citizens & Property,National Liberation Army of Colombia (ELN)
 198402020005,Colombia,7.116294,-73.120026,0.0,,Private Citizens & Property,National Liberation Army of Colombia (ELN)
 198402020006,United Kingdom,54.183052,-6.341388,0.0,,Business,Irish Republican Army (IRA)
-198402020007,Lebanon,,,0.0,,Terrorists/Non-State Militia,Palestine Liberation Organization (PLO)
 198402020008,Sudan,9.294802,29.789141,3.0,,Utilities,Separatists
 198402020009,Spain,43.258434,-2.921819,0.0,,Government (General),Basque Fatherland and Freedom (ETA)
 198402020010,Argentina,-34.61768,-58.444435,0.0,,Religious Figures/Institutions,Patriotic Command San Jose
 198402020011,Colombia,5.85936,-73.96559,0.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
 198402020012,El Salvador,13.516667,-88.383333,2.0,,Military,Farabundo Marti National Liberation Front (FMLN)
 198402020013,El Salvador,13.483333,-88.466667,,,Military,Farabundo Marti National Liberation Front (FMLN)
-198402020014,Lebanon,,,0.0,,Military,Palestine Liberation Organization (PLO)
-198402020015,Nicaragua,,,,,Telecommunication,Nicaraguan Democratic Force (FDN)
 198402020016,Spain,43.258434,-2.921819,0.0,,Business,Basque Fatherland and Freedom (ETA)
 198402020017,Spain,43.258434,-2.921819,0.0,,Transportation,Basque Fatherland and Freedom (ETA)
 198402020018,Spain,43.258434,-2.921819,0.0,,Maritime,Basque Fatherland and Freedom (ETA)
@@ -364,18 +331,15 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198402080005,Greece,37.99749,23.762728,0.0,,Business,Yellow Organization of Air Force Officers
 198402080006,Greece,37.99749,23.762728,0.0,,Telecommunication,Yellow Organization of Air Force Officers
 198402080007,Spain,43.066932,-2.167393,0.0,,Terrorists/Non-State Militia,Anti-Terrorist Liberation Group (GAL)
-198402080008,Colombia,,,2.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
 198402080009,France,48.856644,2.34233,1.0,,Government (Diplomatic),Abu Nidal Organization (ANO)
 198402080010,Peru,-8.993114,-78.085154,27.0,,Private Citizens & Property,Shining Path (SL)
 198402080011,Colombia,9.856711,-75.02197,5.0,,Business,Revolutionary Armed Forces of Colombia (FARC)
 198402080012,Colombia,0.872582,-75.619733,3.0,,Military,M-19 (Movement of April 19)
 198402080013,El Salvador,13.69288,-89.199161,29.0,,Military,Farabundo Marti National Liberation Front (FMLN)
-198402080014,Guatemala,,,0.0,,Military,Rebel Armed Forces of Guatemala (FAR)
 198402080015,Lebanon,33.550434,35.370964,0.0,,Military,Palestine Liberation Organization (PLO)
 198402090001,Spain,43.311307,-1.900896,,,Business,Basque Fatherland and Freedom (ETA)
 198402090002,France,41.930607,8.742907,0.0,,Private Citizens & Property,Separatists
 198402090003,Lebanon,33.266151,35.214058,0.0,,Business,Unknown
-198402090004,Lebanon,,,0.0,,Military,Palestine Liberation Organization (PLO)
 198402090005,Lebanon,33.266151,35.214058,0.0,,Military,Palestine Liberation Organization (PLO)
 198402090006,Philippines,7.828461,123.436612,2.0,,Private Citizens & Property,New People's Army (NPA)
 198402090007,United Kingdom,54.607712,-5.95621,0.0,,Military,Irish Republican Army (IRA)
@@ -387,11 +351,8 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198402100004,West Bank and Gaza Strip,32.004264,35.276546,0.0,,Transportation,Palestinians
 198402100005,Philippines,7.818905,123.366468,10.0,,Private Citizens & Property,New People's Army (NPA)
 198402100006,Lebanon,33.888523,35.503513,,,Educational Institution,Unknown
-198402100007,Sudan,,,,,Private Citizens & Property,Sudanese mostly Christian rebels
 198402100008,Guatemala,14.622869,-90.529068,1.0,,Government (General),Unknown
 198402100009,Chile,-18.477323,-70.314534,0.0,,Religious Figures/Institutions,Defenders of the Fatherland
-198402100010,El Salvador,,,22.0,,Military,Farabundo Marti National Liberation Front (FMLN)
-198402100011,Guatemala,,,,,Business,Rebel Armed Forces of Guatemala (FAR)
 198402100012,United Kingdom,54.607712,-5.95621,0.0,,Military,Irish Republican Army (IRA)
 198402100013,Lebanon,33.377007,35.483707,0.0,,Military,Palestine Liberation Organization (PLO)
 198402110001,Chile,-33.366238,-70.505302,0.0,,Business,Unknown
@@ -429,8 +390,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198402150011,Peru,-11.967368,-76.978462,0.0,,Business,Shining Path (SL)
 198402150012,Peru,-11.967368,-76.978462,0.0,,Business,Shining Path (SL)
 198402150013,Peru,-6.774056,-79.843559,0.0,,Business,Shining Path (SL)
-198402150014,Colombia,,,0.0,,Business,National Liberation Army of Colombia (ELN)
-198402150015,Colombia,,,0.0,,Business,National Liberation Army of Colombia (ELN)
 198402150016,Spain,43.311307,-1.900896,0.0,,Business,Basque Fatherland and Freedom (ETA)
 198402150017,Spain,43.311308,-1.900897,0.0,,Business,Basque Fatherland and Freedom (ETA)
 198402150018,Spain,43.297222,-2.991667,0.0,,Business,Basque Fatherland and Freedom (ETA)
@@ -454,7 +413,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198402160013,Colombia,7.062532,-73.085812,0.0,,Government (General),M-19 (Movement of April 19)
 198402170001,United Kingdom,54.183052,-6.341388,0.0,,Business,Irish Republican Army (IRA)
 198402170002,United Kingdom,54.183052,-6.341388,,,Business,Irish Republican Army (IRA)
-198402170003,Lebanon,,,0.0,,Military,Palestine Liberation Organization (PLO)
 198402170004,United States,36.846825,-76.285069,0.0,"2/17/1984: Kenneth Shields, Thomas Spinks, and Michael Donald Bray placed anywhere between one and seven pipe bombs against the window of a bank located on the first floor of the building that housed the Hillcrest Clinic in Norfolk, Virginia, United States. The bombs exploded and shattered the bank's plate-glass windows. The clinic was not damaged. A message signed 'AOG' (Army of God) was discovered at the scene.",Abortion Related,Army of God
 198402180001,United Kingdom,54.103436,-6.193593,,,Business,Irish Republican Army (IRA)
 198402180002,United Kingdom,54.463367,-6.328597,,,Business,Irish Republican Army (IRA)
@@ -500,7 +458,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198402230005,Lebanon,33.463846,35.576524,1.0,,Military,Palestine Liberation Organization (PLO)
 198402230006,Lebanon,33.550434,35.370964,0.0,,Military,Palestine Liberation Organization (PLO)
 198402230007,Spain,43.291618,-1.977903,1.0,,Government (General),Autonomous Anti-Capitalist Commandos (CAA)
-198402230008,Angola,,,3.0,,Business,National Union for the Total Independence of Angola (UNITA)
 198402230009,South Africa,-26.213851,28.167082,0.0,,Utilities,African National Congress (South Africa)
 198402240001,South Africa,-29.794283,30.611331,0.0,,Utilities,Unknown
 198402240002,Guatemala,14.622869,-90.529068,,,Educational Institution,Unknown
@@ -516,7 +473,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198402250001,Israel,31.814231,34.797329,0.0,,Business,Palestinians
 198402250002,Colombia,8.083272,-73.224495,5.0,,Government (General),Unknown
 198402250003,Guatemala,15.925094,-90.914539,4.0,,Military,Guerrilla Army of the Poor (EGP)
-198402250004,Lebanon,,,0.0,,Military,Force 17
 198402250005,Lebanon,33.550434,35.370964,0.0,,Terrorists/Non-State Militia,Palestine Liberation Organization (PLO)
 198402250006,Nicaragua,11.99159,-83.68645,,,Military,Democratic Revolutionary Alliance (ARDE)
 198402250007,Nicaragua,11.99159,-83.68645,,,Maritime,Democratic Revolutionary Alliance (ARDE)
@@ -540,11 +496,9 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198402280002,Peru,-11.967368,-76.978462,,,Private Citizens & Property,Shining Path (SL)
 198402280003,Israel,31.771599,35.2034,0.0,,Business,Palestine Liberation Organization (PLO)
 198402280004,Mozambique,-25.891968,32.605135,0.0,,Government (General),Unknown
-198402280005,Lebanon,,,2.0,,Military,Palestine Liberation Organization (PLO)
 198402280006,Peru,-13.012617,-73.980897,1.0,,Military,Shining Path (SL)
 198402280007,United States,38.988155,-76.931633,0.0,"2/28/1984: Kenneth Shields, Thomas Spinks, and Michael Donald Bray were convicted of firebombing the Prince George's County Reproductive Health Services in College Park, Maryland, United States. There were no casualties but the building sustained approximately $85,000 in damages. After the firebombing, one of the perpetrators called the Washington Post and Washington Times claiming the incident on behalf of the Army of God.",Abortion Related,Army of God
 198402290001,South Africa,-29.156284,31.407625,0.0,,Utilities,Unknown
-198402290002,Chile,,,0.0,,Private Citizens & Property,Unknown
 198402290003,Chile,-33.010693,-71.527794,0.0,,Private Citizens & Property,Unknown
 198402290004,Chile,-35.675149,-71.542969,0.0,,Maritime,Unknown
 198402290005,Chile,-36.816006,-73.037659,0.0,,Educational Institution,Unknown
@@ -600,7 +554,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198403010031,Peru,-14.31884,-74.378173,0.0,,Military,Shining Path (SL)
 198403010032,Peru,-12.939782,-74.247478,1.0,,Military,Shining Path (SL)
 198403020001,Colombia,8.749996,-75.883346,,,Transportation,Unknown
-198403020002,Lebanon,,,0.0,,Government (Diplomatic),Unknown
 198403020003,Colombia,6.52393,-73.62332,2.0,,Private Citizens & Property,Unknown
 198403020004,Colombia,8.749996,-75.883346,0.0,,Police,Unknown
 198403020005,Colombia,8.749996,-75.883346,0.0,,Police,Unknown
@@ -641,12 +594,10 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198403050003,Sri Lanka,9.666399,80.020477,1.0,,Private Citizens & Property,Terrorists
 198403050004,Colombia,9.032222,-75.238611,3.0,,Private Citizens & Property,Popular Liberation Army (EPL)
 198403050005,El Salvador,13.7,-88.1,3.0,,Military,Farabundo Marti National Liberation Front (FMLN)
-198403050006,Nicaragua,,,3.0,,Military,Nicaraguan Democratic Force (FDN)
 198403060001,Lebanon,33.550434,35.370964,0.0,,Government (General),Unknown
 198403060002,Lebanon,33.550434,35.370964,0.0,,Military,Palestine Liberation Organization (PLO)
 198403060003,United Kingdom,54.607712,-5.95621,1.0,,Police,Irish Republican Army (IRA)
 198403060004,El Salvador,13.69288,-89.199161,,,Government (General),National Anti Communist Commando
-198403060005,El Salvador,,,0.0,,Business,Unknown
 198403060006,Nicaragua,13.186785,-86.92316,,,Private Citizens & Property,Nicaraguan Democratic Force (FDN)
 198403060007,Chile,-33.366238,-70.505302,0.0,,Police,Movement of the Revolutionary Left (MIR) (Chile)
 198403060008,El Salvador,13.61667,-88.88333,2.0,,NGO,Farabundo Marti National Liberation Front (FMLN)
@@ -694,7 +645,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198403100010,United Kingdom,55.011562,-7.312045,,,Police,Irish Republican Army (IRA)
 198403100011,Nicaragua,12.833333,-86.8,,,Military,Nicaraguan Democratic Force (FDN)
 198403100012,Nicaragua,12.88333,-85.58333,,,Military,Nicaraguan Democratic Force (FDN)
-198403100013,Colombia,,,0.0,,Government (General),Popular Liberation Army (EPL)
 198403110001,Thailand,18.790977,98.960776,,,Military,Unknown
 198403110002,United Kingdom,53.480713,-2.234377,0.0,,Private Citizens & Property,Qaddafi loyalists
 198403110003,United Kingdom,53.480713,-2.234377,0.0,,Private Citizens & Property,Qaddafi loyalists
@@ -707,15 +657,12 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198403110010,Nicaragua,13.564251,-86.02984,,,Military,Nicaraguan Democratic Force (FDN)
 198403110011,Nicaragua,13.304902,-86.186265,,,Military,Nicaraguan Democratic Force (FDN)
 198403110012,Nicaragua,12.930484,-87.067638,,,Military,Nicaraguan Democratic Force (FDN)
-198403110013,Nicaragua,,,9.0,,Military,Nicaraguan Democratic Force (FDN)
 198403110014,Colombia,8.173611,-76.059167,2.0,,Police,Popular Liberation Army (EPL)
 198403110015,South Africa,-26.530901,29.98449,0.0,,Business,African National Congress (South Africa)
 198403120001,Nicaragua,12.930484,-87.067638,,,Utilities,Nicaraguan Democratic Force (FDN)
 198403120002,United Kingdom,51.504387,-0.140041,0.0,,Business,Qaddafi loyalists
 198403120003,Chile,-33.366238,-70.505302,0.0,,Police,Movement of the Revolutionary Left (MIR) (Chile)
 198403120004,Colombia,7.02104,-75.90933,1.0,,Private Citizens & Property,Popular Liberation Army (EPL)
-198403120005,Nicaragua,,,28.0,,Military,Nicaraguan Democratic Force (FDN)
-198403120009,South Africa,,,0.0,,Police,African National Congress (South Africa)
 198403130001,Lebanon,33.550434,35.370964,0.0,,Military,Palestine Liberation Organization (PLO)
 198403130002,Greece,37.99749,23.762728,0.0,,Government (Diplomatic),Lebanese National Resistance Front
 198403130003,United Kingdom,54.547617,-7.81769,1.0,,Military,Irish Republican Army (IRA)
@@ -738,12 +685,10 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198403150002,Peru,-13.152712,-74.218628,,,Private Citizens & Property,Shining Path (SL)
 198403150003,Peru,-13.152712,-74.218628,,,Business,Shining Path (SL)
 198403150004,United Kingdom,54.755402,-6.606029,0.0,,Business,Irish Republican Army (IRA)
-198403150005,Lebanon,,,0.0,,Military,Palestine Liberation Organization (PLO)
 198403150006,El Salvador,13.818333,-87.971389,,,Military,Farabundo Marti National Liberation Front (FMLN)
 198403150007,El Salvador,13.933732,-89.025836,39.0,,Private Citizens & Property,Farabundo Marti National Liberation Front (FMLN)
 198403150008,India,24.798346,93.94043,14.0,,Military,People's Liberation Army (India)
 198403150009,Nicaragua,11.859436,-86.230325,14.0,,Military,Democratic Revolutionary Alliance (ARDE)
-198403150010,Nicaragua,,,20.0,,Military,Democratic Revolutionary Alliance (ARDE)
 198403150011,Peru,-13.152712,-74.218628,0.0,,Business,Shining Path (SL)
 198403150012,Peru,-13.152712,-74.218628,0.0,,Private Citizens & Property,Shining Path (SL)
 198403150013,Peru,-13.152712,-74.218628,0.0,,Utilities,Shining Path (SL)
@@ -808,10 +753,7 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198403180033,Chile,-33.366238,-70.505302,,,Business,Movement of the Revolutionary Left (MIR) (Chile)
 198403180034,Colombia,8.631197,-75.397337,4.0,,Police,Popular Liberation Army (EPL)
 198403180035,Nicaragua,13.37984,-86.48075,12.0,,Military,Nicaraguan Democratic Force (FDN)
-198403180036,Nicaragua,,,0.0,,Military,Democratic Revolutionary Alliance (ARDE)
-198403180037,Nicaragua,,,2.0,,Military,Democratic Revolutionary Alliance (ARDE)
 198403180038,Nicaragua,14.152916,-85.07312,16.0,,Military,Nicaraguan Democratic Force (FDN)
-198403180039,Nicaragua,,,4.0,,Military,Nicaraguan Democratic Force (FDN)
 198403180040,Nicaragua,12.96361,-86.81472,0.0,,Military,Nicaraguan Democratic Force (FDN)
 198403190001,Chile,-33.050125,-71.612251,,,Business,Movement of the Revolutionary Left (MIR) (Chile)
 198403190002,Chile,-33.366238,-70.505302,,,Utilities,Unknown
@@ -820,18 +762,13 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198403190005,United Kingdom,54.607712,-5.95621,1.0,,Military,Irish Republican Army (IRA)
 198403190006,Colombia,8.09242,-76.72738,2.0,,Military,Popular Liberation Army (EPL)
 198403190007,Nicaragua,11.29733,-85.88958,25.0,,Military,Nicaraguan Democratic Force (FDN)
-198403190008,Nicaragua,,,13.0,,Military,Democratic Revolutionary Alliance (ARDE)
 198403190012,United States,40.970073,-73.712231,0.0,"03/19/1984: The International Business Machines (IBM) Corporation Building in Harrison, New York, United States, was bombed by the United Freedom Front (UFF). No casualties resulted from the incident, but the explosion caused extensive property damage including shattered windows. The bombing was preceded by two warning calls by a member of the UFF, one call to the Rye Hilton hotel and another to Stouffer's Inn. A communiqué from the UFF was left at the scene, claiming that the IBM corporation had committed crimes against the people of South Africa by selling computer parts to the South African government.",Business,United Freedom Front (UFF)
 198403200001,Lebanon,33.377007,35.483707,0.0,,Private Citizens & Property,Palestine Liberation Organization (PLO)
 198403200002,Chile,-33.366238,-70.505302,0.0,,Government (General),Unknown
 198403200003,Colombia,2.95485,-76.26825,2.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
-198403200004,Colombia,,,1.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
 198403200005,Chile,-33.366238,-70.505302,0.0,,Journalists & Media,Commandos
-198403200006,Nicaragua,,,21.0,,Military,Democratic Revolutionary Alliance (ARDE)
 198403200007,Nicaragua,11.7219,-86.04827,0.0,,Military,Democratic Revolutionary Alliance (ARDE)
-198403200008,Colombia,,,2.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
 198403210001,Colombia,6.95284,-71.87514,8.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
-198403210002,Nicaragua,,,0.0,,Maritime,Nicaraguan Democratic Force (FDN)
 198403210003,Peru,-11.967368,-76.978462,0.0,,Business,Unknown
 198403210004,Guatemala,14.533333,-91.316667,11.0,,Military,Revolutionary Organization of People in Arms (ORPA)
 198403220001,Peru,-11.967368,-76.978462,0.0,,Transportation,Unknown
@@ -851,19 +788,13 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198403230004,Spain,43.323348,-1.930432,4.0,,Private Citizens & Property,Basque Fatherland and Freedom (ETA)
 198403230005,India,30.933135,74.622476,1.0,,Religious Figures/Institutions,Sikh Extremists
 198403230006,El Salvador,13.31667,-88.38333,0.0,,Military,Farabundo Marti National Liberation Front (FMLN)
-198403230007,Nicaragua,,,30.0,,Private Citizens & Property,Nicaraguan Democratic Force (FDN)
 198403240001,Jordan,31.950001,35.933331,0.0,,Business,Abu Nidal Organization (ANO)
 198403240002,Colombia,6.82835,-75.51307,1.0,,Police,Popular Liberation Army (EPL)
-198403240003,Colombia,,,8.0,,Private Citizens & Property,Popular Liberation Army (EPL)
 198403240005,Nicaragua,12.398896,-86.813327,0.0,,Private Citizens & Property,Nicaraguan Democratic Force (FDN)
-198403240006,Nicaragua,,,,,Military,Nicaraguan Democratic Force (FDN)
-198403240007,Nicaragua,,,0.0,,Military,Nicaraguan Democratic Force (FDN)
 198403250001,Chile,-41.472903,-72.9369,,,Transportation,Movement of the Revolutionary Left (MIR) (Chile)
 198403250002,Peru,-11.967368,-76.978462,0.0,,Government (General),Unknown
 198403250003,India,31.147131,75.341218,1.0,,Private Citizens & Property,Unknown
 198403250004,United Kingdom,54.201137,-6.361129,0.0,,Police,Irish Republican Army (IRA)
-198403250005,Lebanon,,,1.0,,Military,Unknown
-198403250006,Nicaragua,,,7.0,,Military,Democratic Revolutionary Alliance (ARDE)
 198403250007,Peru,-11.967368,-76.978462,0.0,,Government (General),Shining Path (SL)
 198403250008,United States,40.697132,-73.931351,0.0,,Airports & Aircraft,Black Liberation Army
 198403260001,Peru,-13.152712,-74.218628,,,Transportation,Shining Path (SL)
@@ -893,7 +824,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198403270003,Lebanon,33.550434,35.370964,0.0,,Private Citizens & Property,Unknown
 198403270004,Lebanon,33.888523,35.503513,0.0,,Business,Unknown
 198403270005,Lebanon,33.888523,35.503513,0.0,,Business,Hezbollah
-198403270006,Philippines,,,7.0,,Military,New People's Army (NPA)
 198403270007,Colombia,6.383371,-75.283256,6.0,,Private Citizens & Property,National Liberation Army of Colombia (ELN)
 198403270008,Iran,35.724533,51.40519,1.0,,Government (Diplomatic),Armenians
 198403270009,Lebanon,33.888523,35.503513,0.0,,Government (Diplomatic),Unknown
@@ -914,7 +844,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198403280011,Lebanon,33.888523,35.503513,1.0,,Military,Unknown
 198403280012,Lebanon,33.428893,35.51628,0.0,,Military,Lebanese National Resistance Front
 198403280013,Nicaragua,12.19896,-86.7622,0.0,,Maritime,Nicaraguan Democratic Force (FDN)
-198403280014,Nicaragua,,,0.0,,Military,Nicaraguan Democratic Force (FDN)
 198403280015,Peru,-13.152712,-74.218628,1.0,,Private Citizens & Property,Shining Path (SL)
 198403280017,United States,29.951027,-90.071422,0.0,,Airports & Aircraft,Black Liberation Army
 198403290001,Chile,-33.366238,-70.505302,,,Utilities,Unknown
@@ -941,7 +870,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198404000002,Portugal,38.570983,-7.909602,0.0,,Government (General),Popular Forces of April 25
 198404000003,Namibia,-18.623616,17.516841,2.0,,Private Citizens & Property,South-West Africa People's Organization (SWAPO)
 198404000004,Colombia,6.782976,-73.399883,2.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
-198404000005,Philippines,,,1.0,,Government (General),Unknown
 198404000006,Sri Lanka,9.666399,80.020477,2.0,,Military,Tamils
 198404000007,Sri Lanka,9.666399,80.020477,2.0,,Police,Tamils
 198404000008,Sri Lanka,9.666399,80.020477,2.0,,Government (General),Tamils
@@ -953,24 +881,18 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198404010005,Chile,-33.050125,-71.612251,,,Utilities,Manuel Rodriguez Patriotic Front (FPMR)
 198404010006,France,48.856644,2.34233,0.0,,Religious Figures/Institutions,Unknown
 198404010007,India,31.147131,75.341218,2.0,,Religious Figures/Institutions,Unknown
-198404010008,Nicaragua,,,1.0,,Utilities,Misurasata Indian Organization
 198404010009,Nicaragua,12.481654,-87.173207,,,Maritime,Democratic Revolutionary Alliance (ARDE)
 198404010010,Spain,43.258434,-2.921819,0.0,,Business,Basque Fatherland and Freedom (ETA)
 198404010011,Italy,40.17593,18.030423,1.0,,Government (General),Red Brigades
 198404010012,Spain,43.130387,-2.542155,1.0,,Police,Basque Fatherland and Freedom (ETA)
 198404010013,Colombia,3.41866,-76.24198,6.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
 198404010014,Nicaragua,14.041927,-84.561538,0.0,,Food or Water Supply,Nicaraguan Democratic Force (FDN)
-198404010015,Nicaragua,,,10.0,,Military,Misurasata Indian Organization
-198404010016,Nicaragua,,,0.0,,Military,Misurasata Indian Organization
 198404010017,Nicaragua,12.070833,-86.481944,0.0,,Military,Nicaraguan  Revolutionary Armed Force
 198404010018,Nicaragua,11.988947,-86.087363,0.0,,Military,Nicaraguan Democratic Force (FDN)
 198404010019,Nicaragua,13.4138,-86.5419,0.0,,Military,Nicaraguan Democratic Force (FDN)
-198404010020,Nicaragua,,,0.0,,Military,Nicaraguan Democratic Force (FDN)
 198404010021,Nicaragua,12.923513,-85.839665,0.0,,Military,Nicaraguan Democratic Force (FDN)
 198404010022,Nicaragua,13.652701,-86.612806,,,Military,Nicaraguan Democratic Force (FDN)
-198404010023,Nicaragua,,,,,Military,Nicaraguan Democratic Force (FDN)
 198404010024,Nicaragua,10.53013,-84.47956,21.0,,Military,Nicaraguan Democratic Force (FDN)
-198404010025,Nicaragua,,,0.0,,Military,Nicaraguan Democratic Force (FDN)
 198404010026,Peru,-15.234393,-69.527326,40.0,,Military,Shining Path (SL)
 198404010027,Chile,-33.366238,-70.505302,,,Utilities,Manuel Rodriguez Patriotic Front (FPMR)
 198404010028,Chile,-33.366238,-70.505302,,,Utilities,Manuel Rodriguez Patriotic Front (FPMR)
@@ -981,10 +903,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198404020002,Spain,43.258434,-2.921819,1.0,,Police,Basque Fatherland and Freedom (ETA)
 198404020003,Colombia,1.338227,-77.592617,,,Private Citizens & Property,M-19 (Movement of April 19)
 198404020004,Israel,31.771599,35.2034,1.0,,Private Citizens & Property,Democratic Front for the Liberation of Palestine (DFLP)
-198404020005,Nicaragua,,,43.0,,Military,Nicaraguan Democratic Force (FDN)
-198404020006,Nicaragua,,,0.0,,Military,Nicaraguan Democratic Force (FDN)
-198404020007,Peru,,,40.0,,Military,Shining Path (SL)
-198404020008,Peru,,,,,Private Citizens & Property,Shining Path (SL)
 198404020009,Peru,-11.967368,-76.978462,0.0,,Government (General),Movement of the Revolutionary Left (MIR) (Peru)
 198404030001,Colombia,4.667128,-74.106056,0.0,,Military,Unknown
 198404030002,United Kingdom,54.183052,-6.341388,0.0,,Business,Irish Republican Army (IRA)
@@ -1016,7 +934,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198404050011,El Salvador,13.719546,-88.360633,9.0,,Military,Farabundo Marti National Liberation Front (FMLN)
 198404050012,El Salvador,13.766667,-88.266667,60.0,,Military,Farabundo Marti National Liberation Front (FMLN)
 198404050013,India,27.023803,74.217933,2.0,,Business,Sikh Extremists
-198404050014,Nicaragua,,,0.0,,Private Citizens & Property,Nicaraguan Democratic Force (FDN)
 198404050015,South Africa,-29.235648,26.725879,0.0,,Government (Diplomatic),African National Congress (South Africa)
 198404060001,South Africa,-29.115897,26.219814,0.0,,Government (Diplomatic),Unknown
 198404060002,South Africa,-29.115897,26.219814,0.0,,Government (Diplomatic),Unknown
@@ -1041,7 +958,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198404080007,Guatemala,14.791944,-91.920556,,,Military,Unknown
 198404080008,Guatemala,14.60778,-90.80306,3.0,,Government (General),Unknown
 198404080009,India,30.966064,76.523162,0.0,,Educational Institution,Unknown
-198404080010,Nicaragua,,,0.0,,Military,Misurasata Indian Organization
 198404080011,Nicaragua,13.333325,-85.372013,0.0,,Military,Misurasata Indian Organization
 198404080012,Nicaragua,13.544303,-86.165168,0.0,,Private Citizens & Property,Nicaraguan Democratic Force (FDN)
 198404080013,Nicaragua,13.360614,-86.398154,0.0,,Private Citizens & Property,Nicaraguan Democratic Force (FDN)
@@ -1065,7 +981,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198404090008,Guatemala,14.551944,-90.942222,8.0,,Military,Unknown
 198404090009,Mozambique,-25.891968,32.605135,1.0,,Transportation,Unknown
 198404090010,Peru,-6.034766,-76.973892,20.0,,Military,Shining Path (SL)
-198404090011,Peru,,,2.0,,Military,Shining Path (SL)
 198404100001,Peru,-13.152712,-74.218628,,,Utilities,Unknown
 198404100002,Peru,-13.152712,-74.218628,,,Utilities,Unknown
 198404100003,Peru,-13.152712,-74.218628,,,Utilities,Unknown
@@ -1089,7 +1004,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198404120001,India,28.831237,76.39556,1.0,,Journalists & Media,Sikh Extremists
 198404120003,Peru,-11.967368,-76.978462,0.0,,Police,Unknown
 198404120004,United Kingdom,54.607712,-5.95621,2.0,,Private Citizens & Property,Protestant extremists
-198404130001,Mozambique,,,,,Utilities,Mozambican Rebels
 198404130002,United Kingdom,54.607712,-5.95621,1.0,,Private Citizens & Property,Irish National Liberation Army (INLA)
 198404130003,Guatemala,15.498381,-90.982067,8.0,,Military,Unknown
 198404130004,Peru,-12.899463,-74.275152,1.0,,Private Citizens & Property,Shining Path (SL)
@@ -1176,7 +1090,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198404180005,Peru,-10.088488,-77.475178,1.0,,Government (General),Shining Path (SL)
 198404190001,Angola,-12.765538,15.732861,30.0,,Private Citizens & Property,National Union for the Total Independence of Angola (UNITA)
 198404190002,Peru,-11.967368,-76.978462,,,Police,Shining Path (SL)
-198404190003,Lesotho,,,1.0,,Private Citizens & Property,Unknown
 198404190004,India,31.147131,75.341218,,,Transportation,Sikh Extremists
 198404190005,Namibia,-17.789997,15.706292,0.0,,Government (General),South-West Africa People's Organization (SWAPO)
 198404190006,Namibia,-17.905095,15.975806,0.0,,Government (General),South-West Africa People's Organization (SWAPO)
@@ -1202,10 +1115,8 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198404210003,Peru,-11.967368,-76.978462,0.0,,Business,Unknown
 198404210004,Colombia,6.828333,-75.513056,2.0,,Private Citizens & Property,Popular Liberation Army (EPL)
 198404210005,Colombia,6.828333,-75.513056,2.0,,Private Citizens & Property,Popular Liberation Army (EPL)
-198404210006,India,,,1.0,,Terrorists/Non-State Militia,Sikh Extremists
 198404210007,Colombia,6.23337,-73.74993,,,Military,Revolutionary Armed Forces of Colombia (FARC)
 198404210008,El Salvador,13.6,-88.333333,38.0,,Military,Farabundo Marti National Liberation Front (FMLN)
-198404210009,India,,,0.0,,Transportation,Sikh Extremists
 198404210010,Mozambique,-16.134693,33.638691,37.0,,Private Citizens & Property,Unknown
 198404210011,Peru,-13.180278,-73.599167,1.0,,Private Citizens & Property,Shining Path (SL)
 198404210012,United Kingdom,55.011562,-7.312045,1.0,,Military,Irish Republican Army (IRA)
@@ -1213,7 +1124,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198404220001,France,48.903534,2.305753,0.0,,Business,Katsuhisa Omori
 198404220002,France,48.895073,2.286883,0.0,,Business,Katsuhisa Omori
 198404220003,India,31.800654,75.788018,1.0,,Religious Figures/Institutions,Sikh Extremists
-198404220004,Peru,,,2.0,,Government (General),Shining Path (SL)
 198404220005,Philippines,16.756327,121.749039,1.0,,Government (General),Unknown
 198404220006,Brazil,-23.550711,-46.633475,,,Journalists & Media,Right-wing Terrorists
 198404220007,Brazil,-15.826088,-47.922322,0.0,,Journalists & Media,Individuals claimed to be policemen
@@ -1226,7 +1136,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198404220014,Peru,-12.939782,-74.247478,,,Journalists & Media,Shining Path (SL)
 198404220015,Colombia,6.95284,-71.87514,0.0,,Journalists & Media,National Liberation Army of Colombia (ELN)
 198404220016,United States,47.610786,-122.331306,0.0,"04/22/1984: Gary Lee Yarbrough, a member of The Order,  placed a bomb under a seat in a vacant section of the Embassy Theater, an X-rated, pornographic movie house in downtown Seattle, Washington, in the United States, where about twenty to thirty people were sitting, awaiting the movie screening of the night. Then, another member of The Order, made a warning phone call to the cashier at the theater, but before any precautions could be taken, the bomb exploded, leaving minimal damage, destroying about 10 seats in the theater, and no casualties. The motive for the bombing was twofold: first, to spread the group's message that pornography was intolerable and second, to act as a diversion for the group's planned armored car robbery the next day (907).",Business,The Order (Silent Brotherhood)
-198404220017,Israel,,,3.0,"4/12/1984: Four Arab assailants hijacked a passenger bus traveling between Tel Aviv and Ashkelon in Israel. The hijackers demanded the release of 500 Palestinian prisoners in exchange for the safety of the 35 passengers that were onboard the bus. The assailants directed the bus to the Gaza Strip and held the passengers hostage for ten hours before Israeli soldiers shot out the tires on the vehicle, causing it to stop. One passenger was killed in the ensuing gunfire, and seven passengers were wounded. At least two of the hijackers were also killed.",Transportation,Unknown
 198404230001,West Bank and Gaza Strip,31.346964,34.30143,0.0,,Religious Figures/Institutions,Unknown
 198404230002,West Bank and Gaza Strip,31.346964,34.30143,0.0,,Religious Figures/Institutions,Unknown
 198404230003,West Bank and Gaza Strip,31.944954,35.07361,0.0,,Private Citizens & Property,Unknown
@@ -1242,8 +1151,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198404230013,El Salvador,14.180378,-88.892274,6.0,,Military,Farabundo Marti National Liberation Front (FMLN)
 198404230014,India,30.954424,74.612085,6.0,,Police,Unknown
 198404230015,Nicaragua,13.45396,-85.64027,0.0,,Military,Nicaraguan Democratic Force (FDN)
-198404230016,Nicaragua,,,0.0,,Military,Nicaraguan Democratic Force (FDN)
-198404230017,Nicaragua,,,0.0,,Military,Nicaraguan Democratic Force (FDN)
 198404230018,Peru,-13.011306,-74.173454,2.0,,Private Citizens & Property,Shining Path (SL)
 198404230019,United States,47.610786,-122.331306,0.0,"04/23/1984: Seven members of The Order, Bruce Carroll Pierce, Robert Mathews, Gary Lee Yarbrough, Randolph Duey, Denver Parmenter, Andrew Virgil Barnhill, and Richard Kemp, robbed Continental Armored Transport truck employee, George King, at the Northgate Mall in Seattle, Washington, United States. Using his car, Parmenter pinned the armored truck into a corner, while Pierce and Duey posed as window washers between an office supply store and a store called Bon Marche, concealing their weapons. As George King was returning to the money compartment of the truck from Bon Marche, Pierce and Duey pulled their guns on King and the truck driver, Robert White, demanding they surrender their guns and get out of the truck or die. At this point, Yarbrough pulled alongside with Mathews in their van, and Barnhill got out of the Chrysler he was driving, and also brandished a gun. Kemp was also at the scene with a shotgun, and the armored truck employees were forced to the back of the truck, while the perpetrators stole about $536,000 in cash and checks combined, $301,334 of which was in checks and subsequently burned. One shot was fired during the attack, but no one was hit and there were no casualties.",Business,The Order (Silent Brotherhood)
 198404240001,India,31.147131,75.341218,2.0,,Police,Sikh Extremists
@@ -1257,7 +1164,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198404240009,El Salvador,13.766667,-88.266667,,,Military,Farabundo Marti National Liberation Front (FMLN)
 198404240010,Peru,-11.967368,-76.978462,2.0,,Private Citizens & Property,Shining Path (SL)
 198404240011,Italy,45.469212,9.174508,0.0,,Business,Unknown
-198404250001,South Africa,,,0.0,,Transportation,Unknown
 198404250002,Brazil,-19.924254,-43.935343,0.0,,Journalists & Media,Unknown
 198404250003,Chile,-33.366238,-70.505302,0.0,,Government (General),Unknown
 198404250004,Colombia,1.804883,-75.89077,0.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
@@ -1291,20 +1197,10 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198404290001,Colombia,6.242026,-75.564766,,,Transportation,Unknown
 198404290002,Mozambique,-25.891968,32.605135,2.0,,Transportation,Anti-Communist extremists
 198404290003,Chile,-33.366238,-70.505302,0.0,,Transportation,Manuel Rodriguez Patriotic Front (FPMR)
-198404290004,Chile,,,,,Utilities,Manuel Rodriguez Patriotic Front (FPMR)
-198404290005,Chile,,,,,Utilities,Manuel Rodriguez Patriotic Front (FPMR)
-198404290006,Chile,,,,,Utilities,Manuel Rodriguez Patriotic Front (FPMR)
-198404290007,Chile,,,,,Utilities,Manuel Rodriguez Patriotic Front (FPMR)
-198404290008,Chile,,,,,Utilities,Manuel Rodriguez Patriotic Front (FPMR)
-198404290009,Chile,,,,,Utilities,Manuel Rodriguez Patriotic Front (FPMR)
-198404290010,Chile,,,,,Utilities,Manuel Rodriguez Patriotic Front (FPMR)
-198404290011,Chile,,,,,Utilities,Manuel Rodriguez Patriotic Front (FPMR)
-198404290012,Chile,,,,,Utilities,Manuel Rodriguez Patriotic Front (FPMR)
 198404290013,United States,43.618518,-116.214619,0.0,"04/29/1984: Two members of The Order, Richard Kemp and Bruce Carroll Pierce, placed a bomb in a crawl space under the kitchen near the rear of Congregation-Ahavath Israel Synagogue in Boise, Idaho, United States. The bomb, which was homemade by Pierce and consisted of three sticks of dynamite, an electric blasting cap, a battery, and a timer, caused minor damage to the synagogue's kitchen and heating equipment, in the amount of $4,000. No casualties resulted from the blast, which Pierce later described as an ""act of war"" to serve ""the greater good,"" even though he initially intended the bombing to be a test of his homemade device. However, the bombing occurred at the start of a week-long national convention to commemorate victims of the Holocaust.",Religious Figures/Institutions,The Order (Silent Brotherhood)
 198404300001,Portugal,38.752121,-9.295433,2.0,,Private Citizens & Property,Popular Forces of April 25
 198404300002,Colombia,4.667128,-74.106056,1.0,,Government (General),Unknown
 198404300003,India,31.147131,75.341218,2.0,,Police,Sikh Extremists
-198404300004,Sri Lanka,,,1.0,,Police,Unknown
 198404300005,Colombia,4.667128,-74.106056,0.0,,Transportation,Unknown
 198404300006,Mexico,16.782334,-93.106199,8.0,,Private Citizens & Property,Unknown
 198405000001,El Salvador,13.64121,-88.785423,,,Military,Unknown
@@ -1323,10 +1219,8 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198405010012,Philippines,9.816569,122.602103,11.0,,Military,Communists
 198405010013,Philippines,5.546116,120.818433,5.0,,Police,Moro National Liberation Front (MNLF)
 198405010014,India,23.940848,91.988153,3.0,,Police,Tripura National Volunteers (TNV)
-198405010015,Nicaragua,,,0.0,,Private Citizens & Property,Nicaraguan Democratic Force (FDN)
 198405010016,Nicaragua,12.481654,-87.173207,0.0,,Maritime,Nicaraguan Democratic Force (FDN)
 198405010017,Peru,-12.068306,-75.210163,,,Journalists & Media,Shining Path (SL)
-198405010018,Peru,,,,,Utilities,Shining Path (SL)
 198405010019,Peru,-10.055128,-77.5363,,,Educational Institution,Shining Path (SL)
 198405010021,Peru,-6.779131,-79.83942,0.0,,Tourists,Shining Path (SL)
 198405010022,Peru,-11.967368,-76.978462,1.0,,Police,Shining Path (SL)
@@ -1334,14 +1228,12 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198405020001,Chile,-33.050125,-71.612251,,,Government (General),Unknown
 198405020002,Lebanon,33.266151,35.214058,2.0,,Private Citizens & Property,Unknown
 198405020003,India,31.147131,75.341218,0.0,,Government (General),Unknown
-198405020004,Philippines,,,2.0,,Police,Communists
 198405020005,Sri Lanka,9.82486,80.236347,1.0,,Police,Liberation Tigers of Tamil Eelam (LTTE)
 198405020006,Nicaragua,13.186785,-86.92316,0.0,,Private Citizens & Property,Nicaraguan Democratic Force (FDN)
 198405030001,Chile,-33.469115,-70.641997,,,Religious Figures/Institutions,Unknown
 198405030002,France,48.796284,2.421194,,,Business,Anti-Armenian Organization
 198405030003,France,48.796284,2.421194,0.0,,Private Citizens & Property,Anti-Armenian Organization
 198405030004,Philippines,6.929089,122.07885,8.0,,Business,New People's Army (NPA)
-198405030005,Philippines,,,12.0,,Private Citizens & Property,New People's Army (NPA)
 198405030006,France,43.175208,-1.347473,2.0,,Terrorists/Non-State Militia,Anti-Terrorist Liberation Group (GAL)
 198405030007,Philippines,6.218407,125.069466,1.0,,Government (General),Unknown
 198405030008,Cyprus,35.166734,33.367586,1.0,,Journalists & Media,Unknown
@@ -1351,12 +1243,10 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198405030012,El Salvador,13.85077,-88.90406,,,Military,Farabundo Marti National Liberation Front (FMLN)
 198405030013,El Salvador,13.85,-88.85,40.0,,Military,Farabundo Marti National Liberation Front (FMLN)
 198405030014,Peru,-14.385277,-73.962606,6.0,,Military,Shining Path (SL)
-198405030015,Peru,,,4.0,,Military,Shining Path (SL)
 198405040001,Italy,41.890961,12.490069,0.0,,Government (Diplomatic),International Communist Group
 198405040002,Italy,41.890961,12.490069,0.0,,Government (Diplomatic),International Communist Group
 198405040003,Peru,-12.805587,-74.389904,5.0,,Private Citizens & Property,Shining Path (SL)
 198405040004,Peru,-13.152712,-74.218628,1.0,,Private Citizens & Property,Shining Path (SL)
-198405040005,Philippines,,,2.0,,Government (General),New People's Army (NPA)
 198405040006,Sri Lanka,9.66123,80.02558,1.0,,Police,Liberation Tigers of Tamil Eelam (LTTE)
 198405050001,United Kingdom,54.538981,-7.052912,0.0,,Military,Irish Republican Army (IRA)
 198405050002,Namibia,-17.915897,15.093494,2.0,,Private Citizens & Property,South-West Africa People's Organization (SWAPO)
@@ -1370,7 +1260,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198405060006,Peru,-13.116609,-73.690409,8.0,,Military,Shining Path (SL)
 198405060007,Peru,-13.116751,-73.69036,3.0,,Military,Shining Path (SL)
 198405070001,India,30.933135,74.622476,1.0,,Government (General),Sikh Extremists
-198405070002,Nicaragua,,,15.0,,Military,Democratic Revolutionary Alliance (ARDE)
 198405070003,Peru,-12.787148,-74.973207,1.0,,Business,Shining Path (SL)
 198405070004,Peru,-12.787148,-74.973207,,,Private Citizens & Property,Shining Path (SL)
 198405080001,Peru,-15.84065,-70.027891,0.0,,Transportation,Shining Path (SL)
@@ -1398,7 +1287,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198405100004,Chile,-33.366238,-70.505302,0.0,,Private Citizens & Property,Unknown
 198405100005,Colombia,4.667128,-74.106056,0.0,,Police,Unknown
 198405100006,Colombia,6.242026,-75.564766,0.0,,Private Citizens & Property,Unknown
-198405100007,Philippines,,,5.0,,Business,Communists
 198405100008,Sri Lanka,9.666399,80.020477,0.0,,Government (General),Tamils
 198405100009,India,31.633078,74.878288,1.0,,Religious Figures/Institutions,Sikh Extremists
 198405100010,Chile,-33.050125,-71.612251,0.0,,Transportation,Unknown
@@ -1409,9 +1297,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198405100015,Colombia,4.667128,-74.106056,,,Police,Unknown
 198405100016,Colombia,4.667128,-74.106056,,,Police,Unknown
 198405100017,Colombia,4.667128,-74.106056,0.0,,Police,Unknown
-198405100018,Philippines,,,5.0,,Private Citizens & Property,Communists
-198405100019,Philippines,,,5.0,,Private Citizens & Property,Communists
-198405100020,Philippines,,,5.0,,Private Citizens & Property,Communists
 198405110001,Chile,-33.366238,-70.505302,0.0,,Business,Unknown
 198405110002,Chile,-33.366238,-70.505302,,,Business,Unknown
 198405110003,Chile,-33.469115,-70.641997,,,Utilities,Unknown
@@ -1421,7 +1306,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198405110007,Peru,-11.918478,-75.312889,0.0,,Business,Shining Path (SL)
 198405110008,Peru,-12.068306,-75.210163,0.0,,Tourists,Shining Path (SL)
 198405110009,France,43.296482,5.36978,0.0,,Private Citizens & Property,Corsican National Liberation Front (FLNC)
-198405110010,Philippines,,,4.0,,Military,Communists
 198405110011,Colombia,7.882318,-76.630626,1.0,,Private Citizens & Property,Unknown
 198405110012,Argentina,-31.632368,-60.699359,,,Private Citizens & Property,Anti-Semitic extremists
 198405110013,Peru,-13.116637,-74.966721,0.0,,Military,Shining Path (SL)
@@ -1443,10 +1327,8 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198405130005,Bolivia,-16.509317,-68.10434,0.0,,Government (General),Unknown
 198405130006,Colombia,7.39002,-73.50099,4.0,,Military,Revolutionary Armed Forces of Colombia (FARC)
 198405130007,Colombia,2.06946,-75.96557,19.0,,Military,Revolutionary Armed Forces of Colombia (FARC)
-198405130008,Colombia,,,0.0,,Police,Revolutionary Armed Forces of Colombia (FARC)
 198405130009,India,31.147131,75.341218,1.0,,Transportation,Sikh Extremists
 198405140001,Greece,37.99749,23.762728,0.0,,Business,Abu Nidal Organization (ANO)
-198405140002,India,,,3.0,,Business,Unknown
 198405140003,Colombia,6.242026,-75.564766,1.0,,Private Citizens & Property,Unknown
 198405140004,Colombia,6.242026,-75.564766,1.0,,Private Citizens & Property,Unknown
 198405140005,Colombia,6.242026,-75.564766,1.0,,Private Citizens & Property,Unknown
@@ -1455,16 +1337,13 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198405140008,Colombia,6.242026,-75.564766,2.0,,Private Citizens & Property,Unknown
 198405140009,Honduras,15.65397,-86.006172,1.0,,Government (General),Unknown
 198405140010,India,31.633078,74.878288,3.0,,Religious Figures/Institutions,Unknown
-198405140011,Peru,,,2.0,,Private Citizens & Property,Shining Path (SL)
 198405140012,Nicaragua,13.1,-85.35,0.0,,Military,Nicaraguan Democratic Force (FDN)
 198405140013,Nicaragua,11.76246,-85.96379,0.0,,Military,Nicaraguan Democratic Force (FDN)
-198405140014,Nicaragua,,,0.0,,Military,Nicaraguan Democratic Force (FDN)
 198405140015,Nicaragua,12.333333,-86.783333,,,Military,Nicaraguan Democratic Force (FDN)
 198405140016,Nicaragua,12.61667,-86.68333,0.0,,Military,Nicaraguan Democratic Force (FDN)
 198405140017,Nicaragua,12.833333,-86.8,,,Military,Nicaraguan Democratic Force (FDN)
 198405140018,Nicaragua,13.282545,-85.21632,0.0,,Military,Nicaraguan Democratic Force (FDN)
 198405140019,Nicaragua,12.398896,-86.813327,0.0,,Military,Nicaraguan Democratic Force (FDN)
-198405140020,Nicaragua,,,0.0,,Military,Nicaraguan Democratic Force (FDN)
 198405140021,Nicaragua,12.366667,-87.016667,0.0,,Military,Nicaraguan Democratic Force (FDN)
 198405140022,Peru,-9.374612,-76.548823,0.0,,Police,Shining Path (SL)
 198405140023,Peru,-12.594996,-74.371428,3.0,,Private Citizens & Property,Shining Path (SL)
@@ -1473,7 +1352,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198405150001,Peru,-12.738612,-74.386982,1.0,,Police,Shining Path (SL)
 198405150002,Western Sahara,27.153611,-13.203333,,,Maritime,Polisario Front
 198405150003,Colombia,4.667128,-74.106056,1.0,,Educational Institution,Unknown
-198405150004,El Salvador,,,1.0,,Military,Farabundo Marti National Liberation Front (FMLN)
 198405150005,Peru,-8.770556,-78.123889,35.0,,Private Citizens & Property,Shining Path (SL)
 198405160001,Chile,-33.366238,-70.505302,,,Business,Unknown
 198405160002,Chile,-33.366238,-70.505302,,,Transportation,Unknown
@@ -1521,7 +1399,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198405180010,United Kingdom,54.607712,-5.95621,0.0,,Private Citizens & Property,Unknown
 198405180011,India,31.147131,75.341218,0.0,,Private Citizens & Property,Dishmish Regiment
 198405180012,Peru,-14.31884,-74.378173,4.0,,Private Citizens & Property,Shining Path (SL)
-198405180013,Peru,,,0.0,,Religious Figures/Institutions,Unknown
 198405180014,United Kingdom,54.607712,-5.95621,2.0,,Police,Irish Republican Army (IRA)
 198405180015,South Africa,-26.31468,27.828306,0.0,,Transportation,African National Congress (South Africa)
 198405190001,Chile,-33.050125,-71.612251,0.0,,Police,Unknown
@@ -1540,11 +1417,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198405210001,Bolivia,-16.509317,-68.10434,1.0,,Military,Unknown
 198405210002,Bolivia,-16.509317,-68.10434,0.0,,Private Citizens & Property,Unknown
 198405210003,South Africa,-27.982989,26.719899,0.0,,Business,African National Congress (South Africa)
-198405210004,Guadeloupe,,,0.0,,Business,Unknown
-198405210005,Guadeloupe,,,0.0,,Police,Unknown
-198405210006,Guadeloupe,,,0.0,,Business,Unknown
-198405210007,Guadeloupe,,,0.0,,Maritime,Unknown
-198405210008,Guadeloupe,,,0.0,,Police,Unknown
 198405210009,Lebanon,33.888523,35.503513,0.0,,Educational Institution,Unknown
 198405210010,India,30.954424,74.612085,1.0,,Police,Unknown
 198405210012,India,29.999507,75.393681,1.0,,Religious Figures/Institutions,Extremists
@@ -1565,7 +1437,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198405230005,Greece,37.99749,23.762728,0.0,,Business,Unknown
 198405230006,India,31.147131,75.341218,3.0,,Private Citizens & Property,Unknown
 198405230007,Peru,-10.678719,-76.26074,,,Police,Shining Path (SL)
-198405230008,Peru,,,0.0,,Religious Figures/Institutions,Unknown
 198405240001,Chile,-33.366238,-70.505302,0.0,,Private Citizens & Property,Unknown
 198405240002,Chile,-33.366238,-70.505302,0.0,,Government (General),Unknown
 198405240003,Chile,-33.366238,-70.505302,0.0,,Business,Unknown
@@ -1584,11 +1455,9 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198405280001,Spain,42.815372,-1.653616,1.0,,Police,Basque Fatherland and Freedom (ETA)
 198405280002,Nicaragua,13.333325,-85.372013,0.0,,Military,Nicaraguan Democratic Force (FDN)
 198405280003,United States,37.755363,-122.443352,1.0,"5/28/1984: The Vietnamese Organization to Exterminate Communists and Restore the Nation claimed responsibility for shooting Nguyen Van Luy and his wife Pham Thi Luu in front of their residence in San Francisco, California, United States. Van Luy, a vocal defender of Vietnam's communist government, was wounded and Thi Luu was killed.",Private Citizens & Property,Vietnamese Organization to Exterminate Communists and Restore the Nation
-198405290001,Ecuador,,,0.0,,Religious Figures/Institutions,Alfaro Vive
 198405290002,El Salvador,13.6667,-88.208264,,,Unknown,Farabundo Marti National Liberation Front (FMLN)
 198405290003,Cyprus,34.707332,33.023397,1.0,,Terrorists/Non-State Militia,Al-Sa'iqa
 198405290004,India,31.147131,75.341218,2.0,,Military,Sikh Extremists
-198405290005,Peru,,,2.0,,Unknown,Shining Path (SL)
 198405290006,Portugal,38.725299,-9.150036,1.0,,Business,Popular Forces of April 25
 198405290007,El Salvador,13.766667,-88.75,0.0,,Military,Farabundo Marti National Liberation Front (FMLN)
 198405290008,India,31.147131,75.341218,0.0,,Government (General),Sikh Extremists
@@ -1643,7 +1512,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198406050001,Chile,-33.366238,-70.505302,0.0,,Government (General),Chilean Anti-Communist Alliance (ACHA)
 198406050002,West Germany (FRG),50.11797,8.644191,0.0,,Airports & Aircraft,Fedayeen of the Imperial Iranian Monarchy
 198406050003,Sri Lanka,8.753956,80.501687,3.0,,Police,Tamils
-198406050005,Guatemala,,,1.0,,Government (General),Unknown
 198406050007,Sri Lanka,8.738157,80.477147,1.0,,Private Citizens & Property,Tamils
 198406050009,Sri Lanka,9.267091,80.814248,3.0,,Police,Tamils
 198406050010,United States,36.846825,-76.285069,0.0,"06/05/1984: Members of the United Freedom Front robbed Sovran Bank in Norfolk, Virginia, United States. $197,500 were stolen. It is unknown if anyone was injured in the incident.",Business,United Freedom Front (UFF)
@@ -1668,7 +1536,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198406080003,Spain,42.815372,-1.653616,1.0,,Police,Basque Fatherland and Freedom (ETA)
 198406080004,Chile,-33.010693,-71.527794,,,Journalists & Media,Manuel Rodriguez Patriotic Front (FPMR)
 198406080005,Nicaragua,12.509204,-86.661108,0.0,,Private Citizens & Property,Nicaraguan Democratic Force (FDN)
-198406080006,Nicaragua,,,0.0,,Private Citizens & Property,Nicaraguan Democratic Force (FDN)
 198406080007,Peru,-13.049165,-74.412724,21.0,,Private Citizens & Property,Shining Path (SL)
 198406090001,United Kingdom,54.607712,-5.95621,1.0,,Police,Irish Republican Army (IRA)
 198406090002,Yugoslavia,42.672479,21.163748,2.0,,Police,Albanian extremists
@@ -1677,10 +1544,7 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198406100003,Nicaragua,10.892093,-84.78599,0.0,,Military,Democratic Revolutionary Alliance (ARDE)
 198406100004,Nicaragua,10.947564,-83.735898,,,Military,Democratic Revolutionary Alliance (ARDE)
 198406100005,Nicaragua,12.200078,-84.28976,,,Military,Democratic Revolutionary Alliance (ARDE)
-198406100006,Nicaragua,,,0.0,,Government (General),Democratic Revolutionary Alliance (ARDE)
-198406100007,Nicaragua,,,0.0,,Military,Democratic Revolutionary Alliance (ARDE)
 198406100008,Peru,-13.123889,-74.321111,9.0,,Private Citizens & Property,Shining Path (SL)
-198406100009,Sri Lanka,,,,,Police,Tamils
 198406110001,Chile,-33.469115,-70.641997,0.0,,Utilities,Manuel Rodriguez Patriotic Front (FPMR)
 198406110002,Chile,-33.366238,-70.505302,,,Utilities,Manuel Rodriguez Patriotic Front (FPMR)
 198406110003,United Kingdom,54.819164,-7.467909,0.0,,Business,Irish Republican Army (IRA)
@@ -1710,7 +1574,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198406150003,France,43.483152,-1.558626,0.0,,Terrorists/Non-State Militia,Basque Fatherland and Freedom (ETA)
 198406150004,Greece,37.99749,23.762728,0.0,,Police,Unknown
 198406150005,India,26.652846,92.792524,1.0,,Business,Unknown
-198406150006,Iraq,,,0.0,,Private Citizens & Property,Kurdish Democratic Party-Iraq (KDP)
 198406150007,South Africa,-26.184113,28.033232,0.0,,Business,Unknown
 198406150008,India,31.147131,75.341218,1.0,,Religious Figures/Institutions,Sikh Extremists
 198406150009,Spain,43.267549,-1.975814,1.0,,Police,Basque Fatherland and Freedom (ETA)
@@ -1725,8 +1588,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198406160001,Lebanon,33.550434,35.370964,1.0,,Military,Unknown
 198406160002,South Africa,-26.456502,29.464917,1.0,,Government (General),African National Congress (South Africa)
 198406160003,India,31.147131,75.341218,1.0,,Government (General),Sikh Extremists
-198406160004,Nicaragua,,,,,Military,Nicaraguan Democratic Force (FDN)
-198406160005,Nicaragua,,,0.0,,Military,Nicaraguan Democratic Force (FDN)
 198406170001,Bolivia,-20.640615,-65.206982,0.0,,Business,Unknown
 198406170002,France,41.930607,8.742907,0.0,,Government (General),Unknown
 198406170003,France,42.066583,8.738397,,,Private Citizens & Property,Unknown
@@ -1743,24 +1604,13 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198406170014,France,42.113828,8.701548,,,Government (General),Unknown
 198406170015,France,42.113828,8.701548,,,Business,Unknown
 198406170016,United Kingdom,54.607712,-5.95621,0.0,,Military,Irish Republican Army (IRA)
-198406170017,Nicaragua,,,73.0,,Military,Nicaraguan Democratic Force (FDN)
 198406170018,United States,40.008171,-75.13549,0.0,"06/17/1984: Two firebombs made of gasoline and propane set fire to a Hare Krishna temple in Philadelphia, Pennsylvania, United States. No casualties resulted from the explosion, but the blast broke seven windows and caused minor fire damage. The bombs exploded just minutes before temple residents were about to gather for a service. Jamaat-al-Fuqra is believed to be responsible for the incident.",Religious Figures/Institutions,Jamaat-al-Fuqra
 198406170019,United States,47.610786,-122.331306,0.0,"06/17/1984: A bomb exploded at the Vedanta Society Temple, a Hindu temple is operated by an Indian religious order, in Seattle, Washington in the United States. The damage was minor and there were no casualties from the blast. Al-Fuqra was responsible for the incident, for which one of the members was later arrested.",Religious Figures/Institutions,Jamaat-al-Fuqra
-198406180001,El Salvador,,,0.0,,Transportation,Farabundo Marti National Liberation Front (FMLN)
-198406180002,El Salvador,,,0.0,,Transportation,Farabundo Marti National Liberation Front (FMLN)
-198406180003,El Salvador,,,0.0,,Transportation,Farabundo Marti National Liberation Front (FMLN)
-198406180004,El Salvador,,,0.0,,Transportation,Farabundo Marti National Liberation Front (FMLN)
-198406180005,El Salvador,,,0.0,,Transportation,Farabundo Marti National Liberation Front (FMLN)
 198406180006,Spain,43.362954,-2.544635,1.0,,Government (General),Basque Fatherland and Freedom (ETA)
 198406180007,El Salvador,13.90668,-88.157021,13.0,,Military,Farabundo Marti National Liberation Front (FMLN)
 198406180008,Nicaragua,13.776949,-85.407863,0.0,,Military,Nicaraguan Democratic Force (FDN)
 198406180009,Nicaragua,11.701622,-84.330582,110.0,,Military,Democratic Revolutionary Alliance (ARDE)
 198406180010,United States,39.758968,-104.876305,1.0,"06/18/1974: Prominent and controversial Jewish radio talk-show host who was an outspoken opponent of racism, Alan Berg, was murdered by members of The Order outside his residence at 1445 Adams Street in Denver, Colorado, United States. After following and watching Berg's actions for a few hours on the night of his murder, at about 9:21pm, Robert Mathews, David Lane, and Bruce Carroll Pierce, watched Alan Berg pull into his driveway, at which point Pierce came up to Berg as he was exiting his Volkswagen Beetle, and shot him thirteen times point-blank in the head and body with a .45 caliber cartridges from a automatic Ingram MAC-10 machine gun. Berg suffered about thirty-four wounds, and died instantly. Four members of the group were indicted for his murder under the charges of violating Berg's civil rights: David Lane, Bruce Carroll Pierce, Jean Margaret Craig, who helped to gather information in an intelligence folder on Berg's life and whereabouts for about three weeks before his murder, and Richard Scutari, who helped to devise the plan of action for the murder. Only Lane and Pierce were convicted and sentenced for the crime.",Journalists & Media,The Order (Silent Brotherhood)
-198406190001,El Salvador,,,0.0,,Private Citizens & Property,Farabundo Marti National Liberation Front (FMLN)
-198406190002,El Salvador,,,0.0,,Private Citizens & Property,Farabundo Marti National Liberation Front (FMLN)
-198406190003,El Salvador,,,0.0,,Private Citizens & Property,Farabundo Marti National Liberation Front (FMLN)
-198406190004,El Salvador,,,0.0,,Private Citizens & Property,Farabundo Marti National Liberation Front (FMLN)
-198406190005,El Salvador,,,0.0,,Private Citizens & Property,Farabundo Marti National Liberation Front (FMLN)
 198406190006,Spain,43.320664,-3.020252,1.0,,Police,Basque Fatherland and Freedom (ETA)
 198406200001,Austria,48.208174,16.373819,1.0,,Government (Diplomatic),Justice Commandos for the Armenian Genocide
 198406200002,Chile,-33.469115,-70.641997,1.0,,Transportation,Manuel Rodriguez Patriotic Front (FPMR)
@@ -1768,24 +1618,9 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198406200004,Peru,-12.948146,-74.020842,19.0,,Private Citizens & Property,Shining Path (SL)
 198406200005,Peru,-11.900371,-74.600005,19.0,,Private Citizens & Property,Shining Path (SL)
 198406200006,United Kingdom,54.819164,-7.467909,0.0,,Business,Irish Republican Army (IRA)
-198406210001,El Salvador,,,0.0,,Transportation,Farabundo Marti National Liberation Front (FMLN)
-198406210002,El Salvador,,,0.0,,Transportation,Farabundo Marti National Liberation Front (FMLN)
-198406210003,El Salvador,,,0.0,,Transportation,Farabundo Marti National Liberation Front (FMLN)
-198406210004,El Salvador,,,0.0,,Transportation,Farabundo Marti National Liberation Front (FMLN)
-198406210005,El Salvador,,,0.0,,Transportation,Farabundo Marti National Liberation Front (FMLN)
-198406210006,El Salvador,,,0.0,,Transportation,Farabundo Marti National Liberation Front (FMLN)
-198406210007,El Salvador,,,0.0,,Transportation,Farabundo Marti National Liberation Front (FMLN)
-198406210008,El Salvador,,,0.0,,Transportation,Farabundo Marti National Liberation Front (FMLN)
-198406210009,El Salvador,,,0.0,,Transportation,Farabundo Marti National Liberation Front (FMLN)
-198406210010,El Salvador,,,0.0,,Transportation,Farabundo Marti National Liberation Front (FMLN)
-198406210011,El Salvador,,,0.0,,Transportation,Farabundo Marti National Liberation Front (FMLN)
-198406210012,El Salvador,,,0.0,,Private Citizens & Property,Farabundo Marti National Liberation Front (FMLN)
-198406210013,El Salvador,,,0.0,,Private Citizens & Property,Farabundo Marti National Liberation Front (FMLN)
 198406210014,India,29.058776,76.085601,0.0,,Business,Unknown
 198406210015,Chile,-33.366238,-70.505302,1.0,,Transportation,Manuel Rodriguez Patriotic Front (FPMR)
 198406210016,El Salvador,13.883333,-88.966667,1.0,,Military,Farabundo Marti National Liberation Front (FMLN)
-198406210017,El Salvador,,,0.0,,Military,Farabundo Marti National Liberation Front (FMLN)
-198406210018,El Salvador,,,7.0,,Military,Farabundo Marti National Liberation Front (FMLN)
 198406210019,Greece,37.99749,23.762728,1.0,,Journalists & Media,Unknown
 198406210020,South Africa,-29.861824,31.008293,0.0,,Utilities,African National Congress (South Africa)
 198406220001,Peru,-13.152712,-74.218628,0.0,,Telecommunication,Shining Path (SL)
@@ -1797,7 +1632,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198406230001,Peru,-11.967368,-76.978462,0.0,,Transportation,Shining Path (SL)
 198406230002,France,48.856644,2.34233,0.0,,Educational Institution,Unknown
 198406230003,Chile,-33.366238,-70.505302,0.0,,Business,Manuel Rodriguez Patriotic Front (FPMR)
-198406230004,Colombia,,,,,Government (General),Alfa 83
 198406230005,Lebanon,33.888523,35.503513,0.0,,Government (Diplomatic),Al-Sadr Brigades
 198406230006,Peru,-13.92,-74.333889,20.0,,Private Citizens & Property,Shining Path (SL)
 198406240001,Peru,-13.152712,-74.218628,,,Utilities,Shining Path (SL)
@@ -1840,7 +1674,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198406270001,Peru,-13.152712,-74.218628,1.0,,Government (General),Shining Path (SL)
 198406270002,Peru,-13.152712,-74.218628,0.0,,Telecommunication,Shining Path (SL)
 198406270003,Chile,-33.516667,-70.766667,,,Transportation,Unknown
-198406270004,Chile,,,,,Transportation,Unknown
 198406270005,Chile,-33.366238,-70.505302,0.0,,Transportation,Unknown
 198406270006,India,26.652846,92.792524,,,Private Citizens & Property,Unknown
 198406270007,Peru,-13.152712,-74.218628,1.0,,Police,Shining Path (SL)
@@ -1854,7 +1687,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198406280005,Chile,-33.366238,-70.505302,0.0,,Educational Institution,Unknown
 198406280006,Philippines,10.66925,122.949054,5.0,,Military,New People's Army (NPA)
 198406280007,Angola,-14.919219,13.489912,2.0,,Private Citizens & Property,Unknown
-198406280008,El Salvador,,,136.0,,Utilities,Farabundo Marti National Liberation Front (FMLN)
 198407000001,Peru,-15.11,-72.136667,40.0,,Private Citizens & Property,Shining Path (SL)
 198407000002,Peru,-13.945695,-72.175696,1.0,,Government (General),Unknown
 198407000003,Burkina Faso,12.347598,-1.538065,1.0,,Government (General),Unknown
@@ -1868,17 +1700,13 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198407020008,Nicaragua,12.82166,-84.203876,51.0,,Private Citizens & Property,Nicaraguan Democratic Force (FDN)
 198407020009,Peru,-11.967368,-76.978462,0.0,,Police,Shining Path (SL)
 198407020010,Spain,43.320664,-3.020252,1.0,,Military,Basque Fatherland and Freedom (ETA)
-198407020011,Colombia,,,0.0,,Airports & Aircraft,Revolutionary Armed Forces of Colombia (FARC)
 198407030001,Peru,-11.967368,-76.978462,0.0,,Business,Shining Path (SL)
 198407030002,Peru,-11.967368,-76.978462,0.0,,Transportation,Unknown
 198407030003,Peru,-13.531688,-71.966924,0.0,,Educational Institution,Unknown
 198407030004,Peru,-11.967368,-76.978462,0.0,,Transportation,Unknown
 198407030005,Chile,-33.366238,-70.505302,2.0,,Police,Manuel Rodriguez Patriotic Front (FPMR)
 198407030006,Chile,-33.366238,-70.505302,2.0,,Police,Manuel Rodriguez Patriotic Front (FPMR)
-198407030007,Nicaragua,,,0.0,,Military,Nicaraguan Democratic Force (FDN)
-198407030008,Nicaragua,,,40.0,,Military,Nicaraguan Democratic Force (FDN)
 198407030009,Nicaragua,12.538409,-85.573921,,,Military,Nicaraguan Democratic Force (FDN)
-198407030010,Nicaragua,,,,,Military,Nicaraguan Democratic Force (FDN)
 198407040001,Argentina,-34.61768,-58.444435,,,Journalists & Media,Unknown
 198407040002,Peru,-11.967368,-76.978462,0.0,,Government (General),Shining Path (SL)
 198407040003,El Salvador,13.69288,-89.199161,,,Utilities,Farabundo Marti National Liberation Front (FMLN)
@@ -1901,12 +1729,9 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198407050007,Peru,-12.068306,-75.210163,,,Private Citizens & Property,Shining Path (SL)
 198407050008,Chile,-33.050125,-71.612251,,,Government (General),Unknown
 198407050009,Chile,-33.050125,-71.612251,,,Military,Unknown
-198407050010,India,,,0.0,,Airports & Aircraft,All India Sikh Students Federation (AISSF)
 198407050011,Peru,-11.520494,-75.899782,0.0,,Police,Shining Path (SL)
-198407050012,Nicaragua,,,,,Military,Nicaraguan Democratic Force (FDN)
 198407050013,Nicaragua,11.95,-85.216667,,,Private Citizens & Property,Nicaraguan Democratic Force (FDN)
 198407050014,Nicaragua,12.17609,-86.03771,4.0,,Private Citizens & Property,Nicaraguan Democratic Force (FDN)
-198407050015,Peru,,,0.0,,Business,Shining Path (SL)
 198407050016,Peru,-15.534444,-72.945556,27.0,,Private Citizens & Property,Shining Path (SL)
 198407050017,Peru,-9.297478,-75.996312,10.0,,Police,Shining Path (SL)
 198407050018,Peru,-13.152712,-74.218628,10.0,,Police,Shining Path (SL)
@@ -1919,7 +1744,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198407060005,Argentina,-34.921295,-57.954333,0.0,,Government (General),Unknown
 198407060006,Argentina,-34.921295,-57.954333,0.0,,Business,Unknown
 198407060007,Peru,-14.063467,-75.729381,0.0,,Business,Shining Path (SL)
-198407060008,Peru,,,0.0,,Business,Shining Path (SL)
 198407060009,Peru,-12.068306,-75.210163,0.0,,Business,Shining Path (SL)
 198407060010,Peru,-11.967368,-76.978462,0.0,,Business,Shining Path (SL)
 198407060011,Peru,-12.068306,-75.210163,0.0,,Educational Institution,Shining Path (SL)
@@ -1947,7 +1771,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198407070014,Nicaragua,13.364485,-85.29338,5.0,,Military,Nicaraguan Democratic Force (FDN)
 198407070015,Nicaragua,13.839446,-83.932081,20.0,,Military,Nicaraguan Democratic Force (FDN)
 198407070016,Nicaragua,12.82166,-84.203876,180.0,,Private Citizens & Property,Nicaraguan Democratic Force (FDN)
-198407070017,Peru,,,0.0,,Business,Shining Path (SL)
 198407070018,Peru,-13.183608,-73.906236,36.0,,Private Citizens & Property,Shining Path (SL)
 198407070019,Peru,-13.152712,-74.218628,8.0,,Police,Shining Path (SL)
 198407070020,United States,38.9767,-76.489934,0.0,"7/7/1984: Kenneth Shields, Thomas Spinks, and Michael Donald Bray bombed the Planned Parenthood of Maryland in Annapolis, Maryland, United States. There were no casualties, but the abortion clinic sustained $50,000 in damages.",Abortion Related,Army of God
@@ -1964,17 +1787,12 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198407100001,Panama,8.994269,-79.518792,0.0,,Government (General),Gutierrez Gomez Resistance Group
 198407100002,Panama,8.994269,-79.518792,0.0,,Government (General),Gutierrez Gomez Resistance Group
 198407100003,Lebanon,33.888523,35.503513,,,Maritime,Christian extremists
-198407100004,Peru,,,9.0,,Police,Shining Path (SL)
 198407110001,South Africa,-26.252697,27.870275,0.0,,Police,Unknown
 198407110002,Chile,-39.820083,-73.245395,0.0,,Religious Figures/Institutions,Unknown
 198407110003,El Salvador,14.338523,-89.563831,,,Transportation,Farabundo Marti National Liberation Front (FMLN)
 198407110004,Spain,42.440902,-3.494809,0.0,,Private Citizens & Property,Basque Fatherland and Freedom (ETA)
-198407110005,Peru,,,4.0,,Private Citizens & Property,Shining Path (SL)
-198407110006,Peru,,,6.0,,Private Citizens & Property,Shining Path (SL)
 198407110007,Peru,-12.948146,-74.020842,20.0,,Private Citizens & Property,Shining Path (SL)
-198407110008,Philippines,,,1.0,,Government (General),New People's Army (NPA)
 198407110009,Colombia,6.88105,-73.41157,6.0,,Private Citizens & Property,Guerrilla Army of the Poor (EGP)
-198407110010,Colombia,,,0.0,,Transportation,M-19 (Movement of April 19)
 198407110011,Lebanon,33.888523,35.503513,0.0,,Government (Diplomatic),Al-Sadr Brigades
 198407110012,Peru,-14.69409,-74.124213,0.0,,Military,Shining Path (SL)
 198407110013,Peru,-12.597099,-73.830879,25.0,,Private Citizens & Property,Shining Path (SL)
@@ -2082,10 +1900,7 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198407170011,Colombia,6.242026,-75.564766,,,Educational Institution,Unknown
 198407170012,Namibia,-17.789997,15.706292,0.0,,Government (General),South-West Africa People's Organization (SWAPO)
 198407170013,Lebanon,33.550434,35.370964,,,Religious Figures/Institutions,Sons of the South
-198407170014,Namibia,,,0.0,,Private Citizens & Property,South-West Africa People's Organization (SWAPO)
 198407170015,Colombia,6.242026,-75.564766,1.0,,Business,Popular Liberation Army (EPL)
-198407170016,Namibia,,,2.0,,Private Citizens & Property,South-West Africa People's Organization (SWAPO)
-198407180001,Peru,,,,,Religious Figures/Institutions,Shining Path (SL)
 198407180002,Peru,-13.132361,-74.333499,6.0,,Private Citizens & Property,Shining Path (SL)
 198407180003,Namibia,-18.623616,17.516841,0.0,,Business,Unknown
 198407180004,Peru,-13.868089,-73.667467,8.0,,Private Citizens & Property,Shining Path (SL)
@@ -2095,7 +1910,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198407190001,Somalia,9.556936,44.074135,0.0,,Government (General),Unknown
 198407190002,Chile,-33.366238,-70.505302,0.0,,Business,Unknown
 198407190003,El Salvador,13.69288,-89.199161,1.0,,Government (General),Farabundo Marti National Liberation Front (FMLN)
-198407190004,Peru,,,32.0,,Private Citizens & Property,Shining Path (SL)
 198407190005,Colombia,5.80299,-73.97168,1.0,,Government (General),Unknown
 198407190009,United States,39.150935,-123.207904,0.0,"07/19/1984: Twelve members of The Order took part in the robbery of a Brinks armored car, on California Highway 20, between U.S. Highway 101 and Lake Mendocino outside of Ukiah, California, in the United States, shortly after noon. In the midst of the robbery, the perpetrators, all but one, wearing bandannas over their faces, and one dressed in disguise as a woman, used a variety of firearms to stop the Brinks truck and its drivers and steal $3.6 million. During the event, one perpetrator held up a note, reading ""Get out or die"" (similar to the note used in the April 23 armored truck robbery in Seattle, Washington). Even though shots were fired, there were no injuries or casualties from the robbery. However, the tires of the Brinks truck were shot flat to stop it. Eventually, ten people were charged with the robbery.",Business,The Order (Silent Brotherhood)
 198407200001,South Africa,-29.861824,31.008293,0.0,,Transportation,Unknown
@@ -2108,20 +1922,16 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198407200008,Peru,-13.026337,-73.736794,30.0,,Private Citizens & Property,Shining Path (SL)
 198407210001,South Africa,-26.252697,27.870275,0.0,,Private Citizens & Property,African National Congress (South Africa)
 198407210002,Namibia,-19.248525,17.701463,0.0,,Private Citizens & Property,Unknown
-198407210003,India,,,0.0,,Unknown,Unknown
 198407210004,India,30.900965,75.857276,1.0,,Police,Sikh Extremists
 198407220001,Colombia,4.667128,-74.106056,3.0,,Police,Left-Wing Guerrillas
 198407220002,Colombia,8.78975,-76.34391,4.0,,Police,Popular Liberation Army (EPL)
-198407220003,Colombia,,,5.0,,Military,Popular Liberation Army (EPL)
 198407220004,Guatemala,14.691723,-92.121798,13.0,,Military,Revolutionary Organization of People in Arms (ORPA)
 198407220005,Nicaragua,11.06667,-85.1,21.0,,Military,Nicaraguan Democratic Force (FDN)
-198407220006,Peru,,,10.0,,Private Citizens & Property,Shining Path (SL)
 198407220007,Peru,-16.075556,-71.1775,,,Private Citizens & Property,Shining Path (SL)
 198407220008,Peru,-15.016994,-73.780419,6.0,,Police,Shining Path (SL)
 198407220009,Colombia,6.242026,-75.564766,0.0,,Government (Diplomatic),National Liberation Army of Colombia (ELN)
 198407220010,Colombia,4.667128,-74.106056,0.0,,Police,Left-Wing Guerrillas
 198407220011,Colombia,4.667128,-74.106056,0.0,,Police,Left-Wing Guerrillas
-198407230001,Peru,,,1.0,,Business,Shining Path (SL)
 198407230002,El Salvador,13.253889,-88.247778,,,Military,Farabundo Marti National Liberation Front (FMLN)
 198407230003,Peru,-12.787148,-74.973207,0.0,,Utilities,Shining Path (SL)
 198407240001,Sri Lanka,9.666399,80.020477,0.0,,Religious Figures/Institutions,Unknown
@@ -2134,7 +1944,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198407250004,Nicaragua,12.83543,-85.462486,40.0,,Military,Nicaraguan Democratic Force (FDN)
 198407250005,Nicaragua,13.564251,-86.02984,12.0,,Military,Nicaraguan Democratic Force (FDN)
 198407250006,Peru,-6.875968,-79.922097,,,Private Citizens & Property,Shining Path (SL)
-198407250007,Peru,,,4.0,,Private Citizens & Property,Shining Path (SL)
 198407250008,Peru,-11.918478,-75.312889,10.0,,Private Citizens & Property,Shining Path (SL)
 198407250009,Spain,43.365509,-2.503344,1.0,,Police,Basque Fatherland and Freedom (ETA)
 198407260001,Bolivia,-19.047937,-65.259541,0.0,,Government (General),Unknown
@@ -2164,7 +1973,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198407280001,Pakistan,34.006004,71.53743,6.0,,Terrorists/Non-State Militia,Unknown
 198407280002,Pakistan,33.703938,70.328651,6.0,,Private Citizens & Property,Unknown
 198407280003,Peru,-12.068306,-75.210163,0.0,,Utilities,Shining Path (SL)
-198407280004,Peru,,,0.0,,Police,Shining Path (SL)
 198407280005,Peru,-15.84065,-70.027891,0.0,,Private Citizens & Property,Unknown
 198407280006,Peru,-15.84065,-70.027891,0.0,,Private Citizens & Property,Unknown
 198407280007,Peru,-15.84065,-70.027891,0.0,,Private Citizens & Property,Unknown
@@ -2174,9 +1982,7 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198407280011,Peru,-10.371111,-77.320833,,,Utilities,Unknown
 198407280012,Nicaragua,11.95697,-84.39476,1.0,,Government (General),Nicaraguan Democratic Force (FDN)
 198407280013,Nicaragua,12.820224,-84.186631,1.0,,Private Citizens & Property,Nicaraguan Democratic Force (FDN)
-198407280014,Nicaragua,,,0.0,,Government (General),Nicaraguan Democratic Force (FDN)
 198407280015,Peru,-13.163874,-74.223564,9.0,,Private Citizens & Property,Shining Path (SL)
-198407280016,Peru,,,0.0,,Government (General),Unknown
 198407280017,Colombia,4.75923,-74.38032,,,Private Citizens & Property,M-19 (Movement of April 19)
 198407280018,South Africa,-29.75086,30.983353,0.0,,Police,African National Congress (South Africa)
 198407290001,Peru,-11.967368,-76.978462,0.0,,Police,Shining Path (SL)
@@ -2187,7 +1993,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198407290006,Peru,-12.787148,-74.973207,0.0,,Police,Shining Path (SL)
 198407290007,Peru,-12.787148,-74.973207,0.0,,Private Citizens & Property,Shining Path (SL)
 198407290008,Namibia,-19.248525,17.701463,0.0,,Business,Unknown
-198407290009,Venezuela,,,2.0,,Airports & Aircraft,Unknown
 198407290010,Colombia,4.667128,-74.106056,0.0,,Private Citizens & Property,M-19 (Movement of April 19)
 198407290011,El Salvador,13.8359,-88.347538,16.0,,Military,Farabundo Marti National Liberation Front (FMLN)
 198407290012,Peru,-13.152712,-74.218628,19.0,,Police,Shining Path (SL)
@@ -2197,7 +2002,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198407300003,Sri Lanka,9.666399,80.020477,0.0,,Government (General),Unknown
 198407300004,El Salvador,13.88694,-89.3175,,,Police,Farabundo Marti National Liberation Front (FMLN)
 198407300005,El Salvador,13.975556,-89.34,51.0,,Police,Farabundo Marti National Liberation Front (FMLN)
-198407300006,El Salvador,,,15.0,,Business,Farabundo Marti National Liberation Front (FMLN)
 198407310001,Angola,-8.838837,13.235582,,,Maritime,National Union for the Total Independence of Angola (UNITA)
 198407310002,France,48.856644,2.34233,0.0,,Airports & Aircraft,Guardsmen of Islam
 198408000001,Peru,-13.283133,-75.319238,0.0,,Government (General),Armed People
@@ -2207,22 +2011,16 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198408010002,El Salvador,13.69288,-89.199161,0.0,,Military,Farabundo Marti National Liberation Front (FMLN)
 198408010003,Guatemala,14.930957,-91.909924,,,Military,Revolutionary Organization of People in Arms (ORPA)
 198408010004,Peru,-12.577732,-74.885993,2.0,,Private Citizens & Property,Shining Path (SL)
-198408010005,Peru,,,8.0,,Private Citizens & Property,Shining Path (SL)
-198408010006,Peru,,,13.0,,Private Citizens & Property,Shining Path (SL)
 198408010007,United States,39.758968,-104.876305,0.0,"08/01/1984: A Hare Krishna temple was firebombed in Denver, Colorado, United States, causing $200,000 in damage. There were no casualties in the incident. Edward Flinton and James Williams, members of the Al-Fuqra Muslin sect, was arrested, charged with arson, and indicted for the crime years later.",Religious Figures/Institutions,Jamaat-al-Fuqra
-198408020001,Peru,,,,,Utilities,Shining Path (SL)
 198408020002,France,48.856644,2.34233,0.0,,Government (General),Action Directe
 198408020003,India,13.08268,80.270718,31.0,,Airports & Aircraft,Unknown
 198408020004,El Salvador,13.701964,-89.147774,1.0,,Business,Unknown
 198408030001,Chile,-33.616667,-70.566667,,,Military,Unknown
-198408030002,Colombia,,,2.0,,Military,Revolutionary Armed Forces of Colombia (FARC)
 198408030003,Jordan,31.950001,35.933331,0.0,,Government (Diplomatic),Unknown
 198408040001,Argentina,-31.399301,-64.182129,0.0,,Private Citizens & Property,Unknown
-198408040002,Peru,,,3.0,,Private Citizens & Property,Shining Path (SL)
 198408040003,Peru,-15.730446,-72.108012,4.0,,Private Citizens & Property,Shining Path (SL)
 198408040004,Peru,-13.589138,-73.995184,,,Police,Shining Path (SL)
 198408040005,Peru,-13.116609,-73.690409,17.0,,Military,Shining Path (SL)
-198408040006,Peru,,,37.0,,Private Citizens & Property,Shining Path (SL)
 198408050001,Chile,-33.366238,-70.505302,0.0,,Business,Unknown
 198408050002,Colombia,2.95485,-76.26825,1.0,,Military,M-19 (Movement of April 19)
 198408050003,Spain,36.509937,-4.886352,1.0,,Journalists & Media,Hezbollah
@@ -2267,7 +2065,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198408080001,South Africa,-29.861824,31.008293,1.0,,Police,Unknown
 198408080002,Chile,-36.748146,-73.11232,,,Utilities,Unknown
 198408080003,Chile,-32.924017,-71.523669,0.0,,Utilities,Unknown
-198408080004,Iran,,,0.0,,Airports & Aircraft,Unknown
 198408080005,India,31.147131,75.341218,1.0,,Private Citizens & Property,Sikh Extremists
 198408080006,Peru,-10.466304,-76.536901,3.0,,Private Citizens & Property,Shining Path (SL)
 198408080007,El Salvador,14.316514,-89.171394,,,Military,Farabundo Marti National Liberation Front (FMLN)
@@ -2277,7 +2074,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198408080011,El Salvador,13.414441,-88.343627,7.0,,Military,Farabundo Marti National Liberation Front (FMLN)
 198408080012,Nicaragua,12.992778,-86.030278,3.0,,Military,Nicaraguan Democratic Force (FDN)
 198408080013,Peru,-14.116667,-74.183333,,,Private Citizens & Property,Shining Path (SL)
-198408080014,Peru,,,25.0,,Private Citizens & Property,Shining Path (SL)
 198408080015,Peru,-13.465036,-74.100446,26.0,,Private Citizens & Property,Shining Path (SL)
 198408080016,Peru,-13.610792,-74.532225,25.0,,Private Citizens & Property,Shining Path (SL)
 198408080017,United Kingdom,54.183052,-6.341388,1.0,,Terrorists/Non-State Militia,Irish Republican Army (IRA)
@@ -2303,16 +2099,12 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198408100011,Colombia,7.116294,-73.120026,1.0,,Violent Political Party,Right-wing extremists
 198408100013,Nicaragua,13.031591,-85.641009,8.0,,Private Citizens & Property,Nicaraguan Democratic Force (FDN)
 198408100014,Nicaragua,12.992574,-86.030252,9.0,,Military,Nicaraguan Democratic Force (FDN)
-198408100015,Peru,,,,,Private Citizens & Property,Narco-Terrorists
-198408100016,Peru,,,,,Private Citizens & Property,Narco-Terrorists
 198408100017,Peru,-8.791667,-76.249722,,,Private Citizens & Property,Narco-Terrorists
 198408100018,Peru,-8.486605,-76.387603,,,Private Citizens & Property,Narco-Terrorists
 198408100019,Peru,-8.748752,-76.223882,,,Private Citizens & Property,Narco-Terrorists
 198408110001,Belgium,50.836426,4.367415,0.0,,Government (Diplomatic),Unknown
 198408110002,Sri Lanka,9.666399,80.020477,19.0,,Police,Unknown
-198408110003,Sri Lanka,,,0.0,,Military,Unknown
 198408110004,Sri Lanka,8.980118,79.912462,6.0,,Military,Tamils
-198408110005,Sri Lanka,,,2.0,,Food or Water Supply,Unknown
 198408110006,Peru,-13.849845,-73.950661,26.0,,Police,Shining Path (SL)
 198408110007,Colombia,3.583748,-76.495727,17.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
 198408120001,Namibia,-17.789997,15.706292,3.0,,Private Citizens & Property,Unknown
@@ -2326,11 +2118,8 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198408130003,Chile,-33.366238,-70.505302,,,Police,Unknown
 198408130004,France,45.764043,4.835659,0.0,,Transportation,Armenian Secret Army for the Liberation of Armenia
 198408130005,Sri Lanka,9.697894,79.860483,5.0,,Police,Separatists
-198408130006,Chile,,,0.0,,Business,Manuel Rodriguez Patriotic Front (FPMR)
-198408130007,Chile,,,0.0,,Business,Unknown
 198408130008,Chile,-33.010693,-71.527794,,,Transportation,Movement of the Revolutionary Left (MIR) (Chile)
 198408130009,Colombia,3.6498,-76.56866,5.0,,Military,M-19 (Movement of April 19)
-198408130010,Nicaragua,,,90.0,,Military,Nicaraguan Democratic Force (FDN)
 198408130011,Nicaragua,12.93157,-85.224113,,,Military,Nicaraguan Democratic Force (FDN)
 198408140001,Chile,-33.711352,-70.854819,,,Utilities,Unknown
 198408140002,Chile,-33.366238,-70.505302,,,Utilities,Unknown
@@ -2370,7 +2159,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198408160008,France,42.454816,2.635429,0.0,,Business,First of October Antifascist Resistance Group (GRAPO)
 198408160009,South Africa,-26.160098,27.872807,1.0,,Police,African National Congress (South Africa)
 198408160010,South Africa,-26.160098,27.872807,0.0,,Private Citizens & Property,African National Congress (South Africa)
-198408170001,Peru,,,0.0,,Transportation,Unknown
 198408170002,France,45.899217,6.129487,0.0,,Government (Diplomatic),M-5
 198408170003,France,43.2951,-0.370797,0.0,,Transportation,Red Patriots Group
 198408170004,Sri Lanka,9.666399,80.020477,0.0,,Government (General),Tamils
@@ -2379,23 +2167,18 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198408170007,Spain,38.518912,-0.912129,0.0,,Government (General),Unknown
 198408170008,Spain,38.843236,-0.117553,0.0,,Government (General),Unknown
 198408170010,Peru,-11.967368,-76.978462,0.0,,Government (General),Unknown
-198408170014,Peru,,,0.0,,Religious Figures/Institutions,Unknown
-198408170015,Peru,,,0.0,,Private Citizens & Property,Shining Path (SL)
 198408170020,South Africa,-26.252697,27.870275,1.0,,Police,African National Congress (South Africa)
 198408180001,France,45.188529,5.724524,0.0,,Transportation,M-5
 198408180002,Honduras,14.0833,-87.2167,0.0,,Airports & Aircraft,Unknown
 198408180003,Philippines,6.76949,122.447187,10.0,,Police,Moro National Liberation Front (MNLF)
 198408180004,El Salvador,13.43204,-88.592239,5.0,,Military,Farabundo Marti National Liberation Front (FMLN)
 198408180005,El Salvador,13.745556,-87.873611,12.0,,Military,Farabundo Marti National Liberation Front (FMLN)
-198408180006,Nicaragua,,,30.0,,Military,Nicaraguan Democratic Force (FDN)
-198408180007,Peru,,,7.0,,Private Citizens & Property,Shining Path (SL)
 198408190001,Colombia,2.535935,-75.52767,,,Business,Revolutionary Armed Forces of Colombia (FARC)
 198408190002,Spain,43.230556,-2.845833,0.0,,Police,Unknown
 198408190003,Lebanon,33.888523,35.503513,0.0,,Military,Unknown
 198408190004,Spain,43.325239,-3.011475,0.0,,Police,Basque Fatherland and Freedom (ETA)
 198408200001,United Kingdom,51.504387,-0.140041,1.0,,Business,Unknown
 198408200002,Nicaragua,13.333325,-85.372013,,,Military,Nicaraguan Democratic Force (FDN)
-198408200003,Nicaragua,,,,,Military,Nicaraguan Democratic Force (FDN)
 198408200004,Nicaragua,13.364485,-85.29338,250.0,,Military,Nicaraguan Democratic Force (FDN)
 198408200005,Peru,-13.796667,-73.988056,12.0,,Private Citizens & Property,Shining Path (SL)
 198408200006,Chile,-34.170331,-70.740822,,,Government (General),Unknown
@@ -2433,7 +2216,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198408240002,Spain,41.400635,2.150913,0.0,,Business,Basque Fatherland and Freedom (ETA)
 198408240003,Peru,-11.967368,-76.978462,0.0,,Private Citizens & Property,Unknown
 198408240004,Lebanon,33.888523,35.503513,0.0,,Government (Diplomatic),Lebanese National Resistance Front
-198408240005,India,,,0.0,,Airports & Aircraft,Sikh Extremists
 198408240006,Spain,42.815372,-1.653616,0.0,,Business,Basque Fatherland and Freedom (ETA)
 198408240007,Lebanon,33.888523,35.503513,0.0,,Government (Diplomatic),Lebanese National Resistance Front
 198408240008,Lebanon,33.888523,35.503513,0.0,,Government (Diplomatic),Shia Muslim extremists
@@ -2456,10 +2238,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198408250017,Colombia,2.584114,-75.451866,0.0,,Private Citizens & Property,M-19 (Movement of April 19)
 198408250018,Colombia,3.173882,-76.259454,0.0,,Private Citizens & Property,M-19 (Movement of April 19)
 198408250019,Nicaragua,12.90875,-85.951531,12.0,,Military,Nicaraguan Democratic Force (FDN)
-198408250020,Nicaragua,,,3.0,,Military,Nicaraguan Democratic Force (FDN)
-198408250021,Nicaragua,,,6.0,,Military,Nicaraguan Democratic Force (FDN)
-198408250022,Nicaragua,,,11.0,,Military,Nicaraguan Democratic Force (FDN)
-198408250023,Nicaragua,,,4.0,,Military,Nicaraguan Democratic Force (FDN)
 198408260001,France,41.918891,8.737554,0.0,,Government (General),Unknown
 198408260002,France,41.918891,8.737554,0.0,,Private Citizens & Property,Unknown
 198408260003,France,41.918891,8.737554,0.0,,Private Citizens & Property,Unknown
@@ -2519,9 +2297,7 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198408290004,France,41.883333,8.783333,0.0,,Police,Corsican National Liberation Front (FLNC)
 198408290005,France,41.883333,8.783333,0.0,,Business,Corsican National Liberation Front (FLNC)
 198408290006,Lebanon,33.888523,35.503513,0.0,,Journalists & Media,Revolutionary Organization of Socialist Muslims
-198408290007,Chile,,,0.0,,Government (General),Unknown
 198408290008,Chile,-33.366238,-70.505302,0.0,,Educational Institution,United Popular Action Movement
-198408290009,Colombia,,,4.0,,Private Citizens & Property,National Liberation Army of Colombia (ELN)
 198408290010,Peru,-15.818668,-69.968992,2.0,,Police,Shining Path (SL)
 198408290011,United States,44.831,-120.484,0.0,,Government (General),Rajneeshees
 198408300001,Bulgaria,43.216645,27.911806,,,Airports & Aircraft,Turks
@@ -2529,7 +2305,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198408300003,Peru,-13.79879,-72.072965,3.0,,Military,Shining Path (SL)
 198408300004,Peru,-11.967368,-76.978462,4.0,,Private Citizens & Property,Shining Path (SL)
 198408310001,Peru,-11.967368,-76.978462,1.0,,Police,Shining Path (SL)
-198408310002,Philippines,,,1.0,,Government (General),New People's Army (NPA)
 198408310003,Guatemala,14.791907,-91.71342,7.0,,Private Citizens & Property,Unknown
 198409000001,Angola,-12.590426,13.416202,,,Transportation,National Union for the Total Independence of Angola (UNITA)
 198409000002,Sri Lanka,8.757816,80.487907,,,Private Citizens & Property,Separatists
@@ -2556,10 +2331,7 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198409000023,Turkey,41.106178,28.689863,0.0,,Violent Political Party,Unknown
 198409000024,Turkey,41.106178,28.689863,0.0,,Violent Political Party,Unknown
 198409000025,Turkey,41.106178,28.689863,0.0,,Violent Political Party,Unknown
-198409000026,Peru,,,0.0,,Business,Tupac Amaru Revolutionary Movement (MRTA)
 198409000027,Colombia,10.981412,-74.778319,0.0,,Government (Diplomatic),Unknown
-198409000028,Peru,,,1.0,,Government (General),Shining Path (SL)
-198409000029,India,,,,,Business,Sikh Extremists
 198409000030,Peru,-6.875968,-79.922097,16.0,,Private Citizens & Property,Shining Path (SL)
 198409000031,Peru,-10.680652,-76.259918,0.0,,Private Citizens & Property,Shining Path (SL)
 198409000032,Iran,35.724533,51.40519,0.0,,Business,Unknown
@@ -2567,13 +2339,11 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198409010002,Colombia,1.851988,-76.046976,4.0,,Government (General),National Liberation Army of Colombia (ELN)
 198409010003,Nicaragua,13.7067,-86.25782,23.0,,Military,Nicaraguan Democratic Force (FDN)
 198409010004,Nicaragua,12.710919,-87.023859,50.0,,Military,Nicaraguan Democratic Force (FDN)
-198409010005,Nicaragua,,,10.0,,Telecommunication,Nicaraguan Democratic Force (FDN)
 198409020001,Lebanon,33.888523,35.503513,0.0,,Government (Diplomatic),Unknown
 198409020002,Argentina,-34.68631,-58.528473,0.0,,Military,Unknown
 198409020003,Argentina,-34.61768,-58.444435,0.0,,Military,Unknown
 198409020004,Nicaragua,11.683333,-84.95,,,Military,Nicaraguan Democratic Force (FDN)
 198409020005,Nicaragua,13.683333,-86.7,4.0,,Military,Nicaraguan Democratic Force (FDN)
-198409020006,Nicaragua,,,48.0,,Military,Misurasata Indian Organization
 198409020007,Peru,-13.062171,-73.942034,15.0,,Private Citizens & Property,Shining Path (SL)
 198409030001,Turkey,41.106178,28.689863,2.0,,Government (General),Justice Commandos for the Armenian Genocide
 198409030002,South Africa,-26.184113,28.033232,0.0,,Government (General),Unknown
@@ -2636,10 +2406,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198409060004,Chile,-33.366238,-70.505302,0.0,,Transportation,Unknown
 198409060005,Chile,-33.366238,-70.505302,0.0,,Transportation,Unknown
 198409060006,Chile,-33.366238,-70.505302,0.0,,Transportation,Unknown
-198409060007,Nicaragua,,,,,Private Citizens & Property,Nicaraguan Democratic Force (FDN)
-198409060008,Nicaragua,,,,,Private Citizens & Property,Nicaraguan Democratic Force (FDN)
-198409060009,Nicaragua,,,,,Private Citizens & Property,Nicaraguan Democratic Force (FDN)
-198409060010,Nicaragua,,,20.0,,Military,Nicaraguan Democratic Force (FDN)
 198409070001,Nicaragua,12.43257,-86.881204,0.0,,Government (General),Unknown
 198409070002,United Kingdom,54.50853,-6.763131,2.0,,Business,Irish Republican Army (IRA)
 198409070003,Nicaragua,11.595154,-83.659065,,,Government (General),Nicaraguan Democratic Force (FDN)
@@ -2648,28 +2414,21 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198409070006,Peru,-11.967368,-76.978462,2.0,,Military,Shining Path (SL)
 198409070008,United States,29.813822,-95.365295,0.0,"9/7/1984:  In a series of incidents that might have been related, unknown perpetrators threw a Molotov cocktail into the West Loop Clinic in Houston, Texas, United States. There were no casualties but the abortion clinic sustained $90,000 in damages.",Abortion Related,Anti-Abortion extremists
 198409070009,United States,29.813822,-95.365295,0.0,"9/7/1984: In a series of incidents that might have been related, unknown perpetrators threw a Molotov cocktail into the Women's Outpatient Clinic in Houston, Texas, United States. There were no casualties, but the health care facility sustained $10,000 in damages.",Abortion Related,Anti-Abortion extremists
-198409080001,Iran,,,0.0,,Airports & Aircraft,Iranian Monarchists
 198409080002,Nicaragua,10.892093,-84.78599,,,Military,Nicaraguan Democratic Force (FDN)
 198409080003,Nicaragua,13.112743,-84.186071,16.0,,Military,Nicaraguan Democratic Force (FDN)
 198409080004,United States,29.813822,-95.365295,0.0,"9/8/1984: Unknown perpetrators failed in their attempts to ignite a fire at the Concerned Women's Center Care Clinic in Houston, Texas, United States.",Abortion Related,Anti-Abortion extremists
 198409090001,Peru,-11.967368,-76.978462,1.0,,Police,Shining Path (SL)
-198409090002,Peru,,,18.0,,Private Citizens & Property,Shining Path (SL)
-198409090003,Peru,,,18.0,,Private Citizens & Property,Shining Path (SL)
 198409090004,United States,45.601555,-121.183434,0.0,,Business,Rajneeshees
 198409090005,United States,29.533365,-95.119139,0.0,"9/9/1984: An unidentified male perpetrator attempted to bomb the Clear Lake Women's Center in Webster, Texas, United States. However, the bomb malfunctioned so he attempted to set the facility on fire. There were no casualties but the building was damaged.",Abortion Related,Anti-Abortion extremists
 198409100001,Sri Lanka,9.267091,80.814248,9.0,,Military,Tamils
-198409100002,Nicaragua,,,27.0,,Military,Misurasata Indian Organization
 198409100003,Peru,-12.738612,-74.386982,,,Private Citizens & Property,Shining Path (SL)
 198409100004,Peru,-12.983333,-74.183333,17.0,,Private Citizens & Property,Shining Path (SL)
 198409110001,Netherlands,52.370216,4.895168,0.0,,Private Citizens & Property,Koetoh Reh
 198409110002,Sri Lanka,6.941837,79.861687,16.0,,Transportation,Unknown
 198409110003,United Kingdom,55.011562,-7.312045,0.0,,Police,Unknown
-198409110004,El Salvador,,,4.0,,Military,Farabundo Marti National Liberation Front (FMLN)
 198409110005,El Salvador,13.79833,-89.17889,1.0,,Military,Farabundo Marti National Liberation Front (FMLN)
 198409110006,Guatemala,16.783116,-90.116653,10.0,,Military,Unknown
 198409110007,Nicaragua,13.130707,-85.971684,12.0,,Military,Nicaraguan Democratic Force (FDN)
-198409110008,Nicaragua,,,15.0,,Military,Nicaraguan Democratic Force (FDN)
-198409110009,Nicaragua,,,,,Military,Nicaraguan Democratic Force (FDN)
 198409110010,Nicaragua,13.611277,-84.866885,46.0,,Utilities,Nicaraguan Democratic Force (FDN)
 198409110011,Nicaragua,13.83759,-86.13571,20.0,,Military,Misurasata Indian Organization
 198409110012,Nicaragua,14.233737,-83.538859,,,Military,Misurasata Indian Organization
@@ -2680,7 +2439,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198409120002,Peru,-11.967368,-76.978462,0.0,,Utilities,Unknown
 198409120003,Chile,-33.366238,-70.505302,0.0,,Transportation,Unknown
 198409120004,India,31.326015,75.576183,2.0,,Business,Sikh Extremists
-198409120005,Iran,,,0.0,,Airports & Aircraft,Mujahedin-e Khalq (MEK)
 198409120006,India,31.8186,75.2028,14.0,,Transportation,Sikh Extremists
 198409120007,Colombia,2.535935,-75.52767,3.0,,Business,Revolutionary Armed Forces of Colombia (FARC)
 198409120008,Colombia,7.060051,-73.853115,,,Government (General),Revolutionary Armed Forces for the Liberation of Colombia (FALCO)
@@ -2699,11 +2457,9 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198409140001,South Africa,-26.095841,27.758589,0.0,,Government (General),Unknown
 198409140002,Spain,36.509937,-4.886352,1.0,,Private Citizens & Property,Unknown
 198409140003,Peru,-11.967368,-76.978462,0.0,,Government (General),Shining Path (SL)
-198409140004,Peru,,,8.0,,Private Citizens & Property,Shining Path (SL)
 198409140005,West Bank and Gaza Strip,31.278791,34.256435,1.0,,Government (General),Palestine Liberation Organization (PLO)
 198409150001,Venezuela,10.482834,-66.962128,0.0,,Journalists & Media,Unknown
 198409150002,Venezuela,10.228165,-67.472451,0.0,,Journalists & Media,Red Flag (Venezuela)
-198409150003,Peru,,,10.0,,Private Citizens & Property,Shining Path (SL)
 198409160001,Colombia,7.440534,-77.118906,6.0,,Military,Unknown
 198409160002,Nicaragua,13.62679,-85.8254,93.0,,Military,Nicaraguan Democratic Force (FDN)
 198409160003,Peru,-6.875968,-79.922097,16.0,,Private Citizens & Property,Shining Path (SL)
@@ -2715,7 +2471,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198409170005,West Bank and Gaza Strip,31.995965,35.27111,0.0,,Transportation,Martyrs Halim Group
 198409170006,Peru,-12.784314,-74.205459,15.0,,Private Citizens & Property,Shining Path (SL)
 198409170007,Guatemala,14.622869,-90.529068,1.0,,Government (General),Unknown
-198409180001,El Salvador,,,0.0,,Military,Farabundo Marti National Liberation Front (FMLN)
 198409180002,France,48.856644,2.34233,0.0,,Telecommunication,Corsican National Liberation Front (FLNC)
 198409180003,France,48.856644,2.34233,0.0,,Religious Figures/Institutions,Corsican National Liberation Front (FLNC)
 198409180004,France,48.856644,2.34233,0.0,,Government (General),Corsican National Liberation Front (FLNC)
@@ -2763,8 +2518,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198409240001,Portugal,38.644959,-8.215425,0.0,,Private Citizens & Property,Popular Forces of April 25
 198409240002,Portugal,38.644959,-8.215425,0.0,,Private Citizens & Property,Popular Forces of April 25
 198409240003,Portugal,38.644959,-8.215425,0.0,,Private Citizens & Property,Popular Forces of April 25
-198409240004,Philippines,,,5.0,,Government (General),New People's Army (NPA)
-198409240005,Nicaragua,,,8.0,,Military,Nicaraguan Democratic Force (FDN)
 198409250001,Argentina,-32.890272,-68.844034,0.0,,Private Citizens & Property,Unknown
 198409250002,Argentina,-32.890272,-68.844034,0.0,,Business,Unknown
 198409250003,Argentina,-32.890272,-68.844034,0.0,,Business,Unknown
@@ -2801,7 +2554,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198409270009,Chile,-33.583333,-70.7,0.0,,Private Citizens & Property,Movement of the Revolutionary Left (MIR) (Chile)
 198409270010,Chile,-33.583333,-70.7,0.0,,Educational Institution,Movement of the Revolutionary Left (MIR) (Chile)
 198409270011,Peru,-12.916667,-73.833333,,,Military,Shining Path (SL)
-198409270012,Peru,,,15.0,,Private Citizens & Property,Shining Path (SL)
 198409270013,Peru,-6.875968,-79.922097,,,Private Citizens & Property,Shining Path (SL)
 198409270014,Bangladesh,23.964478,90.573071,1.0,,Government (General),Unknown
 198409270015,El Salvador,13.957222,-89.189722,5.0,,Military,Farabundo Marti National Liberation Front (FMLN)
@@ -2832,7 +2584,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198410010004,Peru,-9.392394,-76.72004,5.0,,Private Citizens & Property,Shining Path (SL)
 198410010005,Peru,-9.392394,-76.72004,5.0,,Private Citizens & Property,Shining Path (SL)
 198410020001,Belgium,50.836426,4.367415,0.0,,Business,Communist Combattant Cells (CCC) (Belgium)
-198410020002,Ecuador,,,0.0,,Government (General),Unknown
 198410020003,Turkey,37.570214,44.282316,3.0,,Police,Kurdish Rebels
 198410020004,Colombia,2.38855,-75.546796,6.0,,Military,M-19 (Movement of April 19)
 198410020005,El Salvador,14.09396,-88.889278,7.0,,Military,Farabundo Marti National Liberation Front (FMLN)
@@ -2858,7 +2609,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198410040015,France,45.764043,4.835659,0.0,,Business,Corsican National Liberation Front (FLNC)
 198410040016,Namibia,-18.623616,17.516841,0.0,,Food or Water Supply,Unknown
 198410040017,Colombia,7.987804,-75.197092,1.0,,Business,Revolutionary Armed Forces of Colombia (FARC)
-198410040018,Lebanon,,,0.0,,Military,Shia Muslim extremists
 198410040019,Chile,-33.366238,-70.505302,0.0,,Utilities,Unknown
 198410040020,Chile,-33.366238,-70.505302,0.0,,Transportation,Unknown
 198410040021,India,31.633078,74.878288,0.0,,Private Citizens & Property,Sikh Extremists
@@ -2875,7 +2625,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198410080004,Peru,-11.967368,-76.978462,0.0,,Business,Shining Path (SL)
 198410080005,Peru,-11.967368,-76.978462,0.0,,Food or Water Supply,Shining Path (SL)
 198410080006,Japan,34.626864,135.600978,0.0,,Police,Chukakuha (Middle Core Faction)
-198410080007,Iran,,,0.0,,Airports & Aircraft,Unknown
 198410080008,Argentina,-38.951872,-68.059079,0.0,,Military,Unknown
 198410080009,Nicaragua,12.71321,-86.511845,2.0,,Military,Nicaraguan Democratic Force (FDN)
 198410080010,Argentina,-38.951872,-68.059079,0.0,,Military,Unknown
@@ -2903,10 +2652,8 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198410110003,Colombia,7.08582,-70.75779,,,Business,National Liberation Army of Colombia (ELN)
 198410110004,Nicaragua,13.131923,-86.345742,,,Private Citizens & Property,Nicaraguan Democratic Force (FDN)
 198410120001,Colombia,8.749996,-75.883346,0.0,,Transportation,Unknown
-198410120002,Colombia,,,,,Business,National Liberation Army of Colombia (ELN)
 198410120003,Ireland,53.292272,-6.136026,1.0,,Business,Unknown
 198410120004,United Kingdom,50.819522,-0.13642,4.0,,Government (General),Irish Republican Army (IRA)
-198410120005,Nicaragua,,,38.0,,Military,Nicaraguan Democratic Force (FDN)
 198410130001,Malta,35.860278,14.381389,0.0,,Government (General),Unknown
 198410130002,Turkey,41.212778,36.895278,3.0,,Private Citizens & Property,Kurdish guerrillas
 198410130003,Turkey,37.002515,35.322291,1.0,,Police,Separatist Clandestine Organization
@@ -2918,7 +2665,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198410150002,Portugal,38.725299,-9.150036,0.0,,Business,Popular Forces of April 25
 198410150003,Portugal,38.725299,-9.150036,0.0,,Business,Popular Forces of April 25
 198410150004,West Bank and Gaza Strip,32.222271,35.253506,0.0,,Private Citizens & Property,Unknown
-198410150005,Philippines,,,10.0,,Police,Communists
 198410150006,Portugal,41.149968,-8.610243,0.0,,Business,Popular Forces of April 25
 198410150007,Portugal,38.725299,-9.150036,0.0,,Business,Popular Forces of April 25
 198410150009,United States,40.778829,-124.135167,0.0,"10/15/1984: Unknown perpetrators ignited a fire at the rear of the Planned Parenthood Association of Humboldt County in Eureka, California, United States. There were no casualties,  but the abortion clinic sustained minor damage.",Abortion Related,Anti-Abortion extremists
@@ -2961,9 +2707,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198410210001,France,48.847647,2.208115,0.0,,Business,Action Directe
 198410210002,France,48.847647,2.208115,0.0,,Business,Action Directe
 198410210003,France,48.856644,2.34233,0.0,,Business,Unknown
-198410210004,Philippines,,,2.0,,Police,New People's Army (NPA)
-198410210005,Spain,,,1.0,,Police,Basque guerrillas
-198410210006,El Salvador,,,43.0,,Utilities,Unknown
 198410220001,Portugal,38.570983,-7.909602,0.0,,Private Citizens & Property,Popular Forces of April 25
 198410220002,Brazil,-30.034108,-51.217839,0.0,,Government (General),Unknown
 198410220003,Sri Lanka,6.941837,79.861687,3.0,,Private Citizens & Property,Tamils
@@ -2971,18 +2714,15 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198410220005,Chile,-53.154613,-70.916943,0.0,,Utilities,Extremists
 198410220006,Chile,-53.154613,-70.916943,0.0,,Utilities,Extremists
 198410220007,El Salvador,13.733353,-89.216671,,,Military,Farabundo Marti National Liberation Front (FMLN)
-198410220008,Nicaragua,,,16.0,,Military,Nicaraguan Democratic Force (FDN)
 198410220009,Nicaragua,13.16888,-85.97565,12.0,,Business,Nicaraguan Democratic Force (FDN)
 198410220010,Nicaragua,13.130707,-85.971684,,,Military,Nicaraguan Democratic Force (FDN)
 198410220011,Malta,35.89779,14.514106,0.0,,Religious Figures/Institutions,Unknown
-198410230001,Peru,,,8.0,,Private Citizens & Property,Shining Path (SL)
 198410230002,Peru,-13.796667,-73.988056,5.0,,Private Citizens & Property,Shining Path (SL)
 198410230003,Argentina,-34.68631,-58.528473,0.0,,Government (General),Unknown
 198410230004,Peru,-6.875968,-79.922097,1.0,,Government (General),Shining Path (SL)
 198410230005,Peru,-12.992377,-74.208394,1.0,,Private Citizens & Property,Shining Path (SL)
 198410230006,Peru,-12.992377,-74.208394,1.0,,Government (General),Shining Path (SL)
 198410230007,Nicaragua,13.403316,-86.692347,35.0,,Military,Nicaraguan Democratic Force (FDN)
-198410230008,Nicaragua,,,23.0,,Military,Nicaraguan Democratic Force (FDN)
 198410230009,Nicaragua,12.553675,-87.175399,,,Military,Nicaraguan Democratic Force (FDN)
 198410230010,Nicaragua,12.5745,-86.04198,1.0,,Military,Nicaraguan Democratic Force (FDN)
 198410230011,Nicaragua,13.062052,-85.032064,0.0,,Government (General),Nicaraguan Democratic Force (FDN)
@@ -2990,7 +2730,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198410230013,Nicaragua,13.458317,-86.398527,,,Military,Nicaraguan Democratic Force (FDN)
 198410230014,El Salvador,13.89271,-88.043983,14.0,,Military,Farabundo Marti National Liberation Front (FMLN)
 198410240001,Lebanon,33.888523,35.503513,0.0,,Private Citizens & Property,Unknown
-198410240002,Peru,,,1.0,,Private Citizens & Property,Shining Path (SL)
 198410240003,Peru,-11.967368,-76.978462,3.0,,Unknown,Shining Path (SL)
 198410240004,El Salvador,13.69288,-89.199161,,,Police,Farabundo Marti National Liberation Front (FMLN)
 198410250001,India,28.690073,77.213982,0.0,,Business,Unknown
@@ -3052,10 +2791,8 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198410300004,Guatemala,14.622869,-90.529068,0.0,,Educational Institution,Unknown
 198410300005,Chile,-33.366238,-70.505302,0.0,,Government (General),Commandos
 198410300006,Nicaragua,14.233737,-83.538859,21.0,,Private Citizens & Property,Misurasata Indian Organization
-198410310001,West Germany (FRG),,,0.0,,Utilities,Gruppe Haw Weg Den Scheiss
 198410310002,India,28.585836,77.153336,1.0,,Government (General),Sikh Extremists
 198410310003,United Kingdom,54.607712,-5.95621,1.0,,Private Citizens & Property,Ulster Volunteer Force (UVF)
-198410310004,Peru,,,3.0,,Business,Shining Path (SL)
 198410310005,El Salvador,13.6,-88.85,4.0,,Military,Farabundo Marti National Liberation Front (FMLN)
 198410310006,Chile,-33.366238,-70.505302,0.0,,Government (General),Unknown
 198411000001,Lebanon,33.550434,35.370964,1.0,,Military,Guerrillas
@@ -3096,21 +2833,17 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198411050009,Peru,-11.967368,-76.978462,1.0,,Police,Shining Path (SL)
 198411050010,Peru,-12.4095,-73.908011,,,Military,Shining Path (SL)
 198411050011,Nicaragua,13.316667,-85.3,111.0,,Military,Democratic Revolutionary Alliance (ARDE)
-198411050012,Peru,,,0.0,,Utilities,Shining Path (SL)
 198411060001,Peru,-11.967368,-76.978462,,,Government (General),Shining Path (SL)
 198411060002,Chile,-33.366238,-70.505302,0.0,,Utilities,Unknown
-198411060003,Saudi Arabia,,,0.0,,Airports & Aircraft,Yemenis
 198411060004,Saudi Arabia,21.543155,39.174905,0.0,,Airports & Aircraft,Yemenis
 198411060005,Spain,43.34271,-1.75897,1.0,,Terrorists/Non-State Militia,Basque Separatists
 198411060006,Chile,-33.366238,-70.505302,0.0,,Transportation,Unknown
 198411060007,El Salvador,13.7,-88.1,12.0,,Telecommunication,Farabundo Marti National Liberation Front (FMLN)
 198411060008,Nicaragua,13.617045,-86.278529,32.0,,Military,Nicaraguan Democratic Force (FDN)
-198411060009,Nicaragua,,,,,Private Citizens & Property,Nicaraguan Democratic Force (FDN)
 198411060010,Nicaragua,12.298125,-86.596842,,,Private Citizens & Property,Nicaraguan Democratic Force (FDN)
 198411060011,Venezuela,10.482834,-66.962128,0.0,,Private Citizens & Property,Unknown
 198411070001,Peru,-10.077544,-76.629295,,,Police,Shining Path (SL)
 198411070002,Peru,-11.967368,-76.978462,1.0,,Telecommunication,Shining Path (SL)
-198411070003,Peru,,,7.0,,Private Citizens & Property,Shining Path (SL)
 198411070004,Peru,-9.929478,-76.239738,6.0,,Private Citizens & Property,Shining Path (SL)
 198411070005,Peru,-10.077544,-76.629295,2.0,,Government (General),Shining Path (SL)
 198411070006,Peru,-10.023409,-76.680157,2.0,,Government (General),Shining Path (SL)
@@ -3118,7 +2851,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198411080001,Turkey,37.935547,41.936827,9.0,,Private Citizens & Property,Unknown
 198411080002,El Salvador,13.491242,-88.173134,12.0,,Military,Farabundo Marti National Liberation Front (FMLN)
 198411080003,El Salvador,13.645096,-88.783071,3.0,,Transportation,Farabundo Marti National Liberation Front (FMLN)
-198411080004,Spain,,,1.0,,Private Citizens & Property,Basque Fatherland and Freedom (ETA)
 198411090001,Peru,-13.135953,-74.410109,2.0,,Private Citizens & Property,Shining Path (SL)
 198411090002,Sri Lanka,9.666399,80.020477,5.0,,Military,Unknown
 198411090003,Zimbabwe,-22.216776,30.000044,1.0,,Government (General),Unknown
@@ -3137,7 +2869,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198411110003,Colombia,3.00879,-76.4859,1.0,,Religious Figures/Institutions,Death Squad
 198411110004,Nicaragua,11.13685,-85.354451,63.0,,Military,Democratic Revolutionary Alliance (ARDE)
 198411110005,Nicaragua,11.1488,-85.33946,,,Military,Democratic Revolutionary Alliance (ARDE)
-198411110006,Nicaragua,,,1.0,,Business,Democratic Revolutionary Alliance (ARDE)
 198411110007,Colombia,7.376579,-72.64831,0.0,,Business,National Liberation Army of Colombia (ELN)
 198411110008,United States,29.813822,-95.365295,0.0,"11/11/1984: Unknown perpetrators set fire to the Colored Women's Center at Alameda Medical Square in Houston, Texas, United States. There were no casualties, but the abortion clinic sustained $400,000 in damages.",Abortion Related,Anti-Abortion extremists
 198411120001,Austria,48.208174,16.373819,0.0,,Airports & Aircraft,Unknown
@@ -3151,7 +2882,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198411130005,Chile,-36.816006,-73.037659,,,Business,Unknown
 198411130006,Chile,-36.816006,-73.037659,,,Business,Unknown
 198411130007,Chile,-36.816006,-73.037659,,,Business,Unknown
-198411130008,Chile,,,,,Utilities,Unknown
 198411130009,Chile,-34.986003,-71.241549,,,Business,Unknown
 198411130010,Chile,-34.170331,-70.740822,0.0,,Utilities,Unknown
 198411130011,Chile,-36.816006,-73.037659,,,Utilities,Movement of the Revolutionary Left (MIR) (Chile)
@@ -3163,14 +2893,12 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198411130017,El Salvador,13.447063,-88.556531,0.0,,Business,Farabundo Marti National Liberation Front (FMLN)
 198411130018,El Salvador,13.491242,-88.173134,,,Utilities,Farabundo Marti National Liberation Front (FMLN)
 198411130019,El Salvador,13.491242,-88.173134,,,Utilities,Farabundo Marti National Liberation Front (FMLN)
-198411130020,Peru,,,15.0,,Private Citizens & Property,Shining Path (SL)
 198411130021,Peru,-13.517999,-72.574661,3.0,,Private Citizens & Property,Shining Path (SL)
 198411130022,Peru,-9.32505,-77.561942,12.0,,Police,Shining Path (SL)
 198411130023,Peru,-11.967368,-76.978462,20.0,,Private Citizens & Property,Shining Path (SL)
 198411130024,El Salvador,13.420304,-88.571307,,,Military,Farabundo Marti National Liberation Front (FMLN)
 198411130025,El Salvador,13.43204,-88.592239,25.0,,Military,Farabundo Marti National Liberation Front (FMLN)
 198411130026,Nicaragua,12.933056,-86.348611,,,Military,Nicaraguan Democratic Force (FDN)
-198411130027,Nicaragua,,,,,Military,Nicaraguan Democratic Force (FDN)
 198411130028,Chile,-33.050125,-71.612251,0.0,,Utilities,Movement of the Revolutionary Left (MIR) (Chile)
 198411130029,Chile,-33.050125,-71.612251,0.0,,Utilities,Movement of the Revolutionary Left (MIR) (Chile)
 198411130030,Chile,-34.170331,-70.740822,0.0,,Police,Movement of the Revolutionary Left (MIR) (Chile)
@@ -3184,7 +2912,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198411140005,Peru,-11.967368,-76.978462,1.0,,Police,Shining Path (SL)
 198411140006,Philippines,6.929089,122.07885,1.0,,Government (General),Unknown
 198411140007,Nicaragua,13.611277,-84.866885,,,Government (General),Nicaraguan Democratic Force (FDN)
-198411140008,Nicaragua,,,0.0,,Government (General),Nicaraguan Democratic Force (FDN)
 198411140009,Colombia,7.060051,-73.853115,0.0,,Business,National Liberation Army of Colombia (ELN)
 198411150002,Zimbabwe,-20.079191,30.838409,2.0,,Government (General),Unknown
 198411160001,Lebanon,33.861984,35.489986,0.0,,Government (Diplomatic),September 17 Organization
@@ -3207,14 +2934,12 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198411170011,Philippines,7.083241,125.600998,1.0,,Business,Unknown
 198411170012,Philippines,7.083241,125.600998,1.0,,Private Citizens & Property,Unknown
 198411180001,Spain,43.258434,-2.921819,0.0,,Business,Basque Fatherland and Freedom (ETA)
-198411180002,Sri Lanka,,,0.0,,Police,Tamils
 198411180003,Peru,-9.037801,-76.952581,0.0,,Private Citizens & Property,Unknown
 198411180004,Sri Lanka,9.783333,80.033333,1.0,,Military,Separatists
 198411180005,New Caledonia,-20.666105,164.397543,0.0,,Private Citizens & Property,Kanak Socialist National Liberation Front
 198411190001,Philippines,6.050458,121.012245,0.0,,Private Citizens & Property,Muslim Separatists
 198411190002,El Salvador,13.996389,-89.255278,1.0,,Military,Farabundo Marti National Liberation Front (FMLN)
 198411190003,Guatemala,15.519717,-91.188243,12.0,,Military,Unknown
-198411190004,Nicaragua,,,50.0,,Military,Nicaraguan Democratic Force (FDN)
 198411190005,Austria,48.208174,16.373819,1.0,,Government (Diplomatic),Justice Commandos for the Armenian Genocide
 198411190007,United States,39.081665,-77.15124,0.0,"11/19/1984: In a series of two attacks, Kenneth Shields, Thomas Spinks, and Michael Donald Bray bombed the Randolph Medical Clinic in Rockville, Maryland, United States. There were no casualties, but the abortion facility sustained $50,000 in damages.",Abortion Related,Army of God
 198411190008,United States,39.04303,-77.051003,0.0,"11/19/1984: In a series of two attacks, Kenneth Shields, Thomas Spinks, and Michael Donald Bray bombed the Metropolitan Medical and Women's Center in Wheaton, Maryland, United States. There were no casualties, but the abortion facility was destroyed resulting in $500,000 in damages.",Abortion Related,Army of God
@@ -3222,13 +2947,10 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198411200002,Sri Lanka,9.659069,80.131693,29.0,,Police,Tamils
 198411200003,Peru,-5.197037,-80.626621,0.0,,Government (Diplomatic),Shining Path (SL)
 198411200004,Peru,-5.197037,-80.626621,0.0,,Government (General),Shining Path (SL)
-198411200005,Angola,,,4.0,,Private Citizens & Property,Unknown
 198411200006,Colombia,6.898522,-76.17332,3.0,,Private Citizens & Property,Unknown
 198411200007,Peru,-12.684167,-72.64,1.0,,Government (General),Shining Path (SL)
 198411200008,El Salvador,13.933732,-89.025836,,,Military,Farabundo Marti National Liberation Front (FMLN)
 198411200009,El Salvador,13.83553,-88.985462,,,Military,Farabundo Marti National Liberation Front (FMLN)
-198411200010,Nicaragua,,,36.0,,Military,Nicaraguan Democratic Force (FDN)
-198411200011,Nicaragua,,,18.0,,Military,Nicaraguan Democratic Force (FDN)
 198411200012,Spain,43.258434,-2.921819,1.0,,Government (General),Anti-Terrorist Liberation Group (GAL)
 198411210001,Spain,40.465595,-3.696263,0.0,,Military,Basque Fatherland and Freedom (ETA)
 198411220001,Spain,43.258434,-2.921819,0.0,,Business,Basque Fatherland and Freedom (ETA)
@@ -3262,12 +2984,9 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198411250003,Greece,37.942843,23.646916,0.0,,Private Citizens & Property,Unknown
 198411250004,Portugal,38.725299,-9.150036,0.0,,Government (Diplomatic),Popular Forces of April 25
 198411250005,Colombia,2.178333,-76.7625,1.0,,Government (General),Unknown
-198411250006,Zimbabwe,,,1.0,,Violent Political Party,Unknown
 198411260001,Spain,43.291618,-1.977903,,,Business,Basque Fatherland and Freedom (ETA)
 198411260002,Chile,-33.366238,-70.505302,0.0,,Government (General),Unknown
 198411260003,El Salvador,13.344322,-88.437463,0.0,,Utilities,Farabundo Marti National Liberation Front (FMLN)
-198411260004,Peru,,,20.0,,Military,Shining Path (SL)
-198411260005,Peru,,,2.0,,Private Citizens & Property,Shining Path (SL)
 198411260006,Angola,-9.110788,13.686972,0.0,,Utilities,National Union for the Total Independence of Angola (UNITA)
 198411260007,Nicaragua,11.51324,-83.77986,,,Maritime,Democratic Revolutionary Alliance (ARDE)
 198411260008,Chile,-33.366238,-70.505302,,,Private Citizens & Property,Unknown
@@ -3285,10 +3004,8 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198411270011,India,19.075984,72.877656,1.0,,Government (General),Revolutionary Organization of Socialist Muslims
 198411280001,Argentina,-34.61768,-58.444435,0.0,,Private Citizens & Property,Unknown
 198411280002,Peru,-11.967368,-76.978462,0.0,,Government (Diplomatic),Unknown
-198411280003,Ecuador,,,0.0,,Government (General),Unknown
 198411280004,Israel,32.089161,34.88382,0.0,,Private Citizens & Property,Terrorists
 198411280005,Guatemala,14.622869,-90.529068,0.0,,Educational Institution,Unknown
-198411280006,Nicaragua,,,,,Private Citizens & Property,Democratic Revolutionary Alliance (ARDE)
 198411280007,Philippines,7.1075,125.9095,8.0,,Military,New People's Army (NPA)
 198411290001,Peru,-11.967368,-76.978462,0.0,,Educational Institution,Unknown
 198411290003,Greece,37.99749,23.762728,1.0,,Government (Diplomatic),Unknown
@@ -3299,11 +3016,8 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198411300003,New Caledonia,-21.612127,165.400966,0.0,,Private Citizens & Property,Kanak Socialist National Liberation Front
 198412000001,Iran,35.724533,51.40519,0.0,,Government (General),Unknown
 198412000002,Iran,35.724533,51.40519,0.0,,Government (General),Unknown
-198412000003,Peru,,,20.0,,Private Citizens & Property,Shining Path (SL)
-198412000004,Peru,,,20.0,,Private Citizens & Property,Shining Path (SL)
 198412000005,Sri Lanka,8.753956,80.501687,21.0,,Military,Tamils
 198412010002,Greece,37.99749,23.762728,0.0,,Government (General),Unknown
-198412010003,Philippines,,,33.0,,Military,New People's Army (NPA)
 198412010004,Sri Lanka,9.267091,80.814248,67.0,,Private Citizens & Property,Tamils
 198412010006,Sri Lanka,8.9984,80.951865,11.0,"12/01/1984: Sri Lankan armed rebels, suspected to be Liberation Tigers of Tamil Eelam (LTTE) cadres, massacred 11 Sinhalese civilians in the Kokkilai and Nayaru fishing villages, about 20 km south-east of Mullaitivu in the Northern Province of Sri Lanka. The raids followed attacks by separatist minority Tamils on two prison camps. It is unknown if any property damage resulted from the incident.",Private Citizens & Property,Liberation Tigers of Tamil Eelam (LTTE)
 198412020001,Sri Lanka,7.219392,81.849757,1.0,,Police,Tamils
@@ -3315,7 +3029,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198412030001,Peru,-11.967368,-76.978462,0.0,,Government (General),Shining Path (SL)
 198412030002,Peru,-11.967368,-76.978462,0.0,,Government (General),Shining Path (SL)
 198412030003,Peru,-11.967368,-76.978462,0.0,,Government (General),Shining Path (SL)
-198412030004,Sri Lanka,,,0.0,,Transportation,Tamil Eelam Liberation Organization (TELO)
 198412030005,Nicaragua,13.50363,-86.20454,29.0,,Business,Nicaraguan Democratic Force (FDN)
 198412030006,Nicaragua,12.96589,-86.231407,35.0,,Military,Nicaraguan Democratic Force (FDN)
 198412040001,Sri Lanka,8.980118,79.912462,1.0,,Military,Unknown
@@ -3344,9 +3057,7 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198412070002,Swaziland,-26.328746,31.143897,1.0,,Police,African National Congress (South Africa)
 198412070003,Chile,-33.366238,-70.505302,1.0,,Police,Movement of the Revolutionary Left (MIR) (Chile)
 198412070004,Chile,-33.366238,-70.505302,0.0,,Transportation,Unknown
-198412080001,Peru,,,0.0,,Journalists & Media,Tupac Amaru Revolutionary Movement (MRTA)
 198412080002,India,24.798346,93.94043,0.0,,Government (General),National Socialist Council of Nagaland
-198412080003,India,,,1.0,,Police,Extremists
 198412090001,France,48.856644,2.34233,0.0,,Government (General),Unknown
 198412090002,France,43.296482,5.36978,0.0,,Police,Corsican National Liberation Front (FLNC)
 198412090003,Portugal,38.725299,-9.150036,0.0,,Military,Popular Forces of April 25
@@ -3363,7 +3074,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198412110001,Belgium,50.41756,4.45101,0.0,,Utilities,Communist Combattant Cells (CCC) (Belgium)
 198412110002,South Africa,-29.861824,31.008293,0.0,,Transportation,Unknown
 198412110003,Philippines,7.447973,125.810009,12.0,,Military,New People's Army (NPA)
-198412110004,Nicaragua,,,,,Government (General),Democratic Revolutionary Alliance (ARDE)
 198412110005,El Salvador,14.004417,-88.895512,3.0,,Military,Farabundo Marti National Liberation Front (FMLN)
 198412110006,El Salvador,13.876944,-89.173556,7.0,,Military,Farabundo Marti National Liberation Front (FMLN)
 198412110007,Chile,-33.366238,-70.505302,0.0,,Business,Unknown
@@ -3384,8 +3094,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198412150001,Peru,-12.003379,-76.918423,0.0,,Transportation,Unknown
 198412150002,Peru,-12.788179,-74.359136,0.0,,Police,Shining Path (SL)
 198412150003,Peru,-14.290833,-73.966667,0.0,,Police,Shining Path (SL)
-198412150004,Philippines,,,1.0,,Government (General),New People's Army (NPA)
-198412150005,United Kingdom,,,0.0,,Private Citizens & Property,Animal Liberation Front (ALF)
 198412150006,Belgium,50.836426,4.367415,0.0,,Government (Diplomatic),Unknown
 198412160001,Peru,-12.7275,-74.125,5.0,,Military,Shining Path (SL)
 198412160002,Peru,-11.967368,-76.978462,13.0,,Private Citizens & Property,Shining Path (SL)
@@ -3397,7 +3105,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198412170006,Nicaragua,12.688718,-86.112515,,,Business,Nicaraguan Democratic Force (FDN)
 198412170007,United Kingdom,54.41295,-6.702064,0.0,,Military,Irish Republican Army (IRA)
 198412180001,Sri Lanka,7.733107,81.68882,9.0,,Police,Tamils
-198412180002,Peru,,,20.0,,Terrorists/Non-State Militia,Shining Path (SL)
 198412180003,Chile,-33.366238,-70.505302,0.0,,Journalists & Media,Manuel Rodriguez Patriotic Front (FPMR)
 198412180004,Spain,40.465595,-3.696263,,,Utilities,Basque Fatherland and Freedom (ETA)
 198412180005,West Germany (FRG),47.595895,11.065618,0.0,,Military,Red Army Faction (RAF)
@@ -3405,7 +3112,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198412190001,Spain,41.310882,-2.053553,0.0,,Utilities,Basque Fatherland and Freedom (ETA)
 198412190002,Spain,41.310882,-2.053553,0.0,,Utilities,Basque Fatherland and Freedom (ETA)
 198412190003,Spain,41.497858,-0.149284,,,Utilities,Basque Fatherland and Freedom (ETA)
-198412190004,Sri Lanka,,,43.0,,Military,Tamils
 198412190005,Peru,-12.787148,-74.973207,0.0,,Transportation,Shining Path (SL)
 198412190006,Peru,-12.787149,-74.973207,0.0,,Transportation,Shining Path (SL)
 198412190007,Chile,-33.366238,-70.505302,,,Government (General),Manuel Rodriguez Patriotic Front (FPMR)
@@ -3447,7 +3153,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198412250001,West Germany (FRG),51.964711,7.628498,0.0,,Government (Diplomatic),Unknown
 198412250002,Iran,35.724533,51.40519,6.0,,Business,Mujahedin-e Khalq (MEK)
 198412250003,Peru,-12.518418,-74.373658,15.0,,Private Citizens & Property,Shining Path (SL)
-198412250004,Nicaragua,,,,,Military,Misurasata Indian Organization
 198412250005,West Germany (FRG),48.490887,9.205843,0.0,,Government (General),Unknown
 198412250007,South Africa,-27.13241,31.998702,1.0,,Police,African National Congress (South Africa)
 198412250008,United States,30.420845,-87.217239,0.0,"12/25/1984: In a series of related attacks, Mathew Goldsby, James Simmons, Katherine Simmons, and Kaye Wiggins bombed a clinic owned by Doctor William Permenter, a gynecologists who performed abortions in Pensacola, Florida, United States. There were no casualties but the building sustained 100,000 in damages.",Abortion Related,Anti-Abortion extremists
@@ -3478,7 +3183,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198412290006,Jordan,31.950001,35.933331,1.0,,Terrorists/Non-State Militia,Black September II
 198412290007,Angola,-7.61837,15.721794,130.0,,Private Citizens & Property,National Union for the Total Independence of Angola (UNITA)
 198412290008,Lebanon,33.888523,35.503513,,,Private Citizens & Property,Armenian Secret Army for the Liberation of Armenia
-198412300001,Sri Lanka,,,0.0,,Transportation,Tamils
 198412300002,Peru,-11.495531,-77.207192,0.0,,Educational Institution,Shining Path (SL)
 198412300003,Peru,-13.27589,-73.875738,3.0,,Private Citizens & Property,Unknown
 198412300004,Chile,-33.366238,-70.505302,1.0,,Police,Manuel Rodriguez Patriotic Front (FPMR)
@@ -3493,4 +3197,3 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 198412310006,New Caledonia,-22.2758,166.458,0.0,,Business,Unknown
 198412310007,New Caledonia,-22.2758,166.458,0.0,,Private Citizens & Property,Unknown
 198412310008,Spain,43.178205,-2.31164,1.0,,Government (General),Basque terrorists
-198412310009,Nicaragua,,,6.0,,Military,Nicaraguan Democratic Force (FDN)

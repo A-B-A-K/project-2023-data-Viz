@@ -3,8 +3,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197600000002,Turkey,39.930771,32.76754,,,Military,Armenian Secret Army for the Liberation of Armenia
 197601000001,Portugal,38.725299,-9.150036,0.0,,Government (General),Unknown
 197601010001,West Germany (FRG),50.11797,8.644191,,,Government (Diplomatic),Unknown
-197601010002,United States,,,0.0,,Government (General),Arabs
-197601020001,Morocco,,,,,Private Citizens & Property,Polisario Front
 197601020002,Mexico,20.673343,-103.344177,2.0,,Police,23rd of September Communist League
 197601030001,Algeria,36.763763,3.055413,,,Journalists & Media,Unknown
 197601030002,West Germany (FRG),48.777106,9.180769,0.0,,Government (Diplomatic),Croatian Nationalists
@@ -20,7 +18,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197601100002,United States,37.755363,-122.443352,0.0,,Government (General),New World Liberation Front (NWLF)
 197601100003,United Kingdom,54.607712,-5.95621,1.0,,Private Citizens & Property,Ulster Volunteer Force (UVF)
 197601100004,United States,37.755363,-122.443352,0.0,,Government (General),New World Liberation Front (NWLF)
-197601110001,Spain,,,0.0,,Business,Basque Fatherland and Freedom (ETA)
 197601110002,United States,33.83276,-117.915719,0.0,,Private Citizens & Property,Unknown
 197601110003,Argentina,-34.61768,-58.444435,,,Police,Montoneros (Argentina)
 197601120001,West Germany (FRG),51.512054,7.463573,0.0,,Government (Diplomatic),Croatian Nationalists
@@ -74,14 +71,12 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197601310001,Mexico,19.371887,-99.086624,1.0,,Journalists & Media,23rd of September Communist League
 197602000001,Ireland,53.361675,-6.245485,,,Business,Irish Republican Army (IRA)
 197602000002,United Kingdom,53.480713,-2.234377,0.0,,Business,Irish Republican Army (IRA)
-197602000003,Turkey,,,,,Tourists,Armenian Secret Army for the Liberation of Armenia
 197602000004,Lebanon,33.888523,35.503513,,,Government (Diplomatic),Armenian Secret Army for the Liberation of Armenia
 197602010001,United States,37.755363,-122.443352,0.0,,Business,New World Liberation Front (NWLF)
 197602010002,United States,38.014411,-122.66847,0.0,,Utilities,New World Liberation Front (NWLF)
 197602010003,Argentina,-34.61768,-58.444435,,,Police,Montoneros (Argentina)
 197602010004,United States,37.755363,-122.443352,0.0,"02/01/1976: The New World Liberation (NWLF) Front bombed the car of a property landlord in San Francisco, California, United States, whose name appeared the next day on a letter, sent to the San Francisco Chronicle by NWLF members, with a list of slumlords and demands for dwellings to be brought up to standards with fire and safety codes. This occurred in conjunction with the attempted bombing of another slum landlord's home  on this same day (197602010001). There was damage to the car due to the blast, but no casualties resulted.",Private Citizens & Property,New World Liberation Front (NWLF)
 197602030001,Iran,36.32396,59.556959,1.0,,Police,Unknown
-197602030002,France,,,0.0,,Unknown,Front for the Liberation of the French Somali Coast
 197602040001,West Germany (FRG),49.45052,11.08048,0.0,,Transportation,Unknown
 197602040002,United States,37.55765,-120.913774,,"02/04/1976: An arson, set by unknown perpetrator(s), destroyed the home of a black contractor in Keyes, California, in the United States. His residence was one of only two black families in the town of 1,500 people, and several previous attempts at persuading the family to leave town had been unsuccessful. It is unknown whether any injuries or fatalities resulted from the arson.",Private Citizens & Property,White supremacists/nationalists
 197602050001,France,48.856644,2.34233,0.0,,Government (General),International Revolutionary Solidarity
@@ -227,9 +222,7 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197604080002,United Kingdom,54.596939,-7.050618,1.0,,Police,Irish Republican Army (IRA)
 197604090001,United Kingdom,54.607712,-5.95621,1.0,,Business,Protestant extremists
 197604090002,United Kingdom,54.347539,-6.656108,1.0,,Business,Protestant extremists
-197604100001,Iran,,,1.0,,Religious Figures/Institutions,Mujahedin-e Khalq (MEK)
 197604100002,Greece,35.329197,25.138667,0.0,,Military,Unknown
-197604100003,Greece,,,0.0,,Military,Unknown
 197604100004,Italy,45.469212,9.174508,0.0,,Police,Unknown
 197604110001,France,43.696036,7.265592,0.0,,Government (Diplomatic),Unknown
 197604110002,France,43.696036,7.265592,0.0,,Government (Diplomatic),Unknown
@@ -284,7 +277,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197605000001,Italy,41.890961,12.490069,0.0,,Government (General),Unknown
 197605000002,Guatemala,14.622869,-90.529068,1.0,,Military,Unknown
 197605000003,Ethiopia,14.032334,38.316572,0.0,,Private Citizens & Property,Tigray Peoples Liberation Front (TPLF)
-197605000004,Ethiopia,,,0.0,,Private Citizens & Property,Eritrean Liberation Front
 197605000005,Turkey,38.395649,27.135641,0.0,,Private Citizens & Property,Unknown
 197605010001,Italy,41.890961,12.490069,,,Government (Diplomatic),Unknown
 197605010002,Portugal,38.725299,-9.150036,1.0,,Private Citizens & Property,Unknown
@@ -303,7 +295,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197605050002,Italy,41.890961,12.490069,0.0,,Business,Unknown
 197605060001,Mexico,19.371887,-99.086624,7.0,,Police,23rd of September Communist League
 197605060002,Italy,45.072731,7.679541,,,Business,Unknown
-197605060003,Italy,,,0.0,,Business,Unknown
 197605060004,Turkey,38.395649,27.135641,,,Police,Unknown
 197605060005,Colombia,4.667128,-74.106056,0.0,,Government (General),M-19 (Movement of April 19)
 197605070001,Italy,41.890961,12.490069,0.0,,Government (General),Unknown
@@ -367,7 +358,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197605210002,United Kingdom,54.479875,-6.228448,1.0,,Transportation,Irish Republican Army (IRA)
 197605210003,Philippines,7.083241,125.600998,13.0,,Airports & Aircraft,Muslim Rebels
 197605220001,United Kingdom,54.249541,-7.278094,1.0,,Police,Irish Republican Army (IRA)
-197605240001,Philippines,,,16.0,,Transportation,Moro National Liberation Front (MNLF)
 197605250001,Mexico,19.371887,-99.086624,0.0,,Government (Diplomatic),23rd of September Communist League
 197605250002,Spain,40.465595,-3.696263,0.0,,Military,First of October Antifascist Resistance Group (GRAPO)
 197605250003,Spain,37.38264,-5.996295,0.0,,Military,First of October Antifascist Resistance Group (GRAPO)
@@ -428,7 +418,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197606090005,United States,38.908642,-77.015381,0.0,,Government (Diplomatic),Unknown
 197606100001,Argentina,-31.399301,-64.182129,1.0,,Educational Institution,Montoneros (Argentina)
 197606100002,West Germany (FRG),48.1734,9.80006,,,Government (General),Unknown
-197606110001,Ethiopia,,,0.0,,Government (Diplomatic),Eritrean Liberation Front
 197606110002,Argentina,-34.61768,-58.444435,0.0,,Government (General),Argentine Anticommunist Alliance (AAA)
 197606120001,Italy,45.469212,9.174508,0.0,,Business,Unknown
 197606140001,Italy,41.890961,12.490069,,,Business,Communist Combat Unit
@@ -436,7 +425,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197606160001,Lebanon,33.888523,35.503513,3.0,,Government (Diplomatic),Socialist Labor Party of Lebanon
 197606160002,West Germany (FRG),47.791047,12.714544,0.0,,Military,Croatian Nationalists
 197606170001,Mexico,24.80485,-107.385498,1.0,,Police,23rd of September Communist League
-197606170002,Philippines,,,3.0,,Transportation,Moro National Liberation Front (MNLF)
 197606170003,United Kingdom,54.607712,-5.95621,2.0,,Private Citizens & Property,Ulster Freedom Fighters (UFF)
 197606180001,Argentina,-34.61768,-58.444435,1.0,,Police,Ejercito Revolucionaria del Pueblo (ERP) (Argentina)
 197606180002,West Germany (FRG),53.823933,9.287901,2.0,,Unknown,2nd of June Movement
@@ -453,7 +441,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197606210003,United Kingdom,54.553417,-6.003314,1.0,,Private Citizens & Property,Irish Republican Army (IRA)
 197606210004,United States,42.64589,-71.312844,0.0,,Government (General),United Freedom Front (UFF)
 197606220001,United Kingdom,54.446968,-6.39292,1.0,,Private Citizens & Property,Irish Republican Army (IRA)
-197606230002,Philippines,,,7.0,,Educational Institution,Unknown
 197606230003,United Kingdom,54.118385,-6.641824,1.0,,Military,Irish Republican Army (IRA)
 197606230004,United States,40.697132,-73.931351,0.0,,Airports & Aircraft,Jewish Defense League (JDL)
 197606240002,United States,38.908642,-77.015381,0.0,,Government (Diplomatic),Unknown
@@ -508,7 +495,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197607120007,United States,40.697132,-73.931351,0.0,"07/12/1976: Members of the Armed Forces for National Liberation (FALN) planted and set off an incendiary device hidden in a cigarette pack in Korvettes department store on 34th Street in New York City in the United States. The device was made of a chemical mixture and a flash light bulb, and then attached to a wristwatch battery and placed in a cigarette pack. FALN claimed the attack and said that they were protesting the presence of Puerto Rican delegation at the Democratic National Convention. This was one in a series of ten department store bombings in New York on this day. Though FALN claimed they planted twelve devices, only ten were found.",Business,Fuerzas Armadas de Liberacion Nacional (FALN)
 197607130001,United Kingdom,54.607712,-5.95621,1.0,,Terrorists/Non-State Militia,Protestant extremists
 197607140001,Greece,37.99749,23.762728,0.0,,Government (Diplomatic),Unknown
-197607140002,Portugal,,,,,Utilities,Unknown
 197607150001,West Germany (FRG),48.773892,11.379185,0.0,,Transportation,Unknown
 197607160001,Italy,42.560219,12.646781,,,Journalists & Media,Unknown
 197607180001,France,41.918891,8.737554,0.0,,Government (General),Corsican National Liberation Front (FLNC)
@@ -539,7 +525,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197607240001,France,45.188529,5.724524,,,Unknown,Red Brigades
 197607240002,Colombia,4.667128,-74.106056,0.0,,Business,Unknown
 197607240003,United States,40.697132,-73.931351,0.0,,Business,Omega-7
-197607250001,Ethiopia,,,0.0,,Journalists & Media,Tigray Peoples Liberation Front (TPLF)
 197607250002,West Germany (FRG),48.139126,11.580186,,,Transportation,Unknown
 197607250003,West Germany (FRG),52.023062,8.533072,0.0,,Government (General),Revolutionary Cells
 197607250004,United Kingdom,54.411142,-6.600146,1.0,,Private Citizens & Property,Ulster Volunteer Force (UVF)
@@ -551,7 +536,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197607290002,United Kingdom,54.607712,-5.95621,3.0,,Private Citizens & Property,Protestant extremists
 197607300001,United Kingdom,54.692009,-6.6703,1.0,,Military,Irish Republican Army (IRA)
 197607300002,United Kingdom,54.55008,-5.93306,4.0,,Private Citizens & Property,Republican Action Force
-197607310001,Philippines,,,0.0,,Business,Moro National Liberation Front (MNLF)
 197607310002,United Kingdom,54.463367,-6.328597,1.0,,Police,Irish Republican Army (IRA)
 197608000001,Italy,44.060917,12.566301,0.0,,Private Citizens & Property,Unknown
 197608010001,Italy,46.066712,11.119059,0.0,,Government (General),Unknown
@@ -676,7 +660,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197609210001,United States,40.697132,-73.931351,0.0,"09/21/1976: A bomb exploded on the 24th floor of the Hilton Hotel in New York in the United States. An hour after the blast, a caller to the New York Post, claiming to be a member of the Armed Forces for Liberation (FALN) claimed responsibility for the attack. Additionally, a written message was taped to a telephone booth at 53rd Street and Fifth Avenue, about a block away from the hotel, in which FALN stated that the blast was an attempt to protest the appearance of Rafael Hernandez Colon, the Governor of Puerto Rico, who was attending a political fund-raising dinner on the second floor of the hotel to raise funds for his re-election. The bombing caused minor damage to the hotel, but there were no casualties in the blast.",Government (General),Fuerzas Armadas de Liberacion Nacional (FALN)
 197609210002,Italy,41.890961,12.490069,,,Business,Unknown
 197609220001,Brazil,-22.756618,-43.460742,0.0,,Religious Figures/Institutions,Brazilian Anti-Communist Alliance (AAB)
-197609240001,Guatemala,,,,,Business,Guerrilla Army of the Poor (EGP)
 197609240002,United Kingdom,54.607712,-5.95621,1.0,,Private Citizens & Property,Protestant extremists
 197609240003,United Kingdom,54.607712,-5.95621,2.0,,Business,Irish Republican Extremists
 197609250001,Italy,41.890961,12.490069,0.0,,Business,Anti-Zionist Commandos
@@ -814,7 +797,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197611100001,Argentina,-34.61768,-58.444435,0.0,,Police,Montoneros (Argentina)
 197611100002,Italy,41.890961,12.490069,0.0,,Airports & Aircraft,Unknown
 197611100003,West Germany (FRG),52.50153,13.401851,0.0,,Business,2nd of June Movement
-197611110001,Colombia,,,,,Business,Unknown
 197611110002,United Kingdom,54.607712,-5.95621,1.0,,Private Citizens & Property,Irish Republican Extremists
 197611110003,United Kingdom,54.951082,-6.558998,1.0,,Military,Irish Republican Army (IRA)
 197611120001,West Germany (FRG),52.50153,13.401851,0.0,,Private Citizens & Property,Revolutionary Cells
@@ -839,7 +821,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197611170001,Jordan,31.950001,35.933331,9.0,,Business,Abu Nidal Organization (ANO)
 197611180001,United Kingdom,55.011562,-7.312045,1.0,,Military,Irish Republican Army (IRA)
 197611200001,France,48.856644,2.34233,0.0,,Government (Diplomatic),Unknown
-197611200002,Guatemala,,,,,Airports & Aircraft,Guerrilla Army of the Poor (EGP)
 197611210001,Portugal,38.725299,-9.150036,0.0,,Government (General),Unknown
 197611220001,Philippines,15.153002,120.591942,0.0,,Private Citizens & Property,New People's Army (NPA)
 197611220002,United Kingdom,55.026391,-7.180483,1.0,,Private Citizens & Property,Ulster Freedom Fighters (UFF)
@@ -848,18 +829,15 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197611250002,United Kingdom,54.607712,-5.95621,1.0,,Military,Irish National Liberation Army (INLA)
 197611260001,Italy,41.492901,13.830566,1.0,,Business,Red Brigades
 197611260002,Italy,45.469212,9.174508,0.0,,Business,Unknown
-197611260003,Guatemala,,,,,Business,Guerrilla Army of the Poor (EGP)
 197611270001,United Kingdom,54.463367,-6.328597,1.0,,Private Citizens & Property,Irish Republican Army (IRA)
 197611270002,United Kingdom,55.011562,-7.312045,1.0,,Private Citizens & Property,Irish Republican Army (IRA)
 197611290001,Myanmar,16.887781,96.149559,,,Journalists & Media,Unknown
-197611290002,Myanmar,,,,,Journalists & Media,Unknown
 197611290003,Mexico,19.371887,-99.086624,0.0,,Business,Unknown
 197611290004,Mexico,19.371887,-99.086624,0.0,,Business,Unknown
 197611290005,Mexico,19.371887,-99.086624,0.0,,Government (General),Unknown
 197611290006,Mexico,19.371887,-99.086624,0.0,,Government (General),Unknown
 197611290007,Italy,41.890961,12.490069,0.0,,Business,Communist Fighting Unit
 197611290008,Italy,45.434336,12.338786,0.0,,Business,Red Brigades
-197611290009,Italy,,,0.0,,Business,Prima Linea
 197611300001,United Kingdom,54.607712,-5.95621,1.0,,Private Citizens & Property,Ulster Freedom Fighters (UFF)
 197611300002,South Africa,-25.476646,30.978892,2.0,,Police,African National Congress (South Africa)
 197612010001,Syria,36.201721,37.14352,0.0,,Government (Diplomatic),Abu Nidal Organization (ANO)
@@ -908,7 +886,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197612160002,Italy,45.539838,10.222956,1.0,,Private Citizens & Property,Black Order
 197612170001,Austria,48.208174,16.373819,0.0,,Police,Waltraud Boock Group
 197612170002,Italy,40.840097,14.251636,0.0,,Business,Armed Proletarian Nuclei (NAP)
-197612180001,Iraq,,,0.0,,Government (General),Kurdish Democratic Party-Iraq (KDP)
 197612180002,West Germany (FRG),50.868941,9.707181,0.0,,Military,Revolutionary Cells
 197612200001,Spain,43.291618,-1.977903,0.0,,Business,Basque Fatherland and Freedom (ETA)
 197612200002,West Germany (FRG),50.11797,8.644191,0.0,,Business,Black Cells

@@ -16,7 +16,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199701030003,South Africa,-29.600315,30.38159,2.0,,Private Citizens & Property,Unknown
 199701030004,South Africa,-29.600315,30.38159,2.0,,Private Citizens & Property,Unknown
 199701030005,India,34.08374,74.789902,4.0,,Government (General),Jamiat ul-Mujahedin (JuM)
-199701030006,Colombia,,,8.0,,Private Citizens & Property,Paramilitaries
 199701040001,India,28.690073,77.213982,1.0,,Transportation,Unknown
 199701040002,Mexico,17.439193,-99.545097,4.0,,Private Citizens & Property,Justice Army for Defenseless Peoples
 199701040003,Nigeria,6.618911,3.305532,0.0,,Government (General),Unknown
@@ -55,7 +54,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199701070003,United Kingdom,55.011562,-7.312045,0.0,,Police,Unknown
 199701070004,Spain,43.35154,-3.81413,0.0,,Utilities,Basque Fatherland and Freedom (ETA)
 199701070005,Algeria,36.763763,3.055413,13.0,,Educational Institution,Islamist extremists
-199701070006,Algeria,,,7.0,,Unknown,Islamist extremists
 199701070007,Austria,48.208174,16.373819,0.0,,Airports & Aircraft,Bosnian refugee
 199701070008,France,41.591369,9.278311,0.0,,Business,Unknown
 199701070009,France,41.591369,9.278311,0.0,,Business,Unknown
@@ -76,7 +74,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199701090008,France,42.657985,9.414215,0.0,,Government (General),Corsican National Liberation Front (FLNC)
 199701090009,France,41.67615,8.903952,0.0,,Government (General),Corsican National Liberation Front (FLNC)
 199701100001,India,18.035433,80.577982,18.0,,Police,People's War Group (PWG)
-199701100002,India,,,6.0,,Government (General),People's Liberation Army (India)
 199701100003,Spain,43.267549,-1.975814,0.0,,Government (General),Unknown
 199701100004,Algeria,36.763763,3.055413,1.0,,Journalists & Media,Islamist extremists
 199701100005,Colombia,5.420595,-75.702686,1.0,,Private Citizens & Property,Unknown
@@ -90,14 +87,8 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199701110007,France,41.930607,8.742907,0.0,,Private Citizens & Property,Corsican National Liberation Front (FLNC)
 199701110008,France,41.930607,8.742907,0.0,,Business,Corsican National Liberation Front (FLNC)
 199701120001,Sri Lanka,9.6525,80.204444,8.0,,Military,Liberation Tigers of Tamil Eelam (LTTE)
-199701120002,Algeria,,,14.0,,Private Citizens & Property,Islamist extremists
-199701120003,Algeria,,,5.0,,Private Citizens & Property,Islamist extremists
 199701120004,Algeria,36.04051,2.96136,9.0,,Private Citizens & Property,Islamist extremists
 199701120005,Colombia,3.09048,-75.67288,5.0,,Military,Revolutionary Armed Forces of Colombia (FARC)
-199701120006,France,,,0.0,,Business,Corsican National Liberation Front (FLNC)
-199701120007,France,,,0.0,,Business,Corsican National Liberation Front (FLNC)
-199701120008,France,,,0.0,,Business,Corsican National Liberation Front (FLNC)
-199701120009,France,,,0.0,,Business,Corsican National Liberation Front (FLNC)
 199701130001,India,26.524472,91.350511,9.0,,Private Citizens & Property,National Democratic Front of Bodoland (NDFB)
 199701130002,United Kingdom,54.607712,-5.95621,0.0,,Police,Irish Republican Army (IRA)
 199701130003,Pakistan,30.197843,71.467629,1.0,,Government (General),Unknown
@@ -217,7 +208,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199701280009,Algeria,36.55,2.783333,1.0,,Business,Islamist extremists
 199701280010,Algeria,36.763763,3.055413,2.0,,Private Citizens & Property,Kamal Boulander Group
 199701280011,Algeria,36.480453,2.83388,1.0,,Unknown,Islamist extremists
-199701280012,Colombia,,,10.0,,Private Citizens & Property,National Liberation Army of Colombia (ELN)
 199701280013,Colombia,7.08582,-70.75779,,,Utilities,Unknown
 199701280014,France,43.696036,7.265592,0.0,,Airports & Aircraft,Corsican National Liberation Front- Historic Channel
 199701280015,Greece,37.99749,23.762728,0.0,,Government (General),Unknown
@@ -228,8 +218,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199701290005,Zaire,-1.658501,29.220455,1.0,,Government (Diplomatic),Unknown
 199701290007,Hungary,47.498406,19.040758,0.0,,Business,Unknown
 199701300001,Indonesia,-6.159167,107.298056,0.0,,Religious Figures/Institutions,Muslim Youth
-199701300002,Lebanon,,,3.0,,Military,Hezbollah
-199701300003,Spain,,,1.0,,Private Citizens & Property,Unknown
 199701300005,United States,32.715695,-117.161719,0.0,,Police,Unknown
 199701300006,Algeria,35.696944,-0.633056,1.0,,Military,Islamist extremists
 199701300007,Algeria,36.60637,3.08783,8.0,,Private Citizens & Property,Armed Islamic Group (GIA)
@@ -243,7 +231,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199702010003,Mexico,23.236111,-106.415278,0.0,,Business,Unknown
 199702010004,Mexico,18.93402,-99.231483,0.0,,Business,Unknown
 199702010005,United States,36.149745,-95.993334,0.0,"2/1/1997: A juvenile (whose name was not released by authorities) broke into the Reproductive Services clinic in Tulsa, Oklahoma, United States, and fired several rounds from his handgun at medical and office equipment. An FBI monitor, a procedure table, and some medical equipment were damaged.",Abortion Related,Anti-Abortion extremists
-199702010006,Algeria,,,7.0,,Private Citizens & Property,Islamist extremists
 199702010007,United States,32.6409,-117.084279,0.0,,Government (General),Unknown
 199702020001,Rwanda,-1.448369,29.576408,1.0,,Religious Figures/Institutions,Unknown
 199702020002,Spain,43.291618,-1.977903,0.0,,Business,Basque Fatherland and Freedom (ETA)
@@ -373,7 +360,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199702100008,China,23.129163,113.264435,0.0,,Airports & Aircraft,Unknown
 199702100009,Ethiopia,9.291957,42.174847,2.0,,Business,Unknown
 199702100010,United Kingdom,54.684823,-5.965868,1.0,,Private Citizens & Property,Protestant extremists
-199702110001,India,,,17.0,,Private Citizens & Property,All Tripura Tiger Force (ATTF)
 199702110002,India,33.874027,74.901505,2.0,,Private Citizens & Property,Unknown
 199702110003,Macau,22.192266,113.547631,0.0,,Private Citizens & Property,Unknown
 199702110004,Macau,22.192266,113.547631,0.0,,Private Citizens & Property,Unknown
@@ -396,7 +382,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199702120005,United Kingdom,54.194973,-6.397842,1.0,,Military,Irish Republican Army (IRA)
 199702120006,Venezuela,10.227716,-67.333485,0.0,,Business,National Liberation Army of Colombia (ELN)
 199702120007,Algeria,36.309255,2.800806,64.0,,Private Citizens & Property,Unknown
-199702120008,Colombia,,,2.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
 199702120009,Colombia,10.981412,-74.778319,,,Government (General),Unknown
 199702120010,Egypt,27.981111,30.808056,10.0,,Religious Figures/Institutions,Al-Gama'at al-Islamiyya (IG)
 199702130001,Bahamas,25.06,-77.345,1.0,,Government (General),Unknown
@@ -408,15 +393,10 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199702140005,Colombia,6.828333,-75.513056,2.0,,Unknown,Unknown
 199702140006,Hungary,47.498406,19.040758,0.0,,Business,Unknown
 199702150002,Sri Lanka,6.941837,79.861687,0.0,,Business,Unknown
-199702150003,Bangladesh,,,3.0,,Police,Shanti Bahini - Peace Force
-199702150004,Bangladesh,,,3.0,,Police,Shanti Bahini - Peace Force
 199702150005,Bosnia-Herzegovina,43.343333,17.808056,0.0,,Private Citizens & Property,Unknown
 199702150006,Colombia,6.270526,-75.572173,8.0,,Private Citizens & Property,Unknown
 199702150007,Colombia,8.173611,-76.059167,4.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
 199702150008,France,42.699997,9.447317,0.0,,Business,Unknown
-199702150009,Ecuador,,,0.0,,Private Citizens & Property,Ashuar Tribe
-199702160001,India,,,15.0,,Private Citizens & Property,All Tripura Tiger Force (ATTF)
-199702160002,India,,,0.0,,Private Citizens & Property,All Tripura Tiger Force (ATTF)
 199702160003,Pakistan,29.504601,71.221427,1.0,,Private Citizens & Property,Unknown
 199702160004,Pakistan,34.006004,71.53743,1.0,,Terrorists/Non-State Militia,Unknown
 199702160005,Pakistan,30.197843,71.467629,1.0,,Private Citizens & Property,Unknown
@@ -432,7 +412,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199702180001,Tajikistan,38.552185,68.767441,1.0,,Police,Unknown
 199702180002,Tajikistan,38.552185,68.767441,1.0,,Military,Unknown
 199702180003,Tajikistan,38.552185,68.767441,2.0,,Police,Unknown
-199702180004,Thailand,,,5.0,,Terrorists/Non-State Militia,Karen National Union
 199702180005,United States,38.88549,-77.173624,0.0,,Abortion Related,Anti-Abortion extremists
 199702180006,Colombia,10.401944,-74.108333,7.0,,Private Citizens & Property,Death to Rustlers
 199702180007,Colombia,10.401944,-74.108333,7.0,,Private Citizens & Property,Death to Rustlers
@@ -465,7 +444,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199702230002,Russia,43.320229,45.654491,0.0,,Journalists & Media,Unknown
 199702230003,United States,40.697132,-73.931351,1.0,,Tourists,Palestinians
 199702230004,Algeria,35.949479,0.450046,0.0,,Government (General),Unknown
-199702230005,Algeria,,,18.0,,Transportation,Islamist extremists
 199702230006,Brazil,-22.455612,-51.765336,0.0,,Private Citizens & Property,Gunmen
 199702230007,Colombia,0.869892,-73.841906,3.0,,Military,Unknown
 199702230008,Colombia,10.411301,-74.405661,5.0,,Private Citizens & Property,Unknown
@@ -488,9 +466,7 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199702250005,China,43.825645,87.616823,2.0,,Transportation,Uighur Separatists
 199702250006,China,43.825645,87.616823,3.0,,Transportation,Uighur Separatists
 199702250007,China,43.825645,87.616823,0.0,,Transportation,Unknown
-199702250008,Zaire,,,11.0,,Religious Figures/Institutions,Tutsi extremists
 199702250009,India,28.585836,77.153336,0.0,,Private Citizens & Property,Unknown
-199702260001,India,,,0.0,,Religious Figures/Institutions,Unknown
 199702260002,Mexico,20.673343,-103.344177,0.0,,Business,Unknown
 199702260003,Pakistan,30.039305,71.816372,1.0,,Government (General),Unknown
 199702260004,Poland,52.229676,21.012229,0.0,,Religious Figures/Institutions,Unknown
@@ -517,7 +493,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199703030003,Ireland,54.24853,-6.96916,0.0,,Government (General),Unknown
 199703030004,Pakistan,24.891115,67.143311,,,Journalists & Media,Unknown
 199703030005,Sri Lanka,6.973857,80.767053,1.0,,Government (General),Liberation Tigers of Tamil Eelam (LTTE)
-199703030006,Yemen,,,0.0,,Tourists,Tribesmen Murad Tribe
 199703030007,Algeria,36.55,2.783333,0.0,,Business,Islamist extremists
 199703030008,China,43.910881,81.318657,0.0,,Transportation,Unknown
 199703030009,Colombia,5.40832,-71.6623,,,Utilities,Unknown
@@ -562,7 +537,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199703100005,Haiti,18.527716,-72.33284,1.0,,Police,Unknown
 199703110001,India,34.08374,74.789902,1.0,,Police,Unknown
 199703110002,India,34.08374,74.789902,0.0,,Military,Unknown
-199703110003,Nigeria,,,0.0,,Business,Unknown
 199703110004,West Bank and Gaza Strip,31.530243,35.094162,0.0,,Police,Unknown
 199703110005,Philippines,8.240043,124.244766,0.0,,Business,Unknown
 199703110006,Yugoslavia,45.251667,19.836944,0.0,,Government (General),Unknown
@@ -597,7 +571,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199703150011,Myanmar,21.973508,96.08208,0.0,,Religious Figures/Institutions,Buddhist Monks
 199703150012,Peru,-11.967368,-76.978462,0.0,,Business,Tupac Amaru Revolutionary Movement (MRTA)
 199703150013,Russia,43.427011,46.087993,0.0,,Unknown,Unknown
-199703150014,Senegal,,,0.0,,Private Citizens & Property,Movement of Democratic Forces of Casamance
 199703150015,Slovak Republic,49.001675,21.24003,0.0,,Journalists & Media,Unknown
 199703150016,Sri Lanka,9.666399,80.020477,4.0,,Transportation,Liberation Tigers of Tamil Eelam (LTTE)
 199703150017,Algeria,36.763763,3.055413,4.0,,Unknown,Islamist extremists
@@ -608,7 +581,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199703150022,Colombia,7.946283,-72.898807,2.0,,Police,Unknown
 199703160001,India,33.778175,76.576171,5.0,,Private Citizens & Property,Unknown
 199703160002,India,34.08374,74.789902,2.0,,Journalists & Media,Unknown
-199703160003,Iraq,,,0.0,,Government (General),Unknown
 199703160004,Peru,-9.34736,-77.170903,1.0,,Religious Figures/Institutions,Unknown
 199703160005,Algeria,34.840752,0.149473,7.0,,Police,Islamist extremists
 199703160006,China,39.905556,116.395833,0.0,,Private Citizens & Property,Koreans
@@ -662,7 +634,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199703200076,Colombia,3.429344,-76.516037,1.0,,Journalists & Media,Unknown
 199703210001,India,18.672505,78.094087,1.0,,Private Citizens & Property,People's War Group (PWG)
 199703210002,India,26.491815,84.684478,7.0,,Private Citizens & Property,Unknown
-199703210003,Indonesia,,,4.0,,Police,East Timorese extremists
 199703210004,Lebanon,33.936693,36.096846,1.0,,Police,Unknown
 199703210005,Philippines,6.929089,122.07885,0.0,,Business,Unknown
 199703210006,Russia,55.751377,37.579914,1.0,,Government (General),Unknown
@@ -691,7 +662,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199703220017,Myanmar,16.887781,96.149559,0.0,,Religious Figures/Institutions,Buddhist Monks
 199703220018,Myanmar,16.887781,96.149559,0.0,,Religious Figures/Institutions,Buddhist Monks
 199703220019,Pakistan,34.006004,71.53743,1.0,,Private Citizens & Property,Muslim Militants
-199703220020,Sri Lanka,,,0.0,,Military,Liberation Tigers of Tamil Eelam (LTTE)
 199703220022,Turkey,41.106178,28.689863,0.0,,Transportation,Unknown
 199703230001,India,25.388769,84.790295,10.0,,Private Citizens & Property,Ranbir Sena
 199703230002,Indonesia,-8.54966,125.566599,0.0,,Business,East Timorese extremists
@@ -703,7 +673,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199703230008,Colombia,7.48008,-73.92076,1.0,,Business,Unknown
 199703230009,Colombia,7.39002,-73.50099,1.0,,Police,Unknown
 199703230010,Colombia,7.060051,-73.853115,2.0,,Military,Unknown
-199703230011,Honduras,,,8.0,,Private Citizens & Property,Unknown
 199703230012,Sri Lanka,9.267091,80.814248,81.0,"03/24/1997:  A flotilla of boats staffed by the Liberation Tigers of Tamil Eelam (LTTE) attacked a navy fleet off the coast from Mullaitivu town. AT least 80 rebels were killed and a minimum of 50 were injured in the attack. 12 rebel boats were sunk, while two navy vessels were damaged. Four suicide cadre were killed when their two boats were destroyed. One navy sailor was killed and another eight were injured. The rebels state that, in total, only five of their members were killed, including the four suicide cadres.",Military,Liberation Tigers of Tamil Eelam (LTTE)
 199703240001,Mexico,18.088243,-96.1232,1.0,,Private Citizens & Property,Unknown
 199703240002,Philippines,6.949288,124.884481,0.0,,Business,Moro Islamic Liberation Front (MILF)
@@ -726,7 +695,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199703250016,Colombia,2.77772,-75.25743,1.0,,Business,National Liberation Army of Colombia (ELN)
 199703260002,Peru,-11.967368,-76.978462,0.0,,Unknown,Unknown
 199703260003,Peru,-11.967368,-76.978462,0.0,,Unknown,Unknown
-199703260004,Philippines,,,1.0,,Transportation,Unknown
 199703260005,Philippines,15.45662,119.957276,7.0,,Police,Unknown
 199703260006,United Kingdom,53.321164,-2.237698,,,Police,Unknown
 199703260007,Albania,41.3,19.833333,2.0,,Transportation,Unknown
@@ -739,7 +707,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199703280002,Sri Lanka,7.921328,81.52467,3.0,,Private Citizens & Property,Unknown
 199703280003,Thailand,13.785793,100.560852,1.0,,Private Citizens & Property,Unknown
 199703280004,Uganda,0.350848,32.580224,5.0,,Business,Unknown
-199703280005,Vietnam,,,0.0,,Maritime,Unknown
 199703290001,United Kingdom,54.25788,-5.791421,0.0,,Police,Irish Republican Army (IRA)
 199703290002,Sudan,10.41861,23.416846,0.0,,Government (General),Unknown
 199703290003,Venezuela,8.974091,-68.392815,0.0,,Business,Colombian Guerrillas
@@ -781,12 +748,10 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199704030001,India,34.08374,74.789902,0.0,,Police,Unknown
 199704030002,Pakistan,34.006004,71.53743,3.0,,Violent Political Party,Pakistani People's Party (PPP)
 199704030003,Rwanda,-1.448369,29.576408,5.0,,Private Citizens & Property,Unknown
-199704030004,United Kingdom,,,0.0,,Transportation,Unknown
 199704030005,Algeria,36.02937,1.81168,2.0,,Private Citizens & Property,Muslim Rebels
 199704030006,Burundi,-2.889815,29.121514,0.0,,Military,Unknown
 199704030007,Colombia,4.085809,-76.197188,2.0,,Terrorists/Non-State Militia,Revolutionary Armed Forces of Colombia (FARC)
 199704030008,Colombia,4.085809,-76.197188,2.0,,Terrorists/Non-State Militia,Revolutionary Armed Forces of Colombia (FARC)
-199704030009,Colombia,,,3.0,,Unknown,Unknown
 199704030010,Haiti,18.527716,-72.33284,0.0,,Government (General),Opposition Group
 199704040001,Mali,16.883333,-1.916667,0.0,,Tourists,Tuareg extremists
 199704040002,Uruguay,-34.891151,-56.187214,0.0,,Government (Diplomatic),Unknown
@@ -811,15 +776,12 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199704080003,Uganda,2.579947,32.440047,0.0,,Military,Lord's Resistance Army (LRA)
 199704080004,United States,40.11727,-88.204489,0.0,,Government (General),Unknown
 199704080005,Colombia,6.20781,-75.73436,1.0,,Government (General),Unknown
-199704080006,Colombia,,,,,Transportation,Unknown
 199704080007,Colombia,11.354774,-72.520483,,,Transportation,National Liberation Army of Colombia (ELN)
 199704080008,France,42.33107,9.490362,0.0,,Private Citizens & Property,Unknown
 199704080009,Egypt,28.097438,30.756499,2.0,,Police,Unknown
-199704080010,Guatemala,,,0.0,,Police,Villagers
 199704090001,Indonesia,-7.429062,109.776067,0.0,,Business,Unknown
 199704090002,Indonesia,-7.672885,109.270992,0.0,,Government (General),Unknown
 199704090004,Indonesia,-7.362109,109.899399,0.0,,Government (General),Youths
-199704090005,Iraq,,,4.0,,Terrorists/Non-State Militia,Unknown
 199704090006,Lebanon,33.273567,35.463655,0.0,,Terrorists/Non-State Militia,Hezbollah
 199704090007,Mexico,32.493683,-116.95295,2.0,,Journalists & Media,Unknown
 199704090008,United Kingdom,54.607712,-5.95621,0.0,,Private Citizens & Property,Protestant extremists
@@ -834,7 +796,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199704100001,Myanmar,22.040897,96.462536,15.0,,Police,Unknown
 199704100002,United Kingdom,55.011562,-7.312045,0.0,,Police,Irish Republican Army (IRA)
 199704100003,United Kingdom,54.355196,-7.595931,0.0,,Police,Unknown
-199704100004,United Kingdom,,,0.0,,Police,Unknown
 199704110001,India,34.08374,74.789902,1.0,,Transportation,Unknown
 199704110002,India,33.721287,74.831062,0.0,,Police,Unknown
 199704110003,Macau,22.192266,113.547631,0.0,,Business,Unknown
@@ -911,7 +872,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199704200004,Greece,37.99749,23.762728,0.0,,Military,Unknown
 199704210001,India,33.242724,75.239159,1.0,,Government (General),Unknown
 199704210002,India,33.778175,76.576171,3.0,,Government (General),Separatists
-199704210003,Jamaica,,,0.0,,Government (General),Unknown
 199704210004,Mexico,17.212266,-100.118774,1.0,,Private Citizens & Property,Unknown
 199704210005,United Kingdom,55.011562,-7.312045,0.0,,Government (General),Unknown
 199704210006,Russia,43.484122,43.627361,0.0,,Private Citizens & Property,Unknown
@@ -923,11 +883,9 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199704210012,Colombia,7.894195,-72.503885,,,Business,Unknown
 199704210013,Colombia,7.894195,-72.503885,,,Business,Unknown
 199704210014,Colombia,4.5981,-74.07603,,,Military,Revolutionary Armed Forces of Colombia (FARC)
-199704220001,Russia,,,1.0,,Business,Unknown
 199704220002,Spain,37.38264,-5.996295,0.0,,Business,Basque Fatherland and Freedom (ETA)
 199704220003,Spain,42.84964,-2.692359,0.0,,Government (General),Basque Fatherland and Freedom (ETA)
 199704220004,Spain,43.124029,-1.979426,0.0,,Business,Basque Fatherland and Freedom (ETA)
-199704220005,Algeria,,,93.0,,Private Citizens & Property,Unknown
 199704220011,Spain,43.267549,-1.975814,0.0,,Business,Basque Fatherland and Freedom (ETA)
 199704230001,Russia,45.0,41.116667,3.0,,Transportation,Unknown
 199704230002,Russia,43.228362,44.8335,2.0,,Government (General),Unknown
@@ -957,7 +915,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199704270006,Sri Lanka,8.941673,80.986684,22.0,,Military,Liberation Tigers of Tamil Eelam (LTTE)
 199704270007,Sri Lanka,8.416667,81.3,7.0,,Police,Liberation Tigers of Tamil Eelam (LTTE)
 199704270008,Sri Lanka,8.404581,81.312434,6.0,,Police,Liberation Tigers of Tamil Eelam (LTTE)
-199704270009,Thailand,,,1.0,,Private Citizens & Property,Democratic Karen Buddhist Army (DKBA)
 199704270010,United States,30.588498,-103.894658,0.0,,Government (General),Republic of Texas
 199704270012,Yemen,14.597842,44.386803,1.0,,Police,Unknown
 199704270013,Colombia,7.30986,-72.48288,,,Government (General),Peasant Self-Defense Group (ACCU)
@@ -982,7 +939,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199704290006,Yemen,15.686525,43.597214,4.0,,Government (General),Unknown
 199704290007,Algeria,36.763763,3.055413,0.0,,Private Citizens & Property,Unknown
 199704290009,Colombia,8.588657,-73.840141,1.0,,Private Citizens & Property,Paramilitaries
-199704300001,India,,,9.0,,Military,Tribal guerrillas
 199704300002,Jordan,32.655042,35.682998,0.0,,Tourists,Unknown
 199704300003,Pakistan,31.50547,74.34288,1.0,,Business,Unknown
 199704300004,Pakistan,31.719992,72.978806,3.0,,Government (General),Unknown
@@ -998,10 +954,8 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199705010001,Lithuania,54.689386,25.280024,1.0,,Private Citizens & Property,Unknown
 199705010002,Myanmar,12.43844,98.60878,0.0,,Maritime,Karen National Union
 199705010003,Bolivia,-17.966712,-67.116624,0.0,,Government (General),Unknown
-199705010004,Colombia,,,,,Utilities,National Liberation Army of Colombia (ELN)
 199705020001,Philippines,7.209594,124.241966,1.0,,Private Citizens & Property,Unknown
 199705020002,Turkey,41.106178,28.689863,0.0,,Journalists & Media,Unknown
-199705020003,Algeria,,,9.0,,Utilities,Unknown
 199705020004,Colombia,4.667128,-74.106056,0.0,,Journalists & Media,Tupac Amaru Revolutionary Movement (MRTA)
 199705030001,Spain,43.347655,-3.086152,1.0,,Police,Unknown
 199705030002,Colombia,8.36291,-72.4081,0.0,,Police,National Liberation Army of Colombia (ELN)
@@ -1055,7 +1009,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199705110002,Algeria,36.266667,2.75,2.0,,Unknown,Unknown
 199705110003,Algeria,36.74871,3.19248,13.0,,Unknown,Unknown
 199705110007,Colombia,6.242026,-75.564766,3.0,,Private Citizens & Property,Unknown
-199705120001,India,,,11.0,,Private Citizens & Property,Maoist Communist Center (MCC)
 199705120002,Iraq,31.104229,46.362469,,,Government (General),Supreme Council for Islamic Revolution in Iraq (SCIRI)
 199705120003,Nigeria,7.396389,3.916667,0.0,,Military,Unknown
 199705120004,Sri Lanka,8.589444,80.835,0.0,,Police,Liberation Tigers of Tamil Eelam (LTTE)
@@ -1096,7 +1049,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199705170005,Thailand,6.254148,101.729605,0.0,,Transportation,Unknown
 199705170006,Colombia,4.667128,-74.106056,0.0,,Government (General),Unknown
 199705170007,Germany,49.753742,6.646251,0.0,,Business,Unknown
-199705180001,Pakistan,,,4.0,,Transportation,Unknown
 199705180002,Burundi,-2.889815,29.121514,0.0,,Private Citizens & Property,Unknown
 199705180003,Colombia,7.116294,-73.120026,0.0,,Private Citizens & Property,Popular Liberation Army (EPL)
 199705180004,Colombia,7.198606,-75.341218,3.0,,Transportation,Unknown
@@ -1112,7 +1064,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199705200006,Colombia,8.95778,-75.83766,8.0,,Private Citizens & Property,Unknown
 199705200007,Colombia,4.667128,-74.106056,2.0,,NGO,Unknown
 199705210001,India,24.644924,93.99929,0.0,,Private Citizens & Property,Unknown
-199705210002,India,,,11.0,,Police,Separatists
 199705210003,Burundi,-3.923747,29.989884,20.0,,Private Citizens & Property,Hutu extremists
 199705210004,Burundi,-3.375828,29.364107,0.0,,Unknown,Unknown
 199705210005,Colombia,8.998496,-72.897243,0.0,,Business,National Liberation Army of Colombia (ELN)
@@ -1145,7 +1096,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199705270006,Philippines,8.004674,124.2913,0.0,,Educational Institution,Moro Islamic Liberation Front (MILF)
 199705280001,India,34.08374,74.789902,0.0,,Police,Tehrik al-Mojahedin
 199705280002,India,26.200605,92.937574,1.0,,Police,Unknown
-199705280003,Indonesia,,,0.0,,Private Citizens & Property,Unknown
 199705280004,Indonesia,-8.46643,126.449704,10.0,,Government (General),Unknown
 199705280005,Indonesia,-8.46643,126.449704,10.0,,Government (General),Unknown
 199705280006,Indonesia,-8.46643,126.449704,10.0,,Government (General),Unknown
@@ -1160,17 +1110,14 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199705280015,Greece,37.942843,23.646916,1.0,,Business,November 17 Revolutionary Organization (N17RO)
 199705290001,Peru,-11.967368,-76.978462,0.0,,Government (General),Unknown
 199705290002,United States,35.3846,-94.421299,0.0,,Business,Unknown
-199705290003,Algeria,,,14.0,,Private Citizens & Property,Unknown
 199705290004,Algeria,36.76029,3.472395,0.0,,Business,Unknown
 199705290005,Algeria,36.16525,1.33452,0.0,,Business,Unknown
 199705290006,Algeria,36.266667,2.75,5.0,,Private Citizens & Property,Unknown
-199705290007,Algeria,,,1.0,,Transportation,Unknown
 199705290008,Colombia,7.927696,-72.508479,1.0,,Police,National Liberation Army of Colombia (ELN)
 199705290009,France,43.388051,-1.663055,0.0,,Business,Iparretarrak (IK)
 199705300001,Kenya,-4.041179,39.677612,1.0,,Transportation,Unknown
 199705300002,Peru,-11.967368,-76.978462,0.0,,Private Citizens & Property,Unknown
 199705300003,Syria,33.181493,35.933529,2.0,,Government (Diplomatic),Unknown
-199705300004,Algeria,,,14.0,,Private Citizens & Property,Unknown
 199705300005,Colombia,7.07786,-74.70355,4.0,,Terrorists/Non-State Militia,Paramilitaries
 199705300006,Colombia,8.601686,-73.608184,0.0,,Utilities,Unknown
 199705300007,Ecuador,-2.170832,-79.922359,1.0,,Transportation,Bandits
@@ -1195,7 +1142,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199706010009,Colombia,6.242026,-75.564766,0.0,,Government (General),Unknown
 199706010010,Colombia,6.242026,-75.564766,0.0,,Government (General),Unknown
 199706010011,France,43.296482,5.36978,0.0,,Government (General),Unknown
-199706010012,Guatemala,,,0.0,,Private Citizens & Property,Unknown
 199706010013,United Kingdom,55.071136,-6.513154,1.0,,Police,Protestant extremists
 199706020001,Peru,-12.050981,-77.125985,0.0,,Private Citizens & Property,Tupac Amaru Revolutionary Movement (MRTA)
 199706020003,Albania,41.3275,19.818889,0.0,,Business,Unknown
@@ -1214,7 +1160,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199706040002,Iraq,35.567009,45.385494,3.0,,Police,Unknown
 199706040003,Lebanon,33.436944,35.655556,1.0,,Private Citizens & Property,Unknown
 199706040004,Lebanon,33.541351,35.586215,1.0,,Business,Unknown
-199706040005,Lebanon,,,2.0,,Terrorists/Non-State Militia,Hezbollah
 199706040006,Mexico,23.825498,-103.031558,4.0,,Private Citizens & Property,Unknown
 199706040007,Mexico,19.542624,-96.913744,2.0,,Private Citizens & Property,Unknown
 199706040008,Papua New Guinea,-5.55014,155.007525,0.0,,Government (General),Bougainville Revolutionary Army (BRA)
@@ -1227,7 +1172,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199706050005,Hungary,47.498406,19.040758,0.0,,Business,Unknown
 199706050006,Hungary,47.498406,19.040758,0.0,,Business,Unknown
 199706060001,India,32.264338,75.642112,7.0,,Transportation,Unknown
-199706060002,Kuwait,,,0.0,,Government (General),Unknown
 199706060003,Latvia,56.946203,24.104287,0.0,,Private Citizens & Property,Unknown
 199706060004,Pakistan,31.50547,74.34288,1.0,,Government (General),Unknown
 199706060005,Yugoslavia,43.891389,20.349722,0.0,,Business,Unknown
@@ -1244,7 +1188,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199706080003,Yugoslavia,44.818611,20.468056,0.0,,Private Citizens & Property,Neo-Nazi extremists
 199706080004,Guatemala,14.622869,-90.529068,1.0,,Private Citizens & Property,Unknown
 199706080005,Honduras,14.0833,-87.2167,0.0,,Government (General),Unknown
-199706090001,India,,,0.0,,Transportation,Unknown
 199706090002,Mexico,17.243485,-97.998586,0.0,,Private Citizens & Property,Institutional Revolutionary Party (PRI)
 199706090003,Nepal,26.863234,85.076116,1.0,,Private Citizens & Property,Communist Party of Nepal- Unified Marxist-Leninist (CPN-UML)
 199706090004,Pakistan,24.891115,67.143311,5.0,,Unknown,Unknown
@@ -1326,7 +1269,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199706140017,Colombia,6.6752,-74.84211,0.0,,Government (General),National Liberation Army of Colombia (ELN)
 199706140018,Colombia,4.77837,-73.03359,0.0,,Private Citizens & Property,National Liberation Army of Colombia (ELN)
 199706150001,India,33.258331,74.765406,3.0,,Transportation,Unknown
-199706150002,Indonesia,,,1.0,,Private Citizens & Property,Revolutionary Front for an Independent East Timor (FRETILIN)
 199706150003,Lebanon,33.159038,35.421097,1.0,,Military,Hezbollah
 199706150004,Philippines,5.821566,125.200949,1.0,,Business,Abu Sayyaf Group (ASG)
 199706150005,Russia,43.320229,45.654491,0.0,,Journalists & Media,Unknown
@@ -1354,11 +1296,9 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199706170004,Mexico,17.219814,-100.631834,0.0,,Police,Unknown
 199706170005,Nicaragua,13.146702,-85.438847,0.0,,Government (General),Recontras
 199706170007,Philippines,8.240043,124.244766,0.0,,Business,Unknown
-199706170008,Algeria,,,15.0,,Private Citizens & Property,Muslim Rebels
 199706170010,Bulgaria,42.696492,23.326011,0.0,,Business,Unknown
 199706170011,Cambodia,11.558831,104.917445,2.0,,Violent Political Party,Unknown
 199706180001,India,33.874027,74.901505,0.0,,Transportation,Unknown
-199706180002,India,,,5.0,,Military,Separatists
 199706180003,Lebanon,33.541351,35.586215,2.0,,Police,Unknown
 199706180004,United Kingdom,54.607712,-5.95621,0.0,,Police,Unknown
 199706180005,United Kingdom,54.607712,-5.95621,0.0,,Police,Unknown
@@ -1374,10 +1314,7 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199706180015,Pakistan,24.891115,67.143311,1.0,,Unknown,Unknown
 199706180016,Pakistan,24.891115,67.143311,1.0,,Unknown,Unknown
 199706180017,Algeria,36.466667,2.683333,18.0,,Private Citizens & Property,Muslim Rebels
-199706180018,Algeria,,,24.0,,Private Citizens & Property,Muslim Rebels
-199706180019,Algeria,,,54.0,,Private Citizens & Property,Muslim Rebels
 199706180020,Bulgaria,42.696492,23.326011,0.0,,Business,Elos security firm
-199706180021,Burundi,,,14.0,,Private Citizens & Property,Hutu extremists
 199706180022,Burundi,-3.193543,29.306158,3.0,,Private Citizens & Property,Hutu extremists
 199706180023,Colombia,3.88182,-77.07042,0.0,,Government (General),Unknown
 199706180024,France,42.699997,9.447317,0.0,,Business,Unknown
@@ -1536,7 +1473,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199707040003,Mexico,16.75,-93.116667,1.0,,Police,Unknown
 199707040004,Pakistan,24.891115,67.143311,1.0,,Private Citizens & Property,Unknown
 199707040005,Pakistan,31.78409,71.105919,1.0,,Religious Figures/Institutions,Unknown
-199707040006,Sri Lanka,,,0.0,,Private Citizens & Property,Liberation Tigers of Tamil Eelam (LTTE)
 199707040007,Uganda,0.816667,30.416667,3.0,,Military,Allied Democratic Forces (ADF)
 199707040008,Albania,41.3275,19.818889,0.0,,Government (General),Unknown
 199707040009,Algeria,36.763763,3.055413,3.0,,Private Citizens & Property,Unknown
@@ -1565,11 +1501,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199707040035,Colombia,7.883605,-76.631923,0.0,,Transportation,Revolutionary Armed Forces of Colombia (FARC)
 199707040036,Colombia,7.883605,-76.631923,0.0,,Transportation,Revolutionary Armed Forces of Colombia (FARC)
 199707040037,Colombia,7.883605,-76.631923,0.0,,Transportation,Revolutionary Armed Forces of Colombia (FARC)
-199707040038,Colombia,,,0.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
-199707040039,Colombia,,,0.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
-199707040040,Colombia,,,0.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
-199707040041,Colombia,,,0.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
-199707040042,Colombia,,,0.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
 199707040043,Colombia,7.060051,-73.853115,0.0,,Transportation,National Liberation Army of Colombia (ELN)
 199707040044,Colombia,7.060051,-73.853115,0.0,,Transportation,National Liberation Army of Colombia (ELN)
 199707040045,Colombia,7.060051,-73.853115,0.0,,Transportation,National Liberation Army of Colombia (ELN)
@@ -1586,7 +1517,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199707060001,Lebanon,33.43407,35.533752,1.0,,Government (General),Hezbollah
 199707060002,Macau,22.192266,113.547631,0.0,,Business,Unknown
 199707060003,United Kingdom,54.536706,-6.70361,0.0,,Police,Unknown
-199707060004,Peru,,,2.0,,Military,Shining Path (SL)
 199707060005,Russia,55.751377,37.579914,0.0,,Private Citizens & Property,Revolutionary Military Council
 199707060006,Colombia,7.027345,-71.428555,0.0,,Utilities,Unknown
 199707060007,Colombia,7.027345,-71.428555,21.0,,Government (General),National Liberation Army of Colombia (ELN)
@@ -1610,7 +1540,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199707080009,Russia,43.177422,44.6084,0.0,,Transportation,Unknown
 199707080010,Russia,43.390031,46.616657,9.0,,Police,Unknown
 199707080011,Spain,43.3331,-3.113229,0.0,,Business,Basque Fatherland and Freedom (ETA)
-199707080012,Uganda,,,15.0,,Private Citizens & Property,Allied Democratic Forces (ADF)
 199707080013,Angola,-13.731519,15.066288,14.0,,Private Citizens & Property,National Union for the Total Independence of Angola (UNITA)
 199707080014,Colombia,10.195925,-74.936952,3.0,,NGO,Unknown
 199707080015,Colombia,7.060051,-73.853115,1.0,,Military,National Liberation Army of Colombia (ELN)
@@ -1644,15 +1573,12 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199707110006,Russia,43.127544,45.539974,0.0,,Private Citizens & Property,Unknown
 199707110007,Sri Lanka,8.404581,81.312434,8.0,,Police,Liberation Tigers of Tamil Eelam (LTTE)
 199707110008,Sri Lanka,7.547243,81.787732,0.0,,Utilities,Liberation Tigers of Tamil Eelam (LTTE)
-199707110009,Algeria,,,14.0,,Terrorists/Non-State Militia,Islamist extremists
 199707110010,Algeria,35.885556,2.750833,1.0,,Private Citizens & Property,Unknown
 199707110011,Angola,-7.363288,20.818082,0.0,,Government (Diplomatic),National Union for the Total Independence of Angola (UNITA)
 199707110012,France,42.615508,8.907482,0.0,,Private Citizens & Property,Unknown
 199707120001,India,28.585836,77.153336,0.0,,Transportation,Unknown
 199707120002,Pakistan,33.594013,73.069077,0.0,,Police,Unknown
 199707120003,Algeria,36.837629,3.995129,7.0,,Transportation,Islamist extremists
-199707120004,Algeria,,,33.0,,Private Citizens & Property,Islamist extremists
-199707120005,Algeria,,,4.0,,Private Citizens & Property,Islamist extremists
 199707120006,Algeria,36.502222,1.615834,7.0,,Private Citizens & Property,Islamist extremists
 199707120007,Cuba,23.131944,-82.364167,0.0,,Business,"Raul Ernesto Cruz Leon, Salvadorian"
 199707120008,Cuba,23.131944,-82.364167,0.0,,Business,Unknown
@@ -1661,7 +1587,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199707130001,Russia,43.320229,45.654491,0.0,,Government (General),Unknown
 199707130002,Sri Lanka,7.544444,80.696389,3.0,,Police,Liberation Tigers of Tamil Eelam (LTTE)
 199707130003,Bosnia-Herzegovina,44.386944,19.101389,0.0,,Military,Unknown
-199707130004,Colombia,,,0.0,,Utilities,Unknown
 199707140001,India,28.585836,77.153336,0.0,,Transportation,Unknown
 199707140002,India,28.585836,77.153336,0.0,,Transportation,Unknown
 199707140003,Japan,35.689125,139.747742,0.0,,Government (General),Unknown
@@ -1753,7 +1678,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199707210007,Turkey,41.106178,28.689863,0.0,,Government (General),Unknown
 199707210008,Algeria,36.480453,2.83388,47.0,,Private Citizens & Property,Islamist extremists
 199707210009,Algeria,36.480453,2.83388,47.0,,Private Citizens & Property,Islamist extremists
-199707210010,Angola,,,6.0,,Private Citizens & Property,National Union for the Total Independence of Angola (UNITA)
 199707210011,Germany,51.457935,7.014828,0.0,,Private Citizens & Property,Arsonists
 199707210012,Haiti,18.527716,-72.33284,1.0,,Government (General),Unknown
 199707210013,United States,44.272591,-121.169856,0.0,"07/21/1997: Five members of the Animal and Earth Liberation Fronts (ALF and ELF), Jacob Ferguson, Kevin Tubbs, Jonathan Paul,  Jennifer Kolar, and Joseph Dibee, set fire to the Cavel West horse meat packing plant and slaughterhouse in Redmond, Oregon in the United States. The perpetrators drilled holes behind refrigeration units at the plant, poured ignitable liquid into the drilled holes, stuffed rags into the holes and placed buckets under the rags. Additionally, three separate incendiary devices, made of a mixture of soap, gasoline and diesel, and then blended into a gel, were placed in and around the buildings of the plant. One of the incendiaries ignited prematurely, causing the group to abandon the rest of the plan. The remaining two incendiaries failed to ignite due to malfunction. There were no casualties in the incident, but the fire caused over $1,000,000 in damage, destroying the facility and leaving it out of operation. A few days after the fire, a communiqué was put out by the Animal Liberation Front, claiming responsibility for the arson.",Business,Animal Liberation Front (ALF)
@@ -1764,7 +1688,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199707220005,United States,33.210435,-87.566214,0.0,,Abortion Related,Anti-Abortion extremists
 199707220006,Yugoslavia,44.818611,20.468056,0.0,,Unknown,Unknown
 199707220007,Yugoslavia,44.818611,20.468056,0.0,,Unknown,Unknown
-199707220008,Yugoslavia,,,0.0,,Police,Unknown
 199707220009,Albania,41.3275,19.818889,0.0,,Unknown,Unknown
 199707220010,Dominican Republic,18.207906,-71.09953,1.0,,Police,Strikers
 199707220011,Egypt,28.097438,30.756499,5.0,,Police,Al-Gama'at al-Islamiyya (IG)
@@ -1772,7 +1695,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199707230001,Pakistan,31.713087,73.984032,1.0,,Business,Unknown
 199707230002,West Bank and Gaza Strip,31.784838,35.224613,0.0,,Educational Institution,Jewish Extremists
 199707230003,Albania,41.3275,19.818889,1.0,,Police,Unknown
-199707230004,Algeria,,,36.0,,Private Citizens & Property,Islamist extremists
 199707230005,Bosnia-Herzegovina,44.616944,17.371667,0.0,,Government (Diplomatic),Unknown
 199707230006,Bosnia-Herzegovina,44.1875,19.339444,0.0,,Government (Diplomatic),Unknown
 199707230007,Chad,10.329291,19.549417,2.0,,Government (General),Unknown
@@ -1808,7 +1730,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199707290004,Algeria,35.666444,1.283792,45.0,,Private Citizens & Property,Islamist extremists
 199707290005,Algeria,35.2,-0.633333,1.0,,Business,Unknown
 199707290007,Colombia,10.223569,-73.491557,4.0,,Private Citizens & Property,Unknown
-199707290008,Colombia,,,1.0,,Private Citizens & Property,National Liberation Army of Colombia (ELN)
 199707300001,Indonesia,-8.583333,125.35,3.0,,Military,Revolutionary Front for an Independent East Timor (FRETILIN)
 199707300002,Israel,31.771599,35.2034,15.0,,Private Citizens & Property,Palestinian Islamic Jihad (PIJ)
 199707300003,Macau,22.192266,113.547631,0.0,,Business,Unknown
@@ -1822,7 +1743,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199707300012,Algeria,36.732288,3.124145,4.0,,Police,Unknown
 199707300013,Algeria,36.56522,3.153934,20.0,,Private Citizens & Property,Unknown
 199707300014,Colombia,8.23342,-73.35331,3.0,,Government (General),National Liberation Army of Colombia (ELN)
-199707310001,India,,,0.0,,Government (General),Unknown
 199707310002,Macau,22.192266,113.547631,0.0,,Police,Unknown
 199707310003,United Kingdom,54.317811,-7.536546,0.0,,Business,Unknown
 199707310004,Uganda,0.350848,32.580224,0.0,,Police,Unknown
@@ -1834,15 +1754,12 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199708010003,Turkey,39.22902,33.974819,0.0,,Police,Unknown
 199708010004,Uganda,0.350848,32.580224,1.0,,Police,Unknown
 199708010005,Colombia,6.21906,-73.81111,0.0,,Government (General),National Liberation Army of Colombia (ELN)
-199708010006,Colombia,,,0.0,,Private Citizens & Property,National Liberation Army of Colombia (ELN)
 199708020001,Sweden,55.603331,13.001303,1.0,,Business,Unknown
 199708020002,Algeria,36.466667,2.683333,0.0,,Transportation,Unknown
 199708020003,Algeria,36.570507,4.309434,1.0,,Business,Unknown
 199708020004,Algeria,34.666667,3.25,0.0,,Food or Water Supply,Unknown
 199708020005,Colombia,10.47692,-73.25049,6.0,,Private Citizens & Property,Paramilitaries
 199708020006,Colombia,4.69309,-73.52008,2.0,,Police,Revolutionary Armed Forces of Colombia (FARC)
-199708020007,Colombia,,,0.0,,Business,National Liberation Army of Colombia (ELN)
-199708020008,Colombia,,,5.0,,Private Citizens & Property,Paramilitaries
 199708030001,Pakistan,30.533313,72.699788,1.0,,Government (General),Unknown
 199708030002,Russia,42.98542,47.450668,0.0,,NGO,Unknown
 199708030003,Senegal,12.583333,-16.266667,2.0,,Military,Unknown
@@ -1883,7 +1800,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199708060011,Pakistan,31.887,74.237967,2.0,,Government (General),Unknown
 199708060012,Russia,43.320229,45.654491,0.0,,Police,Unknown
 199708060013,Russia,43.231167,44.642027,0.0,,Business,Unknown
-199708060014,Yemen,,,0.0,,Private Citizens & Property,Tribesmen Murad Tribe
 199708060015,Algeria,36.425833,2.561667,2.0,,Private Citizens & Property,Unknown
 199708060016,Colombia,4.667128,-74.106056,0.0,,Government (General),Unknown
 199708060017,Colombia,4.667128,-74.106056,0.0,,Government (General),Unknown
@@ -1900,11 +1816,9 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199708080001,India,15.9129,79.739988,6.0,,Police,Unknown
 199708080002,Kenya,-1.28518,36.821107,4.0,,Police,Protesters
 199708080003,Philippines,6.929089,122.07885,5.0,,Private Citizens & Property,Unknown
-199708080004,Senegal,,,0.0,,Military,Movement of Democratic Forces of Casamance
 199708080005,Sweden,59.332788,18.064488,0.0,,Government (General),Unknown
 199708080006,Algeria,34.666667,3.25,10.0,,Religious Figures/Institutions,Unknown
 199708080007,Algeria,35.339722,3.526944,1.0,,Private Citizens & Property,Unknown
-199708080008,Algeria,,,0.0,,Private Citizens & Property,Unknown
 199708080009,Brazil,-16.049057,-51.269296,1.0,,Government (General),Unknown
 199708080010,Colombia,7.894195,-72.503885,2.0,,Government (General),National Liberation Army of Colombia (ELN)
 199708080011,Colombia,11.242035,-74.205384,0.0,,Journalists & Media,Unknown
@@ -1914,14 +1828,10 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199708090003,Pakistan,31.539805,73.833084,9.0,,Private Citizens & Property,Unknown
 199708090004,Spain,42.771591,-0.332227,0.0,,Police,Unknown
 199708090005,Algeria,36.56522,3.153934,2.0,,Private Citizens & Property,Islamist extremists
-199708090006,Colombia,,,0.0,,Military,National Liberation Army of Colombia (ELN)
-199708090007,Colombia,,,0.0,,Business,Revolutionary Armed Forces of Colombia (FARC)
-199708090008,Colombia,,,0.0,,Business,Revolutionary Armed Forces of Colombia (FARC)
 199708090009,Germany,51.050991,13.733633,0.0,,Private Citizens & Property,Neo-Nazi extremists
 199708100001,Peru,-6.49817,-77.498503,0.0,,Private Citizens & Property,Tupac Amaru Revolutionary Movement (MRTA)
 199708100002,Philippines,14.626186,121.125073,2.0,,Police,New People's Army (NPA)
 199708100003,Albania,40.466667,19.489722,0.0,,Business,Unknown
-199708100004,Algeria,,,4.0,,Private Citizens & Property,Unknown
 199708100005,Burundi,-3.944733,29.619161,1.0,,Private Citizens & Property,Unknown
 199708100006,Colombia,11.242035,-74.205384,0.0,,Police,Unknown
 199708100007,Colombia,4.814278,-75.694558,1.0,,Government (General),Unknown
@@ -1932,11 +1842,9 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199708110004,India,34.08374,74.789902,2.0,,Police,Unknown
 199708110005,India,26.525066,91.639642,4.0,,Private Citizens & Property,National Democratic Front of Bodoland (NDFB)
 199708110006,India,26.437252,91.62011,6.0,,Private Citizens & Property,National Democratic Front of Bodoland (NDFB)
-199708110007,Kuwait,,,0.0,,Private Citizens & Property,Unknown
 199708110008,Turkey,38.504136,43.375265,3.0,,Transportation,Kurdistan Workers' Party (PKK)
 199708110009,Ukraine,46.484583,30.7326,1.0,,Journalists & Media,Unknown
 199708110010,Algeria,35.91546,1.837863,2.0,,Private Citizens & Property,Unknown
-199708110011,Algeria,,,0.0,,Transportation,Unknown
 199708110012,Algeria,36.766667,3.316667,28.0,,Private Citizens & Property,Islamist extremists
 199708110013,Algeria,36.2664,1.961003,29.0,,Private Citizens & Property,Unknown
 199708110014,Colombia,7.027345,-71.428555,0.0,,Business,Revolutionary Armed Forces of Colombia (FARC)
@@ -1946,7 +1854,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199708110018,India,13.08268,80.270718,0.0,,Government (General),Tamil Liberation Army
 199708120001,India,34.399281,74.281273,3.0,,Military,Unknown
 199708120004,Thailand,13.785793,100.560852,0.0,,Journalists & Media,Unknown
-199708120005,Turkey,,,0.0,,Military,Unknown
 199708120006,Colombia,10.981412,-74.778319,1.0,,Government (General),Unknown
 199708120007,Colombia,9.56049,-73.33269,2.0,,Private Citizens & Property,Paramilitaries
 199708130001,India,26.76901,94.237106,0.0,,Military,Unknown
@@ -1954,11 +1861,9 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199708130003,Kenya,-4.090508,39.647758,14.0,,Police,Unknown
 199708130004,Thailand,13.785793,100.560852,0.0,,Government (General),Unknown
 199708130005,Yemen,13.762167,46.116851,0.0,,Tourists,Tribal Group
-199708130006,Algeria,,,15.0,,Private Citizens & Property,Islamist extremists
 199708130007,Bahrain,26.223698,50.536629,0.0,,Private Citizens & Property,Unknown
 199708130008,Colombia,3.38834,-73.59278,12.0,,Terrorists/Non-State Militia,Unknown
 199708130009,Colombia,6.828333,-75.513056,0.0,,Business,Revolutionary Armed Forces of Colombia (FARC)
-199708140001,India,,,7.0,,Transportation,Unknown
 199708140002,India,26.200605,92.937574,4.0,,Unknown,Separatists
 199708140003,India,26.200605,92.937574,4.0,,Unknown,Separatists
 199708140004,India,26.200605,92.937574,4.0,,Unknown,Separatists
@@ -1969,8 +1874,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199708140009,Somalia,4.897913,46.577893,30.0,,Terrorists/Non-State Militia,Rahanwein Resistance Army (RRA)
 199708140010,Thailand,13.785793,100.560852,0.0,,Business,Unknown
 199708140011,Yemen,16.105633,43.978841,0.0,,Tourists,Tribal Group
-199708140012,Colombia,,,2.0,,Private Citizens & Property,Unknown
-199708140013,Colombia,,,2.0,,Private Citizens & Property,Unknown
 199708140014,Colombia,6.242026,-75.564766,0.0,,Government (General),Unknown
 199708140015,Guatemala,16.950077,-90.613851,0.0,,Utilities,Paramilitaries
 199708150001,India,26.158435,94.562443,0.0,,Unknown,Unknown
@@ -1985,7 +1888,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199708150010,Venezuela,8.366667,-69.266667,0.0,,Military,Revolutionary Armed Forces of Colombia (FARC)
 199708150011,Albania,40.466667,19.489722,0.0,,Business,Unknown
 199708150012,Bosnia-Herzegovina,43.965294,19.089116,2.0,,Private Citizens & Property,Unknown
-199708150013,Colombia,,,1.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
 199708150014,Colombia,7.07786,-74.70355,0.0,,Government (General),National Liberation Army of Colombia (ELN)
 199708150015,Colombia,4.871632,-74.539046,0.0,,Government (General),Unknown
 199708150016,Colombia,6.1876,-74.99429,1.0,,Government (General),Revolutionary Armed Forces of Colombia (FARC)
@@ -1999,13 +1901,11 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199708160010,Haiti,18.527716,-72.33284,0.0,,Utilities,Unknown
 199708170001,Kenya,-4.041179,39.677612,2.0,,Religious Figures/Institutions,Unknown
 199708170002,Philippines,8.489579,124.651478,3.0,,Transportation,Unknown
-199708170004,Colombia,,,3.0,,Unknown,Unknown
 199708170005,Colombia,8.083272,-73.224495,1.0,,Business,Unknown
 199708180001,Kenya,-3.220903,40.116146,0.0,,Business,Unknown
 199708180002,Russia,59.853371,30.348433,1.0,,Government (General),Unknown
 199708180003,Yugoslavia,42.38703,20.427579,1.0,,Private Citizens & Property,Unknown
 199708180004,Albania,40.803889,19.914444,6.0,,Private Citizens & Property,Unknown
-199708180005,Algeria,,,4.0,,Private Citizens & Property,Unknown
 199708180006,Brazil,-22.851423,-48.464107,0.0,,Business,Landless Peasants' Movement (MST)
 199708180007,Brazil,-22.851423,-48.464107,0.0,,Business,Landless Peasants' Movement (MST)
 199708180008,Brazil,-9.64979,-35.708976,0.0,,Government (General),Landless Peasants' Movement (MST)
@@ -2031,7 +1931,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199708200011,Somalia,-0.357847,42.54665,2.0,,NGO,Majerten clansmen
 199708200012,Spain,43.385636,-4.291507,0.0,,Police,Basque Fatherland and Freedom (ETA)
 199708200013,Algeria,36.266667,2.75,3.0,,Private Citizens & Property,Unknown
-199708200014,Algeria,,,4.0,,Private Citizens & Property,Islamist extremists
 199708200015,Burundi,-3.081667,29.797778,5.0,,Private Citizens & Property,Hutu extremists
 199708200016,Colombia,9.30535,-75.3978,0.0,,Utilities,National Liberation Army of Colombia (ELN)
 199708200017,Colombia,11.01079,-74.25162,0.0,,Utilities,Unknown
@@ -2069,13 +1968,11 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199708230006,Yugoslavia,42.2138,20.746018,1.0,,Private Citizens & Property,Unknown
 199708230007,Algeria,35.439755,2.517064,20.0,,Private Citizens & Property,Unknown
 199708230008,Algeria,36.46748,2.622848,8.0,,Transportation,Unknown
-199708230009,Algeria,,,1.0,,Private Citizens & Property,Unknown
 199708230010,Algeria,36.266667,6.5,9.0,,Private Citizens & Property,Unknown
 199708230011,Colombia,2.756736,-76.629934,0.0,,Military,National Liberation Army of Colombia (ELN)
 199708230012,Colombia,3.50395,-75.98857,1.0,,Business,Unknown
 199708240001,Nicaragua,12.919106,-85.916609,0.0,,Journalists & Media,Unknown
 199708240002,Peru,-9.526115,-77.528779,2.0,,Police,Shining Path (SL)
-199708240003,Philippines,,,2.0,,Police,Unknown
 199708240004,Russia,60.678387,29.136381,1.0,,Business,Unknown
 199708240005,Algeria,35.641667,0.442222,9.0,,Private Citizens & Property,Unknown
 199708240006,Algeria,36.663855,3.099912,0.0,,Private Citizens & Property,Unknown
@@ -2085,22 +1982,7 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199708240010,Algeria,34.877977,-1.235957,14.0,,Private Citizens & Property,Unknown
 199708240011,Algeria,35.914533,1.837881,7.0,,Private Citizens & Property,Unknown
 199708240012,Algeria,35.819568,1.798192,24.0,,Private Citizens & Property,Unknown
-199708240013,Algeria,,,30.0,,Private Citizens & Property,Unknown
 199708240014,Colombia,4.53581,-76.10659,3.0,,Police,National Liberation Army of Colombia (ELN)
-199708240015,Colombia,,,0.0,,Government (General),Unknown
-199708240016,Colombia,,,0.0,,Government (General),Unknown
-199708240017,Colombia,,,0.0,,Government (General),Unknown
-199708240018,Colombia,,,0.0,,Government (General),Unknown
-199708240019,Colombia,,,0.0,,Government (General),Unknown
-199708240020,Colombia,,,0.0,,Government (General),Unknown
-199708240021,Colombia,,,0.0,,Government (General),Unknown
-199708240022,Colombia,,,0.0,,Government (General),Unknown
-199708240023,Colombia,,,0.0,,Government (General),Unknown
-199708240024,Colombia,,,0.0,,Government (General),Unknown
-199708240025,Colombia,,,0.0,,Government (General),Unknown
-199708240026,Colombia,,,0.0,,Government (General),Unknown
-199708240027,Colombia,,,0.0,,Government (General),Unknown
-199708240028,Colombia,,,0.0,,Government (General),Unknown
 199708240029,Colombia,9.866667,-74.733333,2.0,,Private Citizens & Property,Unknown
 199708240030,Colombia,9.235879,-74.353031,0.0,,Government (General),Unknown
 199708240031,Colombia,6.31609,-76.13397,0.0,,Government (General),Revolutionary Armed Forces of Colombia (FARC)
@@ -2112,7 +1994,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199708250003,Algeria,36.763763,3.055413,12.0,,Private Citizens & Property,Unknown
 199708250004,Algeria,36.763763,3.055413,4.0,,Private Citizens & Property,Unknown
 199708250005,Algeria,36.763763,3.055413,0.0,,Business,Unknown
-199708250006,Algeria,,,15.0,,Private Citizens & Property,Unknown
 199708250007,Algeria,36.266667,1.966667,7.0,,Private Citizens & Property,Unknown
 199708250008,Algeria,35.607222,1.810556,17.0,,Private Citizens & Property,Unknown
 199708250009,Algeria,36.607122,2.196789,5.0,,Private Citizens & Property,Unknown
@@ -2147,14 +2028,9 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199708280011,Algeria,36.763763,3.055413,0.0,,Private Citizens & Property,Unknown
 199708280012,Algeria,36.612427,3.124495,256.0,,Private Citizens & Property,Unknown
 199708280013,Bosnia-Herzegovina,44.872778,18.808333,0.0,,Government (Diplomatic),Serb demonstrators
-199708290001,Somalia,,,9.0,,Police,Sa'ad Militia
 199708290002,Tajikistan,38.552185,68.767441,0.0,,Private Citizens & Property,Rizvon Sadirov Group
-199708290003,Algeria,,,6.0,,Private Citizens & Property,Unknown
 199708290004,Colombia,5.19778,-74.89708,0.0,,Private Citizens & Property,Unknown
-199708300001,India,,,3.0,,Private Citizens & Property,Tribal Group
-199708300002,India,,,3.0,,Private Citizens & Property,Tribal Group
 199708300003,India,24.346092,93.699904,3.0,,Unknown,Tribal Group
-199708300004,Senegal,,,4.0,,Private Citizens & Property,Unknown
 199708300005,Senegal,12.433333,-16.4,3.0,,Transportation,Unknown
 199708300006,Algeria,36.763763,3.055413,3.0,,Transportation,Unknown
 199708300007,Algeria,36.266667,2.216667,14.0,,Private Citizens & Property,Unknown
@@ -2167,7 +2043,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199708310006,Turkey,41.106178,28.689863,0.0,,Journalists & Media,Islamist extremists
 199708310007,Algeria,36.763763,3.055413,10.0,,Private Citizens & Property,Unknown
 199708310008,Algeria,36.763763,3.055413,10.0,,Private Citizens & Property,Unknown
-199708310009,Burundi,,,2.0,,Private Citizens & Property,Unknown
 199708310010,Colombia,0.342871,-76.909656,24.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
 199708310011,Colombia,9.52358,-75.23069,1.0,,Government (General),Unknown
 199708310012,Colombia,6.1429,-75.18417,0.0,,Government (General),Revolutionary Armed Forces of Colombia (FARC)
@@ -2179,11 +2054,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199709010001,Russia,43.248554,46.597836,0.0,,Police,Unknown
 199709010003,Colombia,9.30535,-75.3978,1.0,,Business,Unknown
 199709010004,Colombia,7.08071,-74.70101,0.0,,Government (General),Unknown
-199709010005,Colombia,,,0.0,,Government (General),Unknown
-199709010006,Colombia,,,0.0,,Government (General),Unknown
-199709010007,Colombia,,,0.0,,Government (General),Unknown
-199709010008,Colombia,,,0.0,,Government (General),Unknown
-199709010009,Colombia,,,7.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
 199709010010,Djibouti,12.186111,42.89,11.0,,Military,Unknown
 199709010011,Brazil,-23.550711,-46.633475,0.0,,Business,Unknown
 199709020001,India,25.216667,84.983333,8.0,,Private Citizens & Property,Maoist Communist Center (MCC)
@@ -2195,7 +2065,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199709030002,Philippines,14.596051,120.978666,3.0,,Transportation,Filipino Soldiers for the Country
 199709030003,Algeria,36.287804,2.065822,22.0,,Private Citizens & Property,Unknown
 199709030004,Algeria,36.763763,3.055413,0.0,,Police,Unknown
-199709030005,Colombia,,,0.0,,Police,Unknown
 199709030006,Colombia,6.242026,-75.564766,0.0,,Journalists & Media,Unknown
 199709030007,Colombia,6.23384,-75.1617,0.0,,Utilities,Revolutionary Armed Forces of Colombia (FARC)
 199709030008,Greece,37.99749,23.762728,0.0,,Government (Diplomatic),Anti-Authority Group (Greece)
@@ -2213,12 +2082,8 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199709060004,Algeria,35.205859,4.174479,2.0,,Private Citizens & Property,Unknown
 199709060005,Algeria,36.00129,2.90429,4.0,,Private Citizens & Property,Islamist extremists
 199709060006,Colombia,9.52358,-75.23069,6.0,,Private Citizens & Property,Paramilitaries
-199709060007,Colombia,,,1.0,,Government (General),Unknown
-199709060008,Colombia,,,1.0,,Government (General),Unknown
-199709060009,Colombia,,,1.0,,Government (General),Unknown
 199709060010,Egypt,27.912076,30.776051,4.0,,Private Citizens & Property,Al-Gama'at al-Islamiyya (IG)
 199709060011,Egypt,30.084629,31.334314,3.0,,Private Citizens & Property,Al-Gama'at al-Islamiyya (IG)
-199709070001,India,,,30.0,,Violent Political Party,Maoist Communist Center (MCC)
 199709070002,Senegal,13.05,-15.7,5.0,,Business,Unknown
 199709070003,South Africa,-31.413235,23.947478,3.0,,Private Citizens & Property,Unknown
 199709070004,Spain,43.199523,-2.074074,0.0,,Government (General),Unknown
@@ -2228,14 +2093,11 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199709080002,Spain,36.715666,-4.275504,0.0,,Government (General),Basque Fatherland and Freedom (ETA)
 199709080003,Spain,36.715666,-4.275504,0.0,,Government (General),Basque Fatherland and Freedom (ETA)
 199709080004,Bosnia-Herzegovina,44.95665,18.298429,0.0,,Government (Diplomatic),Serbs
-199709080005,Bosnia-Herzegovina,,,0.0,,Government (Diplomatic),Serbs
-199709080006,Burundi,,,9.0,,Private Citizens & Property,Unknown
 199709080007,Colombia,7.243889,-76.435556,4.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
 199709080008,Colombia,9.611277,-75.248047,6.0,,Private Citizens & Property,Unknown
 199709080009,Colombia,7.07386,-75.14591,0.0,,Utilities,Unknown
 199709080010,Colombia,1.14646,-77.00389,0.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
 199709080011,Colombia,10.3879,-73.1698,0.0,,Government (General),Revolutionary Armed Forces of Colombia (FARC)
-199709080012,Colombia,,,2.0,,Government (General),Unknown
 199709080013,Colombia,9.337295,-73.653621,0.0,,Government (General),Unknown
 199709080014,Dominican Republic,18.456792,-69.951164,1.0,,Police,Strikers
 199709090001,Russia,43.62945,46.202438,0.0,,Private Citizens & Property,Unknown
@@ -2255,14 +2117,11 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199709090015,Colombia,4.667128,-74.106056,0.0,,Government (General),Unknown
 199709090016,Colombia,4.667128,-74.106056,0.0,,Government (General),Unknown
 199709090017,Colombia,4.667128,-74.106056,0.0,,Government (General),Unknown
-199709090018,Colombia,,,1.0,,Government (General),Unknown
-199709090019,Colombia,,,2.0,,Military,Revolutionary Armed Forces of Colombia (FARC)
 199709100001,Tajikistan,38.552185,68.767441,0.0,,Unknown,Unknown
 199709100002,Tajikistan,38.552185,68.767441,0.0,,Unknown,Unknown
 199709100003,Tajikistan,38.552185,68.767441,0.0,,Unknown,Unknown
 199709100004,Tajikistan,38.552185,68.767441,0.0,,Unknown,Unknown
 199709100005,Belarus,53.9,27.566667,0.0,,Government (General),Belarusian Liberation Army
-199709100006,Burundi,,,0.0,,Private Citizens & Property,Hutu extremists
 199709100007,Burundi,-3.34202,29.484309,5.0,,Private Citizens & Property,Hutu extremists
 199709100008,Colombia,2.083371,-78.616639,9.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
 199709110001,Russia,43.2267,44.770569,0.0,,Government (General),Unknown
@@ -2283,7 +2142,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199709110016,Colombia,5.29307,-72.70293,8.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
 199709110017,Colombia,7.007022,-73.909401,0.0,,Utilities,Revolutionary Armed Forces of Colombia (FARC)
 199709120001,Rwanda,-1.679123,29.261201,3.0,,NGO,Unknown
-199709120002,Senegal,,,26.0,,Military,Movement of Democratic Forces of Casamance
 199709120003,Tajikistan,38.552185,68.767441,0.0,,Private Citizens & Property,Unknown
 199709120004,Algeria,36.35,6.6,1.0,,Religious Figures/Institutions,Unknown
 199709120005,Algeria,36.88523,3.737971,6.0,,Private Citizens & Property,Unknown
@@ -2307,15 +2165,12 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199709140007,Yugoslavia,42.580555,20.860463,0.0,,Police,Unknown
 199709140008,Algeria,36.266667,2.75,4.0,,Private Citizens & Property,Unknown
 199709140009,Algeria,34.840752,0.149473,7.0,,Private Citizens & Property,Unknown
-199709140010,Burundi,,,3.0,,Business,Unknown
 199709140011,Colombia,7.894195,-72.503885,0.0,,Utilities,Unknown
 199709140012,Colombia,11.354774,-72.520483,0.0,,Transportation,Unknown
 199709150001,Iraq,37.0925,43.487222,2.0,,Terrorists/Non-State Militia,Kurdish Democratic Party-Iraq (KDP)
-199709150002,Iraq,,,22.0,,Terrorists/Non-State Militia,Kurdish Democratic Party-Iraq (KDP)
 199709150003,Mexico,19.371887,-99.086624,0.0,,Journalists & Media,Unknown
 199709150004,Venezuela,10.482834,-66.962128,0.0,,Business,Unknown
 199709150005,Burundi,-3.967065,29.436166,7.0,,Private Citizens & Property,Hutu extremists
-199709150006,Colombia,,,1.0,,Government (General),Unknown
 199709150007,Colombia,4.375212,-73.211334,0.0,,Police,Revolutionary Armed Forces of Colombia (FARC)
 199709150008,Colombia,3.372457,-73.873772,0.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
 199709150009,Brazil,-23.550711,-46.633475,0.0,,Business,Unknown
@@ -2323,7 +2178,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199709160002,United Kingdom,54.298121,-6.521291,,,Police,Continuity Irish Republican Army (CIRA)
 199709160003,Turkey,41.106178,28.689863,0.0,,Police,Devrimici Halk Kurtulus Cephesi (DHKP/C)
 199709160004,Algeria,36.266667,2.75,0.0,,Private Citizens & Property,Unknown
-199709160005,Burundi,,,7.0,,Private Citizens & Property,Unknown
 199709160006,Colombia,2.535935,-75.52767,0.0,,Government (General),Revolutionary Armed Forces of Colombia (FARC)
 199709160007,Colombia,7.377136,-73.914562,0.0,,Government (General),Unknown
 199709160008,Colombia,4.877025,-74.437413,3.0,,Transportation,Revolutionary Armed Forces of Colombia (FARC)
@@ -2339,7 +2193,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199709180005,Bosnia-Herzegovina,43.343333,17.808056,0.0,,Police,Unknown
 199709180006,Egypt,30.084629,31.334314,10.0,,Tourists,Unknown
 199709190001,Nigeria,6.618911,3.305532,0.0,,Religious Figures/Institutions,Unknown
-199709190002,Senegal,,,1.0,,Military,Movement of Democratic Forces of Casamance
 199709190003,Tajikistan,38.552185,68.767441,0.0,,Business,Unknown
 199709190004,Chile,-32.75076,-70.725101,0.0,,Utilities,Unknown
 199709190005,Colombia,10.411301,-74.405661,0.0,,Transportation,Unknown
@@ -2349,7 +2202,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199709200001,Niger,21.93545,13.626142,0.0,,Military,Saharan Revolutionary Armed Front (FARS)
 199709200002,Niger,21.93545,13.626142,5.0,,Private Citizens & Property,Saharan Revolutionary Armed Front (FARS)
 199709200003,Peru,-11.967368,-76.978462,0.0,,Government (General),Shining Path (SL)
-199709200004,Turkey,,,9.0,,Government (General),Kurdistan Workers' Party (PKK)
 199709200005,Venezuela,10.482834,-66.962128,0.0,,Private Citizens & Property,Unknown
 199709200006,Venezuela,10.482834,-66.962128,0.0,,Private Citizens & Property,Unknown
 199709200007,Venezuela,10.482834,-66.962128,0.0,,Government (General),Unknown
@@ -2381,18 +2233,15 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199709230005,Colombia,2.95258,-76.69297,0.0,,Government (General),Revolutionary Armed Forces of Colombia (FARC)
 199709240001,Indonesia,-8.913945,126.280736,3.0,,Private Citizens & Property,Revolutionary Front for an Independent East Timor (FRETILIN)
 199709240002,Pakistan,31.802201,74.25732,3.0,,Religious Figures/Institutions,Unknown
-199709240003,Peru,,,1.0,,Police,Shining Path (SL)
 199709240004,Peru,-11.967368,-76.978462,0.0,,Government (General),Unknown
 199709240005,Peru,-11.967368,-76.978462,0.0,,Government (General),Unknown
 199709240006,Somalia,3.115641,43.64658,14.0,,Private Citizens & Property,Rahanwein Resistance Army (RRA)
-199709240007,Algeria,,,8.0,,Private Citizens & Property,Unknown
 199709240009,Colombia,6.011997,-75.687716,4.0,,Police,Revolutionary Armed Forces of Colombia (FARC)
 199709240010,Colombia,3.24114,-74.35539,2.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
 199709240011,Colombia,4.809979,-75.849038,2.0,,Transportation,Revolutionary Armed Forces of Colombia (FARC)
 199709240012,Colombia,10.182574,-73.585913,4.0,,Business,Unknown
 199709240013,Colombia,7.46778,-76.64501,0.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
 199709240014,Colombia,7.46778,-76.64501,1.0,,Transportation,Revolutionary Armed Forces of Colombia (FARC)
-199709240015,Colombia,,,0.0,,Utilities,Revolutionary Armed Forces of Colombia (FARC)
 199709250001,India,26.158025,91.842904,5.0,,Private Citizens & Property,National Democratic Front of Bodoland (NDFB)
 199709250002,Jordan,31.950001,35.933331,0.0,,Violent Political Party,Unknown
 199709250003,Nigeria,6.845507,4.907767,0.0,,Government (General),Unknown
@@ -2441,7 +2290,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199710010007,Venezuela,7.246772,-70.729167,0.0,,Unknown,M-19 (Movement of April 19)
 199710010008,China,44.426529,84.903267,22.0,,Government (General),Uighur Separatists
 199710010009,Brazil,-23.550711,-46.633475,0.0,,Business,Unknown
-199710020001,Indonesia,,,2.0,,Educational Institution,Revolutionary Front for an Independent East Timor (FRETILIN)
 199710020002,Mexico,17.106764,-92.525715,4.0,,Private Citizens & Property,Zapatista National Liberation Army
 199710020003,Pakistan,24.891115,67.143311,1.0,,Private Citizens & Property,Unknown
 199710020004,Pakistan,24.891115,67.143311,1.0,,Private Citizens & Property,Unknown
@@ -2462,15 +2310,12 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199710040001,South Africa,-31.413235,23.947478,2.0,,Private Citizens & Property,Unknown
 199710040002,South Africa,-31.413235,23.947478,2.0,,Private Citizens & Property,Unknown
 199710040003,Uganda,2.243697,32.246032,8.0,,Transportation,Lord's Resistance Army (LRA)
-199710040004,Uganda,,,1.0,,Unknown,Allied Democratic Forces (ADF)
 199710040005,Algeria,34.882776,-1.31667,1.0,,Private Citizens & Property,Unknown
 199710040006,Algeria,36.521669,2.988941,30.0,,Private Citizens & Property,Unknown
 199710040007,Algeria,36.052818,1.484734,10.0,,Police,Unknown
 199710040008,China,43.793028,87.627812,0.0,,Government (General),Uighur Separatists
 199710040009,Colombia,3.372457,-73.873772,17.0,,Police,Revolutionary Armed Forces of Colombia (FARC)
-199710040010,Colombia,,,1.0,,Police,National Liberation Army of Colombia (ELN)
 199710040011,Cuba,23.131944,-82.364167,0.0,,Airports & Aircraft,Unknown
-199710050001,Iraq,,,0.0,,Government (Diplomatic),Unknown
 199710050002,Israel,32.08297,34.811886,0.0,,Transportation,Arabs
 199710050003,Lebanon,33.233416,35.516795,2.0,,Private Citizens & Property,Unknown
 199710050004,Sri Lanka,7.528,81.477833,7.0,,Police,Liberation Tigers of Tamil Eelam (LTTE)
@@ -2490,8 +2335,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199710070002,Colombia,7.85994,-76.590527,3.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
 199710070003,Cuba,23.131944,-82.364167,0.0,,Airports & Aircraft,Unknown
 199710070004,Haiti,18.527716,-72.33284,1.0,,Government (General),Unknown
-199710080001,Lebanon,,,0.0,,Government (General),Hezbollah
-199710080002,Lebanon,,,5.0,,Military,Hezbollah
 199710080003,Philippines,7.209594,124.241966,0.0,,Police,Unknown
 199710080004,Philippines,7.209594,124.241966,0.0,,Police,Unknown
 199710080005,Venezuela,10.482834,-66.962128,0.0,,Government (General),Unknown
@@ -2511,7 +2354,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199710100003,India,28.585836,77.153336,1.0,,Unknown,Unknown
 199710100004,Pakistan,31.50547,74.34288,1.0,,Government (General),Unknown
 199710100005,Burundi,-3.080156,29.397914,7.0,,NGO,Unknown
-199710100006,Colombia,,,6.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
 199710110001,Philippines,7.209594,124.241966,0.0,,Private Citizens & Property,Unknown
 199710110002,Spain,43.291618,-1.977903,0.0,,Police,Unknown
 199710110003,Algeria,36.555482,2.950129,14.0,,Private Citizens & Property,Unknown
@@ -2529,11 +2371,9 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199710120005,Algeria,36.578335,2.91334,9.0,,Private Citizens & Property,Unknown
 199710120006,Algeria,34.637763,-1.153872,0.0,,Private Citizens & Property,Unknown
 199710120007,Algeria,36.90278,7.7552,1.0,,Government (General),Unknown
-199710120008,Burundi,,,22.0,,Private Citizens & Property,Hutu extremists
 199710120010,El Salvador,13.79833,-89.17889,0.0,,Private Citizens & Property,Unknown
 199710130001,Mexico,18.262809,-93.223443,0.0,,Private Citizens & Property,Democratic Revolutionary Party
 199710130002,Spain,43.258434,-2.921819,1.0,,Police,Unknown
-199710130003,Turkey,,,1.0,,Business,Kurdistan Workers' Party (PKK)
 199710130004,Algeria,34.854797,-1.731727,41.0,,Transportation,Unknown
 199710130005,Algeria,34.854797,-1.731727,2.0,,Other,Unknown
 199710130006,Brazil,-22.908278,-43.197026,0.0,,Business,Unknown
@@ -2543,7 +2383,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199710140001,Philippines,7.161138,124.215343,5.0,,Police,Egyptians
 199710140002,Rwanda,-1.587877,29.381578,37.0,,Private Citizens & Property,Hutu extremists
 199710140003,Algeria,36.266667,2.216667,0.0,,Transportation,Unknown
-199710140005,Colombia,,,3.0,,Business,National Liberation Army of Colombia (ELN)
 199710150001,Philippines,6.700414,121.972557,4.0,,Private Citizens & Property,Unknown
 199710150002,Sri Lanka,6.941837,79.861687,18.0,,Business,Liberation Tigers of Tamil Eelam (LTTE)
 199710150004,Yemen,14.935373,43.865216,0.0,,NGO,Bin Zabyan Tribesmen
@@ -2565,7 +2404,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199710180001,India,28.585836,77.153336,1.0,,Unknown,Shahid Khalsa Force
 199710180002,India,28.585836,77.153336,1.0,,Unknown,Shahid Khalsa Force
 199710180003,Iraq,35.567009,45.385494,1.0,,Private Citizens & Property,Unknown
-199710180004,Peru,,,3.0,,Police,Shining Path (SL)
 199710180005,Sri Lanka,8.834273,80.051047,5.0,,Police,Liberation Tigers of Tamil Eelam (LTTE)
 199710180006,Sri Lanka,7.785305,81.427899,3.0,,Military,Liberation Tigers of Tamil Eelam (LTTE)
 199710180007,Tajikistan,38.552185,68.767441,0.0,,Business,Unknown
@@ -2607,7 +2445,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199710190011,Sri Lanka,8.885503,80.276733,109.0,"10/19/1997:  A flotilla of approximately 20 small boats belonging to the Liberation Tigers of Tamil Eelam (LTTE) attacked two navy gunboats off the northeast coast of Sri Lanka. The rebels rammed an explosive-laden boat into one of the navy gunboats, sinking it. At least nine navy sailors and 100 rebels were killed in the incident. The LTTE states that it only lost five members in the battle.",Military,Liberation Tigers of Tamil Eelam (LTTE)
 199710200001,Lebanon,33.888523,35.503513,1.0,,Terrorists/Non-State Militia,Unknown
 199710200002,Pakistan,30.197843,71.467629,4.0,,Unknown,Brelvi Muslims
-199710200003,Rwanda,,,9.0,,Government (Diplomatic),Unknown
 199710200004,Uganda,2.460714,31.494174,2.0,,Private Citizens & Property,Lord's Resistance Army (LRA)
 199710200005,Bosnia-Herzegovina,44.756944,19.216111,0.0,,Telecommunication,Unknown
 199710200006,Burundi,-3.375828,29.364107,4.0,,Private Citizens & Property,Unknown
@@ -2636,15 +2473,12 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199710220003,Yemen,13.219398,45.307838,0.0,,Police,Islamic Jihad Organization (Yemen)
 199710220004,Colombia,7.894195,-72.503885,5.0,,Business,Unknown
 199710220005,Colombia,5.295869,-75.882595,3.0,,Private Citizens & Property,National Liberation Army of Colombia (ELN)
-199710220006,Colombia,,,0.0,,Government (General),Revolutionary Armed Forces of Colombia (FARC)
 199710220007,Colombia,10.981412,-74.778319,0.0,,Business,National Liberation Army of Colombia (ELN)
 199710220008,Colombia,10.981412,-74.778319,0.0,,Business,National Liberation Army of Colombia (ELN)
 199710220009,Colombia,6.242026,-75.564766,0.0,,Government (General),Revolutionary Armed Forces of Colombia (FARC)
 199710220010,Colombia,1.61456,-75.6053,0.0,,Military,Revolutionary Armed Forces of Colombia (FARC)
-199710230001,Senegal,,,1.0,,Private Citizens & Property,Movement of Democratic Forces of Casamance
 199710230002,Yemen,14.597842,44.386803,0.0,,Private Citizens & Property,"Tribesmen, al-Itada"
 199710230003,Algeria,36.587152,2.44311,4.0,,Terrorists/Non-State Militia,Unknown
-199710230004,Algeria,,,5.0,,Private Citizens & Property,Unknown
 199710230005,Colombia,8.083272,-73.224495,1.0,,Business,Unknown
 199710230006,Colombia,3.54434,-73.70781,0.0,,Government (Diplomatic),National Liberation Army of Colombia (ELN)
 199710240001,India,25.096074,85.313119,1.0,,Religious Figures/Institutions,Unknown
@@ -2657,7 +2491,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199710240037,Colombia,1.207787,-77.2772,1.0,,Journalists & Media,Unknown
 199710250001,Iraq,33.74324,44.623825,1.0,,Terrorists/Non-State Militia,Unknown
 199710250002,United Kingdom,54.65548,-5.674815,1.0,,Private Citizens & Property,Ulster Volunteer Force (UVF)
-199710250003,Senegal,,,2.0,,Private Citizens & Property,Movement of Democratic Forces of Casamance
 199710250004,Algeria,34.840752,0.149473,6.0,,Private Citizens & Property,Armed Islamic Group (GIA)
 199710250005,Algeria,36.425833,2.561667,16.0,,Private Citizens & Property,Unknown
 199710250006,Algeria,34.877977,-1.235957,1.0,,Religious Figures/Institutions,Unknown
@@ -2672,7 +2505,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199710270001,Lebanon,33.888523,35.503513,0.0,,Educational Institution,Unknown
 199710270002,Mexico,32.493683,-116.95295,2.0,,Journalists & Media,Unknown
 199710270003,Philippines,8.015901,124.059425,0.0,,Religious Figures/Institutions,Moro National Liberation Front (MNLF)
-199710270004,Tajikistan,,,2.0,,Military,Unknown
 199710270005,Algeria,35.96605,4.69822,3.0,,Private Citizens & Property,Unknown
 199710270006,Algeria,35.52832,-0.19369,3.0,,Unknown,Unknown
 199710270007,Algeria,36.266667,2.75,1.0,,Unknown,Unknown
@@ -2698,7 +2530,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199710290009,Brazil,-20.469303,-54.620434,1.0,,Journalists & Media,Unknown
 199710290010,Colombia,1.3325,-75.97608,0.0,,Government (General),Revolutionary Armed Forces of Colombia (FARC)
 199710290011,Colombia,8.998496,-72.897243,1.0,,Police,National Liberation Army of Colombia (ELN)
-199710300001,India,,,3.0,,Private Citizens & Property,Naga People
 199710300002,United Kingdom,55.011562,-7.312045,,,Government (General),Continuity Irish Republican Army (CIRA)
 199710300003,Philippines,14.740025,121.149719,2.0,,Police,New People's Army (NPA)
 199710300004,Yemen,15.325443,44.211895,0.0,,Business,Tribal Group
@@ -2730,17 +2561,14 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199711040002,Mexico,15.300674,-92.352837,0.0,,Religious Figures/Institutions,Unknown
 199711040003,Senegal,12.488449,-16.543676,0.0,,Government (General),Movement of Democratic Forces of Casamance
 199711040004,Senegal,12.488449,-16.543676,0.0,,Government (General),Movement of Democratic Forces of Casamance
-199711050002,Senegal,,,1.0,,Private Citizens & Property,Movement of Democratic Forces of Casamance
 199711050003,Yugoslavia,42.910556,21.193056,0.0,,Government (General),Unknown
 199711050004,Chile,-33.366238,-70.505302,0.0,,Government (General),Manuel Rodriguez Patriotic Front (FPMR)
-199711050005,Colombia,,,0.0,,Military,Revolutionary Armed Forces of Colombia (FARC)
 199711050006,Colombia,0.435951,-75.52767,0.0,,Business,Revolutionary Armed Forces of Colombia (FARC)
 199711050007,Honduras,14.0833,-87.2167,0.0,,Utilities,Unknown
 199711060001,Mexico,16.738601,-92.633229,0.0,,Educational Institution,Unknown
 199711060002,Paraguay,-25.282773,-57.63561,0.0,,Transportation,Unknown
 199711060003,Peru,-11.967368,-76.978462,0.0,,Business,Shining Path (SL)
 199711060004,Peru,-11.967368,-76.978462,0.0,,Business,Shining Path (SL)
-199711060005,Senegal,,,5.0,,Unknown,Unknown
 199711060006,Somalia,4.123091,43.890845,11.0,,Terrorists/Non-State Militia,Rahanwein Resistance Army (RRA)
 199711060007,Algeria,36.763763,3.055413,0.0,,Private Citizens & Property,Unknown
 199711060010,Algeria,36.763763,3.055413,1.0,,Transportation,Unknown
@@ -2761,7 +2589,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199711080002,Pakistan,29.693391,72.543528,1.0,,Government (General),Unknown
 199711080003,Philippines,12.701949,121.376471,7.0,,Police,New People's Army (NPA)
 199711080004,Algeria,36.66655,3.09606,7.0,,Unknown,Unknown
-199711080006,Algeria,,,27.0,,Private Citizens & Property,Armed Islamic Group (GIA)
 199711080007,Algeria,36.266667,2.75,12.0,,Transportation,Unknown
 199711080008,Algeria,36.37489,3.902,4.0,,Government (General),Unknown
 199711080009,Colombia,8.540112,-74.630384,1.0,,Journalists & Media,Unknown
@@ -2793,7 +2620,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199711120008,Greece,37.99749,23.762728,0.0,,Government (Diplomatic),Unknown
 199711130001,India,25.096074,85.313119,0.0,,Police,Party Unity
 199711130002,Russia,55.751377,37.579914,3.0,,Business,Unknown
-199711130003,Senegal,,,3.0,,Transportation,Movement of Democratic Forces of Casamance
 199711130004,Algeria,36.311529,2.257047,12.0,,Private Citizens & Property,Unknown
 199711130005,Bosnia-Herzegovina,44.756944,19.216111,0.0,,Government (General),Unknown
 199711130006,Costa Rica,8.440212,-83.094398,2.0,,Business,Unknown
@@ -2840,8 +2666,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199711180003,Yugoslavia,42.623016,20.893125,0.0,,Government (General),Unknown
 199711180004,Colombia,4.5295,-75.64021,1.0,,Police,Revolutionary Armed Forces of Colombia (FARC)
 199711180005,Colombia,7.882318,-76.630626,0.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
-199711180006,Colombia,,,6.0,,Government (General),Left-Wing Guerrillas
-199711180007,Colombia,,,6.0,,Government (General),Left-Wing Guerrillas
 199711180008,Colombia,2.51379,-76.38945,4.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
 199711180009,Colombia,7.83372,-72.474228,0.0,,Business,Unknown
 199711190001,Italy,43.768732,11.256901,0.0,,Unknown,Unknown
@@ -2864,7 +2688,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199711200012,Algeria,36.1925,1.720278,8.0,,Private Citizens & Property,Unknown
 199711200013,Algeria,36.763763,3.055413,1.0,,Private Citizens & Property,Unknown
 199711200014,Algeria,36.763763,3.055413,2.0,,Private Citizens & Property,Unknown
-199711200015,Algeria,,,7.0,,Private Citizens & Property,Unknown
 199711200016,Colombia,6.521111,-76.972222,1.0,,Government (General),National Liberation Army of Colombia (ELN)
 199711200017,Colombia,6.643708,-73.653621,0.0,,Government (General),National Liberation Army of Colombia (ELN)
 199711200018,Honduras,14.0833,-87.2167,0.0,,Government (Diplomatic),Unknown
@@ -2879,7 +2702,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199711220005,Republic of the Congo,-4.225356,15.25106,1.0,,NGO,Unknown
 199711230001,Peru,-8.18885,-76.510838,7.0,,Military,Shining Path (SL)
 199711230002,Philippines,13.147154,123.748632,5.0,,Police,New People's Army (NPA)
-199711230003,Somalia,,,3.0,,Government (Diplomatic),Unknown
 199711230004,Spain,43.291618,-1.977903,0.0,,Business,Unknown
 199711230005,Venezuela,10.482834,-66.962128,0.0,,Government (General),Unknown
 199711230006,Algeria,34.45,-0.2,1.0,,Private Citizens & Property,Unknown
@@ -2891,7 +2713,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199711250002,Bangladesh,24.366667,88.6,0.0,,Private Citizens & Property,Jamaat-E-Islami (Bangladesh)
 199711250003,Canada,45.50867,-73.553992,0.0,,Business,Unknown
 199711250004,Colombia,8.63781,-72.73464,0.0,,Religious Figures/Institutions,National Liberation Army of Colombia (ELN)
-199711250005,Colombia,,,4.0,,Unknown,Paramilitaries
 199711260001,Uganda,2.997038,32.143426,14.0,,Private Citizens & Property,Lord's Resistance Army (LRA)
 199711260002,Colombia,7.00063,-76.26572,14.0,,Private Citizens & Property,Paramilitaries
 199711270001,India,26.48,90.56,1.0,,Police,Unknown
@@ -2929,7 +2750,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199711300009,Colombia,1.851988,-76.046976,1.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
 199711300010,Guatemala,14.622869,-90.529068,1.0,,Military,Unknown
 199711300011,United States,43.58604,-119.054654,0.0,"11/30/1997: Five members of the Animal and Earth Liberation Fronts (ALF and ELF), Jacob Ferguson, Kevin Tubbs, Josephine Overaker, William Rodgers, and Rebecca Rubin, freed horses and set arson to the Bureau of Land Management (BLM) Wild Horse Corral near Burns, Oregon in the United States, causing over $190,000 in damages. The perpetrators placed incendiary devices at three locations in the barn and at two other locations, next to and inside a new tractor parked near the barn, then released the 500 horses, and placed different locks on the gates to the access road to block first responders from the scene. There were no casualties in the incident. A dozen horses escaped, but were subsequently recaptured, and none were injured. The BLM Horse Corral was targeted because the perpetrators  had read an article about an auction of wild horses in which buyers would adopt the horses and then sell them at a higher price to slaughterhouses, so the group wanted to ""help halt the BLM’s illegal and immoral business of rounding up wild horses from public lands and funneling them to slaughter,"" as they stated in their released communiqué, claiming responsibility for the incident.",Government (General),Animal Liberation Front (ALF)
-199712010001,India,,,60.0,,Private Citizens & Property,Ranbir Sena
 199712010002,Mexico,31.733333,-106.483333,0.0,,Police,Unknown
 199712010003,Mexico,31.733333,-106.483333,0.0,,Private Citizens & Property,Unknown
 199712010004,Mexico,18.93402,-99.231483,3.0,,Business,Unknown
@@ -2996,10 +2816,8 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199712070003,Spain,43.291618,-1.977903,,,Business,Basque Fatherland and Freedom (ETA)
 199712070004,Spain,43.291618,-1.977903,,,Business,Basque Fatherland and Freedom (ETA)
 199712070005,Turkey,39.307355,39.438778,1.0,,Military,Kurdistan Workers' Party (PKK)
-199712070006,Colombia,,,0.0,,Government (General),Revolutionary Armed Forces of Colombia (FARC)
 199712080001,India,24.798346,93.94043,2.0,,Unknown,Unknown
 199712080002,Macau,22.192266,113.547631,0.0,,Government (General),Unknown
-199712080003,Suriname,,,0.0,,Journalists & Media,Unknown
 199712080004,Colombia,4.15127,-73.63872,1.0,,Religious Figures/Institutions,Unknown
 199712080005,Greece,37.99749,23.762728,0.0,,Business,Unknown
 199712090001,Iraq,35.928637,44.964221,5.0,,Violent Political Party,Unknown
@@ -3011,17 +2829,11 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199712090007,Sri Lanka,7.733107,81.68882,4.0,,Private Citizens & Property,Liberation Tigers of Tamil Eelam (LTTE)
 199712090008,Tajikistan,37.624484,69.645288,1.0,,Police,Unknown
 199712090009,Algeria,36.480453,2.83388,2.0,,Educational Institution,Unknown
-199712090010,Algeria,,,7.0,,Private Citizens & Property,Unknown
 199712090013,Algeria,36.733333,3.966667,0.0,,Transportation,Unknown
-199712090014,Algeria,,,2.0,,Unknown,Unknown
 199712090015,Algeria,36.549466,1.704297,2.0,,Private Citizens & Property,Unknown
 199712090016,Algeria,35.069553,1.058527,4.0,,Business,Unknown
 199712090017,Brazil,-22.908278,-43.197026,4.0,,Private Citizens & Property,Unknown
 199712090018,Colombia,7.02104,-75.90933,0.0,,Transportation,Peasant Self-Defense Group (ACCU)
-199712090019,France,,,0.0,,Government (General),Unknown
-199712090020,France,,,0.0,,Government (General),Unknown
-199712090021,France,,,0.0,,Government (General),Unknown
-199712090022,France,,,0.0,,Government (General),Unknown
 199712100001,Kazakhstan,43.254697,76.912617,1.0,,Government (General),Unknown
 199712100002,Russia,43.320229,45.654491,0.0,,Airports & Aircraft,Unknown
 199712100003,Rwanda,-1.587877,29.381578,271.0,,Private Citizens & Property,Hutu extremists
@@ -3045,7 +2857,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199712120009,Colombia,8.308585,-73.613541,0.0,,Government (General),Unknown
 199712130001,Algeria,36.266667,1.966667,5.0,,Private Citizens & Property,Unknown
 199712130002,Algeria,36.763763,3.055413,3.0,,Private Citizens & Property,Unknown
-199712130003,Algeria,,,2.0,,Private Citizens & Property,Unknown
 199712130004,Colombia,7.198606,-75.341218,0.0,,Journalists & Media,Revolutionary Armed Forces of Colombia (FARC)
 199712140001,Mexico,31.733333,-106.483333,1.0,,Government (General),Unknown
 199712140002,Mexico,20.364417,-103.823587,1.0,,Government (General),Unknown
@@ -3115,19 +2926,14 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199712220004,Russia,42.630236,47.054713,0.0,,Journalists & Media,People's Militia of Dagestan
 199712220005,Rwanda,-1.934652,30.210881,21.0,,Private Citizens & Property,Hutu extremists
 199712220006,Rwanda,-1.955587,30.046343,17.0,,Religious Figures/Institutions,Unknown
-199712220007,Turkey,,,6.0,,Transportation,Unknown
 199712220008,Algeria,34.82738,-1.52826,1.0,,Private Citizens & Property,Unknown
 199712220009,Colombia,8.313611,-72.485833,0.0,,Government (General),National Liberation Army of Colombia (ELN)
 199712220010,Colombia,8.540112,-74.630384,0.0,,Government (General),People's Revolutionary Army (ERP)
 199712220011,Colombia,8.308585,-73.613541,3.0,,Police,National Liberation Army of Colombia (ELN)
 199712230001,Lebanon,33.43407,35.533752,0.0,,Military,Hezbollah
 199712230002,Pakistan,24.891115,67.143311,0.0,,Educational Institution,Unknown
-199712230003,Senegal,,,4.0,,Transportation,Movement of Democratic Forces of Casamance
-199712230004,Senegal,,,4.0,,Transportation,Movement of Democratic Forces of Casamance
 199712230005,Algeria,36.763763,3.055413,9.0,,Private Citizens & Property,Unknown
 199712230006,Germany,52.50153,13.401851,0.0,,Private Citizens & Property,Unknown
-199712230007,Senegal,,,0.0,,Transportation,Movement of Democratic Forces of Casamance
-199712230008,Senegal,,,0.0,,Transportation,Movement of Democratic Forces of Casamance
 199712240001,Macedonia,42.008513,20.974305,0.0,,Unknown,Unknown
 199712240002,Russia,43.002404,46.684117,0.0,,Government (General),Unknown
 199712240003,Argentina,-34.61768,-58.444435,0.0,,Private Citizens & Property,Unknown
@@ -3147,20 +2953,15 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199712270003,United Kingdom,54.50853,-6.763131,1.0,,Business,Loyalist Volunteer Forces (LVF)
 199712270004,Tajikistan,38.552185,68.767441,1.0,,Police,Unknown
 199712270005,Albania,40.078751,20.148621,0.0,,Transportation,Unknown
-199712270006,Algeria,,,3.0,,Private Citizens & Property,Unknown
 199712270007,Algeria,36.101111,1.199444,9.0,,Private Citizens & Property,Unknown
 199712270008,Algeria,34.113883,2.097262,10.0,,Private Citizens & Property,Unknown
-199712270009,Algeria,,,11.0,,Private Citizens & Property,Unknown
 199712270010,Croatia,45.343056,14.409167,0.0,,Business,Unknown
 199712270011,United Kingdom,54.488611,-6.1075,1.0,,Terrorists/Non-State Militia,Irish National Liberation Army (INLA)
-199712280001,Kenya,,,3.0,,Private Citizens & Property,Maasai
 199712280002,Russia,43.320229,45.654491,0.0,,Business,Unknown
 199712280003,Russia,43.047456,44.665806,0.0,,Private Citizens & Property,Unknown
 199712280004,Rwanda,-1.453118,29.586212,0.0,,Business,Unknown
 199712280005,Algeria,35.846492,0.377189,12.0,,Private Citizens & Property,Unknown
 199712280006,Algeria,35.846492,0.377189,14.0,,Religious Figures/Institutions,Unknown
-199712280007,Algeria,,,17.0,,Private Citizens & Property,Unknown
-199712280008,Algeria,,,14.0,,Private Citizens & Property,Unknown
 199712280009,Algeria,34.666667,3.25,7.0,,Private Citizens & Property,Unknown
 199712280010,Algeria,36.084918,2.639857,2.0,,Private Citizens & Property,Unknown
 199712280011,Bahrain,26.204552,50.534554,0.0,,Business,Unknown
@@ -3168,7 +2969,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199712280013,Russia,43.320229,45.654491,0.0,,Journalists & Media,Unknown
 199712280014,Sri Lanka,6.031537,80.233525,3.0,"12/18/1997: Three individuals believed to be from the Liberation Tigers of Tamil Eelam were killed when their vehicle exploded prematurely near Galle, Sri Lanka. Their truck was rigged with explosives and at least one of the rebels was wearing an explosives jacket. It is believed that they were targeting the navy chief, Cecil Tissera, who was in the area attending a show. Two houses in the area were destroyed. Four men were detained for questioning.",Military,Liberation Tigers of Tamil Eelam (LTTE)
 199712290001,Kenya,-0.092039,34.7696,0.0,,Government (General),National Development Party (NDP)
-199712290002,Kenya,,,1.0,,Government (General),Unknown
 199712290003,Kenya,0.22771,34.815253,1.0,,Government (General),Forum for the Restoration of Democracy-Kenya
 199712290004,Peru,-11.967368,-76.978462,0.0,,Business,Unknown
 199712290005,Somalia,4.120602,43.890526,25.0,,Terrorists/Non-State Militia,Rahanwein Resistance Army (RRA)
@@ -3189,7 +2989,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 199712300005,Algeria,36.200833,1.733611,206.0,,Private Citizens & Property,Unknown
 199712300006,Colombia,3.429344,-76.516037,0.0,,Business,Unknown
 199712300007,Algeria,35.961111,0.918889,206.0,,Private Citizens & Property,Unknown
-199712300008,Algeria,,,0.0,,Private Citizens & Property,Unknown
 199712310001,United Kingdom,54.607712,-5.95621,1.0,,Religious Figures/Institutions,Loyalist Volunteer Forces (LVF)
 199712310002,South Africa,-29.861824,31.008293,1.0,,Tourists,Unknown
 199712310003,Thailand,6.166837,101.190053,0.0,,Transportation,Unknown

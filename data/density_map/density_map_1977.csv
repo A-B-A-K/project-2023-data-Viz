@@ -33,7 +33,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197701060001,Austria,48.208174,16.373819,,,Government (Diplomatic),Unknown
 197701060002,Bangladesh,22.341896,91.815117,0.0,,Government (Diplomatic),Unknown
 197701070001,United States,25.774591,-80.214195,1.0,,Terrorists/Non-State Militia,Unknown
-197701080001,West Germany (FRG),,,0.0,,Transportation,Baader-Meinhof Group
 197701080002,West Germany (FRG),50.11797,8.644191,0.0,,Transportation,Revolutionary Cells
 197701090002,United Kingdom,54.184008,-7.360209,1.0,,Military,Irish Republican Army (IRA)
 197701100001,Spain,40.465595,-3.696263,,,Business,Unknown
@@ -45,7 +44,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197701160001,West Germany (FRG),50.11797,8.644191,0.0,,Transportation,Anti-Government Group
 197701160002,Mexico,19.371887,-99.086624,4.0,,Business,Unknown
 197701170001,Mexico,19.371887,-99.086624,2.0,,Police,23rd of September Communist League
-197701170002,People's Republic of the Congo,,,,,Business,Front for the Liberation of the Enclave of Cabinda (FLEC)
 197701190002,United States,40.697132,-73.931351,0.0,,Government (General),Independent Armed Revolutionary Commandos (CRIA)
 197701190004,Austria,48.208174,16.373819,0.0,,Transportation,Unknown
 197701190006,Italy,44.49419,11.346518,0.0,,Private Citizens & Property,Unknown
@@ -55,7 +53,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197701200001,Mexico,19.371887,-99.086624,2.0,,Business,23rd of September Communist League
 197701200002,West Germany (FRG),53.553813,9.991586,0.0,,Business,Unknown
 197701200003,Angola,-5.433869,12.21505,,,Utilities,Front for the Liberation of the Enclave of Cabinda (FLEC)
-197701210001,Netherlands,,,0.0,,Business,Unknown
 197701210002,Turkey,39.930771,32.76754,0.0,,Business,Turkish People's Liberation Front (TPLF)(THKP-C)
 197701210004,United Kingdom,54.607712,-5.95621,1.0,,Private Citizens & Property,Irish Republican Army (IRA)
 197701210005,United Kingdom,54.706718,-7.592867,1.0,,Private Citizens & Property,Ulster Freedom Fighters (UFF)
@@ -88,7 +85,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197701310001,Colombia,4.667128,-74.106056,0.0,,Airports & Aircraft,Revolutionary Workers Party
 197701310002,Colombia,4.667128,-74.106056,0.0,,Business,Revolutionary Workers Party
 197701310003,United Kingdom,54.607712,-5.95621,1.0,,Terrorists/Non-State Militia,Ulster Volunteer Force (UVF)
-197702000001,Venezuela,,,0.0,,Business,Red Flag (Venezuela)
 197702000002,United Kingdom,53.410777,-2.977838,,,Government (General),Irish Republican Army (IRA)
 197702020001,Colombia,1.61456,-75.6053,0.0,,Business,Revolutionary Armed Forces of Colombia (FARC)
 197702030001,United Kingdom,54.607712,-5.95621,1.0,,Business,Irish Republican Army (IRA)
@@ -248,7 +244,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197703290006,Turkey,39.930771,32.76754,0.0,,Business,Unknown
 197703290007,Turkey,38.395649,27.135641,0.0,,Government (Diplomatic),Unknown
 197703290008,United States,37.755363,-122.443352,0.0,,Utilities,New World Liberation Front (NWLF)
-197703300002,Colombia,,,,,Business,Revolutionary Armed Forces of Colombia (FARC)
 197703300003,Turkey,41.106178,28.689863,0.0,,Private Citizens & Property,Marxist-Leninist Armed Propaganda Unit
 197703300004,Turkey,41.106178,28.689863,0.0,,Business,Marxist-Leninist Armed Propaganda Unit
 197703300005,Turkey,38.395649,27.135641,0.0,,Private Citizens & Property,Unknown
@@ -270,7 +265,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197703310001,Colombia,4.667128,-74.106056,0.0,,Business,National Liberation Army of Colombia (ELN)
 197703310004,United States,40.697132,-73.931351,0.0,,Government (General),Independent Armed Revolutionary Commandos (CRIA)
 197703310005,United States,40.697132,-73.931351,0.0,,Government (General),Independent Armed Revolutionary Commandos (CRIA)
-197704000001,Mauritania,,,0.0,,Business,Polisario Front
 197704000002,Israel,31.771599,35.2034,0.0,,Transportation,Palestinians
 197704010001,Zaire,-8.35353,22.649662,1.0,,Business,Soviet and Cuban-backed rebels/mercenaries
 197704020001,United Kingdom,54.081638,-6.448779,1.0,,Private Citizens & Property,Republican Action Force
@@ -364,7 +358,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197705110002,West Germany (FRG),52.50153,13.401851,0.0,,Government (General),Revolutionary Cells
 197705110003,West Germany (FRG),47.764064,8.853396,0.0,,Transportation,Unknown
 197705110004,Greece,37.99749,23.762728,0.0,,Private Citizens & Property,Unknown
-197705110005,Saudi Arabia,,,,,Utilities,Unknown
 197705120001,Iran,35.724533,51.40519,2.0,,Police,Unknown
 197705120002,United States,47.602104,-122.156296,0.0,,Business,George Jackson Brigade
 197705120003,United States,47.674086,-122.121409,0.0,,Business,George Jackson Brigade
@@ -533,7 +526,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197706260002,Spain,40.465595,-3.696263,0.0,,Journalists & Media,First of October Antifascist Resistance Group (GRAPO)
 197706260003,Spain,41.118663,1.24533,0.0,,Private Citizens & Property,Red Guerrilla
 197706260004,Spain,41.579315,2.551492,0.0,,Private Citizens & Property,Red Guerrilla
-197706260005,Spain,,,0.0,,Private Citizens & Property,Red Guerrilla
 197706260006,Spain,41.280388,1.976774,0.0,,Private Citizens & Property,Red Guerrilla
 197706260007,Spain,41.234782,1.811222,0.0,,Private Citizens & Property,Red Guerrilla
 197706260008,Spain,41.200558,1.568441,0.0,,Private Citizens & Property,Red Guerrilla
@@ -660,7 +652,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197707220004,Turkey,38.349765,38.300859,,,Business,Unknown
 197707220005,Turkey,41.292811,36.329505,,,Private Citizens & Property,Unknown
 197707220006,United Kingdom,55.071136,-6.513154,1.0,,Police,Irish Republican Army (IRA)
-197707230001,Peru,,,0.0,,Maritime,Coordination of the United Revolutionary Organization (CORU)
 197707250001,Italy,41.890961,12.490069,0.0,,Police,Unknown
 197707250002,United States,39.081665,-77.15124,0.0,,Private Citizens & Property,Unknown
 197707260001,Italy,41.890961,12.490069,0.0,,Police,Unknown
@@ -902,8 +893,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197709200001,Italy,45.072731,7.679541,0.0,,Utilities,Revolutionary Action
 197709200002,Spain,41.400635,2.150913,1.0,,Journalists & Media,Argentine Anticommunist Alliance (AAA)
 197709200003,Spain,40.465595,-3.696263,1.0,,Journalists & Media,Argentine Anticommunist Alliance (AAA)
-197709210001,Colombia,,,0.0,,Utilities,Revolutionary Armed Forces of Colombia (FARC)
-197709210002,Colombia,,,0.0,,Utilities,Revolutionary Armed Forces of Colombia (FARC)
 197709210003,Italy,45.072731,7.679541,0.0,,Business,Tonino Micciche Workers Nucleus
 197709220001,Colombia,6.655556,-74.268889,1.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
 197709220002,Colombia,6.655556,-74.268889,3.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
@@ -911,24 +900,20 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197709220004,Spain,28.46981,-16.254856,0.0,,Tourists,Canary Islands Independence Movement
 197709220005,Netherlands,52.090142,5.109665,1.0,,Business,Revolutionary Cells
 197709220006,Thailand,6.201532,101.251838,1.0,,Government (General),Pattani United Liberation Organization (PULO)
-197709270001,Colombia,,,1.0,,Government (General),Revolutionary Armed Forces of Colombia (FARC)
 197709270002,Italy,41.890961,12.490069,0.0,,Unknown,Italian Social Movement (MSI)
 197709270003,Colombia,1.68448,-75.28659,1.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
 197709270004,Italy,46.066712,11.119059,2.0,,Business,Red Brigades
 197709270005,Italy,46.066712,11.119059,0.0,,Business,Red Brigades
 197709280001,Spain,40.465595,-3.696263,1.0,,Police,First of October Antifascist Resistance Group (GRAPO)
 197709280002,Italy,41.890961,12.490069,1.0,,Unknown,Italian Social Movement (MSI)
-197709280003,Colombia,,,0.0,,Utilities,Unknown
 197709280004,India,19.075984,72.877656,0.0,,Airports & Aircraft,Japanese Red Army (JRA)
 197709290001,Italy,38.910536,16.587757,0.0,,Government (General),Communist Fighting Unit
 197709300001,Guatemala,14.622869,-90.529068,2.0,,Government (General),Unknown
 197709300002,Italy,41.890961,12.490069,1.0,,Government (General),Italian Social Movement (MSI)
-197709300003,Colombia,,,0.0,,Utilities,Unknown
 197709300004,Italy,45.072731,7.679541,0.0,,Business,Red Brigades
 197710000001,Colombia,4.667128,-74.106056,0.0,,Business,Unknown
 197710000002,Colombia,6.242026,-75.564766,0.0,,Business,National Liberation Army of Colombia (ELN)
 197710010001,Chile,-33.366238,-70.505302,0.0,,Business,Unknown
-197710010002,Colombia,,,,,Utilities,Unknown
 197710010003,Colombia,3.88182,-77.07042,0.0,,Utilities,Unknown
 197710010004,Colombia,7.116294,-73.120026,0.0,,Utilities,Unknown
 197710010005,Italy,45.072731,7.679541,0.0,,Business,Unknown
@@ -955,7 +940,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197710050004,Spain,42.815372,-1.653616,0.0,,Journalists & Media,Young Brigade of Navarro
 197710060001,Italy,45.495837,12.244107,0.0,,Government (General),Unknown
 197710060002,United States,47.610786,-122.331306,0.0,"10/6/1977: The George Jackson Brigade attempted to firebomb vehicles at the Westland Buick new care dealership in Seattle, Washington in the United States. However, the incendiary device failed to ignite.",Business,George Jackson Brigade
-197710070001,Colombia,,,4.0,,Police,Revolutionary Armed Forces of Colombia (FARC)
 197710070002,Spain,43.258434,-2.921819,1.0,,Business,Argentine Anticommunist Alliance (AAA)
 197710070003,Spain,40.465595,-3.696263,0.0,,Transportation,First of October Antifascist Resistance Group (GRAPO)
 197710070004,Spain,40.465595,-3.696263,0.0,,Government (General),First of October Antifascist Resistance Group (GRAPO)
@@ -974,7 +958,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197710090002,Italy,41.890961,12.490069,0.0,,Business,Unknown
 197710090003,Italy,41.890961,12.490069,0.0,,Violent Political Party,Unknown
 197710090004,Italy,41.890961,12.490069,0.0,,Business,Italian Social Movement (MSI)
-197710090005,Colombia,,,0.0,,Private Citizens & Property,National Liberation Army of Colombia (ELN)
 197710100001,Spain,40.465595,-3.696263,1.0,,Police,First of October Antifascist Resistance Group (GRAPO)
 197710100002,Italy,45.072731,7.679541,1.0,,Business,Unknown
 197710100003,United States,46.089245,-122.936504,0.0,,Utilities,New World Liberation Front (NWLF)
@@ -1074,7 +1057,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197710230006,Italy,45.539838,10.222956,0.0,,Business,Unknown
 197710230007,Italy,41.890961,12.490069,0.0,,Business,Unknown
 197710230008,Italy,45.539838,10.222956,0.0,,Business,Red Brigades
-197710240001,France,,,0.0,,Journalists & Media,Breton Separatists
 197710240002,Italy,43.887892,8.031564,0.0,,Business,Unknown
 197710250001,Italy,45.072731,7.679541,0.0,,Government (General),Red Brigades
 197710250002,United Arab Emirates,24.428885,54.460003,1.0,,Business,Unknown
@@ -1090,7 +1072,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197710300001,Italy,41.733244,12.278939,0.0,,Police,Unknown
 197710300002,Italy,45.434336,12.338786,0.0,,Business,Proletarian Patrols
 197710310001,Colombia,7.6676,-76.6803,0.0,,Business,Revolutionary Armed Forces of Colombia (FARC)
-197711000001,Colombia,,,1.0,,Business,Revolutionary Armed Forces of Colombia (FARC)
 197711000002,Chile,-33.366238,-70.505302,0.0,,Business,Movement of the Revolutionary Left (MIR) (Chile)
 197711000003,Japan,35.689125,139.747742,,,Religious Figures/Institutions,Tribal Battlefront
 197711000005,United States,39.103175,-84.511981,0.0,"11/0/1977: Unknown perpetrators set fire to the Cincinnati Planned Parenthood clinic that was housed within Christ Church in Ohio, United States. There were no casualties but the clinic sustained $4,000 in damages.",Abortion Related,Anti-Abortion extremists
@@ -1100,9 +1081,7 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197711020001,Italy,41.075415,14.332195,0.0,,Business,Unknown
 197711020002,South Africa,-27.383175,31.616067,1.0,,Police,African National Congress (South Africa)
 197711020003,United States,47.610786,-122.331306,0.0,"11/02/1977: The George Jackson Brigade attempted to bomb the offices of the Diebold Company in Seattle, Washington in the United States. However, the bomb did not detonate.",Business,George Jackson Brigade
-197711030001,Colombia,,,1.0,,Business,Popular Liberation Army (EPL)
 197711030002,Spain,43.18418,-2.473289,0.0,,Journalists & Media,Unknown
-197711030003,Colombia,,,0.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
 197711040001,Colombia,4.667128,-74.106056,0.0,,Telecommunication,Popular Liberation Army (EPL)
 197711040002,United Kingdom,54.607712,-5.95621,1.0,,Military,Irish Republican Army (IRA)
 197711070001,Lebanon,33.888523,35.503513,3.0,,Terrorists/Non-State Militia,Palestinians
@@ -1129,7 +1108,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197711150004,South Africa,-26.210248,28.279927,0.0,,Transportation,Unknown
 197711160001,Colombia,2.44532,-76.60791,0.0,,Educational Institution,Revolutionary Armed Forces of Colombia (FARC)
 197711160002,Malaysia,3.138943,101.691315,0.0,,Airports & Aircraft,Unknown
-197711160003,North Yemen,,,1.0,,Government (Diplomatic),Unknown
 197711170001,Colombia,8.111382,-75.98551,0.0,,Business,Popular Liberation Army (EPL)
 197711190001,Italy,44.407062,8.933989,1.0,,Business,Unknown
 197711190002,France,48.856644,2.34233,0.0,,Business,Unknown
@@ -1167,9 +1145,7 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197711300001,Italy,45.072731,7.679541,0.0,,Transportation,Unknown
 197711300002,Spain,40.465595,-3.696263,0.0,,Business,Commando Adolph Hitler
 197712000001,Colombia,4.667128,-74.106056,1.0,,Business,Unknown
-197712000003,Greece,,,1.0,,Journalists & Media,Greek National Socialist Organization
 197712000004,Greece,37.99749,23.762728,0.0,,Government (Diplomatic),Greek National Socialist Organization
-197712000005,Malta,,,1.0,,Private Citizens & Property,Unknown
 197712010001,Italy,41.890961,12.490069,0.0,,Business,Unknown
 197712010002,Italy,45.469212,9.174508,0.0,,Government (General),Unknown
 197712010003,Italy,41.890961,12.490069,0.0,,Government (General),Unknown
@@ -1245,7 +1221,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197712140005,Spain,43.215187,-2.415702,0.0,,Business,Unknown
 197712140006,United Kingdom,54.607712,-5.95621,1.0,,Military,Irish Republican Army (IRA)
 197712140007,South Africa,-26.189151,28.31707,0.0,,Transportation,Unknown
-197712150001,France,,,,,Utilities,Fanatical Ecologists
 197712150002,Italy,41.890961,12.490069,0.0,,Government (General),Unknown
 197712180001,Spain,43.413244,-2.902253,0.0,,Utilities,Basque Fatherland and Freedom (ETA)
 197712180002,United Kingdom,54.607712,-5.95621,1.0,,Private Citizens & Property,Protestant extremists
@@ -1281,7 +1256,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197712230010,Greece,37.99749,23.762728,0.0,,Military,Fighting Popular Rally
 197712230011,Spain,42.262968,3.174805,0.0,,Military,PORE
 197712230012,United States,25.774591,-80.214195,0.0,,Airports & Aircraft,Anti-Castro Command
-197712240001,Colombia,,,4.0,,Private Citizens & Property,Revolutionary Armed Forces of Colombia (FARC)
 197712240002,Colombia,4.814278,-75.694558,,,Business,Revolutionary Armed Forces of Colombia (FARC)
 197712240003,Colombia,4.5295,-75.64021,,,Business,Revolutionary Armed Forces of Colombia (FARC)
 197712240004,Spain,42.815372,-1.653616,0.0,,Government (General),Commando Adolph Hitler
@@ -1315,6 +1289,5 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197712300002,Italy,41.890961,12.490069,0.0,,Private Citizens & Property,Armed Revolutionary Groups
 197712300003,Spain,40.465595,-3.696263,0.0,,Transportation,Canary Islands Independence Movement
 197712310001,Guatemala,14.632614,-90.46695,2.0,,Government (General),Guerrilla Army of the Poor (EGP)
-197712310002,Guatemala,,,1.0,,Business,Unknown
 197712310004,Spain,40.465595,-3.696263,0.0,,Business,Canary Islands Independence Movement
 197712310005,United Kingdom,51.504387,-0.140041,0.0,,Government (Diplomatic),Unknown

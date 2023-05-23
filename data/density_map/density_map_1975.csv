@@ -4,7 +4,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197501000003,Spain,40.465595,-3.696263,,,Private Citizens & Property,First of October Antifascist Resistance Group (GRAPO)
 197501000004,Spain,40.465595,-3.696263,,,Private Citizens & Property,First of October Antifascist Resistance Group (GRAPO)
 197501000005,United Kingdom,51.504387,-0.140041,2.0,,Private Citizens & Property,Irish Republican Army (IRA)
-197501000006,Netherlands,,,1.0,,Business,South Moluccans
 197501000007,United Kingdom,51.504387,-0.140041,,,Business,Irish Republican Army (IRA)
 197501030001,Syria,36.201721,37.14352,0.0,,Government (Diplomatic),Popular Front for the Liberation of Palestine (PFLP)
 197501030002,Syria,36.201721,37.14352,0.0,,Government (Diplomatic),Popular Front for the Liberation of Palestine (PFLP)
@@ -93,7 +92,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197502260001,Argentina,-31.399301,-64.182129,1.0,,Government (Diplomatic),Montoneros (Argentina)
 197502260002,United States,34.097866,-118.407379,0.0,,Journalists & Media,Cuban Action
 197502260003,United Kingdom,51.504387,-0.140041,1.0,,Police,Irish Republican Army (IRA)
-197502270001,West Germany (FRG),,,0.0,,Government (General),2nd of June Movement
 197502270002,Spain,43.258434,-2.921819,,,Business,Basque Fatherland and Freedom (ETA)
 197502270003,United Kingdom,54.607712,-5.95621,1.0,,Terrorists/Non-State Militia,Irish Republican Extremists
 197502270004,United Kingdom,54.607712,-5.95621,1.0,,Business,Ulster Volunteer Force (UVF)
@@ -130,7 +128,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197503100003,United States,37.338475,-121.885794,0.0,,Business,Chicano Liberation Front
 197503100004,United States,37.755363,-122.443352,0.0,,Business,Chicano Liberation Front
 197503120001,United States,37.625511,-122.432556,0.0,,Utilities,New World Liberation Front (NWLF)
-197503120002,Colombia,,,,,Military,National Liberation Army of Colombia (ELN)
 197503120003,United Kingdom,54.607712,-5.95621,1.0,,Private Citizens & Property,Irish Republican Extremists
 197503130001,Spain,40.465595,-3.696263,0.0,,Private Citizens & Property,Unknown
 197503130002,Spain,28.291564,-16.62913,,,Business,Unknown
@@ -196,7 +193,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197504050006,United States,34.097866,-118.407379,0.0,,Tourists,Jewish Defense League (JDL)
 197504060001,United Kingdom,54.607712,-5.95621,1.0,,Terrorists/Non-State Militia,Official Irish Republican Army (OIRA)
 197504070001,West Germany (FRG),52.50153,13.401851,,,Business,Unknown
-197504070002,Colombia,,,,,Private Citizens & Property,National Liberation Army of Colombia (ELN)
 197504070003,United Kingdom,54.607712,-5.95621,1.0,,Private Citizens & Property,Irish Republican Extremists
 197504070004,United Kingdom,54.607712,-5.95621,1.0,,Private Citizens & Property,Protestant extremists
 197504070005,United Kingdom,54.751202,-5.71626,2.0,,Military,Ulster Volunteer Force (UVF)
@@ -280,7 +276,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197505150001,Spain,43.317073,-2.678975,1.0,,Police,Basque Fatherland and Freedom (ETA)
 197505160001,Spain,41.400635,2.150913,0.0,,Airports & Aircraft,Catalan Liberation Front (FAC)
 197505180001,United Kingdom,54.255696,-5.948804,1.0,,Terrorists/Non-State Militia,Ulster Volunteer Force (UVF)
-197505190001,Tanzania,,,0.0,,Educational Institution,People's Revolutionary Party (Tanzania)
 197505190002,France,43.359399,-1.766148,0.0,,Business,Nationalist Intervention Group
 197505190003,United States,37.941799,-122.48835,0.0,,Business,New World Liberation Front (NWLF)
 197505210001,Iran,35.724533,51.40519,1.0,,Private Citizens & Property,Mujahedin-e Khalq (MEK)
@@ -325,7 +320,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197506050001,Spain,40.465595,-3.696263,0.0,,Business,Revolutionary Patriotic Anti-Fascist Front (FRAP)
 197506050002,France,48.856644,2.34233,0.0,,Private Citizens & Property,Nationalist Intervention Group
 197506050003,United Kingdom,54.607712,-5.95621,1.0,,Terrorists/Non-State Militia,Official Irish Republican Army (OIRA)
-197506060001,Spain,,,1.0,,Police,Basque Fatherland and Freedom (ETA)
 197506060002,Spain,41.400635,2.150913,0.0,,Business,Basque Fatherland and Freedom (ETA)
 197506080001,Peru,-11.967368,-76.978462,0.0,,Government (Diplomatic),Movement of the Revolutionary Left (MIR) (Peru)
 197506080002,United States,37.755363,-122.443352,2.0,,Private Citizens & Property,Tribal Thumb
@@ -359,7 +353,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197506240001,United Kingdom,54.607712,-5.95621,1.0,,Private Citizens & Property,Irish Republican Extremists
 197506270001,United States,37.774422,-122.275475,0.0,,Government (General),New World Liberation Front (NWLF)
 197506270002,United States,43.878581,-103.45906,0.0,"06/27/1975: Suspected members of the American Indian Movement bombed the visitors center of the Mount Rushmore National Memorial near Keystone, South Dakota in the United States. There were no casualties but the glass walls of the facility were shattered.",Government (General),American Indian Movement
-197506280001,Spain,,,,,Transportation,Revolutionary Patriotic Anti-Fascist Front (FRAP)
 197506280002,United Kingdom,54.607712,-5.95621,1.0,,Private Citizens & Property,Ulster Volunteer Force (UVF)
 197506290001,Lebanon,33.888523,35.503513,0.0,,Military,Popular Front for the Liberation of Palestine (PFLP)
 197507000001,Argentina,-26.808285,-65.21759,0.0,,Military,Ejercito Revolucionaria del Pueblo (ERP) (Argentina)
@@ -424,7 +417,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197508080004,Nicaragua,12.103822,-86.267014,11.0,,Journalists & Media,Sandinista National Liberation Front (FSLN)
 197508080005,United States,39.758968,-104.876305,0.0,"08/08/1975: Unknown perpetrator(s) bombed the United States Courthouse in Denver, Colorado, United States. There were no casualties but a door and windows of the building were shattered. Windows in adjacent buildings were damaged as well.",Government (General),Unknown
 197508090001,Spain,40.465595,-3.696263,1.0,,Police,First of October Antifascist Resistance Group (GRAPO)
-197508100001,Spain,,,0.0,,Transportation,Revolutionary Patriotic Anti-Fascist Front (FRAP)
 197508100002,Spain,40.465595,-3.696263,0.0,,Transportation,Revolutionary Patriotic Anti-Fascist Front (FRAP)
 197508100003,United Kingdom,54.607712,-5.95621,2.0,,Military,Irish Republican Army (IRA)
 197508110001,United Kingdom,54.607712,-5.95621,1.0,,Military,Irish Republican Army (IRA)
@@ -462,7 +454,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197508220005,United Kingdom,54.347539,-6.656108,3.0,,Private Citizens & Property,Protestant extremists
 197508240001,United Kingdom,54.192934,-6.576051,2.0,,Private Citizens & Property,Protestant extremists
 197508250001,Malaysia,3.138943,101.691315,0.0,,Private Citizens & Property,Communist Party of Malaysia- Marxist-Leninist
-197508260001,Philippines,,,0.0,,Airports & Aircraft,Moro National Liberation Front (MNLF)
 197508260002,France,48.113475,-1.675708,0.0,,Government (General),Breton Liberation Front (FLB)
 197508270001,United Kingdom,54.607712,-5.95621,1.0,,Private Citizens & Property,Irish Republican Extremists
 197508270002,United Kingdom,54.607712,-5.95621,1.0,,Private Citizens & Property,Ulster Volunteer Force (UVF)
@@ -490,7 +481,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197509080003,United Kingdom,54.607712,-5.95621,1.0,,Terrorists/Non-State Militia,Irish Republican Army (IRA)
 197509080004,United Kingdom,54.855103,-5.811254,1.0,,Private Citizens & Property,Protestant extremists
 197509080005,United Kingdom,54.411142,-6.600146,1.0,,Business,Protestant extremists
-197509090001,Spain,,,0.0,,Transportation,Basque Fatherland and Freedom (ETA)
 197509090002,Spain,43.189944,-2.052454,0.0,,Transportation,Basque Fatherland and Freedom (ETA)
 197509090005,United Kingdom,54.607712,-5.95621,1.0,,Private Citizens & Property,Protestant extremists
 197509110001,Portugal,38.725299,-9.150036,0.0,,Airports & Aircraft,Revolutionary Internationalist Solidarity
@@ -522,8 +512,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197509220003,United Kingdom,51.504387,-0.140041,,,Business,Irish Republican Army (IRA)
 197509230001,United Kingdom,56.386618,-3.347748,0.0,,Utilities,Army for Freeing Scotland
 197509230002,United Kingdom,54.42071,-6.443767,1.0,,Police,Irish Republican Army (IRA)
-197509240001,Japan,,,,,Police,East Asia Anti Japanese Armed Front
-197509240002,Japan,,,,,Police,East Asia Anti Japanese Armed Front
 197509240003,Turkey,41.106178,28.689863,,,Military,Unknown
 197509250001,France,43.604652,1.444209,0.0,,Government (Diplomatic),International Revolutionary Action Group (GARI)
 197509250002,France,48.856644,2.34233,0.0,,Business,International Revolutionary Action Group (GARI)
@@ -610,7 +598,6 @@ eventid,country_txt,latitude,longitude,nkill,summary,targtype1_txt,gname
 197510220001,Austria,48.208174,16.373819,1.0,,Government (Diplomatic),Justice Commandos for the Armenian Genocide
 197510220002,Lebanon,33.888523,35.503513,,,Government (General),Palestinians
 197510230001,United Kingdom,51.504387,-0.140041,1.0,,Government (General),Irish Republican Army (IRA)
-197510230003,Ethiopia,,,0.0,,Business,Eritrean Liberation Front
 197510230004,United Kingdom,54.470773,-6.685257,2.0,,Private Citizens & Property,Ulster Volunteer Force (UVF)
 197510240001,France,48.856644,2.34233,2.0,,Government (Diplomatic),Justice Commandos for the Armenian Genocide
 197510240002,Argentina,-34.61768,-58.444435,0.0,,Business,Montoneros (Argentina)
