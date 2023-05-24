@@ -48,6 +48,22 @@ var colorMapping = {
     'Abortion Related': '#C71585' // Medium Violet Red
 };
 
+var regionCountries = {
+    'Central America & Caribbean': ["Dominican Republic", "Guatemala", "Nicaragua", "Costa Rica", "Panama", "El Salvador", "Haiti", "Honduras", "Jamaica", "Bahamas", "Barbados", "Trinidad and Tobago", "Grenada", "Belize", "Guadeloupe", "Martinique", "Dominica", "Cuba", "Antigua and Barbuda", "St. Kitts and Nevis", "St. Lucia"],
+    'North America': ["Mexico", "United States", "Canada"],
+    'Southeast Asia': ["Philippines", "Cambodia", "Brunei", "Thailand", "Myanmar", "Malaysia", "Singapore", "Indonesia", "Laos", "Vietnam", "East Timor"],
+    'Western Europe': ["Greece", "Italy", "Switzerland", "Spain", "Ireland", "United Kingdom", "Netherlands", "Belgium", "Sweden", "Austria", "France", "Portugal", "Cyprus", "Andorra", "Malta", "Denmark", "Norway", "Vatican City", "Luxembourg", "Iceland", "Finland", "Germany"],
+    'East Asia': ["Japan", "Taiwan", "South Korea", "Hong Kong", "China", "North Korea", "Macau"],
+    'South America': ["Uruguay", "Venezuela", "Brazil", "Argentina", "Paraguay", "Colombia", "Bolivia", "Peru", "Chile", "Ecuador", "Guyana", "Suriname", "French Guiana", "Falkland Islands"],
+    'Eastern Europe': ["East Germany (GDR)", "Poland", "Albania", "Bulgaria", "Romania", "Hungary", "Croatia", "Lithuania", "Ukraine", "Moldova", "Russia", "Bosnia-Herzegovina", "Latvia", "Estonia", "Slovak Republic", "Macedonia", "Belarus", "Czech Republic", "Slovenia", "Kosovo", "Montenegro", "Serbia"],
+    'Sub-Saharan Africa': ["Ethiopia", "Zambia", "Sudan", "Botswana", "Chad", "South Africa", "Kenya", "Somalia", "Tanzania", "Namibia", "Nigeria", "Angola", "Mauritania", "Djibouti", "Mozambique", "Uganda", "Lesotho", "Gabon", "Senegal", "Zimbabwe", "Guinea", "Central African Republic", "Seychelles", "Swaziland", "Burkina Faso", "Niger", "Togo", "Ghana", "Liberia", "Republic of the Congo", "Mali", "Rwanda", "Sierra Leone", "Cameroon", "Madagascar", "Burundi", "Ivory Coast", "Equatorial Guinea", "Malawi", "Comoros", "Benin", "Gambia", "Eritrea", "Democratic Republic of the Congo", "Guinea-Bissau", "South Sudan"],
+    'Middle East & North Africa': ["Jordan", "Egypt", "Lebanon", "Turkey", "Iran", "Israel", "Kuwait", "West Bank and Gaza Strip", "Algeria", "Morocco", "Syria", "United Arab Emirates", "Iraq", "Saudi Arabia", "Western Sahara", "Tunisia", "Libya", "Bahrain", "Qatar", "Yemen", "International"],
+    'Australasia & Oceania': ["Australia", "New Zealand", "New Hebrides", "New Caledonia", "Fiji", "Papua New Guinea", "Wallis and Futuna", "French Polynesia", "Vanuatu", "Solomon Islands"],
+    'South Asia': ["Pakistan", "India", "Afghanistan", "Sri Lanka", "Bangladesh", "Nepal", "Maldives", "Mauritius", "Bhutan"],
+    'Central Asia': ["Georgia", "Azerbaijan", "Armenia", "Kazakhstan", "Tajikistan", "Uzbekistan", "Kyrgyzstan", "Turkmenistan"]
+};
+
+
 var dotsLayerGroup;
 var countryLayer;
 
@@ -152,16 +168,11 @@ document.addEventListener("DOMContentLoaded", function () {
                 button.classList.remove("selected");
             });
         }
-
-        const graph = document.querySelector("#graph");
-        graph.classList.remove("fade-in");
-        graph.textContent = `Graph for Button ${buttonNumber}`;
-        graph.classList.add("fade-in");
     }
 
     const imageContainer = document.createElement('div');
     imageContainer.classList.add('image-container');
-    const countryNames = ['World','Afghanistan', 'Albania', 'Algeria', 'Andorra', 'Angola', 'Antigua and Barbuda', 'Argentina', 'Armenia', 'Australia', 'Austria', 'Azerbaijan', 'Bahamas', 'Bahrain', 'Bangladesh', 'Barbados', 'Belarus', 'Belgium', 'Belize', 'Benin', 'Bhutan', 'Bolivia', 'Bosnia-Herzegovina', 'Botswana', 'Brazil', 'Brunei', 'Bulgaria', 'Burkina Faso', 'Burundi', 'Cambodia', 'Cameroon', 'Canada', 'Central African Republic', 'Chad', 'Chile', 'China', 'Colombia', 'Comoros', 'Costa Rica', 'Croatia', 'Cuba', 'Cyprus', 'Czech Republic', 'Czechoslovakia', 'Democratic Republic of the Congo', 'Denmark', 'Djibouti', 'Dominica', 'Dominican Republic', 'East Germany (GDR)', 'East Timor', 'Ecuador', 'Egypt', 'El Salvador', 'Equatorial Guinea', 'Eritrea', 'Estonia', 'Ethiopia', 'Falkland Islands', 'Fiji', 'Finland', 'France', 'French Guiana', 'French Polynesia', 'Gabon', 'Gambia', 'Georgia', 'Germany', 'Ghana', 'Greece', 'Grenada', 'Guadeloupe', 'Guatemala', 'Guinea', 'Guinea-Bissau', 'Guyana', 'Haiti', 'Honduras', 'Hong Kong', 'Hungary', 'Iceland', 'India', 'Indonesia', 'International', 'Iran', 'Iraq', 'Ireland', 'Israel', 'Italy', 'Ivory Coast', 'Jamaica', 'Japan', 'Jordan', 'Kazakhstan', 'Kenya', 'Kosovo', 'Kuwait', 'Kyrgyzstan', 'Laos', 'Latvia', 'Lebanon', 'Lesotho', 'Liberia', 'Libya', 'Lithuania', 'Luxembourg', 'Macau', 'Macedonia', 'Madagascar', 'Malawi', 'Malaysia', 'Maldives', 'Mali', 'Malta', 'Martinique', 'Mauritania', 'Mauritius', 'Mexico', 'Moldova', 'Montenegro', 'Morocco', 'Mozambique', 'Myanmar', 'Namibia', 'Nepal', 'Netherlands', 'New Caledonia', 'New Hebrides', 'New Zealand', 'Nicaragua', 'Niger', 'Nigeria', 'North Korea', 'North Yemen', 'Norway', 'Pakistan', 'Panama', 'Papua New Guinea', 'Paraguay', "People's Republic of the Congo", 'Peru', 'Philippines', 'Poland', 'Portugal', 'Qatar', 'Republic of the Congo', 'Rhodesia', 'Romania', 'Russia', 'Rwanda', 'Saudi Arabia', 'Senegal', 'Serbia', 'Serbia-Montenegro', 'Seychelles', 'Sierra Leone', 'Singapore', 'Slovak Republic', 'Slovenia', 'Solomon Islands', 'Somalia', 'South Africa', 'South Korea', 'South Sudan', 'South Yemen', 'Soviet Union', 'Spain', 'Sri Lanka', 'St. Kitts and Nevis', 'St. Lucia', 'Sudan', 'Suriname', 'Swaziland', 'Sweden', 'Switzerland', 'Syria', 'Taiwan', 'Tajikistan', 'Tanzania', 'Thailand', 'Togo', 'Trinidad and Tobago', 'Tunisia', 'Turkey', 'Turkmenistan', 'Uganda', 'Ukraine', 'United Arab Emirates', 'United Kingdom', 'United States', 'Uruguay', 'Uzbekistan', 'Vanuatu', 'Vatican City', 'Venezuela', 'Vietnam', 'Wallis and Futuna', 'West Bank and Gaza Strip', 'West Germany (FRG)', 'Western Sahara', 'Yemen', 'Yugoslavia', 'Zaire', 'Zambia', 'Zimbabwe']
+    const countryNames = ['World','Afghanistan', 'Albania', 'Algeria', 'Andorra', 'Angola', 'Antigua and Barbuda', 'Argentina', 'Armenia', 'Australia', 'Austria', 'Azerbaijan', 'Bahamas', 'Bahrain', 'Bangladesh', 'Barbados', 'Belarus', 'Belgium', 'Belize', 'Benin', 'Bhutan', 'Bolivia', 'Bosnia-Herzegovina', 'Botswana', 'Brazil', 'Brunei', 'Bulgaria', 'Burkina Faso', 'Burundi', 'Cambodia', 'Cameroon', 'Canada', 'Central African Republic', 'Chad', 'Chile', 'China', 'Colombia', 'Comoros', 'Costa Rica', 'Croatia', 'Cuba', 'Cyprus', 'Czech Republic', 'Czechoslovakia', 'Democratic Republic of the Congo', 'Denmark', 'Djibouti', 'Dominica', 'Dominican Republic', 'East Germany (GDR)', 'East Timor', 'Ecuador', 'Egypt', 'El Salvador', 'Equatorial Guinea', 'Eritrea', 'Estonia', 'Ethiopia', 'Falkland Islands', 'Fiji', 'Finland', 'France', 'French Guiana', 'French Polynesia', 'Gabon', 'Gambia', 'Georgia', 'Germany', 'Ghana', 'Greece', 'Grenada', 'Guadeloupe', 'Guatemala', 'Guinea', 'Guinea-Bissau', 'Guyana', 'Haiti', 'Honduras', 'Hong Kong', 'Hungary', 'Iceland', 'India', 'Indonesia', 'International', 'Iran', 'Iraq', 'Ireland', 'Israel', 'Italy', 'Ivory Coast', 'Jamaica', 'Japan', 'Jordan', 'Kazakhstan', 'Kenya', 'Kosovo', 'Kuwait', 'Kyrgyzstan', 'Laos', 'Latvia', 'Lebanon', 'Lesotho', 'Liberia', 'Libya', 'Lithuania', 'Luxembourg', 'Macau', 'Macedonia', 'Madagascar', 'Malawi', 'Malaysia', 'Maldives', 'Mali', 'Malta', 'Martinique', 'Mauritania', 'Mauritius', 'Mexico', 'Moldova', 'Montenegro', 'Morocco', 'Mozambique', 'Myanmar', 'Namibia', 'Nepal', 'Netherlands', 'New Caledonia', 'New Hebrides', 'New Zealand', 'Nicaragua', 'Niger', 'Nigeria', 'North Korea', 'North Yemen', 'Norway', 'Pakistan', 'Panama', 'Papua New Guinea', 'Paraguay', "People's Republic of the Congo", 'Peru', 'Philippines', 'Poland', 'Portugal', 'Qatar', 'Republic of the Congo', 'Rhodesia', 'Romania', 'Russia', 'Rwanda', 'Saudi Arabia', 'Senegal', 'Serbia', 'Serbia-Montenegro', 'Seychelles', 'Sierra Leone', 'Singapore', 'Slovak Republic', 'Slovenia', 'Solomon Islands', 'Somalia', 'South Africa', 'South Korea', 'South Sudan', 'South Yemen', 'Soviet Union', 'Spain', 'Sri Lanka', 'St. Kitts and Nevis', 'St. Lucia', 'Sudan', 'Suriname', 'Swaziland', 'Sweden', 'Switzerland', 'Syria', 'Taiwan', 'Tajikistan', 'Tanzania', 'Thailand', 'Togo', 'Trinidad and Tobago', 'Tunisia', 'Turkey', 'Turkmenistan', 'Uganda', 'Ukraine', 'United Arab Emirates', 'United Kingdom', 'United States', 'Uruguay', 'Uzbekistan', 'Vanuatu', 'Vatican City', 'Venezuela', 'Vietnam', 'Wallis and Futuna', 'West Bank and Gaza Strip', 'West Germany (FRG)', 'Western Sahara', 'Yemen', 'Yugoslavia', 'Zaire', 'Zambia', 'Zimbabwe'];
     const regionNames = ['Australasia & Oceania','Central America & Caribbean','Central Asia','East Asia','Eastern Europe','Middle East & North Africa','North America','South America','South Asia','Southeast Asia','Sub-Saharan Africa','Western Europe']
 
     function updateGraph(buttonNumber) {
@@ -358,13 +369,6 @@ document.addEventListener("DOMContentLoaded", function () {
                     regionSelect.appendChild(regionOption);
                 });
         
-                // Add an event listener to update the displayed image based on the selected country
-                regionSelect.addEventListener('change', () => {
-                    // Update the image source (modify this to match your actual file paths and naming conventions)
-                    // regionImage.src = `/data/regions/${regionSelect.value.replace(/ /g, '_')}.png`;
-                    // regionImage.alt = regionSelect.value;
-                });
-        
                 // Append the dropdown menu and the image to the imageContainer
                 imageContainer.appendChild(regionSelect);
                 imageContainer.appendChild(regionImage);
@@ -384,6 +388,18 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     div1.innerHTML = `<b>${regionSelect.value}</b>`;
                     graphContainer.appendChild(div1);
+
+                    console.log(countryLayer);
+                    // If a country layer already exists, remove it
+                    if (countryLayer) {
+                        mymap.removeLayer(countryLayer);
+                    }
+                    console.log(countryLayer);
+                    for (const index in regionCountries[regionSelect.value]) {
+                        const country = regionCountries[regionSelect.value][index];
+                        highlightCountry(country);
+                    }
+                    // highlightCountry(countrySelect.value);
 
 
                     // const dataUrl = `https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/Aristotelis/data/regions/all/${encodeURIComponent(regionSelect.value) }.csv`
@@ -456,10 +472,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
         
                     // If a country layer already exists, remove it
+                    console.log(countryLayer);
                     if (countryLayer) {
                         mymap.removeLayer(countryLayer);
                     }
-
+                    console.log(countryLayer);
                     highlightCountry(countrySelect.value);
      
 
@@ -1967,338 +1984,54 @@ document.addEventListener("DOMContentLoaded", function () {
                 return ["#000000", "#ffffff"];
         }
     }
-    function getGeoJsonCountryName(country)
+
+    function getGeoJsonCountryNames(country)
     {
         switch (country) {
             case "Bosnia-Herzegovina":
-                return "Bosnia and Herzegovina";
-            case "Czech Republic":
-                return "cz";
+                return ["Bosnia and Herzegovina"];
+            case "Cyprus":
+                return ["Cyprus", "Northern Cyprus"];
             case "Czechoslovakia":
-                return "cz";
-            case "Democratic Republic of the Congo":
-                return "cd";
-            case "Denmark":
-                return "dk";
-            case "Djibouti":
-                return "dj";
-            case "Dominica":
-                return "dm";
-            case "Dominican Republic":
-                return "do";
+                return ["Czech Republic", "Slovakia"];
             case "East Germany (GDR)":
-                return "de";
-            case "East Timor":
-                return "tl";
-            case "Ecuador":
-                return "ec";
-            case "Egypt":
-                return "eg";
-            case "El Salvador":
-                return "sv";
-            case "Equatorial Guinea":
-                return "gq";
-            case "Eritrea":
-                return "er";
-            case "Estonia":
-                return "ee";
-            case "Ethiopia":
-                return "et";
-            case "Falkland Islands":
-                return "fk";
-            case "Fiji":
-                return "fj";
-            case "Finland":
-                return "fi";
-            case "France":
-                return "fr";
-            case "French Guiana":
-                return "gf";
-            case "French Polynesia":
-                return "pf";
-            case "Gabon":
-                return "ga";
-            case "Gambia":
-                return "gm";
-            case "Georgia":
-                return "ge";
-            case "Germany":
-                return "de";
-            case "Ghana":
-                return "gh";
-            case "Greece":
-                return "gr";
-            case "Grenada":
-                return "gd";
-            case "Guadeloupe":
-                return "gp";
-            case "Guatemala":
-                return "gt";
-            case "Guinea":
-                return "gn";
+                return ["Germany"];
             case "Guinea-Bissau":
-                return "gw";
-            case "Guyana":
-                return "gy";
-            case "Haiti":
-                return "ht";
-            case "Honduras":
-                return "hn";
-            case "Hungary":
-                return "hu";
-            case "Hong Kong":
-                return "hk";
-            case "Iceland":
-                return "is";
-            case "India":
-                return "in";
-            case "Indonesia":
-                return "id";
-            case "International":
-                return "earth";
-            case "Iran":
-                return "ir";
-            case "Iraq":
-                return "iq";
-            case "Ireland":
-                return "ie";
-            case "Israel":
-                return "il";
-            case "Italy":
-                return "it";
-            case "Ivory Coast":
-                return "ci";
-            case "Jamaica":
-                return "jm";
-            case "Japan":
-                return "jp";
-            case "Jordan":
-                return "jo";
-            case "Kazakhstan":
-                return "kz";
-            case "Kenya":
-                return "ke";
-            case "Kosovo":
-                return "xk";
-            case "Kuwait":
-                return "kw";
-            case "Kyrgyzstan":
-                return "kg";
-            case "Laos":
-                return "la";
-            case "Latvia":
-                return "lv";
-            case "Lebanon":
-                return "lb";
-            case "Lesotho":
-                return "ls";
-            case "Liberia":
-                return "lr";
-            case "Libya":
-                return "ly";
-            case "Lithuania":
-                return "lt";
-            case "Luxembourg":
-                return "lu";
-            case "Macau":
-                return "mo";
-            case "Macedonia":
-                return "mk";
-            case "Madagascar":
-                return "mg";
-            case "Malawi":
-                return "mw";
-            case "Malaysia":
-                return "my";
-            case "Maldives":
-                return "mv";
-            case "Mali":
-                return "ml";
-            case "Malta":
-                return "mt";
-            case "Martinique":
-                return "mq";
-            case "Mauritania":
-                return "mr";
-            case "Mauritius":
-                return "mu";
-            case "Mexico":
-                return "mx";
-            case "Moldova":
-                return "md";
-            case "Montenegro":
-                return "me";
-            case "Morocco":
-                return "ma";
-            case "Mozambique":
-                return "mz";
-            case "Myanmar":
-                return "mm";
-            case "Namibia":
-                return "na";
-            case "Nepal":
-                return "np";
-            case "Netherlands":
-                return "nl";
-            case "New Caledonia":
-                return "nc";
+                return ["Guinea Bissau"];
             case "New Hebrides":
-                return "vu";
-            case "New Zealand":
-                return "nz";
-            case "Nicaragua":
-                return "ni";
-            case "Niger":
-                return "ne";
-            case "Nigeria":
-                return "ng";
-            case "North Korea":
-                return "kp";
+                return ["Vanuatu"];
             case "North Yemen":
-                return "ye";
-            case "Norway":
-                return "no";
-            case "Pakistan":
-                return "pk";
-            case "Panama":
-                return "pa";
-            case "Papua New Guinea":
-                return "pg";
-            case "Paraguay":
-                return "py";
+                return ["Yemen"];
             case "People's Republic of the Congo":
-                return "cg";
-            case "Peru":
-                return "pe";
-            case "Philippines":
-                return "ph";
-            case "Poland":
-                return "pl";
-            case "Portugal":
-                return "pt";
-            case "Qatar":
-                return "qa";
-            case "Republic of the Congo":
-                return "cd";
+                return ["Democratic Republic of the Congo"];
             case "Rhodesia":
-                return "zw";
-            case "Romania":
-                return "ro";
-            case "Russia":
-                return "ru";
-            case "Rwanda":
-                return "rw";
-            case "Saudi Arabia":
-                return "sa";
-            case "Senegal":
-                return "sn";
+                return ["Zimbabwe"];
             case "Serbia":
-                return "rs";
+                return ["Republic of Serbia"]
             case "Serbia-Montenegro":
-                return "xx";
-            case "Seychelles":
-                return "sc";
-            case "Sierra Leone":
-                return "sl";
-            case "Singapore":
-                return "sg";
+                return ["Serbia", "Montenegro"];
             case "Slovak Republic":
-                return "sk";
-            case "Slovenia":
-                return "si";
-            case "Solomon Islands":
-                return "sb";
-            case "Somalia":
-                return "so";
-            case "South Africa":
-                return "za";
-            case "South Korea":
-                return "kr";
-            case "South Sudan":
-                return "ss";
+                return ["Slovakia"];
             case "South Yemen":
-                return "ye";
+                return ["Yemen"];
             case "Soviet Union":
-                return "xx";
-            // return "su";   // deprecated
-            case "Spain":
-                return "es";
-            case "Sri Lanka":
-                return "lk";
-            case "St. Kitts and Nevis":
-                return "kn";
-            case "St. Lucia":
-                return "lc";
-            case "Sudan":
-                return "sd";
-            case "Suriname":
-                return "sr";
-            case "Swaziland":
-                return "sz";
-            case "Sweden":
-                return "se";
-            case "Switzerland":
-                return "ch";
-            case "Syria":
-                return "sy";
-            case "Taiwan":
-                return "tw";
-            case "Tajikistan":
-                return "tj";
+                return ["Russia", "Ukraine", "Belarus", "Kazakhstan", "Uzbekistan", "Turkmenistan", "Tajikistan", "Kyrgyzstan", "Georgia", "Armenia", "Azerbaijan", "Moldova", "Lithuania", "Latvia", "Estonia"];
             case "Tanzania":
-                return "tz";
-            case "Thailand":
-                return "th";
-            case "Togo":
-                return "tg";
-            case "Trinidad and Tobago":
-                return "tt";
-            case "Tunisia":
-                return "tn";
-            case "Turkey":
-                return "tr";
-            case "Turkmenistan":
-                return "tm";
-            case "Uganda":
-                return "ug";
-            case "Ukraine":
-                return "ua";
-            case "United Arab Emirates":
-                return "ae";
+                return ["United Republic of Tanzania"];
             case "United Kingdom":
-                return "gb";
+                return ["England", "Scotland", "Wales", "Northern Ireland"];
             case "United States":
-                return "us";
-            case "Uruguay":
-                return "uy";
-            case "Uzbekistan":
-                return "uz";
-            case "Vanuatu":
-                return "vu";
-            case "Venezuela":
-                return "ve";
-            case "Vietnam":
-                return "vn";
-            case "Wallis and Futuna":
-                return "wf";
+                return ["USA"];
             case "West Bank and Gaza Strip":
-                return "ps";
+                return ["West Bank"];
             case "West Germany (FRG)":
-                return "de";
-            case "Western Sahara":
-                return "eh";
-            case "Yemen":
-                return "ye";
+                return ["Germany"];
             case "Yugoslavia":
-                return "xx";
+                return ["Serbia", "Croatia", "Bosnia and Herzegovina", "Slovenia", "Macedonia", "Montenegro", "Kosovo"];
             case "Zaire":
-                return "cd";
-            case "Zambia":
-                return "zm";
-            case "Zimbabwe":
-                return "zw";
+                return ["Democratic Republic of the Congo"];
             default:
-                return country;
+                return [country];
 
 
         }
@@ -2335,27 +2068,10 @@ document.addEventListener("DOMContentLoaded", function () {
     
     var GeoJsonData; // Variable to hold the GeoJSON data
 
-    fetch('./data/countries.geojson')
+    fetch('https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson')
     .then(response => response.json())
     .then(data => {
-        // Assign the fetched GeoJSON data to the variable
         GeoJsonData = data;
-
-        /*var franceFeature = GeoJsonData.features.find(feature => feature.properties.name === 'France');
-        if (franceFeature) {
-          // Create a Leaflet GeoJSON layer with only the France feature
-          var franceLayer = L.geoJson(franceFeature, {
-            style: {
-              fillColor: 'red',
-              weight: 3,
-              color: 'red',
-              fillOpacity: 0.5
-            }
-          }).addTo(mymap);
-    
-          // Fit the map to the bounds of the France layer
-          mymap.fitBounds(franceLayer.getBounds());
-        }*/
     })
     .catch(error => {
         // Handle any errors that occur during the fetch
@@ -2409,11 +2125,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
       function highlightCountry(countryName) {
         //countryName = "'" + countryName + "'";
-        // fetch('https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson')
-        fetch('./data/countries.geojson')
+        fetch('https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson')
         .then(response => response.json())
         .then(data => {
-            console.log(data)
             // Assign the fetched GeoJSON data to the variable
             GeoJsonData = data;
         })
@@ -2422,52 +2136,28 @@ document.addEventListener("DOMContentLoaded", function () {
             console.error('Error fetching GeoJSON data:', error);
         });
         // Find the feature representing the specified country in the GeoJSON data
-        console.log(countryName)
+        // console.log(countryName)
 
-        var countryFeature = GeoJsonData.features.find(feature => feature.properties.name === countryName);
-        if (countryFeature) {
-          // Create a Leaflet GeoJSON layer with only the specified country feature
-          countryLayer = L.geoJson(countryFeature, {
-            style: {
-              fillColor: 'red',
-              weight: 3,
-              color: 'red',
-              fillOpacity: 0.5
+        var countryNames = getGeoJsonCountryNames(countryName);
+        for (var i = 0; i < countryNames.length; i++) {
+            // console.log(countryNames[i])
+            var countryFeature = GeoJsonData.features.find(feature => feature.properties.name === countryNames[i]);
+            if (countryFeature) {
+            // Create a Leaflet GeoJSON layer with only the specified country feature
+            countryLayer = L.geoJson(countryFeature, {
+                style: {
+                fillColor: 'red',
+                weight: 3,
+                color: 'red',
+                fillOpacity: 0.5
+                }
+            }).addTo(mymap);
+        
+            // Fit the map to the bounds of the country layer
+            mymap.fitBounds(countryLayer.getBounds());
             }
-          }).addTo(mymap);
-      
-          // Fit the map to the bounds of the country layer
-          mymap.fitBounds(countryLayer.getBounds());
         }
-      }
-
-      var orangeDotsLayerGroup;
-    
-      function addOrangeDots(data) {
-        // Check if the orange dots layer group already exists
-        if (orangeDotsLayerGroup) {
-          // Remove the existing orange dots layer group from the map
-          mymap.removeLayer(orangeDotsLayerGroup);
-        }
-      
-        // Create a new layer group to hold the orange dots
-        orangeDotsLayerGroup = L.layerGroup().addTo(mymap);
-      
-        data.forEach((row) => {
-          const latitude = parseFloat(row.latitude);
-          const longitude = parseFloat(row.longitude);
-      
-          if (!isNaN(latitude) && !isNaN(longitude)) {
-            L.circleMarker([latitude, longitude], {
-              fillColor: 'orange',
-              color: 'orange',
-              radius: 5
-            }).addTo(orangeDotsLayerGroup);
-          }
-        });
-      }
-      
-      
+      }  
 
 });
 
