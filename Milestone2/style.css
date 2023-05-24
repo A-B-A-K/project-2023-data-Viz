@@ -27,13 +27,18 @@ header {
 } */
 
 .top-container {
-    height: 100px;
+    height: 150px;
     justify-content: space-between;
     display: flex;
     align-items: center;
     position: relative;
-    margin-top: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     z-index: 1;
+    border: 0px solid #3C3C3C;
+    border-radius: 0px 0px 15px 15px;
+    background-color: #F9F9F9;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 }
 
 canvas#sketch {
@@ -61,6 +66,9 @@ canvas#sketch {
     border: none;
     cursor: pointer;
     transition: all 0.1s ease-in-out;
+    scale: 1.5;
+    padding-top: 10px;
+    padding-left: 30px;
 }
 
 #button-logo svg {
@@ -130,7 +138,6 @@ canvas#sketch {
     display: grid;
     justify-content: center;
     align-items: flex-start;
-
 }
 
 @media screen and (max-width: 768px) {
@@ -143,10 +150,6 @@ canvas#sketch {
 
 .button-container {
     background-color: #eaeae3;
-    background: transparent;
-    box-shadow: 2px 2px 15px dimgrey inset;
-    border: 5px solid white;
-    /* border-radius: 15px; */
     margin-top: 90px;
     display: flex;
     top: 50px;
@@ -154,16 +157,23 @@ canvas#sketch {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    margin-left: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     /* position: absolute; */
-    margin-right: 25px;
-    width: 175px;
+    margin-right: 5px;
+    width: 200px;
+    border: 0px solid #3C3C3C;
+    border-radius: 0px 15px 15px 0px;
+    background-color: #F9F9F9;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 }
 
 .button-container.sticky {
     position: sticky;
-    top: 0;
-    left: 20px;
+    top: 0px;
+    left: 0px;
     margin-top: 0;
 }
 
@@ -324,7 +334,7 @@ button.selected {
     position: fixed;
     top: 70px;
     /* 60px (header height) + 10px (extra spacing) */
-    left: 20px;
+    margin-left: 0px;
     margin-top: 0;
 }
 
@@ -551,7 +561,7 @@ button.selected {
 }
 
 .ack {
-    font-size: xx-small;
+    font-size: 5px;
     color: cornflowerblue;
 }
 

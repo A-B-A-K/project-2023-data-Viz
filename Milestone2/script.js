@@ -49,6 +49,7 @@ var colorMapping = {
 };
 
 var dotsLayerGroup;
+var countryLayer;
 
 
 // Wait for the HTML and CSS to load before running JavaScript
@@ -201,6 +202,11 @@ document.addEventListener("DOMContentLoaded", function () {
         if (dotsLayerGroup) {
             // Remove the existing orange dots layer group from the map
             mymap.removeLayer(dotsLayerGroup);
+        }
+
+        // If a country layer already exists, remove it
+        if (countryLayer) {
+            mymap.removeLayer(countryLayer);
         }
 
         switch (buttonNumber) {
@@ -449,6 +455,11 @@ document.addEventListener("DOMContentLoaded", function () {
                     //const imageUrl = `/data/countries/${selectedCountry}.png`;
 
         
+                    // If a country layer already exists, remove it
+                    if (countryLayer) {
+                        mymap.removeLayer(countryLayer);
+                    }
+
                     highlightCountry(countrySelect.value);
      
 
@@ -587,6 +598,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 // Remove the effect of hovering on the bar
                 d3.select(this).classed("hovered-bar", false);
                 // Make tooltip invisible
+                tooltip.interrupt();
                 tooltip.transition()
                     .duration(500)
                     .style("opacity", 0);
@@ -742,7 +754,9 @@ document.addEventListener("DOMContentLoaded", function () {
                     .style("stroke", "none")
                     .style("stroke-width", "0px")
 
-                tooltip.style("opacity", 0);
+                tooltip.interrupt();
+                tooltip.style("opacity", 0)
+                    .duration(500);
             })
     }
   
@@ -848,6 +862,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     .style("top", `${event.pageY - 28}px`);
             })
             .on("mouseleave", function(d) {
+                tooltip.interrupt();
                 tooltip.style("opacity", 0)
                 d3.selectAll(".myArea").style("opacity", .8).style("stroke", "none")
             });
@@ -963,7 +978,9 @@ document.addEventListener("DOMContentLoaded", function () {
                     .style("stroke", "none")
                     .style("stroke-width", "0px")
 
-                tooltip.style("opacity", 0);
+                tooltip.interrupt();
+                tooltip.style("opacity", 0)
+                    .duration(500);
             })
     }
 
@@ -1043,6 +1060,7 @@ document.addEventListener("DOMContentLoaded", function () {
             })
             .on("mouseout", function (d) {
                 // Make tooltip invisible
+                tooltip.interrupt();
                 tooltip.transition()
                     .duration(500)
                     .style("opacity", 0);
@@ -1115,7 +1133,6 @@ document.addEventListener("DOMContentLoaded", function () {
             });                
         });
     }
-
 
     function getCountryAbbr(country) {
         // Reference: https://github.com/HatScripts/circle-flags
@@ -1950,6 +1967,343 @@ document.addEventListener("DOMContentLoaded", function () {
                 return ["#000000", "#ffffff"];
         }
     }
+    function getGeoJsonCountryName(country)
+    {
+        switch (country) {
+            case "Bosnia-Herzegovina":
+                return "Bosnia and Herzegovina";
+            case "Czech Republic":
+                return "cz";
+            case "Czechoslovakia":
+                return "cz";
+            case "Democratic Republic of the Congo":
+                return "cd";
+            case "Denmark":
+                return "dk";
+            case "Djibouti":
+                return "dj";
+            case "Dominica":
+                return "dm";
+            case "Dominican Republic":
+                return "do";
+            case "East Germany (GDR)":
+                return "de";
+            case "East Timor":
+                return "tl";
+            case "Ecuador":
+                return "ec";
+            case "Egypt":
+                return "eg";
+            case "El Salvador":
+                return "sv";
+            case "Equatorial Guinea":
+                return "gq";
+            case "Eritrea":
+                return "er";
+            case "Estonia":
+                return "ee";
+            case "Ethiopia":
+                return "et";
+            case "Falkland Islands":
+                return "fk";
+            case "Fiji":
+                return "fj";
+            case "Finland":
+                return "fi";
+            case "France":
+                return "fr";
+            case "French Guiana":
+                return "gf";
+            case "French Polynesia":
+                return "pf";
+            case "Gabon":
+                return "ga";
+            case "Gambia":
+                return "gm";
+            case "Georgia":
+                return "ge";
+            case "Germany":
+                return "de";
+            case "Ghana":
+                return "gh";
+            case "Greece":
+                return "gr";
+            case "Grenada":
+                return "gd";
+            case "Guadeloupe":
+                return "gp";
+            case "Guatemala":
+                return "gt";
+            case "Guinea":
+                return "gn";
+            case "Guinea-Bissau":
+                return "gw";
+            case "Guyana":
+                return "gy";
+            case "Haiti":
+                return "ht";
+            case "Honduras":
+                return "hn";
+            case "Hungary":
+                return "hu";
+            case "Hong Kong":
+                return "hk";
+            case "Iceland":
+                return "is";
+            case "India":
+                return "in";
+            case "Indonesia":
+                return "id";
+            case "International":
+                return "earth";
+            case "Iran":
+                return "ir";
+            case "Iraq":
+                return "iq";
+            case "Ireland":
+                return "ie";
+            case "Israel":
+                return "il";
+            case "Italy":
+                return "it";
+            case "Ivory Coast":
+                return "ci";
+            case "Jamaica":
+                return "jm";
+            case "Japan":
+                return "jp";
+            case "Jordan":
+                return "jo";
+            case "Kazakhstan":
+                return "kz";
+            case "Kenya":
+                return "ke";
+            case "Kosovo":
+                return "xk";
+            case "Kuwait":
+                return "kw";
+            case "Kyrgyzstan":
+                return "kg";
+            case "Laos":
+                return "la";
+            case "Latvia":
+                return "lv";
+            case "Lebanon":
+                return "lb";
+            case "Lesotho":
+                return "ls";
+            case "Liberia":
+                return "lr";
+            case "Libya":
+                return "ly";
+            case "Lithuania":
+                return "lt";
+            case "Luxembourg":
+                return "lu";
+            case "Macau":
+                return "mo";
+            case "Macedonia":
+                return "mk";
+            case "Madagascar":
+                return "mg";
+            case "Malawi":
+                return "mw";
+            case "Malaysia":
+                return "my";
+            case "Maldives":
+                return "mv";
+            case "Mali":
+                return "ml";
+            case "Malta":
+                return "mt";
+            case "Martinique":
+                return "mq";
+            case "Mauritania":
+                return "mr";
+            case "Mauritius":
+                return "mu";
+            case "Mexico":
+                return "mx";
+            case "Moldova":
+                return "md";
+            case "Montenegro":
+                return "me";
+            case "Morocco":
+                return "ma";
+            case "Mozambique":
+                return "mz";
+            case "Myanmar":
+                return "mm";
+            case "Namibia":
+                return "na";
+            case "Nepal":
+                return "np";
+            case "Netherlands":
+                return "nl";
+            case "New Caledonia":
+                return "nc";
+            case "New Hebrides":
+                return "vu";
+            case "New Zealand":
+                return "nz";
+            case "Nicaragua":
+                return "ni";
+            case "Niger":
+                return "ne";
+            case "Nigeria":
+                return "ng";
+            case "North Korea":
+                return "kp";
+            case "North Yemen":
+                return "ye";
+            case "Norway":
+                return "no";
+            case "Pakistan":
+                return "pk";
+            case "Panama":
+                return "pa";
+            case "Papua New Guinea":
+                return "pg";
+            case "Paraguay":
+                return "py";
+            case "People's Republic of the Congo":
+                return "cg";
+            case "Peru":
+                return "pe";
+            case "Philippines":
+                return "ph";
+            case "Poland":
+                return "pl";
+            case "Portugal":
+                return "pt";
+            case "Qatar":
+                return "qa";
+            case "Republic of the Congo":
+                return "cd";
+            case "Rhodesia":
+                return "zw";
+            case "Romania":
+                return "ro";
+            case "Russia":
+                return "ru";
+            case "Rwanda":
+                return "rw";
+            case "Saudi Arabia":
+                return "sa";
+            case "Senegal":
+                return "sn";
+            case "Serbia":
+                return "rs";
+            case "Serbia-Montenegro":
+                return "xx";
+            case "Seychelles":
+                return "sc";
+            case "Sierra Leone":
+                return "sl";
+            case "Singapore":
+                return "sg";
+            case "Slovak Republic":
+                return "sk";
+            case "Slovenia":
+                return "si";
+            case "Solomon Islands":
+                return "sb";
+            case "Somalia":
+                return "so";
+            case "South Africa":
+                return "za";
+            case "South Korea":
+                return "kr";
+            case "South Sudan":
+                return "ss";
+            case "South Yemen":
+                return "ye";
+            case "Soviet Union":
+                return "xx";
+            // return "su";   // deprecated
+            case "Spain":
+                return "es";
+            case "Sri Lanka":
+                return "lk";
+            case "St. Kitts and Nevis":
+                return "kn";
+            case "St. Lucia":
+                return "lc";
+            case "Sudan":
+                return "sd";
+            case "Suriname":
+                return "sr";
+            case "Swaziland":
+                return "sz";
+            case "Sweden":
+                return "se";
+            case "Switzerland":
+                return "ch";
+            case "Syria":
+                return "sy";
+            case "Taiwan":
+                return "tw";
+            case "Tajikistan":
+                return "tj";
+            case "Tanzania":
+                return "tz";
+            case "Thailand":
+                return "th";
+            case "Togo":
+                return "tg";
+            case "Trinidad and Tobago":
+                return "tt";
+            case "Tunisia":
+                return "tn";
+            case "Turkey":
+                return "tr";
+            case "Turkmenistan":
+                return "tm";
+            case "Uganda":
+                return "ug";
+            case "Ukraine":
+                return "ua";
+            case "United Arab Emirates":
+                return "ae";
+            case "United Kingdom":
+                return "gb";
+            case "United States":
+                return "us";
+            case "Uruguay":
+                return "uy";
+            case "Uzbekistan":
+                return "uz";
+            case "Vanuatu":
+                return "vu";
+            case "Venezuela":
+                return "ve";
+            case "Vietnam":
+                return "vn";
+            case "Wallis and Futuna":
+                return "wf";
+            case "West Bank and Gaza Strip":
+                return "ps";
+            case "West Germany (FRG)":
+                return "de";
+            case "Western Sahara":
+                return "eh";
+            case "Yemen":
+                return "ye";
+            case "Yugoslavia":
+                return "xx";
+            case "Zaire":
+                return "cd";
+            case "Zambia":
+                return "zm";
+            case "Zimbabwe":
+                return "zw";
+            default:
+                return country;
+
+
+        }
+    }
+
 
 
     
@@ -1981,7 +2335,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     var GeoJsonData; // Variable to hold the GeoJSON data
 
-    fetch('https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson')
+    fetch('./data/countries.geojson')
     .then(response => response.json())
     .then(data => {
         // Assign the fetched GeoJSON data to the variable
@@ -2055,9 +2409,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
       function highlightCountry(countryName) {
         //countryName = "'" + countryName + "'";
-        fetch('https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson')
+        // fetch('https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson')
+        fetch('./data/countries.geojson')
         .then(response => response.json())
         .then(data => {
+            console.log(data)
             // Assign the fetched GeoJSON data to the variable
             GeoJsonData = data;
         })
@@ -2067,10 +2423,11 @@ document.addEventListener("DOMContentLoaded", function () {
         });
         // Find the feature representing the specified country in the GeoJSON data
         console.log(countryName)
+
         var countryFeature = GeoJsonData.features.find(feature => feature.properties.name === countryName);
         if (countryFeature) {
           // Create a Leaflet GeoJSON layer with only the specified country feature
-          var countryLayer = L.geoJson(countryFeature, {
+          countryLayer = L.geoJson(countryFeature, {
             style: {
               fillColor: 'red',
               weight: 3,
