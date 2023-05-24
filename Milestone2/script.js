@@ -48,7 +48,24 @@ var colorMapping = {
     'Abortion Related': '#C71585' // Medium Violet Red
 };
 
+var regionCountries = {
+    'Central America & Caribbean': ["Dominican Republic", "Guatemala", "Nicaragua", "Costa Rica", "Panama", "El Salvador", "Haiti", "Honduras", "Jamaica", "Bahamas", "Barbados", "Trinidad and Tobago", "Grenada", "Belize", "Guadeloupe", "Martinique", "Dominica", "Cuba", "Antigua and Barbuda", "St. Kitts and Nevis", "St. Lucia"],
+    'North America': ["Mexico", "United States", "Canada"],
+    'Southeast Asia': ["Philippines", "Cambodia", "Brunei", "Thailand", "Myanmar", "Malaysia", "Singapore", "Indonesia", "Laos", "Vietnam", "East Timor"],
+    'Western Europe': ["Greece", "Italy", "Switzerland", "Spain", "Ireland", "United Kingdom", "Netherlands", "Belgium", "Sweden", "Austria", "France", "Portugal", "Cyprus", "Andorra", "Malta", "Denmark", "Norway", "Vatican City", "Luxembourg", "Iceland", "Finland", "Germany"],
+    'East Asia': ["Japan", "Taiwan", "South Korea", "Hong Kong", "China", "North Korea", "Macau"],
+    'South America': ["Uruguay", "Venezuela", "Brazil", "Argentina", "Paraguay", "Colombia", "Bolivia", "Peru", "Chile", "Ecuador", "Guyana", "Suriname", "French Guiana", "Falkland Islands"],
+    'Eastern Europe': ["East Germany (GDR)", "Poland", "Albania", "Bulgaria", "Romania", "Hungary", "Croatia", "Lithuania", "Ukraine", "Moldova", "Russia", "Bosnia-Herzegovina", "Latvia", "Estonia", "Slovak Republic", "Macedonia", "Belarus", "Czech Republic", "Slovenia", "Kosovo", "Montenegro", "Serbia"],
+    'Sub-Saharan Africa': ["Ethiopia", "Zambia", "Sudan", "Botswana", "Chad", "South Africa", "Kenya", "Somalia", "Tanzania", "Namibia", "Nigeria", "Angola", "Mauritania", "Djibouti", "Mozambique", "Uganda", "Lesotho", "Gabon", "Senegal", "Zimbabwe", "Guinea", "Central African Republic", "Seychelles", "Swaziland", "Burkina Faso", "Niger", "Togo", "Ghana", "Liberia", "Republic of the Congo", "Mali", "Rwanda", "Sierra Leone", "Cameroon", "Madagascar", "Burundi", "Ivory Coast", "Equatorial Guinea", "Malawi", "Comoros", "Benin", "Gambia", "Eritrea", "Democratic Republic of the Congo", "Guinea-Bissau", "South Sudan"],
+    'Middle East & North Africa': ["Jordan", "Egypt", "Lebanon", "Turkey", "Iran", "Israel", "Kuwait", "West Bank and Gaza Strip", "Algeria", "Morocco", "Syria", "United Arab Emirates", "Iraq", "Saudi Arabia", "Western Sahara", "Tunisia", "Libya", "Bahrain", "Qatar", "Yemen", "International"],
+    'Australasia & Oceania': ["Australia", "New Zealand", "New Hebrides", "New Caledonia", "Fiji", "Papua New Guinea", "Wallis and Futuna", "French Polynesia", "Vanuatu", "Solomon Islands"],
+    'South Asia': ["Pakistan", "India", "Afghanistan", "Sri Lanka", "Bangladesh", "Nepal", "Maldives", "Mauritius", "Bhutan"],
+    'Central Asia': ["Georgia", "Azerbaijan", "Armenia", "Kazakhstan", "Tajikistan", "Uzbekistan", "Kyrgyzstan", "Turkmenistan"]
+};
+
+
 var dotsLayerGroup;
+var countryLayer;
 
 
 // Wait for the HTML and CSS to load before running JavaScript
@@ -151,16 +168,11 @@ document.addEventListener("DOMContentLoaded", function () {
                 button.classList.remove("selected");
             });
         }
-
-        const graph = document.querySelector("#graph");
-        graph.classList.remove("fade-in");
-        graph.textContent = `Graph for Button ${buttonNumber}`;
-        graph.classList.add("fade-in");
     }
 
     const imageContainer = document.createElement('div');
     imageContainer.classList.add('image-container');
-    const countryNames = ['World','Afghanistan', 'Albania', 'Algeria', 'Andorra', 'Angola', 'Antigua and Barbuda', 'Argentina', 'Armenia', 'Australia', 'Austria', 'Azerbaijan', 'Bahamas', 'Bahrain', 'Bangladesh', 'Barbados', 'Belarus', 'Belgium', 'Belize', 'Benin', 'Bhutan', 'Bolivia', 'Bosnia-Herzegovina', 'Botswana', 'Brazil', 'Brunei', 'Bulgaria', 'Burkina Faso', 'Burundi', 'Cambodia', 'Cameroon', 'Canada', 'Central African Republic', 'Chad', 'Chile', 'China', 'Colombia', 'Comoros', 'Costa Rica', 'Croatia', 'Cuba', 'Cyprus', 'Czech Republic', 'Czechoslovakia', 'Democratic Republic of the Congo', 'Denmark', 'Djibouti', 'Dominica', 'Dominican Republic', 'East Germany (GDR)', 'East Timor', 'Ecuador', 'Egypt', 'El Salvador', 'Equatorial Guinea', 'Eritrea', 'Estonia', 'Ethiopia', 'Falkland Islands', 'Fiji', 'Finland', 'France', 'French Guiana', 'French Polynesia', 'Gabon', 'Gambia', 'Georgia', 'Germany', 'Ghana', 'Greece', 'Grenada', 'Guadeloupe', 'Guatemala', 'Guinea', 'Guinea-Bissau', 'Guyana', 'Haiti', 'Honduras', 'Hong Kong', 'Hungary', 'Iceland', 'India', 'Indonesia', 'International', 'Iran', 'Iraq', 'Ireland', 'Israel', 'Italy', 'Ivory Coast', 'Jamaica', 'Japan', 'Jordan', 'Kazakhstan', 'Kenya', 'Kosovo', 'Kuwait', 'Kyrgyzstan', 'Laos', 'Latvia', 'Lebanon', 'Lesotho', 'Liberia', 'Libya', 'Lithuania', 'Luxembourg', 'Macau', 'Macedonia', 'Madagascar', 'Malawi', 'Malaysia', 'Maldives', 'Mali', 'Malta', 'Martinique', 'Mauritania', 'Mauritius', 'Mexico', 'Moldova', 'Montenegro', 'Morocco', 'Mozambique', 'Myanmar', 'Namibia', 'Nepal', 'Netherlands', 'New Caledonia', 'New Hebrides', 'New Zealand', 'Nicaragua', 'Niger', 'Nigeria', 'North Korea', 'North Yemen', 'Norway', 'Pakistan', 'Panama', 'Papua New Guinea', 'Paraguay', "People's Republic of the Congo", 'Peru', 'Philippines', 'Poland', 'Portugal', 'Qatar', 'Republic of the Congo', 'Rhodesia', 'Romania', 'Russia', 'Rwanda', 'Saudi Arabia', 'Senegal', 'Serbia', 'Serbia-Montenegro', 'Seychelles', 'Sierra Leone', 'Singapore', 'Slovak Republic', 'Slovenia', 'Solomon Islands', 'Somalia', 'South Africa', 'South Korea', 'South Sudan', 'South Yemen', 'Soviet Union', 'Spain', 'Sri Lanka', 'St. Kitts and Nevis', 'St. Lucia', 'Sudan', 'Suriname', 'Swaziland', 'Sweden', 'Switzerland', 'Syria', 'Taiwan', 'Tajikistan', 'Tanzania', 'Thailand', 'Togo', 'Trinidad and Tobago', 'Tunisia', 'Turkey', 'Turkmenistan', 'Uganda', 'Ukraine', 'United Arab Emirates', 'United Kingdom', 'United States', 'Uruguay', 'Uzbekistan', 'Vanuatu', 'Vatican City', 'Venezuela', 'Vietnam', 'Wallis and Futuna', 'West Bank and Gaza Strip', 'West Germany (FRG)', 'Western Sahara', 'Yemen', 'Yugoslavia', 'Zaire', 'Zambia', 'Zimbabwe']
+    const countryNames = ['World','Afghanistan', 'Albania', 'Algeria', 'Andorra', 'Angola', 'Antigua and Barbuda', 'Argentina', 'Armenia', 'Australia', 'Austria', 'Azerbaijan', 'Bahamas', 'Bahrain', 'Bangladesh', 'Barbados', 'Belarus', 'Belgium', 'Belize', 'Benin', 'Bhutan', 'Bolivia', 'Bosnia-Herzegovina', 'Botswana', 'Brazil', 'Brunei', 'Bulgaria', 'Burkina Faso', 'Burundi', 'Cambodia', 'Cameroon', 'Canada', 'Central African Republic', 'Chad', 'Chile', 'China', 'Colombia', 'Comoros', 'Costa Rica', 'Croatia', 'Cuba', 'Cyprus', 'Czech Republic', 'Czechoslovakia', 'Democratic Republic of the Congo', 'Denmark', 'Djibouti', 'Dominica', 'Dominican Republic', 'East Germany (GDR)', 'East Timor', 'Ecuador', 'Egypt', 'El Salvador', 'Equatorial Guinea', 'Eritrea', 'Estonia', 'Ethiopia', 'Falkland Islands', 'Fiji', 'Finland', 'France', 'French Guiana', 'French Polynesia', 'Gabon', 'Gambia', 'Georgia', 'Germany', 'Ghana', 'Greece', 'Grenada', 'Guadeloupe', 'Guatemala', 'Guinea', 'Guinea-Bissau', 'Guyana', 'Haiti', 'Honduras', 'Hong Kong', 'Hungary', 'Iceland', 'India', 'Indonesia', 'International', 'Iran', 'Iraq', 'Ireland', 'Israel', 'Italy', 'Ivory Coast', 'Jamaica', 'Japan', 'Jordan', 'Kazakhstan', 'Kenya', 'Kosovo', 'Kuwait', 'Kyrgyzstan', 'Laos', 'Latvia', 'Lebanon', 'Lesotho', 'Liberia', 'Libya', 'Lithuania', 'Luxembourg', 'Macau', 'Macedonia', 'Madagascar', 'Malawi', 'Malaysia', 'Maldives', 'Mali', 'Malta', 'Martinique', 'Mauritania', 'Mauritius', 'Mexico', 'Moldova', 'Montenegro', 'Morocco', 'Mozambique', 'Myanmar', 'Namibia', 'Nepal', 'Netherlands', 'New Caledonia', 'New Hebrides', 'New Zealand', 'Nicaragua', 'Niger', 'Nigeria', 'North Korea', 'North Yemen', 'Norway', 'Pakistan', 'Panama', 'Papua New Guinea', 'Paraguay', "People's Republic of the Congo", 'Peru', 'Philippines', 'Poland', 'Portugal', 'Qatar', 'Republic of the Congo', 'Rhodesia', 'Romania', 'Russia', 'Rwanda', 'Saudi Arabia', 'Senegal', 'Serbia', 'Serbia-Montenegro', 'Seychelles', 'Sierra Leone', 'Singapore', 'Slovak Republic', 'Slovenia', 'Solomon Islands', 'Somalia', 'South Africa', 'South Korea', 'South Sudan', 'South Yemen', 'Soviet Union', 'Spain', 'Sri Lanka', 'St. Kitts and Nevis', 'St. Lucia', 'Sudan', 'Suriname', 'Swaziland', 'Sweden', 'Switzerland', 'Syria', 'Taiwan', 'Tajikistan', 'Tanzania', 'Thailand', 'Togo', 'Trinidad and Tobago', 'Tunisia', 'Turkey', 'Turkmenistan', 'Uganda', 'Ukraine', 'United Arab Emirates', 'United Kingdom', 'United States', 'Uruguay', 'Uzbekistan', 'Vanuatu', 'Vatican City', 'Venezuela', 'Vietnam', 'Wallis and Futuna', 'West Bank and Gaza Strip', 'West Germany (FRG)', 'Western Sahara', 'Yemen', 'Yugoslavia', 'Zaire', 'Zambia', 'Zimbabwe'];
     const regionNames = ['Australasia & Oceania','Central America & Caribbean','Central Asia','East Asia','Eastern Europe','Middle East & North Africa','North America','South America','South Asia','Southeast Asia','Sub-Saharan Africa','Western Europe']
 
     function updateGraph(buttonNumber) {
@@ -201,6 +213,11 @@ document.addEventListener("DOMContentLoaded", function () {
         if (dotsLayerGroup) {
             // Remove the existing orange dots layer group from the map
             mymap.removeLayer(dotsLayerGroup);
+        }
+
+        // If a country layer already exists, remove it
+        if (countryLayer) {
+            mymap.removeLayer(countryLayer);
         }
 
         switch (buttonNumber) {
@@ -352,13 +369,6 @@ document.addEventListener("DOMContentLoaded", function () {
                     regionSelect.appendChild(regionOption);
                 });
         
-                // Add an event listener to update the displayed image based on the selected country
-                regionSelect.addEventListener('change', () => {
-                    // Update the image source (modify this to match your actual file paths and naming conventions)
-                    // regionImage.src = `/data/regions/${regionSelect.value.replace(/ /g, '_')}.png`;
-                    // regionImage.alt = regionSelect.value;
-                });
-        
                 // Append the dropdown menu and the image to the imageContainer
                 imageContainer.appendChild(regionSelect);
                 imageContainer.appendChild(regionImage);
@@ -378,6 +388,18 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     div1.innerHTML = `<b>${regionSelect.value}</b>`;
                     graphContainer.appendChild(div1);
+
+                    console.log(countryLayer);
+                    // If a country layer already exists, remove it
+                    if (countryLayer) {
+                        mymap.removeLayer(countryLayer);
+                    }
+                    console.log(countryLayer);
+                    for (const index in regionCountries[regionSelect.value]) {
+                        const country = regionCountries[regionSelect.value][index];
+                        highlightCountry(country);
+                    }
+                    // highlightCountry(countrySelect.value);
 
 
                     // const dataUrl = `https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/Aristotelis/data/regions/all/${encodeURIComponent(regionSelect.value) }.csv`
@@ -449,6 +471,12 @@ document.addEventListener("DOMContentLoaded", function () {
                     //const imageUrl = `/data/countries/${selectedCountry}.png`;
 
         
+                    // If a country layer already exists, remove it
+                    console.log(countryLayer);
+                    if (countryLayer) {
+                        mymap.removeLayer(countryLayer);
+                    }
+                    console.log(countryLayer);
                     highlightCountry(countrySelect.value);
      
 
@@ -587,6 +615,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 // Remove the effect of hovering on the bar
                 d3.select(this).classed("hovered-bar", false);
                 // Make tooltip invisible
+                tooltip.interrupt();
                 tooltip.transition()
                     .duration(500)
                     .style("opacity", 0);
@@ -742,7 +771,9 @@ document.addEventListener("DOMContentLoaded", function () {
                     .style("stroke", "none")
                     .style("stroke-width", "0px")
 
-                tooltip.style("opacity", 0);
+                tooltip.interrupt();
+                tooltip.style("opacity", 0)
+                    .duration(500);
             })
     }
   
@@ -848,6 +879,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     .style("top", `${event.pageY - 28}px`);
             })
             .on("mouseleave", function(d) {
+                tooltip.interrupt();
                 tooltip.style("opacity", 0)
                 d3.selectAll(".myArea").style("opacity", .8).style("stroke", "none")
             });
@@ -963,7 +995,9 @@ document.addEventListener("DOMContentLoaded", function () {
                     .style("stroke", "none")
                     .style("stroke-width", "0px")
 
-                tooltip.style("opacity", 0);
+                tooltip.interrupt();
+                tooltip.style("opacity", 0)
+                    .duration(500);
             })
     }
 
@@ -1043,6 +1077,7 @@ document.addEventListener("DOMContentLoaded", function () {
             })
             .on("mouseout", function (d) {
                 // Make tooltip invisible
+                tooltip.interrupt();
                 tooltip.transition()
                     .duration(500)
                     .style("opacity", 0);
@@ -1115,7 +1150,6 @@ document.addEventListener("DOMContentLoaded", function () {
             });                
         });
     }
-
 
     function getCountryAbbr(country) {
         // Reference: https://github.com/HatScripts/circle-flags
@@ -1951,6 +1985,59 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
+    function getGeoJsonCountryNames(country)
+    {
+        switch (country) {
+            case "Bosnia-Herzegovina":
+                return ["Bosnia and Herzegovina"];
+            case "Cyprus":
+                return ["Cyprus", "Northern Cyprus"];
+            case "Czechoslovakia":
+                return ["Czech Republic", "Slovakia"];
+            case "East Germany (GDR)":
+                return ["Germany"];
+            case "Guinea-Bissau":
+                return ["Guinea Bissau"];
+            case "New Hebrides":
+                return ["Vanuatu"];
+            case "North Yemen":
+                return ["Yemen"];
+            case "People's Republic of the Congo":
+                return ["Democratic Republic of the Congo"];
+            case "Rhodesia":
+                return ["Zimbabwe"];
+            case "Serbia":
+                return ["Republic of Serbia"]
+            case "Serbia-Montenegro":
+                return ["Serbia", "Montenegro"];
+            case "Slovak Republic":
+                return ["Slovakia"];
+            case "South Yemen":
+                return ["Yemen"];
+            case "Soviet Union":
+                return ["Russia", "Ukraine", "Belarus", "Kazakhstan", "Uzbekistan", "Turkmenistan", "Tajikistan", "Kyrgyzstan", "Georgia", "Armenia", "Azerbaijan", "Moldova", "Lithuania", "Latvia", "Estonia"];
+            case "Tanzania":
+                return ["United Republic of Tanzania"];
+            case "United Kingdom":
+                return ["England", "Scotland", "Wales", "Northern Ireland"];
+            case "United States":
+                return ["USA"];
+            case "West Bank and Gaza Strip":
+                return ["West Bank"];
+            case "West Germany (FRG)":
+                return ["Germany"];
+            case "Yugoslavia":
+                return ["Serbia", "Croatia", "Bosnia and Herzegovina", "Slovenia", "Macedonia", "Montenegro", "Kosovo"];
+            case "Zaire":
+                return ["Democratic Republic of the Congo"];
+            default:
+                return [country];
+
+
+        }
+    }
+
+
 
     
     
@@ -1984,24 +2071,7 @@ document.addEventListener("DOMContentLoaded", function () {
     fetch('https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson')
     .then(response => response.json())
     .then(data => {
-        // Assign the fetched GeoJSON data to the variable
         GeoJsonData = data;
-
-        /*var franceFeature = GeoJsonData.features.find(feature => feature.properties.name === 'France');
-        if (franceFeature) {
-          // Create a Leaflet GeoJSON layer with only the France feature
-          var franceLayer = L.geoJson(franceFeature, {
-            style: {
-              fillColor: 'red',
-              weight: 3,
-              color: 'red',
-              fillOpacity: 0.5
-            }
-          }).addTo(mymap);
-    
-          // Fit the map to the bounds of the France layer
-          mymap.fitBounds(franceLayer.getBounds());
-        }*/
     })
     .catch(error => {
         // Handle any errors that occur during the fetch
@@ -2066,51 +2136,28 @@ document.addEventListener("DOMContentLoaded", function () {
             console.error('Error fetching GeoJSON data:', error);
         });
         // Find the feature representing the specified country in the GeoJSON data
-        console.log(countryName)
-        var countryFeature = GeoJsonData.features.find(feature => feature.properties.name === countryName);
-        if (countryFeature) {
-          // Create a Leaflet GeoJSON layer with only the specified country feature
-          var countryLayer = L.geoJson(countryFeature, {
-            style: {
-              fillColor: 'red',
-              weight: 3,
-              color: 'red',
-              fillOpacity: 0.5
-            }
-          }).addTo(mymap);
-      
-          // Fit the map to the bounds of the country layer
-          mymap.fitBounds(countryLayer.getBounds());
-        }
-      }
+        // console.log(countryName)
 
-      var orangeDotsLayerGroup;
-    
-      function addOrangeDots(data) {
-        // Check if the orange dots layer group already exists
-        if (orangeDotsLayerGroup) {
-          // Remove the existing orange dots layer group from the map
-          mymap.removeLayer(orangeDotsLayerGroup);
+        var countryNames = getGeoJsonCountryNames(countryName);
+        for (var i = 0; i < countryNames.length; i++) {
+            // console.log(countryNames[i])
+            var countryFeature = GeoJsonData.features.find(feature => feature.properties.name === countryNames[i]);
+            if (countryFeature) {
+            // Create a Leaflet GeoJSON layer with only the specified country feature
+            countryLayer = L.geoJson(countryFeature, {
+                style: {
+                fillColor: 'red',
+                weight: 3,
+                color: 'red',
+                fillOpacity: 0.5
+                }
+            }).addTo(mymap);
+        
+            // Fit the map to the bounds of the country layer
+            mymap.fitBounds(countryLayer.getBounds());
+            }
         }
-      
-        // Create a new layer group to hold the orange dots
-        orangeDotsLayerGroup = L.layerGroup().addTo(mymap);
-      
-        data.forEach((row) => {
-          const latitude = parseFloat(row.latitude);
-          const longitude = parseFloat(row.longitude);
-      
-          if (!isNaN(latitude) && !isNaN(longitude)) {
-            L.circleMarker([latitude, longitude], {
-              fillColor: 'orange',
-              color: 'orange',
-              radius: 5
-            }).addTo(orangeDotsLayerGroup);
-          }
-        });
-      }
-      
-      
+      }  
 
 });
 
