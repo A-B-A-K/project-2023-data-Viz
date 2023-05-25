@@ -23,7 +23,7 @@ const descriptions = {
     'Abortion Related': 'Medium violet red is a strong and intense color. It represents target types related to abortion issues and debates.',
 };
 
-var colorMapping = {
+const colorMapping = {
     'Government (Diplomatic)': '#FFA500', // Orange
     'Government (General)': '#4B0082', // Indigo
     'Military': '#000080', // Navy Blue
@@ -48,7 +48,7 @@ var colorMapping = {
     'Abortion Related': '#C71585' // Medium Violet Red
 };
 
-var regionCountries = {
+const regionCountries = {
     'Central America & Caribbean': ["Dominican Republic", "Guatemala", "Nicaragua", "Costa Rica", "Panama", "El Salvador", "Haiti", "Honduras", "Jamaica", "Bahamas", "Barbados", "Trinidad and Tobago", "Grenada", "Belize", "Guadeloupe", "Martinique", "Dominica", "Cuba", "Antigua and Barbuda", "St. Kitts and Nevis", "St. Lucia"],
     'North America': ["Mexico", "United States", "Canada"],
     'Southeast Asia': ["Philippines", "Cambodia", "Brunei", "Thailand", "Myanmar", "Malaysia", "Singapore", "Indonesia", "Laos", "Vietnam", "East Timor"],
@@ -172,6 +172,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const imageContainer = document.createElement('div');
     imageContainer.classList.add('image-container');
+
     const countryNames = ['World','Afghanistan', 'Albania', 'Algeria', 'Andorra', 'Angola', 'Antigua and Barbuda', 'Argentina', 'Armenia', 'Australia', 'Austria', 'Azerbaijan', 'Bahamas', 'Bahrain', 'Bangladesh', 'Barbados', 'Belarus', 'Belgium', 'Belize', 'Benin', 'Bhutan', 'Bolivia', 'Bosnia-Herzegovina', 'Botswana', 'Brazil', 'Brunei', 'Bulgaria', 'Burkina Faso', 'Burundi', 'Cambodia', 'Cameroon', 'Canada', 'Central African Republic', 'Chad', 'Chile', 'China', 'Colombia', 'Comoros', 'Costa Rica', 'Croatia', 'Cuba', 'Cyprus', 'Czech Republic', 'Czechoslovakia', 'Democratic Republic of the Congo', 'Denmark', 'Djibouti', 'Dominica', 'Dominican Republic', 'East Germany (GDR)', 'East Timor', 'Ecuador', 'Egypt', 'El Salvador', 'Equatorial Guinea', 'Eritrea', 'Estonia', 'Ethiopia', 'Falkland Islands', 'Fiji', 'Finland', 'France', 'French Guiana', 'French Polynesia', 'Gabon', 'Gambia', 'Georgia', 'Germany', 'Ghana', 'Greece', 'Grenada', 'Guadeloupe', 'Guatemala', 'Guinea', 'Guinea-Bissau', 'Guyana', 'Haiti', 'Honduras', 'Hong Kong', 'Hungary', 'Iceland', 'India', 'Indonesia', 'International', 'Iran', 'Iraq', 'Ireland', 'Israel', 'Italy', 'Ivory Coast', 'Jamaica', 'Japan', 'Jordan', 'Kazakhstan', 'Kenya', 'Kosovo', 'Kuwait', 'Kyrgyzstan', 'Laos', 'Latvia', 'Lebanon', 'Lesotho', 'Liberia', 'Libya', 'Lithuania', 'Luxembourg', 'Macau', 'Macedonia', 'Madagascar', 'Malawi', 'Malaysia', 'Maldives', 'Mali', 'Malta', 'Martinique', 'Mauritania', 'Mauritius', 'Mexico', 'Moldova', 'Montenegro', 'Morocco', 'Mozambique', 'Myanmar', 'Namibia', 'Nepal', 'Netherlands', 'New Caledonia', 'New Hebrides', 'New Zealand', 'Nicaragua', 'Niger', 'Nigeria', 'North Korea', 'North Yemen', 'Norway', 'Pakistan', 'Panama', 'Papua New Guinea', 'Paraguay', "People's Republic of the Congo", 'Peru', 'Philippines', 'Poland', 'Portugal', 'Qatar', 'Republic of the Congo', 'Rhodesia', 'Romania', 'Russia', 'Rwanda', 'Saudi Arabia', 'Senegal', 'Serbia', 'Serbia-Montenegro', 'Seychelles', 'Sierra Leone', 'Singapore', 'Slovak Republic', 'Slovenia', 'Solomon Islands', 'Somalia', 'South Africa', 'South Korea', 'South Sudan', 'South Yemen', 'Soviet Union', 'Spain', 'Sri Lanka', 'St. Kitts and Nevis', 'St. Lucia', 'Sudan', 'Suriname', 'Swaziland', 'Sweden', 'Switzerland', 'Syria', 'Taiwan', 'Tajikistan', 'Tanzania', 'Thailand', 'Togo', 'Trinidad and Tobago', 'Tunisia', 'Turkey', 'Turkmenistan', 'Uganda', 'Ukraine', 'United Arab Emirates', 'United Kingdom', 'United States', 'Uruguay', 'Uzbekistan', 'Vanuatu', 'Vatican City', 'Venezuela', 'Vietnam', 'Wallis and Futuna', 'West Bank and Gaza Strip', 'West Germany (FRG)', 'Western Sahara', 'Yemen', 'Yugoslavia', 'Zaire', 'Zambia', 'Zimbabwe'];
     const regionNames = ['Australasia & Oceania','Central America & Caribbean','Central Asia','East Asia','Eastern Europe','Middle East & North Africa','North America','South America','South Asia','Southeast Asia','Sub-Saharan Africa','Western Europe']
 
@@ -186,17 +187,35 @@ document.addEventListener("DOMContentLoaded", function () {
         const oldDiv2 = graphContainer.querySelector('.graph2');
         const oldDiv3 = graphContainer.querySelector('.legend-container');
 
-        const div1 = document.createElement('div');
+        const oldDiv1_txt = graphContainer.querySelector('.graph1_txt');
+        const oldDiv2_txt = graphContainer.querySelector('.graph2_txt');
+        const oldDivx_txt = graphContainer.querySelector('.extra_txt');
+
+        var div1 = document.createElement('div');
         div1.className = 'graph1';
         div1.style.width = '100%';
         div1.style.height = '100%';
-        div1.style.border = '0px solid #3C3C3C';
 
-        const div2 = document.createElement('div');
+        var div1_txt = document.createElement('div');
+        div1_txt.className = 'graph1_txt';
+        div1_txt.style.width = '100%';
+        div1_txt.style.height = '100%';
+
+        var div2 = document.createElement('div');
         div2.className = 'graph2';
         div2.style.width = '100%';
         div2.style.height = '100%';
         div2.style.border = '0px solid #3C3C3C';
+
+        var div2_txt = document.createElement('div');
+        div2_txt.className = 'graph2_txt';
+        div2_txt.style.width = '100%';
+        div2_txt.style.height = '100%';
+
+        var extra_txt = document.createElement('div');
+        extra_txt.className = 'extra_txt';
+        extra_txt.style.width = '100%';
+        extra_txt.style.height = '100%';
 
         if (oldDiv1) {
             oldDiv1.remove();
@@ -208,6 +227,18 @@ document.addEventListener("DOMContentLoaded", function () {
 
         if (oldDiv3) {
             oldDiv3.remove();
+        }
+
+        if (oldDiv1_txt) {
+            oldDiv1_txt.remove();
+        }
+
+        if (oldDiv2_txt) {
+            oldDiv2_txt.remove();
+        }
+
+        if (oldDivx_txt) {
+            oldDivx_txt.remove();
         }
 
         if (dotsLayerGroup) {
@@ -225,12 +256,29 @@ document.addEventListener("DOMContentLoaded", function () {
                 while (imageContainer.firstChild) {
                     imageContainer.removeChild(imageContainer.firstChild);
                 }
-                textContainer.innerHTML = "<p>The first step into studying the nature of terrorist attacks was to study the groups that perpetrated them. We therefore present you a graph listing the terrorist organisations with the most casualties. Next to it we deemed interesting to study the weapons used most commonly by these groups which we represented by a heatmap.</p>";
-
+                textContainer.innerHTML = ` <h3>Group Profiles: Unveiling Patterns of Deadly Forces</h3>
+                                            <p>
+                                                This section explores the activities of the ten deadliest terrorist groups, as determined by the number of casualties they have caused. It provides an overview of the methods employed by these groups, enabling an insight into their modus operandi.
+                                            </p>`;
+                div1_txt.innerHTML = `  <p>
+                                            The bar chart presents a clear view of the groups in descending order of the casualties they have caused. By hovering over a bar, detailed information about a group and its impact in terms of fatalities can be accessed. 
+                                        </p>`;
+                div2_txt.innerHTML = `  <p>
+                                            Accompanying the bar chart is a heatmap that shows the usage frequency of different attack methods by these groups. Each cell in the heatmap represents the count of a specific method's usage by a particular group, with color intensity indicating the frequency. This visualization helps identify any preferred or recurrent methods of these groups.
+                                        </p>`;
+                extra_txt.innerHTML = ` <p style="font-size:90%; padding-left:10%; padding-right:10%; padding-top:10px; padding-bottom:10px; color:dimgrey">
+                                            <em>Note: The groups are displayed as per their name at the time of the attack. No consideration has been given to merging of groups or any changes in their names. This could mean that different names referring to the same group in different times or contexts are treated as separate entities.<\em>
+                                        </p>
+                                        <p>
+                                            These two visualizations together offer a comprehensive view into the operations of the most perilous terrorist groups. The data should be interpreted with care, remembering that these figures represent tragic losses and the considerable impact of these groups' activities globally.
+                                        </p>`
                 graphContainer.appendChild(div1);
+                graphContainer.appendChild(div1_txt);
                 graphContainer.appendChild(div2);
+                graphContainer.appendChild(div2_txt);
+                graphContainer.appendChild(extra_txt);
 
-                d3.csv("https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/Alex/data/miscellaneous/fatalities_per_group.csv")
+                d3.csv("https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/master/data/miscellaneous/fatalities_per_group.csv")
                   .then(data => {
                       var processedData = data.sort((a, b) => b.nkill - a.nkill).slice(0, 10);
                       plotData(processedData);
@@ -239,7 +287,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
               
               // Fetch and process heatmap_data_pivot.csv
-                d3.csv("https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/Alex/data/heatmap/heatmap_data.csv")
+                d3.csv("https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/master/data/heatmap/heatmap_data.csv")
                   .then(data => {
                       plotHeatmap(data);
                   })
@@ -250,14 +298,28 @@ document.addEventListener("DOMContentLoaded", function () {
                 while (imageContainer.firstChild) {
                     imageContainer.removeChild(imageContainer.firstChild);
                 }
-                textContainer.innerHTML = "<p>We found interesting to study terrorism and its evolution by visualizing the activity of terrorist groups through the years on the globe.</p>";
-
+                textContainer.innerHTML = ` <h3>Attack Hotspots: Exploring Spatial Trends in Target Selection</h3>
+                                            <p>
+                                                The "Attack Hotspots" section allows you to delve into the spatial patterns of target selection in global terrorism incidents from 1970 to 2020. By using the slider, you can choose a specific year and observe the distribution of attacks across the world.
+                                            </p>`;
+                div1_txt.innerHTML = `  <p>
+                                            The interactive map allows you to zoom in, pan, and explore different regions. Attack locations are represented by circles, with each circle representing a specific incident. The size of the circles remains constant, ensuring a consistent visual representation.
+                                        </p>
+                                        <p>
+                                            While the attack locations are not color-coded, you can hover over the legend to gain insights into the selection of colors. The legend provides information on similar target types that share similar colors, offering a way to identify patterns based on target similarities.
+                                        </p>
+                                        <p>
+                                            To access more details about a specific incident, simply click on a circle on the map. This will provide information such as the target type, country, the responsible group for the attack, and a summary of the incident if available. This additional context helps paint a more comprehensive picture of the attack landscape.
+                                        </p>`;
+                extra_txt.innerHTML = `     <p>
+                                            Keep in mind that the "Attack Hotspots" section provides a general overview of attack density across the entire period of 1970 to 2020. By exploring this visualization, you can gain insights into how target selection varies geographically and discover any spatial trends that emerge.
+                                        </p>`;
                 // Create a slider
                 const slider = document.createElement('input');
                 slider.type = 'range';
                 slider.min = '1970';
                 slider.max = '2020';
-                slider.value = '1990';
+                slider.value = '2000';
                 slider.classList.add('slider');
     
                 // Create a label to display the slider value
@@ -276,18 +338,13 @@ document.addEventListener("DOMContentLoaded", function () {
                         })
                         .catch(error => console.error('Error:', error));
                 })
-
-    
-                // Append the slider and label to the imageContainer
-                imageContainer.appendChild(slider);
-                imageContainer.appendChild(sliderLabel);
-    
-                // Append the imageContainer to the graphContainer
-                graphContainer.appendChild(imageContainer);
                 
                 // Create the legend container
                 const legendContainer = document.createElement('div');
                 legendContainer.classList.add('legend-container');
+                legendContainer.style.padding = '10px';
+                legendContainer.style.border = '1px solid #ccc';
+                legendContainer.style.borderRadius = '5px';
 
                 // Iterate through the colorMapping object and create legend items
                 for (const target in colorMapping) {
@@ -317,20 +374,49 @@ document.addEventListener("DOMContentLoaded", function () {
                     legendContainer.appendChild(legendItem);
                 }
 
-                // Append the legend container to the graphContainer
+                // Append the slider and label to the image container
+                imageContainer.appendChild(slider);
+                imageContainer.appendChild(sliderLabel);
+                
+                // Append the legend container and text to the graph container
+                graphContainer.appendChild(imageContainer);
                 graphContainer.appendChild(legendContainer);
+                graphContainer.appendChild(div1_txt);
+                graphContainer.appendChild(extra_txt);
 
                 break;
             case 3:
                 while (imageContainer.firstChild) {
                     imageContainer.removeChild(imageContainer.firstChild);
                 }
-                textContainer.innerHTML = "<p>Before delving deeper in the analysis of the data we tried figuring out if there were specific trends in when the attacks were committed during the year</p>";
+                textContainer.innerHTML = ` <h3>Temporal Patterns: Unveiling Trends Across Time</h3>
+                                            <p>
+                                                The "Temporal Patterns" section allows you to explore the temporal distribution of terrorist attacks throughout the year. By examining the heatmap visualization, you can uncover patterns and insights related to the frequency of attacks based on specific dates.
+                                            </p>
+                                            <p>
+                                                The heatmap represents the data by color-coding each cell based on the count of attacks. The color intensity indicates the relative frequency, with darker cells representing higher attack counts.
+                                            </p>`;
+                div1_txt.innerHTML = `  <p>
+                                            The x-axis of the heatmap represents the months of the year, while the y-axis represents the days of each month. Each cell contains information about the total number of attacks that occurred on that specific date across all years in the dataset.
+                                        </p>
+                                        <p>
+                                            When exploring the "Temporal Patterns" heatmap, pay attention to any notable trends or patterns that emerge. For example, you may observe a higher concentration of attacks around the middle of the year and middle of the month. Further analysis, including statistical evaluation, can help identify significant temporal patterns in the data.
+                                        </p>
+                                        <p>
+                                            Additionally, intriguing spikes in activity can be observed on specific dates such as January 1st, April 15th, May 16th, and May 29th. The spike on January 1st may be linked to New Year's celebrations and the symbolism associated with the start of a new year. However, further investigation is needed to determine the exact reasons behind these spikes. Similarly, the spikes on April 15th, May 16th, and May 29th present interesting anomalies within the dataset, but their significance and underlying factors require additional research and analysis. These dates might be associated with specific historical events, cultural significance, or political and ideological factors. Further investigation would help shed light on the reasons behind these observed patterns.
+                                        </p>
+                                        <p>
+                                            It is important to note that the "Temporal Patterns" section provides valuable insights into the temporal distribution of terrorist attacks. However, statistical significance and additional context should be considered when interpreting the patterns observed.
+                                        </p>
+                                        <p>
+                                            Finally, be aware that the low activity on February 29th should not mislead you. This date appears only once every four years due to it being a leap year.
+                                        </p>`;
 
                 graphContainer.appendChild(div1);
+                graphContainer.appendChild(div1_txt);
 
                 if (!imageContainer.hasChildNodes()) {
-                    d3.csv("https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/Alex/data/miscellaneous/seasonality_raw.csv")
+                    d3.csv("https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/master/data/miscellaneous/seasonality_raw.csv")
                       .then(data => {
                           plotSeasonality(data);
                       })
@@ -342,7 +428,22 @@ document.addEventListener("DOMContentLoaded", function () {
                 while (imageContainer.firstChild) {
                     imageContainer.removeChild(imageContainer.firstChild);
                 }
-                textContainer.innerHTML = "<p>To truly understand the dynamics of each region of the world we added their growth tendencies of terrorist activities.</p>";
+                textContainer.innerHTML = ` <h2>Regional Impact: Exploring Terrorism Trends by Region</h2>
+                                            <p>
+                                                The "Regional Impact" section provides insights into the impact of terrorism on different regions around the world. By selecting a specific region from the dropdown menu, you can explore the trends and analyze the severity of terrorist attacks in that particular area.
+                                            </p>
+                                            <p>
+                                                The interactive map allows you to zoom and pan to navigate different regions. When a region is selected from the dropdown menu, it gets highlighted on the map with a red overlay, enabling you to easily identify the area of focus.
+                                            </p>
+                                            <p>
+                                                The section includes a scatterplot that displays the fatal attacks within the selected region. Each data point represents an attack, with the x-axis representing the years and the y-axis indicating the number of casualties. Hovering over a data point provides additional information such as the event ID, country, number of casualties, and the year of the attack.
+                                            </p>
+                                            <p>
+                                                The "Regional Impact" section aims to highlight trends and patterns in terrorism, showcasing which countries have experienced the highest number of attacks and the severity of the casualties. By exploring this section, you can gain a better understanding of the impact of terrorism across different regions.
+                                            </p>
+                                            <p>
+                                                Please note that the selection of regions and countries does not imply any particular focus or significance. The data provides a comprehensive view of terrorism trends and impacts globally, without emphasizing any specific area.
+                                            </p>`;
 
                                 // Create a dropdown menu (select element)
                 const regionSelect = document.createElement('select');
@@ -367,49 +468,202 @@ document.addEventListener("DOMContentLoaded", function () {
                     regionOption.value = region;
                     regionOption.text = region;
                     regionSelect.appendChild(regionOption);
+                    
                 });
         
                 // Append the dropdown menu and the image to the imageContainer
                 imageContainer.appendChild(regionSelect);
                 imageContainer.appendChild(regionImage);
-        
-                // Append the imageContainer to the graphContainer
+
                 graphContainer.appendChild(imageContainer);
 
+                
+        
                 regionSelect.addEventListener('change', () => {
 
-                    if (oldDiv1) {
-                        oldDiv1.remove();
+                    if (div1 && div1.parentNode) {
+                        div1.parentNode.removeChild(div1);
                     }
 
-                    if (oldDiv2) {
-                        oldDiv2.remove();
+                    if (div1_txt && div1_txt.parentNode) {
+                        div1_txt.parentNode.removeChild(div1_txt);
                     }
 
-                    div1.innerHTML = `<b>${regionSelect.value}</b>`;
+                    if (extra_txt && extra_txt.parentNode) {
+                        extra_txt.parentNode.removeChild(extra_txt);
+                    }
+
+                    // Ensure to re-create the div1 element after removing it
+                    div1 = document.createElement('div');
+                    div1.className = 'graph1';
+                    div1.style.width = '100%';
+                    div1.style.height = '100%';
+
+                    // Ensure to re-create the div1_txt and extra_txt elements after removing them
+                    div1_txt = document.createElement('div');
+                    div1_txt.className = 'graph1_txt';
+                    div1_txt.style.width = '100%';
+                    div1_txt.style.height = '100%';
+                    div1_txt.style.marginTop = '75px';
+                    div1_txt.innerHTML = `<b>${regionSelect.value}</b>`;
+
+                    extra_txt = document.createElement('div');
+                    extra_txt.className = 'extra_txt';
+                    extra_txt.style.width = '100%';
+                    extra_txt.style.height = '100%';
+                    extra_txt.style.marginTop = '10px';
+                    
+                    switch (regionSelect.value) {
+                        case 'North America':
+                            extra_txt.innerHTML = ``;
+                            break;
+                        case 'Central America & Caribbean':
+                            extra_txt.innerHTML = ` <p>
+                                                        Central America and the Caribbean region underwent a tumultuous period during the 1980s and early 1990s, marked by heightened instances of terrorism and violence. The political instability and conflict prevalent during this era amplified these adversities.
+                                                    </p>
+                                                    <p>
+                                                        The nations most severely affected by these conditions were <a href="https://www.britannica.com/place/Guatemala" target="_blank">Guatemala</a>, <a href="https://www.britannica.com/place/Nicaragua" target="_blank">Nicaragua</a>, and <a href="https://www.britannica.com/place/El-Salvador" target="_blank">El Salvador</a>. Several crucial elements contributed to the escalation of terrorism and violent activity in Central America:
+                                                    </p>
+                                                    <ul>
+                                                        <li>
+                                                            <strong>Cold War Politics:</strong> During the Cold War, Central America emerged as a strategic hotspot for the United States and the Soviet Union. Proxy wars between anti-communist entities and left-leaning guerrilla factions further destabilized the region.
+                                                        </li>
+                                                        <li>
+                                                            <strong>Civil Wars and Revolutions:</strong> Nicaragua, El Salvador, and Guatemala were engulfed in civil wars characterized by rampant violence and terrorist acts. These conflicts were shaped by both internal and external influences, with left-wing guerrilla groups clashing against right-wing administrations.
+                                                        </li>
+                                                        <li>
+                                                            <strong>Socioeconomic Inequality:</strong> The substantial socioeconomic disparity in Central America fostered conditions conducive to political unrest and violence. Disenfranchised communities often employed violent tactics to voice their dissatisfaction and advocate for societal transformation.
+                                                        </li>
+                                                        <li>
+                                                            <strong>Drug Trafficking:</strong> Positioned geographically as a key transit region for drug trafficking—especially for cocaine moving from South America to the United States—Central America witnessed increased violence and terrorism as drug cartels employed brutal methods to safeguard their operations.
+                                                        </li>
+                                                        <li>
+                                                            <strong>Legacy of Colonialism and Imperialism:</strong> The historical remnants of colonialism and imperialism in Central America sowed the seeds of political instability and social discord, which ultimately cultivated a climate ripe for violence and terrorism.
+                                                        </li>
+                                                        <li>
+                                                            <strong>State Terrorism:</strong> Certain governments in the region, including Guatemala, employed acts of terrorism against their own citizens to quell opposition and maintain control, leading to widespread human rights abuses.
+                                                        </li>
+                                                    </ul>
+                                                    <p>
+                                                    These contributing elements often interacted in intricate patterns, and the circumstances varied significantly across countries. The region was scarred by several lethal incidents, such as the <a href="https://www.zinnedproject.org/news/tdih/el-mozote-massacre-in-el-salvador" target="_blank">El Mozote massacre</a> in El Salvador in 1981, which led to an estimated 800 to 1,000 fatalities, and the <a https://americanarchive.org/exhibits/newshour-cold-war/nicaragua">Nicaraguan revolution</a> in 1984 and 1985. These horrific events underscore the severe repercussions of the violence and terrorism that afflicted the region during that period.
+                                                    </p>
+                                                    <p>
+                                                    The history of the Central America and Caribbean region provides a significant case study for understanding the repercussions of terrorism and violence within a context of political instability, socioeconomic challenges, and historical factors. A thorough examination of this history illuminates the intricate dynamics that influence terrorism trends and their resulting impacts.
+                                                    </p>`;
+                            break;
+                        case 'South America':
+                            extra_txt.innerHTML = ``;
+                            break;
+                        case 'East Asia':
+                            extra_txt.innerHTML = ` <p>
+                                                        East Asia exhibits a diverse landscape of terrorism activities, with a marked increase in incidents from 1990 until 2020. This period of heightened activity was primarily due to numerous incidents in China, particularly in the Xinjiang Uyghur Autonomous Region. There was also a significant escalation in geopolitical tensions involving North Korea during this period.
+                                                    </p>
+                                                    <p>
+                                                        The <a href="https://en.wikipedia.org/wiki/Xinjiang_conflict" target="_blank">Xinjiang conflict</a> in China, characterized by violent activities from Uyghur separatist groups, significantly contributed to the rise in terrorist incidents in the region during this period. This conflict, rooted in religious, ethnic, and political issues, has had far-reaching consequences and sparked a surge in violence and security challenges across East Asia.
+                                                    </p>
+                                                    <p>
+                                                        In 2013, a distinct period of escalated tensions, known as the <a href="https://en.wikipedia.org/wiki/2013_North_Korea_crisis" target="_blank">2013 North Korea crisis</a>, occurred. This crisis, characterized by heightened rhetoric from North Korea and threats of nuclear attacks against South Korea, Japan, and the United States, underlines the complexity of terrorism dynamics in East Asia, where geopolitical tensions often intertwine with potential acts of violence. The 2013 North Korea crisis had a profound effect not only on East Asia but also on the global discourse surrounding nuclear proliferation and regional security.
+                                                    </p>
+                                                    <p>
+                                                        Overall, East Asia presents a diverse terrorism landscape, with each country having its unique dynamics and factors contributing to terrorism activities. While the number of attacks remains relatively high compared to other regions, the Xinjiang conflict and the 2013 North Korea crisis serve as significant factors that contributed to the period of heightened activity. Understanding these dynamics is crucial for effective policy-making and fostering stability and security in the region.
+                                                    </p>`;
+                            break;
+                        case 'Southeast Asia':
+                            extra_txt.innerHTML = ``;
+                            break;
+                        case 'South Asia':
+                            extra_txt.innerHTML = ``;
+                            break;
+                        case 'Central Asia':
+                            extra_txt.innerHTML = ` <p>
+                                                        Central Asia, while having an average level of terrorism incidents in comparison to other regions, has experienced periods of heightened activity. Notably, between 1988 and 2000, the region witnessed a surge in incidents, with some conflicts leading to high casualties. This was largely due to the First Nagorno-Karabakh War, the Tajikistani Civil War, and the wars in Abkhazia and South Ossetia.
+                                                    </p>
+
+                                                    <p>
+                                                        The <a href="https://www.bbc.com/news/world-europe-18270325" target="_blank">First Nagorno-Karabakh War</a> took place in Azerbaijan from 1988 to 1994, contributing to an increase in terrorist incidents during this period . Similarly, the <a href="https://www.rferl.org/a/tajikistan-civil-war-20-years-later/28488152.html" target="_blank">Tajikistani Civil War</a> from 1992 to 1997 led to a notable rise in terrorism activities in Tajikistan. Furthermore, Georgia faced significant conflicts during the <a href="https://www.rferl.org/a/war-abkhazia-25-years/29487023.html" target="_blank">War in Abkhazia</a> and the <a href="https://www.rferl.org/a/timeline-georgia-south-ossetia-conflict/27435424.html" target="_blank">conflict in South Ossetia</a> from 1992 to 2000, which heavily impacted the region's terrorism landscape.
+                                                    </p>
+
+                                                    <p>
+                                                        It is also important to highlight that some countries in Central Asia, such as Kazakhstan, Uzbekistan, and Armenia, have experienced fewer incidents of terrorism. This illustrates the varied experiences within the region. Additionally, despite lower overall activity, there were notable increases in terrorist incidents in Tajikistan in 2019 and 2020, indicating ongoing security challenges.
+                                                    </p>
+
+                                                    <p>
+                                                        Overall, the Central Asia region provides a comprehensive view of the terrorism landscape in the area. While the number of attacks is average compared to other regions, the aforementioned conflicts serve as significant factors that contributed to periods of heightened activity. Understanding the local and historical context is crucial for comprehending the dynamics of terrorism in this region.
+                                                    </p>`;
+                            break;
+                        case 'Western Europe':
+                            extra_txt.innerHTML = ``;
+                            break;
+                        case 'Eastern Europe':
+                            extra_txt.innerHTML = ` <p>
+                                                        The Eastern Europe region has seen a substantial amount of conflict and terrorism, particularly within the territories of Russia and Ukraine.
+                                                    </p>
+                                                    <p>
+                                                        The prominence of Russia in this context can largely be attributed to the long-standing conflicts in regions such as <a href="https://en.wikipedia.org/wiki/Second_Chechen_War">Chechnya</a>, <a href="https://en.wikipedia.org/wiki/War_of_Dagestan">Dagestan</a>, and <a href="https://en.wikipedia.org/wiki/War_in_Ingushetia">Ingushetia</a>. The separatist movements and insurgencies in these areas have spurred numerous terrorist attacks over the years. One noteworthy event that transpired within this period is the 2010 <a href="https://en.wikipedia.org/wiki/2010_Moscow_Metro_bombings">Moscow Metro bombings</a>, which resulted in numerous casualties and heightened international awareness regarding the security challenges facing Russia. These internal conflicts within Russia have significantly contributed to the region's terrorism landscape.
+                                                    </p>
+                                                    <p>
+                                                        In the case of Ukraine, the significant increase in terrorist incidents in 2015 is largely linked to the political and military crisis that emerged in 2014. The <a href="https://en.wikipedia.org/wiki/Annexation_of_Crimea_by_the_Russian_Federation#:~:text=In%20February%20and%20March%202014,the%20wider%20Russo-Ukrainian%20War.">annexation of Crimea by Russia</a> and the subsequent pro-Russian unrest in Eastern Ukraine led to a full-scale war in the Donbas region. This conflict has caused a surge in violence and security challenges throughout the region, leading to a high number of casualties.
+                                                    </p>
+                                                    <p>
+                                                        Despite the significant contribution of Russia and Ukraine to the number of terrorist incidents in Eastern Europe, it's important to note that other countries in the region have also experienced isolated incidents of terrorism. However, the scale and impact of these incidents are generally lower compared to those in Russia and Ukraine.
+                                                    </p>
+                                                    <p>
+                                                        Overall, the Eastern Europe region presents a complex and challenging terrorism landscape. The significant impact of the conflicts in Russia and Ukraine emphasizes the importance of understanding local and historical contexts when studying the dynamics of terrorism in this region.
+                                                    </p>`;
+                            break;
+                        case 'Middle East & North Africa':
+                            extra_txt.innerHTML = ``;
+                            break;
+                        case 'Sub-Saharan Africa':
+                            extra_txt.innerHTML = ``;
+                            break;
+                        case 'Australasia & Oceania':
+                            extra_txt.innerHTML = ` <p>
+                                                        The Australasia & Oceania region has generally experienced a relatively low number of terrorist attacks. However, between 1988 and 1998, there was a notable increase in incidents with higher casualties. This period of heightened activity can largely be attributed to the Bougainville conflict, which significantly impacted the region.
+                                                    </p>
+                                                    <p>
+                                                        The <a href="https://www.c-r.org/programme/pacific/bougainville-conflict-focus" target="_blank">Bougainville conflict</a>, a long-standing armed conflict that took place in Papua New Guinea, resulted in increased terrorist incidents during this time. The conflict, rooted in socio-political and economic issues, had far-reaching consequences and caused a surge in violence and security challenges throughout the region. For more information about the Bougainville conflict, please visit the [link placeholder].
+                                                    </p>
+                                                    <p>
+                                                        It is worth noting that in 2019, an outlier incident occurred in New Zealand, resulting in up to 43 casualties. This incident, known as the <a href="https://www.rnz.co.nz/news/chch-terror" target="_blank">Christchurch mosque shootings</a>, stands out due to its severity and serves as a tragic reminder of the potential impact of terrorism, even in regions with typically low activity. The Christchurch mosque shootings had a profound effect not only on New Zealand but also on the global discourse surrounding extremism and the need for unity against hatred.
+                                                    </p>
+
+                                                    <p>
+                                                        Overall, the Australasia & Oceania region presents an overview of the terrorism landscape in the area. While the number of attacks remains relatively low compared to other regions, the Bougainville conflict serves as a significant factor that contributed to the period of heightened activity. Understanding the local and historical context is crucial for comprehending the dynamics of terrorism in this region.
+                                                    </p>`;
+                            break;
+                        default:
+                            extra_txt.innerHTML = ``;
+                            break;
+                    }
+
+
+                    graphContainer.appendChild(div1_txt);
                     graphContainer.appendChild(div1);
+                    graphContainer.appendChild(extra_txt);
+                   
 
-                    console.log(countryLayer);
+                    // console.log(countryLayer);
                     // If a country layer already exists, remove it
                     if (countryLayer) {
                         mymap.removeLayer(countryLayer);
                     }
-                    console.log(countryLayer);
+                    // console.log(countryLayer);
                     for (const index in regionCountries[regionSelect.value]) {
                         const country = regionCountries[regionSelect.value][index];
                         highlightCountry(country);
                     }
                     // highlightCountry(countrySelect.value);
 
-
-                    // const dataUrl = `https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/Aristotelis/data/regions/all/${encodeURIComponent(regionSelect.value) }.csv`
-                    const dataUrl = `https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/Aristotelis/data/regions/victims/${encodeURIComponent(regionSelect.value) }.csv`
+                    const dataUrl = `https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/master/data/regions/victims/${encodeURIComponent(regionSelect.value) }.csv`
                     d3.csv(dataUrl)
                         .then(data => {
-                            plotScatterPlot(data);
+
+                            plotScatterPlot(data); // Add animation again
                         })
                         .catch(error => console.error('Error:', error));
                 });
+
 
                 
                 break;
@@ -498,37 +752,40 @@ document.addEventListener("DOMContentLoaded", function () {
                 while (imageContainer.firstChild) {
                     imageContainer.removeChild(imageContainer.firstChild);
                 }
-                textContainer.innerHTML = `<p>Welcome to "Mapping the Shadows: An Interactive Journey Through Five Decades of Global
-                            Terrorism", an interactive data
-                            visualization project that invites you to explore the complex landscape of global terrorism
-                            from 1970 to 2020. By
-                            leveraging the power of the Global Terrorism Database(GTD), our goal is to provide an
-                            engaging and informative
-                            experience that sheds light on the trends, patterns, and impacts of terrorist activities
-                worldwide.<br>
-                    In this project, you will find a variety of visualizations, including histograms, heatmaps,
-                        and parallel coordinate
-                plots, all designed to present the data in a clear and accessible manner.At the heart of
-                            our project is an
-                            interactive map that adapts to your selections, allowing you to examine different aspects of
-                terrorism, such as the
-                            density of attacks, fatalities per country, and seasonality, among others.<br>
-                    We believe that understanding the historical context and trends of terrorism is essential
-                for
-                            fostering informed
-                            conversations and decision - making in our increasingly interconnected world.Please note that
-                this project deals with
-                            sensitive subject matter, and we have made every effort to present the information in an
-                            unbiased and respectful
-                manner.<br>
-                    To begin your exploration, simply scroll down and interact with the visualizations below.If
-                            you need help navigating
-                            the website or understanding the visualizations, you can access our help guide by clicking
-                            the button in the
-                top - right corner of the page.<br>
-                    We hope that this project provides you with valuable insights and encourages thoughtful
-                            reflection on the complex
-                            phenomenon of terrorism.</p>`;
+                textContainer.innerHTML = `<h2>Welcome to 'Unveiling Patterns: A Data-Driven Insight into Global Terrorism'</h2>
+                        <p>
+                            This platform provides an interactive exploration of data from the Global Terrorism Database (GTD), covering the
+                            span of half a century from 1970 to 2020. Please note that data for the year 1973 is missing from the GTD.
+                        </p>
+                        <p>
+                            Through this visualization portal, we aim to present an unbiased, comprehensive view of global terrorism patterns,
+                            focusing on diverse aspects such as attack frequency, casualties, seasonality, regional trends, methods, and targets
+                            of attacks. The data can be explored via various interactive visualizations, each carefully designed to convey
+                            specific aspects of the data. This includes an overview of terrorist groups and their preferred methods of attack, a
+                            geographically focused view of attack density, trend analysis, region-specific exploration, and a country-wise
+                            deep-dive.
+                        </p>
+                        <p>
+                            By presenting this data, we hope to foster an understanding of the patterns and impacts of terrorism on a global
+                            scale. The information should be handled with care due to the sensitive nature of the subject matter. We encourage
+                            you to navigate through the visualizations and uncover the hidden patterns of global terrorism.
+                        </p>
+                        <p>
+                            Understanding patterns in terrorism is crucial for various stakeholders - from policymakers and security agencies to
+                            researchers and citizens. It allows us to comprehend the scope of this global issue, identify hotspots, discern
+                            trends, and possibly, infer underlying causes and implications. The power of data visualization is employed here to
+                            present this complex and expansive data in an intuitive and interactive manner, facilitating better comprehension
+                            and deeper analysis.
+                        </p>
+                        <p>
+                            The objective of this project is to provide an accessible tool for understanding the landscape of global terrorism,
+                            thereby contributing to informed discussions, policy making, and educational endeavors. We uphold the principle of
+                            data neutrality, providing an unbiased view and leaving room for interpretation based on the data.
+                        </p>
+                        <p>
+                            Feel free to start your journey by selecting any of the five categories. Should you require assistance in navigating
+                            through the website, please click on the 'Help' button on the top right corner for guidance.
+                        </p>`;
         }
 
     }
@@ -631,10 +888,10 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function plotHeatmap(data) {
-        const width = 450;
-        const height = 450;
+        const width = 500;
+        const height = 400;
 
-        var margin = { top: 30, right: 30, bottom: 130, left: 150 };
+        var margin = { top: 30, right: 30, bottom: 30, left: 150 };
         const innerWidth = width - margin.left - margin.right;
         const innerHeight = height - margin.top - margin.bottom;
 
@@ -886,10 +1143,10 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function plotSeasonality(data) {
-        const width = 450;
-        const height = 450;
+        const width = 500;
+        const height = 600;
 
-        var margin = { top: 30, right: 30, bottom: 130, left: 150 };
+        var margin = { top: 30, right: 30, bottom: 30, left: 150 };
         const innerWidth = width - margin.left - margin.right;
         const innerHeight = height - margin.top - margin.bottom;
 
@@ -925,8 +1182,9 @@ document.addEventListener("DOMContentLoaded", function () {
             .call(d3.axisLeft(y));
 
         var myColor = d3.scaleSequential()
-            .interpolator(d3.interpolateViridis)
-            .domain([0, 750]);;
+            // .interpolator(d3.interpolateViridis)
+            .range(['white', 'crimson'])
+            .domain([450, 700]);
 
         const numToMonth = d => {
             switch (d) {
@@ -968,7 +1226,8 @@ document.addEventListener("DOMContentLoaded", function () {
             .attr("height", y.bandwidth())
             .attr("rx", 4)
             .attr("ry", 4)
-            //.attr("class", function (d) { return `${gnameMapping[d.imonth]} ${weapsubtype1_txtMapping[d.iday]}` })
+            .attr("stroke-width", 1)
+            .attr("stroke", "dimgrey")
             .style("fill", function (d) { return myColor(+d.count) })
             .on("mouseover", function (event, d) {
 
@@ -989,11 +1248,11 @@ document.addEventListener("DOMContentLoaded", function () {
             })
 
             .on("mouseout", function (d) {
-                d3.selectAll('rect')
-                    .transition().duration(200)
-                    .style("filter", "brightness(1)")
-                    .style("stroke", "none")
-                    .style("stroke-width", "0px")
+                // d3.selectAll('rect')
+                //     .transition().duration(200)
+                //     .style("filter", "brightness(1)")
+                //     .style("stroke", "none")
+                //     .style("stroke-width", "0px")
 
                 tooltip.interrupt();
                 tooltip.style("opacity", 0)
@@ -1008,6 +1267,15 @@ document.addEventListener("DOMContentLoaded", function () {
         var margin = { top: 10, right: 30, bottom: 30, left: 60 };
         const innerWidth = width - margin.left - margin.right;
         const innerHeight = height - margin.top - margin.bottom;
+
+        let maxNkill = Number.NEGATIVE_INFINITY;
+
+        for (const key in data) {
+            const nkill = parseFloat(data[key]['nkill']);
+            if (nkill > maxNkill) {
+                maxNkill = nkill;
+            }
+        }
 
         const tooltip = d3.select("body")
             .append("div")
@@ -1026,7 +1294,7 @@ document.addEventListener("DOMContentLoaded", function () {
             .attr('transform', `translate(${margin.left}, ${margin.top})`);
 
         var x = d3.scaleLinear()
-            .domain([0, 0])
+            .domain([1970, 1970])
             .range([0, innerWidth]);
         g.append("g")
             .attr("class", "x-axis")
@@ -1074,6 +1342,13 @@ document.addEventListener("DOMContentLoaded", function () {
                     .style("border-color", getCountryColors(d.country_txt)[1])
                     .style("weight", "12px")
                     .style("border-style", "solid");
+
+                g.selectAll("circle")
+                    .filter(function (data) { return data.country_txt === d.country_txt; })
+                    .style("opacity", 0.8);
+                g.selectAll("circle")
+                    .filter(function (data) { return data.country_txt !== d.country_txt; })
+                    .style("opacity", 0.1);
             })
             .on("mouseout", function (d) {
                 // Make tooltip invisible
@@ -1081,28 +1356,36 @@ document.addEventListener("DOMContentLoaded", function () {
                 tooltip.transition()
                     .duration(500)
                     .style("opacity", 0);
+
+                g.selectAll("circle")
+                    .filter(function (data) { return data.country_txt === d.country_txt; })
+                    .style("opacity", 0.5);
+                g.selectAll("circle")
+                    .filter(function (data) { return data.country_txt !== d.country_txt; })
+                    .style("opacity", 0.5);
             });
 
-            x.domain([1970, 2020])
-            g.select(".x-axis")
-                .transition()
-                .duration(1000)
-                .attr("opacity", 1)
-                .call(d3.axisBottom(x).tickFormat(d3.format("d")));
+        // Add the X Axis
+        x.domain([1970, 2020])
+        g.select(".x-axis")
+            .transition()
+            .duration(1000)
+            .attr("opacity", 1)
+            .call(d3.axisBottom(x).tickFormat(d3.format("d")));
 
-            y.domain([0, 200])  // Cap on the max number of casualties
-            g.select(".y-axis")
-                .transition()
-                .duration(1000)
-                .attr("opacity", 1)
-                .call(d3.axisLeft(y));
+        y.domain([0, maxNkill])  // Cap on the max number of casualties
+        g.select(".y-axis")
+            .transition()
+            .duration(1000)
+            .attr("opacity", 1)
+            .call(d3.axisLeft(y));
 
-            g.selectAll("circle")
-                .transition()
-                .delay(function (d, i) { return (i * 3) })
-                .duration(200)
-                .attr("cx", function (d) { return x(+d.year); })
-                .attr("cy", function (d) { return y(+d.nkill); })
+        g.selectAll("circle")
+            .transition()
+            .delay(function (d, i) { return (i * 3) })
+            .duration(200)
+            .attr("cx", function (d) { return x(+d.year); })
+            .attr("cy", function (d) { return y(+d.nkill); })
 
     }
 
@@ -2061,6 +2344,8 @@ document.addEventListener("DOMContentLoaded", function () {
         attribution: '©OpenStreetMap, ©CartoDB'
     }).addTo(mymap);
 
+    positron.setZIndex(10);
+
     var positronLabels = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}.png', {
         attribution: '©OpenStreetMap, ©CartoDB',
         pane: 'labels'
@@ -2095,7 +2380,6 @@ document.addEventListener("DOMContentLoaded", function () {
         }
       };
     var geojson = L.geoJson(GeoJsonData, geoJsonOptions).addTo(mymap);
-    console.log(geojson)
 
     geojson.eachLayer(function (layer) {
         layer.bindPopup(layer.feature.properties.name);
@@ -2103,44 +2387,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
     mymap.fitBounds(geojson.getBounds());
 
-    var geojson = L.geoJson(GeoJsonData, geoJsonOptions).addTo(mymap);
-
-    // Assuming the 'name' property is used to identify France in the GeoJSON data
-    var targetCountry = 'France';
-
-    geojson.eachLayer(function (layer) {
-        // Check if the layer represents the target country
-          // Highlight the layer by changing its style
-          layer.setStyle({
-            fillColor: 'yellow',  // Change the fill color to yellow (or any other desired color)
-            weight: 3,            // Increase the border weight
-            color: 'red'          // Change the border color to red (or any other desired color)
-          });
-      
-          // You can also perform other actions, such as opening a popup or executing custom code
-          layer.bindPopup('France'); // Open a popup with a message
-          console.log('France layer:', layer); // Log the layer object
-        
-      });
 
       function highlightCountry(countryName) {
-        //countryName = "'" + countryName + "'";
-        fetch('https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson')
-        .then(response => response.json())
-        .then(data => {
-            // Assign the fetched GeoJSON data to the variable
-            GeoJsonData = data;
-        })
-        .catch(error => {
-            // Handle any errors that occur during the fetch
-            console.error('Error fetching GeoJSON data:', error);
-        });
-        // Find the feature representing the specified country in the GeoJSON data
-        // console.log(countryName)
 
         var countryNames = getGeoJsonCountryNames(countryName);
         for (var i = 0; i < countryNames.length; i++) {
-            // console.log(countryNames[i])
             var countryFeature = GeoJsonData.features.find(feature => feature.properties.name === countryNames[i]);
             if (countryFeature) {
             // Create a Leaflet GeoJSON layer with only the specified country feature

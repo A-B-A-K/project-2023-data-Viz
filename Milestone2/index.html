@@ -1,7 +1,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>World Map Statistics</title>
+    <title>Unveiling Patterns: A Data-Driven Insight into Global Terrorism</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
     <link rel="stylesheet" href="style.css">
     <script src="https://d3js.org/d3.v7.min.js"></script>
@@ -157,7 +157,7 @@
 
             </div>
             <div class="title-container">
-                <h2>Global Terrorism: A Data Perspective</h2>
+                <h2>Unveiling Patterns: A Data-Driven Insight into Global Terrorism</h2>
             </div>
             <div class="help-container">
                 <button id="button-help">
@@ -171,91 +171,93 @@
             </div>
             <div id="helpWindow" style="display: none">
                 <div id="helpContent">
-                    <h2>Help Window</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget sapien a arcu viverra convallis. Sed eros lorem,
-                    condimentum sed finibus vitae, sagittis vitae est. Sed elementum pretium tortor, in finibus tortor fermentum in. Etiam
-                    tortor lacus, condimentum non faucibus in, dictum sed odio. Mauris ante velit, laoreet quis magna ac, aliquam malesuada
-                    sapien. Fusce consectetur, nisi non semper luctus, mi magna dapibus arcu, nec imperdiet purus ex quis dolor. Curabitur
-                    vulputate ut erat a rutrum. Nam euismod orci sit amet dictum vulputate. Quisque varius risus bibendum arcu convallis, ac
-                    sagittis erat auctor. Suspendisse in varius est. Morbi in molestie ligula. Integer turpis mi, ultrices eu lectus vel,
-                    scelerisque facilisis augue.<br>
-                    
-                    Morbi fermentum rutrum scelerisque. Aenean accumsan quis ligula non pellentesque. Interdum et malesuada fames ac ante
-                    ipsum primis in faucibus. Cras varius erat eu arcu rhoncus tempor. Aliquam ornare lorem a tempor aliquet. Suspendisse
-                    congue massa urna, et eleifend eros accumsan ut. Ut molestie faucibus aliquet. Nunc ac nunc nibh. Suspendisse finibus
-                    lectus sed maximus placerat. Aliquam in aliquam neque. Ut magna massa, suscipit sed sem eu, tincidunt malesuada mauris.
-                    Cras leo nunc, lobortis et enim ut, scelerisque porta ipsum. Suspendisse facilisis justo at varius lacinia. Nullam
-                    pellentesque lobortis ex et pulvinar. Morbi malesuada arcu ac dui iaculis, eget dictum ante tincidunt.<br>
-                    
-                    Sed ut sem velit. Praesent eu odio nec dui fringilla rhoncus. Nam vel tortor ut justo facilisis finibus sed vel est.
-                    Morbi sed tellus at orci elementum faucibus vel ut massa. Sed ut augue arcu. Donec pellentesque tempus tellus,
-                    consectetur dapibus diam malesuada vel. Integer non rutrum quam. Nullam egestas quam ex, ut tincidunt sapien condimentum
-                    a. In placerat a mi sit amet fringilla. Phasellus luctus lobortis magna, sit amet efficitur magna efficitur non.
-                    Curabitur non hendrerit ante. Proin eget fermentum dui, sagittis luctus ante. Maecenas elementum quis ante quis dapibus.
-                    Aliquam a enim sodales, efficitur libero nec, dictum enim. Nam efficitur venenatis odio, et lacinia nisi egestas ut.<br>
-                    
-                    Nam pretium ante id leo condimentum rutrum. Integer dictum felis ut vestibulum pulvinar. Nunc lobortis quam nec nunc
-                    condimentum, et auctor libero ultricies. Donec ac libero neque. In tincidunt ipsum non ultrices elementum. Aenean
-                    sodales elit erat, eget tempus nisi lacinia ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eleifend
-                    maximus mauris, eget accumsan ante rutrum nec. Praesent ullamcorper magna et dolor ultricies vestibulum in at lorem.<br>
-                    
-                    Pellentesque et nulla a tellus placerat lacinia ac sed justo. Integer at suscipit diam. Donec aliquam dignissim
-                    lobortis. Nunc at erat vitae odio blandit gravida. Fusce lobortis, nisi et luctus luctus, est sapien accumsan quam, quis
-                    tincidunt quam ex in tortor. Ut porta a eros accumsan interdum. Proin convallis purus quis pulvinar consequat. Quisque
-                    vitae nulla tempor nulla pellentesque ultricies.</p>
+                <h2>Help and Instructions</h2>
+                <p>Welcome to Unveiling Patterns: A Data-Driven Insight into Global Terrorism. This website is designed to provide an
+                    interactive, comprehensive view of global terrorism patterns from 1970 to 2020. Here's how you can interact with the
+                    data and visuals:</p>
+                <ul>
+                    <li><strong>Group Profiles:</strong> Click on this button to explore the data related to the ten deadliest terrorist
+                        organizations. You'll see two visuals: a bar chart and a heatmap. The bar chart depicts the number of fatalities
+                        associated with each group. Hover over the bars for a detailed view of the numbers. The heatmap presents the
+                        commonly used attack methods for these groups, color intensity indicating frequency.</li>
+                    <li><strong>Attack Hotspots:</strong> This feature lets you explore the global distribution of terrorist attacks for
+                        a selected year. Use the slider to change the year and the map will update accordingly. Each circle on the map
+                        represents an attack, color-coded by the target type. Click on a circle to view more information about the
+                        attack, including the target, country, terrorist group involved, and a brief incident summary (if available).</li>
+                    <li><strong>Temporal Patterns:</strong> Here you can find a heatmap showing the distribution of attacks throughout
+                        the calendar year. The x-axis represents months, and the y-axis represents days of the month. Each cell in the
+                        heatmap represents the total number of attacks that occurred on that specific day across all years in the
+                        dataset. The color intensity indicates the number of attacks, with brighter colors representing higher attack
+                        counts.</li>
+                    <li><strong>Regional Impact:</strong> This feature lets you analyze the terrorism trends in a specific region.
+                        Choose a region from the dropdown menu. The map will highlight your chosen region. Below the map, you'll find a
+                        scatterplot showcasing all fatal attacks within that region, with the x-axis representing the years and the
+                        y-axis indicating the number of casualties. Hover over a point for detailed information about the incident.</li>
+                    <li><strong>Country-Specific Analysis:</strong> To view terrorism patterns for a specific country, select a country
+                        from the dropdown menu. The map will highlight your chosen country and a streamgraph will appear below. The
+                        streamgraph displays the frequency of attacks throughout the years, with the x-axis representing months and the
+                        stream's width indicating the number of attacks.</li>
+                </ul>
+                <p>If you need further assistance or have any questions, please <a href="guidebook.pdf" target="_blank">consult our
+                    guidebook</a> or contact us.</p>
+
                     <button id="closeButton">Close</button>
                 </div>
             </div>
         </div>
         <div class="outer-container" style="display: grid; grid-template-columns: 1fr 6fr; grid-gap: 20px;">
             <div class="button-container" style="max-width: 200px;">
-                <button id="button-1">Terrorist Groups</button>
-                <button id="button-2">Terrorism Density Map</button>
-                <button id="button-3">Trends and more</button>
-                <button id="button-4">Growth of Terrorism</button>
-                <button id="button-5">Terrorism in each country</button>
+                <button id="button-1">Group Profiles</button>
+                <button id="button-2">Attack Hotspots</button>
+                <button id="button-3">Temporal Patterns</button>
+                <button id="button-4">Regional Impact</button>
+                <button id="button-5">Country-Specific Analysis</button>
             </div>
 
             <div class="map-container" style="grid-column: 2;">
                 <div id="map" class="map"></div>
                 <div class="graph-container">
                     <div class="text-container">
-                        <p>Welcome to "Global Terrorism: A Data Perspective", an interactive data
-                            visualization project that invites you to explore the complex landscape of global terrorism
-                            from 1970 to 2020. By
-                            leveraging the power of the Global Terrorism Database (GTD), our goal is to provide an
-                            engaging and informative
-                            experience that sheds light on the trends, patterns, and impacts of terrorist activities
-                            worldwide.<br>
-                            In this project, you will find a variety of visualizations, including histograms, heatmaps,
-                            and parallel coordinate
-                            plots, all designed to present the data in a clear and accessible manner. At the heart of
-                            our project is an
-                            interactive map that adapts to your selections, allowing you to examine different aspects of
-                            terrorism, such as the
-                            density of attacks, fatalities per country, and seasonality, among others.<br>
-                            We believe that understanding the historical context and trends of terrorism is essential
-                            for
-                            fostering informed
-                            conversations and decision-making in our increasingly interconnected world. Please note that
-                            this project deals with
-                            sensitive subject matter, and we have made every effort to present the information in an
-                            unbiased and respectful
-                            manner.<br>
-                            To begin your exploration, simply scroll down and interact with the visualizations below. If
-                            you need help navigating
-                            the website or understanding the visualizations, you can access our help guide by clicking
-                            the button in the
-                            top-right corner of the page.<br>
-                            We hope that this project provides you with valuable insights and encourages thoughtful
-                            reflection on the complex
-                            phenomenon of terrorism.</p>
+                        <h2>Welcome to 'Unveiling Patterns: A Data-Driven Insight into Global Terrorism'</h2>
+                        <p>
+                            This platform provides an interactive exploration of data from the Global Terrorism Database (GTD), covering the
+                            span of half a century from 1970 to 2020. Please note that data for the year 1973 is missing from the GTD.
+                        </p>
+                        <p>
+                            Through this visualization portal, we aim to present an unbiased, comprehensive view of global terrorism patterns,
+                            focusing on diverse aspects such as attack frequency, casualties, seasonality, regional trends, methods, and targets
+                            of attacks. The data can be explored via various interactive visualizations, each carefully designed to convey
+                            specific aspects of the data. This includes an overview of terrorist groups and their preferred methods of attack, a
+                            geographically focused view of attack density, trend analysis, region-specific exploration, and a country-wise
+                            deep-dive.
+                        </p>
+                        <p>
+                            By presenting this data, we hope to foster an understanding of the patterns and impacts of terrorism on a global
+                            scale. The information should be handled with care due to the sensitive nature of the subject matter. We encourage
+                            you to navigate through the visualizations and uncover the hidden patterns of global terrorism.
+                        </p>
+                        <p>
+                            Understanding patterns in terrorism is crucial for various stakeholders - from policymakers and security agencies to
+                            researchers and citizens. It allows us to comprehend the scope of this global issue, identify hotspots, discern
+                            trends, and possibly, infer underlying causes and implications. The power of data visualization is employed here to
+                            present this complex and expansive data in an intuitive and interactive manner, facilitating better comprehension
+                            and deeper analysis.
+                        </p>
+                        <p>
+                            The objective of this project is to provide an accessible tool for understanding the landscape of global terrorism,
+                            thereby contributing to informed discussions, policy making, and educational endeavors. We uphold the principle of
+                            data neutrality, providing an unbiased view and leaving room for interpretation based on the data.
+                        </p>
+                        <p>
+                            Feel free to start your journey by selecting any of the five categories. Should you require assistance in navigating
+                            through the website, please click on the 'Help' button on the top right corner for guidance.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
         <div class="ack">
-            <p>Special thanks to <a class="special-ref" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Σοφία</a></p>
+            <p>Special thanks to <a class="special-ref" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Σοφία for being our first alpha user</a></p>
         </div>
         
 
