@@ -612,7 +612,24 @@ document.addEventListener("DOMContentLoaded", function () {
                                                     </p>`;
                             break;
                         case 'Middle East & North Africa':
-                            extra_txt.innerHTML = ``;
+                            extra_txt.innerHTML = ` <p>
+                                                        The Middle East and North Africa (MENA) region, known for its rich history and cultural diversity, has been marked by an unfortunate prevalence of conflict and terrorism. The region's tumultuous past has resulted in significant volatility, with numerous countries experiencing recurring periods of unrest and violence. 
+                                                    </p>
+                                                    <p>
+                                                        The State of Israel, for example, has been notably affected by the ongoing <a href="https://www.britannica.com/topic/Israeli-Palestinian-conflict" target="_blank">Israeli-Palestinian</a> conflict, which has led to regular occurrences of terrorism over the decades. This enduring conflict continues to shape the region's socio-political landscape, underscoring the necessity for lasting peace initiatives.
+                                                    </p>
+                                                    <p>
+                                                        Syria, another country in the region, has been engulfed in a long-lasting <a href="https://www.bbc.com/news/world-middle-east-26116868" target="_blank">civil war</a>, marked by pervasive violence and terrorism. This conflict has not only destabilized the country internally but has also had ripple effects across the region and the world.
+                                                    </p>
+                                                    <p>
+                                                        Egypt, a pivotal nation in North Africa, went through a significant period of unrest during the <a href="https://www.britannica.com/event/Egyptian-Revolution-of-2011" target="_blank">Egyptian Revolution</a> in 2011. This event, part of the wider Arab Spring, catalyzed substantial security challenges and marked a major turning point in the country's history.
+                                                    </p>
+                                                    <p>
+                                                        <a href="https://www.cfr.org/backgrounder/turkeys-terrorism-problem" target="_blank">Turkey</a>, straddling the continents of Europe and Asia, has also experienced considerable terrorism activity throughout its history. Various internal and external factors have contributed to this, emphasizing the multifaceted nature of the terrorism phenomenon in the region.
+                                                    </p>
+                                                    <p>
+                                                        It's essential to note that the MENA region is a mosaic of various nations, each with its own unique experiences and historical contexts. While certain countries and events have been highlighted here, a comprehensive understanding requires a broader examination of the region's intricate tapestry. The complexities within the MENA region, coupled with the severity of the events witnessed, underscore the importance of continuous research and analysis. This ongoing exploration helps to address the root causes of terrorism and fosters the development of strategies to enhance stability and security in the region.
+                                                    </p>`;
                             break;
                         case 'Sub-Saharan Africa':
                             extra_txt.innerHTML = ``;
@@ -1416,13 +1433,14 @@ document.addEventListener("DOMContentLoaded", function () {
             var content = `
             <div style="display: flex; justify-content: space-between; align-items: center;">
                 <div>
-                    <img src="${countryFlagSrc}" style="width: 30px; height: 30px; margin-right: 50px">
+                    <img src="${countryFlagSrc}" style="width: 50px; height: 50px; margin-right: 70px">
                 </div>
                 <div>
-                    <b>${row.targtype1_txt}</b><br>
-                    ${row.country_txt}<br>
-                    ${row.gname}<br>
-                    ${row.summary}
+                    <b>Target: ${row.targtype1_txt}</b><br>
+                    Location: ${row.country_txt}<br>
+                    Casualties: ${d3.format("d")(row.nkill)}<br>
+                    Group: ${row.gname}<br>
+                    Summary: ${row.summary}
                 </div>
             </div>`;
 
