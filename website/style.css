@@ -1,0 +1,604 @@
+/* Global Styles */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: linear-gradient(0deg, #ffffff, #deded7);
+    /* background-color: #FFABAB; */
+    font-family: 'Montserrat', sans-serif;
+    /* no repeat */
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+
+
+/* Header Styles
+header {
+    background-color: #F9F9F9;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: monospace;
+    padding-left: 0;
+} */
+
+.top-container {
+    height: 150px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    z-index: 1;
+    border: 0px solid #3C3C3C;
+    border-radius: 0px 0px 15px 15px;
+    background-color: #F9F9F9;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+canvas#sketch {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0; /* Set a lower z-index value for the canvas */
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: row;
+    margin-left: 25px;    
+    mix-blend-mode: multiply;
+    width: 200px;
+    min-width: 200px;
+
+}
+
+#button-logo {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    scale: 1.5;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+#button-logo svg {
+    height: 100%;
+    width: 100%;
+    fill: #D14D72;
+    transition: all 0.1s ease-in-out;
+    transform: scale(1);
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: row;
+    font-size: medium;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    /* color: #ef554b; */
+    color: #D14D72;
+}
+
+.help-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-right: 25px;
+}
+
+#helpWindow {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: dimgray;
+    color: white;
+    border: none;
+    opacity: 0.9;
+    padding: 20px;
+    width: 75%;
+    z-index: 9999;
+}
+
+#closeButton {
+    color: white;
+}
+
+.logo {
+    height: 100%;
+    /* Changed from 40px to 100% so that the .logo container takes up the full height of the header */
+}
+
+.logo img {
+    max-width: 100%;
+    max-height: 100%;
+    /* Ensures the image doesn't exceed the .logo container dimensions */
+    height: 96%;
+    /* Adjust this value to change the size of the logo image */
+    border: 1px solid #F9F9F9;
+    border-radius: 5px;
+}
+
+.outer-container {
+    display: grid;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+@media screen and (max-width: 768px) {
+    .outer-container {
+        flex-direction: column;
+    }
+}
+
+/* Button Styles */
+
+.button-container {
+    background-color: #eaeae3;
+    margin-top: 90px;
+    display: flex;
+    top: 50px;
+    left: 10px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* position: absolute; */
+    margin-right: 5px;
+    width: 250px;
+    border: 0px solid #3C3C3C;
+    border-radius: 0px 15px 15px 0px;
+    background-color: #F9F9F9;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.button-container.sticky {
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    margin-top: 0;
+}
+
+button {
+    color: #10afb1;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    /* remove the border frame */
+    border-radius: 2px;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    transform: scale(1);
+    background-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button.button-container:hover {
+    /* background-color: #BCC0C4; */
+    filter: brightness(0.5);
+    font-weight: bold;
+}
+
+button.button-container:active {
+    /* background-color: #BCC0C4; */
+    filter: brightness(0.5);
+    /* increase font size on click */
+    font-weight: bold;
+}
+
+
+button.selected {
+    /* background-color: #BCC0C4; */
+    filter: brightness(0.5);
+}
+
+
+#switch-button {
+    background-color: #FF5733;
+    color: #FFFFFF;
+}
+
+/* Reset Button Styles */
+#reset-button {
+    width: 15px;
+    height: 15px;
+    padding: 0;
+    margin-top: 10px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+
+#reset-button img {
+    width: 100%;
+    height: auto;
+}
+
+/* Animations */
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    animation: fade-in 0.8s ease-in-out;
+}
+
+/* Map Styles */
+
+.map-container {
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    align-items: center;
+    /*max-width: 100%;
+    min-width: 0;
+    width: auto;*/
+    margin-top: 30px;
+    width: 90%;
+    padding-bottom: 45%;
+    /* 9/16 * 100% = 56.25% for a 16:9 aspect ratio; adjust this value based on your desired aspect ratio */
+    border: 0px solid #3C3C3C;
+    border-radius: 15px;
+    background-color: #F9F9F9;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: 25px;
+
+}
+
+.map-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .outer-container {
+        flex-direction: column;
+    }
+
+    .map-container,
+    .button-container {
+        width: 100%;
+    }
+}
+
+.map {
+    width: 80%;
+    height: 100%;
+    padding-bottom: 45%;
+    margin-top: 5%;
+    border: 3px solid dimgrey;
+    border-radius: 15px;
+    background-color: #F9F9F9;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+
+/* Add this block for the press animation */
+
+@media screen and (max-width: 768px) {
+    .outer-container {
+        display: block;
+    }
+
+    .map-container,
+    .button-container {
+        width: 100%;
+    }
+}
+
+.graph-container {
+    margin-top: 20px;
+    width: 80%;
+    max-height: none;
+    overflow: hidden;
+}
+
+#graph {
+    width: 100%;
+    height: 100%;
+}
+
+/* Avoid unwanted scrolling behavior on some devices */
+
+.button-container.sticky-top {
+    position: fixed;
+    top: 70px;
+    /* 60px (header height) + 10px (extra spacing) */
+    margin-left: 0px;
+    margin-top: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    max-width: 100%;
+    overflow-y: auto;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+    margin: 5px;
+  }
+  
+  /* .image-responsive {
+    width: 100%;
+    height: auto;
+    
+  }*/
+  
+  
+  .image-responsive {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* IE8 */
+    /* The following properties ensure that the images scale proportionally and fit within the container */
+    vertical-align: middle;
+    object-fit: contain;
+  }
+  
+
+  .slider {
+    width: 100%; /* Adjust the width of the slider */
+    height: 4px; /* Adjust the height of the slider track */
+    margin: 20px 0;
+    /* background-color: black; Set the background color of the slider track */
+    background: linear-gradient(to right, cornflowerblue, crimson);
+        /* Set a gradient color to the slider track */
+    outline: none; /* Remove the outline around the slider */
+    -webkit-appearance: none; /* Remove default appearance for Webkit browsers */
+    transition: background-color 0.3s ease;
+
+}
+
+.slider:hover {
+    background-color: #ff5500;
+    /* Change the color when hovered */
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    /* Remove default appearance for Webkit browsers */
+    width: 20px;
+    /* Adjust the width of the slider thumb */
+    height: 20px;
+    /* Adjust the height of the slider thumb */
+    background-color: dimgrey;
+    /* Set the background color of the slider thumb */
+    border-radius: 50%;
+    /* Make the slider thumb round */
+    cursor: pointer;
+    /* Change the cursor to a pointer when hovering over the slider thumb */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+
+.slider::-moz-range-thumb {
+    width: 20px;
+    /* Adjust the width of the slider thumb */
+    height: 20px;
+    /* Adjust the height of the slider thumb */
+    background-color: white;
+    /* Set the background color of the slider thumb */
+    border: 2px solid dimgrey;
+    /* Add a border around the slider thumb */
+    border-radius: 50%;
+    /* Make the slider thumb round */
+    cursor: pointer;
+    /* Change the cursor to a pointer when hovering over the slider thumb */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+
+.slider-text {
+    margin-top: 20px; /* Add margin to the top of the text underneath the slider */
+    font-size: 14px;
+    color: dimgrey;
+}
+
+.graph1,
+.graph2 {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  height: auto;
+}
+
+.tooltip-bar {
+    position: absolute;
+    background-color: #69b3a2;
+    padding: 8px;
+    font-size: 14px;
+    color: white;
+    pointer-events: none;
+}
+
+.hovered-bar {
+    filter: brightness(125%);
+    /* Reduce brightness to 85% (or adjust as desired) */
+    transition: filter 0.2s ease;
+    /* Apply a smooth transition effect */
+}
+
+.tooltip-heatmap {
+    position: absolute;
+    background-color: dimgray;
+    padding: 8px;
+    font-size: 14px;
+    color: white;
+    pointer-events: none;
+}
+
+.tooltip-streamgraph {
+    position: absolute;
+    background-color: goldenrod;
+    padding: 8px;
+    font-size: 14px;
+    color: white;
+    pointer-events: none;
+}
+
+.tooltip-scatterplot {
+    position: absolute;
+    background-color: #69b3a2;
+    padding: 8px;
+    font-size: 14px;
+    color: white;
+    pointer-events: none;
+}
+
+.pretty-select {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    /* box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.2); */
+    font-size: 16px;
+    color: #f8f8f8;
+    background: gray;
+    appearance: none;
+    /* removes default select dropdown arrow */
+    position: relative;
+}
+
+.pretty-select:after {
+    content: '▼';
+    /* this is your custom dropdown arrow */
+    font-size: 10px;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    pointer-events: none;
+    /* this makes sure clicking on the arrow doesn't do anything */
+}
+
+.legend-container {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    font-size: smaller;
+}
+
+.color-circle {
+    width: 12px;
+    height: 12px;
+    opacity: 0.5;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.legend-item {
+    position: relative;
+}
+
+.tooltip-container {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.legend-item:hover .tooltip-container {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.tooltip-content {
+    max-width: 200px;
+}
+
+.ack {
+    font-size: 5px;
+    color: cornflowerblue;
+}
+
+.special-ref {
+    color: inherit;
+    text-decoration: none;
+}
+/* Default link styles */
+a {
+    color: cornflowerblue;
+    /* Link color */
+    text-decoration: none;
+    /* Remove underline */
+}
+
+/* Hover styles */
+a:hover {
+    text-decoration: underline;
+    /* Add underline on hover */
+}
+
+/* Visited link styles */
+a:visited {
+    color: cornflowerblue;
+    /* Visited link color */
+}
+
+/* Active link styles */
+a:active {
+    color: #ff0000;
+    /* Active link color */
+}
+
+/* Disabled link styles */
+a:disabled {
+    color: #a9a9a9;
+    /* Disabled link color */
+    cursor: not-allowed;
+    /* Change cursor on disabled links */
+}
