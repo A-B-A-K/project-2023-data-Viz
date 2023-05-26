@@ -32,7 +32,7 @@ The submission for Milestone 2 can be found in a PDF format in the folder Milest
 
 **80% of the final grade**
 
-Please find the implementation [here](https://com-480-data-visualization.github.io/project-2023-data-vizares/)
+Please find the website [here](https://com-480-data-visualization.github.io/project-2023-data-vizares/)
 
 
 ## Late policy
