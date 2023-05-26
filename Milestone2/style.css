@@ -12,6 +12,7 @@ body {
     /* no repeat */
     background-size: cover;
     background-repeat: no-repeat;    
+    /* color: #7a9f79; */
 }
 
 
@@ -74,7 +75,7 @@ canvas#sketch {
 #button-logo svg {
     height: 100%;
     width: 100%;
-    fill: #D14D72;
+    fill: #7a9f79;
     transition: all 0.1s ease-in-out;
     transform: scale(1);
 }
@@ -90,7 +91,8 @@ canvas#sketch {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
     /* color: #ef554b; */
-    color: #D14D72;
+    color: #7a9f79;
+    text-align: center
 }
 
 .help-container {
@@ -178,7 +180,7 @@ canvas#sketch {
 }
 
 button {
-    color: #10afb1;
+    color: #7a9f79;
     font-size: 1rem;
     font-weight: bold;
     border: none;
