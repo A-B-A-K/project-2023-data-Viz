@@ -63,9 +63,14 @@ const regionCountries = {
     'Central Asia': ["Georgia", "Azerbaijan", "Armenia", "Kazakhstan", "Tajikistan", "Uzbekistan", "Kyrgyzstan", "Turkmenistan"]
 };
 
+const countryNames = ['World', 'Afghanistan', 'Albania', 'Algeria', 'Andorra', 'Angola', 'Antigua and Barbuda', 'Argentina', 'Armenia', 'Australia', 'Austria', 'Azerbaijan', 'Bahamas', 'Bahrain', 'Bangladesh', 'Barbados', 'Belarus', 'Belgium', 'Belize', 'Benin', 'Bhutan', 'Bolivia', 'Bosnia-Herzegovina', 'Botswana', 'Brazil', 'Brunei', 'Bulgaria', 'Burkina Faso', 'Burundi', 'Cambodia', 'Cameroon', 'Canada', 'Central African Republic', 'Chad', 'Chile', 'China', 'Colombia', 'Comoros', 'Costa Rica', 'Croatia', 'Cuba', 'Cyprus', 'Czech Republic', 'Czechoslovakia', 'Democratic Republic of the Congo', 'Denmark', 'Djibouti', 'Dominica', 'Dominican Republic', 'East Germany (GDR)', 'East Timor', 'Ecuador', 'Egypt', 'El Salvador', 'Equatorial Guinea', 'Eritrea', 'Estonia', 'Ethiopia', 'Falkland Islands', 'Fiji', 'Finland', 'France', 'French Guiana', 'French Polynesia', 'Gabon', 'Gambia', 'Georgia', 'Germany', 'Ghana', 'Greece', 'Grenada', 'Guadeloupe', 'Guatemala', 'Guinea', 'Guinea-Bissau', 'Guyana', 'Haiti', 'Honduras', 'Hong Kong', 'Hungary', 'Iceland', 'India', 'Indonesia', 'International', 'Iran', 'Iraq', 'Ireland', 'Israel', 'Italy', 'Ivory Coast', 'Jamaica', 'Japan', 'Jordan', 'Kazakhstan', 'Kenya', 'Kosovo', 'Kuwait', 'Kyrgyzstan', 'Laos', 'Latvia', 'Lebanon', 'Lesotho', 'Liberia', 'Libya', 'Lithuania', 'Luxembourg', 'Macau', 'Macedonia', 'Madagascar', 'Malawi', 'Malaysia', 'Maldives', 'Mali', 'Malta', 'Martinique', 'Mauritania', 'Mauritius', 'Mexico', 'Moldova', 'Montenegro', 'Morocco', 'Mozambique', 'Myanmar', 'Namibia', 'Nepal', 'Netherlands', 'New Caledonia', 'New Hebrides', 'New Zealand', 'Nicaragua', 'Niger', 'Nigeria', 'North Korea', 'North Yemen', 'Norway', 'Pakistan', 'Panama', 'Papua New Guinea', 'Paraguay', "People's Republic of the Congo", 'Peru', 'Philippines', 'Poland', 'Portugal', 'Qatar', 'Republic of the Congo', 'Rhodesia', 'Romania', 'Russia', 'Rwanda', 'Saudi Arabia', 'Senegal', 'Serbia', 'Serbia-Montenegro', 'Seychelles', 'Sierra Leone', 'Singapore', 'Slovak Republic', 'Slovenia', 'Solomon Islands', 'Somalia', 'South Africa', 'South Korea', 'South Sudan', 'South Yemen', 'Soviet Union', 'Spain', 'Sri Lanka', 'St. Kitts and Nevis', 'St. Lucia', 'Sudan', 'Suriname', 'Swaziland', 'Sweden', 'Switzerland', 'Syria', 'Taiwan', 'Tajikistan', 'Tanzania', 'Thailand', 'Togo', 'Trinidad and Tobago', 'Tunisia', 'Turkey', 'Turkmenistan', 'Uganda', 'Ukraine', 'United Arab Emirates', 'United Kingdom', 'United States', 'Uruguay', 'Uzbekistan', 'Vanuatu', 'Vatican City', 'Venezuela', 'Vietnam', 'Wallis and Futuna', 'West Bank and Gaza Strip', 'West Germany (FRG)', 'Western Sahara', 'Yemen', 'Yugoslavia', 'Zaire', 'Zambia', 'Zimbabwe'];
+
+const regionNames = ['Australasia & Oceania', 'Central America & Caribbean', 'Central Asia', 'East Asia', 'Eastern Europe', 'Middle East & North Africa', 'North America', 'South America', 'South Asia', 'Southeast Asia', 'Sub-Saharan Africa', 'Western Europe']
+
 
 var dotsLayerGroup;
-var countryLayer;
+// var countryLayer;
+var selectedCountryLayers = [];
 
 
 // Wait for the HTML and CSS to load before running JavaScript
@@ -173,9 +178,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const imageContainer = document.createElement('div');
     imageContainer.classList.add('image-container');
 
-    const countryNames = ['World','Afghanistan', 'Albania', 'Algeria', 'Andorra', 'Angola', 'Antigua and Barbuda', 'Argentina', 'Armenia', 'Australia', 'Austria', 'Azerbaijan', 'Bahamas', 'Bahrain', 'Bangladesh', 'Barbados', 'Belarus', 'Belgium', 'Belize', 'Benin', 'Bhutan', 'Bolivia', 'Bosnia-Herzegovina', 'Botswana', 'Brazil', 'Brunei', 'Bulgaria', 'Burkina Faso', 'Burundi', 'Cambodia', 'Cameroon', 'Canada', 'Central African Republic', 'Chad', 'Chile', 'China', 'Colombia', 'Comoros', 'Costa Rica', 'Croatia', 'Cuba', 'Cyprus', 'Czech Republic', 'Czechoslovakia', 'Democratic Republic of the Congo', 'Denmark', 'Djibouti', 'Dominica', 'Dominican Republic', 'East Germany (GDR)', 'East Timor', 'Ecuador', 'Egypt', 'El Salvador', 'Equatorial Guinea', 'Eritrea', 'Estonia', 'Ethiopia', 'Falkland Islands', 'Fiji', 'Finland', 'France', 'French Guiana', 'French Polynesia', 'Gabon', 'Gambia', 'Georgia', 'Germany', 'Ghana', 'Greece', 'Grenada', 'Guadeloupe', 'Guatemala', 'Guinea', 'Guinea-Bissau', 'Guyana', 'Haiti', 'Honduras', 'Hong Kong', 'Hungary', 'Iceland', 'India', 'Indonesia', 'International', 'Iran', 'Iraq', 'Ireland', 'Israel', 'Italy', 'Ivory Coast', 'Jamaica', 'Japan', 'Jordan', 'Kazakhstan', 'Kenya', 'Kosovo', 'Kuwait', 'Kyrgyzstan', 'Laos', 'Latvia', 'Lebanon', 'Lesotho', 'Liberia', 'Libya', 'Lithuania', 'Luxembourg', 'Macau', 'Macedonia', 'Madagascar', 'Malawi', 'Malaysia', 'Maldives', 'Mali', 'Malta', 'Martinique', 'Mauritania', 'Mauritius', 'Mexico', 'Moldova', 'Montenegro', 'Morocco', 'Mozambique', 'Myanmar', 'Namibia', 'Nepal', 'Netherlands', 'New Caledonia', 'New Hebrides', 'New Zealand', 'Nicaragua', 'Niger', 'Nigeria', 'North Korea', 'North Yemen', 'Norway', 'Pakistan', 'Panama', 'Papua New Guinea', 'Paraguay', "People's Republic of the Congo", 'Peru', 'Philippines', 'Poland', 'Portugal', 'Qatar', 'Republic of the Congo', 'Rhodesia', 'Romania', 'Russia', 'Rwanda', 'Saudi Arabia', 'Senegal', 'Serbia', 'Serbia-Montenegro', 'Seychelles', 'Sierra Leone', 'Singapore', 'Slovak Republic', 'Slovenia', 'Solomon Islands', 'Somalia', 'South Africa', 'South Korea', 'South Sudan', 'South Yemen', 'Soviet Union', 'Spain', 'Sri Lanka', 'St. Kitts and Nevis', 'St. Lucia', 'Sudan', 'Suriname', 'Swaziland', 'Sweden', 'Switzerland', 'Syria', 'Taiwan', 'Tajikistan', 'Tanzania', 'Thailand', 'Togo', 'Trinidad and Tobago', 'Tunisia', 'Turkey', 'Turkmenistan', 'Uganda', 'Ukraine', 'United Arab Emirates', 'United Kingdom', 'United States', 'Uruguay', 'Uzbekistan', 'Vanuatu', 'Vatican City', 'Venezuela', 'Vietnam', 'Wallis and Futuna', 'West Bank and Gaza Strip', 'West Germany (FRG)', 'Western Sahara', 'Yemen', 'Yugoslavia', 'Zaire', 'Zambia', 'Zimbabwe'];
-    const regionNames = ['Australasia & Oceania','Central America & Caribbean','Central Asia','East Asia','Eastern Europe','Middle East & North Africa','North America','South America','South Asia','Southeast Asia','Sub-Saharan Africa','Western Europe']
-
     function updateGraph(buttonNumber) {
 
         const textContainer = document.querySelector(".text-container");
@@ -246,10 +248,11 @@ document.addEventListener("DOMContentLoaded", function () {
             mymap.removeLayer(dotsLayerGroup);
         }
 
-        // If a country layer already exists, remove it
-        if (countryLayer) {
-            mymap.removeLayer(countryLayer);
-        }
+        // // If a country layer already exists, remove it
+        // if (countryLayer) {
+        //     mymap.removeLayer(countryLayer);
+        // }
+        deselectCountries();
 
         switch (buttonNumber) {
             case 1:
@@ -662,9 +665,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     // console.log(countryLayer);
                     // If a country layer already exists, remove it
-                    if (countryLayer) {
-                        mymap.removeLayer(countryLayer);
-                    }
+                    // if (countryLayer) {
+                    //     mymap.removeLayer(countryLayer);
+                    // }
+                    deselectCountries();
                     // console.log(countryLayer);
                     for (const index in regionCountries[regionSelect.value]) {
                         const country = regionCountries[regionSelect.value][index];
@@ -793,10 +797,11 @@ document.addEventListener("DOMContentLoaded", function () {
         
                     // If a country layer already exists, remove it
                     // console.log(countryLayer);
-                    if (countryLayer) {
-                        mymap.removeLayer(countryLayer);
-                    }
+                    // if (countryLayer) {
+                    //     mymap.removeLayer(countryLayer);
+                    // }
                     // console.log(countryLayer);
+                    deselectCountries();
                     highlightCountry(countrySelect.value);
      
 
@@ -1241,29 +1246,29 @@ document.addEventListener("DOMContentLoaded", function () {
         const numToMonth = d => {
             switch (d) {
                 case 1:
-                    return 'Jan';
+                    return 'January';
                 case 2:
-                    return 'Feb';
+                    return 'February';
                 case 3:
-                    return 'Mar';
+                    return 'March';
                 case 4:
-                    return 'Apr';
+                    return 'April';
                 case 5:
                     return 'May';
                 case 6:
-                    return 'Jun';
+                    return 'June';
                 case 7:
-                    return 'Jul';
+                    return 'July';
                 case 8:
-                    return 'Aug';
+                    return 'August';
                 case 9:
-                    return 'Sep';
+                    return 'September';
                 case 10:
-                    return 'Oct';
+                    return 'October';
                 case 11:
-                    return 'Nov';
+                    return 'November';
                 case 12:
-                    return 'Dec';
+                    return 'December';
             }
         }
         const xValue = d => d.imonth;
@@ -1309,7 +1314,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 tooltip.transition()
                     .duration(200)
                     .style("opacity", 0.9);
-                tooltip.html(`<p> The <b>${d.iday} of ${numToMonth(+d.imonth)}</b>  <br> has on average ${+d.count} attacks</p>`)
+                tooltip.html(`<p> The <b>${d.iday} of ${numToMonth(+d.imonth)}</b>  <br> has on average <b>${+d.count} attacks</b></p>`)
                     .style("left", `${event.pageX}px`)
                     .style("top", `${event.pageY - 28}px`)
                     .style("background-color", d3.select(this).attr("fill"))
@@ -2471,7 +2476,7 @@ document.addEventListener("DOMContentLoaded", function () {
             var countryFeature = GeoJsonData.features.find(feature => feature.properties.name === countryNames[i]);
             if (countryFeature) {
             // Create a Leaflet GeoJSON layer with only the specified country feature
-            countryLayer = L.geoJson(countryFeature, {
+            var countryLayer = L.geoJson(countryFeature, {
                 style: {
                 fillColor: 'red',
                 weight: 3,
@@ -2479,12 +2484,26 @@ document.addEventListener("DOMContentLoaded", function () {
                 fillOpacity: 0.5
                 }
             }).addTo(mymap);
+
+            // Add the country layer to the selectedCountryLayers array
+            selectedCountryLayers.push(countryLayer);
         
             // Fit the map to the bounds of the country layer
             mymap.fitBounds(countryLayer.getBounds());
             }
         }
       }  
+
+    // Update the deselection process
+    function deselectCountries() {
+        // Remove each selected country layer from the map
+        selectedCountryLayers.forEach(layer => {
+            mymap.removeLayer(layer);
+        });
+
+        // Clear the selectedCountryLayers array
+        selectedCountryLayers = [];
+    }
 
 });
 
