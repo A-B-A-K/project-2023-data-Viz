@@ -72,6 +72,9 @@ var dotsLayerGroup;
 // var countryLayer;
 var selectedCountryLayers = [];
 
+var forceSlider = false;
+var forceSliderValue = "2000";
+
 
 // Wait for the HTML and CSS to load before running JavaScript
 document.addEventListener("DOMContentLoaded", function () {
@@ -314,7 +317,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                         <p>
                                             To access more details about a specific incident, simply click on a circle on the map. This will provide information such as the target type, country, the responsible group for the attack, and a summary of the incident if available. This additional context helps paint a more comprehensive picture of the attack landscape.
                                         </p>`;
-                extra_txt.innerHTML = `     <p>
+                extra_txt.innerHTML = ` <p>
                                             Keep in mind that the "Attack Hotspots" section provides a general overview of attack density across the entire period of 1970 to 2020. By exploring this visualization, you can gain insights into how target selection varies geographically and discover any spatial trends that emerge.
                                         </p>`;
                 // Create a slider
@@ -322,7 +325,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 slider.type = 'range';
                 slider.min = '1970';
                 slider.max = '2020';
-                slider.value = '2000';
+                if (forceSlider) {
+                    slider.value = forceSliderValue;
+                    forceSlider = false;
+                } else {
+                    slider.value = '2000';
+                }
                 slider.classList.add('slider');
     
                 // Create a label to display the slider value
@@ -330,17 +338,68 @@ document.addEventListener("DOMContentLoaded", function () {
                 sliderLabel.innerHTML = `Year: ${slider.value}`;
                 sliderLabel.classList.add('slider-label');
     
-                // Add an event listener to update the label when the slider value changes
+                //--------------------------------------------------------------------------------
+                // Wait for the end of the interaction with the slider
+                // // Add an event listener to update the label when the slider value changes
+                // slider.addEventListener('input', () => {
+                //     sliderLabel.innerHTML = `Year: ${slider.value}`;
+
+                //     const dataUrl = `https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/Aristotelis/data/density_map/density_map_${slider.value}.csv`
+                //     d3.csv(dataUrl)
+                //         .then(data => {
+                //             populateMap(data)
+                //         })
+                //         .catch(error => console.error('Error:', error));
+                // })
+
+                //--------------------------------------------------------------------------------
+                // No wait for the end of the interaction with the slider
+                // // Update label when slider value changes
+                // slider.addEventListener('input', () => {
+                //     sliderLabel.innerHTML = `Year: ${slider.value}`;
+                // });
+
+                // // Load new data when user has finished interacting with slider
+                // slider.addEventListener('change', () => {
+                //     const dataUrl = `https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/Aristotelis/data/density_map/density_map_${slider.value}.csv`
+                //     d3.csv(dataUrl)
+                //         .then(data => {
+                //             populateMap(data)
+                //         })
+                //         .catch(error => console.error('Error:', error));
+                // });
+
+                //-------------------------------------------------------------------------------- 
+                // On each change of the slider, wait for 100ms before loading the new data
+                let timeout;
+
                 slider.addEventListener('input', () => {
                     sliderLabel.innerHTML = `Year: ${slider.value}`;
 
-                    const dataUrl = `https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/Aristotelis/data/density_map/density_map_${slider.value}.csv`
-                    d3.csv(dataUrl)
-                        .then(data => {
-                            populateMap(data)
-                        })
-                        .catch(error => console.error('Error:', error));
-                })
+                    // Clear the previous timeout if it exists
+                    if (timeout) {
+                        clearTimeout(timeout);
+                    }
+
+                    // Set a new timeout
+                    timeout = setTimeout(() => {
+                        const dataUrl = `https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/Aristotelis/data/density_map/density_map_${slider.value}.csv`
+                        d3.csv(dataUrl)
+                            .then(data => {
+                                populateMap(data)
+                            })
+                            .catch(error => console.error('Error:', error));
+                    }, 100); // Delay in milliseconds
+                });
+
+                const dataUrl = `https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/Aristotelis/data/density_map/density_map_${slider.value}.csv`
+                d3.csv(dataUrl)
+                    .then(data => {
+                        populateMap(data)
+                    })
+                    .catch(error => console.error('Error:', error));
+
+
                 
                 // Create the legend container
                 const legendContainer = document.createElement('div');
@@ -1218,6 +1277,17 @@ document.addEventListener("DOMContentLoaded", function () {
                 tooltip.interrupt();
                 tooltip.style("opacity", 0)
                 d3.selectAll(".myArea").style("opacity", .8).style("stroke", "none")
+            })
+            .on("click", function(event, d) {
+                forceSlider = true;
+                forceSliderValue = d.key;
+
+                tooltip.interrupt();
+                tooltip.style("opacity", 0)
+                d3.selectAll(".myArea").style("opacity", .8).style("stroke", "none")
+
+                updateGraph(2);
+                updateButton(2);
             });
     }
 
@@ -1917,6 +1987,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 return "de";
             case "Western Sahara":
                 return "eh";
+            case "World":
+                return "earth";
             case "Yemen":
                 return "ye";
             case "Yugoslavia":
@@ -2478,9 +2550,9 @@ document.addEventListener("DOMContentLoaded", function () {
             // Create a Leaflet GeoJSON layer with only the specified country feature
             var countryLayer = L.geoJson(countryFeature, {
                 style: {
-                fillColor: 'red',
-                weight: 3,
-                color: 'red',
+                fillColor: '#7a9f79',
+                weight: 2,
+                color: '#315e26',
                 fillOpacity: 0.5
                 }
             }).addTo(mymap);
