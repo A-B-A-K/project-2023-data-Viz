@@ -612,7 +612,24 @@ document.addEventListener("DOMContentLoaded", function () {
                                                     </p>`;
                             break;
                         case 'Middle East & North Africa':
-                            extra_txt.innerHTML = ``;
+                            extra_txt.innerHTML = ` <p>
+                                                        The Middle East and North Africa (MENA) region, known for its rich history and cultural diversity, has been marked by an unfortunate prevalence of conflict and terrorism. The region's tumultuous past has resulted in significant volatility, with numerous countries experiencing recurring periods of unrest and violence. 
+                                                    </p>
+                                                    <p>
+                                                        The State of Israel, for example, has been notably affected by the ongoing <a href="https://www.britannica.com/topic/Israeli-Palestinian-conflict" target="_blank">Israeli-Palestinian</a> conflict, which has led to regular occurrences of terrorism over the decades. This enduring conflict continues to shape the region's socio-political landscape, underscoring the necessity for lasting peace initiatives.
+                                                    </p>
+                                                    <p>
+                                                        Syria, another country in the region, has been engulfed in a long-lasting <a href="https://www.bbc.com/news/world-middle-east-26116868" target="_blank">civil war</a>, marked by pervasive violence and terrorism. This conflict has not only destabilized the country internally but has also had ripple effects across the region and the world.
+                                                    </p>
+                                                    <p>
+                                                        Egypt, a pivotal nation in North Africa, went through a significant period of unrest during the <a href="https://www.britannica.com/event/Egyptian-Revolution-of-2011" target="_blank">Egyptian Revolution</a> in 2011. This event, part of the wider Arab Spring, catalyzed substantial security challenges and marked a major turning point in the country's history.
+                                                    </p>
+                                                    <p>
+                                                        <a href="https://www.cfr.org/backgrounder/turkeys-terrorism-problem" target="_blank">Turkey</a>, straddling the continents of Europe and Asia, has also experienced considerable terrorism activity throughout its history. Various internal and external factors have contributed to this, emphasizing the multifaceted nature of the terrorism phenomenon in the region.
+                                                    </p>
+                                                    <p>
+                                                        It's essential to note that the MENA region is a mosaic of various nations, each with its own unique experiences and historical contexts. While certain countries and events have been highlighted here, a comprehensive understanding requires a broader examination of the region's intricate tapestry. The complexities within the MENA region, coupled with the severity of the events witnessed, underscore the importance of continuous research and analysis. This ongoing exploration helps to address the root causes of terrorism and fosters the development of strategies to enhance stability and security in the region.
+                                                    </p>`;
                             break;
                         case 'Sub-Saharan Africa':
                             extra_txt.innerHTML = ``;
@@ -706,19 +723,68 @@ document.addEventListener("DOMContentLoaded", function () {
                 countrySelect.addEventListener('change', () => {
 
 
-                    if (oldDiv1) {
-                        console.log("removing oldDiv1");
-                        oldDiv1.remove();
+                    if (div1 && div1.parentNode) {
+                        div1.parentNode.removeChild(div1);
                     }
 
-                    if (oldDiv2) {
-                        console.log("removing oldDiv2");
-                        oldDiv2.remove();
+                    if (div1_txt && div1_txt.parentNode) {
+                        div1_txt.parentNode.removeChild(div1_txt);
                     }
 
+                    if (extra_txt && extra_txt.parentNode) {
+                        extra_txt.parentNode.removeChild(extra_txt);
+                    }
 
-                    div1.innerHTML = `<b>${countrySelect.value}</b>`
+                    // Ensure to re-create the div1 element after removing it
+                    div1 = document.createElement('div');
+                    div1.className = 'graph1';
+                    div1.style.width = '100%';
+                    div1.style.height = '100%';
+
+                    // Ensure to re-create the div1_txt and extra_txt elements after removing them
+                    div1_txt = document.createElement('div');
+                    div1_txt.className = 'graph1_txt';
+                    div1_txt.style.width = '100%';
+                    div1_txt.style.height = '100%';
+                    div1_txt.style.marginTop = '75px';
+                    // div1_txt.innerHTML = `<b>${countrySelect.value}</b>`;
+
+                    extra_txt = document.createElement('div');
+                    extra_txt.className = 'extra_txt';
+                    extra_txt.style.width = '100%';
+                    extra_txt.style.height = '100%';
+                    extra_txt.style.marginTop = '10px';
+
+                    // Create a container for the flagCircle and label
+                    const legendContainer = document.createElement('div');
+                    legendContainer.classList.add('legend-container');
+
+                    // Create a color circle
+                    const flagCircle = document.createElement('div');
+                    flagCircle.innerHTML = `<img src="https://raw.githubusercontent.com/HatScripts/circle-flags/gh-pages/flags/${getCountryAbbr(countrySelect.value)}.svg" style="width: 50px; height: 50px; margin-right: 20px">`;
+
+                    // Create a label for the target subtype
+                    const label = document.createElement('span');
+                    label.innerHTML = `<b>${countrySelect.value}</b>`;
+                    label.style.display = 'flex';
+                    label.style.alignItems = 'center';
+                    label.style.fontSize = '30px';
+                    label.style.color = 'black';
+
+                    // Append the color circle and label to the legend container
+                    legendContainer.appendChild(flagCircle);
+                    legendContainer.appendChild(label);
+
+                    // Append the legend container to div1_txt
+                    div1_txt.appendChild(legendContainer);
+
+                    
+
+
+                    graphContainer.appendChild(div1_txt);
                     graphContainer.appendChild(div1);
+                    graphContainer.appendChild(extra_txt);
+
                     // Update the image source (modify this to match your actual file paths and naming conventions)
                     //countryImage.src = `/data/countries/${countrySelect.value.replace(/ /g, '_')}.png`;
                     //countryImage.alt = countrySelect.value;
@@ -726,11 +792,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
         
                     // If a country layer already exists, remove it
-                    console.log(countryLayer);
+                    // console.log(countryLayer);
                     if (countryLayer) {
                         mymap.removeLayer(countryLayer);
                     }
-                    console.log(countryLayer);
+                    // console.log(countryLayer);
                     highlightCountry(countrySelect.value);
      
 
@@ -796,7 +862,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const width = 600;
         const height = 400;
 
-        var margin = {top: 10, right: 10, bottom: 10, left: 100};
+        var margin = {top: 10, right: 10, bottom: 40, left: 100};
         const innerWidth = width - margin.left - margin.right;
         const innerHeight = height - margin.top - margin.bottom;
 
@@ -842,6 +908,12 @@ document.addEventListener("DOMContentLoaded", function () {
         g.append('g').call(d3.axisBottom(xScale).tickFormat(d3.format('.2s')))
             .attr('transform', `translate(0, ${innerHeight})`);
         g.append('g').call(d3.axisLeft(yScale));
+
+        g.append("text")
+            .attr("text-anchor", "end")
+            .attr("x", innerWidth)
+            .attr("y", innerHeight + 50)
+            .text("Casualties");
 
         g.selectAll('rect').data(data)
             .enter().append('rect')
@@ -1035,8 +1107,8 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   
     function plotStreamgraph(data) {
-        const width = 460;
-        const height = 400
+        const width = 900;
+        const height = 500
         var margin = {top: 20, right: 30, bottom: 10, left: 75};        
         var innerWidth = width - margin.left - margin.right;
         var innerHeight = height - margin.top - margin.bottom;
@@ -1062,8 +1134,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
         var keys = data.columns.slice(1);   // Month names
 
-        var x = d3.scaleLinear()
-            .domain([1, 12])
+        var monthAbbreviations = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
+        var x = d3.scalePoint()
+            .domain(monthAbbreviations)    // Use month abbreviations as domain
             .range([0, innerWidth]);
         g.append("g")
             .attr("transform", "translate(0," + innerHeight * .8 + ")")
@@ -1073,12 +1147,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
         g.selectAll(".tick line").attr("stroke", "#b8b8b8");  // Vertical grid lines above month names
 
-        // Add X axis label:
-        g.append("text")
-            .attr("text-anchor", "end")
-            .attr("x", 2*innerWidth/3)
-            .attr("y", innerHeight - 30 )
-            .text("Time (month)");
+        // // Add X axis label:
+        // g.append("text")
+        //     .attr("text-anchor", "end")
+        //     .attr("x", 2*innerWidth/3)
+        //     .attr("y", innerHeight - 30 )
+        //     .text("Time (month)");
 
         var y = d3.scaleLinear()
             .domain([-d3.max(countsByMonth) * 2.5, d3.max(countsByMonth) * 2.5])
@@ -1106,7 +1180,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
         var area = d3.area()
-            .x(function(d) { return x(d.data.imonth); })
+            .x(function(d) { return x(monthAbbreviations[d.data.imonth - 1]); })
             .y0(function(d) { return y(d[0]); })
             .y1(function(d) { return y(d[1]); });
 
@@ -1163,13 +1237,43 @@ document.addEventListener("DOMContentLoaded", function () {
             .append('g')
             .attr('transform', `translate(${margin.left}, ${margin.top})`);
 
+
+        const numToMonth = d => {
+            switch (d) {
+                case 1:
+                    return 'Jan';
+                case 2:
+                    return 'Feb';
+                case 3:
+                    return 'Mar';
+                case 4:
+                    return 'Apr';
+                case 5:
+                    return 'May';
+                case 6:
+                    return 'Jun';
+                case 7:
+                    return 'Jul';
+                case 8:
+                    return 'Aug';
+                case 9:
+                    return 'Sep';
+                case 10:
+                    return 'Oct';
+                case 11:
+                    return 'Nov';
+                case 12:
+                    return 'Dec';
+            }
+        }
         const xValue = d => d.imonth;
         const yValue = d => d.iday;
 
+        var monthAbbreviations = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
         var x = d3.scaleBand()
-            .range([0, innerWidth])
-            .domain(data.map(d => xValue(d)))
-            .padding(0.01);
+            .domain(monthAbbreviations)    // Use month abbreviations as domain
+            .range([0, innerWidth]);
         g.append("g")
             .attr("transform", "translate(0," + innerHeight + ")")
             .call(d3.axisBottom(x));
@@ -1186,41 +1290,12 @@ document.addEventListener("DOMContentLoaded", function () {
             .range(['white', 'crimson'])
             .domain([450, 700]);
 
-        const numToMonth = d => {
-            switch (d) {
-                case 1:
-                    return 'January';
-                case 2:
-                    return 'February';
-                case 3:
-                    return 'March';
-                case 4:
-                    return 'April';
-                case 5:
-                    return 'May';
-                case 6:
-                    return 'June';
-                case 7:
-                    return 'July';
-                case 8:
-                    return 'August';
-                case 9:
-                    return 'September';
-                case 10:
-                    return 'October';
-                case 11:
-                    return 'November';
-                case 12:
-                    return 'December';
-            }
-        }
-
 
         g.selectAll()
             .data(data, function (d) { return d.imonth + ':' + d.iday; })
             .enter()
             .append("rect")
-            .attr("x", function (d) { return x(d.imonth) })
+            .attr("x", function (d) { return x(monthAbbreviations[d.imonth - 1]) })
             .attr("y", function (d) { return y(d.iday) })
             .attr("width", x.bandwidth())
             .attr("height", y.bandwidth())
@@ -1407,7 +1482,7 @@ document.addEventListener("DOMContentLoaded", function () {
             var circleMarker = L.circleMarker([latitude, longitude], {
                 fillColor: colorMapping[row.targtype1_txt],
                 color: colorMapping[row.targtype1_txt],
-                fillOpacity: 0.5,
+                fillOpacity: 0.3,
                 stroke: false,
                 radius: 5
             }).addTo(dotsLayerGroup);
@@ -1416,13 +1491,14 @@ document.addEventListener("DOMContentLoaded", function () {
             var content = `
             <div style="display: flex; justify-content: space-between; align-items: center;">
                 <div>
-                    <img src="${countryFlagSrc}" style="width: 30px; height: 30px; margin-right: 50px">
+                    <img src="${countryFlagSrc}" style="width: 50px; height: 50px; margin-right: 70px">
                 </div>
                 <div>
-                    <b>${row.targtype1_txt}</b><br>
-                    ${row.country_txt}<br>
-                    ${row.gname}<br>
-                    ${row.summary}
+                    <b>Target: ${row.targtype1_txt}</b><br>
+                    Location: ${row.country_txt}<br>
+                    Casualties: ${d3.format("d")(row.nkill)}<br>
+                    Group: ${row.gname}<br>
+                    Summary: ${row.summary}
                 </div>
             </div>`;
 
