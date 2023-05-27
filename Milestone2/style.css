@@ -7,25 +7,10 @@ body {
     padding: 0;
     height: 100%;
     background: linear-gradient(0deg, #ffffff, #deded7);
-    /* background-color: #FFABAB; */
     font-family: 'Montserrat', sans-serif;
-    /* no repeat */
     background-size: cover;
     background-repeat: no-repeat;    
-    /* color: #7a9f79; */
 }
-
-
-/* Header Styles
-header {
-    background-color: #F9F9F9;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-family: monospace;
-    padding-left: 0;
-} */
 
 .top-container {
     height: 150px;
@@ -90,7 +75,6 @@ canvas#sketch {
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
-    /* color: #ef554b; */
     color: #7a9f79;
     text-align: center
 }
@@ -168,7 +152,7 @@ canvas#sketch {
     width: 250px;
     border: 0px solid #3C3C3C;
     border-radius: 0px 15px 15px 0px;
-    background-color: #F9F9F9;
+    /* background-color: #F9F9F9; */
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 }
 
@@ -184,7 +168,6 @@ button {
     font-size: 1rem;
     font-weight: bold;
     border: none;
-    /* remove the border frame */
     border-radius: 2px;
     padding: 10px 15px;
     margin: 5px;
@@ -196,13 +179,11 @@ button {
 }
 
 button.button-container:hover {
-    /* background-color: #BCC0C4; */
     filter: brightness(0.5);
     font-weight: bold;
 }
 
 button.button-container:active {
-    /* background-color: #BCC0C4; */
     filter: brightness(0.5);
     /* increase font size on click */
     font-weight: bold;
@@ -210,7 +191,6 @@ button.button-container:active {
 
 
 button.selected {
-    /* background-color: #BCC0C4; */
     filter: brightness(0.5);
 }
 
@@ -358,13 +338,6 @@ button.selected {
     height: auto;
     margin: 5px;
   }
-  
-  /* .image-responsive {
-    width: 100%;
-    height: auto;
-    
-  }*/
-  
   
   .image-responsive {
     max-width: 100%;
