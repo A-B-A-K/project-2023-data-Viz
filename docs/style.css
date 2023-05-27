@@ -101,6 +101,10 @@ canvas#sketch {
     z-index: 9999;
 }
 
+#helpWindow * {
+    z-index: 10000;
+}
+
 #closeButton {
     color: white;
 }
@@ -250,8 +254,8 @@ button.selected {
     border-radius: 15px;
     background-color: #F9F9F9;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-    position: relative;
     top: 25px;
+    z-index: 0;
 
 }
 
