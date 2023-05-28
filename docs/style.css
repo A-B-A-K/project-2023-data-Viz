@@ -60,7 +60,8 @@ canvas#sketch {
 #button-logo svg {
     height: 100%;
     width: 100%;
-    fill: #7a9f79;
+    /* fill: #7a9f79; */
+    fill: #9f4fa3;
     transition: all 0.1s ease-in-out;
     transform: scale(1);
 }
@@ -75,7 +76,7 @@ canvas#sketch {
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
-    color: #7a9f79;
+    color: #9f4fa3;
     text-align: center
 }
 
@@ -168,7 +169,7 @@ canvas#sketch {
 }
 
 button {
-    color: #7a9f79;
+    color: #9f4fa3;
     font-size: 1rem;
     font-weight: bold;
     border: none;
