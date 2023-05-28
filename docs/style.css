@@ -23,7 +23,7 @@ body {
     z-index: 1;
     border: 0px solid #3C3C3C;
     border-radius: 0px 0px 15px 15px;
-    background-color: #F9F9F9;
+    background-color: #eaeae3;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 }
 
@@ -253,7 +253,7 @@ button.selected {
     /* 9/16 * 100% = 56.25% for a 16:9 aspect ratio; adjust this value based on your desired aspect ratio */
     border: 0px solid #3C3C3C;
     border-radius: 15px;
-    background-color: #F9F9F9;
+    background-color: #eaeae3;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
     top: 25px;
     z-index: 0;
@@ -281,7 +281,7 @@ button.selected {
     height: 100%;
     padding-bottom: 45%;
     margin-top: 5%;
-    border: 3px solid dimgrey;
+    border: 3px solid #9f4fa3;
     border-radius: 15px;
     background-color: #F9F9F9;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
