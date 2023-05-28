@@ -975,9 +975,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
         g.append("text")
             .attr("text-anchor", "end")
-            .attr("x", innerWidth)
+            .attr("x", 2*innerWidth/3)
             .attr("y", innerHeight + 50)
-            .text("Casualties");
+            .text("<b>Casualties</b>");
 
         g.selectAll('rect').data(data)
             .enter().append('rect')
@@ -2541,30 +2541,30 @@ document.addEventListener("DOMContentLoaded", function () {
     mymap.fitBounds(geojson.getBounds());
 
 
-      function highlightCountry(countryName) {
+    function highlightCountry(countryName) {
 
-        var countryNames = getGeoJsonCountryNames(countryName);
-        for (var i = 0; i < countryNames.length; i++) {
-            var countryFeature = GeoJsonData.features.find(feature => feature.properties.name === countryNames[i]);
-            if (countryFeature) {
-            // Create a Leaflet GeoJSON layer with only the specified country feature
-            var countryLayer = L.geoJson(countryFeature, {
-                style: {
-                fillColor: '#7a9f79',
-                weight: 2,
-                color: '#315e26',
-                fillOpacity: 0.5
-                }
-            }).addTo(mymap);
-
-            // Add the country layer to the selectedCountryLayers array
-            selectedCountryLayers.push(countryLayer);
-        
-            // Fit the map to the bounds of the country layer
-            mymap.fitBounds(countryLayer.getBounds());
+    var countryNames = getGeoJsonCountryNames(countryName);
+    for (var i = 0; i < countryNames.length; i++) {
+        var countryFeature = GeoJsonData.features.find(feature => feature.properties.name === countryNames[i]);
+        if (countryFeature) {
+        // Create a Leaflet GeoJSON layer with only the specified country feature
+        var countryLayer = L.geoJson(countryFeature, {
+            style: {
+            fillColor: '#7a9f79',
+            weight: 2,
+            color: '#315e26',
+            fillOpacity: 0.5
             }
+        }).addTo(mymap);
+
+        // Add the country layer to the selectedCountryLayers array
+        selectedCountryLayers.push(countryLayer);
+    
+        // Fit the map to the bounds of the country layer
+        mymap.fitBounds(countryLayer.getBounds());
         }
-      }  
+    }
+    }  
 
     // Update the deselection process
     function deselectCountries() {
