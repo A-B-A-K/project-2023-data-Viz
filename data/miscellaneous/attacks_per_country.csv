@@ -1,205 +1,205 @@
-country_txt,eventid,color
-Iraq,27521,5
-Afghanistan,18920,4
-Pakistan,15504,3
-India,13929,3
-Colombia,8915,2
-Philippines,8271,2
-Peru,6111,2
-Yemen,6027,2
-Nigeria,5550,2
-United Kingdom,5513,2
-El Salvador,5320,1
-Somalia,5317,1
-Turkey,4485,1
-Thailand,4201,1
-Spain,3255,1
-United States,3121,1
-Sri Lanka,3041,1
-Syria,2997,1
-Algeria,2753,1
-France,2751,1
-West Bank and Gaza Strip,2669,1
-Egypt,2654,1
-Lebanon,2507,1
-Libya,2505,1
-Chile,2499,1
-Russia,2242,1
-Israel,2203,1
-South Africa,2097,1
-Guatemala,2055,1
-Nicaragua,1983,1
-Ukraine,1818,1
-Bangladesh,1743,1
-Italy,1603,1
-Nepal,1551,1
-Democratic Republic of the Congo,1498,1
-Greece,1386,1
-Sudan,1068,1
-Mali,1009,1
-Cameroon,879,1
-Kenya,850,1
-Indonesia,850,1
-Argentina,826,1
-Germany,816,1
-Mozambique,785,1
-Myanmar,743,1
-Iran,712,1
-Burundi,636,1
-Mexico,600,1
-Saudi Arabia,582,1
-West Germany (FRG),541,1
-Angola,501,1
-Uganda,413,1
-Japan,405,1
-Burkina Faso,395,1
-Central African Republic,382,1
-Ireland,333,1
-Honduras,330,1
-Bolivia,326,1
-South Sudan,323,1
-Venezuela,320,1
-Brazil,295,1
-China,288,1
-Ethiopia,280,1
-Cambodia,261,1
-Niger,257,1
-Ecuador,245,1
-Haiti,224,1
-Georgia,219,1
-Bahrain,208,1
-Yugoslavia,203,1
-Kosovo,201,1
-Tajikistan,193,1
-Netherlands,177,1
-Rwanda,168,1
-Bosnia-Herzegovina,161,1
-Belgium,161,1
-Namibia,151,1
-Tunisia,150,1
-Sweden,146,1
-Portugal,141,1
-Chad,132,1
-Cyprus,130,1
-Panama,127,1
-Canada,126,1
-Senegal,122,1
-Jordan,121,1
-Paraguay,120,1
-Austria,120,1
-Australia,120,1
-Macedonia,118,1
-Switzerland,116,1
-Malaysia,109,1
-Zimbabwe,106,1
-Sierra Leone,101,1
-Dominican Republic,89,1
-Papua New Guinea,89,1
-Rhodesia,83,1
-Uruguay,82,1
-Albania,82,1
-Ivory Coast,81,1
-Soviet Union,78,1
-Kuwait,76,1
-Tanzania,71,1
-Costa Rica,69,1
-Suriname,66,1
-Zambia,62,1
-Croatia,58,1
-Guadeloupe,56,1
-New Caledonia,55,1
-Taiwan,54,1
-Bulgaria,54,1
-Azerbaijan,50,1
-Zaire,50,1
-Togo,48,1
-Hungary,47,1
-Denmark,45,1
-Poland,42,1
-South Korea,40,1
-Kyrgyzstan,39,1
-East Germany (GDR),38,1
-Morocco,37,1
-Republic of the Congo,36,1
-Jamaica,36,1
-Liberia,35,1
-Ghana,34,1
-New Zealand,33,1
-Guyana,33,1
-Macau,33,1
-Czech Republic,32,1
-Kazakhstan,31,1
-Cuba,30,1
-Lesotho,29,1
-Maldives,29,1
-Madagascar,27,1
-Guinea,27,1
-Laos,27,1
-Hong Kong,26,1
-Finland,25,1
-Armenia,25,1
-Trinidad and Tobago,25,1
-Norway,24,1
-Malta,23,1
-Djibouti,22,1
-United Arab Emirates,22,1
-Moldova,21,1
-Uzbekistan,21,1
-Slovak Republic,19,1
-Mauritania,19,1
-Latvia,17,1
-Fiji,17,1
-Eritrea,17,1
-Luxembourg,16,1
-Swaziland,16,1
-Estonia,15,1
-Belarus,15,1
-Serbia,14,1
-Vietnam,13,1
-Martinique,12,1
-Malawi,12,1
-Serbia-Montenegro,11,1
-Benin,10,1
-Botswana,10,1
-East Timor,10,1
-Lithuania,10,1
-Czechoslovakia,10,1
-Gabon,9,1
-Guinea-Bissau,9,1
-Belize,8,1
-Montenegro,8,1
-Comoros,8,1
-French Guiana,7,1
-Qatar,7,1
-Singapore,7,1
-Western Sahara,7,1
-Bhutan,6,1
-Romania,6,1
-Brunei,6,1
-Slovenia,6,1
-North Yemen,6,1
-Grenada,5,1
-Bahamas,5,1
-Solomon Islands,4,1
-People's Republic of the Congo,4,1
-Iceland,4,1
-Dominica,4,1
-Barbados,3,1
-French Polynesia,3,1
-Gambia,3,1
-South Yemen,2,1
-Mauritius,2,1
-Seychelles,2,1
-Turkmenistan,2,1
-Vanuatu,2,1
-Equatorial Guinea,2,1
-St. Kitts and Nevis,2,1
-St. Lucia,2,1
-Andorra,1,1
-North Korea,1,1
-Wallis and Futuna,1,1
-Vatican City,1,1
-New Hebrides,1,1
-Antigua and Barbuda,1,1
-Falkland Islands,1,1
-International,1,1
+country_txt,eventid
+Iraq,27521
+Afghanistan,18920
+Pakistan,15504
+India,13929
+Colombia,8915
+Philippines,8271
+Peru,6111
+Yemen,6027
+Nigeria,5550
+United Kingdom,5513
+El Salvador,5320
+Somalia,5317
+Turkey,4485
+Thailand,4201
+Spain,3255
+United States,3121
+Sri Lanka,3041
+Syria,2997
+Algeria,2753
+France,2751
+West Bank and Gaza Strip,2669
+Egypt,2654
+Lebanon,2507
+Libya,2505
+Chile,2499
+Russia,2242
+Israel,2203
+South Africa,2097
+Guatemala,2055
+Nicaragua,1983
+Ukraine,1818
+Bangladesh,1743
+Italy,1603
+Nepal,1551
+Democratic Republic of the Congo,1498
+Greece,1386
+Sudan,1068
+Mali,1009
+Cameroon,879
+Kenya,850
+Indonesia,850
+Argentina,826
+Germany,816
+Mozambique,785
+Myanmar,743
+Iran,712
+Burundi,636
+Mexico,600
+Saudi Arabia,582
+West Germany (FRG),541
+Angola,501
+Uganda,413
+Japan,405
+Burkina Faso,395
+Central African Republic,382
+Ireland,333
+Honduras,330
+Bolivia,326
+South Sudan,323
+Venezuela,320
+Brazil,295
+China,288
+Ethiopia,280
+Cambodia,261
+Niger,257
+Ecuador,245
+Haiti,224
+Georgia,219
+Bahrain,208
+Yugoslavia,203
+Kosovo,201
+Tajikistan,193
+Netherlands,177
+Rwanda,168
+Bosnia-Herzegovina,161
+Belgium,161
+Namibia,151
+Tunisia,150
+Sweden,146
+Portugal,141
+Chad,132
+Cyprus,130
+Panama,127
+Canada,126
+Senegal,122
+Jordan,121
+Paraguay,120
+Austria,120
+Australia,120
+Macedonia,118
+Switzerland,116
+Malaysia,109
+Zimbabwe,106
+Sierra Leone,101
+Dominican Republic,89
+Papua New Guinea,89
+Rhodesia,83
+Uruguay,82
+Albania,82
+Ivory Coast,81
+Soviet Union,78
+Kuwait,76
+Tanzania,71
+Costa Rica,69
+Suriname,66
+Zambia,62
+Croatia,58
+Guadeloupe,56
+New Caledonia,55
+Taiwan,54
+Bulgaria,54
+Azerbaijan,50
+Zaire,50
+Togo,48
+Hungary,47
+Denmark,45
+Poland,42
+South Korea,40
+Kyrgyzstan,39
+East Germany (GDR),38
+Morocco,37
+Republic of the Congo,36
+Jamaica,36
+Liberia,35
+Ghana,34
+New Zealand,33
+Guyana,33
+Macau,33
+Czech Republic,32
+Kazakhstan,31
+Cuba,30
+Lesotho,29
+Maldives,29
+Madagascar,27
+Guinea,27
+Laos,27
+Hong Kong,26
+Finland,25
+Armenia,25
+Trinidad and Tobago,25
+Norway,24
+Malta,23
+Djibouti,22
+United Arab Emirates,22
+Moldova,21
+Uzbekistan,21
+Slovak Republic,19
+Mauritania,19
+Latvia,17
+Fiji,17
+Eritrea,17
+Luxembourg,16
+Swaziland,16
+Estonia,15
+Belarus,15
+Serbia,14
+Vietnam,13
+Martinique,12
+Malawi,12
+Serbia-Montenegro,11
+Benin,10
+Botswana,10
+East Timor,10
+Lithuania,10
+Czechoslovakia,10
+Gabon,9
+Guinea-Bissau,9
+Belize,8
+Montenegro,8
+Comoros,8
+French Guiana,7
+Qatar,7
+Singapore,7
+Western Sahara,7
+Bhutan,6
+Romania,6
+Brunei,6
+Slovenia,6
+North Yemen,6
+Grenada,5
+Bahamas,5
+Solomon Islands,4
+People's Republic of the Congo,4
+Iceland,4
+Dominica,4
+Barbados,3
+French Polynesia,3
+Gambia,3
+South Yemen,2
+Mauritius,2
+Seychelles,2
+Turkmenistan,2
+Vanuatu,2
+Equatorial Guinea,2
+St. Kitts and Nevis,2
+St. Lucia,2
+Andorra,1
+North Korea,1
+Wallis and Futuna,1
+Vatican City,1
+New Hebrides,1
+Antigua and Barbuda,1
+Falkland Islands,1
+International,1
