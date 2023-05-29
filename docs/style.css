@@ -469,6 +469,7 @@ button.selected {
     /* box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.2); */
     font-size: 16px;
     color: #f8f8f8;
+    cursor: pointer;
     background: gray;
     background-image: url('data:image/svg+xml;charset=utf-8,%3Csvg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="none" stroke="%23ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24"%3E%3Cpath d="m6 9 6 6 6-6"%3E%3C/path%3E%3C/svg%3E');
     background-repeat: no-repeat;
