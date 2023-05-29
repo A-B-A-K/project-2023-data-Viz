@@ -636,6 +636,7 @@ footer {
     text-align: center;
     /* Center the text */
     position: relative;
+    margin-top: 100px;
 }
 
 .author:not(:last-child)::after {
@@ -657,17 +658,16 @@ footer {
     /* Creates a circular image */
 }
 
-.socials img {
-    width: 20px;
+.socials svg {
+    width: 30px;
     /* Adjust as needed */
-    height: 20px;
+    height: 30px;
     /* Adjust as needed */
     margin: 0 5px;
     /* Adds space between icons */
 }
 
-.epfl-logo img,
-.umd-reference a {
-    margin: 20px 0;
+.epfl-logo img{
+    margin: 100px 0;
     /* Adds vertical space */
 }
