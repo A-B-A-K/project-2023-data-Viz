@@ -100,16 +100,38 @@ document.addEventListener("DOMContentLoaded", function () {
     const helpWindow = document.getElementById("helpWindow");
     const closeButton = document.getElementById("closeButton");
 
-    // let previousLayer;
+    document.querySelectorAll('.email-link').forEach((link) => {
+        link.addEventListener('click', function (e) {
+            e.preventDefault();
+            const email = this.dataset.clipboardText;
+            const el = document.createElement('textarea');
+            el.value = email;
+            document.body.appendChild(el);
+            el.select();
+            document.execCommand('copy');
+            document.body.removeChild(el);
 
-    // d3.csv("https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/Aristotelis/data/miscellaneous/attacks_per_country.csv")
-    //     .then(data => {
+            // Show the popup
+            const popup = document.getElementById('popup');
+            popup.style.display = 'block';
+            popup.style.opacity = '1';
 
-    //         initialViz();
-    //     })
-    //     .catch(error => console.error('Error:', error))
+            // Position the popup
+            const rect = this.getBoundingClientRect();
+            popup.style.top = (rect.top + window.scrollY + rect.height + 10) + 'px';
+            popup.style.left = (rect.left + window.scrollX + rect.width / 2) + 'px';
 
-    // initialViz();
+            // Hide the popup after 2 seconds
+            setTimeout(() => {
+                popup.style.opacity = '0';
+                setTimeout(() => {
+                    popup.style.display = 'none';
+                }, 1000);
+            }, 2000);
+        });
+    });
+
+
     
 
     // Add click event listeners to the five buttons

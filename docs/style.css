@@ -649,9 +649,9 @@ footer {
 }
 
 .author img {
-    width: 50px;
+    width: 75px;
     /* Adjust as needed */
-    height: 50px;
+    height: 75px;
     /* Adjust as needed */
     border-radius: 50%;
     /* Creates a circular image */
@@ -666,7 +666,23 @@ footer {
     /* Adds space between icons */
 }
 
+.email-link {
+    cursor: pointer;
+}
+
 .epfl-logo img{
     margin: 100px 0;
     /* Adds vertical space */
+}
+
+.popup {
+    position: absolute;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 100;
+    transition: opacity 1s;
+    opacity: 0;
+    pointer-events: none;
 }
