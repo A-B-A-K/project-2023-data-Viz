@@ -94,8 +94,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const button3 = document.querySelector("#button-3");
     const button4 = document.querySelector("#button-4");
     const button5 = document.querySelector("#button-5");
-    const resetButton = document.querySelector("#button-logo");
-
+    const logoButton = document.querySelector("#button-logo");
+    const resetButton = document.querySelector("#button-reset");
     const helpButton = document.getElementById("button-help");
     const helpWindow = document.getElementById("helpWindow");
     const closeButton = document.getElementById("closeButton");
@@ -139,6 +139,12 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     resetButton.addEventListener("click", function () {
+        scrollToTop();
+        updateGraph(-1);
+        updateButton(-1);
+    });
+
+    logoButton.addEventListener("click", function () {
         scrollToTop();
         updateGraph(-1);
         updateButton(-1);
@@ -912,7 +918,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 textContainer.innerHTML = `<h2>Welcome to 'Unveiling Patterns: A Data-Driven Insight into Global Terrorism'</h2>
                         <p>
                             This platform provides an interactive exploration of data from the Global Terrorism Database (GTD), covering the
-                            span of half a century from 1970 to 2020. Please note that data for the year 1973 is missing from the GTD.
+                            span of half a century from 1970 to 2020. Please note that data for the year 1993 is missing from the GTD.
                         </p>
                         <p>
                             Through this visualization portal, we aim to present an unbiased, comprehensive view of global terrorism patterns,
