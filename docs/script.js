@@ -2487,6 +2487,14 @@ document.addEventListener("DOMContentLoaded", function () {
     //    zoomOffset: -1
     //}).addTo(mymap);
 
+    // Set the maximum bounds of the map to prevent repetitions
+    var southWest = L.latLng(-90, -180);
+    var northEast = L.latLng(90, 180);
+    var bounds = L.latLngBounds(southWest, northEast);
+    mymap.setMaxBounds(bounds);
+    mymap.on('drag', function () {
+        mymap.panInsideBounds(bounds, { animate: false });
+    });
 
     mymap.createPane('labels');
     mymap.getPane('labels').style.zIndex = 650;
