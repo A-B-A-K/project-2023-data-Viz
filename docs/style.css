@@ -547,7 +547,7 @@ button.selected {
 }
 
 .ack {
-    font-size: 5px;
+    font-size: 2px;
     color: cornflowerblue;
 }
 
@@ -601,3 +601,73 @@ a:disabled {
   height: 30px;
   width: 200px;
 }*/
+
+/* Footer */
+/* CSS */
+footer {
+    background-color: #a58f78;
+    /* Adjust this to your preferred color */
+    color: #fff;
+    /* Color of text */
+    padding: 20px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.authors {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.author {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    /* Adjust as needed */
+    padding: 0 20px;
+    /* Adds horizontal space */
+    text-align: center;
+    /* Center the text */
+    position: relative;
+}
+
+.author:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    right: -10px;
+    top: 0;
+    height: 100%;
+    border-right: 1px solid #fff;
+    /* Adjust color as needed */
+}
+
+.author img {
+    width: 50px;
+    /* Adjust as needed */
+    height: 50px;
+    /* Adjust as needed */
+    border-radius: 50%;
+    /* Creates a circular image */
+}
+
+.socials img {
+    width: 20px;
+    /* Adjust as needed */
+    height: 20px;
+    /* Adjust as needed */
+    margin: 0 5px;
+    /* Adds space between icons */
+}
+
+.epfl-logo img,
+.umd-reference a {
+    margin: 20px 0;
+    /* Adds vertical space */
+}
