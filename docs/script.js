@@ -72,12 +72,17 @@ var dotsLayerGroup;
 // var countryLayer;
 var selectedCountryLayers = [];
 
-var forceSlider = false;
-var forceSliderValue = "2000";
+let forceSlider = false;
+let forceSliderValue = "2000";
+let targetsSelected = Object.keys(colorMapping);
 
 
 // Wait for the HTML and CSS to load before running JavaScript
 document.addEventListener("DOMContentLoaded", function () {
+
+    window.onload = function () {
+        scrollToTop();
+    };
 
     // Define variables for the map container and switch button
     const mapContainer = document.querySelector(".map");
@@ -100,35 +105,41 @@ document.addEventListener("DOMContentLoaded", function () {
     // Add click event listeners to the five buttons
     button1.addEventListener("click", function () {
         // Change the graph display to show statistics related to button 1
+        scrollToTop();
         updateGraph(1);
         updateButton(1);
     });
 
     button2.addEventListener("click", function () {
         // Change the graph display to show statistics related to button 2
+        scrollToTop();
         updateGraph(2);
         updateButton(2);
     });
 
     button3.addEventListener("click", function () {
         // Change the graph display to show statistics related to button 3
+        scrollToTop();
         updateGraph(3);
         updateButton(3);
     });
 
     button4.addEventListener("click", function () {
         // Change the graph display to show statistics related to button 4
+        scrollToTop();
         updateGraph(4);
         updateButton(4);
     });
 
     button5.addEventListener("click", function () {
         // Change the graph display to show statistics related to button 5
+        scrollToTop();
         updateGraph(5);
         updateButton(5);
     });
 
     resetButton.addEventListener("click", function () {
+        scrollToTop();
         updateGraph(-1);
         updateButton(-1);
     });
@@ -338,37 +349,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 sliderLabel.innerHTML = `Year: ${slider.value}`;
                 sliderLabel.classList.add('slider-label');
     
-                //--------------------------------------------------------------------------------
-                // Wait for the end of the interaction with the slider
-                // // Add an event listener to update the label when the slider value changes
-                // slider.addEventListener('input', () => {
-                //     sliderLabel.innerHTML = `Year: ${slider.value}`;
-
-                //     const dataUrl = `https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/Aristotelis/data/density_map/density_map_${slider.value}.csv`
-                //     d3.csv(dataUrl)
-                //         .then(data => {
-                //             populateMap(data)
-                //         })
-                //         .catch(error => console.error('Error:', error));
-                // })
-
-                //--------------------------------------------------------------------------------
-                // No wait for the end of the interaction with the slider
-                // // Update label when slider value changes
-                // slider.addEventListener('input', () => {
-                //     sliderLabel.innerHTML = `Year: ${slider.value}`;
-                // });
-
-                // // Load new data when user has finished interacting with slider
-                // slider.addEventListener('change', () => {
-                //     const dataUrl = `https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/Aristotelis/data/density_map/density_map_${slider.value}.csv`
-                //     d3.csv(dataUrl)
-                //         .then(data => {
-                //             populateMap(data)
-                //         })
-                //         .catch(error => console.error('Error:', error));
-                // });
-
                 //-------------------------------------------------------------------------------- 
                 // On each change of the slider, wait for 100ms before loading the new data
                 let timeout;
@@ -386,7 +366,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         const dataUrl = `https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/Aristotelis/data/density_map/density_map_${slider.value}.csv`
                         d3.csv(dataUrl)
                             .then(data => {
-                                populateMap(data)
+                                populateMap(data, targetsSelected)
                             })
                             .catch(error => console.error('Error:', error));
                     }, 100); // Delay in milliseconds
@@ -395,7 +375,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 const dataUrl = `https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/Aristotelis/data/density_map/density_map_${slider.value}.csv`
                 d3.csv(dataUrl)
                     .then(data => {
-                        populateMap(data)
+                        populateMap(data, targetsSelected)
                     })
                     .catch(error => console.error('Error:', error));
 
@@ -408,6 +388,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 legendContainer.style.border = '1px solid #ccc';
                 legendContainer.style.borderRadius = '5px';
 
+
                 // Iterate through the colorMapping object and create legend items
                 for (const target in colorMapping) {
                     const color = colorMapping[target];
@@ -415,6 +396,28 @@ document.addEventListener("DOMContentLoaded", function () {
                     // Create a legend item
                     const legendItem = document.createElement('div');
                     legendItem.classList.add('legend-item');
+
+                    legendItem.addEventListener('click', function () {
+                        if (targetsSelected.includes(target)) {
+                            targetsSelected = targetsSelected.filter(item => item !== target);
+                            legendItem.style.opacity = 0.5;
+
+                        } else {
+                            targetsSelected.push(target);
+                            legendItem.style.opacity = 1;
+                        }
+
+                        // Update the map
+                        const dataUrl = `https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/Aristotelis/data/density_map/density_map_${slider.value}.csv`
+                        d3.csv(dataUrl)
+                            .then(data => {
+                                populateMap(data, targetsSelected)
+                            })
+                            .catch(error => console.error('Error:', error));
+
+
+                    });
+
 
                     // Create a color circle
                     const colorCircle = document.createElement('div');
@@ -435,6 +438,30 @@ document.addEventListener("DOMContentLoaded", function () {
                     // Append the legend item to the legend container
                     legendContainer.appendChild(legendItem);
                 }
+
+                const clearTargets = document.createElement('div');
+                clearTargets.classList.add('legend-item');
+                clearTargets.innerHTML = '<b>Clear Selection</b>';
+                clearTargets.style.opacity = 1;
+                clearTargets.addEventListener('click', function () {
+                    targetsSelected = [];
+                    const legendItems = legendContainer.querySelectorAll('.legend-item');
+                    legendItems.forEach(item => {
+                        item.style.opacity = 0.5;
+                    });
+                    clearTargets.style.opacity = 1;
+
+                    // Update the map
+                    const dataUrl = `https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/Aristotelis/data/density_map/density_map_${slider.value}.csv`
+                    d3.csv(dataUrl)
+                        .then(data => {
+                            populateMap(data, targetsSelected)
+                        })
+                        .catch(error => console.error('Error:', error));
+                });
+
+
+                legendContainer.appendChild(clearTargets);
 
                 // Append the slider and label to the image container
                 imageContainer.appendChild(slider);
@@ -919,6 +946,14 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
     }
+
+    function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth" // Optional: Adds smooth scrolling animation
+        });
+    }
+
       
 
     function plotData(data) {
@@ -1286,6 +1321,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 tooltip.style("opacity", 0)
                 d3.selectAll(".myArea").style("opacity", .8).style("stroke", "none")
 
+                scrollToTop();
                 updateGraph(2);
                 updateButton(2);
             });
@@ -1539,7 +1575,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     }
 
-    function populateMap(data) {
+    function populateMap(data, targetsDisplay) {
 
         // Check if the orange dots layer group already exists
         if (dotsLayerGroup) {
@@ -1554,10 +1590,16 @@ document.addEventListener("DOMContentLoaded", function () {
             const latitude = parseFloat(row.latitude);
             const longitude = parseFloat(row.longitude);
 
+            let target_opacity = 0;
+            if (targetsDisplay.includes(row.targtype1_txt)) {
+                target_opacity = 0.3;
+            }
+
+
             var circleMarker = L.circleMarker([latitude, longitude], {
                 fillColor: colorMapping[row.targtype1_txt],
                 color: colorMapping[row.targtype1_txt],
-                fillOpacity: 0.3,
+                fillOpacity: target_opacity,
                 stroke: false,
                 radius: 5
             }).addTo(dotsLayerGroup);
@@ -1579,7 +1621,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
             circleMarker.bindPopup(content);
-            circleMarker.on('mouseover', function (e) {
+            circleMarker.on('click', function (e) {
                 this.openPopup();
             });                
         });
@@ -2538,7 +2580,7 @@ document.addEventListener("DOMContentLoaded", function () {
         layer.bindPopup(layer.feature.properties.name);
     });
 
-    mymap.fitBounds(geojson.getBounds());
+    // mymap.fitBounds(geojson.getBounds());
 
 
     function highlightCountry(countryName) {
@@ -2550,10 +2592,10 @@ document.addEventListener("DOMContentLoaded", function () {
         // Create a Leaflet GeoJSON layer with only the specified country feature
         var countryLayer = L.geoJson(countryFeature, {
             style: {
-            fillColor: '#7a9f79',
-            weight: 2,
-            color: '#315e26',
-            fillOpacity: 0.5
+            fillColor: '#e53f71',
+            weight: 4,
+            color: '#9c3587',
+            fillOpacity: 0.75
             }
         }).addTo(mymap);
 
