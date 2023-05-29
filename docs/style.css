@@ -470,9 +470,10 @@ button.selected {
     font-size: 16px;
     color: #f8f8f8;
     background: gray;
-    background-image: url('/data/dropdown.png');
+    background-image: url('data:image/svg+xml;charset=utf-8,%3Csvg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="none" stroke="%23ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24"%3E%3Cpath d="m6 9 6 6 6-6"%3E%3C/path%3E%3C/svg%3E');
     background-repeat: no-repeat;
     background-position: right center;
+    background-size: contain;
     appearance: none;
     /* removes default select dropdown arrow */
     position: relative;
