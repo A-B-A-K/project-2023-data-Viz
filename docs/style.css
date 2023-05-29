@@ -75,7 +75,7 @@ canvas#sketch {
     font-size: medium;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #9f4fa3;
     text-align: center
 }
@@ -470,6 +470,9 @@ button.selected {
     font-size: 16px;
     color: #f8f8f8;
     background: gray;
+    background-image: url('/data/dropdown.png');
+    background-repeat: no-repeat;
+    background-position: right center;
     appearance: none;
     /* removes default select dropdown arrow */
     position: relative;
@@ -582,3 +585,16 @@ a:disabled {
     cursor: not-allowed;
     /* Change cursor on disabled links */
 }
+/*
+.region-select{
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  
+  padding-right: 20px;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  height: 30px;
+  width: 200px;
+}*/
