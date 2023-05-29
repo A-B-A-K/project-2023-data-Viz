@@ -2478,14 +2478,19 @@ document.addEventListener("DOMContentLoaded", function () {
     
     
     // Define the map object and add it to the "map" div container
-    var mymap = L.map('map').setView([46.5197, 6.6323], 2);
+    //var mymap = L.map('map').setView([46.5197, 6.6323], 2);
     // Add the tile layer to the map
     //L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     //    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
     //    maxZoom: 18,
     //    tileSize: 512,
     //    zoomOffset: -1
-    //}).addTo(mymap);
+    //}).addTo(mymap);¨
+
+    var mymap = L.map('map', {
+        minZoom: 2 // Set the minimum zoom level
+    }).setView([46.5197, 6.6323], 2);
+    
 
     // Set the maximum bounds of the map to prevent repetitions
     var southWest = L.latLng(-90, -180);
@@ -2495,6 +2500,7 @@ document.addEventListener("DOMContentLoaded", function () {
     mymap.on('drag', function () {
         mymap.panInsideBounds(bounds, { animate: false });
     });
+
 
     mymap.createPane('labels');
     mymap.getPane('labels').style.zIndex = 650;
