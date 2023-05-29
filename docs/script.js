@@ -1519,21 +1519,21 @@ document.addEventListener("DOMContentLoaded", function () {
         x.domain([1970, 2020])
         g.select(".x-axis")
             .transition()
-            .duration(1000)
+            .duration(200) //1000 before
             .attr("opacity", 1)
             .call(d3.axisBottom(x).tickFormat(d3.format("d")));
 
         y.domain([0, maxNkill])  // Cap on the max number of casualties
         g.select(".y-axis")
             .transition()
-            .duration(1000)
+            .duration(200) //1000 before
             .attr("opacity", 1)
             .call(d3.axisLeft(y));
 
         g.selectAll("circle")
             .transition()
             .delay(function (d, i) { return (i * 3) })
-            .duration(200)
+            .duration(20) //200 before
             .attr("cx", function (d) { return x(+d.year); })
             .attr("cy", function (d) { return y(+d.nkill); })
 
