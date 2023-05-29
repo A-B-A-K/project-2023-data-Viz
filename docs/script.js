@@ -100,7 +100,17 @@ document.addEventListener("DOMContentLoaded", function () {
     const helpWindow = document.getElementById("helpWindow");
     const closeButton = document.getElementById("closeButton");
 
-    let previousLayer;
+    // let previousLayer;
+
+    // d3.csv("https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/Aristotelis/data/miscellaneous/attacks_per_country.csv")
+    //     .then(data => {
+
+    //         initialViz();
+    //     })
+    //     .catch(error => console.error('Error:', error))
+
+    // initialViz();
+    
 
     // Add click event listeners to the five buttons
     button1.addEventListener("click", function () {
@@ -449,12 +459,40 @@ document.addEventListener("DOMContentLoaded", function () {
                 clearTargets.classList.add('legend-item');
                 clearTargets.innerHTML = '<b>Clear Selection</b>';
                 clearTargets.style.opacity = 1;
+                // clearTargets.style.padding = '10px';
+                clearTargets.style.marginLeft = '5%';
                 clearTargets.addEventListener('click', function () {
                     targetsSelected = [];
                     const legendItems = legendContainer.querySelectorAll('.legend-item');
                     legendItems.forEach(item => {
                         item.style.opacity = 0.5;
                     });
+                    clearTargets.style.opacity = 1;
+                    allTargets.style.opacity = 1;
+
+                    // Update the map
+                    const dataUrl = `https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/Aristotelis/data/density_map/density_map_${slider.value}.csv`
+                    d3.csv(dataUrl)
+                        .then(data => {
+                            populateMap(data, targetsSelected)
+                        })
+                        .catch(error => console.error('Error:', error));
+                });
+
+                const allTargets = document.createElement('div');
+                allTargets.classList.add('legend-item');
+                allTargets.innerHTML = '<b>Select All</b>';
+                allTargets.style.opacity = 1;
+                allTargets.style.marginLeft = '10%';
+                // allTargets.style.padding = '10px';
+                // allTargets.style.border = '1px solid #ccc';
+                allTargets.addEventListener('click', function () {
+                    targetsSelected = Object.keys(colorMapping);
+                    const legendItems = legendContainer.querySelectorAll('.legend-item');
+                    legendItems.forEach(item => {
+                        item.style.opacity = 1;
+                    });
+                    allTargets.style.opacity = 1;
                     clearTargets.style.opacity = 1;
 
                     // Update the map
@@ -467,6 +505,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 });
 
 
+                legendContainer.appendChild(allTargets);
                 legendContainer.appendChild(clearTargets);
 
                 // Append the slider and label to the image container
@@ -958,9 +997,31 @@ document.addEventListener("DOMContentLoaded", function () {
             top: 0,
             behavior: "smooth" // Optional: Adds smooth scrolling animation
         });
-    }
+    }   
 
-      
+    function initialViz() {
+        console.log("HMmmmmmmmmmmmmm");
+        // Add a geoJSON layer containing country boundaries
+        var countriesLayer = L.geoJSON(countriesData).addTo(map);
+
+        // Define a click event handler for the countriesLayer
+        function onCountryClick(e) {
+            // Reset the style of previously clicked countries
+            countriesLayer.eachLayer(function (layer) {
+                layer.setStyle({ fillColor: '#3388ff' }); // Reset the fill color to the default
+            });
+
+            var clickedCountry = e.target;
+            // Update the visual appearance of the clicked country
+            clickedCountry.setStyle({ fillColor: '#ff0000' }); // Apply a highlight color
+
+            // Perform any additional actions based on the clicked country
+            console.log(clickedCountry.feature.properties.name);
+        }
+
+        // Attach the click event listener to the countriesLayer
+        countriesLayer.on('click', onCountryClick);
+    }
 
     function plotData(data) {
         // Set the dimensions and margins of the graph
