@@ -1561,21 +1561,21 @@ document.addEventListener("DOMContentLoaded", function () {
         x.domain([1970, 2020])
         g.select(".x-axis")
             .transition()
-            .duration(1000)
+            .duration(200) //1000 before
             .attr("opacity", 1)
             .call(d3.axisBottom(x).tickFormat(d3.format("d")));
 
         y.domain([0, maxNkill])  // Cap on the max number of casualties
         g.select(".y-axis")
             .transition()
-            .duration(1000)
+            .duration(200) //1000 before
             .attr("opacity", 1)
             .call(d3.axisLeft(y));
 
         g.selectAll("circle")
             .transition()
             .delay(function (d, i) { return (i * 3) })
-            .duration(200)
+            .duration(20) //200 before
             .attr("cx", function (d) { return x(+d.year); })
             .attr("cy", function (d) { return y(+d.nkill); })
 
@@ -2526,14 +2526,28 @@ document.addEventListener("DOMContentLoaded", function () {
     
     
     // Define the map object and add it to the "map" div container
-    var mymap = L.map('map').setView([46.5197, 6.6323], 2);
+    //var mymap = L.map('map').setView([46.5197, 6.6323], 2);
     // Add the tile layer to the map
     //L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     //    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
     //    maxZoom: 18,
     //    tileSize: 512,
     //    zoomOffset: -1
-    //}).addTo(mymap);
+    //}).addTo(mymap);¨
+
+    var mymap = L.map('map', {
+        minZoom: 2 // Set the minimum zoom level
+    }).setView([46.5197, 6.6323], 2);
+    
+
+    // Set the maximum bounds of the map to prevent repetitions
+    var southWest = L.latLng(-90, -180);
+    var northEast = L.latLng(90, 180);
+    var bounds = L.latLngBounds(southWest, northEast);
+    mymap.setMaxBounds(bounds);
+    mymap.on('drag', function () {
+        mymap.panInsideBounds(bounds, { animate: false });
+    });
 
 
     mymap.createPane('labels');
