@@ -98,8 +98,12 @@ canvas#sketch {
     border: none;
     opacity: 0.9;
     padding: 20px;
-    width: 75%;
+    width: 80%;
     z-index: 9999;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 #helpWindow * {
@@ -108,6 +112,8 @@ canvas#sketch {
 
 #closeButton {
     color: white;
+    font-size: larger;
+    margin-left: 80%;
 }
 
 .logo {
