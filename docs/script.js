@@ -376,8 +376,7 @@ Each circle is more than a colored dot. Click on it, and a pop-up reveals the st
 
 <p>
 The "Attack Hotspots" feature offers a geographical and temporal perspective on the prevalence of terrorism. As you navigate this map, remember that each circle represents an act of terror that has impacted lives and communities. Use this information responsibly as you continue your exploration of global terrorism patterns.
-</p>
-`;
+</p>`;
                 extra_txt.innerHTML = ``;
                 // Create a slider
                 const slider = document.createElement('input');
@@ -682,23 +681,22 @@ Remember, each data point represents a tragic event in our shared history, urgin
                     switch (regionSelect.value) {
                         case 'North America':
                             extra_txt.innerHTML = `<p>
-The North American region, encompassing countries like the United States, Canada, and Mexico, has experienced a range of terrorism-related incidents over the past five decades. These incidents vary significantly in terms of their scale, impact, and underlying causes. A closer examination of the region's historical context provides valuable insights into its terrorism landscape:
+The North American region, encompassing countries such as the United States, Canada, and Mexico, has seen a multitude of terrorism-related incidents over the past half-century. These incidents range greatly in their scale, impact, and underlying reasons. A deeper look into the historical context of the region can yield valuable insights into the landscape of terrorism:
 </p>
 <ul>
     <li>
-        <strong>Early Period (1970-1990):</strong> During the initial two decades, the region experienced a medium-low number of incidents, many of which had relatively low casualties. However, there were some high-casualty incidents such as the bombing of Air India in Canada in 1985 and the Oklahoma City bombing in the United States in 1995.
+        <strong>Early Period (1970-1990):</strong> Throughout the initial two decades, the region witnessed a medium-low frequency of incidents, many of which resulted in relatively low casualties. Nevertheless, there were significant high-casualty incidents, such as the bombing of Air India flight 182 off the coast of Ireland in 1985 that originated from Canada, and the Oklahoma City bombing in the United States in 1995.
     </li>
     <li>
-        <strong>Post-2003 Period:</strong> There was a noticeable decrease in terrorist activity for a few years after 2003, which could potentially be attributed to heightened security measures and counter-terrorism efforts, particularly in the aftermath of the 9/11 attacks in 2001.
+        <strong>Post-2003 Period:</strong> There was a noticeable reduction in terrorist activity for a few years following 2003. This could potentially be attributed to heightened security protocols and counter-terrorism efforts, particularly in the aftermath of the September 11 attacks in 2001.
     </li>
     <li>
-        <strong>Country-Specific Trends:</strong> The most active countries in terms of the number of incidents are the United States and Mexico, with the United States experiencing a higher number of incidents. This could reflect a range of factors, including varying political and socioeconomic conditions, as well as potential reporting biases.
+        <strong>Country-Specific Trends:</strong> The United States and Mexico are the most active countries in terms of the number of incidents, with the United States experiencing a larger frequency. This could be reflective of a variety of factors, such as differing political and socioeconomic conditions, as well as potential biases in reporting.
     </li>
 </ul>
 <p>
-Despite these limitations, the data provides a valuable starting point for understanding the complexities of terrorism in North America. Further research and analysis, supplemented by additional data, could help uncover more detailed patterns and trends, inform policy-making, and contribute to efforts to enhance security and stability in the region.
-</p>
-`;
+Despite these limitations, the data provides a useful starting point for understanding the intricacies of terrorism in North America. Further research and analysis, supplemented by additional data sources, could assist in revealing more detailed patterns and trends, inform policy-making, and contribute to efforts to enhance security and stability in the region.
+</p>`;
                             break;
                         case 'Central America & Caribbean':
                             extra_txt.innerHTML = ` <p>
@@ -733,23 +731,22 @@ The history of Central America and the Caribbean is an important case study in u
                             break;
                         case 'South America':
                             extra_txt.innerHTML = `<p>
-The trajectory of terrorism in South America from 1970 to 2020 is marked by distinct periods of increased activity linked to specific regions and socio-political events. The most notable of these periods include:
+The trajectory of terrorism in South America, spanning from 1970 to 2020, is characterized by distinct phases of escalated activity, closely tied to specific regional contexts and socio-political events. Some of the most significant periods include:
 </p>
 <ul>
     <li>
-        <strong>Dirty War in Argentina (1974-1983):</strong> The 1970s saw Argentina as a primary actor in South America's terrorism landscape, likely due to the Dirty War - a period of state terrorism in Argentina against political dissidents and perceived threats to the military junta.
+        <strong>Dirty War in Argentina (1974-1983):</strong> Throughout the 1970s, Argentina emerged as a primary contributor to South America's terrorism landscape, likely a consequence of the Dirty War. This era witnessed state terrorism in Argentina against political dissidents and individuals perceived to be threats to the ruling military junta.
     </li>
     <li>
-        <strong>The Lost Decade in Peru (1980-1990):</strong> A significant increase in terrorist activities was seen in Peru during this time, coinciding with the country's social and economic crises. This period, often referred to as "The Lost Decade," saw heightened conflict and instability.
+        <strong>The Lost Decade in Peru (1980-1990):</strong> Peru experienced a marked surge in terrorist activities during this time, which corresponded with the nation's social and economic crises. Often referred to as "The Lost Decade," this period was characterized by escalated conflict and instability.
     </li>
     <li>
-        <strong>Colombian Conflict (1964-Present):</strong> Colombia has consistently experienced high levels of terrorist activities from 1975 until today, with the Colombian conflict being a major contributing factor. Notably, the 1980s marked an escalation in violence in many parts of the country, contributing to an overall increase in terrorism incidents.
+        <strong>Colombian Conflict (1964-Present):</strong> Colombia has persistently faced high levels of terrorist activities from 1975 onwards, with the ongoing Colombian conflict being a substantial contributing factor. The 1980s, in particular, saw an escalation in violence across numerous regions of the country, leading to an overall surge in incidents of terrorism.
     </li>
 </ul>
 <p>
-These periods underscore the multifaceted nature of terrorism, often intricately linked with a country's social, political, and economic contexts. A thorough understanding of these contexts is crucial in interpreting the data trends and patterns.
-</p>
-`;
+These periods highlight the complex nature of terrorism, which is frequently intertwined with a nation's social, political, and economic landscapes. A comprehensive understanding of these contexts is essential for interpreting trends and patterns in the data.
+</p>`;
                             break;
                         case 'East Asia':
                             extra_txt.innerHTML = ` <p>
@@ -774,10 +771,54 @@ The history of East Asia provides an insightful case study for understanding the
 </p>`;
                             break;
                         case 'Southeast Asia':
-                            extra_txt.innerHTML = ``;
+                            extra_txt.innerHTML = `<p>
+Southeast Asia, a vibrant region marked by diverse cultures and robust economic growth, has had its share of challenges with regards to terrorism. Over the period of 1970 to 2020, the region witnessed numerous incidents attributed to various socio-political upheavals in different countries. The trend of terrorism in the region reflects the complexities of local conflicts, historical grievances, and the struggle for political power.
+</p>
+<ul>
+    <li>
+        <strong>Philippines:</strong> In the Philippines, the increase in terrorist activities from 1986 coincides with the People Power Revolution (also known as the EDSA Revolution). This peaceful demonstration marked the end of the Marcos regime and led to a period of political instability, potentially providing fertile ground for terrorist groups.
+    </li>
+    <li>
+        <strong>Indonesia:</strong> The authoritarian rule of President Suharto, spanning from 1967 to the late 1990s, marked a tense period in Indonesian history. The public's dissatisfaction with corruption, nepotism, and lack of political freedom increased demands for political reform, which was met with resistance and resulted in a rise in terrorist incidents.
+    </li>
+    <li>
+        <strong>Thailand:</strong> The escalation of terrorism in Thailand, particularly from 2004 onwards, can be traced to several intertwining factors. These include historical grievances in the southern regions, a separatist movement, radicalization, heavy-handed responses from security forces, and the presence of organized criminal networks. All these elements combined to create a persistent issue of terrorism in the country.
+    </li>
+</ul>
+<p>
+These instances highlight the complexities of terrorism in Southeast Asia. It's not just about individual events or actors, but rather a combination of factors—local conflicts, political power struggles, historical disputes—that come together to shape the landscape of terrorism. Recognizing these patterns and understanding the underlying causes are key steps towards developing effective counter-terrorism strategies and fostering long-term peace and stability in the region.
+</p>`;
                             break;
                         case 'South Asia':
-                            extra_txt.innerHTML = ``;
+                            extra_txt.innerHTML = `<p>
+In the last few decades of the 20th century and into the 21st century, South Asia has faced a challenging period marked by persistent instances of terrorism and violence. This era, characterized by political instability and conflict, has been especially prominent in <a href="https://www.britannica.com/place/India" target="_blank">India</a>, <a href="https://www.britannica.com/place/Pakistan" target="_blank">Pakistan</a>, and <a href="https://www.britannica.com/place/Afghanistan" target="_blank">Afghanistan</a>. Several critical factors have contributed to the prevalence of terrorism and violence in this region:
+</p>
+<ul>
+    <li>
+        <strong>Religious Extremism:</strong> South Asia has been a hotbed for religious extremism, with groups using religious ideologies to justify violent acts. This has been particularly prominent in the context of Islamist extremism.
+    </li>
+    <li>
+        <strong>Political Instability:</strong> The political landscape of South Asia is marked by frequent changes in government, corruption, and weak governance structures. Such instability often creates vacuums that are exploited by terrorist groups.
+    </li>
+    <li>
+        <strong>Socioeconomic Disparity:</strong> Despite rapid economic growth in some parts of South Asia, significant levels of poverty and socioeconomic disparity persist. Such inequality can fuel discontent and provide fertile grounds for recruitment by extremist groups.
+    </li>
+    <li>
+        <strong>Territorial Disputes:</strong> Territorial disputes, most notably between India and Pakistan over Kashmir, have been a source of conflict and have spurred incidents of terrorism and violence.
+    </li>
+    <li>
+        <strong>Legacy of Colonialism:</strong> The impact of colonial rule, particularly by the British Empire, has left lasting effects on the region, including border disputes and communal tension, which have often been triggers for terrorism and violence.
+    </li>
+    <li>
+        <strong>State-Sponsored Terrorism:</strong> Accusations of state-sponsored terrorism, particularly between India and Pakistan, have further complicated the regional dynamics and contributed to the persistence of terrorism.
+    </li>
+</ul>
+<p>
+These factors often interact in complex ways, with circumstances differing significantly across countries. The region has witnessed several lethal incidents, including the <a href="https://www.britannica.com/event/Mumbai-terrorist-attacks-of-2008" target="_blank">2008 Mumbai attacks</a> in India, and the <a href="https://www.britannica.com/event/School-Attack-in-Peshawar-Pakistan" target="_blank">2014 Peshawar school massacre</a> in Pakistan. These tragic events underscore the severe consequences of the violence and terrorism that have plagued the region during this period.
+</p>
+<p>
+The history of South Asia offers valuable insights into understanding the impacts of terrorism and violence within the backdrop of political instability, socioeconomic difficulties, and historical influences. A comprehensive examination of this history reveals the intricate dynamics that shape terrorism trends and their ensuing consequences.
+</p>`;
                             break;
                         case 'Central Asia':
                             extra_txt.innerHTML = ` <p>
@@ -805,7 +846,32 @@ Central Asia, with its diverse experiences of terrorism, presents a complex pict
 </p>`;
                             break;
                         case 'Western Europe':
-                            extra_txt.innerHTML = ``;
+                            extra_txt.innerHTML = `<p>
+During the period from 1980 to 2020, several countries in Western Europe have experienced significant incidents of terrorism. Here are some notable examples:
+</p>
+
+<ul>
+    <li>
+        <strong>The United Kingdom:</strong> The UK has faced terrorism incidents, such as the Brighton Hotel Bombing in 1984, the Bishopsgate Bombing in 1993, the Docklands Bombing in 1996, the Omagh Bombing in 1998, the 2005 London Bombings, the 2007 Glasgow International Airport Attack, and the 2013 Woolwich Attack.
+    </li>
+    <li>
+        <strong>Greece:</strong> Greece witnessed various incidents related to terrorism, including attacks by the Revolutionary Organization 17 November (17N), bombings and assassinations, attacks on foreign diplomats, and anarchist violence.
+    </li>
+    <li>
+        <strong>Spain:</strong> Spain has dealt with terrorism from groups like ETA (Euskadi Ta Askatasuna), Islamist extremist groups, and anarchist groups. The Madrid train bombings in 2004 and attacks by ETA are notable examples.
+    </li>
+    <li>
+        <strong>France:</strong> France has experienced significant terrorist attacks, such as the Paris Metro Bombing in 1982, the Paris Airplane Bombing in 1983, the Marseille Train Station Bombing in 1983, the Paris Supermarket Bombing in 1985, the 2015 Paris Attacks, the 2016 Nice Truck Attack, and the Charlie Hebdo Shooting in 2015.
+    </li>
+</ul>
+
+<p>
+These incidents reflect the historical events and periods that these countries have gone through. They have faced challenges related to political instability, civil wars, socioeconomic inequality, drug trafficking, colonialism, and state terrorism. Governments have implemented counterterrorism measures to address these threats.
+</p>
+
+<p>
+It is important to note that the examples mentioned here represent a fraction of the terrorism incidents that occurred in each country during the specified period. The impact of terrorism in these regions is complex and interconnected with their unique historical contexts.
+</p>`;
                             break;
                         case 'Eastern Europe':
                             extra_txt.innerHTML = ` <p>
@@ -864,7 +930,34 @@ Each country in the MENA region has its unique experiences and historical contex
 </p>`;
                             break;
                         case 'Sub-Saharan Africa':
-                            extra_txt.innerHTML = ``;
+                            extra_txt.innerHTML = `<p>
+Between 1980 and 2020, Sub-Saharan Africa has witnessed significant incidents of terrorism across various countries. Here are some notable examples:
+</p>
+
+<ul>
+    <li>
+        <strong>Democratic Republic of Congo (DRC):</strong> The DRC has faced terrorist incidents involving groups such as the Allied Democratic Forces (ADF), Nationalist and Integrationist Front (FNI), Democratic Forces for the Liberation of Rwanda (FDLR), and the Lord's Resistance Army (LRA).
+    </li>
+    <li>
+        <strong>Nigeria:</strong> Nigeria has confronted terrorism challenges with groups like Boko Haram, Movement for the Emancipation of the Niger Delta (MEND), and conflicts between Fulani herdsmen and farming communities.
+    </li>
+    <li>
+        <strong>Angola:</strong> Angola experienced acts of terrorism during the civil war between the MPLA government and the UNITA rebel group.
+    </li>
+    <li>
+        <strong>Rwanda:</strong> Rwanda witnessed acts of terrorism during the civil war and genocide of 1994, involving the Rwandan Patriotic Front (RPF) and extremist Hutu groups.
+    </li>
+    <li>
+        <strong>Somalia:</strong> Somalia saw a surge in terrorism primarily driven by Al-Shabaab, targeting government institutions, military bases, and civilians.
+    </li>
+    <li>
+        <strong>Uganda:</strong> Uganda faced terrorism challenges with groups like the Lord's Resistance Army (LRA), Allied Democratic Forces (ADF), and incidents such as the hijacking of Ethiopian Airlines Flight 961 and coordinated bombings in Kampala.
+    </li>
+</ul>
+
+<p>
+These incidents occurred in the context of armed conflicts, political instability, ethnic tensions, and weak governance. Governments and international actors have made efforts to address terrorism and enhance security in the region. However, it's important to note that the examples mentioned here represent a fraction of the terrorism incidents that occurred in each country during the specified period.
+</p>`;
                             break;
                         case 'Australasia & Oceania':
                             extra_txt.innerHTML = ` <p>
@@ -893,24 +986,18 @@ While the number of attacks in the Australasia & Oceania region remains relative
                     graphContainer.appendChild(extra_txt);
                    
 
-                    // console.log(countryLayer);
-                    // If a country layer already exists, remove it
-                    // if (countryLayer) {
-                    //     mymap.removeLayer(countryLayer);
-                    // }
                     deselectCountries();
-                    // console.log(countryLayer);
+
                     for (const index in regionCountries[regionSelect.value]) {
                         const country = regionCountries[regionSelect.value][index];
                         highlightCountry(country);
                     }
-                    // highlightCountry(countrySelect.value);
 
                     const dataUrl = `https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/master/data/regions/victims/${encodeURIComponent(regionSelect.value) }.csv`
                     d3.csv(dataUrl)
                         .then(data => {
 
-                            plotScatterPlot(data); // Add animation again
+                            plotScatterPlot(data);
                         })
                         .catch(error => console.error('Error:', error));
                 });
@@ -922,7 +1009,24 @@ While the number of attacks in the Australasia & Oceania region remains relative
                 while (imageContainer.firstChild) {
                     imageContainer.removeChild(imageContainer.firstChild);
                 }
-                textContainer.innerHTML = "<p>Lastly, in order to give as much information as possible we have added statistics on the different countries</p>";
+                textContainer.innerHTML = `<h3>Country-Specific Analysis: Unveiling Patterns in Terror</h3>
+
+<p>
+In the Country-Specific Analysis section, you have the power to expose the rhythm of terrorism in a selected country. By choosing a country from the dropdown menu, the map springs to life, highlighting your chosen territory, and a streamgraph unfurls beneath.
+</p>
+
+<p>
+The <b>streamgraph</b> is a visual symphony, depicting the frequency of terrorist attacks across time. The x-axis dances through the months, while the width of the stream pulses to the beat of the number of attacks in each month.
+</p>
+
+<p>
+The design of this feature is purposeful, yet open-ended. It provides a detailed tableau of terrorism patterns for a chosen country, but the interpretation of this tableau is an open invitation. Each user is an analyst, free to explore, scrutinize, and draw personal insights.
+</p>
+
+<p>
+The "Country-Specific Analysis" feature offers an intuitive interface to probe the patterns of terrorism. As you navigate this streamgraph, remember that every crest and trough represents a moment of terror that has impacted lives and communities. Use this information responsibly as you continue your exploration of global terrorism patterns.
+</p>
+`;
 
                 // Create a dropdown menu (select element)
                 const countrySelect = document.createElement('select');
