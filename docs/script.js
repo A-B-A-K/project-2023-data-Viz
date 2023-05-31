@@ -390,6 +390,7 @@ The "Attack Hotspots" feature offers a geographical and temporal perspective on 
                     slider.value = '2000';
                 }
                 slider.classList.add('slider');
+                targetsSelected = Object.keys(colorMapping);
     
                 // Create a label to display the slider value
                 const sliderLabel = document.createElement('span');
