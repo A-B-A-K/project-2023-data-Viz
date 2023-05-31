@@ -311,22 +311,24 @@ document.addEventListener("DOMContentLoaded", function () {
                 while (imageContainer.firstChild) {
                     imageContainer.removeChild(imageContainer.firstChild);
                 }
-                textContainer.innerHTML = ` <h3>Group Profiles: Unveiling Patterns of Deadly Forces</h3>
-                                            <p>
-                                                This section explores the activities of the ten deadliest terrorist groups, as determined by the number of casualties they have caused. It provides an overview of the methods employed by these groups, enabling an insight into their modus operandi.
-                                            </p>`;
-                div1_txt.innerHTML = `  <p>
-                                            The bar chart presents a clear view of the groups in descending order of the casualties they have caused. By hovering over a bar, detailed information about a group and its impact in terms of fatalities can be accessed. 
-                                        </p>`;
-                div2_txt.innerHTML = `  <p>
-                                            Accompanying the bar chart is a heatmap that shows the usage frequency of different attack methods by these groups. Each cell in the heatmap represents the count of a specific method's usage by a particular group, with color intensity indicating the frequency. This visualization helps identify any preferred or recurrent methods of these groups.
-                                        </p>`;
-                extra_txt.innerHTML = ` <p style="font-size:90%; padding-left:10%; padding-right:10%; padding-top:10px; padding-bottom:10px; color:dimgrey">
-                                            <em>Note: The groups are displayed as per their name at the time of the attack. No consideration has been given to merging of groups or any changes in their names. This could mean that different names referring to the same group in different times or contexts are treated as separate entities.<\em>
-                                        </p>
-                                        <p>
-                                            These two visualizations together offer a comprehensive view into the operations of the most perilous terrorist groups. The data should be interpreted with care, remembering that these figures represent tragic losses and the considerable impact of these groups' activities globally.
-                                        </p>`
+                textContainer.innerHTML = ` <h3>Group Profiles: Unraveling the Patterns of Deadly Forces</h3>
+
+<p>
+Let's dive deeper into the patterns of the ten deadliest terrorist groups, ranked by the number of casualties they've caused over the span of 50 years. This section shines a light on their chosen methods of operation, offering a closer look at their devastating impact.
+</p>`;
+                div1_txt.innerHTML = ` <p>
+The <strong>bar chart</strong> provides a stark illustration of these groups, organized in descending order of casualties. Hover over a bar, and you'll find a detailed breakdown, revealing the full name of the organization along with the staggering number of lives lost due to their actions.
+</p>`;
+                div2_txt.innerHTML = ` <p>
+Paired with the bar chart is a <strong>heatmap</strong> that paints a vivid picture of the frequency at which these groups resort to different methods of attack. Each cell within the heatmap corresponds to a specific method's usage by a particular group, with the intensity of the color mirroring the frequency. The darker the cell, the higher the frequency, thereby indicating a preferred or recurrent method. Hover over a cell, and you'll uncover the total number of instances a group has used a particular method, along with the full name of the group.
+</p>`;
+                extra_txt.innerHTML = `<p style="font-size:90%; padding-left:10%; padding-right:10%; padding-top:10px; padding-bottom:10px; color:dimgrey">
+<em>Note</em>: The terrorist groups are represented as per their name at the time of the attack. Changes in their names or merging of groups over time have not been accounted for. Consequently, different names referring to the same group in different times or contexts are treated as separate entities.
+</p>
+
+<p>
+Together, these visualizations offer a comprehensive understanding of the operations of the most lethal terrorist groups. As you navigate this data, remember the real-world implications - every figure represents a tragic loss, a testament to the far-reaching impacts of these groups' activities worldwide. Handle this information with care as you continue to uncover the patterns of global terrorism.
+</p>`;
                 graphContainer.appendChild(div1);
                 graphContainer.appendChild(div1_txt);
                 graphContainer.appendChild(div2);
@@ -353,22 +355,29 @@ document.addEventListener("DOMContentLoaded", function () {
                 while (imageContainer.firstChild) {
                     imageContainer.removeChild(imageContainer.firstChild);
                 }
-                textContainer.innerHTML = ` <h3>Attack Hotspots: Exploring Spatial Trends in Target Selection</h3>
-                                            <p>
-                                                The "Attack Hotspots" section allows you to delve into the spatial patterns of target selection in global terrorism incidents from 1970 to 2020. By using the slider, you can choose a specific year and observe the distribution of attacks across the world.
-                                            </p>`;
-                div1_txt.innerHTML = `  <p>
-                                            The interactive map allows you to zoom in, pan, and explore different regions. Attack locations are represented by circles, with each circle representing a specific incident. The size of the circles remains constant, ensuring a consistent visual representation.
-                                        </p>
-                                        <p>
-                                            While the attack locations are not color-coded, you can hover over the legend to gain insights into the selection of colors. The legend provides information on similar target types that share similar colors, offering a way to identify patterns based on target similarities.
-                                        </p>
-                                        <p>
-                                            To access more details about a specific incident, simply click on a circle on the map. This will provide information such as the target type, country, the responsible group for the attack, and a summary of the incident if available. This additional context helps paint a more comprehensive picture of the attack landscape.
-                                        </p>`;
-                extra_txt.innerHTML = ` <p>
-                                            Keep in mind that the "Attack Hotspots" section provides a general overview of attack density across the entire period of 1970 to 2020. By exploring this visualization, you can gain insights into how target selection varies geographically and discover any spatial trends that emerge.
-                                        </p>`;
+                textContainer.innerHTML = ``;
+                div1_txt.innerHTML = `<h3>Attack Hotspots: A Global View of Terror</h3>
+
+<p>
+This feature invites you to survey the global distribution of terrorist attacks, year by year. With the help of a slider, you can travel through time, observing the shifts and movements in terror hotspots from 1970 to 2020. Every circle on the map is a tale of an attack, color-coded by the target type.
+</p>
+
+<p>
+The color scheme of the circles has been thoughtfully designed to signify various target types and their characteristics. For instance, red - a color often synonymous with danger, urgency, and attention - is used for "Private Citizens & Property", while green, commonly associated with law enforcement, stands for "Police". A comprehensive list of color descriptions is available in the legend. 
+</p>
+
+<p>
+Each circle is more than a colored dot. Click on it, and a pop-up reveals the story behind the attack. The pop-up contains information about the target, the country where the attack occurred, the terrorist group involved, and a brief summary of the incident, providing a snapshot of the event. 
+</p>
+
+<p style="font-size:90%; padding-left:10%; padding-right:10%; padding-bottom:10px; color:dimgrey">
+<em>Note</em>: The data displayed initially represents all attacks worldwide for the selected year. To narrow down the view, you can select specific target types from a dropdown menu. However, the visual representation is limited to one year at a time, adjustable with the slider.
+</p>
+
+<p>
+The "Attack Hotspots" feature offers a geographical and temporal perspective on the prevalence of terrorism. As you navigate this map, remember that each circle represents an act of terror that has impacted lives and communities. Use this information responsibly as you continue your exploration of global terrorism patterns.
+</p>`;
+                extra_txt.innerHTML = ``;
                 // Create a slider
                 const slider = document.createElement('input');
                 slider.type = 'range';
@@ -545,28 +554,31 @@ document.addEventListener("DOMContentLoaded", function () {
                 while (imageContainer.firstChild) {
                     imageContainer.removeChild(imageContainer.firstChild);
                 }
-                textContainer.innerHTML = ` <h3>Temporal Patterns: Unveiling Trends Across Time</h3>
-                                            <p>
-                                                The "Temporal Patterns" section allows you to explore the temporal distribution of terrorist attacks throughout the year. By examining the heatmap visualization, you can uncover patterns and insights related to the frequency of attacks based on specific dates.
-                                            </p>
-                                            <p>
-                                                The heatmap represents the data by color-coding each cell based on the count of attacks. The color intensity indicates the relative frequency, with darker cells representing higher attack counts.
-                                            </p>`;
-                div1_txt.innerHTML = `  <p>
-                                            The x-axis of the heatmap represents the months of the year, while the y-axis represents the days of each month. Each cell contains information about the total number of attacks that occurred on that specific date across all years in the dataset.
-                                        </p>
-                                        <p>
-                                            When exploring the "Temporal Patterns" heatmap, pay attention to any notable trends or patterns that emerge. For example, you may observe a higher concentration of attacks around the middle of the year and middle of the month. Further analysis, including statistical evaluation, can help identify significant temporal patterns in the data.
-                                        </p>
-                                        <p>
-                                            Additionally, intriguing spikes in activity can be observed on specific dates such as January 1st, April 15th, May 16th, and May 29th. The spike on January 1st may be linked to New Year's celebrations and the symbolism associated with the start of a new year. However, further investigation is needed to determine the exact reasons behind these spikes. Similarly, the spikes on April 15th, May 16th, and May 29th present interesting anomalies within the dataset, but their significance and underlying factors require additional research and analysis. These dates might be associated with specific historical events, cultural significance, or political and ideological factors. Further investigation would help shed light on the reasons behind these observed patterns.
-                                        </p>
-                                        <p>
-                                            It is important to note that the "Temporal Patterns" section provides valuable insights into the temporal distribution of terrorist attacks. However, statistical significance and additional context should be considered when interpreting the patterns observed.
-                                        </p>
-                                        <p>
-                                            Finally, be aware that the low activity on February 29th should not mislead you. This date appears only once every four years due to it being a leap year.
-                                        </p>`;
+                textContainer.innerHTML = ` <h3>Temporal Patterns: Tracing the Ebb and Flow of Terror Over Time</h3>
+<p>
+Immerse yourself in the exploration of the temporal distribution of terrorist attacks throughout the year. The heatmap visualization here serves as a guide, enabling you to dissect the rhythm of terror, helping unearth patterns and insights related to the frequency of attacks on specific dates.
+</p>`;
+                div1_txt.innerHTML = ` <p>
+The <strong>heatmap</strong> uses color intensity to depict data, with each cell's hue directly tied to the count of attacks. Darker cells denote a higher frequency, translating to a larger number of attacks.
+</p>
+<p>
+The axes of the heatmap offer a granular temporal perspective: the x-axis represents the <em>months of the year</em>, and the y-axis denotes the <em>days of each month</em>. Each cell in this grid holds the cumulative count of attacks that have occurred on a particular date across all years covered in the dataset.
+</p>
+<p>
+As you navigate the "<strong>Temporal Patterns</strong>" heatmap, be on the lookout for any discernable trends or patterns. For instance, you may notice a higher concentration of attacks around the middle of the year or month. A deeper dive, backed by statistical analysis, can help unearth significant temporal patterns hidden in this data.
+</p>
+<p>
+Certain dates—<strong>January 1st, April 15th, May 16th, and May 29th</strong>—exhibit conspicuous spikes in activity. The surge on January 1st could potentially be linked to the symbolism associated with New Year's celebrations and the onset of a new year. However, the exact reasons behind these spikes warrant more comprehensive investigation. Similarly, the spikes on April 15th, May 16th, and May 29th present intriguing anomalies within the dataset. Their significance and underlying reasons—whether they're tied to specific historical events, cultural significance, or political and ideological factors—demand further scrutiny and analysis.
+</p>
+<p style="font-size:90%; padding-left:10%; padding-right:10%; padding-top:10px; padding-bottom:10px; color:dimgrey">
+<em>Note</em>: The "<strong>Temporal Patterns</strong>" section is a powerful tool that provides valuable insights into the temporal distribution of terrorist attacks. However, keep in mind the importance of considering statistical significance and additional context when interpreting the observed patterns.
+</p>
+<p>
+Lastly, don't be misled by the low activity on <strong>February 29th</strong>. This date only occurs once every four years, owing to it being a leap day. The lower frequency of attacks on this date is not indicative of a trend but is rather a reflection of its less frequent occurrence.
+</p>
+<p>
+This exploration through time offers a comprehensive perspective on the rhythm of global terrorism. As you delve into this data, remember that each figure and pattern represents real-world incidents, each with its own story and impact. Treat this information with the gravity it deserves as you continue to uncover the temporal patterns of global terrorism.
+</p>`;
 
                 graphContainer.appendChild(div1);
                 graphContainer.appendChild(div1_txt);
@@ -584,22 +596,19 @@ document.addEventListener("DOMContentLoaded", function () {
                 while (imageContainer.firstChild) {
                     imageContainer.removeChild(imageContainer.firstChild);
                 }
-                textContainer.innerHTML = ` <h2>Regional Impact: Exploring Terrorism Trends by Region</h2>
-                                            <p>
-                                                The "Regional Impact" section provides insights into the impact of terrorism on different regions around the world. By selecting a specific region from the dropdown menu, you can explore the trends and analyze the severity of terrorist attacks in that particular area.
-                                            </p>
-                                            <p>
-                                                The interactive map allows you to zoom and pan to navigate different regions. When a region is selected from the dropdown menu, it gets highlighted on the map with a red overlay, enabling you to easily identify the area of focus.
-                                            </p>
-                                            <p>
-                                                The section includes a scatterplot that displays the fatal attacks within the selected region. Each data point represents an attack, with the x-axis representing the years and the y-axis indicating the number of casualties. Hovering over a data point provides additional information such as the event ID, country, number of casualties, and the year of the attack.
-                                            </p>
-                                            <p>
-                                                The "Regional Impact" section aims to highlight trends and patterns in terrorism, showcasing which countries have experienced the highest number of attacks and the severity of the casualties. By exploring this section, you can gain a better understanding of the impact of terrorism across different regions.
-                                            </p>
-                                            <p>
-                                                Please note that the selection of regions and countries does not imply any particular focus or significance. The data provides a comprehensive view of terrorism trends and impacts globally, without emphasizing any specific area.
-                                            </p>`;
+                textContainer.innerHTML = `<h2>Regional Impact: Unfolding Terrorism Trends Across Regions</h2>
+<p>
+This section provides a unique perspective on the impacts and trends of <strong>terrorism</strong> in diverse world regions. Use the interactive <strong>map</strong> to select a region of interest, visualizing the geographical scope of your analysis.
+</p>
+<p>
+Complementing the map is a <strong>scatterplot</strong> showing fatal attacks within your chosen region. Each data point represents an attack, plotted against time and the number of casualties. Hover over a data point to reveal the event ID, country, number of casualties, and the year of the attack.
+</p>
+<p>
+The "Regional Impact" section illuminates trends and patterns in <strong>terrorism</strong>, showcasing the countries within each region that have experienced the most severe attacks. The aim is to foster a better understanding of the geographical distribution and impact of terrorism.
+</p>
+<p>
+Remember, each data point represents a tragic event in our shared history, urging us to learn from the past as we navigate the future.
+</p>`;
 
                                 // Create a dropdown menu (select element)
                 const regionSelect = document.createElement('select');
@@ -671,139 +680,300 @@ document.addEventListener("DOMContentLoaded", function () {
                     
                     switch (regionSelect.value) {
                         case 'North America':
-                            extra_txt.innerHTML = ``;
+                            extra_txt.innerHTML = `<p>
+The North American region, encompassing countries such as the United States, Canada, and Mexico, has seen a multitude of terrorism-related incidents over the past half-century. These incidents range greatly in their scale, impact, and underlying reasons. A deeper look into the historical context of the region can yield valuable insights into the landscape of terrorism:
+</p>
+<ul>
+    <li>
+        <strong>Early Period (1970-1990):</strong> Throughout the initial two decades, the region witnessed a medium-low frequency of incidents, many of which resulted in relatively low casualties. Nevertheless, there were significant high-casualty incidents, such as the bombing of Air India flight 182 off the coast of Ireland in 1985 that originated from Canada, and the Oklahoma City bombing in the United States in 1995.
+    </li>
+    <li>
+        <strong>Post-2003 Period:</strong> There was a noticeable reduction in terrorist activity for a few years following 2003. This could potentially be attributed to heightened security protocols and counter-terrorism efforts, particularly in the aftermath of the September 11 attacks in 2001.
+    </li>
+    <li>
+        <strong>Country-Specific Trends:</strong> The United States and Mexico are the most active countries in terms of the number of incidents, with the United States experiencing a larger frequency. This could be reflective of a variety of factors, such as differing political and socioeconomic conditions, as well as potential biases in reporting.
+    </li>
+</ul>
+<p>
+Despite these limitations, the data provides a useful starting point for understanding the intricacies of terrorism in North America. Further research and analysis, supplemented by additional data sources, could assist in revealing more detailed patterns and trends, inform policy-making, and contribute to efforts to enhance security and stability in the region.
+</p>`;
                             break;
                         case 'Central America & Caribbean':
                             extra_txt.innerHTML = ` <p>
-                                                        Central America and the Caribbean region underwent a tumultuous period during the 1980s and early 1990s, marked by heightened instances of terrorism and violence. The political instability and conflict prevalent during this era amplified these adversities.
-                                                    </p>
-                                                    <p>
-                                                        The nations most severely affected by these conditions were <a href="https://www.britannica.com/place/Guatemala" target="_blank">Guatemala</a>, <a href="https://www.britannica.com/place/Nicaragua" target="_blank">Nicaragua</a>, and <a href="https://www.britannica.com/place/El-Salvador" target="_blank">El Salvador</a>. Several crucial elements contributed to the escalation of terrorism and violent activity in Central America:
-                                                    </p>
-                                                    <ul>
-                                                        <li>
-                                                            <strong>Cold War Politics:</strong> During the Cold War, Central America emerged as a strategic hotspot for the United States and the Soviet Union. Proxy wars between anti-communist entities and left-leaning guerrilla factions further destabilized the region.
-                                                        </li>
-                                                        <li>
-                                                            <strong>Civil Wars and Revolutions:</strong> Nicaragua, El Salvador, and Guatemala were engulfed in civil wars characterized by rampant violence and terrorist acts. These conflicts were shaped by both internal and external influences, with left-wing guerrilla groups clashing against right-wing administrations.
-                                                        </li>
-                                                        <li>
-                                                            <strong>Socioeconomic Inequality:</strong> The substantial socioeconomic disparity in Central America fostered conditions conducive to political unrest and violence. Disenfranchised communities often employed violent tactics to voice their dissatisfaction and advocate for societal transformation.
-                                                        </li>
-                                                        <li>
-                                                            <strong>Drug Trafficking:</strong> Positioned geographically as a key transit region for drug trafficking—especially for cocaine moving from South America to the United States—Central America witnessed increased violence and terrorism as drug cartels employed brutal methods to safeguard their operations.
-                                                        </li>
-                                                        <li>
-                                                            <strong>Legacy of Colonialism and Imperialism:</strong> The historical remnants of colonialism and imperialism in Central America sowed the seeds of political instability and social discord, which ultimately cultivated a climate ripe for violence and terrorism.
-                                                        </li>
-                                                        <li>
-                                                            <strong>State Terrorism:</strong> Certain governments in the region, including Guatemala, employed acts of terrorism against their own citizens to quell opposition and maintain control, leading to widespread human rights abuses.
-                                                        </li>
-                                                    </ul>
-                                                    <p>
-                                                    These contributing elements often interacted in intricate patterns, and the circumstances varied significantly across countries. The region was scarred by several lethal incidents, such as the <a href="https://www.zinnedproject.org/news/tdih/el-mozote-massacre-in-el-salvador" target="_blank">El Mozote massacre</a> in El Salvador in 1981, which led to an estimated 800 to 1,000 fatalities, and the <a https://americanarchive.org/exhibits/newshour-cold-war/nicaragua">Nicaraguan revolution</a> in 1984 and 1985. These horrific events underscore the severe repercussions of the violence and terrorism that afflicted the region during that period.
-                                                    </p>
-                                                    <p>
-                                                    The history of the Central America and Caribbean region provides a significant case study for understanding the repercussions of terrorism and violence within a context of political instability, socioeconomic challenges, and historical factors. A thorough examination of this history illuminates the intricate dynamics that influence terrorism trends and their resulting impacts.
-                                                    </p>`;
+During the 1980s and early 1990s, Central America and the Caribbean endured a turbulent period characterized by increased instances of terrorism and violence. This challenging era, marked by political instability and conflict, was particularly severe in <a href="https://www.britannica.com/place/Guatemala" target="_blank">Guatemala</a>, <a href="https://www.britannica.com/place/Nicaragua" target="_blank">Nicaragua</a>, and <a href="https://www.britannica.com/place/El-Salvador" target="_blank">El Salvador</a>. Several critical factors contributed to the surge of terrorism and violence in this region:
+</p>
+<ul>
+    <li>
+        <strong>Cold War Politics:</strong> Central America became a strategic battleground during the Cold War, with proxy wars between anti-communist and left-leaning factions further destabilizing the region.
+    </li>
+    <li>
+        <strong>Civil Wars and Revolutions:</strong> Nicaragua, El Salvador, and Guatemala were consumed by civil wars characterized by intense violence and acts of terrorism. These conflicts, inflamed by both internal and external influences, often saw left-wing guerrilla groups clashing against right-wing governments.
+    </li>
+    <li>
+        <strong>Socioeconomic Inequality:</strong> The significant socioeconomic disparity in Central America created conditions that nurtured political unrest and violence. Marginalized communities frequently resorted to violent methods to express their discontent and advocate for change.
+    </li>
+    <li>
+        <strong>Drug Trafficking:</strong> Central America's geographical position as a pivotal transit area for drug trafficking, particularly for cocaine transported from South America to the United States, resulted in an escalation of violence and terrorism as drug cartels used ruthless tactics to protect their operations.
+    </li>
+    <li>
+        <strong>Legacy of Colonialism and Imperialism:</strong> The lingering effects of colonialism and imperialism in Central America led to political instability and social discord, creating an environment conducive to violence and terrorism.
+    </li>
+    <li>
+        <strong>State Terrorism:</strong> Governments, such as Guatemala's, employed terrorist acts against their own citizens to suppress opposition and retain control, resulting in widespread human rights abuses.
+    </li>
+</ul>
+<p>
+These factors often interacted in complex ways, with circumstances differing considerably across countries. The region witnessed several lethal incidents, including the <a href="https://www.zinnedproject.org/news/tdih/el-mozote-massacre-in-el-salvador" target="_blank">El Mozote massacre</a> in El Salvador in 1981, with an estimated 800 to 1,000 fatalities, and the <a href="https://americanarchive.org/exhibits/newshour-cold-war/nicaragua">Nicaraguan revolution</a> in 1984 and 1985. These tragic events highlight the severe consequences of the violence and terrorism that plagued the region during this period.
+</p>
+<p>
+The history of Central America and the Caribbean is an important case study in understanding the impacts of terrorism and violence within the backdrop of political instability, socioeconomic difficulties, and historical influences. A comprehensive examination of this history reveals the intricate dynamics that shape terrorism trends and their ensuing consequences.
+</p>`;
                             break;
                         case 'South America':
-                            extra_txt.innerHTML = ``;
+                            extra_txt.innerHTML = `<p>
+The trajectory of terrorism in South America, spanning from 1970 to 2020, is characterized by distinct phases of escalated activity, closely tied to specific regional contexts and socio-political events. Some of the most significant periods include:
+</p>
+<ul>
+    <li>
+        <strong>Dirty War in Argentina (1974-1983):</strong> Throughout the 1970s, Argentina emerged as a primary contributor to South America's terrorism landscape, likely a consequence of the Dirty War. This era witnessed state terrorism in Argentina against political dissidents and individuals perceived to be threats to the ruling military junta.
+    </li>
+    <li>
+        <strong>The Lost Decade in Peru (1980-1990):</strong> Peru experienced a marked surge in terrorist activities during this time, which corresponded with the nation's social and economic crises. Often referred to as "The Lost Decade," this period was characterized by escalated conflict and instability.
+    </li>
+    <li>
+        <strong>Colombian Conflict (1964-Present):</strong> Colombia has persistently faced high levels of terrorist activities from 1975 onwards, with the ongoing Colombian conflict being a substantial contributing factor. The 1980s, in particular, saw an escalation in violence across numerous regions of the country, leading to an overall surge in incidents of terrorism.
+    </li>
+</ul>
+<p>
+These periods highlight the complex nature of terrorism, which is frequently intertwined with a nation's social, political, and economic landscapes. A comprehensive understanding of these contexts is essential for interpreting trends and patterns in the data.
+</p>`;
                             break;
                         case 'East Asia':
                             extra_txt.innerHTML = ` <p>
-                                                        East Asia exhibits a diverse landscape of terrorism activities, with a marked increase in incidents from 1990 until 2020. This period of heightened activity was primarily due to numerous incidents in China, particularly in the Xinjiang Uyghur Autonomous Region. There was also a significant escalation in geopolitical tensions involving North Korea during this period.
-                                                    </p>
-                                                    <p>
-                                                        The <a href="https://en.wikipedia.org/wiki/Xinjiang_conflict" target="_blank">Xinjiang conflict</a> in China, characterized by violent activities from Uyghur separatist groups, significantly contributed to the rise in terrorist incidents in the region during this period. This conflict, rooted in religious, ethnic, and political issues, has had far-reaching consequences and sparked a surge in violence and security challenges across East Asia.
-                                                    </p>
-                                                    <p>
-                                                        In 2013, a distinct period of escalated tensions, known as the <a href="https://en.wikipedia.org/wiki/2013_North_Korea_crisis" target="_blank">2013 North Korea crisis</a>, occurred. This crisis, characterized by heightened rhetoric from North Korea and threats of nuclear attacks against South Korea, Japan, and the United States, underlines the complexity of terrorism dynamics in East Asia, where geopolitical tensions often intertwine with potential acts of violence. The 2013 North Korea crisis had a profound effect not only on East Asia but also on the global discourse surrounding nuclear proliferation and regional security.
-                                                    </p>
-                                                    <p>
-                                                        Overall, East Asia presents a diverse terrorism landscape, with each country having its unique dynamics and factors contributing to terrorism activities. While the number of attacks remains relatively high compared to other regions, the Xinjiang conflict and the 2013 North Korea crisis serve as significant factors that contributed to the period of heightened activity. Understanding these dynamics is crucial for effective policy-making and fostering stability and security in the region.
-                                                    </p>`;
+East Asia underwent a notable increase in terrorism activities from the 1990s through 2020, primarily driven by events in China and North Korea. Key nations that experienced these turbulent conditions included China, particularly its Xinjiang Uyghur Autonomous Region, and North Korea during a period of escalated geopolitical tension.
+</p>
+<p>
+Several influential factors contributed to the rise of terrorism and violence in East Asia:
+</p>
+<ul>
+    <li>
+        <strong>Separatist Movements:</strong> The <a href="https://en.wikipedia.org/wiki/Xinjiang_conflict" target="_blank">Xinjiang conflict</a> in China, characterized by violent activities from Uyghur separatist groups, significantly contributed to the rise in terrorist incidents in the region. This conflict, rooted in religious, ethnic, and political issues, sparked a surge in violence and security challenges across East Asia.
+    </li>
+    <li>
+        <strong>Geopolitical Tensions:</strong> East Asia has been a stage for significant geopolitical tensions, particularly involving North Korea. The <a href="https://en.wikipedia.org/wiki/2013_North_Korea_crisis" target="_blank">2013 North Korea crisis</a> exemplifies this, marked by heightened rhetoric from North Korea and threats of nuclear attacks against South Korea, Japan, and the United States. This crisis underlines the complexity of terrorism dynamics in East Asia, where geopolitical tensions often intertwine with potential acts of violence.
+    </li>
+</ul>
+<p>
+The combination of these elements led to a period of heightened activity, with specific incidents such as the Xinjiang conflict and the 2013 North Korea crisis significantly influencing the trend of terrorism in the region. These incidents not only affected East Asia but also had profound implications for global discussions on issues such as religious and ethnic conflicts, nuclear proliferation, and regional security.
+</p>
+<p>
+The history of East Asia provides an insightful case study for understanding the impact of terrorism and violence within the context of political instability, ethnic and religious conflicts, and international tensions. A comprehensive examination of this history elucidates the intricate dynamics that influence terrorism trends and their resulting impacts.
+</p>`;
                             break;
                         case 'Southeast Asia':
-                            extra_txt.innerHTML = ``;
+                            extra_txt.innerHTML = `<p>
+Southeast Asia, a vibrant region marked by diverse cultures and robust economic growth, has had its share of challenges with regards to terrorism. Over the period of 1970 to 2020, the region witnessed numerous incidents attributed to various socio-political upheavals in different countries. The trend of terrorism in the region reflects the complexities of local conflicts, historical grievances, and the struggle for political power.
+</p>
+<ul>
+    <li>
+        <strong>Philippines:</strong> In the Philippines, the increase in terrorist activities from 1986 coincides with the People Power Revolution (also known as the EDSA Revolution). This peaceful demonstration marked the end of the Marcos regime and led to a period of political instability, potentially providing fertile ground for terrorist groups.
+    </li>
+    <li>
+        <strong>Indonesia:</strong> The authoritarian rule of President Suharto, spanning from 1967 to the late 1990s, marked a tense period in Indonesian history. The public's dissatisfaction with corruption, nepotism, and lack of political freedom increased demands for political reform, which was met with resistance and resulted in a rise in terrorist incidents.
+    </li>
+    <li>
+        <strong>Thailand:</strong> The escalation of terrorism in Thailand, particularly from 2004 onwards, can be traced to several intertwining factors. These include historical grievances in the southern regions, a separatist movement, radicalization, heavy-handed responses from security forces, and the presence of organized criminal networks. All these elements combined to create a persistent issue of terrorism in the country.
+    </li>
+</ul>
+<p>
+These instances highlight the complexities of terrorism in Southeast Asia. It's not just about individual events or actors, but rather a combination of factors—local conflicts, political power struggles, historical disputes—that come together to shape the landscape of terrorism. Recognizing these patterns and understanding the underlying causes are key steps towards developing effective counter-terrorism strategies and fostering long-term peace and stability in the region.
+</p>`;
                             break;
                         case 'South Asia':
-                            extra_txt.innerHTML = ``;
+                            extra_txt.innerHTML = `<p>
+In the last few decades of the 20th century and into the 21st century, South Asia has faced a challenging period marked by persistent instances of terrorism and violence. This era, characterized by political instability and conflict, has been especially prominent in <a href="https://www.britannica.com/place/India" target="_blank">India</a>, <a href="https://www.britannica.com/place/Pakistan" target="_blank">Pakistan</a>, and <a href="https://www.britannica.com/place/Afghanistan" target="_blank">Afghanistan</a>. Several critical factors have contributed to the prevalence of terrorism and violence in this region:
+</p>
+<ul>
+    <li>
+        <strong>Religious Extremism:</strong> South Asia has been a hotbed for religious extremism, with groups using religious ideologies to justify violent acts. This has been particularly prominent in the context of Islamist extremism.
+    </li>
+    <li>
+        <strong>Political Instability:</strong> The political landscape of South Asia is marked by frequent changes in government, corruption, and weak governance structures. Such instability often creates vacuums that are exploited by terrorist groups.
+    </li>
+    <li>
+        <strong>Socioeconomic Disparity:</strong> Despite rapid economic growth in some parts of South Asia, significant levels of poverty and socioeconomic disparity persist. Such inequality can fuel discontent and provide fertile grounds for recruitment by extremist groups.
+    </li>
+    <li>
+        <strong>Territorial Disputes:</strong> Territorial disputes, most notably between India and Pakistan over Kashmir, have been a source of conflict and have spurred incidents of terrorism and violence.
+    </li>
+    <li>
+        <strong>Legacy of Colonialism:</strong> The impact of colonial rule, particularly by the British Empire, has left lasting effects on the region, including border disputes and communal tension, which have often been triggers for terrorism and violence.
+    </li>
+    <li>
+        <strong>State-Sponsored Terrorism:</strong> Accusations of state-sponsored terrorism, particularly between India and Pakistan, have further complicated the regional dynamics and contributed to the persistence of terrorism.
+    </li>
+</ul>
+<p>
+These factors often interact in complex ways, with circumstances differing significantly across countries. The region has witnessed several lethal incidents, including the <a href="https://www.britannica.com/event/Mumbai-terrorist-attacks-of-2008" target="_blank">2008 Mumbai attacks</a> in India, and the <a href="https://www.britannica.com/event/School-Attack-in-Peshawar-Pakistan" target="_blank">2014 Peshawar school massacre</a> in Pakistan. These tragic events underscore the severe consequences of the violence and terrorism that have plagued the region during this period.
+</p>
+<p>
+The history of South Asia offers valuable insights into understanding the impacts of terrorism and violence within the backdrop of political instability, socioeconomic difficulties, and historical influences. A comprehensive examination of this history reveals the intricate dynamics that shape terrorism trends and their ensuing consequences.
+</p>`;
                             break;
                         case 'Central Asia':
                             extra_txt.innerHTML = ` <p>
-                                                        Central Asia, while having an average level of terrorism incidents in comparison to other regions, has experienced periods of heightened activity. Notably, between 1988 and 2000, the region witnessed a surge in incidents, with some conflicts leading to high casualties. This was largely due to the First Nagorno-Karabakh War, the Tajikistani Civil War, and the wars in Abkhazia and South Ossetia.
-                                                    </p>
-
-                                                    <p>
-                                                        The <a href="https://www.bbc.com/news/world-europe-18270325" target="_blank">First Nagorno-Karabakh War</a> took place in Azerbaijan from 1988 to 1994, contributing to an increase in terrorist incidents during this period . Similarly, the <a href="https://www.rferl.org/a/tajikistan-civil-war-20-years-later/28488152.html" target="_blank">Tajikistani Civil War</a> from 1992 to 1997 led to a notable rise in terrorism activities in Tajikistan. Furthermore, Georgia faced significant conflicts during the <a href="https://www.rferl.org/a/war-abkhazia-25-years/29487023.html" target="_blank">War in Abkhazia</a> and the <a href="https://www.rferl.org/a/timeline-georgia-south-ossetia-conflict/27435424.html" target="_blank">conflict in South Ossetia</a> from 1992 to 2000, which heavily impacted the region's terrorism landscape.
-                                                    </p>
-
-                                                    <p>
-                                                        It is also important to highlight that some countries in Central Asia, such as Kazakhstan, Uzbekistan, and Armenia, have experienced fewer incidents of terrorism. This illustrates the varied experiences within the region. Additionally, despite lower overall activity, there were notable increases in terrorist incidents in Tajikistan in 2019 and 2020, indicating ongoing security challenges.
-                                                    </p>
-
-                                                    <p>
-                                                        Overall, the Central Asia region provides a comprehensive view of the terrorism landscape in the area. While the number of attacks is average compared to other regions, the aforementioned conflicts serve as significant factors that contributed to periods of heightened activity. Understanding the local and historical context is crucial for comprehending the dynamics of terrorism in this region.
-                                                    </p>`;
+Despite an average level of terrorism incidents relative to other global regions, Central Asia has experienced periods of heightened activity, particularly between 1988 and 2000. This surge in incidents was largely due to several conflicts, including the First Nagorno-Karabakh War, the Tajikistani Civil War, and the wars in Abkhazia and South Ossetia, each resulting in substantial casualties.
+</p>
+<p>
+Key conflicts that influenced the terrorism landscape in Central Asia include:
+</p>
+<ul>
+    <li>
+        <strong>Nagorno-Karabakh War:</strong> The <a href="https://www.bbc.com/news/world-europe-18270325" target="_blank">First Nagorno-Karabakh War</a> in Azerbaijan (1988-1994) significantly increased the number of terrorist incidents in the region.
+    </li>
+    <li>
+        <strong>Tajikistani Civil War:</strong> The <a href="https://www.rferl.org/a/tajikistan-civil-war-20-years-later/28488152.html" target="_blank">Tajikistani Civil War</a> (1992-1997) led to a marked rise in terrorism activities in Tajikistan.
+    </li>
+    <li>
+        <strong>Conflicts in Georgia:</strong> The <a href="https://www.rferl.org/a/war-abkhazia-25-years/29487023.html" target="_blank">War in Abkhazia</a> and the <a href="https://www.rferl.org/a/timeline-georgia-south-ossetia-conflict/27435424.html" target="_blank">conflict in South Ossetia</a> (1992-2000) significantly impacted the region's terrorism landscape.
+    </li>
+</ul>
+<p>
+While the region is heterogeneous in terms of terrorism incidents, with countries like Kazakhstan, Uzbekistan, and Armenia experiencing fewer attacks, the region has not been completely exempt from security challenges. For instance, Tajikistan saw an increase in terrorist incidents in 2019 and 2020, underlining the ongoing security issues in the region.
+</p>
+<p>
+Central Asia, with its diverse experiences of terrorism, presents a complex picture of the terrorism landscape. While the overall number of attacks aligns with global averages, the region's history of specific conflicts contributed significantly to periods of heightened activity. Understanding the historical and local context is essential for comprehending the dynamics of terrorism in Central Asia.
+</p>`;
                             break;
                         case 'Western Europe':
-                            extra_txt.innerHTML = ``;
+                            extra_txt.innerHTML = `<p>
+During the period from 1980 to 2020, several countries in Western Europe have experienced significant incidents of terrorism. Here are some notable examples:
+</p>
+
+<ul>
+    <li>
+        <strong>The United Kingdom:</strong> The UK has faced terrorism incidents, such as the Brighton Hotel Bombing in 1984, the Bishopsgate Bombing in 1993, the Docklands Bombing in 1996, the Omagh Bombing in 1998, the 2005 London Bombings, the 2007 Glasgow International Airport Attack, and the 2013 Woolwich Attack.
+    </li>
+    <li>
+        <strong>Greece:</strong> Greece witnessed various incidents related to terrorism, including attacks by the Revolutionary Organization 17 November (17N), bombings and assassinations, attacks on foreign diplomats, and anarchist violence.
+    </li>
+    <li>
+        <strong>Spain:</strong> Spain has dealt with terrorism from groups like ETA (Euskadi Ta Askatasuna), Islamist extremist groups, and anarchist groups. The Madrid train bombings in 2004 and attacks by ETA are notable examples.
+    </li>
+    <li>
+        <strong>France:</strong> France has experienced significant terrorist attacks, such as the Paris Metro Bombing in 1982, the Paris Airplane Bombing in 1983, the Marseille Train Station Bombing in 1983, the Paris Supermarket Bombing in 1985, the 2015 Paris Attacks, the 2016 Nice Truck Attack, and the Charlie Hebdo Shooting in 2015.
+    </li>
+</ul>
+
+<p>
+These incidents reflect the historical events and periods that these countries have gone through. They have faced challenges related to political instability, civil wars, socioeconomic inequality, drug trafficking, colonialism, and state terrorism. Governments have implemented counterterrorism measures to address these threats.
+</p>
+
+<p>
+It is important to note that the examples mentioned here represent a fraction of the terrorism incidents that occurred in each country during the specified period. The impact of terrorism in these regions is complex and interconnected with their unique historical contexts.
+</p>`;
                             break;
                         case 'Eastern Europe':
                             extra_txt.innerHTML = ` <p>
-                                                        The Eastern Europe region has seen a substantial amount of conflict and terrorism, particularly within the territories of Russia and Ukraine.
-                                                    </p>
-                                                    <p>
-                                                        The prominence of Russia in this context can largely be attributed to the long-standing conflicts in regions such as <a href="https://en.wikipedia.org/wiki/Second_Chechen_War">Chechnya</a>, <a href="https://en.wikipedia.org/wiki/War_of_Dagestan">Dagestan</a>, and <a href="https://en.wikipedia.org/wiki/War_in_Ingushetia">Ingushetia</a>. The separatist movements and insurgencies in these areas have spurred numerous terrorist attacks over the years. One noteworthy event that transpired within this period is the 2010 <a href="https://en.wikipedia.org/wiki/2010_Moscow_Metro_bombings">Moscow Metro bombings</a>, which resulted in numerous casualties and heightened international awareness regarding the security challenges facing Russia. These internal conflicts within Russia have significantly contributed to the region's terrorism landscape.
-                                                    </p>
-                                                    <p>
-                                                        In the case of Ukraine, the significant increase in terrorist incidents in 2015 is largely linked to the political and military crisis that emerged in 2014. The <a href="https://en.wikipedia.org/wiki/Annexation_of_Crimea_by_the_Russian_Federation#:~:text=In%20February%20and%20March%202014,the%20wider%20Russo-Ukrainian%20War.">annexation of Crimea by Russia</a> and the subsequent pro-Russian unrest in Eastern Ukraine led to a full-scale war in the Donbas region. This conflict has caused a surge in violence and security challenges throughout the region, leading to a high number of casualties.
-                                                    </p>
-                                                    <p>
-                                                        Despite the significant contribution of Russia and Ukraine to the number of terrorist incidents in Eastern Europe, it's important to note that other countries in the region have also experienced isolated incidents of terrorism. However, the scale and impact of these incidents are generally lower compared to those in Russia and Ukraine.
-                                                    </p>
-                                                    <p>
-                                                        Overall, the Eastern Europe region presents a complex and challenging terrorism landscape. The significant impact of the conflicts in Russia and Ukraine emphasizes the importance of understanding local and historical contexts when studying the dynamics of terrorism in this region.
-                                                    </p>`;
+Eastern Europe, particularly Russia and Ukraine, has experienced substantial conflict and terrorism. This trend can be attributed to numerous long-standing conflicts and political crises.
+</p>
+<p>
+Key conflicts and incidents that have shaped the terrorism landscape in Eastern Europe include:
+</p>
+<ul>
+    <li>
+        <strong>Conflicts in Russia:</strong> The prominence of terrorism in Russia can be traced back to enduring conflicts in regions such as <a href="https://en.wikipedia.org/wiki/Second_Chechen_War">Chechnya</a>, <a href="https://en.wikipedia.org/wiki/War_of_Dagestan">Dagestan</a>, and <a href="https://en.wikipedia.org/wiki/War_in_Ingushetia">Ingushetia</a>. Separatist movements and insurgencies in these areas have spurred numerous terrorist attacks over the years, including the 2010 <a href="https://en.wikipedia.org/wiki/2010_Moscow_Metro_bombings">Moscow Metro bombings</a>, a major incident that drew international attention to Russia's security challenges.
+    </li>
+    <li>
+        <strong>Conflict in Ukraine:</strong> A significant surge in terrorist incidents in Ukraine in 2015 is largely linked to the political and military crisis that emerged in 2014. The <a href="https://en.wikipedia.org/wiki/Annexation_of_Crimea_by_the_Russian_Federation#:~:text=In%20February%20and%20March%202014,the%20wider%20Russo-Ukrainian%20War.">annexation of Crimea by Russia</a> and the subsequent pro-Russian unrest in Eastern Ukraine led to a full-scale war in the Donbas region, causing a significant increase in violence and security challenges in the region.
+    </li>
+</ul>
+<p>
+Beyond Russia and Ukraine, other countries in Eastern Europe have also experienced isolated incidents of terrorism, although these incidents are generally fewer and less impactful.
+</p>
+<p>
+Eastern Europe, with its diverse experiences of terrorism, presents a complex picture of the terrorism landscape. The substantial impact of conflicts in Russia and Ukraine underscores the importance of understanding local and historical contexts when studying the dynamics of terrorism in this region.
+</p>`;
                             break;
                         case 'Middle East & North Africa':
-                            extra_txt.innerHTML = ` <p>
-                                                        The Middle East and North Africa (MENA) region, known for its rich history and cultural diversity, has been marked by an unfortunate prevalence of conflict and terrorism. The region's tumultuous past has resulted in significant volatility, with numerous countries experiencing recurring periods of unrest and violence. 
-                                                    </p>
-                                                    <p>
-                                                        The State of Israel, for example, has been notably affected by the ongoing <a href="https://www.britannica.com/topic/Israeli-Palestinian-conflict" target="_blank">Israeli-Palestinian</a> conflict, which has led to regular occurrences of terrorism over the decades. This enduring conflict continues to shape the region's socio-political landscape, underscoring the necessity for lasting peace initiatives.
-                                                    </p>
-                                                    <p>
-                                                        Syria, another country in the region, has been engulfed in a long-lasting <a href="https://www.bbc.com/news/world-middle-east-26116868" target="_blank">civil war</a>, marked by pervasive violence and terrorism. This conflict has not only destabilized the country internally but has also had ripple effects across the region and the world.
-                                                    </p>
-                                                    <p>
-                                                        Egypt, a pivotal nation in North Africa, went through a significant period of unrest during the <a href="https://www.britannica.com/event/Egyptian-Revolution-of-2011" target="_blank">Egyptian Revolution</a> in 2011. This event, part of the wider Arab Spring, catalyzed substantial security challenges and marked a major turning point in the country's history.
-                                                    </p>
-                                                    <p>
-                                                        <a href="https://www.cfr.org/backgrounder/turkeys-terrorism-problem" target="_blank">Turkey</a>, straddling the continents of Europe and Asia, has also experienced considerable terrorism activity throughout its history. Various internal and external factors have contributed to this, emphasizing the multifaceted nature of the terrorism phenomenon in the region.
-                                                    </p>
-                                                    <p>
-                                                        It's essential to note that the MENA region is a mosaic of various nations, each with its own unique experiences and historical contexts. While certain countries and events have been highlighted here, a comprehensive understanding requires a broader examination of the region's intricate tapestry. The complexities within the MENA region, coupled with the severity of the events witnessed, underscore the importance of continuous research and analysis. This ongoing exploration helps to address the root causes of terrorism and fosters the development of strategies to enhance stability and security in the region.
-                                                    </p>`;
+                            extra_txt.innerHTML = `<p>
+The Middle East and North Africa (MENA) region, with its rich history and cultural diversity, has been significantly marked by conflict and terrorism. Several countries within the region have experienced recurring periods of unrest and violence due to various factors. Understanding the complex tapestry of the region requires a closer look at key events and issues that have shaped its terrorism landscape:
+</p>
+<ul>
+    <li>
+        <strong>Israeli-Palestinian Conflict:</strong> The State of Israel has been notably affected by the ongoing Israeli-Palestinian conflict, leading to regular occurrences of terrorism over decades. This enduring conflict continues to shape the region's socio-political landscape and underscores the necessity for lasting peace initiatives.
+    </li>
+    <li>
+        <strong>Algerian Revolution:</strong> The Algerian War of Independence against the French colonial rule (1954-1962), also known as the Algerian Revolution, was a period of intense conflict and violent tactics, including terrorism. The war left an indelible impact on Algeria and influenced its post-independence political and social structures.
+    </li>
+    <li>
+        <strong>Civil War in Syria:</strong> Syria has been engulfed in a long-lasting civil war marked by pervasive violence and terrorism. This conflict has not only destabilized Syria internally, but also had ripple effects across the region and the world.
+    </li>
+    <li>
+        <strong>Egyptian Revolution:</strong> Egypt went through a significant period of unrest during the Egyptian Revolution of 2011, part of the wider Arab Spring. This event catalyzed substantial security challenges and marked a major turning point in the country's history.
+    </li>
+    <li>
+        <strong>Iranian Revolution:</strong> The Iranian Revolution of 1979 led to a major shift in the regional power dynamics, and its consequences have had long-term effects on terrorism and regional conflicts. The establishment of an Islamic Republic has influenced Iran's relationships with other countries, both in and out of the region.
+    </li>
+    <li>
+        <strong>Iraq Wars:</strong> The two Iraq wars (1991 and 2003) significantly destabilized the country and led to an increase in terrorism activities. The 2003 invasion led to the rise of groups such as Al-Qaeda in Iraq, which later evolved into ISIS.
+    </li>
+    <li>
+        <strong>Conflict in Yemen:</strong> Yemen has been marred by high terrorist activities since 2010, attributable to political instability, weak governance, geographic challenges, socioeconomic issues, and sectarian tensions. The presence of groups like Al-Qaeda in the Arabian Peninsula (AQAP) has further exacerbated the security situation.
+    </li>
+    <li>
+        <strong>Terrorism in Turkey:</strong> Turkey, straddling Europe and Asia, has experienced considerable terrorism activity throughout its history due to various internal and external factors, reflecting the multifaceted nature of terrorism in the region.
+    </li>
+</ul>
+<p>
+Each country in the MENA region has its unique experiences and historical contexts. The complexities within the MENA region, coupled with the severity of the events witnessed, underscore the importance of continuous research and analysis. This ongoing exploration helps to address the root causes of terrorism and fosters the development of strategies to enhance stability and security in the region.
+</p>`;
                             break;
                         case 'Sub-Saharan Africa':
-                            extra_txt.innerHTML = ``;
+                            extra_txt.innerHTML = `<p>
+Between 1980 and 2020, Sub-Saharan Africa has witnessed significant incidents of terrorism across various countries. Here are some notable examples:
+</p>
+
+<ul>
+    <li>
+        <strong>Democratic Republic of Congo (DRC):</strong> The DRC has faced terrorist incidents involving groups such as the Allied Democratic Forces (ADF), Nationalist and Integrationist Front (FNI), Democratic Forces for the Liberation of Rwanda (FDLR), and the Lord's Resistance Army (LRA).
+    </li>
+    <li>
+        <strong>Nigeria:</strong> Nigeria has confronted terrorism challenges with groups like Boko Haram, Movement for the Emancipation of the Niger Delta (MEND), and conflicts between Fulani herdsmen and farming communities.
+    </li>
+    <li>
+        <strong>Angola:</strong> Angola experienced acts of terrorism during the civil war between the MPLA government and the UNITA rebel group.
+    </li>
+    <li>
+        <strong>Rwanda:</strong> Rwanda witnessed acts of terrorism during the civil war and genocide of 1994, involving the Rwandan Patriotic Front (RPF) and extremist Hutu groups.
+    </li>
+    <li>
+        <strong>Somalia:</strong> Somalia saw a surge in terrorism primarily driven by Al-Shabaab, targeting government institutions, military bases, and civilians.
+    </li>
+    <li>
+        <strong>Uganda:</strong> Uganda faced terrorism challenges with groups like the Lord's Resistance Army (LRA), Allied Democratic Forces (ADF), and incidents such as the hijacking of Ethiopian Airlines Flight 961 and coordinated bombings in Kampala.
+    </li>
+</ul>
+
+<p>
+These incidents occurred in the context of armed conflicts, political instability, ethnic tensions, and weak governance. Governments and international actors have made efforts to address terrorism and enhance security in the region. However, it's important to note that the examples mentioned here represent a fraction of the terrorism incidents that occurred in each country during the specified period.
+</p>`;
                             break;
                         case 'Australasia & Oceania':
                             extra_txt.innerHTML = ` <p>
-                                                        The Australasia & Oceania region has generally experienced a relatively low number of terrorist attacks. However, between 1988 and 1998, there was a notable increase in incidents with higher casualties. This period of heightened activity can largely be attributed to the Bougainville conflict, which significantly impacted the region.
-                                                    </p>
-                                                    <p>
-                                                        The <a href="https://www.c-r.org/programme/pacific/bougainville-conflict-focus" target="_blank">Bougainville conflict</a>, a long-standing armed conflict that took place in Papua New Guinea, resulted in increased terrorist incidents during this time. The conflict, rooted in socio-political and economic issues, had far-reaching consequences and caused a surge in violence and security challenges throughout the region. For more information about the Bougainville conflict, please visit the [link placeholder].
-                                                    </p>
-                                                    <p>
-                                                        It is worth noting that in 2019, an outlier incident occurred in New Zealand, resulting in up to 43 casualties. This incident, known as the <a href="https://www.rnz.co.nz/news/chch-terror" target="_blank">Christchurch mosque shootings</a>, stands out due to its severity and serves as a tragic reminder of the potential impact of terrorism, even in regions with typically low activity. The Christchurch mosque shootings had a profound effect not only on New Zealand but also on the global discourse surrounding extremism and the need for unity against hatred.
-                                                    </p>
-
-                                                    <p>
-                                                        Overall, the Australasia & Oceania region presents an overview of the terrorism landscape in the area. While the number of attacks remains relatively low compared to other regions, the Bougainville conflict serves as a significant factor that contributed to the period of heightened activity. Understanding the local and historical context is crucial for comprehending the dynamics of terrorism in this region.
-                                                    </p>`;
+The Australasia & Oceania region, known for its diverse cultures and unique geographical features, has generally experienced a relatively low number of terrorist attacks. Nevertheless, there have been periods of notable activity and incidents that have left a significant mark on the region's history of terrorism. Below are some key events and issues that have shaped the terrorism landscape in this area:
+</p>
+<ul>
+    <li>
+        <strong>Bougainville Conflict:</strong> Between 1988 and 1998, the region saw a notable increase in incidents with higher casualties, largely attributed to the Bougainville conflict in Papua New Guinea. This long-standing armed conflict, rooted in socio-political and economic issues, had far-reaching consequences and led to a surge in violence and security challenges throughout the region. For more information about the Bougainville conflict, please visit the <a href="https://www.c-r.org/programme/pacific/bougainville-conflict-focus" target="_blank">link</a>.
+    </li>
+    <li>
+        <strong>Christchurch Mosque Shootings:</strong> In 2019, an outlier incident occurred in New Zealand, resulting in up to 43 casualties. Known as the <a href="https://www.rnz.co.nz/news/chch-terror" target="_blank">Christchurch mosque shootings</a>, this event stands out due to its severity and serves as a tragic reminder of the potential impact of terrorism, even in regions with typically low activity. The shootings had a profound effect not only on New Zealand but also on the global discourse surrounding extremism and the need for unity against hatred.
+    </li>
+</ul>
+<p>
+While the number of attacks in the Australasia & Oceania region remains relatively low compared to other regions, these significant incidents reveal the broader context of terrorism within the area. The Bougainville conflict and the Christchurch mosque shootings serve as critical factors in understanding the region's experience with terrorism. Comprehending the local and historical context is crucial for understanding the dynamics of terrorism in this region.
+</p>`;
                             break;
                         default:
                             extra_txt.innerHTML = ``;
@@ -816,24 +986,18 @@ document.addEventListener("DOMContentLoaded", function () {
                     graphContainer.appendChild(extra_txt);
                    
 
-                    // console.log(countryLayer);
-                    // If a country layer already exists, remove it
-                    // if (countryLayer) {
-                    //     mymap.removeLayer(countryLayer);
-                    // }
                     deselectCountries();
-                    // console.log(countryLayer);
+
                     for (const index in regionCountries[regionSelect.value]) {
                         const country = regionCountries[regionSelect.value][index];
                         highlightCountry(country);
                     }
-                    // highlightCountry(countrySelect.value);
 
                     const dataUrl = `https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/master/data/regions/victims/${encodeURIComponent(regionSelect.value) }.csv`
                     d3.csv(dataUrl)
                         .then(data => {
 
-                            plotScatterPlot(data); // Add animation again
+                            plotScatterPlot(data);
                         })
                         .catch(error => console.error('Error:', error));
                 });
@@ -845,7 +1009,24 @@ document.addEventListener("DOMContentLoaded", function () {
                 while (imageContainer.firstChild) {
                     imageContainer.removeChild(imageContainer.firstChild);
                 }
-                textContainer.innerHTML = "<p>Lastly, in order to give as much information as possible we have added statistics on the different countries</p>";
+                textContainer.innerHTML = `<h3>Country-Specific Analysis: Unveiling Patterns in Terror</h3>
+
+<p>
+In the Country-Specific Analysis section, you have the power to expose the rhythm of terrorism in a selected country. By choosing a country from the dropdown menu, the map springs to life, highlighting your chosen territory, and a streamgraph unfurls beneath.
+</p>
+
+<p>
+The <b>streamgraph</b> is a visual symphony, depicting the frequency of terrorist attacks across time. The x-axis dances through the months, while the width of the stream pulses to the beat of the number of attacks in each month.
+</p>
+
+<p>
+The design of this feature is purposeful, yet open-ended. It provides a detailed tableau of terrorism patterns for a chosen country, but the interpretation of this tableau is an open invitation. Each user is an analyst, free to explore, scrutinize, and draw personal insights.
+</p>
+
+<p>
+The "Country-Specific Analysis" feature offers an intuitive interface to probe the patterns of terrorism. As you navigate this streamgraph, remember that every crest and trough represents a moment of terror that has impacted lives and communities. Use this information responsibly as you continue your exploration of global terrorism patterns.
+</p>
+`;
 
                 // Create a dropdown menu (select element)
                 const countrySelect = document.createElement('select');
@@ -977,38 +1158,47 @@ document.addEventListener("DOMContentLoaded", function () {
                     imageContainer.removeChild(imageContainer.firstChild);
                 }
                 textContainer.innerHTML = `<h2>Welcome to 'Unveiling Patterns: A Data-Driven Insight into Global Terrorism'</h2>
-                        <p>
-                            This platform provides an interactive exploration of data from the Global Terrorism Database (GTD), covering the
-                            span of half a century from 1970 to 2020. Please note that data for the year 1993 is missing from the GTD.
+                        <p>Our platform brings you an <i>interactive exploration</i> of data sourced from the <b>Global
+                                Terrorism
+                                Database (GTD)</b>. We delve into the depths of half a century, from 1970 to 2020, but please note that the
+                            <i>year 1993 is
+                                missing</i> from the GTD. </p>
+                        <p> </p>
+                        <h3 style="padding-left: 25px;">🔍 Our Aim</h3>
+                        <p>Our mission is to present an <b>unbiased, comprehensive view of global terrorism patterns</b>. We've focused on
+                            diverse
+                            facets, including <i>attack frequency, casualties, seasonality, regional trends, and methods and targets of
+                                attacks</i>.
                         </p>
-                        <p>
-                            Through this visualization portal, we aim to present an unbiased, comprehensive view of global terrorism patterns,
-                            focusing on diverse aspects such as attack frequency, casualties, seasonality, regional trends, methods, and targets
-                            of attacks. The data can be explored via various interactive visualizations, each carefully designed to convey
-                            specific aspects of the data. This includes an overview of terrorist groups and their preferred methods of attack, a
-                            geographically focused view of attack density, trend analysis, region-specific exploration, and a country-wise
-                            deep-dive.
+                        <p> </p>
+                        <h3 style="padding-left: 25px;">🎨 Interactive Visualizations</h3>
+                        <p>We've carefully designed <b>various interactive visualizations</b>, each honed to highlight specific aspects of the
+                            data.
+                            From an <i>overview of terrorist groups and their preferred methods of attack</i>, to a <i>deep-dive into
+                                country-specific
+                                trends</i>, we invite you to navigate these visuals and unearth the <b>hidden patterns of global terrorism</b>.
                         </p>
-                        <p>
-                            By presenting this data, we hope to foster an understanding of the patterns and impacts of terrorism on a global
-                            scale. The information should be handled with care due to the sensitive nature of the subject matter. We encourage
-                            you to navigate through the visualizations and uncover the hidden patterns of global terrorism.
-                        </p>
-                        <p>
-                            Understanding patterns in terrorism is crucial for various stakeholders - from policymakers and security agencies to
-                            researchers and citizens. It allows us to comprehend the scope of this global issue, identify hotspots, discern
-                            trends, and possibly, infer underlying causes and implications. The power of data visualization is employed here to
-                            present this complex and expansive data in an intuitive and interactive manner, facilitating better comprehension
-                            and deeper analysis.
-                        </p>
-                        <p>
-                            The objective of this project is to provide an accessible tool for understanding the landscape of global terrorism,
-                            thereby contributing to informed discussions, policy making, and educational endeavors. We uphold the principle of
-                            data neutrality, providing an unbiased view and leaving room for interpretation based on the data.
-                        </p>
-                        <p>
-                            Feel free to start your journey by selecting any of the five categories. Should you require assistance in navigating
-                            through the website, please click on the 'Help' button on the top right corner for guidance.
+                        <p> </p>
+                        <h3 style="padding-left: 25px;">🌐 Global Impact</h3>
+                        <p>By presenting this data, our goal is to foster a <b>global understanding of the patterns and impacts of
+                                terrorism</b>. We
+                            must mention the <i>sensitive nature of this topic</i>, and we urge you to handle the information with care. </p>
+                        <p> </p>
+                        <h3 style="padding-left: 25px;">🎯 Relevance</h3>
+                        <p>Grasping the <b>patterns of terrorism</b> is vital for everyone – from policymakers and security agencies, to
+                            researchers
+                            and everyday citizens. We hope this platform aids in <i>comprehending the scope of this global issue, identifying
+                                hotspots, discerning trends, and potentially, inferring underlying causes and implications</i>. </p>
+                        <p> </p>
+                        <h3 style="padding-left: 25px;">📚 Our Objective</h3>
+                        <p>The goal of this project is to offer an <b>accessible tool for understanding the landscape of global terrorism</b>.
+                            By doing
+                            so, we aim to contribute to informed discussions, policy making, and educational endeavors. We believe in <i>data
+                                neutrality</i>, providing an unbiased view while leaving room for interpretation based on the data. </p>
+                        <p> </p>
+                        <h3 style="padding-left: 25px;">🚀 Ready to Begin?</h3>
+                        <p>Feel free to embark on your journey by selecting any of the five categories. If you need assistance navigating the
+                            website, our 'Help' button on the top right corner is your guide. Let's start <b>uncovering patterns</b> together.
                         </p>`;
         }
 
@@ -1020,30 +1210,6 @@ document.addEventListener("DOMContentLoaded", function () {
             behavior: "smooth" // Optional: Adds smooth scrolling animation
         });
     }   
-
-    function initialViz() {
-        console.log("HMmmmmmmmmmmmmm");
-        // Add a geoJSON layer containing country boundaries
-        var countriesLayer = L.geoJSON(countriesData).addTo(map);
-
-        // Define a click event handler for the countriesLayer
-        function onCountryClick(e) {
-            // Reset the style of previously clicked countries
-            countriesLayer.eachLayer(function (layer) {
-                layer.setStyle({ fillColor: '#3388ff' }); // Reset the fill color to the default
-            });
-
-            var clickedCountry = e.target;
-            // Update the visual appearance of the clicked country
-            clickedCountry.setStyle({ fillColor: '#ff0000' }); // Apply a highlight color
-
-            // Perform any additional actions based on the clicked country
-            console.log(clickedCountry.feature.properties.name);
-        }
-
-        // Attach the click event listener to the countriesLayer
-        countriesLayer.on('click', onCountryClick);
-    }
 
     function plotData(data) {
         // Set the dimensions and margins of the graph
@@ -1099,9 +1265,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
         g.append("text")
             .attr("text-anchor", "end")
-            .attr("x", 2*innerWidth/3)
+            .attr("x", 0.6*innerWidth)
             .attr("y", innerHeight + 50)
-            .text("<b>Casualties</b>");
+            .text("Casualties")
+            .style("font-weight", "bold")
+            .style("color", "dimgray");
 
         g.selectAll('rect').data(data)
             .enter().append('rect')
@@ -1209,6 +1377,14 @@ document.addEventListener("DOMContentLoaded", function () {
             .attr("dx", "-0.8em")
             .attr("dy", "0.15em")
             .attr("transform", "rotate(-65)");
+
+        g.append("text")
+            .attr("text-anchor", "end")
+            .attr("x", 2 * innerWidth / 3)
+            .attr("y", innerHeight + 50)
+            .text("Group")
+            .style("font-weight", "bold")
+            .style("color", "dimgray");
 
         var y = d3.scaleBand()
             .range([innerHeight, 0])

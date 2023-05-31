@@ -171,38 +171,42 @@
             </div>
             <div id="helpWindow" style="display: none">
                 <div id="helpContent">
-                <h2>Help and Instructions</h2>
-                <p>Welcome to Unveiling Patterns: A Data-Driven Insight into Global Terrorism. This website is designed to provide an
-                    interactive, comprehensive view of global terrorism patterns from 1970 to 2020. Here's how you can interact with the
-                    data and visuals:</p>
-                <ul>
-                    <li><strong>Group Profiles:</strong> Click on this button to explore the data related to the ten deadliest terrorist
-                        organizations. You'll see two visuals: a bar chart and a heatmap. The bar chart depicts the number of fatalities
-                        associated with each group. Hover over the bars for a detailed view of the numbers. The heatmap presents the
-                        commonly used attack methods for these groups, color intensity indicating frequency.</li>
-                    <li><strong>Attack Hotspots:</strong> This feature lets you explore the global distribution of terrorist attacks for
-                        a selected year. Use the slider to change the year and the map will update accordingly. Each circle on the map
-                        represents an attack, color-coded by the target type. Click on a circle to view more information about the
-                        attack, including the target, country, terrorist group involved, and a brief incident summary (if available).</li>
-                    <li><strong>Temporal Patterns:</strong> Here you can find a heatmap showing the distribution of attacks throughout
-                        the calendar year. The x-axis represents months, and the y-axis represents days of the month. Each cell in the
-                        heatmap represents the total number of attacks that occurred on that specific day across all years in the
-                        dataset. The color intensity indicates the number of attacks, with brighter colors representing higher attack
-                        counts.</li>
-                    <li><strong>Regional Impact:</strong> This feature lets you analyze the terrorism trends in a specific region.
-                        Choose a region from the dropdown menu. The map will highlight your chosen region. Below the map, you'll find a
-                        scatterplot showcasing all fatal attacks within that region, with the x-axis representing the years and the
-                        y-axis indicating the number of casualties. Hover over a point for detailed information about the incident.</li>
-                    <li><strong>Country-Specific Analysis:</strong> To view terrorism patterns for a specific country, select a country
-                        from the dropdown menu. The map will highlight your chosen country and a streamgraph will appear below. The
-                        streamgraph displays the frequency of attacks throughout the years, with the x-axis representing months and the
-                        stream's width indicating the number of attacks.</li>
-                </ul>
-                <p>If you need further assistance or have any questions, please <a href="guidebook.pdf" target="_blank">consult our
-                    guidebook</a> or contact us.</p>
-                <p style="font-size: small; margin-left: 30px;"> <i>Note: You can also find the github of this project <a href="https://github.com/com-480-data-visualization/project-2023-data-vizares" target="_blank">here</a>.</i></p>
-
-                    <button id="closeButton">Close</button>
+                    <h1>Welcome</h1>
+                    <p>Thanks for joining us on this interactive journey into global terrorism. Our platform offers a comprehensive look at
+                        terrorism patterns from 1970 to 2020. To make the most of your experience, here's a quick guide to help you
+                        navigate:</p>
+                    <p> </p>
+                    <h3>📊 Group Profiles</h3>
+                    <p>Begin your exploration by diving into data on the ten deadliest terrorist organizations. Witness the fatalities and
+                        attack methods through our detailed bar chart and heatmap. Every visual is interactive – hover over the elements for
+                        more details.</p>
+                    <p> </p>
+                    <h3>📍 Attack Hotspots</h3>
+                    <p>Ever wondered how terrorism activities are distributed globally over time? Our interactive tool lets you examine the
+                        worldwide spread of terrorist attacks for any chosen year. Use the slider to 'time-travel', and the map to get
+                        detailed info about each attack.</p>
+                    <p> </p>
+                    <h3>🕰️ Temporal Patterns</h3>
+                    <p>Discover the frequency of attacks across different days and months with our intuitive heatmap. Each cell represents
+                        the total number of attacks on a specific day across all years. The darker the color, the higher the attack count.
+                    </p>
+                    <p> </p>
+                    <h3>🌍 Regional Impact</h3>
+                    <p>Zoom into specific geographical regions to scrutinize terrorism trends. Choose a region, watch it highlight on the
+                        map, and observe the scatterplot of fatal attacks. Every point on the scatterplot tells a story – hover over to
+                        uncover it.</p>
+                    <p> </p>
+                    <h3>🗺️ Country-Specific Analysis</h3>
+                    <p>Choose a country from the dropdown menu to view its specific terrorism patterns. As you select a country, watch the
+                        map highlight and a streamgraph unveil the frequency of attacks over the years. The streamgraph is interactive too –
+                        explore to find out more.</p>
+                    <p> </p>
+                    <p style="margin-top: 45px;">We're here to assist! If you need further help or have any questions, please <a href="guidebook.pdf"
+                            target="_blank">consult our guidebook</a> or feel free to contact us.</p>
+                    <p style="font-size: small; margin-left: 30px;"> <i>Curious about how we built this? You can find the GitHub repository
+                            of this project <a href="https://github.com/com-480-data-visualization/project-2023-data-vizares"
+                                target="_blank">here</a>.</i></p>
+                    <button id="closeButton">Let's get started</button>
                 </div>
             </div>
         </div>
@@ -228,40 +232,50 @@
                 <div id="map" class="map"></div>
                 <div class="graph-container">
                     <div class="text-container">
-                        <h3>Welcome to 'Unveiling Patterns: A Data-Driven Insight into Global Terrorism'</h3>
-                        <p>
-                            This platform provides an interactive exploration of data from the Global Terrorism Database (GTD), covering the
-                            span of half a century from 1970 to 2020. Please note that data for the year 1993 is missing from the GTD.
+                        <h2>Welcome to 'Unveiling Patterns: A Data-Driven Insight into Global Terrorism'</h2>
+                        <p>Our platform brings you an <i>interactive exploration</i> of data sourced from the <b>Global
+                                Terrorism
+                                Database (GTD)</b>. We delve into the depths of half a century, from 1970 to 2020, but please note that the
+                            <i>year 1993 is
+                                missing</i> from the GTD. </p>
+                        <p> </p>
+                        <h3 style="padding-left: 25px;">🔍 Our Aim</h3>
+                        <p>Our mission is to present an <b>unbiased, comprehensive view of global terrorism patterns</b>. We've focused on
+                            diverse
+                            facets, including <i>attack frequency, casualties, seasonality, regional trends, and methods and targets of
+                                attacks</i>.
                         </p>
-                        <p>
-                            Through this visualization portal, we aim to present an unbiased, comprehensive view of global terrorism patterns,
-                            focusing on diverse aspects such as attack frequency, casualties, seasonality, regional trends, methods, and targets
-                            of attacks. The data can be explored via various interactive visualizations, each carefully designed to convey
-                            specific aspects of the data. This includes an overview of terrorist groups and their preferred methods of attack, a
-                            geographically focused view of attack density, trend analysis, region-specific exploration, and a country-wise
-                            deep-dive.
+                        <p> </p>
+                        <h3 style="padding-left: 25px;">🎨 Interactive Visualizations</h3>
+                        <p>We've carefully designed <b>various interactive visualizations</b>, each honed to highlight specific aspects of the
+                            data.
+                            From an <i>overview of terrorist groups and their preferred methods of attack</i>, to a <i>deep-dive into
+                                country-specific
+                                trends</i>, we invite you to navigate these visuals and unearth the <b>hidden patterns of global terrorism</b>.
                         </p>
-                        <p>
-                            By presenting this data, we hope to foster an understanding of the patterns and impacts of terrorism on a global
-                            scale. The information should be handled with care due to the sensitive nature of the subject matter. We encourage
-                            you to navigate through the visualizations and uncover the hidden patterns of global terrorism.
+                        <p> </p>
+                        <h3 style="padding-left: 25px;">🌐 Global Impact</h3>
+                        <p>By presenting this data, our goal is to foster a <b>global understanding of the patterns and impacts of
+                                terrorism</b>. We
+                            must mention the <i>sensitive nature of this topic</i>, and we urge you to handle the information with care. </p>
+                        <p> </p>
+                        <h3 style="padding-left: 25px;">🎯 Relevance</h3>
+                        <p>Grasping the <b>patterns of terrorism</b> is vital for everyone – from policymakers and security agencies, to
+                            researchers
+                            and everyday citizens. We hope this platform aids in <i>comprehending the scope of this global issue, identifying
+                                hotspots, discerning trends, and potentially, inferring underlying causes and implications</i>. </p>
+                        <p> </p>
+                        <h3 style="padding-left: 25px;">📚 Our Objective</h3>
+                        <p>The goal of this project is to offer an <b>accessible tool for understanding the landscape of global terrorism</b>.
+                            By doing
+                            so, we aim to contribute to informed discussions, policy making, and educational endeavors. We believe in <i>data
+                                neutrality</i>, providing an unbiased view while leaving room for interpretation based on the data. </p>
+                        <p> </p>
+                        <h3 style="padding-left: 25px;">🚀 Ready to Begin?</h3>
+                        <p>Feel free to embark on your journey by selecting any of the five categories. If you need assistance navigating the
+                            website, our 'Help' button on the top right corner is your guide. Let's start <b>uncovering patterns</b> together.
                         </p>
-                        <p>
-                            Understanding patterns in terrorism is crucial for various stakeholders - from policymakers and security agencies to
-                            researchers and citizens. It allows us to comprehend the scope of this global issue, identify hotspots, discern
-                            trends, and possibly, infer underlying causes and implications. The power of data visualization is employed here to
-                            present this complex and expansive data in an intuitive and interactive manner, facilitating better comprehension
-                            and deeper analysis.
-                        </p>
-                        <p>
-                            The objective of this project is to provide an accessible tool for understanding the landscape of global terrorism,
-                            thereby contributing to informed discussions, policy making, and educational endeavors. We uphold the principle of
-                            data neutrality, providing an unbiased view and leaving room for interpretation based on the data.
-                        </p>
-                        <p>
-                            Feel free to start your journey by selecting any of the five categories. Should you require assistance in navigating
-                            through the website, please click on the 'Help' button on the top right corner for guidance.
-                        </p>
+
                     </div>
                 </div>
             </div>
