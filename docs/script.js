@@ -85,8 +85,9 @@ document.addEventListener("DOMContentLoaded", function () {
     };
 
     // Define variables for the map container and switch button
-    const mapContainer = document.querySelector(".map");
-    mapContainer.style.borderRadius = "0";
+    var mapContainer_ = document.querySelector(".map");
+    mapContainer_.style.borderRadius = "0";
+    // mapContainer_.style.display = "none";
 
     // Define variables for the five other buttons
     const button1 = document.querySelector("#button-1");
@@ -130,6 +131,8 @@ document.addEventListener("DOMContentLoaded", function () {
             }, 2000);
         });
     });
+
+    // defaultViz();
    
 
     // Add click event listeners to the five buttons
@@ -297,11 +300,12 @@ document.addEventListener("DOMContentLoaded", function () {
             // Remove the existing orange dots layer group from the map
             mymap.removeLayer(dotsLayerGroup);
         }
-        
+
         deselectCountries();
 
         switch (buttonNumber) {
             case 1:
+                mapContainer.style.display = "none";
                 while (imageContainer.firstChild) {
                     imageContainer.removeChild(imageContainer.firstChild);
                 }
@@ -323,7 +327,6 @@ Paired with the bar chart is a <strong>heatmap</strong> that paints a vivid pict
 <p>
 Together, these visualizations offer a comprehensive understanding of the operations of the most lethal terrorist groups. As you navigate this data, remember the real-world implications - every figure represents a tragic loss, a testament to the far-reaching impacts of these groups' activities worldwide. Handle this information with care as you continue to uncover the patterns of global terrorism.
 </p>`;
-                // mapContainer.display = none;
                 graphContainer.appendChild(div1);
                 graphContainer.appendChild(div1_txt);
                 graphContainer.appendChild(div2);
@@ -347,6 +350,7 @@ Together, these visualizations offer a comprehensive understanding of the operat
                 
                   break;
             case 2:
+                mapContainer.style.display = "block";
                 while (imageContainer.firstChild) {
                     imageContainer.removeChild(imageContainer.firstChild);
                 }
@@ -451,7 +455,7 @@ The "Attack Hotspots" feature offers a geographical and temporal perspective on 
                         }
 
                         // Update the map
-                        const dataUrl = `https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/Aristotelis/data/density_map/density_map_${slider.value}.csv`
+                        const dataUrl = `https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/master/data/density_map/density_map_${slider.value}.csv`
                         d3.csv(dataUrl)
                             .then(data => {
                                 populateMap(data, targetsSelected)
@@ -497,7 +501,7 @@ The "Attack Hotspots" feature offers a geographical and temporal perspective on 
                     allTargets.style.opacity = 1;
 
                     // Update the map
-                    const dataUrl = `https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/Aristotelis/data/density_map/density_map_${slider.value}.csv`
+                    const dataUrl = `https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/master/data/density_map/density_map_${slider.value}.csv`
                     d3.csv(dataUrl)
                         .then(data => {
                             populateMap(data, targetsSelected)
@@ -522,7 +526,7 @@ The "Attack Hotspots" feature offers a geographical and temporal perspective on 
                     clearTargets.style.opacity = 1;
 
                     // Update the map
-                    const dataUrl = `https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/Aristotelis/data/density_map/density_map_${slider.value}.csv`
+                    const dataUrl = `https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/master/data/density_map/density_map_${slider.value}.csv`
                     d3.csv(dataUrl)
                         .then(data => {
                             populateMap(data, targetsSelected)
@@ -545,6 +549,7 @@ The "Attack Hotspots" feature offers a geographical and temporal perspective on 
 
                 break;
             case 3:
+                mapContainer.style.display = "none";
                 while (imageContainer.firstChild) {
                     imageContainer.removeChild(imageContainer.firstChild);
                 }
@@ -587,6 +592,7 @@ This exploration through time offers a comprehensive perspective on the rhythm o
                 }
                 break;
             case 4:
+                mapContainer.style.display = "block";
                 while (imageContainer.firstChild) {
                     imageContainer.removeChild(imageContainer.firstChild);
                 }
@@ -996,6 +1002,7 @@ While the number of attacks in the Australasia & Oceania region remains relative
 
                 break;
             case 5:
+                mapContainer.style.display = "block";
                 while (imageContainer.firstChild) {
                     imageContainer.removeChild(imageContainer.firstChild);
                 }
@@ -1129,9 +1136,11 @@ The "Country-Specific Analysis" feature offers an intuitive interface to probe t
 
                 break;
             default:
+                mapContainer.style.display = "block";
                 while (imageContainer.firstChild) {
                     imageContainer.removeChild(imageContainer.firstChild);
                 }
+                // defaultViz();
                 textContainer.innerHTML = `<h2>Welcome to 'Unveiling Patterns: A Data-Driven Insight into Global Terrorism'</h2>
                         <p>Our platform brings you an <i>interactive exploration</i> of data sourced from the <b>Global
                                 Terrorism
@@ -1185,6 +1194,85 @@ The "Country-Specific Analysis" feature offers an intuitive interface to probe t
             behavior: "smooth" // Optional: Adds smooth scrolling animation
         });
     }   
+
+    function defaultViz() {
+
+        if (dotsLayerGroup) {
+            // Remove the existing orange dots layer group from the map
+            mymap.removeLayer(dotsLayerGroup);
+        }
+
+        // for (let year = 1970; year <= 2020; year++) {
+        //     const dataUrl = `https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/master/data/density_map/density_map_${year}.csv`
+        //     d3.csv(dataUrl)
+        //         .then(data => {
+        //             densityMap(data, targetsSelected)
+        //         })
+        //         .catch(error => console.error('Error:', error));
+        // }
+
+        // for (let index in regionNames){
+        //     console.log(regionNames[index]);
+
+        //     const dataUrl = `https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/master/data/regions/victims/${encodeURIComponent(regionNames[index])}.csv`
+        //     d3.csv(dataUrl)
+        //         .then(data => {
+
+        //             densityMap(data);
+        //         })
+        //         .catch(error => console.error('Error:', error));
+        // }
+
+        d3.csv(dataUrl)
+            .then(data => {
+                densityMap(data)
+            })
+            .catch(error => console.error('Error:', error));
+
+    }
+
+    function densityMap(data)
+    {
+
+        // Create a new layer group to hold the orange dots
+        dotsLayerGroup = L.layerGroup().addTo(mymap);
+
+        data.forEach((row) => {
+            const latitude = parseFloat(row.latitude);
+            const longitude = parseFloat(row.longitude);
+
+
+            var circleMarker = L.circleMarker([latitude, longitude], {
+                fillColor: 'crimson',
+                color: 'crimson',
+                fillOpacity: 1,
+                stroke: false,
+                radius: 1
+            }).addTo(dotsLayerGroup);
+
+            // var countryFlagSrc = `https://raw.githubusercontent.com/HatScripts/circle-flags/gh-pages/flags/${getCountryAbbr(row.country_txt)}.svg`;
+            // var content = `
+            // <div style="display: flex; justify-content: space-between; align-items: center;">
+            //     <div>
+            //         <img src="${countryFlagSrc}" style="width: 50px; height: 50px; margin-right: 70px">
+            //     </div>
+            //     <div>
+            //         <b>Target: ${row.targtype1_txt}</b><br>
+            //         Location: ${row.country_txt}<br>
+            //         Casualties: ${d3.format("d")(row.nkill)}<br>
+            //         Group: ${row.gname}<br>
+            //         Summary: ${row.summary}
+            //     </div>
+            // </div>`;
+
+
+            // circleMarker.bindPopup(content);
+            // circleMarker.on('click', function (e) {
+            //     this.openPopup();
+            // });
+        });
+
+    }
 
     function plotData(data) {
         // Set the dimensions and margins of the graph
@@ -1817,7 +1905,7 @@ The "Country-Specific Analysis" feature offers an intuitive interface to probe t
 
     function populateMap(data, targetsDisplay) {
 
-        // Check if the orange dots layer group already exists
+        // Check if the dots layer group already exists
         if (dotsLayerGroup) {
             // Remove the existing orange dots layer group from the map
             mymap.removeLayer(dotsLayerGroup);
