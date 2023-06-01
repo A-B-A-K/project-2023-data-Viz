@@ -132,7 +132,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 
-    // defaultViz();
+    defaultViz();
    
 
     // Add click event listeners to the five buttons
@@ -1140,7 +1140,7 @@ The "Country-Specific Analysis" feature offers an intuitive interface to probe t
                 while (imageContainer.firstChild) {
                     imageContainer.removeChild(imageContainer.firstChild);
                 }
-                // defaultViz();
+                defaultViz();
                 textContainer.innerHTML = `<h2>Welcome to 'Unveiling Patterns: A Data-Driven Insight into Global Terrorism'</h2>
                         <p>Our platform brings you an <i>interactive exploration</i> of data sourced from the <b>Global
                                 Terrorism
@@ -1223,6 +1223,7 @@ The "Country-Specific Analysis" feature offers an intuitive interface to probe t
         //         .catch(error => console.error('Error:', error));
         // }
 
+        const dataUrl = `https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/master/data/miscellaneous/kills_loc_100.csv`
         d3.csv(dataUrl)
             .then(data => {
                 densityMap(data)
@@ -1247,7 +1248,7 @@ The "Country-Specific Analysis" feature offers an intuitive interface to probe t
                 color: 'crimson',
                 fillOpacity: 1,
                 stroke: false,
-                radius: 1
+                radius: 5
             }).addTo(dotsLayerGroup);
 
             // var countryFlagSrc = `https://raw.githubusercontent.com/HatScripts/circle-flags/gh-pages/flags/${getCountryAbbr(row.country_txt)}.svg`;
