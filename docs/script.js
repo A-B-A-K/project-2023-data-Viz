@@ -130,9 +130,7 @@ document.addEventListener("DOMContentLoaded", function () {
             }, 2000);
         });
     });
-
-
-    
+   
 
     // Add click event listeners to the five buttons
     button1.addEventListener("click", function () {
@@ -299,11 +297,7 @@ document.addEventListener("DOMContentLoaded", function () {
             // Remove the existing orange dots layer group from the map
             mymap.removeLayer(dotsLayerGroup);
         }
-
-        // // If a country layer already exists, remove it
-        // if (countryLayer) {
-        //     mymap.removeLayer(countryLayer);
-        // }
+        
         deselectCountries();
 
         switch (buttonNumber) {
@@ -329,6 +323,7 @@ Paired with the bar chart is a <strong>heatmap</strong> that paints a vivid pict
 <p>
 Together, these visualizations offer a comprehensive understanding of the operations of the most lethal terrorist groups. As you navigate this data, remember the real-world implications - every figure represents a tragic loss, a testament to the far-reaching impacts of these groups' activities worldwide. Handle this information with care as you continue to uncover the patterns of global terrorism.
 </p>`;
+                // mapContainer.display = none;
                 graphContainer.appendChild(div1);
                 graphContainer.appendChild(div1_txt);
                 graphContainer.appendChild(div2);
@@ -466,7 +461,6 @@ The "Attack Hotspots" feature offers a geographical and temporal perspective on 
 
                     });
 
-
                     // Create a color circle
                     const colorCircle = document.createElement('div');
                     colorCircle.classList.add('color-circle');
@@ -535,7 +529,6 @@ The "Attack Hotspots" feature offers a geographical and temporal perspective on 
                         })
                         .catch(error => console.error('Error:', error));
                 });
-
 
                 legendContainer.appendChild(allTargets);
                 legendContainer.appendChild(clearTargets);
@@ -643,8 +636,6 @@ Remember, each data point represents a tragic event in our shared history, urgin
 
                 graphContainer.appendChild(imageContainer);
 
-                
-        
                 regionSelect.addEventListener('change', () => {
 
                     if (div1 && div1.parentNode) {
@@ -1003,8 +994,6 @@ While the number of attacks in the Australasia & Oceania region remains relative
                         .catch(error => console.error('Error:', error));
                 });
 
-
-                
                 break;
             case 5:
                 while (imageContainer.firstChild) {
@@ -1117,25 +1106,10 @@ The "Country-Specific Analysis" feature offers an intuitive interface to probe t
                     // Append the legend container to div1_txt
                     div1_txt.appendChild(legendContainer);
 
-                    
-
-
                     graphContainer.appendChild(div1_txt);
                     graphContainer.appendChild(div1);
                     graphContainer.appendChild(extra_txt);
 
-                    // Update the image source (modify this to match your actual file paths and naming conventions)
-                    //countryImage.src = `/data/countries/${countrySelect.value.replace(/ /g, '_')}.png`;
-                    //countryImage.alt = countrySelect.value;
-                    //const imageUrl = `/data/countries/${selectedCountry}.png`;
-
-        
-                    // If a country layer already exists, remove it
-                    // console.log(countryLayer);
-                    // if (countryLayer) {
-                    //     mymap.removeLayer(countryLayer);
-                    // }
-                    // console.log(countryLayer);
                     deselectCountries();
                     highlightCountry(countrySelect.value);
      
@@ -1381,8 +1355,8 @@ The "Country-Specific Analysis" feature offers an intuitive interface to probe t
 
         g.append("text")
             .attr("text-anchor", "end")
-            .attr("x", 2 * innerWidth / 3)
-            .attr("y", innerHeight + 50)
+            .attr("x", 0.6 * innerWidth)
+            .attr("y", innerHeight + 75)
             .text("Group")
             .style("font-weight", "bold")
             .style("color", "dimgray");
