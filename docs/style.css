@@ -90,9 +90,8 @@ canvas#sketch {
 
 #helpWindow {
     position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 10%;
+    left: 15%;
     background-color: dimgray;
     color: white;
     border: none;
@@ -105,13 +104,14 @@ canvas#sketch {
     padding-left: 100px;
     padding-top: 25px;
     padding-bottom: 25px;
-    overflow: auto;
+    overflow: scroll;
+    -webkit-backface-visibility: hidden;
 }
 
 #closeButton {
     color: white;
-    font-size: larger;
-    margin-left: 80%;
+    font-size: x-large;
+    margin-left: 75%;
 }
 
 .logo {
