@@ -1223,7 +1223,7 @@ The "Country-Specific Analysis" feature offers an intuitive interface to probe t
         //         .catch(error => console.error('Error:', error));
         // }
 
-        const dataUrl = `https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/master/data/miscellaneous/kills_loc_100.csv`
+        const dataUrl = `https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/master/data/miscellaneous/kills_loc_20.csv`
         d3.csv(dataUrl)
             .then(data => {
                 densityMap(data)
@@ -1232,48 +1232,33 @@ The "Country-Specific Analysis" feature offers an intuitive interface to probe t
 
     }
 
-    function densityMap(data)
-    {
-
-        // Create a new layer group to hold the orange dots
+    function densityMap(data) {
+        // Create a new layer group to hold the dots
         dotsLayerGroup = L.layerGroup().addTo(mymap);
+
+        // Define your color scale
+        const colorScale = d3.scaleLog()
+            .domain([20, 1700]) // input domain: min and max nkill
+            .range([0, 1]); // output range: 0-1 range for color interpolation
 
         data.forEach((row) => {
             const latitude = parseFloat(row.latitude);
             const longitude = parseFloat(row.longitude);
 
+            // Get color for this marker based on nkill
+            const nkill = parseFloat(row.nkill);
+            const color = d3.interpolateSpectral(colorScale(nkill));
 
             var circleMarker = L.circleMarker([latitude, longitude], {
-                fillColor: 'crimson',
-                color: 'crimson',
+                fillColor: color,
+                color: color,
                 fillOpacity: 1,
                 stroke: false,
-                radius: 5
+                radius: 2
             }).addTo(dotsLayerGroup);
-
-            // var countryFlagSrc = `https://raw.githubusercontent.com/HatScripts/circle-flags/gh-pages/flags/${getCountryAbbr(row.country_txt)}.svg`;
-            // var content = `
-            // <div style="display: flex; justify-content: space-between; align-items: center;">
-            //     <div>
-            //         <img src="${countryFlagSrc}" style="width: 50px; height: 50px; margin-right: 70px">
-            //     </div>
-            //     <div>
-            //         <b>Target: ${row.targtype1_txt}</b><br>
-            //         Location: ${row.country_txt}<br>
-            //         Casualties: ${d3.format("d")(row.nkill)}<br>
-            //         Group: ${row.gname}<br>
-            //         Summary: ${row.summary}
-            //     </div>
-            // </div>`;
-
-
-            // circleMarker.bindPopup(content);
-            // circleMarker.on('click', function (e) {
-            //     this.openPopup();
-            // });
         });
-
     }
+
 
     function plotData(data) {
         // Set the dimensions and margins of the graph
