@@ -96,7 +96,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const button4 = document.querySelector("#button-4");
     const button5 = document.querySelector("#button-5");
     const logoButton = document.querySelector("#button-logo");
-    const resetButton = document.querySelector("#button-reset");
+    const homeButton = document.querySelector("#button-home");
     const helpButton = document.getElementById("button-help");
     const helpWindow = document.getElementById("helpWindow");
     const closeButton = document.getElementById("closeButton");
@@ -171,7 +171,7 @@ document.addEventListener("DOMContentLoaded", function () {
         updateButton(5);
     });
 
-    resetButton.addEventListener("click", function () {
+    homeButton.addEventListener("click", function () {
         scrollToTop();
         updateGraph(-1);
         updateButton(-1);
@@ -188,6 +188,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     closeButton.addEventListener("click", function () {
+        // console.log("close button clicked");
         helpWindow.style.display = "none";
     });
 
@@ -397,7 +398,7 @@ The "Attack Hotspots" feature offers a geographical and temporal perspective on 
                 sliderLabel.classList.add('slider-label');
     
                 //-------------------------------------------------------------------------------- 
-                // On each change of the slider, wait for 100ms before loading the new data
+                // On each change of the slider, wait for 50ms before loading the new data
                 let timeout;
 
                 slider.addEventListener('input', () => {
@@ -416,7 +417,7 @@ The "Attack Hotspots" feature offers a geographical and temporal perspective on 
                                 populateMap(data, targetsSelected)
                             })
                             .catch(error => console.error('Error:', error));
-                    }, 100); // Delay in milliseconds
+                    }, 50); // Delay in milliseconds
                 });
 
                 const dataUrl = `https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/Aristotelis/data/density_map/density_map_${slider.value}.csv`
@@ -426,14 +427,19 @@ The "Attack Hotspots" feature offers a geographical and temporal perspective on 
                     })
                     .catch(error => console.error('Error:', error));
 
-
-                
                 // Create the legend container
                 const legendContainer = document.createElement('div');
                 legendContainer.classList.add('legend-container');
                 legendContainer.style.padding = '10px';
                 legendContainer.style.border = '1px solid #ccc';
                 legendContainer.style.borderRadius = '5px';
+
+                const legendInstructions = document.createElement('p');
+                legendInstructions.innerHTML = 'Click on a legend item to filter the map by target type:';
+                legendInstructions.style.width = '100%';
+                legendInstructions.style.color = 'black';
+
+                legendContainer.appendChild(legendInstructions);
 
 
                 // Iterate through the colorMapping object and create legend items
@@ -1202,28 +1208,7 @@ The "Country-Specific Analysis" feature offers an intuitive interface to probe t
             mymap.removeLayer(dotsLayerGroup);
         }
 
-        // for (let year = 1970; year <= 2020; year++) {
-        //     const dataUrl = `https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/master/data/density_map/density_map_${year}.csv`
-        //     d3.csv(dataUrl)
-        //         .then(data => {
-        //             densityMap(data, targetsSelected)
-        //         })
-        //         .catch(error => console.error('Error:', error));
-        // }
-
-        // for (let index in regionNames){
-        //     console.log(regionNames[index]);
-
-        //     const dataUrl = `https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/master/data/regions/victims/${encodeURIComponent(regionNames[index])}.csv`
-        //     d3.csv(dataUrl)
-        //         .then(data => {
-
-        //             densityMap(data);
-        //         })
-        //         .catch(error => console.error('Error:', error));
-        // }
-
-        const dataUrl = `https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/master/data/miscellaneous/kills_loc_20.csv`
+        const dataUrl = `https://raw.githubusercontent.com/com-480-data-visualization/project-2023-data-vizares/master/data/miscellaneous/kills_loc_10.csv`
         d3.csv(dataUrl)
             .then(data => {
                 densityMap(data)
@@ -1238,8 +1223,8 @@ The "Country-Specific Analysis" feature offers an intuitive interface to probe t
 
         // Define your color scale
         const colorScale = d3.scaleLog()
-            .domain([20, 1700]) // input domain: min and max nkill
-            .range([0, 1]); // output range: 0-1 range for color interpolation
+            .domain([1, 100]) // input domain: min and max nkill
+            .range([1, 0]); // output range: 0-1 range for color interpolation
 
         data.forEach((row) => {
             const latitude = parseFloat(row.latitude);
@@ -1254,10 +1239,53 @@ The "Country-Specific Analysis" feature offers an intuitive interface to probe t
                 color: color,
                 fillOpacity: 1,
                 stroke: false,
-                radius: 2
+                radius: 2.5
             }).addTo(dotsLayerGroup);
+
+            var content = `
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="color-circle" style="background-color: ${color}; padding-right: 10">
+                    </div>
+                    <span>Losses: <b>${d3.format("d")(row.nkill)}</b></span>
+                </div>`;
+
+
+
+            circleMarker.bindPopup(content);
+            circleMarker.on('click', function (e) {
+                this.openPopup();
+            });         
         });
+
     }
+
+
+    // function densityMap(data) {
+    //     // Create a new layer group to hold the dots
+    //     dotsLayerGroup = L.layerGroup().addTo(mymap);
+
+    //     // Define your color scale
+    //     const colorScale = d3.scaleLog()
+    //         .domain([20, 1700]) // input domain: min and max nkill
+    //         .range([0, 1]); // output range: 0-1 range for color interpolation
+
+    //     data.forEach((row) => {
+    //         const latitude = parseFloat(row.latitude);
+    //         const longitude = parseFloat(row.longitude);
+
+    //         // Get color for this marker based on nkill
+    //         const nkill = parseFloat(row.nkill);
+    //         const color = d3.interpolateSpectral(colorScale(nkill));
+
+    //         var circleMarker = L.circleMarker([latitude, longitude], {
+    //             fillColor: color,
+    //             color: color,
+    //             fillOpacity: 1,
+    //             stroke: false,
+    //             radius: 2
+    //         }).addTo(dotsLayerGroup);
+    //     });
+    // }
 
 
     function plotData(data) {
