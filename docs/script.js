@@ -251,6 +251,10 @@ document.addEventListener("DOMContentLoaded", function () {
         div1.className = 'graph1';
         div1.style.width = '100%';
         div1.style.height = '100%';
+        div1.style.display = 'flex';
+        div1.style.justifyContent = 'center';
+        div1.style.alignItems = 'center';
+
 
         var div1_txt = document.createElement('div');
         div1_txt.className = 'graph1_txt';
@@ -261,7 +265,10 @@ document.addEventListener("DOMContentLoaded", function () {
         div2.className = 'graph2';
         div2.style.width = '100%';
         div2.style.height = '100%';
-        div2.style.border = '0px solid #3C3C3C';
+        div2.style.display = 'flex';
+        div2.style.justifyContent = 'center';
+        div2.style.alignItems = 'center';
+
 
         var div2_txt = document.createElement('div');
         div2_txt.className = 'graph2_txt';
@@ -667,6 +674,10 @@ Remember, each data point represents a tragic event in our shared history, urgin
                     div1.className = 'graph1';
                     div1.style.width = '100%';
                     div1.style.height = '100%';
+                    div1.style.display = 'flex';
+                    div1.style.justifyContent = 'center';
+                    div1.style.alignItems = 'center';
+
 
                     // Ensure to re-create the div1_txt and extra_txt elements after removing them
                     div1_txt = document.createElement('div');
@@ -675,6 +686,7 @@ Remember, each data point represents a tragic event in our shared history, urgin
                     div1_txt.style.height = '100%';
                     div1_txt.style.marginTop = '75px';
                     div1_txt.innerHTML = `<b>${regionSelect.value}</b>`;
+                    div1_txt.style.fontSize = '30px';
 
                     extra_txt = document.createElement('div');
                     extra_txt.className = 'extra_txt';
@@ -1081,6 +1093,10 @@ The "Country-Specific Analysis" feature offers an intuitive interface to probe t
                     div1.className = 'graph1';
                     div1.style.width = '100%';
                     div1.style.height = '100%';
+                    div1.style.display = 'flex';
+                    div1.style.justifyContent = 'center';
+                    div1.style.alignItems = 'center';
+
 
                     // Ensure to re-create the div1_txt and extra_txt elements after removing them
                     div1_txt = document.createElement('div');
@@ -1201,6 +1217,7 @@ The "Country-Specific Analysis" feature offers an intuitive interface to probe t
         });
     }   
 
+//----------------------------------------------------------------------------//
     function defaultViz() {
 
         if (dotsLayerGroup) {
@@ -1223,8 +1240,8 @@ The "Country-Specific Analysis" feature offers an intuitive interface to probe t
 
         // Define your color scale
         const colorScale = d3.scaleLog()
-            .domain([1, 100]) // input domain: min and max nkill
-            .range([1, 0]); // output range: 0-1 range for color interpolation
+            .domain([1, 1700]) // input domain: min and max nkill
+            .range([0.7, 0]); // output range: 0-1 range for color interpolation
 
         data.forEach((row) => {
             const latitude = parseFloat(row.latitude);
@@ -1258,35 +1275,6 @@ The "Country-Specific Analysis" feature offers an intuitive interface to probe t
         });
 
     }
-
-
-    // function densityMap(data) {
-    //     // Create a new layer group to hold the dots
-    //     dotsLayerGroup = L.layerGroup().addTo(mymap);
-
-    //     // Define your color scale
-    //     const colorScale = d3.scaleLog()
-    //         .domain([20, 1700]) // input domain: min and max nkill
-    //         .range([0, 1]); // output range: 0-1 range for color interpolation
-
-    //     data.forEach((row) => {
-    //         const latitude = parseFloat(row.latitude);
-    //         const longitude = parseFloat(row.longitude);
-
-    //         // Get color for this marker based on nkill
-    //         const nkill = parseFloat(row.nkill);
-    //         const color = d3.interpolateSpectral(colorScale(nkill));
-
-    //         var circleMarker = L.circleMarker([latitude, longitude], {
-    //             fillColor: color,
-    //             color: color,
-    //             fillOpacity: 1,
-    //             stroke: false,
-    //             radius: 2
-    //         }).addTo(dotsLayerGroup);
-    //     });
-    // }
-
 
     function plotData(data) {
         // Set the dimensions and margins of the graph
@@ -1348,6 +1336,17 @@ The "Country-Specific Analysis" feature offers an intuitive interface to probe t
             .style("font-weight", "bold")
             .style("color", "dimgray");
 
+        g.append("text")
+            .attr("transform", "rotate(-90)")
+            .attr("y", 0 - margin.left)
+            .attr("x", 0 - (innerHeight / 2))
+            .attr("dy", "1em")
+            .style("text-anchor", "middle")
+            .text("Group")
+            .style("font-weight", "bold")
+            .style("color", "dimgray");
+
+
         g.selectAll('rect').data(data)
             .enter().append('rect')
             .attr('y', d => yScale(groupAlias[yValue(d)]))
@@ -1396,7 +1395,7 @@ The "Country-Specific Analysis" feature offers an intuitive interface to probe t
         const width = 500;
         const height = 400;
 
-        var margin = { top: 30, right: 30, bottom: 30, left: 150 };
+        var margin = { top: 30, right: 30, bottom: 30, left: 110 };
         const innerWidth = width - margin.left - margin.right;
         const innerHeight = height - margin.top - margin.bottom;
 
@@ -1469,6 +1468,17 @@ The "Country-Specific Analysis" feature offers an intuitive interface to probe t
             .padding(0.01);
         g.append("g")
             .call(d3.axisLeft(y));
+
+        g.append("text")
+            .attr("transform", "rotate(-90)")
+            .attr("y", 0 - margin.left)
+            .attr("x", 0 - (innerHeight / 2))
+            .attr("dy", "1em")
+            .style("text-anchor", "middle")
+            .text("Weapon Used")
+            .style("font-weight", "bold")
+            .style("color", "dimgray");
+
 
         var myColor = d3.scaleLinear()
             .range(["white", "#69b3a2"])
@@ -1589,17 +1599,19 @@ The "Country-Specific Analysis" feature offers an intuitive interface to probe t
         g.selectAll(".tick line").attr("stroke", "#b8b8b8");  // Vertical grid lines above month names
 
         // // Add X axis label:
-        // g.append("text")
-        //     .attr("text-anchor", "end")
-        //     .attr("x", 2*innerWidth/3)
-        //     .attr("y", innerHeight - 30 )
-        //     .text("Time (month)");
+        g.append("text")
+            .attr("text-anchor", "end")
+            .attr("x", 0.6 * innerWidth)
+            .attr("y", innerHeight - 30 )
+            .text("Month")
+            .style("font-weight", "bold")
+            .style("color", "dimgray");
 
         var y = d3.scaleLinear()
             .domain([-d3.max(countsByMonth) * 2.5, d3.max(countsByMonth) * 2.5])
             .range([ innerHeight, 0 ]);
         g.append("g")
-            .call(d3.axisLeft(y))
+            .call(d3.axisLeft(y).tickFormat(d => d3.format('.2s')(Math.abs(d))))
             .attr("transform", "translate(-25, 0)");
 
         var color = d3.scaleOrdinal()
@@ -1673,7 +1685,7 @@ The "Country-Specific Analysis" feature offers an intuitive interface to probe t
         const width = 500;
         const height = 600;
 
-        var margin = { top: 30, right: 30, bottom: 30, left: 150 };
+        var margin = { top: 30, right: 30, bottom: 30, left: 50 };
         const innerWidth = width - margin.left - margin.right;
         const innerHeight = height - margin.top - margin.bottom;
 
@@ -1731,12 +1743,30 @@ The "Country-Specific Analysis" feature offers an intuitive interface to probe t
             .attr("transform", "translate(0," + innerHeight + ")")
             .call(d3.axisBottom(x));
 
+        g.append("text")
+            .attr("text-anchor", "end")
+            .attr("x", 0.6 * innerWidth)
+            .attr("y", innerHeight + 45)
+            .text("Month")
+            .style("font-weight", "bold")
+            .style("color", "dimgray");
+
         var y = d3.scaleBand()
             .range([innerHeight, 0])
             .domain(data.map(d => yValue(d)))
             .padding(0.01);
         g.append("g")
             .call(d3.axisLeft(y));
+
+        g.append("text")
+            .attr("transform", "rotate(-90)")
+            .attr("y", 0 - margin.left)
+            .attr("x", 0 - (innerHeight / 2))
+            .attr("dy", "1em")
+            .style("text-anchor", "middle")
+            .text("Day of the Month")
+            .style("font-weight", "bold")
+            .style("color", "dimgray");
 
         var myColor = d3.scaleSequential()
             // .interpolator(d3.interpolateViridis)
@@ -1830,6 +1860,14 @@ The "Country-Specific Analysis" feature offers an intuitive interface to probe t
             .call(d3.axisBottom(x))
             .attr("opacity", 0);
 
+        g.append("text")
+            .attr("text-anchor", "end")
+            .attr("x", 0.6 * innerWidth)
+            .attr("y", innerHeight + 45)
+            .text("Year")
+            .style("font-weight", "bold")
+            .style("color", "dimgray");
+
         var y = d3.scaleLinear()
             .domain([0, 0])
             .range([innerHeight, 0]);
@@ -1837,6 +1875,17 @@ The "Country-Specific Analysis" feature offers an intuitive interface to probe t
             .attr("class", "y-axis")
             .call(d3.axisLeft(y))
             .attr("opacity", 0);
+
+        g.append("text")
+            .attr("class", "y label")
+            .attr("text-anchor", "end")
+            .attr("y", -margin.left)
+            .attr("x", -innerHeight / 2)
+            .attr("dy", ".75em")
+            .attr("transform", "rotate(-90)")
+            .text("Casualties")
+            .style("font-weight", "bold")
+            .style("color", "dimgray");
 
         g.append('g')
             .selectAll("dot")
@@ -1968,7 +2017,7 @@ The "Country-Specific Analysis" feature offers an intuitive interface to probe t
             });                
         });
     }
-
+//---------------------------------------------------------------------------//
     function getCountryAbbr(country) {
         // Reference: https://github.com/HatScripts/circle-flags
         switch (country) {
@@ -2857,7 +2906,7 @@ The "Country-Specific Analysis" feature offers an intuitive interface to probe t
         }
     }
 
-
+//--------------------------------------------------------------------------//
 
     
     
